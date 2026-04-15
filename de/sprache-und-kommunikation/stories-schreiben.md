@@ -1,0 +1,241 @@
+# Stories schreiben
+
+## Zweck
+
+Diese "skill"" beschreibt, wie **menschenzentrierte, respektvolle und lebendige Geschichten** im Stil der Diakonie Österreich geschrieben werden.
+
+Das Ziel ist es, Geschichten zu erzählen, die:
+
+- **echte Lebensrealitäten** zeigen
+- **Würde und Individualität** vermitteln
+- **soziale Themen durch einzelne Menschen verständlich machen**
+
+👉 Nicht abstrakte Themen – sondern **Menschen in konkreten Situationen**
+
+---
+
+## Grundprinzip
+
+### Geschichten _mit_ Menschen erzählen, nicht _über_ Menschen
+
+- Die Person steht im **Mittelpunkt**, nicht das Problem
+- Menschen werden nicht reduziert auf:
+  - Diagnose
+  - Armut
+  - Behinderung
+  - Krise
+
+👉 Zeige den **ganzen Menschen**: Leben, Persönlichkeit, Stärken, Herausforderungen
+
+---
+
+## Ton & Sprache
+
+### 1. Respektvoll und nah
+
+- Empathisch schreiben, aber nicht mitleidig
+- Keine dramatische oder sensationsbetonte Sprache
+- Ruhig, menschlich und bodenständig bleiben
+
+👉 Der Eindruck beim Lesen sollte sein: _„Ich verstehe diese Person“_, nicht _„Ich habe Mitleid“_
+
+---
+
+### 2. Konkret und persönlich
+
+- **Namen**, reale Situationen und Alltagsszenen verwenden
+- **Konkrete Momente** zeigen
+
+Beispiele:
+
+- Alltagsroutinen
+- kleine Details
+- Begegnungen mit anderen
+
+👉 Geschichten werden durch **Details real**
+
+---
+
+### 3. Klar und verständlich
+
+- Einfache, gut verständliche Sprache verwenden
+- Fachbegriffe vermeiden oder kurz erklären
+
+👉 Alle sollen die Geschichte verstehen können
+
+---
+
+## Aufbau einer Diakonie-Geschichte
+
+---
+
+### 1. Überschrift
+
+- Klar und menschenzentriert
+- Oft enthalten:
+  - den Namen der Person
+  - einen zentralen Aspekt ihres Lebens
+
+👉 Beispielstruktur:
+
+> „[Name] lebt mit … Wie sie/er lebt, arbeitet und welche Unterstützung es gibt“
+
+---
+
+### 2. Einleitung (Einstieg)
+
+- Die Person vorstellen
+- Einen ersten Einblick in ihre Situation geben
+- Keine abstrakten Erklärungen
+
+👉 Direkt auf die **menschliche Geschichte** fokussieren
+
+---
+
+### 3. Alltag
+
+Beschreibe:
+
+- Wie sieht ein typischer Tag aus?
+- Welche Routinen sind wichtig?
+- Welche Herausforderungen gibt es?
+
+👉 Der Alltag macht abstrakte Themen greifbar  
+(z. B. Struktur, Umgebung und Interaktionen sind für viele autistische Menschen entscheidend)
+
+---
+
+### 4. Perspektive der Person
+
+- **Zitate oder sinngemäße Gedanken** einbauen
+- Zeige:
+  - Gefühle
+  - Wünsche
+  - Erfahrungen
+
+👉 Die Person soll in der Geschichte „zu Wort kommen“
+
+---
+
+### 5. Unterstützung & Kontext (Rolle der Diakonie)
+
+- Erklären:
+  - welche Unterstützung es gibt
+  - wie sie hilft
+  - warum sie wichtig ist
+
+- Eingebettet in die Geschichte, nicht als Werbung
+
+👉 Fokus auf:
+
+- Empowerment
+- Teilhabe
+- individuelle Unterstützung
+
+---
+
+### 6. Größerer Zusammenhang
+
+- Kurz den Bezug zu einem größeren Thema herstellen:
+  - Inklusion
+  - gesellschaftliche Herausforderungen
+  - fehlende Unterstützungssysteme
+
+👉 Immer im Rahmen der **individuellen Geschichte** bleiben
+
+---
+
+### 7. Schluss
+
+- Ende mit:
+  - einer Reflexion
+  - einem Zitat
+  - oder einem Ausblick
+
+👉 Der Leser soll zurückbleiben mit:
+
+- Verständnis
+- Respekt
+- Perspektive
+
+---
+
+## Schreibstil-Richtlinien
+
+---
+
+### ✅ Do (tun)
+
+- **Personenzentrierte und respektvolle Sprache**
+- **Stärken und Selbstbestimmung** zeigen
+- **Individualität hervorheben**
+- **konkret und anschaulich schreiben**
+- **Alltagsszenen verwenden**
+
+---
+
+### ❌ Don’t (vermeiden)
+
+- Mitleid („leidet an…“, „tragisches Schicksal“)
+- Heldennarrative („trotz allem…“)
+- Reduktion („der Autist“, „die Arme“)
+- Verallgemeinerungen
+- Abstrakte Berichterstattung ohne menschlichen Kontext
+
+---
+
+## Wichtige Techniken
+
+---
+
+### 1. Zeigen, nicht erklären
+
+❌ „Er hat einen strukturierten Tag“  
+✅ „Jeden Morgen schaut er zuerst in seinen Kalender, bevor er das Haus verlässt“
+
+---
+
+### 2. Kontraste bewusst einsetzen
+
+- Herausforderung vs. Stärke
+- Unterstützung vs. Selbstständigkeit
+
+👉 Aber nicht als „Defizit vs. Erfolg“ Framing
+
+---
+
+### 3. Normalisieren, nicht exotisieren
+
+- Unterschiede als Teil menschlicher Vielfalt darstellen
+- Menschen nicht als „anders“ oder „außergewöhnlich“ darstellen
+
+👉 Beispielidee:  
+Menschen im Autismus-Spektrum erleben die Welt anders, nicht „weniger“
+
+---
+
+## Ethische Richtlinien
+
+- Privatsphäre und Würde respektieren
+- Stereotype vermeiden
+- Menschen realistisch darstellen
+- Betroffene möglichst selbst zu Wort kommen lassen
+
+---
+
+## Checkliste
+
+Vor der Veröffentlichung prüfen:
+
+- Steht die Person im Mittelpunkt der Geschichte?
+- Habe ich die Person nicht auf einen Aspekt reduziert?
+- Ist die Sprache respektvoll und verständlich?
+- Zeigt die Geschichte echtes Leben (nicht nur Fakten)?
+- Würde sich die Person fair repräsentiert fühlen?
+
+---
+
+## Abschließender Gedanke
+
+👉 Eine gute Diakonie-Geschichte informiert nicht nur –  
+sie schafft **Verständnis, Verbindung und Respekt**.

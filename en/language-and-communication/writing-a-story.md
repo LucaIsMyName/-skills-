@@ -1,0 +1,243 @@
+# Writing a story
+
+## Purpose
+
+This skill defines how to write **human-centered, respectful, and engaging stories** in the style of Diakonie Österreich.
+
+The goal is to tell stories that:
+
+- show **real lives**
+- communicate **dignity and individuality**
+- make **social issues understandable through people**
+
+👉 Not abstract topics — but **people in real situations**
+
+---
+
+## Core Principle
+
+### Tell stories _with_ people, not _about_ them
+
+- The person is the **center**, not the problem
+- Avoid reducing someone to:
+  - diagnosis
+  - poverty
+  - disability
+  - crisis
+
+👉 Show the **whole person**: life, personality, strengths, challenges
+
+---
+
+## Tone & Voice
+
+### 1. Respectful and close
+
+- Write **empathetically**, but not pitying
+- Avoid dramatic or sensational tone
+- Stay **calm, human, grounded**
+
+👉 The reader should feel: _“I understand this person”_, not _“I feel sorry”_
+
+---
+
+### 2. Concrete and personal
+
+- Use **names**, real situations, daily life
+- Show **specific moments**
+
+Example style:
+
+- daily routines
+- small details
+- interactions with others
+
+👉 Stories become real through **details**
+
+---
+
+### 3. Clear and accessible
+
+- Use simple, understandable language
+- Avoid jargon or explain it briefly
+
+👉 Everyone should be able to read and understand it
+
+---
+
+## Structure of a Diakonie Story
+
+---
+
+### 1. Headline
+
+- Clear and human-centered
+- Often includes:
+  - the person’s name
+  - a key aspect of their life
+
+👉 Example pattern:
+
+> “[Name] lives with … How they live, work, and what supports them”
+
+---
+
+### 2. Introduction (Hook)
+
+- Introduce the person
+- Give a quick insight into their situation
+- Avoid abstract explanations
+
+👉 Focus immediately on the **human story**
+
+---
+
+### 3. Everyday Life
+
+Describe:
+
+- What does a typical day look like?
+- What routines are important?
+- What challenges exist?
+
+👉 Daily life makes abstract topics tangible
+(e.g. structure, environment, interactions are crucial for many autistic people) ([diakonie.at][1])
+
+---
+
+### 4. Perspective of the Person
+
+- Include **quotes or paraphrased thoughts**
+- Show:
+  - feelings
+  - wishes
+  - experiences
+
+👉 The person should “speak” in the story
+
+---
+
+### 5. Support & Context (Diakonie Role)
+
+- Explain:
+  - what support exists
+  - how it helps
+  - why it matters
+
+- Keep it **embedded in the story**, not as advertisement
+
+👉 Focus on:
+
+- empowerment
+- participation
+- individual support
+
+(e.g. support is tailored to individual needs and strengths) ([diakonie.at][2])
+
+---
+
+### 6. Broader Insight
+
+- Briefly connect the story to a bigger issue:
+  - inclusion
+  - social challenges
+  - lack of support systems
+
+👉 But always stay grounded in the **individual story**
+
+---
+
+### 7. Closing
+
+- End with:
+  - a reflection
+  - a quote
+  - or a forward-looking thought
+
+👉 Leave the reader with:
+
+- understanding
+- respect
+- perspective
+
+---
+
+## Writing Style Guidelines
+
+---
+
+### ✅ Do
+
+- Use **person-first or respectful language**
+- Show **strengths and agency**
+- Highlight **individuality**
+- Be **specific and concrete**
+- Use **real-life scenes**
+
+---
+
+### ❌ Avoid
+
+- Pity (“suffers from…”, “tragic fate”)
+- Hero narratives (“despite everything…”)
+- Reduction (“the autistic”, “the poor”)
+- Overgeneralization
+- Abstract reporting without human context
+
+---
+
+## Key Techniques
+
+---
+
+### 1. Show, don’t tell
+
+❌ “He has a structured day”
+✅ “Every morning, he checks his schedule before leaving the house”
+
+---
+
+### 2. Use contrasts carefully
+
+- Challenge vs. strength
+- support vs. independence
+
+👉 But avoid framing life as “deficit vs. success”
+
+---
+
+### 3. Normalize, don’t exoticize
+
+- Present differences as part of human diversity
+- Avoid making people seem “other” or “exceptional”
+
+👉 Example idea:
+People in the autism spectrum experience the world differently, not “less” ([diakonie.at][3])
+
+---
+
+## Ethical Guidelines
+
+- Respect privacy and dignity
+- Avoid stereotypes
+- Represent people accurately
+- Let affected people define themselves when possible
+
+---
+
+## Checklist
+
+Before publishing, ask:
+
+- Is the person at the center of the story?
+- Did I avoid reducing them to one aspect?
+- Is the language respectful and clear?
+- Does the story show real life (not just facts)?
+- Would the person feel represented fairly?
+
+---
+
+## Final Thought
+
+👉 A good Diakonie story does not just inform —
+it creates **understanding, connection, and respect**.
