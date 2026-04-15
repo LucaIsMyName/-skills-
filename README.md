@@ -76,10 +76,3 @@ Topic-specific instruction files. Each one explains how you want a particular ty
 3. Keep it focused on one topic. Shorter files are easier to attach and parse.
 
 ---
-
-## Why Markdown
-
-- Every AI tool can read plain text.
-- No proprietary format, no lock-in.
-- Easy to version, diff, and update in git.
-- Works as an upload, a paste, a copy-paste into a system prompt, or a file reference.

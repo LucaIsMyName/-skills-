@@ -1,0 +1,12 @@
+{
+  "name": "skills",
+  "version": "2026.04.15.1",
+  "description": "a collection of \"skills\" that are just plain markdown files explaining concepts and workflows to any AI without having to write the same old instructions and meta-infos over and over again",
+  "main": "./",
+  "author": "LucaIsMyName",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucaIsMyName/-skills-"
+  },
+  "license": "MIT"
+}
