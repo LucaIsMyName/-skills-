@@ -1,0 +1,111 @@
+# Newsletter und E-Mail
+
+**Geltungsbereich:** **Newsletter und organisatorische E-Mails** von gemeinnützigen und sozialen Organisationen (Spendenaufrufe, Einladungen, Updates); keine individuellen HR- oder Rechtsschreiben und **keine** Erfindung von Abmelde- oder Datenschutzklauseln—Verweis auf **Rechtsprüfung** und freigegebenen Boilerplate.
+
+## Exzerpt (zuerst lesen)
+
+- Nutzen für **Betreffzeile, Vorschautext, Aufbau** und möglichst **eine primäre Handlungsaufforderung** pro Mail.
+- **Niemals** finale Rechtstexte oder regionale Pflichtformulierungen erfinden—**Platzhalter** und Rechtsreview empfehlen.
+- **Nachfragen** nach Zielgruppe, Versandtermin, Links und Markenstimme.
+- Regeln, Schlecht/Gut-Beispiele und Checkliste unten.
+
+## Zweck
+
+Dieser Skill beschreibt, wie **wirksame, vertrauenswürdige E-Mails** für **soziale und gemeinnützige Organisationen** formuliert werden: mobil lesbar, ehrlich, ohne manipulative Druckmittel.
+
+## KI / Prompt: Vollständigkeit vor dem Schreiben
+
+### Konkret
+
+- **Segment** (Spenderinnen, Freiwillige, Klientel, allgemein)
+- **Ein Hauptziel** (spenden, anmelden, Artikel lesen, Veranstaltung)
+- **Betreff + Vorschau** (Zeichenlimits falls vorgegeben)
+- **Links** (Spendenseite, Anmeldung, Blog)—exakte URLs wenn vorhanden
+- **Absendername** und **Reply-To** falls vorgegeben
+- **Rechtsraum** (z. B. EU, AT, DE) für Footer—**nicht erfinden**
+
+### Meta
+
+- Ton (dringend vs. ruhig, persönlich vs. institutionell)
+- **Sensibilität** (kein Schuldzuweisungs-Ton; Würde wahren)
+- Abgleich mit anderen Mailings (Doppel-Spendenaufruf—Nutzer fragen)
+
+---
+
+## Grundregeln
+
+### 1. Betreff: konkret und ehrlich
+
+### ❌ Schlecht
+
+```text
+Das musst du UNBEDINGT lesen!!!!!!
+```
+
+### ✅ Gut
+
+```text
+Tag der offenen Tür: kostenlose Schuldenberatung am Samstag (Termin buchen)
+```
+
+---
+
+### 2. Vorschautext ergänzt den Betreff
+
+### ❌ Schlecht
+
+```text
+[Vorschau:] Newsletter lesen Newsletter lesen
+```
+
+### ✅ Gut
+
+```text
+[Vorschau:] 20-Minuten-Slot bei unseren Beraterinnen buchen—auch ohne Anmeldung möglich.
+```
+
+---
+
+### 3. Eine primäre Handlungsaufforderung
+
+### ❌ Schlecht
+
+```text
+[Jetzt spenden] [Mitmachen] [5 Artikel] [Umfrage] [Teilen] — alles gleich groß
+```
+
+### ✅ Gut
+
+```text
+Hauptbutton: [Zur Anmeldung Tag der offenen Tür]
+Im Fließtext: Link zu Spendeninfos.
+```
+
+---
+
+### 4. Rechtlicher Footer und Abmeldung
+
+- **Keine** finale DSGVO-/CAN-SPAM-Formulierung erfinden.
+- Platzhalter: `[Rechtlicher Hinweis und Abmeldelink — freigegebenen Text einfügen]` und **Rechtsprüfung** bei neuen Regionen.
+
+---
+
+### 5. Segmentierung
+
+Wenn der Nutzer Segmente nennt, **Sprache und Beispiele** daran ausrichten—Spenderinnen nicht mit Klientel vermischen, sofern nicht beabsichtigt.
+
+---
+
+## Checkliste vor dem Versand
+
+- [ ] Betreff und Vorschau klar und wahrheitsgemäß
+- [ ] Eine primäre CTA; Links geprüft
+- [ ] Respektvoller Ton; kein manipulatives „Schuldgefühl“
+- [ ] Footer: freigegebener Text oder klarer Platzhalter
+- [ ] Sensible Themen von Kommunikationsleitung freigegeben
+
+---
+
+## Abschließender Gedanke
+
+👉 E-Mail lebt von **Vertrauen**. Klarheit schlägt Effekthascherei; **rechtliche Pflichttexte** kommen aus der Organisation, nicht aus dem Modell.

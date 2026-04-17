@@ -1,5 +1,14 @@
 # Writing a story
 
+**Scope:** Applies to human-centered nonprofit storytelling (impact stories, magazines, web); not fiction, not pure promotional copy without verified facts.
+
+## Excerpt (read this first)
+
+- Use when writing **people-first** stories in Diakonie-style: dignity, individuality, real situations.
+- **Ask** for consent, anonymization rules, approved quotes, and org/service names before inventing scenes.
+- Avoid pity, hero framing, and reducing people to labels; show concrete daily life.
+- Full file below: structure (headline → closing), techniques, ethics, and publication checklist.
+
 ## Purpose
 
 This skill defines how to write **human-centered, respectful, and engaging stories** in the style of Diakonie Österreich.

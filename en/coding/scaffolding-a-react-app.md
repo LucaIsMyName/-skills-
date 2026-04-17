@@ -1,5 +1,13 @@
 # Scaffolding a reactapp
 
+**Scope:** Applies to **bootstrapping new React projects** and initial repo layout; not migrating legacy codebases or choosing non-React stacks.
+
+## Excerpt (read this first)
+
+- Use when **creating a new React app** from scratch: tooling order, folder expectations, consistency with project conventions.
+- Follow the **scaffold sequence** in the file; confirm toolchain (package manager, Vite/CRA, etc.) with the user if unknown.
+- Full file below: step-by-step scaffolding and setup details.
+
 ## Purpose
 
 This skill defines how to create a **clean, modern, and production-ready way to scaffold a React app** using best practices.

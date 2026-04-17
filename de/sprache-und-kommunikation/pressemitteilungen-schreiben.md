@@ -1,5 +1,14 @@
 # Pressemitteilungen Schreiben
 
+**Geltungsbereich:** Pressemitteilungen und Medientexte für **soziale Organisationen**; keine internen HR-Texte, Arbeitsverträge oder juristische Einzelfallberatung.
+
+## Exzerpt (zuerst lesen)
+
+- Nutzen für **klare, menschenzentrierte Pressemitteilungen** (W-Fragen, Wirkung, Respekt).
+- **Nachfragen** bei fehlenden Fakten, Zitaten, Kontakt, Embargo—**nichts erfinden**.
+- Erster Absatz = Wesentliches; Überschrift konkret; kein Marketing-Blabla.
+- Vollständige Regeln, Schlecht/Gut-Beispiele und Checkliste stehen unten in der Datei.
+
 ## Zweck
 
 Dieses "skill" erklärt, **wie man klare und professionelle Pressemitteilungen für soziale Organisationen verfasst**.

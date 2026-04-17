@@ -1,5 +1,13 @@
 # Designing good interfaces
 
+**Scope:** Applies to **interface and interaction design** (UI patterns, flows, clarity); not backend architecture or comms accessibility copy.
+
+## Excerpt (read this first)
+
+- Use when shaping **screens, flows, and controls** so interfaces are easy to understand and use.
+- Focus on clarity, feedback, consistency, and sensible defaults; details and examples follow.
+- Full file below: what “good design” means here, practical UI guidance, and pitfalls.
+
 ## Purpose
 
 This skill explains what _good design_ is, with a focus on **UI (User Interface) design**, in simple and practical terms.

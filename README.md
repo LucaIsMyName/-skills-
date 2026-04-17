@@ -32,21 +32,46 @@ The `agents.md` file at the root doubles as an `AGENTS.md` — a project-level i
 ├── agents.md                  # Global coding conventions (also works as AGENTS.md)
 ├── README.md                  # This file
 └── skills/
-    ├── en/                    # Skills in English
+    ├── en/
     │   ├── coding/
     │   │   ├── coding-best-practices.md
     │   │   ├── react-best-practices.md
     │   │   └── scaffolding-a-react-app.md
     │   ├── design/
+    │   │   ├── data-visualization-basics.md
     │   │   ├── design-basics.md
-    │   │   └── designing-good-interfaces.md
+    │   │   ├── design-tokens-and-theming.md
+    │   │   ├── designing-good-interfaces.md
+    │   │   ├── forms-and-input-ux.md
+    │   │   ├── motion-and-micro-interactions.md
+    │   │   └── slides-and-presentations.md
     │   └── language-and-communication/
+    │       ├── accessibility-for-comms.md
+    │       ├── crisis-and-sensitive-topics.md
+    │       ├── easy-read-english.md
+    │       ├── newsletter-and-email.md
     │       ├── press-statement-basics.md
-    │       └── respectful-language.md
-    └── de/                    # Skills in German
-        └── kommunikation-und-sprache/
+    │       ├── respectful-language.md
+    │       ├── social-short-form.md
+    │       └── writing-a-story.md
+    └── de/
+        ├── design/
+        │   ├── datenvisualisierung-grundlagen.md
+        │   ├── design-basics.md
+        │   ├── design-tokens-und-theming.md
+        │   ├── folien-und-praesentationen.md
+        │   ├── formulare-und-eingaben-ux.md
+        │   ├── gute-interfaces-designen.md
+        │   └── motion-und-micro-interactions.md
+        └── sprache-und-kommunikation/
+            ├── barrierefreiheit-kommunikation.md
+            ├── einfache-sprache.md
+            ├── krise-und-sensible-themen.md
+            ├── newsletter-und-e-mail.md
             ├── pressemitteilungen-schreiben.md
-            └── respektvolle-sprache.md
+            ├── respektvolle-sprache.md
+            ├── social-kurzformate.md
+            └── stories-schreiben.md
 ```
 
 ### `agents.md`
@@ -59,13 +84,44 @@ Topic-specific instruction files. Each one explains how you want a particular ty
 
 | File | What it covers |
 |---|---|
+| **English — coding** | |
 | `coding-best-practices.md` | General coding standards and patterns |
 | `react-best-practices.md` | React-specific conventions |
 | `scaffolding-a-react-app.md` | Step-by-step setup for new React projects |
+| **English — design** | |
+| `data-visualization-basics.md` | Charts and honest data graphics for dashboards and reports |
 | `design-basics.md` | Core design principles |
+| `design-tokens-and-theming.md` | Semantic tokens, scales, light/dark themes |
 | `designing-good-interfaces.md` | UI/UX guidelines for interfaces |
-| `press-statement-basics.md` | How to write press statements |
-| `respectful-language.md` | Language and tone guidelines |
+| `forms-and-input-ux.md` | Form layout, labels, validation, input states |
+| `motion-and-micro-interactions.md` | UI motion, reduced motion, loading states |
+| `slides-and-presentations.md` | Slide decks: legibility, structure, templates |
+| **English — language & communication** | |
+| `accessibility-for-comms.md` | Accessible copy: alt text, headings, links, captions |
+| `crisis-and-sensitive-topics.md` | Crisis comms, holding statements, escalation |
+| `easy-read-english.md` | Plain / accessible English text |
+| `newsletter-and-email.md` | Email and newsletter structure, CTAs, legal placeholders |
+| `press-statement-basics.md` | Press statements |
+| `respectful-language.md` | Respectful, dignity-centered language |
+| `social-short-form.md` | Short social posts (LinkedIn, Meta, Threads, Bluesky) |
+| `writing-a-story.md` | Human-centered nonprofit storytelling (Diakonie-style) |
+| **German — design** | |
+| `datenvisualisierung-grundlagen.md` | Diagramme und Datengrafiken |
+| `design-basics.md` | Grundlegende Designprinzipien |
+| `design-tokens-und-theming.md` | Design-Tokens, Skalen, Hell/Dunkel |
+| `folien-und-praesentationen.md` | Folien und Präsentationen |
+| `formulare-und-eingaben-ux.md` | Formulare, Labels, Validierung |
+| `gute-interfaces-designen.md` | UI/UX für Interfaces |
+| `motion-und-micro-interactions.md` | Motion, reduzierte Bewegung, Ladezustände |
+| **German — Sprache & Kommunikation** | |
+| `barrierefreiheit-kommunikation.md` | Barrierefreie Kommunikation (Text, Medien) |
+| `einfache-sprache.md` | Einfache Sprache (Deutsch) |
+| `krise-und-sensible-themen.md` | Krisenkommunikation, sensible Themen |
+| `newsletter-und-e-mail.md` | Newsletter und E-Mail |
+| `pressemitteilungen-schreiben.md` | Pressemitteilungen für soziale Organisationen |
+| `respektvolle-sprache.md` | Respektvolle Sprache |
+| `social-kurzformate.md` | Kurzformate sozialer Medien |
+| `stories-schreiben.md` | Geschichten im Diakonie-Stil |
 
 ---
 

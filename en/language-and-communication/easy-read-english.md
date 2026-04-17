@@ -1,5 +1,14 @@
 # Easy Read English (plain, accessible English)
 
+**Scope:** Applies to rewriting text into **plain, accessible English**; not certified Easy Read formats with symbols, layout, and user testing unless the user explicitly asks.
+
+## Excerpt (read this first)
+
+- Use to **simplify** vocabulary and sentences for literacy, EAL readers, or general clarity.
+- **Do not** change legal meaning, numbers, or required terms without explicit instruction—**ask** if unsure.
+- Prefer short sentences, one idea per sentence, consistent terms, active voice where clear.
+- Full file below: rules, workflow, mistakes to avoid, and delivery checklist.
+
 ## Purpose
 
 This skill explains how to **rewrite or translate any source text** into **clear, accessible English**—structured, rule-based, and appropriate for readers with **different literacy levels**, **English as an additional language**, and **general audiences** who need plain wording.

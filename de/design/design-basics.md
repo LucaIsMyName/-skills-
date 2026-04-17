@@ -1,5 +1,13 @@
 # Design Basics
 
+**Geltungsbereich:** Visuelles und UI-/Produktdesign; **keine** Textredaktion für Barrierefreiheit in Kommunikation (eigener Sprach-Skill) und keine Markenstrategie allein.
+
+## Exzerpt (zuerst lesen)
+
+- Ziel: **nützlich, verständlich, langlebig**—nutzerzentriert, konsistent, hierarchisch klar.
+- Nutzen für Layout, Typografie, Farbe, Systeme; Details und Beispiele in der langen Referenz unten.
+- Praktische Regeln und Checklisten folgen im Dokument.
+
 ## Zweck
 
 Dieser "skill" beschreibt, **was gutes Design ist und wie man es schafft** — für:

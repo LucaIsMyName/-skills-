@@ -1,5 +1,13 @@
 # Gutes Interfaces Designen
 
+**Geltungsbereich:** **UI- und Interaktionsdesign** (Bedienoberflächen, Abläufe); kein Backend-Design und keine rein textliche Barrierefreiheit ohne UI-Bezug.
+
+## Exzerpt (zuerst lesen)
+
+- Fokus: Oberflächen **verständlich und bedienbar** machen; klare Struktur, Rückmeldung, Konsistenz.
+- Gutes Design hier = nutzbar, nicht nur „hübsch“; Details in den folgenden Abschnitten.
+- Vollständige Anleitung und Fallstricke unten in der Datei.
+
 ## Zweck
 
 Dieser "skill" erklärt, was *gutes Design* ausmacht — mit Schwerpunkt **UI-Design (User Interface)** — in einfachen, praxisnahen Worten.

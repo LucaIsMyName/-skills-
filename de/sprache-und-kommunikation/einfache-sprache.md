@@ -1,5 +1,13 @@
 # Einfache Sprache
 
+**Geltungsbereich:** Umschreiben in **Einfache Sprache** (Deutsch); nicht automatisch **Leichte Sprache** mit Bildlayout und Sonderkonventionen (extra absprechen).
+
+## Exzerpt (zuerst lesen)
+
+- Kurze Sätze, bekannter Wortschatz, ein Gedanke pro Satz; Fachbegriffe erklären oder einheitlich halten.
+- **Keine** Fakten oder Pflichtangaben streichen, nur um es „einfacher“ zu machen—**nachfragen** bei rechtlichen Texten.
+- Abgrenzung zu Leichter Sprache, Regeln, Kurzbeispiel und Checkliste unten.
+
 ## Zweck
 
 Dieser Skill beschreibt, wie **beliebige Ausgangstexte** in **Einfache Sprache** (Deutsch) umgeschrieben oder übersetzt werden – **strukturiert, regelbasiert und zielgruppengerecht**.

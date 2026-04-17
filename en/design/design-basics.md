@@ -1,5 +1,13 @@
 # design-basics.md
 
+**Scope:** Applies to **visual and UI/product design principles**; not copywriting for accessibility (use language-and-communication skills) or standalone marketing strategy.
+
+## Excerpt (read this first)
+
+- Use for **user-centered** layout, hierarchy, typography, color, and consistency across UI and services.
+- Good design here means **useful, understandable, durable**—not decoration-only.
+- Full file below: mindset, practical rules, examples, and checklists (longer reference).
+
 ## Purpose
 
 This skill defines **what good design is and how to create it** across:

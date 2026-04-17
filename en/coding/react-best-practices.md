@@ -1,5 +1,13 @@
 # React best practices
 
+**Scope:** Applies to **React application and component code**; not non-React front ends, native apps, or server-only backends.
+
+## Excerpt (read this first)
+
+- Use for **predictable, maintainable React**: hooks, state, effects, performance, and common footguns.
+- Prefer patterns that reduce bugs and surprise re-renders; ask before large refactors if context is unclear.
+- Full file below: detailed rules and Bad/Good examples (long reference).
+
 ## Purpose
 
 This skill explains **how to write React code correctly and safely**, focusing on best practices, common mistakes (footguns), and what to do instead.

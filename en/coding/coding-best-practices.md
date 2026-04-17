@@ -1,5 +1,14 @@
 # Coding best practices
 
+**Scope:** Applies to **general software quality** in application code (any language/framework); not security audits, infrastructure, or operations.
+
+## Excerpt (read this first)
+
+- Use for **maintainability, readability, correctness**—prefer simple designs over clever ones.
+- This file is **long**: the sections below add patterns, examples, and anti-patterns in depth.
+- Core themes: simplicity, naming, single responsibility, testing mindset, sensible abstractions.
+- Full file below: numbered rules with Bad/Good code examples and extended guidance.
+
 ## Purpose
 
 This skill explains **how to write high-quality software in any language or framework**, focusing on:

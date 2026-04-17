@@ -1,5 +1,14 @@
 # Respectful Language
 
+**Scope:** Applies to **respectful wording** about people and social issues in communications; not legal compliance drafting, clinical diagnosis, or HR case decisions.
+
+## Excerpt (read this first)
+
+- Use when **rewriting or drafting** text about poverty, disability, migration, care, and related topics.
+- **Ask** for audience, glossary, and sensitivity constraints; do not guess harmful labels.
+- Prefer person-respecting, accurate phrasing; topic sections and examples are below.
+- Full file below: avoid/use lists, domain sections, and golden rules.
+
 ---
 
 ## Purpose

@@ -1,5 +1,15 @@
 # Press statement basics
 
+**Scope:** Applies to external press statements and media-facing announcements; not internal HR policies, contracts, or legal advice.
+
+## Excerpt (read this first)
+
+- Use when drafting or editing **press releases** for journalists and the public.
+- Lead with **who / what / when / where / why**; stay factual, not promotional.
+- **Ask** for missing facts, quotes, contacts, and embargoes—**do not invent** them.
+- Tone: neutral, scannable, one main message; typical length 150–400 words unless specified.
+- Full file below: structure, Bad/Good examples, jargon avoidance, and pre-send checklist.
+
 ## Purpose
 
 This skill explains **how to write clear, professional press statements**.

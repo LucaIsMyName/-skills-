@@ -1,5 +1,13 @@
 # Stories schreiben
 
+**Geltungsbereich:** Menschenzentrierte **Geschichten** im Stil der Diakonie Österreich (Web, Print, Social); keine Fiktion und keine reine Werbung ohne Fakten und Freigaben.
+
+## Exzerpt (zuerst lesen)
+
+- **Mit** Menschen erzählen, nicht **über** sie reduzieren; konkrete Alltagsszenen statt Schlagworte.
+- **Einwilligung, Zitate, Anonymisierung** und Organisationseinheiten immer klären, nicht erfinden.
+- Aufbau, Ton, Techniken und ethische Checkliste stehen ausführlich unten.
+
 ## Zweck
 
 Diese "skill" beschreibt, wie **menschenzentrierte, respektvolle und lebendige Geschichten** im Stil der Diakonie Österreich geschrieben werden.

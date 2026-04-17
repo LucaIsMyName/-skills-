@@ -1,5 +1,14 @@
 # Respektvolle Sprache
 
+**Geltungsbereich:** Respektvolle Formulierungen zu sozialen Themen und Menschen in **Kommunikationstexten**; kein Ersatz für Rechtsberatung, Medizin oder Personalakte.
+
+## Exzerpt (zuerst lesen)
+
+- Nutzen bei **Texten über Armut, Behinderung, Flucht, Pflege** usw.: Würde, keine Pauschalurteile.
+- **Nachfragen** bei fehlendem Kontext oder Pflichtbegriffen der Organisation.
+- Themenblöcke mit „verwenden / vermeiden“ und Kurzbeispiele folgen unten.
+- Goldene Regeln und Abschlussgedanke am Ende der Datei.
+
 ## Zweck
 
 Dieser "skill" zeigt, wie man **respektvoll und würde-achtend über soziale Themen und Menschen spricht**.
