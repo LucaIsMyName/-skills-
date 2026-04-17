@@ -97,7 +97,7 @@ Topic-specific instruction files. Each one explains how you want a particular ty
 | `motion-and-micro-interactions.md` | UI motion, reduced motion, loading states |
 | `slides-and-presentations.md` | Slide decks: legibility, structure, templates |
 | **English — language & communication** | |
-| `accessibility-for-comms.md` | Accessible copy: alt text, headings, links, captions |
+| `accessibility-for-comms.md` | Inclusive comms: writing, briefings, speaking—image descriptions, link phrasing, captions planning (not dev/UI code) |
 | `crisis-and-sensitive-topics.md` | Crisis comms, holding statements, escalation |
 | `easy-read-english.md` | Plain / accessible English text |
 | `newsletter-and-email.md` | Email and newsletter structure, CTAs, legal placeholders |

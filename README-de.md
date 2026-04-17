@@ -98,7 +98,7 @@ Themenbezogene Instruktionsdateien. Jede erklärt, wie du eine bestimmte Art von
 | `motion-and-micro-interactions.md` | UI-Motion, reduzierte Bewegung, Ladezustände |
 | `slides-and-presentations.md` | Folien: Lesbarkeit, Struktur, Vorlagen |
 | **Englisch — Sprache & Kommunikation** | |
-| `accessibility-for-comms.md` | Barriereärmere Texte: Alt-Texte, Überschriften, Links, Untertitel |
+| `accessibility-for-comms.md` | Inklusive Kommunikation (EN): Texte, Briefings, Sprechen—kein Dev/UI-Code |
 | `crisis-and-sensitive-topics.md` | Krisenkommunikation, Holding Statements, Eskalation |
 | `easy-read-english.md` | Klares, zugängliches Englisch |
 | `newsletter-and-email.md` | Newsletter und E-Mail, CTAs, rechtliche Platzhalter |
@@ -115,7 +115,7 @@ Themenbezogene Instruktionsdateien. Jede erklärt, wie du eine bestimmte Art von
 | `gute-interfaces-designen.md` | UI/UX für Interfaces |
 | `motion-und-micro-interactions.md` | Motion, reduzierte Bewegung, Ladezustände |
 | **Deutsch — Sprache & Kommunikation** | |
-| `barrierefreiheit-kommunikation.md` | Barrierefreiheit in der Kommunikation |
+| `barrierefreiheit-kommunikation.md` | Inklusive Kommunikation: Texte, Briefings, Sprechen—Bildbeschreibungen, Links, Untertitel-Planung (kein Dev/UI-Code) |
 | `einfache-sprache.md` | Einfache Sprache |
 | `krise-und-sensible-themen.md` | Krise und sensible Themen |
 | `newsletter-und-e-mail.md` | Newsletter und E-Mail |
