@@ -476,3 +476,7 @@ Bad code feels:
 - fragile
 
 👉 If your code is hard to understand, it’s already a bug waiting to happen.
+
+---
+
+German version: [`coding-best-practices.md`](../../de/coding/coding-best-practices.md)

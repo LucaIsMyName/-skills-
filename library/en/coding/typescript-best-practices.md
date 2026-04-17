@@ -154,3 +154,7 @@ type Result<T, E = Error> = { ok: true; value: T } | { ok: false; error: E };
 ## Core idea
 
 Types should **describe what is true** about your program. If you are fighting them, the **design** is probably wrong, not the type.
+
+---
+
+German version: [`typescript-best-practices.md`](../../de/coding/typescript-best-practices.md)

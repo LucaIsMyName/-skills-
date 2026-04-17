@@ -1,4 +1,4 @@
-# Scaffolding a reactapp
+# Scaffolding a React App
 
 **Scope:** Applies to **bootstrapping new React projects** and initial repo layout; not migrating legacy codebases or choosing non-React stacks.
 
@@ -244,7 +244,7 @@ StrictMode > HelmetProvider > QueryClientProvider > RouterProvider
 ├── docs/                   # Architecture notes, ADRs, runbooks
 ├── .env.example            # Required environment variables (no secrets)
 ├── README.md               # Setup, commands, architecture, conventions
-└── agents.md               # This file
+└── agents.md               # Project conventions (also AGENTS.md)
 ```
 
 ---
@@ -255,7 +255,7 @@ StrictMode > HelmetProvider > QueryClientProvider > RouterProvider
 - Prefer conventions over custom setups
 - Avoid premature optimization
 - Keep everything predictable and centralized
-- Do not use `purple`, `indigo` or `violet` as brand/primary/accent color when setting up taiwlind/CSS, prefer `blue`, `sky`, `teal`, `red`, `orange` - or simply ask the user - when picking a brand color at the beginning
+- Do not use `purple`, `indigo` or `violet` as brand/primary/accent color when setting up Tailwind/CSS, prefer `blue`, `sky`, `teal`, `red`, `orange` - or simply ask the user - when picking a brand color at the beginning
 
 ---
 
@@ -275,3 +275,7 @@ StrictMode > HelmetProvider > QueryClientProvider > RouterProvider
 **TypeScript**
 
 - [TypeScript — tsconfig reference](https://www.typescriptlang.org/tsconfig/) — use with `strict` and unused checks aligned with this scaffold
+
+---
+
+German version: [`react-app-aufsetzen.md`](../../de/coding/react-app-aufsetzen.md)

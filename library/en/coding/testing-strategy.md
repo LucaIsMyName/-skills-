@@ -134,3 +134,7 @@ Three blocks, separated by a blank line. No hidden setup in helpers that obscure
 ## Core idea
 
 A good test suite lets you **say yes to change**. If tests make refactors scary, they are guarding the **implementation** instead of the **behaviour**—rewrite them.
+
+---
+
+German version: [`teststrategie.md`](../../de/coding/teststrategie.md)

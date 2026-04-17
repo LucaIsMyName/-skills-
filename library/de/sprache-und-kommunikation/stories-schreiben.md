@@ -1,6 +1,6 @@
 # Stories schreiben
 
-**Geltungsbereich:** Menschenzentrierte **Geschichten** im Stil der Diakonie Österreich (Web, Print, Social); keine Fiktion und keine reine Werbung ohne Fakten und Freigaben.
+**Geltungsbereich:** Menschenzentrierte **Geschichten** für NGOs und soziale Organisationen (Web, Print, Social); keine Fiktion und keine reine Werbung ohne Fakten und Freigaben.
 
 ## Exzerpt (zuerst lesen)
 
@@ -10,7 +10,7 @@
 
 ## Zweck
 
-Diese "skill" beschreibt, wie **menschenzentrierte, respektvolle und lebendige Geschichten** im Stil der Diakonie Österreich geschrieben werden.
+Dieses Dokument beschreibt, wie **menschenzentrierte, respektvolle und lebendige Geschichten** für NGOs und soziale Organisationen geschrieben werden.
 
 Das Ziel ist es, Geschichten zu erzählen, die:
 
@@ -37,10 +37,10 @@ Bevor eine Geschichte entworfen wird, muss der Prompt **konkrete und Meta-Inform
 ### Meta
 
 - Zielgruppe und Hauptbotschaft
-- Gewünschter Ton und Stärke der emotionalen Ansprache (im Rahmen dieses Skills)
+- Gewünschter Ton und Stärke der emotionalen Ansprache (im Rahmen dieses Dokuments)
 - Was soll die Leserin bzw. der Leser **mitnehmen** (Verständnis, Respekt, Perspektive)?
 - Was ist **tabu**, zu vermeiden oder besonders sensibel?
-- Bezug zu den folgenden Abschnitten dieses Skills (Aufbau, ethische Richtlinien)
+- Bezug zu den folgenden Abschnitten dieses Dokuments (Aufbau, ethische Richtlinien)
 
 👉 Vor der Veröffentlichung zusätzlich die **Checkliste** am Ende dieser Datei nutzen.
 
@@ -97,7 +97,7 @@ Beispiele:
 
 ---
 
-## Aufbau einer Diakonie-Geschichte
+## Aufbau einer menschenzentrierten Geschichte
 
 ---
 
@@ -150,7 +150,7 @@ Beschreibe:
 
 ---
 
-### 5. Unterstützung & Kontext (Rolle der Diakonie)
+### 5. Unterstützung & Kontext (Rolle der Organisation)
 
 - Erklären:
   - welche Unterstützung es gibt
@@ -270,5 +270,9 @@ Vor der Veröffentlichung prüfen:
 
 ## Abschließender Gedanke
 
-👉 Eine gute Diakonie-Geschichte informiert nicht nur –  
+👉 Eine gute menschenzentrierte Geschichte informiert nicht nur –  
 sie schafft **Verständnis, Verbindung und Respekt**.
+
+---
+
+Englische Version: [`writing-a-story.md`](../../en/language-and-communication/writing-a-story.md)

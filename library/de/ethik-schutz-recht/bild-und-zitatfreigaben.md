@@ -52,7 +52,7 @@ Vage Freigaben („für unsere Arbeit") halten nicht. Gut ist:
 
 - das **Projekt** oder die **Kampagne**
 - die **Medienart** („Portraitfoto und ein Zitat bis drei Sätze")
-- die **Kanäle** mit Beispielen („unsere Website diakonie.example, unser Instagram, Jahresbericht 2026")
+- die **Kanäle** mit Beispielen („unsere Website ngo.example, unser Instagram, Jahresbericht 2026")
 - der **Zeitraum** („bis Ende 2028, danach gelöscht")
 
 ## 3. Informiert = lesbar

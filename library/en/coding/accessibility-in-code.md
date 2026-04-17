@@ -125,3 +125,7 @@ Ship interfaces that **work with a keyboard, a screen reader, at 200% zoom, in r
 ## Core idea
 
 An accessible UI is not a separate mode—it is the **only mode**, designed and built from the first component. If a keyboard user or a screen-reader user cannot complete a task, it is a **bug**, not a feature request.
+
+---
+
+German version: [`barrierefreiheit-im-code.md`](../../de/coding/barrierefreiheit-im-code.md)

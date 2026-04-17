@@ -4,14 +4,14 @@
 
 ## Excerpt (read this first)
 
-- Use when writing **people-first** stories in Diakonie-style: dignity, individuality, real situations.
+- Use when writing **people-first** stories for nonprofits and social-sector organisations: dignity, individuality, real situations.
 - **Ask** for consent, anonymization rules, approved quotes, and org/service names before inventing scenes.
 - Avoid pity, hero framing, and reducing people to labels; show concrete daily life.
 - Full file below: structure (headline → closing), techniques, ethics, and publication checklist.
 
 ## Purpose
 
-This document defines how to write **human-centered, respectful, and engaging stories** in the style of Diakonie Österreich.
+This document defines how to write **human-centered, respectful, and engaging stories** for nonprofits and social-sector organisations.
 
 The goal is to tell stories that:
 
@@ -98,7 +98,7 @@ Example style:
 
 ---
 
-## Structure of a Diakonie Story
+## Structure of a people-first story
 
 ---
 
@@ -135,7 +135,7 @@ Describe:
 - What challenges exist?
 
 👉 Daily life makes abstract topics tangible
-(e.g. structure, environment, interactions are crucial for many autistic people) ([diakonie.at][1])
+(e.g. structure, environment, and interactions are crucial for many autistic people).
 
 ---
 
@@ -151,7 +151,7 @@ Describe:
 
 ---
 
-### 5. Support & Context (Diakonie Role)
+### 5. Support & context (organisation’s role)
 
 - Explain:
   - what support exists
@@ -166,7 +166,7 @@ Describe:
 - participation
 - individual support
 
-(e.g. support is tailored to individual needs and strengths) ([diakonie.at][2])
+(e.g. support is tailored to individual needs and strengths).
 
 ---
 
@@ -246,7 +246,7 @@ Describe:
 - Avoid making people seem “other” or “exceptional”
 
 👉 Example idea:
-People in the autism spectrum experience the world differently, not “less” ([diakonie.at][3])
+People on the autism spectrum experience the world differently, not “less”.
 
 ---
 
@@ -273,5 +273,9 @@ Before publishing, ask:
 
 ## Final Thought
 
-👉 A good Diakonie story does not just inform —
+👉 A good people-first story does not just inform —
 it creates **understanding, connection, and respect**.
+
+---
+
+German version: [`stories-schreiben.md`](../../de/sprache-und-kommunikation/stories-schreiben.md)

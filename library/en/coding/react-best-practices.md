@@ -317,9 +317,20 @@ setItems(prev => [...prev, newItem]);
 
 ### ❌ Messy
 
-```ts
-if (loading) return <Loading />;
-if (error) return <Error />;
+```tsx
+return (
+  <div>
+    {loading ? (
+      <Loading />
+    ) : error ? (
+      <Error />
+    ) : data ? (
+      <Content data={data} />
+    ) : (
+      <Empty />
+    )}
+  </div>
+);
 ```
 
 ### ✅ Clear
@@ -327,10 +338,11 @@ if (error) return <Error />;
 ```ts
 if (loading) return <Loading />;
 if (error) return <Error />;
-return <Content />;
+if (!data) return <Empty />;
+return <Content data={data} />;
 ```
 
-👉 Be explicit and readable.
+👉 Prefer early returns over nested ternaries—easier to read and extend.
 
 ---
 
@@ -410,3 +422,7 @@ Bad React code feels:
 * hard to debug
 
 👉 If something feels complicated, it probably is — simplify it.
+
+---
+
+German version: [`react-best-practices.md`](../../de/coding/react-best-practices.md)

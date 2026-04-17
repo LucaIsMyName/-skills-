@@ -129,3 +129,7 @@ Fixed the newsletter thingy because Anna asked me to.
 ## Core idea
 
 Git history is a **letter to the future**. Write it so someone can read six months later, bisect cleanly, and trust what each commit claims.
+
+---
+
+German version: [`git-und-commits.md`](../../de/coding/git-und-commits.md)

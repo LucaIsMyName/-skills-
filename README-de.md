@@ -1,27 +1,30 @@
 # "skills"
 
-Ein persönliches Monorepo aus Markdown-Dateien, das KI-Assistenten beibringt, wie du bestimmte Dinge erledigt haben möchtest — ohne es jede Sitzung neu erklären zu müssen.
+Ein persönliches Monorepo aus Markdown-Referenzdokumenten—Workflows, Standards und Checklisten für **dich und dein Team** und für **Sprachmodelle**, wenn Assistent:innen dieselben Regeln befolgen sollen, ohne dass du sie jede Sitzung neu erklärst.
 
 ---
 
 ## Was das hier ist
 
-Die meisten KI-Tools erlauben es, Dokumente hochzuladen, Kontext in einen Memory- oder Library-Tab einzufügen oder Dateien an einen Chat anzuhängen. Dieses Repository ist ein zentraler Ort für all das Referenzmaterial, das eine KI über dich haben soll: Schreibstil, Coding-Konventionen, Designvorlieben, Kommunikationsnormen und mehr.
+Dieses Repository bündelt das, was dir wichtig ist: Schreibstil, Coding-Konventionen, Designvorlieben, Kommunikationsnormen und mehr. **Menschen** können alles direkt in Git lesen—Onboarding, Übergaben, Runbooks oder eine schnelle Auffrischung. **Sprachmodelle** können dieselben Dateien nutzen, wenn du sie einfügst, an einen Chat anhängst oder in eine Projekt-Library oder einen RAG-Index lädst.
 
-Denk daran weniger als Code und mehr als eine **persönliche Wissensdatenbank für KI**. Jede Datei ist ein in sich geschlossenes Instruktionsset zu einem bestimmten Thema. Einfach die passende Datei in den Chat laden — und die KI übernimmt sofort deine Präferenzen.
+Jede Datei ist ein in sich geschlossenes Thema: für Menschen verständlich nachvollziehbar, für Modelle so strukturiert, dass sie die Vorgaben konsistent anwenden können.
 
 ---
 
 ## Wie du es nutzt
 
+**Als Dokumentation lesen**
+Öffne beliebige Dateien im Repo und nutze sie wie ein Handbuch—Checklisten vor einem Release, ein Kommunikations-Workflow oder ein Coding-Standard, auf den sich das Team einigen kann.
+
 **Im Chat (hochladen oder einfügen)**
-Lade den Inhalt einer Skill-Datei hoch oder füge ihn ein, bevor du eine Aufgabe zum entsprechenden Thema startest. Die KI folgt dann deiner dokumentierten Vorgehensweise, anstatt zu raten oder auf generische Ratschläge zurückzufallen.
+Wenn du mit einer KI arbeitest, lade den Inhalt der passenden Datei hoch oder füge ihn ein, damit das Modell deiner dokumentierten Vorgehensweise folgt statt zu raten oder generisch zu antworten.
 
 **In einem Memory- oder Library-Tab**
-Tools wie ChatGPT (Memory), Claude (Projects), Notion AI und andere erlauben es, dauerhaften Kontext zu speichern. Füge die Dateien hinzu, die du am häufigsten brauchst — so starten alle Sitzungen bereits mit deinen Präferenzen.
+Tools wie ChatGPT (Memory), Claude (Projects), Notion AI und andere erlauben dauerhaften Kontext. Lege die Dateien ab, auf die du dich stützt—so teilen du und das Modell dieselbe Ausgangsbasis in jeder Sitzung.
 
 **In Cursor / Coding-Agenten**
-Die Datei `agents.md` im Root-Verzeichnis funktioniert gleichzeitig als `AGENTS.md` — eine projektweite Instruktionsdatei, die Cursor und andere agentenbasierte Coding-Tools automatisch einlesen. Kein zusätzliches Setup nötig.
+Die Datei `agents.md` im Root-Verzeichnis funktioniert gleichzeitig als `AGENTS.md` — eine projektweite Instruktionsdatei, die Cursor und andere agentenbasierte Tools automatisch einlesen. Sie ergänzt die Dateien unter `library/`: Menschen lesen sie im Repo; Agenten können sie bei passender Konfiguration laden. Kein zusätzliches Setup nötig.
 
 ---
 
@@ -32,7 +35,7 @@ Die Datei `agents.md` im Root-Verzeichnis funktioniert gleichzeitig als `AGENTS.
 ├── agents.md                  # Globale Coding-Konventionen (funktioniert auch als AGENTS.md)
 ├── README.md                  # Englische Version dieser Übersicht
 ├── README-de.md               # Diese Datei
-└── skills/
+└── library/
     ├── en/
     │   ├── coding/
     │   │   ├── accessibility-in-code.md
@@ -82,6 +85,14 @@ Die Datei `agents.md` im Root-Verzeichnis funktioniert gleichzeitig als `AGENTS.
     │       ├── reading-statistics-plainly.md
     │       └── source-evaluation-and-fact-checking.md
     └── de/
+        ├── coding/
+        │   ├── barrierefreiheit-im-code.md
+        │   ├── coding-best-practices.md
+        │   ├── git-und-commits.md
+        │   ├── react-best-practices.md
+        │   ├── react-app-aufsetzen.md
+        │   ├── teststrategie.md
+        │   └── typescript-best-practices.md
         ├── design/
         │   ├── barrierefreies-design.md
         │   ├── datenvisualisierung-grundlagen.md
@@ -125,11 +136,11 @@ Die Datei `agents.md` im Root-Verzeichnis funktioniert gleichzeitig als `AGENTS.
 
 ### `agents.md`
 
-Die übergeordnete Coding-Konventionsdatei. Behandelt Ordnerstruktur, React-Setup, TypeScript-Regeln, UI-Designprinzipien, Teststrategie, Git-Hygiene und mehr. Wird von Cursor automatisch gelesen; nützlich auch für jeden anderen Coding-Assistenten.
+Die übergeordnete Coding-Konventionsdatei. Behandelt Ordnerstruktur, React-Setup, TypeScript-Regeln, UI-Designprinzipien, Teststrategie, Git-Hygiene und mehr. Für dich als lesbares Projekt-„Gesetz“; Cursor und ähnliche Tools können sie automatisch als `AGENTS.md` übernehmen.
 
-### `skills/`
+### `library/`
 
-Themenbezogene Instruktionsdateien. Jede erklärt, wie du eine bestimmte Art von Aufgabe erledigt haben möchtest. Nach Sprache und Bereich geordnet, damit du schnell die passende Datei findest und anhängen kannst.
+Themenbezogene Leitfäden. Jede Datei beschreibt, wie du eine bestimmte Art von Aufgabe erledigt haben möchtest—sowohl für **Menschen**, die die Arbeit machen, als für **LLMs**, die du mit demselben Text briefst. Nach Sprache und Bereich geordnet, damit du schnell findest, verlinkst oder anhängst, was passt.
 
 | Datei | Inhalt |
 |---|---|
@@ -172,7 +183,7 @@ Themenbezogene Instruktionsdateien. Jede erklärt, wie du eine bestimmte Art von
 | `social-short-form.md` | Kurze Social-Posts (LinkedIn, Meta, Threads, Bluesky) |
 | `speeches-and-talks.md` | Reden entwerfen und halten: eine Kernbotschaft, drei Beats |
 | `storytelling.md` | Marie Lampert: Struktur, fünf Elemente, Dramaturgie |
-| `writing-a-story.md` | Menschenzentrierte Geschichten (Diakonie-Stil) |
+| `writing-a-story.md` | Menschenzentrierte Geschichten für NGOs und soziale Organisationen |
 | **Englisch — Recherche & Analyse** | |
 | `desk-research.md` | Planen, Suchen, Protokollieren, Triangulieren |
 | `interviewing-people.md` | Recherche-Interviews: Einwilligung, offene Fragen, Ethik |
@@ -180,6 +191,14 @@ Themenbezogene Instruktionsdateien. Jede erklärt, wie du eine bestimmte Art von
 | `notes-and-synthesis.md` | Atomare Notizen; Synthese zu Entwurf; Herkunft erhalten |
 | `reading-statistics-plainly.md` | Prozent vs. Prozentpunkte, Basisraten, Korrelation, Stichproben |
 | `source-evaluation-and-fact-checking.md` | CRAAP, primär/sekundär, Verifizieren, KI-Fabrikationen |
+| **Deutsch — Coding** | |
+| `barrierefreiheit-im-code.md` | Barrierefreiheit im Web-Code: Semantik, Tastatur, ARIA, Kontrast, Tests |
+| `coding-best-practices.md` | Allgemeine Coding-Standards und -Muster |
+| `git-und-commits.md` | Branch-Namen, Conventional Commits, PR-Hygiene, Recovery |
+| `react-best-practices.md` | React-spezifische Konventionen |
+| `react-app-aufsetzen.md` | Schritt-für-Schritt-Setup für neue React-Projekte |
+| `teststrategie.md` | Unit / Integration / E2E, Mocking, Flakyness, Coverage als Signal |
+| `typescript-best-practices.md` | Strict Mode, Narrowing, Discriminated Unions, Boundaries |
 | **Deutsch — Design** | |
 | `barrierefreies-design.md` | Design-Seite der Barrierefreiheit: Layout, Ziele, Fokus, Reflow |
 | `datenvisualisierung-grundlagen.md` | Diagramme und Datengrafiken |
@@ -217,15 +236,15 @@ Themenbezogene Instruktionsdateien. Jede erklärt, wie du eine bestimmte Art von
 | `respektvolle-sprache.md` | Respektvolle Sprache |
 | `social-kurzformate.md` | Kurzformate sozialer Medien |
 | `spendenaufrufe.md` | Spender:innen-Ansprache: Eine Person, ein Bedarf, ein Appell |
-| `stories-schreiben.md` | Geschichten im Diakonie-Stil |
+| `stories-schreiben.md` | Menschenzentrierte Geschichten für NGOs und soziale Organisationen |
 | `storytelling.md` | Storytelling nach Marie Lampert (Struktur, Dramaturgie) |
 
 ---
 
 ## Einen neuen Skill hinzufügen
 
-1. Erstelle eine Markdown-Datei unter `skills/<sprache>/<thema>/dein-skill.md`.
-2. Schreibe sie als direkte Anweisung — als würdest du jemanden vor Beginn einer Aufgabe briefen.
-3. Halte sie auf ein Thema fokussiert. Kürzere Dateien lassen sich einfacher anhängen und verarbeiten.
+1. Erstelle eine Markdown-Datei unter `library/<sprache>/<thema>/dein-skill.md`.
+2. Schreibe sie als direkte Anweisung — als würdest du eine Kollegin oder einen Kollegen (oder eine Assistenz) vor Beginn einer Aufgabe briefen.
+3. Halte sie auf ein Thema fokussiert. Kürzere Dateien lassen sich leichter überfliegen, im Team teilen, an Chats anhängen und in RAG- oder Agent-Kontext laden.
 
 ---

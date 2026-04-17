@@ -52,7 +52,7 @@ Vague releases ("for our work") fail. Good phrasing names:
 
 - the **project** or **campaign**
 - the **type of media** ("photo portrait and a quote of up to three sentences")
-- the **channels** with examples ("our website diakonie.example, our Instagram, and a printed annual report 2026")
+- the **channels** with examples ("our website ngo.example, our Instagram, and a printed annual report 2026")
 - the **timeframe** ("until the end of 2028, then deleted")
 
 ## 3. Informed means readable

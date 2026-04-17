@@ -1,27 +1,30 @@
 # "skills"
 
-A personal monorepo of Markdown files that teach AI assistants how you want specific things done — without having to re-explain every session.
+A personal monorepo of Markdown reference docs—workflows, standards, and checklists for **you and your team**, and for **LLMs** when you want assistants to follow the same rules without re-explaining them every time.
 
 ---
 
 ## What this is
 
-Most AI tools let you upload a document, paste context into a memory/library tab, or attach files to a chat. This repo is a single place to store all the reference material you'd want an AI to have: writing styles, coding conventions, design preferences, communication norms, and more.
+This repo is one place to keep the material you care about: writing style, coding conventions, design preferences, communication norms, and more. **Humans** can read it straight from Git—onboarding, handoffs, runbooks, or a quick refresher. **Language models** can use the same files when you paste them, attach them to a chat, or load them into a project library or RAG index.
 
-Think of it less as code and more as a **personal knowledge base for AI**. Each file is a self-contained set of instructions on one topic. Drop the relevant file into a chat and the AI picks up your preferences immediately.
+Each file is a self-contained guide to one topic: clear enough to follow yourself, structured enough for a model to apply consistently.
 
 ---
 
 ## How to use it
 
+**Read it as documentation**
+Open any file in the repo and use it like a handbook—checklists before a release, a comms workflow, or a coding standard your whole team can agree on.
+
 **In a chat (upload or paste)**
-Upload or paste the contents of any skill file when starting a task related to that topic. The AI will follow your documented approach instead of guessing or defaulting to generic advice.
+When you work with an AI assistant, upload or paste the relevant file so the model follows your documented approach instead of guessing or defaulting to generic advice.
 
 **In a memory or library tab**
-Tools like ChatGPT (Memory), Claude (Projects), Notion AI, and others let you store persistent context. Add the files most relevant to your daily work so every session starts with your preferences already loaded.
+Tools like ChatGPT (Memory), Claude (Projects), Notion AI, and others let you store persistent context. Add the files you rely on so both you and the model can reuse the same baseline every session.
 
 **In Cursor / coding agents**
-The `agents.md` file at the root doubles as an `AGENTS.md` — a project-level instruction file that Cursor and other agentic coding tools read automatically. No extra setup needed.
+The `agents.md` file at the root doubles as an `AGENTS.md` — a project-level instruction file that Cursor and other agentic coding tools read automatically. It complements the `library/` docs: humans read them in-repo; agents can load them when configured. No extra setup needed.
 
 ---
 
@@ -31,7 +34,7 @@ The `agents.md` file at the root doubles as an `AGENTS.md` — a project-level i
 /
 ├── agents.md                  # Global coding conventions (also works as AGENTS.md)
 ├── README.md                  # This file
-└── skills/
+└── library/
     ├── en/
     │   ├── coding/
     │   │   ├── accessibility-in-code.md
@@ -81,6 +84,14 @@ The `agents.md` file at the root doubles as an `AGENTS.md` — a project-level i
     │       ├── reading-statistics-plainly.md
     │       └── source-evaluation-and-fact-checking.md
     └── de/
+        ├── coding/
+        │   ├── barrierefreiheit-im-code.md
+        │   ├── coding-best-practices.md
+        │   ├── git-und-commits.md
+        │   ├── react-best-practices.md
+        │   ├── react-app-aufsetzen.md
+        │   ├── teststrategie.md
+        │   └── typescript-best-practices.md
         ├── design/
         │   ├── barrierefreies-design.md
         │   ├── datenvisualisierung-grundlagen.md
@@ -124,11 +135,11 @@ The `agents.md` file at the root doubles as an `AGENTS.md` — a project-level i
 
 ### `agents.md`
 
-Top-level coding conventions file. Covers folder structure, React scaffolding, TypeScript rules, UI design principles, testing strategy, git hygiene, and more. Used by Cursor automatically; also useful for any coding assistant.
+Top-level coding conventions file. Covers folder structure, React scaffolding, TypeScript rules, UI design principles, testing strategy, git hygiene, and more. Read it yourself as the project’s coding contract; Cursor and similar tools can pick it up automatically as `AGENTS.md`.
 
-### `skills/`
+### `library/`
 
-Topic-specific instruction files. Each one explains how you want a particular type of task handled. Organized by language and domain so you can quickly find and attach what's relevant.
+Topic-specific guides. Each explains how you want a particular kind of task handled—useful for **people** doing the work and for **LLMs** you brief with the same text. Organized by language and domain so you can browse, link, or attach what’s relevant.
 
 | File | What it covers |
 |---|---|
@@ -171,7 +182,7 @@ Topic-specific instruction files. Each one explains how you want a particular ty
 | `social-short-form.md` | Short social posts (LinkedIn, Meta, Threads, Bluesky) |
 | `speeches-and-talks.md` | Scripting and delivering talks: one takeaway, three beats, on time |
 | `storytelling.md` | Marie Lampert storytelling: structure, five elements, dramaturgy |
-| `writing-a-story.md` | Human-centered nonprofit storytelling (Diakonie-style) |
+| `writing-a-story.md` | Human-centered nonprofit / social-sector storytelling |
 | **English — research & analysis** | |
 | `desk-research.md` | Planning, searching, logging, triangulating non-empirical research |
 | `interviewing-people.md` | Research interviews: consent, open questions, listening, ethics |
@@ -179,6 +190,14 @@ Topic-specific instruction files. Each one explains how you want a particular ty
 | `notes-and-synthesis.md` | Atomic notes, synthesis from notes to draft, provenance preserved |
 | `reading-statistics-plainly.md` | Percent vs. pp, base rates, correlation, sampling, honest numbers |
 | `source-evaluation-and-fact-checking.md` | CRAAP, primary vs. secondary, verification, AI fabrications |
+| **German — coding** | |
+| `barrierefreiheit-im-code.md` | Barrierefreiheit im Web-Code: Semantik, Tastatur, ARIA, Kontrast, Tests |
+| `coding-best-practices.md` | Allgemeine Coding-Standards und -Muster |
+| `git-und-commits.md` | Branch-Namen, Conventional Commits, PR-Hygiene, Recovery |
+| `react-best-practices.md` | React-spezifische Konventionen |
+| `react-app-aufsetzen.md` | Schritt-für-Schritt-Setup für neue React-Projekte |
+| `teststrategie.md` | Unit / Integration / E2E, Mocking, Flakyness, Coverage als Signal |
+| `typescript-best-practices.md` | Strict Mode, Narrowing, Discriminated Unions, Boundaries |
 | **German — design** | |
 | `barrierefreies-design.md` | Design-Seite der Barrierefreiheit: Layout, Ziele, Fokus, Reflow |
 | `datenvisualisierung-grundlagen.md` | Diagramme und Datengrafiken |
@@ -216,15 +235,15 @@ Topic-specific instruction files. Each one explains how you want a particular ty
 | `respektvolle-sprache.md` | Respektvolle Sprache |
 | `social-kurzformate.md` | Kurzformate sozialer Medien |
 | `spendenaufrufe.md` | Spender:innen-Ansprache: Eine Person, ein Bedarf, ein Appell |
-| `stories-schreiben.md` | Geschichten im Diakonie-Stil |
+| `stories-schreiben.md` | Menschenzentrierte Geschichten für NGOs und soziale Organisationen |
 | `storytelling.md` | Storytelling nach Marie Lampert (Struktur, Dramaturgie) |
 
 ---
 
 ## Adding a new skill
 
-1. Create a Markdown file under `skills/<language>/<topic>/your-skill.md`.
-2. Write it as a direct instruction set — as if briefing someone before they start a task.
-3. Keep it focused on one topic. Shorter files are easier to attach and parse.
+1. Create a Markdown file under `library/<language>/<topic>/your-skill.md`.
+2. Write it as a direct instruction set — as if briefing a colleague (or an assistant) before they start a task.
+3. Keep it focused on one topic. Shorter files are easier to skim, share with teammates, attach to chats, and load into RAG or agent context.
 
 ---

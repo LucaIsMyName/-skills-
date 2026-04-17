@@ -11,7 +11,7 @@
 
 ## Zweck
 
-Dieses "skill" erklärt, **wie man klare und professionelle Pressemitteilungen für soziale Organisationen verfasst**.
+Dieses Dokument erklärt, **wie man klare und professionelle Pressemitteilungen für soziale Organisationen verfasst**.
 
 Ziel: Themen, Projekte und Herausforderungen so kommunizieren, dass sie **verständlich, glaubwürdig und gesellschaftlich relevant** sind.
 
@@ -66,13 +66,13 @@ Der erste Absatz beantwortet:
 
 ### ❌ Schlecht
 
-```text id="h0c8pw"
+```text
 Unsere Organisation startet ein wichtiges neues Projekt.
 ```
 
 ### ✅ Gut
 
-```text id="l5o3nq"
+```text
 In Wien startet ab Mai ein neues Beratungsangebot für wohnungslose Menschen, um den Zugang zu medizinischer Versorgung zu verbessern.
 ```
 
@@ -93,13 +93,13 @@ Die Überschrift sollte:
 
 ### ❌ Schlecht
 
-```text id="z6d1pl"
+```text
 Ein Meilenstein für eine bessere Zukunft
 ```
 
 ### ✅ Gut
 
-```text id="7x2l9y"
+```text
 Neues Beratungsangebot verbessert Zugang zu Gesundheitsversorgung für wohnungslose Menschen
 ```
 
@@ -115,13 +115,13 @@ Zeige, **wen es betrifft und was sich verändert**.
 
 ### ❌ Schlecht
 
-```text id="r2kqf1"
+```text
 Das Projekt umfasst mehrere Maßnahmen zur Optimierung bestehender Prozesse.
 ```
 
 ### ✅ Gut
 
-```text id="m8y4vd"
+```text
 Das Angebot hilft Betroffenen, schneller medizinische Hilfe zu erhalten.
 ```
 
@@ -143,13 +143,13 @@ sein.
 
 ### ❌ Schlecht
 
-```text id="u9s2cn"
+```text
 Obdachlose haben große Probleme.
 ```
 
 ### ✅ Gut
 
-```text id="j3p7ea"
+```text
 Menschen ohne festen Wohnsitz stehen oft vor erheblichen Hürden beim Zugang zu Unterstützung.
 ```
 
@@ -166,13 +166,13 @@ Menschen ohne festen Wohnsitz stehen oft vor erheblichen Hürden beim Zugang zu 
 
 ### ❌ Schlecht
 
-```text id="6g5ftr"
+```text
 Die Implementierung niedrigschwelliger Unterstützungsangebote erfolgt im Rahmen eines mehrstufigen Konzepts.
 ```
 
 ### ✅ Gut
 
-```text id="n1xk8v"
+```text
 Das Angebot ist leicht zugänglich und ohne große Hürden nutzbar.
 ```
 
@@ -205,7 +205,7 @@ Das Angebot ist leicht zugänglich und ohne große Hürden nutzbar.
 
 ### Beispiel
 
-```text id="o4v2jd"
+```text
 "Der Bedarf an niedrigschwelliger Unterstützung ist in den letzten Jahren deutlich gestiegen", sagt eine Projektverantwortliche.
 ```
 
@@ -229,13 +229,13 @@ Das Angebot ist leicht zugänglich und ohne große Hürden nutzbar.
 
 ### ❌ Schlecht
 
-```text id="k3d8af"
+```text
 Ein revolutionäres Projekt, das alles verändert.
 ```
 
 ### ✅ Gut
 
-```text id="y7q2mz"
+```text
 Ein neues Angebot, das bestehende Lücken in der Versorgung schließt.
 ```
 
