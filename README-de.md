@@ -50,10 +50,12 @@ Die Datei `agents.md` im Root-Verzeichnis funktioniert gleichzeitig als `AGENTS.
     │       ├── accessibility-for-comms.md
     │       ├── crisis-and-sensitive-topics.md
     │       ├── easy-read-english.md
+    │       ├── heroes-journey.md
     │       ├── newsletter-and-email.md
     │       ├── press-statement-basics.md
     │       ├── respectful-language.md
     │       ├── social-short-form.md
+    │       ├── storytelling.md
     │       └── writing-a-story.md
     └── de/
         ├── design/
@@ -66,13 +68,15 @@ Die Datei `agents.md` im Root-Verzeichnis funktioniert gleichzeitig als `AGENTS.
         │   └── motion-und-micro-interactions.md
         └── sprache-und-kommunikation/
             ├── barrierefreiheit-kommunikation.md
+            ├── die-heldenreise.md
             ├── einfache-sprache.md
             ├── krise-und-sensible-themen.md
             ├── newsletter-und-e-mail.md
             ├── pressemitteilungen-schreiben.md
             ├── respektvolle-sprache.md
             ├── social-kurzformate.md
-            └── stories-schreiben.md
+            ├── stories-schreiben.md
+            └── storytelling.md
 ```
 
 ### `agents.md`
@@ -101,10 +105,12 @@ Themenbezogene Instruktionsdateien. Jede erklärt, wie du eine bestimmte Art von
 | `accessibility-for-comms.md` | Inklusive Kommunikation (EN): Texte, Briefings, Sprechen—kein Dev/UI-Code |
 | `crisis-and-sensitive-topics.md` | Krisenkommunikation, Holding Statements, Eskalation |
 | `easy-read-english.md` | Klares, zugängliches Englisch |
+| `heroes-journey.md` | The Hero’s Journey (EN): 12-beat narrative arc |
 | `newsletter-and-email.md` | Newsletter und E-Mail, CTAs, rechtliche Platzhalter |
 | `press-statement-basics.md` | Pressemitteilungen |
 | `respectful-language.md` | Respektvolle, würdezentrierte Sprache |
 | `social-short-form.md` | Kurze Social-Posts (LinkedIn, Meta, Threads, Bluesky) |
+| `storytelling.md` | Marie Lampert: Struktur, fünf Elemente, Dramaturgie |
 | `writing-a-story.md` | Menschenzentrierte Geschichten (Diakonie-Stil) |
 | **Deutsch — Design** | |
 | `datenvisualisierung-grundlagen.md` | Diagramme und Datengrafiken |
@@ -116,6 +122,7 @@ Themenbezogene Instruktionsdateien. Jede erklärt, wie du eine bestimmte Art von
 | `motion-und-micro-interactions.md` | Motion, reduzierte Bewegung, Ladezustände |
 | **Deutsch — Sprache & Kommunikation** | |
 | `barrierefreiheit-kommunikation.md` | Inklusive Kommunikation: Texte, Briefings, Sprechen—Bildbeschreibungen, Links, Untertitel-Planung (kein Dev/UI-Code) |
+| `die-heldenreise.md` | Die Heldenreise: 12 Stationen (Erzählstruktur) |
 | `einfache-sprache.md` | Einfache Sprache |
 | `krise-und-sensible-themen.md` | Krise und sensible Themen |
 | `newsletter-und-e-mail.md` | Newsletter und E-Mail |
@@ -123,6 +130,7 @@ Themenbezogene Instruktionsdateien. Jede erklärt, wie du eine bestimmte Art von
 | `respektvolle-sprache.md` | Respektvolle Sprache |
 | `social-kurzformate.md` | Kurzformate sozialer Medien |
 | `stories-schreiben.md` | Geschichten im Diakonie-Stil |
+| `storytelling.md` | Storytelling nach Marie Lampert (Struktur, Dramaturgie) |
 
 ---
 
