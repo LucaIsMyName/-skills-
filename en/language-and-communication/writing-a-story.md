@@ -12,6 +12,30 @@ The goal is to tell stories that:
 
 👉 Not abstract topics — but **people in real situations**
 
+## AI / prompt: completeness before drafting
+
+Before drafting a story, the prompt must include **concrete and meta information**. If anything material is missing, **ask targeted follow-up questions** — do not invent facts, quotes, or specifics.
+
+### Concrete
+
+- Who is the person (or: agreed pseudonym / level of anonymization)?
+- What is the situation, context, organization or services (names, correct spellings)?
+- When and where does the story take place (if relevant)?
+- Which **fact-based** details, scenes, or sequences are allowed and approved?
+- Are there **approved quotes**, or should you paraphrase only?
+- **Consent and privacy:** What may be published? What are the boundaries?
+- Format: length, medium (web, print, social), language or locale (e.g. en-GB)
+
+### Meta
+
+- Audience and main message
+- Desired tone and emotional register (within this skill’s guardrails)
+- What the reader should **take away** (understanding, respect, perspective)
+- What is **off-limits**, to avoid, or especially sensitive
+- How this maps to the rest of this skill (structure, ethical guidelines)
+
+👉 Before publishing, also use the **Checklist** at the end of this file.
+
 ---
 
 ## Core Principle
@@ -192,8 +216,8 @@ Describe:
 
 ### 1. Show, don’t tell
 
-❌ “He has a structured day”
-✅ “Every morning, he checks his schedule before leaving the house”
+❌ “She has a busy day supporting others”
+✅ “Before the lunch group starts, she lays out name cards and checks who needs a quieter seat”
 
 ---
 

@@ -6,6 +6,30 @@ This skill explains **how to write clear, professional press statements**.
 
 The goal: communicate information that is **accurate, credible, and easy to understand** — especially for journalists and the public.
 
+## AI / prompt: completeness before drafting
+
+Before drafting, the prompt must include **all relevant facts and constraints**, or you must **ask for them**. Do **not** invent anything that matters for accuracy, attribution, or follow-up.
+
+### Concrete
+
+- Who is involved or issuing the statement (organization, spokespeople, correct names and titles)?
+- What exactly is the news or announcement?
+- When, where, and how (launch, event, availability)?
+- Why it matters — the **core message** and relevance
+- **Numbers, facts, quotes** only from the user; otherwise mark placeholders and ask
+- Contact for media, boilerplate, links for more detail (if applicable)
+- Embargo timing (if any)
+- Target length or channel (if specified)
+
+### Meta
+
+- Primary message and desired angle
+- Audience (trade, regional, general public)
+- Tone: neutral, factual, and appropriate level of accessibility
+- **No** identifying details about individuals without clear approval
+
+👉 The structure in the sections below only works if the prompt fills these slots.
+
 ---
 
 ## Core Mindset
@@ -35,13 +59,13 @@ The first paragraph should answer:
 ### ❌ Bad
 
 ```text
-We are excited to announce something amazing.
+Our charity is delighted to share some truly wonderful news with you all.
 ```
 
 ### ✅ Good
 
 ```text
-Acme Inc. announced the launch of a new AI platform on Monday in London.
+The Riverside Community Trust opens a new weekly advice session for families on low incomes in Bristol on Monday.
 ```
 
 👉 The reader should understand the core message immediately.
@@ -61,13 +85,13 @@ The headline should be:
 ### ❌ Bad
 
 ```text
-Revolutionizing the Future of Innovation
+Hope for a Better Tomorrow
 ```
 
 ### ✅ Good
 
 ```text
-Acme Inc. Launches New AI Platform for Data Analysis
+City Food Bank Opens New Weekend Collection Point in Riverside
 ```
 
 👉 Avoid vague or exaggerated language.
@@ -83,13 +107,13 @@ Use short sentences and paragraphs.
 ### ❌ Bad
 
 ```text
-The company, which has been operating successfully for many years, is now proud to introduce a groundbreaking new solution that...
+The organization, which for many years has pursued a mission of holistic empowerment, is pleased to unveil a multi-phase initiative that will...
 ```
 
 ### ✅ Good
 
 ```text
-The company introduced a new solution. It improves data processing speed.
+The trust launched a night shelter for rough sleepers. It adds 20 beds this winter.
 ```
 
 👉 One idea per sentence.
@@ -105,13 +129,13 @@ Avoid hype, exaggeration, or emotional language.
 ### ❌ Bad
 
 ```text
-An incredible, game-changing product!
+An incredible, life-changing programme that will transform everything!
 ```
 
 ### ✅ Good
 
 ```text
-A new product with improved performance.
+A new debt advice service with longer opening hours.
 ```
 
 👉 Let facts speak for themselves.
@@ -162,7 +186,7 @@ A new product with improved performance.
 ### Example
 
 ```text
-"This launch represents a major step forward," said the CEO.
+"This means we can see people the same week they ask for help," said the programme director.
 ```
 
 👉 Quotes should add meaning, not repeat facts.
@@ -174,13 +198,13 @@ A new product with improved performance.
 ### ❌ Bad
 
 ```text
-A scalable, cutting-edge, next-generation solution
+A scalable, transformative, next-generation wraparound ecosystem
 ```
 
 ### ✅ Good
 
 ```text
-A system that can handle growing amounts of data
+A helpline that can take more calls when demand goes up
 ```
 
 👉 Write for a general audience, not insiders.
@@ -196,13 +220,13 @@ Use concrete, verifiable statements.
 ### ❌ Bad
 
 ```text
-Soon, the product will change everything.
+Soon our work will change everything for everyone.
 ```
 
 ### ✅ Good
 
 ```text
-The product will be available starting June 2026.
+Volunteer induction training starts on 15 September 2026.
 ```
 
 👉 Specifics build credibility.

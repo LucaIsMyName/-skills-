@@ -2,7 +2,7 @@
 
 ## Zweck
 
-Diese "skill"" beschreibt, wie **menschenzentrierte, respektvolle und lebendige Geschichten** im Stil der Diakonie Österreich geschrieben werden.
+Diese "skill" beschreibt, wie **menschenzentrierte, respektvolle und lebendige Geschichten** im Stil der Diakonie Österreich geschrieben werden.
 
 Das Ziel ist es, Geschichten zu erzählen, die:
 
@@ -11,6 +11,30 @@ Das Ziel ist es, Geschichten zu erzählen, die:
 - **soziale Themen durch einzelne Menschen verständlich machen**
 
 👉 Nicht abstrakte Themen – sondern **Menschen in konkreten Situationen**
+
+## KI / Prompt: Vollständigkeit vor dem Schreiben
+
+Bevor eine Geschichte entworfen wird, muss der Prompt **konkrete und Meta-Informationen** enthalten. Fehlt Wesentliches, **zielgerichtet nachfragen** – keine Fakten, Zitate oder Einzelheiten erfinden.
+
+### Konkret
+
+- Wer ist die Person (oder: welches Pseudonym / welche Anonymisierung ist vereinbart)?
+- Was ist die Situation, der Kontext, die Organisation bzw. die Angebote (Namen, korrekte Schreibweisen)?
+- Wann und wo spielt die Geschichte (falls relevant)?
+- Welche **faktenbasierten** Details, Szenen oder Abläufe sind erlaubt und freigegeben?
+- Gibt es **genehmigte Zitate** oder soll nur sinngemäß paraphrasiert werden?
+- **Einwilligung und Datenschutz:** Was darf veröffentlicht werden? Welche Grenzen?
+- Format: Länge, Medium (Web, Print, Social), Sprache bzw. Sprachvariante (z. B. de-AT)
+
+### Meta
+
+- Zielgruppe und Hauptbotschaft
+- Gewünschter Ton und Stärke der emotionalen Ansprache (im Rahmen dieses Skills)
+- Was soll die Leserin bzw. der Leser **mitnehmen** (Verständnis, Respekt, Perspektive)?
+- Was ist **tabu**, zu vermeiden oder besonders sensibel?
+- Bezug zu den folgenden Abschnitten dieses Skills (Aufbau, ethische Richtlinien)
+
+👉 Vor der Veröffentlichung zusätzlich die **Checkliste** am Ende dieser Datei nutzen.
 
 ---
 
@@ -190,8 +214,8 @@ Beschreibe:
 
 ### 1. Zeigen, nicht erklären
 
-❌ „Er hat einen strukturierten Tag“  
-✅ „Jeden Morgen schaut er zuerst in seinen Kalender, bevor er das Haus verlässt“
+❌ „Sie hat einen vollen Tag mit viel Verantwortung“  
+✅ „Bevor die Mittagsgruppe beginnt, legt sie Kärtchen mit Namen hin und fragt, wer heute einen ruhigeren Platz braucht“
 
 ---
 

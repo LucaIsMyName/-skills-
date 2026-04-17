@@ -8,6 +8,22 @@ This skill explains how to use **respectful, dignity-centered language** when ta
 
 👉 Language is not neutral. It shapes how we think, feel, and treat others.
 
+## AI / prompt: completeness before drafting
+
+Before rewriting or drafting text, **clarify context**. **Ask** about gaps — do not guess sensitive wording or facts.
+
+### Concrete
+
+- Which **text** or topic (quote, excerpt, bullet points)?
+- Audience and medium (internal, public, plain language, specialist readers …)
+- Any **required terms** or organizational glossary?
+
+### Meta
+
+- Which **domains** apply (e.g. poverty, disability, migration) so the right sections of this file apply
+- **Sensitivity:** what to avoid or explicitly prefer
+- Rewrite vs. new draft; desired length or format
+
 ---
 
 ## Core Idea

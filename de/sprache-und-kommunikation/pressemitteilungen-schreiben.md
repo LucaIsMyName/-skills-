@@ -6,6 +6,30 @@ Dieses "skill" erklärt, **wie man klare und professionelle Pressemitteilungen f
 
 Ziel: Themen, Projekte und Herausforderungen so kommunizieren, dass sie **verständlich, glaubwürdig und gesellschaftlich relevant** sind.
 
+## KI / Prompt: Vollständigkeit vor dem Schreiben
+
+Bevor ein Text entsteht, müssen alle **relevanten Fakten und Rahmenbedingungen** im Prompt stehen oder aktiv erfragt werden. **Nichts erfinden**, das journalistisch oder organisatorisch relevant ist.
+
+### Konkret
+
+- Wer ist betroffen bzw. wer handelt (Organisation, Ansprechpersonen, korrekte Namen und Titel)?
+- Was genau ist die Neuigkeit oder Meldung?
+- Wann, wo und wie (Start, Veranstaltung, Verfügbarkeit)?
+- Warum ist das **gesellschaftlich relevant** (Kernbotschaft)?
+- **Zahlen, Fakten, Zitate** nur mit Nutzerangabe; sonst Platzhalter kennzeichnen und nachfragen
+- Kontakt für Rückfragen, Medienkontakt, ggf. Boilerplate
+- Embargo, ggf. Links zu weiteren Informationen
+- Ziel-Länge oder Kanal (falls vorgegeben)
+
+### Meta
+
+- Primäre Nachricht und gewünschter Winkel
+- Zielgruppe (Fachpresse, Regional, allgemein)
+- Ton: sachlich und menschenzentriert, welche Nuancen
+- **Keine** identifizierenden Details zu Personen ohne klare Freigabe
+
+👉 Die Struktur in den folgenden Abschnitten lässt sich sinnvoll füllen, wenn der Prompt diese Punkte abdeckt.
+
 ---
 
 ## Grundprinzip

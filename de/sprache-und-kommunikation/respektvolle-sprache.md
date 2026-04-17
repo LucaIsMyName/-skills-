@@ -2,9 +2,25 @@
 
 ## Zweck
 
-Dieser "skill"" zeigt, wie man **respektvoll und würde-achtend über soziale Themen und Menschen spricht**.
+Dieser "skill" zeigt, wie man **respektvoll und würde-achtend über soziale Themen und Menschen spricht**.
 
 👉 Sprache ist nicht neutral – sie prägt unser Denken und Handeln.
+
+## KI / Prompt: Vollständigkeit vor dem Schreiben
+
+Bevor Texte umformuliert oder neu erstellt werden, **Kontext klären**. Offene Lücken **zielgerichtet nachfragen**, nicht raten.
+
+### Konkret
+
+- Welcher **Text** oder welches Thema (Zitat, Ausschnitt, Stichworte)?
+- Zielgruppe und Medium (intern, öffentlich, einfache Sprache, Fachpublikum …)
+- Gibt es **vorgegebene Begriffe** oder ein Glossar der Organisation?
+
+### Meta
+
+- Welche **Sachbereiche** sind betroffen (z. B. Armut, Behinderung, Migration), damit die passenden Abschnitte dieser Datei greifen
+- **Sensibilität:** Was ist besonders zu vermeiden oder ausdrücklich gewünscht?
+- Reformulierung oder Neuerstellung; gewünschte Länge oder Format
 
 ---
 
