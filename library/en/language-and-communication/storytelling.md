@@ -1,6 +1,6 @@
 # Storytelling
 
-**Scope:** Effective storytelling in the **Marie Lampert** sense (structure, emotion, clarity) for copy, campaigns, and speeches; **not** a substitute for **approved reporting on real people**—use [`writing-a-story.md`](writing-a-story.md), [`respectful-language.md`](respectful-language.md), and optionally [`heroes-journey.md`](heroes-journey.md).
+**Scope:** Effective storytelling (structure, emotion, clarity) for copy, campaigns, and speeches; **not** a substitute for **approved reporting on real people**—use [`writing-a-story.md`](writing-a-story.md), [`respectful-language.md`](respectful-language.md), and optionally [`heroes-journey.md`](heroes-journey.md).
 
 ## Excerpt (read this first)
 

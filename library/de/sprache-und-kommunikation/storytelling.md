@@ -29,7 +29,7 @@ Bevor Geschichten ausgearbeitet werden, **konkrete und Meta-Angaben** klären. F
 
 ## Zweck
 
-Diese "Skill" beschreibt, wie **wirksames Storytelling nach Marie Lampert** funktioniert – mit Fokus auf Struktur, Emotion und Verständlichkeit.
+Diese "Skill" beschreibt, wie **wirksames Storytelling** funktioniert – mit Fokus auf Struktur, Emotion und Verständlichkeit.
 
 Das Ziel ist es, Geschichten zu erzählen, die:
 
