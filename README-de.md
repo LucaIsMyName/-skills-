@@ -68,17 +68,22 @@ Die Datei `agents.md` im Root-Verzeichnis funktioniert gleichzeitig als `AGENTS.
     │   │   ├── crisis-and-sensitive-topics.md
     │   │   ├── easy-read-english.md
     │   │   ├── fundraising-appeals.md
+    │   │   ├── grant-writing.md
     │   │   ├── heroes-journey.md
     │   │   ├── interview-preparation.md
     │   │   ├── newsletter-and-email.md
+    │   │   ├── nonprofit-web-content.md
     │   │   ├── press-statement-basics.md
     │   │   ├── respectful-language.md
     │   │   ├── social-short-form.md
     │   │   ├── speeches-and-talks.md
     │   │   ├── storytelling.md
+    │   │   ├── volunteer-comms.md
+    │   │   ├── workshop-facilitation.md
     │   │   └── writing-a-story.md
     │   └── research-and-analysis/
     │       ├── desk-research.md
+    │       ├── impact-and-annual-reporting.md
     │       ├── interviewing-people.md
     │       ├── literature-summarising.md
     │       ├── notes-and-synthesis.md
@@ -117,11 +122,14 @@ Die Datei `agents.md` im Root-Verzeichnis funktioniert gleichzeitig als `AGENTS.
         │   ├── notizen-und-synthese.md
         │   ├── quellenbewertung-und-faktencheck.md
         │   ├── recherche-grundlagen.md
-        │   └── statistik-einfach-lesen.md
+        │   ├── statistik-einfach-lesen.md
+        │   └── wirkung-und-jahresberichte.md
         └── sprache-und-kommunikation/
             ├── barrierefreiheit-kommunikation.md
             ├── die-heldenreise.md
             ├── einfache-sprache.md
+            ├── foerderantraege-und-projektskizzen.md
+            ├── freiwillige-kommunikation.md
             ├── interview-vorbereitung.md
             ├── krise-und-sensible-themen.md
             ├── newsletter-und-e-mail.md
@@ -131,7 +139,9 @@ Die Datei `agents.md` im Root-Verzeichnis funktioniert gleichzeitig als `AGENTS.
             ├── social-kurzformate.md
             ├── spendenaufrufe.md
             ├── stories-schreiben.md
-            └── storytelling.md
+            ├── storytelling.md
+            ├── web-inhalte-und-findbarkeit.md
+            └── workshops-und-moderation.md
 ```
 
 ### `agents.md`
@@ -175,17 +185,22 @@ Themenbezogene Leitfäden. Jede Datei beschreibt, wie du eine bestimmte Art von 
 | `crisis-and-sensitive-topics.md` | Krisenkommunikation, Holding Statements, Eskalation |
 | `easy-read-english.md` | Klares, zugängliches Englisch |
 | `fundraising-appeals.md` | Spender:innen-Ansprache: Eine Person, ein Bedarf, ein Appell |
+| `grant-writing.md` | Förderanträge und Projektskizzen: Eignung, Wirkung, Budget, Anhänge |
 | `heroes-journey.md` | The Hero’s Journey (EN): 12-beat narrative arc |
 | `interview-preparation.md` | Medien-Prep für Sprecher:innen: Message-Map, Brücken, Vortrag |
 | `newsletter-and-email.md` | Newsletter und E-Mail, CTAs, rechtliche Platzhalter |
+| `nonprofit-web-content.md` | Website-Inhalte: Struktur, Überschriften, Meta, interne Verlinkung, Findbarkeit |
 | `press-statement-basics.md` | Pressemitteilungen |
 | `respectful-language.md` | Respektvolle, würdezentrierte Sprache |
 | `social-short-form.md` | Kurze Social-Posts (LinkedIn, Meta, Threads, Bluesky) |
 | `speeches-and-talks.md` | Reden entwerfen und halten: eine Kernbotschaft, drei Beats |
 | `storytelling.md` | Marie Lampert: Struktur, fünf Elemente, Dramaturgie |
+| `volunteer-comms.md` | Freiwillige: Gewinnung, Onboarding, laufende Kommunikation, Würdigung |
+| `workshop-facilitation.md` | Workshops planen und leiten: Sicherheit, Inklusion, Protokoll, Follow-up |
 | `writing-a-story.md` | Menschenzentrierte Geschichten für NGOs und soziale Organisationen |
 | **Englisch — Recherche & Analyse** | |
 | `desk-research.md` | Planen, Suchen, Protokollieren, Triangulieren |
+| `impact-and-annual-reporting.md` | Wirkungs- und Jahresberichte: Kennzahlen, Erzählung, Rechenschaft |
 | `interviewing-people.md` | Recherche-Interviews: Einwilligung, offene Fragen, Ethik |
 | `literature-summarising.md` | Treue Zusammenfassungen: Geltungsbereich, Hedges, Zuschreibung |
 | `notes-and-synthesis.md` | Atomare Notizen; Synthese zu Entwurf; Herkunft erhalten |
@@ -224,10 +239,13 @@ Themenbezogene Leitfäden. Jede Datei beschreibt, wie du eine bestimmte Art von 
 | `quellenbewertung-und-faktencheck.md` | CRAAP, primär/sekundär, Verifizieren, KI-Fabrikationen |
 | `recherche-grundlagen.md` | Planen, Suchen, Protokollieren, Triangulieren |
 | `statistik-einfach-lesen.md` | Prozent vs. Prozentpunkte, Basisraten, Korrelation, Stichproben |
+| `wirkung-und-jahresberichte.md` | Wirkungs- und Jahresberichte: Kennzahlen, Erzählung, Rechenschaft |
 | **Deutsch — Sprache & Kommunikation** | |
 | `barrierefreiheit-kommunikation.md` | Inklusive Kommunikation: Texte, Briefings, Sprechen—Bildbeschreibungen, Links, Untertitel-Planung (kein Dev/UI-Code) |
 | `die-heldenreise.md` | Die Heldenreise: 12 Stationen (Erzählstruktur) |
 | `einfache-sprache.md` | Einfache Sprache |
+| `foerderantraege-und-projektskizzen.md` | Förderanträge und Projektskizzen: Eignung, Wirkung, Budget, Anhänge |
+| `freiwillige-kommunikation.md` | Freiwillige: Gewinnung, Onboarding, laufende Kommunikation, Würdigung |
 | `interview-vorbereitung.md` | Medien-Prep für Sprecher:innen: Message-Map, Brücken, Vortrag |
 | `krise-und-sensible-themen.md` | Krise und sensible Themen |
 | `newsletter-und-e-mail.md` | Newsletter und E-Mail |
@@ -238,6 +256,8 @@ Themenbezogene Leitfäden. Jede Datei beschreibt, wie du eine bestimmte Art von 
 | `spendenaufrufe.md` | Spender:innen-Ansprache: Eine Person, ein Bedarf, ein Appell |
 | `stories-schreiben.md` | Menschenzentrierte Geschichten für NGOs und soziale Organisationen |
 | `storytelling.md` | Storytelling nach Marie Lampert (Struktur, Dramaturgie) |
+| `web-inhalte-und-findbarkeit.md` | Website-Inhalte: Struktur, Überschriften, Meta, interne Verlinkung, Findbarkeit |
+| `workshops-und-moderation.md` | Workshops planen und leiten: Sicherheit, Inklusion, Protokoll, Follow-up |
 
 ---
 

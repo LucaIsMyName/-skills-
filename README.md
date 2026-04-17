@@ -67,17 +67,22 @@ The `agents.md` file at the root doubles as an `AGENTS.md` — a project-level i
     │   │   ├── crisis-and-sensitive-topics.md
     │   │   ├── easy-read-english.md
     │   │   ├── fundraising-appeals.md
+    │   │   ├── grant-writing.md
     │   │   ├── heroes-journey.md
     │   │   ├── interview-preparation.md
     │   │   ├── newsletter-and-email.md
+    │   │   ├── nonprofit-web-content.md
     │   │   ├── press-statement-basics.md
     │   │   ├── respectful-language.md
     │   │   ├── social-short-form.md
     │   │   ├── speeches-and-talks.md
     │   │   ├── storytelling.md
+    │   │   ├── volunteer-comms.md
+    │   │   ├── workshop-facilitation.md
     │   │   └── writing-a-story.md
     │   └── research-and-analysis/
     │       ├── desk-research.md
+    │       ├── impact-and-annual-reporting.md
     │       ├── interviewing-people.md
     │       ├── literature-summarising.md
     │       ├── notes-and-synthesis.md
@@ -174,17 +179,22 @@ Topic-specific guides. Each explains how you want a particular kind of task hand
 | `crisis-and-sensitive-topics.md` | Crisis comms, holding statements, escalation |
 | `easy-read-english.md` | Plain / accessible English text |
 | `fundraising-appeals.md` | Donor-facing appeals: one person, one need, one ask, dignity first |
+| `grant-writing.md` | Grant applications and project proposals: eligibility, outcomes, budget, annexes |
 | `heroes-journey.md` | The Hero’s Journey: 12-beat narrative arc (story structure) |
 | `interview-preparation.md` | Media prep for spokespeople: message map, bridges, delivery |
 | `newsletter-and-email.md` | Email and newsletter structure, CTAs, legal placeholders |
+| `nonprofit-web-content.md` | Website content structure, headings, meta, internal links, content-side findability |
 | `press-statement-basics.md` | Press statements |
 | `respectful-language.md` | Respectful, dignity-centered language |
 | `social-short-form.md` | Short social posts (LinkedIn, Meta, Threads, Bluesky) |
 | `speeches-and-talks.md` | Scripting and delivering talks: one takeaway, three beats, on time |
 | `storytelling.md` | Marie Lampert storytelling: structure, five elements, dramaturgy |
+| `volunteer-comms.md` | Volunteer recruitment, onboarding, ongoing comms, recognition |
+| `workshop-facilitation.md` | Planning and running workshops: safety, inclusion, capture, follow-up |
 | `writing-a-story.md` | Human-centered nonprofit / social-sector storytelling |
 | **English — research & analysis** | |
 | `desk-research.md` | Planning, searching, logging, triangulating non-empirical research |
+| `impact-and-annual-reporting.md` | Impact and annual reports: metrics, narrative, accountability |
 | `interviewing-people.md` | Research interviews: consent, open questions, listening, ethics |
 | `literature-summarising.md` | Faithful summaries: scope, hedges, attribution, commentary split |
 | `notes-and-synthesis.md` | Atomic notes, synthesis from notes to draft, provenance preserved |

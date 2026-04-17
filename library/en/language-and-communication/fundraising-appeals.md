@@ -1,6 +1,6 @@
 # Fundraising appeals
 
-**Scope:** Applies to **donor-facing appeals** in email, letter, landing page, and campaign copy for nonprofit and social-sector work. Not grant applications (see `grant-applications.md` when added) and not major-gift negotiations. Pair with [`writing-a-story.md`](writing-a-story.md), [`respectful-language.md`](respectful-language.md), and [`newsletter-and-email.md`](newsletter-and-email.md).
+**Scope:** Applies to **donor-facing appeals** in email, letter, landing page, and campaign copy for nonprofit and social-sector work. Not grant applications (see [`grant-writing.md`](grant-writing.md)) and not major-gift negotiations. Pair with [`writing-a-story.md`](writing-a-story.md), [`respectful-language.md`](respectful-language.md), and [`newsletter-and-email.md`](newsletter-and-email.md).
 
 ## Excerpt (read this first)
 

@@ -1,6 +1,6 @@
 # Spendenaufrufe
 
-**Geltungsbereich:** Gilt für **Spender:innen-Ansprache** in E-Mail, Brief, Landingpage und Kampagnen-Texten im Non-Profit-Bereich. Nicht Förderanträge (siehe `foerderantraege.md`) und keine Major-Donor-Verhandlungen. Ergänzt [`stories-schreiben.md`](stories-schreiben.md), [`respektvolle-sprache.md`](respektvolle-sprache.md), [`newsletter-und-e-mail.md`](newsletter-und-e-mail.md).
+**Geltungsbereich:** Gilt für **Spender:innen-Ansprache** in E-Mail, Brief, Landingpage und Kampagnen-Texten im Non-Profit-Bereich. Nicht Förderanträge (siehe [`foerderantraege-und-projektskizzen.md`](foerderantraege-und-projektskizzen.md)) und keine Major-Donor-Verhandlungen. Ergänzt [`stories-schreiben.md`](stories-schreiben.md), [`respektvolle-sprache.md`](respektvolle-sprache.md), [`newsletter-und-e-mail.md`](newsletter-und-e-mail.md).
 
 ## Exzerpt (zuerst lesen)
 
