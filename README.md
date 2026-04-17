@@ -34,46 +34,90 @@ The `agents.md` file at the root doubles as an `AGENTS.md` — a project-level i
 └── skills/
     ├── en/
     │   ├── coding/
+    │   │   ├── accessibility-in-code.md
     │   │   ├── coding-best-practices.md
+    │   │   ├── git-and-commits.md
     │   │   ├── react-best-practices.md
-    │   │   └── scaffolding-a-react-app.md
+    │   │   ├── scaffolding-a-react-app.md
+    │   │   ├── testing-strategy.md
+    │   │   └── typescript-best-practices.md
     │   ├── design/
+    │   │   ├── color-and-contrast.md
     │   │   ├── data-visualization-basics.md
+    │   │   ├── design-accessibility.md
     │   │   ├── design-basics.md
     │   │   ├── design-tokens-and-theming.md
     │   │   ├── designing-good-interfaces.md
     │   │   ├── forms-and-input-ux.md
     │   │   ├── motion-and-micro-interactions.md
-    │   │   └── slides-and-presentations.md
-    │   └── language-and-communication/
-    │       ├── accessibility-for-comms.md
-    │       ├── crisis-and-sensitive-topics.md
-    │       ├── easy-read-english.md
-    │       ├── heroes-journey.md
-    │       ├── newsletter-and-email.md
-    │       ├── press-statement-basics.md
-    │       ├── respectful-language.md
-    │       ├── social-short-form.md
-    │       ├── storytelling.md
-    │       └── writing-a-story.md
+    │   │   ├── slides-and-presentations.md
+    │   │   └── typography.md
+    │   ├── ethics-safeguarding-legal/
+    │   │   ├── ai-disclosure-and-policy.md
+    │   │   ├── copyright-and-usage-rights.md
+    │   │   ├── crisis-legal-checklist.md
+    │   │   ├── data-protection-for-comms.md
+    │   │   ├── image-and-quote-releases.md
+    │   │   └── safeguarding-in-comms.md
+    │   ├── language-and-communication/
+    │   │   ├── accessibility-for-comms.md
+    │   │   ├── crisis-and-sensitive-topics.md
+    │   │   ├── easy-read-english.md
+    │   │   ├── fundraising-appeals.md
+    │   │   ├── heroes-journey.md
+    │   │   ├── interview-preparation.md
+    │   │   ├── newsletter-and-email.md
+    │   │   ├── press-statement-basics.md
+    │   │   ├── respectful-language.md
+    │   │   ├── social-short-form.md
+    │   │   ├── speeches-and-talks.md
+    │   │   ├── storytelling.md
+    │   │   └── writing-a-story.md
+    │   └── research-and-analysis/
+    │       ├── desk-research.md
+    │       ├── interviewing-people.md
+    │       ├── literature-summarising.md
+    │       ├── notes-and-synthesis.md
+    │       ├── reading-statistics-plainly.md
+    │       └── source-evaluation-and-fact-checking.md
     └── de/
         ├── design/
+        │   ├── barrierefreies-design.md
         │   ├── datenvisualisierung-grundlagen.md
         │   ├── design-basics.md
         │   ├── design-tokens-und-theming.md
+        │   ├── farbe-und-kontrast.md
         │   ├── folien-und-praesentationen.md
         │   ├── formulare-und-eingaben-ux.md
         │   ├── gute-interfaces-designen.md
-        │   └── motion-und-micro-interactions.md
+        │   ├── motion-und-micro-interactions.md
+        │   └── typografie.md
+        ├── ethik-schutz-recht/
+        │   ├── bild-und-zitatfreigaben.md
+        │   ├── datenschutz-in-der-kommunikation.md
+        │   ├── kinder-und-betroffenenschutz.md
+        │   ├── ki-offenlegung-und-richtlinien.md
+        │   ├── krise-rechts-checkliste.md
+        │   └── urheber-und-nutzungsrechte.md
+        ├── recherche-und-analyse/
+        │   ├── literatur-zusammenfassen.md
+        │   ├── menschen-interviewen.md
+        │   ├── notizen-und-synthese.md
+        │   ├── quellenbewertung-und-faktencheck.md
+        │   ├── recherche-grundlagen.md
+        │   └── statistik-einfach-lesen.md
         └── sprache-und-kommunikation/
             ├── barrierefreiheit-kommunikation.md
             ├── die-heldenreise.md
             ├── einfache-sprache.md
+            ├── interview-vorbereitung.md
             ├── krise-und-sensible-themen.md
             ├── newsletter-und-e-mail.md
             ├── pressemitteilungen-schreiben.md
+            ├── reden-und-vortraege.md
             ├── respektvolle-sprache.md
             ├── social-kurzformate.md
+            ├── spendenaufrufe.md
             ├── stories-schreiben.md
             └── storytelling.md
 ```
@@ -89,45 +133,89 @@ Topic-specific instruction files. Each one explains how you want a particular ty
 | File | What it covers |
 |---|---|
 | **English — coding** | |
+| `accessibility-in-code.md` | Web a11y from the engineering side: semantics, keyboard, ARIA, contrast, testing |
 | `coding-best-practices.md` | General coding standards and patterns |
+| `git-and-commits.md` | Branch naming, conventional commits, PR hygiene, recovery |
 | `react-best-practices.md` | React-specific conventions |
 | `scaffolding-a-react-app.md` | Step-by-step setup for new React projects |
+| `testing-strategy.md` | Unit / integration / E2E, what to mock, flaky tests, coverage as signal |
+| `typescript-best-practices.md` | Strict mode, narrowing, discriminated unions, boundaries, exhaustiveness |
 | **English — design** | |
+| `color-and-contrast.md` | Semantic color roles, WCAG contrast, palettes, theming basics |
 | `data-visualization-basics.md` | Charts and honest data graphics for dashboards and reports |
+| `design-accessibility.md` | Design side of a11y: layout, targets, focus, motion, reflow |
 | `design-basics.md` | Core design principles |
 | `design-tokens-and-theming.md` | Semantic tokens, scales, light/dark themes |
 | `designing-good-interfaces.md` | UI/UX guidelines for interfaces |
 | `forms-and-input-ux.md` | Form layout, labels, validation, input states |
 | `motion-and-micro-interactions.md` | UI motion, reduced motion, loading states |
 | `slides-and-presentations.md` | Slide decks: legibility, structure, templates |
+| `typography.md` | Type scale, measure, leading, pairings, numerals |
+| **English — ethics, safeguarding & legal** | |
+| `ai-disclosure-and-policy.md` | When and how to disclose AI use; prompt hygiene, synthetic media |
+| `copyright-and-usage-rights.md` | Licences, attribution, AI-generated material, nonprofit traps |
+| `crisis-legal-checklist.md` | Legal and rights layer for crisis communications |
+| `data-protection-for-comms.md` | GDPR-shaped floor for photos, quotes, newsletters, analytics |
+| `image-and-quote-releases.md` | Specific, informed, scoped, revocable releases |
+| `safeguarding-in-comms.md` | Children and adults at risk in stories and photos |
 | **English — language & communication** | |
 | `accessibility-for-comms.md` | Inclusive comms: writing, briefings, speaking—image descriptions, link phrasing, captions planning (not dev/UI code) |
 | `crisis-and-sensitive-topics.md` | Crisis comms, holding statements, escalation |
 | `easy-read-english.md` | Plain / accessible English text |
+| `fundraising-appeals.md` | Donor-facing appeals: one person, one need, one ask, dignity first |
 | `heroes-journey.md` | The Hero’s Journey: 12-beat narrative arc (story structure) |
+| `interview-preparation.md` | Media prep for spokespeople: message map, bridges, delivery |
 | `newsletter-and-email.md` | Email and newsletter structure, CTAs, legal placeholders |
 | `press-statement-basics.md` | Press statements |
 | `respectful-language.md` | Respectful, dignity-centered language |
 | `social-short-form.md` | Short social posts (LinkedIn, Meta, Threads, Bluesky) |
+| `speeches-and-talks.md` | Scripting and delivering talks: one takeaway, three beats, on time |
 | `storytelling.md` | Marie Lampert storytelling: structure, five elements, dramaturgy |
 | `writing-a-story.md` | Human-centered nonprofit storytelling (Diakonie-style) |
+| **English — research & analysis** | |
+| `desk-research.md` | Planning, searching, logging, triangulating non-empirical research |
+| `interviewing-people.md` | Research interviews: consent, open questions, listening, ethics |
+| `literature-summarising.md` | Faithful summaries: scope, hedges, attribution, commentary split |
+| `notes-and-synthesis.md` | Atomic notes, synthesis from notes to draft, provenance preserved |
+| `reading-statistics-plainly.md` | Percent vs. pp, base rates, correlation, sampling, honest numbers |
+| `source-evaluation-and-fact-checking.md` | CRAAP, primary vs. secondary, verification, AI fabrications |
 | **German — design** | |
+| `barrierefreies-design.md` | Design-Seite der Barrierefreiheit: Layout, Ziele, Fokus, Reflow |
 | `datenvisualisierung-grundlagen.md` | Diagramme und Datengrafiken |
 | `design-basics.md` | Grundlegende Designprinzipien |
 | `design-tokens-und-theming.md` | Design-Tokens, Skalen, Hell/Dunkel |
+| `farbe-und-kontrast.md` | Semantische Farbrollen, WCAG-Kontrast, Paletten |
 | `folien-und-praesentationen.md` | Folien und Präsentationen |
 | `formulare-und-eingaben-ux.md` | Formulare, Labels, Validierung |
 | `gute-interfaces-designen.md` | UI/UX für Interfaces |
 | `motion-und-micro-interactions.md` | Motion, reduzierte Bewegung, Ladezustände |
+| `typografie.md` | Typ-Skala, Zeilenlänge, Durchschuss, Paarung, Ziffern |
+| **German — Ethik, Schutz & Recht** | |
+| `bild-und-zitatfreigaben.md` | Spezifische, informierte, eingegrenzte, widerrufbare Freigaben |
+| `datenschutz-in-der-kommunikation.md` | DSGVO-Minimum für Fotos, Zitate, Newsletter, Analytics |
+| `kinder-und-betroffenenschutz.md` | Kinder und schutzbedürftige Erwachsene in Stories und Fotos |
+| `ki-offenlegung-und-richtlinien.md` | Wann und wie KI-Einsatz offenlegen; synthetische Medien |
+| `krise-rechts-checkliste.md` | Rechtslayer in Krisenkommunikation |
+| `urheber-und-nutzungsrechte.md` | Lizenzen, Nennung, KI-Material, NGO-Fallstricke |
+| **German — Recherche & Analyse** | |
+| `literatur-zusammenfassen.md` | Treue Zusammenfassungen: Geltungsbereich, Hedges, Zuschreibung |
+| `menschen-interviewen.md` | Recherche-Interviews: Einwilligung, offene Fragen, Zuhören, Ethik |
+| `notizen-und-synthese.md` | Atomare Notizen; Synthese zu Entwurf; Herkunft erhalten |
+| `quellenbewertung-und-faktencheck.md` | CRAAP, primär/sekundär, Verifizieren, KI-Fabrikationen |
+| `recherche-grundlagen.md` | Planen, Suchen, Protokollieren, Triangulieren |
+| `statistik-einfach-lesen.md` | Prozent vs. pp, Basisraten, Korrelation, Stichproben |
 | **German — Sprache & Kommunikation** | |
 | `barrierefreiheit-kommunikation.md` | Barrierefreie Kommunikation (Text, Medien) |
 | `die-heldenreise.md` | Die Heldenreise: 12 Stationen (Erzählstruktur) |
 | `einfache-sprache.md` | Einfache Sprache (Deutsch) |
+| `interview-vorbereitung.md` | Medien-Prep für Sprecher:innen: Message-Map, Brücken, Vortrag |
 | `krise-und-sensible-themen.md` | Krisenkommunikation, sensible Themen |
 | `newsletter-und-e-mail.md` | Newsletter und E-Mail |
 | `pressemitteilungen-schreiben.md` | Pressemitteilungen für soziale Organisationen |
+| `reden-und-vortraege.md` | Reden entwerfen und halten: eine Kernbotschaft, drei Beats |
 | `respektvolle-sprache.md` | Respektvolle Sprache |
 | `social-kurzformate.md` | Kurzformate sozialer Medien |
+| `spendenaufrufe.md` | Spender:innen-Ansprache: Eine Person, ein Bedarf, ein Appell |
 | `stories-schreiben.md` | Geschichten im Diakonie-Stil |
 | `storytelling.md` | Storytelling nach Marie Lampert (Struktur, Dramaturgie) |
 
