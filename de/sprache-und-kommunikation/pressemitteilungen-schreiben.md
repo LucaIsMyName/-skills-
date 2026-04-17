@@ -15,7 +15,7 @@ Dieses "skill" erklärt, **wie man klare und professionelle Pressemitteilungen f
 
 Ziel: Themen, Projekte und Herausforderungen so kommunizieren, dass sie **verständlich, glaubwürdig und gesellschaftlich relevant** sind.
 
-## KI / Prompt: Vollständigkeit vor dem Schreiben
+## Vollständigkeit vor dem Schreiben
 
 Bevor ein Text entsteht, müssen alle **relevanten Fakten und Rahmenbedingungen** im Prompt stehen oder aktiv erfragt werden. **Nichts erfinden**, das journalistisch oder organisatorisch relevant ist.
 
@@ -89,6 +89,7 @@ Die Überschrift sollte:
 - konkret sein
 - das Thema benennen
 - keine Übertreibungen enthalten
+- **Headline und Text müssen zusammenpassen**—was die Überschrift ankündigt, liefert der Fließtext (kein Versprechen ohne inhaltliche Entsprechung)
 
 ### ❌ Schlecht
 

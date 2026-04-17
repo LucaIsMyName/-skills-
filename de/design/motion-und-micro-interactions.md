@@ -13,7 +13,7 @@
 
 Dieser Skill leitet ein, **wann und wie** Bewegung in Oberflächen sinnvoll ist—ohne Ablenkung und ohne Ausschluss von Nutzerinnen.
 
-## KI / Prompt: Vollständigkeit vor dem Schreiben
+## Vollständigkeit vor dem Schreiben
 
 ### Konkret
 

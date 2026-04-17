@@ -13,7 +13,7 @@
 
 Dieser Skill unterstützt **Kommunikationsteams** dabei, Inhalte **inklusiver** zu machen—über **Sprache, Struktur und Abläufe**, nicht als Ersatz für Barrierefreiheit im technischen Sinne oder WCAG-Audits.
 
-## KI / Prompt: Vollständigkeit vor dem Schreiben
+## Vollständigkeit vor dem Schreiben
 
 ### Konkret
 
@@ -58,6 +58,8 @@ Wenn ein Bild **nur dekorativ** ist, im Briefing kennzeichnen („kein Informati
 ### 3. Klare Struktur im Text (Titel und Zwischenüberschriften)
 
 In Entwürfen und Newslettern: **ein klarer Haupteil**, **Zwischenüberschriften in logischer Reihenfolge**—wie eine Gliederung. Dieselbe Struktur an Web weitergeben; **technische Auszeichnung** ist Aufgabe der Webkolleginnen.
+
+**Headline und Text müssen zusammenpassen:** Jede Überschrift sollte den Abschnitt darunter treffen (kein „leeres“ Versprechen).
 
 ### ❌ Schlecht
 

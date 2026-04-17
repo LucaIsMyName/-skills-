@@ -68,6 +68,7 @@ Before rewriting, gather **concrete and meta information**. If something materia
 
 - **Lead with the main message**; then supporting detail.
 - Use **informative headings** and **short paragraphs**.
+- **Headline and body copy must match**—each heading reflects what is in the section below.
 - **Signpost** logic (“First…”, “Next…”, “If you need help…”).
 
 ### Tone and ethics

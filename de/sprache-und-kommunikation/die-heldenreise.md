@@ -9,7 +9,7 @@
 - **Nachfragen** bei echten Schicksalen nach Fakten, Freigaben und akzeptabler Rahmung.
 - Die vollständige Abfolge und der Kerngedanke stehen **unverkürzt** unten.
 
-## KI / Prompt: Vollständigkeit vor dem Schreiben
+## Vollständigkeit vor dem Schreiben
 
 Bevor reale Biografien auf diese Stationen gemappt werden, **Fakten, Einwilligung und Tonalität** klären. **Nichts erfinden** oder dramatisieren ohne Auftrag.
 

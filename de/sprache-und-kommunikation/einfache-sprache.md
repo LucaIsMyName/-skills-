@@ -16,7 +16,7 @@ Einfache Sprache macht Inhalte für Menschen mit **unterschiedlicher Lesekompete
 
 👉 Orientierung: [Einfache Sprache (Wikipedia)](https://de.wikipedia.org/wiki/Einfache_Sprache); sprachspezifische Regeln orientieren sich u. a. an **DIN 8581-1** und den **allgemeinen Leitlinien der DIN ISO 24495-1** (Prinzipien für alle Sprachen).
 
-## KI / Prompt: Vollständigkeit vor dem Schreiben
+## Vollständigkeit vor dem Schreiben
 
 Bevor umgeschrieben wird, **konkrete und Meta-Angaben** klären. Fehlt Wesentliches, **nachfragen** – keine Fakten verdrehen oder Legaltexte „vereinfachen“, ohne dass der Nutzer das will.
 
@@ -68,6 +68,7 @@ Wenn der Nutzer **„Leichte Sprache“** will: Layout (kurze Zeilen), Bilder, s
 ### Textaufbau
 
 - **Überschriften** und **kurze Absätze**; wo sinnvoll **nummerierte oder Aufzählungslisten**.
+- **Headline und Text müssen zusammenpassen**—die Überschrift sagt, was im Abschnitt wirklich steht.
 - **Wichtigstes zuerst** (Umkehrung der Pyramide: Kernaussage oben, Details danach).
 - **Leserinnen und Leser im Blick:** Welches Vorwissen ist realistisch? Welche Fragen entstehen beim Lesen?
 

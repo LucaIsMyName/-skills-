@@ -13,7 +13,7 @@
 
 Dieser Skill hilft **gemeinnützigen und sozialen Organisationen**, Präsentationen zu gestalten, die **in Räumen und in Videocalls** gut folgbar sind.
 
-## KI / Prompt: Vollständigkeit vor dem Schreiben
+## Vollständigkeit vor dem Schreiben
 
 ### Konkret
 

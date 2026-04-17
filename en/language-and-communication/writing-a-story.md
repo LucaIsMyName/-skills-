@@ -108,6 +108,7 @@ Example style:
 - Often includes:
   - the person’s name
   - a key aspect of their life
+- **Headline and body copy must match**—title and article content must align
 
 👉 Example pattern:
 

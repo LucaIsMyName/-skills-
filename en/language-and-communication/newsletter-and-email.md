@@ -36,6 +36,8 @@ This skill explains how to draft **effective, trustworthy email** for **social-p
 
 ### 1. Subject line: specific and honest
 
+**Subject line and email body must match**—same topic; no bait-and-switch from subject to body.
+
 ### ❌ Bad
 
 ```text

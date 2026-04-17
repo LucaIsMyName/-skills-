@@ -13,7 +13,7 @@
 
 Dieser Skill unterstützt **ehrliche, lesbare** Datenvisualisierungen für **Wirkungsdashboards, Jahresberichte und interne Steuerung**.
 
-## KI / Prompt: Vollständigkeit vor dem Schreiben
+## Vollständigkeit vor dem Schreiben
 
 ### Konkret
 

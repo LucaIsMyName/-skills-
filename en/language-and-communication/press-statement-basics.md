@@ -91,6 +91,7 @@ The headline should be:
 * clear
 * specific
 * factual
+* **Headline and body copy must match**—what the headline announces, the text delivers (no empty promise)
 
 ### ❌ Bad
 

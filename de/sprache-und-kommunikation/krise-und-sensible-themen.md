@@ -13,7 +13,7 @@
 
 Dieser Skill unterstützt **gemeinnützige und soziale Organisationen** dabei, in **belasteten oder sensiblen Situationen** sorgfältig zu kommunizieren und Schaden zu vermeiden.
 
-## KI / Prompt: Vollständigkeit vor dem Schreiben
+## Vollständigkeit vor dem Schreiben
 
 ### Konkret
 

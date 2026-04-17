@@ -13,7 +13,7 @@
 
 Dieser Skill beschreibt, wie **Tokens und Themes** strukturiert werden, damit UI **konsistent, themebar und handoff-fähig** bleibt.
 
-## KI / Prompt: Vollständigkeit vor dem Schreiben
+## Vollständigkeit vor dem Schreiben
 
 ### Konkret
 

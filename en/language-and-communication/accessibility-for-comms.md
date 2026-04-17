@@ -59,6 +59,8 @@ If an image is **only decorative**, say so in your brief (“no informational co
 
 In drafts and newsletters, use **one clear main title** and **subheadings in logical order**—like an outline—so readers and editors can follow. Pass the same structure to web teams; **markup and coding are their job**.
 
+**Headline and body copy must match:** each heading should describe the section below it (no empty promise).
+
 ### ❌ Bad
 
 ```text

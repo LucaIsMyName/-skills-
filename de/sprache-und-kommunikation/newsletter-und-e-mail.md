@@ -11,13 +11,13 @@
 
 ## Zweck
 
-Dieser Skill beschreibt, wie **wirksame, vertrauenswürdige E-Mails** für **soziale und gemeinnützige Organisationen** formuliert werden: mobil lesbar, ehrlich, ohne manipulative Druckmittel.
+Dieser Skill beschreibt, wie **wirksame, vertrauenswürdige E-Mails** formuliert werden.
 
-## KI / Prompt: Vollständigkeit vor dem Schreiben
+## Vollständigkeit vor dem Schreiben
 
 ### Konkret
 
-- **Segment** (Spenderinnen, Freiwillige, Klientel, allgemein)
+- **Segment** (Spender:innen, Kollege:innen, Freiwillige, Klient:innen, allgemein)
 - **Ein Hauptziel** (spenden, anmelden, Artikel lesen, Veranstaltung)
 - **Betreff + Vorschau** (Zeichenlimits falls vorgegeben)
 - **Links** (Spendenseite, Anmeldung, Blog)—exakte URLs wenn vorhanden
@@ -35,6 +35,8 @@ Dieser Skill beschreibt, wie **wirksame, vertrauenswürdige E-Mails** für **soz
 ## Grundregeln
 
 ### 1. Betreff: konkret und ehrlich
+
+**Betreff und E-Mail-Text müssen zusammenpassen**—gleiches Thema, keine Irreführung vom Betreff in den Fließtext.
 
 ### ❌ Schlecht
 

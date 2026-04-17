@@ -20,7 +20,7 @@ Das Ziel ist es, Geschichten zu erzählen, die:
 
 👉 Nicht abstrakte Themen – sondern **Menschen in konkreten Situationen**
 
-## KI / Prompt: Vollständigkeit vor dem Schreiben
+## Vollständigkeit vor dem Schreiben
 
 Bevor eine Geschichte entworfen wird, muss der Prompt **konkrete und Meta-Informationen** enthalten. Fehlt Wesentliches, **zielgerichtet nachfragen** – keine Fakten, Zitate oder Einzelheiten erfinden.
 
@@ -107,6 +107,7 @@ Beispiele:
 - Oft enthalten:
   - den Namen der Person
   - einen zentralen Aspekt ihres Lebens
+- **Headline und Text müssen zusammenpassen**—Titel und Artikelinhalt dürfen inhaltlich nicht auseinanderklaffen
 
 👉 Beispielstruktur:
 

@@ -15,7 +15,7 @@ Dieser "skill" zeigt, wie man **respektvoll und würde-achtend über soziale The
 
 👉 Sprache ist nicht neutral – sie prägt unser Denken und Handeln.
 
-## KI / Prompt: Vollständigkeit vor dem Schreiben
+## Vollständigkeit vor dem Schreiben
 
 Bevor Texte umformuliert oder neu erstellt werden, **Kontext klären**. Offene Lücken **zielgerichtet nachfragen**, nicht raten.
 

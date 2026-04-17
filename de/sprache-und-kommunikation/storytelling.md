@@ -10,7 +10,7 @@
 - **Nachfragen** bei Real-Storys nach Fakten, Einwilligung und klarer Rolle der Organisation (**Enabler**, nicht Held).
 - Alle Regeln, Schlecht/Gut-Beispiele und der Kerngedanke stehen **vollständig** im Rest dieser Datei.
 
-## KI / Prompt: Vollständigkeit vor dem Schreiben
+## Vollständigkeit vor dem Schreiben
 
 Bevor Geschichten ausgearbeitet werden, **konkrete und Meta-Angaben** klären. Fehlt Wesentliches, **zielgerichtet nachfragen**—keine Szenen, Zitate oder biografischen Details erfinden.
 

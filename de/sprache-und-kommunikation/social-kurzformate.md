@@ -19,7 +19,7 @@ Ziele:
 - **Passung** an Plattformnormen (Länge, Ton, Links)
 - **Schutz** von Würde und Einwilligung
 
-## KI / Prompt: Vollständigkeit vor dem Schreiben
+## Vollständigkeit vor dem Schreiben
 
 **Konkrete und Meta-Angaben** einholen. Fehlt Wesentliches, **nachfragen**—keine Kampagnen, Zitate oder Bildrechte erfinden.
 

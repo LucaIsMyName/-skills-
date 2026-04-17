@@ -13,7 +13,7 @@
 
 Dieser Skill **reduziert Fehler und Abbrüche** in Formularen durch klare Struktur, Beschriftung und Rückmeldung.
 
-## KI / Prompt: Vollständigkeit vor dem Schreiben
+## Vollständigkeit vor dem Schreiben
 
 ### Konkret
 
