@@ -10,7 +10,7 @@
 
 ## Purpose
 
-This skill explains what _good design_ is, with a focus on **UI (User Interface) design**, in simple and practical terms.
+This document explains what _good design_ is, with a focus on **UI (User Interface) design**, in simple and practical terms.
 
 ---
 

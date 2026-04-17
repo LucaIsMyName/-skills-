@@ -11,7 +11,7 @@
 
 ## Purpose
 
-This skill defines how to write **human-centered, respectful, and engaging stories** in the style of Diakonie Österreich.
+This document defines how to write **human-centered, respectful, and engaging stories** in the style of Diakonie Österreich.
 
 The goal is to tell stories that:
 
@@ -38,10 +38,10 @@ Before drafting a story, the prompt must include **concrete and meta information
 ### Meta
 
 - Audience and main message
-- Desired tone and emotional register (within this skill’s guardrails)
+- Desired tone and emotional register (within This document’s guardrails)
 - What the reader should **take away** (understanding, respect, perspective)
 - What is **off-limits**, to avoid, or especially sensitive
-- How this maps to the rest of this skill (structure, ethical guidelines)
+- How this maps to the rest of This document (structure, ethical guidelines)
 
 👉 Before publishing, also use the **Checklist** at the end of this file.
 

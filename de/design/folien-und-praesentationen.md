@@ -11,7 +11,7 @@
 
 ## Zweck
 
-Dieser Skill hilft **gemeinnützigen und sozialen Organisationen**, Präsentationen zu gestalten, die **in Räumen und in Videocalls** gut folgbar sind.
+Dieses Dokument hilft **gemeinnützigen und sozialen Organisationen**, Präsentationen zu gestalten, die **in Räumen und in Videocalls** gut folgbar sind.
 
 ## Vollständigkeit vor dem Schreiben
 

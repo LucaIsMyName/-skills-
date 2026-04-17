@@ -11,7 +11,7 @@
 
 ## Zweck
 
-Dieser Skill beschreibt, wie **wirksame, vertrauenswürdige E-Mails** formuliert werden.
+Dieses Dokument beschreibt, wie **wirksame, vertrauenswürdige E-Mails** formuliert werden.
 
 ## Vollständigkeit vor dem Schreiben
 

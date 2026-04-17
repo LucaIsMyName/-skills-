@@ -10,7 +10,7 @@
 
 ## Purpose
 
-This skill defines how to create a **clean, modern, and production-ready way to scaffold a React app** using best practices.
+This document defines how to create a **clean, modern, and production-ready way to scaffold a React app** using best practices.
 It ensures consistency, scalability, and maintainability from the very beginning.
 
 ---

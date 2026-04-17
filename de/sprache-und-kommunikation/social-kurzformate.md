@@ -11,7 +11,7 @@
 
 ## Zweck
 
-Dieser Skill beschreibt, wie **klare, respektvolle Kurztexte** für **gemeinnützige und soziale Organisationen** auf gängigen Plattformen verfasst werden.
+Dieses Dokument beschreibt, wie **klare, respektvolle Kurztexte** für **gemeinnützige und soziale Organisationen** auf gängigen Plattformen verfasst werden.
 
 Ziele:
 

@@ -11,7 +11,7 @@
 
 ## Zweck
 
-Dieser Skill unterstützt **ehrliche, lesbare** Datenvisualisierungen für **Wirkungsdashboards, Jahresberichte und interne Steuerung**.
+Dieses Dokument unterstützt **ehrliche, lesbare** Datenvisualisierungen für **Wirkungsdashboards, Jahresberichte und interne Steuerung**.
 
 ## Vollständigkeit vor dem Schreiben
 

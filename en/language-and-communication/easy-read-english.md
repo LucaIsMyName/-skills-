@@ -11,9 +11,9 @@
 
 ## Purpose
 
-This skill explains how to **rewrite or translate any source text** into **clear, accessible English**—structured, rule-based, and appropriate for readers with **different literacy levels**, **English as an additional language**, and **general audiences** who need plain wording.
+This document explains how to **rewrite or translate any source text** into **clear, accessible English**—structured, rule-based, and appropriate for readers with **different literacy levels**, **English as an additional language**, and **general audiences** who need plain wording.
 
-The label **“Easy Read English”** is used here for **text-level simplification** (vocabulary, sentences, structure). It aligns with **international plain-language principles** (e.g. **ISO 24495-1**, which applies across languages) and literacy-friendly English. The site [Easy Read English](https://www.easyreadenglish.com/) focuses on **reading instruction** (e.g. syllables, stories); this skill is about **producing easy-to-read text**, not replacing a full reading curriculum.
+The label **“Easy Read English”** is used here for **text-level simplification** (vocabulary, sentences, structure). It aligns with **international plain-language principles** (e.g. **ISO 24495-1**, which applies across languages) and literacy-friendly English. The site [Easy Read English](https://www.easyreadenglish.com/) focuses on **reading instruction** (e.g. syllables, stories); This document is about **producing easy-to-read text**, not replacing a full reading curriculum.
 
 👉 If the user wants a **specific “Easy Read” accessibility format** (very short lines, images, testing with readers), treat that as an **extra layout and process requirement**—ask before assuming.
 
@@ -40,7 +40,7 @@ Before rewriting, gather **concrete and meta information**. If something materia
 
 ## Distinction: plain English vs. other “easy” formats
 
-| | **This skill (plain / easy-read English text)** | **Some “Easy Read” formats (accessibility)** |
+| | **This document (plain / easy-read English text)** | **Some “Easy Read” formats (accessibility)** |
 |---|-----------------------------------------------|---------------------------------------------|
 | **Focus** | wording, sentences, structure | often **layout**, **images**, **user testing** |
 | **Language** | short sentences, common words, clear order | may add **symbol** support, very short lines |
@@ -93,7 +93,7 @@ Before rewriting, gather **concrete and meta information**. If something materia
 
 - Swapping terms for “variety” and breaking **consistency**.
 - Turning everything into **telegraphic bullets** when a short paragraph carries the logic better.
-- Confusing this skill with **simplified readers for language teaching** (e.g. graded readers)—those are **different products** with level labels.
+- Confusing This document with **simplified readers for language teaching** (e.g. graded readers)—those are **different products** with level labels.
 - **Inventing facts**, **distorting numbers**, or **fabricating quotes**.
 
 ---
@@ -123,4 +123,4 @@ Before rewriting, gather **concrete and meta information**. If something materia
 
 ## Final thought
 
-👉 **Accessible English** helps more people use information fairly—in health, government, education, and daily life. This skill is **reader-centered work**, not “dumbing down.”
+👉 **Accessible English** helps more people use information fairly—in health, government, education, and daily life. This document is **reader-centered work**, not “dumbing down.”

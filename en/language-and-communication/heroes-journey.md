@@ -26,7 +26,7 @@ Before mapping real biographies onto these beats, clarify **facts, consent, and 
 
 ## Purpose
 
-This skill outlines the **Hero’s Journey** as a narrative pattern. It is a **template**, not a moral verdict on who is a “hero.”
+This document outlines the **Hero’s Journey** as a narrative pattern. It is a **template**, not a moral verdict on who is a “hero.”
 
 The Hero’s Journey is a classic narrative pattern with **12 stages**. It describes how a figure changes through challenges.
 

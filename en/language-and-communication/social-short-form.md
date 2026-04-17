@@ -11,7 +11,7 @@
 
 ## Purpose
 
-This skill explains how to write **clear, respectful short-form social content** for **nonprofit and social organizations** on common platforms.
+This document explains how to write **clear, respectful short-form social content** for **nonprofit and social organizations** on common platforms.
 
 Goals:
 

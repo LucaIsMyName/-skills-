@@ -11,7 +11,7 @@
 
 ## Purpose
 
-This skill explains how to draft **effective, trustworthy email** for **social-purpose and nonprofit organizations**: readable on mobile, honest, and aligned with supporter expectations.
+This document explains how to draft **effective, trustworthy email** for **social-purpose and nonprofit organizations**: readable on mobile, honest, and aligned with supporter expectations.
 
 ## AI / prompt: completeness before drafting
 

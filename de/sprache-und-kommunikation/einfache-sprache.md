@@ -10,7 +10,7 @@
 
 ## Zweck
 
-Dieser Skill beschreibt, wie **beliebige Ausgangstexte** in **Einfache Sprache** (Deutsch) umgeschrieben oder übersetzt werden – **strukturiert, regelbasiert und zielgruppengerecht**.
+Dieses Dokument beschreibt, wie **beliebige Ausgangstexte** in **Einfache Sprache** (Deutsch) umgeschrieben oder übersetzt werden – **strukturiert, regelbasiert und zielgruppengerecht**.
 
 Einfache Sprache macht Inhalte für Menschen mit **unterschiedlicher Lesekompetenz**, für **Deutsch als Zweit- oder Fremdsprache** und für **allgemeine Verständlichkeit** zugänglich. Sie ist **nicht** dasselbe wie [Leichte Sprache](https://de.wikipedia.org/wiki/Leichte_Sprache); die Abgrenzung ist unten erklärt.
 
@@ -45,7 +45,7 @@ Bevor umgeschrieben wird, **konkrete und Meta-Angaben** klären. Fehlt Wesentlic
 | **Sprache** | klar, kurze Sätze, bekannter Wortschatz; **näher an der Standardsprache** | sehr starke Vereinfachung, oft sehr kurze Zeilen, viele Zeilenumbrüche, Bilder |
 | **Normierung** | u. a. DIN ISO 24495-1, DIN 8581-1 (Deutsch) | eher Empfehlungen verschiedener Institutionen |
 
-Wenn der Nutzer **„Leichte Sprache“** will: Layout (kurze Zeilen), Bilder, sehr kurze Sätze und ggf. andere Konventionen **extra absprechen**. Dieser Skill standardisiert **Einfache Sprache**.
+Wenn der Nutzer **„Leichte Sprache“** will: Layout (kurze Zeilen), Bilder, sehr kurze Sätze und ggf. andere Konventionen **extra absprechen**. Dieses Dokument standardisiert **Einfache Sprache**.
 
 ---
 

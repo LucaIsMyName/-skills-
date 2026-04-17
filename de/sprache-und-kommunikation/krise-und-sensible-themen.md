@@ -11,7 +11,7 @@
 
 ## Zweck
 
-Dieser Skill unterstützt **gemeinnützige und soziale Organisationen** dabei, in **belasteten oder sensiblen Situationen** sorgfältig zu kommunizieren und Schaden zu vermeiden.
+Dieses Dokument unterstützt **gemeinnützige und soziale Organisationen** dabei, in **belasteten oder sensiblen Situationen** sorgfältig zu kommunizieren und Schaden zu vermeiden.
 
 ## Vollständigkeit vor dem Schreiben
 

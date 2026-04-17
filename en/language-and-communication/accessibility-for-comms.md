@@ -11,7 +11,7 @@
 
 ## Purpose
 
-This skill helps **nonprofit communicators** make content **more inclusive** through **language and process**—not by replacing accessibility engineering or WCAG audits.
+This document helps **nonprofit communicators** make content **more inclusive** through **language and process**—not by replacing accessibility engineering or WCAG audits.
 
 ## AI / prompt: completeness before drafting
 
@@ -124,4 +124,4 @@ Read our 2025 impact report (PDF).
 
 ## Final thought
 
-👉 In comms, accessibility starts with **respectful, clear language** and **good briefs**. Technical implementation belongs with **web and design colleagues**—this skill keeps your lane **writing and speaking**.
+👉 In comms, accessibility starts with **respectful, clear language** and **good briefs**. Technical implementation belongs with **web and design colleagues**—This document keeps your lane **writing and speaking**.

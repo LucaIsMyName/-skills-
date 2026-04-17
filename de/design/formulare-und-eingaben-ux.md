@@ -11,7 +11,7 @@
 
 ## Zweck
 
-Dieser Skill **reduziert Fehler und Abbrüche** in Formularen durch klare Struktur, Beschriftung und Rückmeldung.
+Dieses Dokument **reduziert Fehler und Abbrüche** in Formularen durch klare Struktur, Beschriftung und Rückmeldung.
 
 ## Vollständigkeit vor dem Schreiben
 

@@ -11,7 +11,7 @@
 
 ## Purpose
 
-This skill helps communicators and designers produce **honest, readable** data visuals for **impact dashboards, annual reports, and internal monitoring**.
+This document helps communicators and designers produce **honest, readable** data visuals for **impact dashboards, annual reports, and internal monitoring**.
 
 ## AI / prompt: completeness before drafting
 

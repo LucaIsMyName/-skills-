@@ -10,7 +10,7 @@
 
 ## Purpose
 
-This skill defines **what good design is and how to create it** across:
+This document defines **what good design is and how to create it** across:
 
 - product design
 - UI/UX

@@ -11,7 +11,7 @@
 
 ## Purpose
 
-This skill helps **nonprofit and social-sector teams** build presentations that are **easy to follow** and **accessible** in real rooms and on video calls.
+This document helps **nonprofit and social-sector teams** build presentations that are **easy to follow** and **accessible** in real rooms and on video calls.
 
 ## AI / prompt: completeness before drafting
 

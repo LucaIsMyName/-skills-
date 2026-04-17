@@ -11,7 +11,7 @@
 
 ## Zweck
 
-Dieser Skill unterstützt **Kommunikationsteams** dabei, Inhalte **inklusiver** zu machen—über **Sprache, Struktur und Abläufe**, nicht als Ersatz für Barrierefreiheit im technischen Sinne oder WCAG-Audits.
+Dieses Dokument unterstützt **Kommunikationsteams** dabei, Inhalte **inklusiver** zu machen—über **Sprache, Struktur und Abläufe**, nicht als Ersatz für Barrierefreiheit im technischen Sinne oder WCAG-Audits.
 
 ## Vollständigkeit vor dem Schreiben
 
@@ -124,4 +124,4 @@ Jahresbericht 2025 lesen (PDF).
 
 ## Abschließender Gedanke
 
-👉 In der Kommunikation beginnt Barrierefreiheit mit **respektvoller, klarer Sprache** und **guten Briefings**. Technische Umsetzung liegt bei **Web und Design**—dieser Skill bleibt bei **Texten, Reden und Kommunikationsplanung**.
+👉 In der Kommunikation beginnt Barrierefreiheit mit **respektvoller, klarer Sprache** und **guten Briefings**. Technische Umsetzung liegt bei **Web und Design**—Dieses Dokument bleibt bei **Texten, Reden und Kommunikationsplanung**.

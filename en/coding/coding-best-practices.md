@@ -11,7 +11,7 @@
 
 ## Purpose
 
-This skill explains **how to write high-quality software in any language or framework**, focusing on:
+This document explains **how to write high-quality software in any language or framework**, focusing on:
 
 - maintainability
 - correctness

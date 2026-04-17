@@ -12,7 +12,7 @@
 
 ## Purpose
 
-This skill explains **how to write clear, professional press statements**.
+This document explains **how to write clear, professional press statements**.
 
 The goal: communicate information that is **accurate, credible, and easy to understand** — especially for journalists and the public.
 

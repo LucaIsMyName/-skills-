@@ -13,7 +13,7 @@
 
 ## Purpose
 
-This skill explains how to use **respectful, dignity-centered language** when talking about social issues and people affected by them.
+This document explains how to use **respectful, dignity-centered language** when talking about social issues and people affected by them.
 
 👉 Language is not neutral. It shapes how we think, feel, and treat others.
 

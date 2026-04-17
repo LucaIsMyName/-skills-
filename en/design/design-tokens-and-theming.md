@@ -11,7 +11,7 @@
 
 ## Purpose
 
-This skill explains how to structure **tokens and themes** so UI stays **consistent, themeable, and handoff-friendly** between design and engineering.
+This document explains how to structure **tokens and themes** so UI stays **consistent, themeable, and handoff-friendly** between design and engineering.
 
 ## AI / prompt: completeness before drafting
 

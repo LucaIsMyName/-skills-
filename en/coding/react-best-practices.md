@@ -10,7 +10,7 @@
 
 ## Purpose
 
-This skill explains **how to write React code correctly and safely**, focusing on best practices, common mistakes (footguns), and what to do instead.
+This document explains **how to write React code correctly and safely**, focusing on best practices, common mistakes (footguns), and what to do instead.
 
 The goal: write React code that is **predictable, maintainable, and bug-resistant**.
 

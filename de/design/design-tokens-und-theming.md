@@ -11,7 +11,7 @@
 
 ## Zweck
 
-Dieser Skill beschreibt, wie **Tokens und Themes** strukturiert werden, damit UI **konsistent, themebar und handoff-fähig** bleibt.
+Dieses Dokument beschreibt, wie **Tokens und Themes** strukturiert werden, damit UI **konsistent, themebar und handoff-fähig** bleibt.
 
 ## Vollständigkeit vor dem Schreiben
 

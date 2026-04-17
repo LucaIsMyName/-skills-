@@ -29,7 +29,7 @@ Before developing stories, clarify **concrete and meta** inputs. If something es
 
 ## Purpose
 
-This skill describes how **effective storytelling after Marie Lampert** works—with a focus on structure, emotion, and clarity.
+This document describes how **effective storytelling after Marie Lampert** works—with a focus on structure, emotion, and clarity.
 
 The goal is to tell stories that:
 

@@ -11,7 +11,7 @@
 
 ## Zweck
 
-Dieser Skill leitet ein, **wann und wie** Bewegung in Oberflächen sinnvoll ist—ohne Ablenkung und ohne Ausschluss von Nutzerinnen.
+Dieses Dokument leitet ein, **wann und wie** Bewegung in Oberflächen sinnvoll ist—ohne Ablenkung und ohne Ausschluss von Nutzerinnen.
 
 ## Vollständigkeit vor dem Schreiben
 
