@@ -96,7 +96,7 @@ export function MarkdownPreWithCopy({ children, className, ...rest }: PreProps):
           customStyle={{
             margin: 0,
             padding: '1rem 3rem 1rem 1rem',
-            borderRadius: 'var(--radius-lg)',
+            borderRadius: 'var(--radius)',
             fontSize: '0.8125rem',
             lineHeight: 1.65,
             border: '1px solid var(--border)',

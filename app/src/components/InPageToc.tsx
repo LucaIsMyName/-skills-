@@ -19,7 +19,7 @@ export function InPageToc({ items }: Props) {
   return (
     <Accordion
       defaultValue={[]}
-      className="mb-8 overflow-hidden rounded-xl border border-border bg-muted/40 shadow-sm"
+      className="mb-8 overflow-hidden rounded border border-border bg-muted/40 shadow-sm"
     >
       <AccordionItem value="page-toc">
         <AccordionTrigger className="px-4 py-3 text-[11px] font-semibold uppercase tracking-wide text-muted-foreground">

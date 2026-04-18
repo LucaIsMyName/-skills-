@@ -67,7 +67,7 @@ export function ChapterIndexPage() {
           <li key={p.slug}>
             <Link
               to={`/${lang}/${chapter}/${p.slug}`}
-              className="flex items-center justify-between gap-4 rounded-lg border border-zinc-200 bg-white px-4 py-3 text-left shadow-sm transition hover:border-zinc-300 dark:border-zinc-700 dark:bg-zinc-800 dark:hover:border-zinc-600"
+              className="flex items-center justify-between gap-4 rounded border border-zinc-200 bg-white px-4 py-3 text-left shadow-sm transition hover:border-zinc-300 dark:border-zinc-700 dark:bg-zinc-800 dark:hover:border-zinc-600"
             >
               <span className="font-medium text-zinc-900 dark:text-zinc-100">
                 {h1ByPath.get(p.path) ?? humanizeSlug(p.slug)}

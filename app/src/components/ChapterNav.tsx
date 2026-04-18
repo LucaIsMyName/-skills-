@@ -152,7 +152,7 @@ export function ChapterNav({ lang, index, onPick, ui: t }: Props) {
                 to={prefix}
                 className={() =>
                   [
-                    'block min-w-0 truncate rounded-lg py-2 pl-3 pr-10 text-sm font-medium transition-colors',
+                    'block min-w-0 truncate rounded py-2 pl-3 pr-10 text-sm font-medium transition-colors',
                     inChapter
                       ? 'bg-zinc-200/80 text-zinc-900 dark:bg-zinc-700/80 dark:text-zinc-100'
                       : 'text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-700/50 dark:hover:text-zinc-100',
@@ -200,7 +200,7 @@ export function ChapterNav({ lang, index, onPick, ui: t }: Props) {
                         onClick={onPick}
                         className={({ isActive }) =>
                           [
-                            'block min-w-0 truncate rounded-md py-1.5 pl-2 pr-9 text-xs font-medium transition-colors',
+                            'block min-w-0 truncate rounded py-1.5 pl-2 pr-9 text-xs font-medium transition-colors',
                             isActive
                               ? 'bg-zinc-200/90 text-zinc-900 dark:bg-zinc-700/90 dark:text-zinc-100'
                               : 'text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-700/50 dark:hover:text-zinc-100',
