@@ -1,9 +1,8 @@
 # Bilder und Fotografie
 
-**Scope:** Gilt für **Auswahl, Bearbeitung, Einsatz** von Fotos und Bildern in NGO/Produkt-Kontexten—Ethik, Einwilligung, Beschnitt, Bildunterschriften, A11y, Dateihandling. Keine Studio-Technik, keine Brand-Illustration. Kombiniere mit [`bildethik-und-bildsprache.md`](../medien-&-produktion/bildethik-und-bildsprache.md), [`bild-und-zitatfreigaben.md`](../ethik-&-recht/bild-und-zitatfreigaben.md), [`fotografie-fuer-ngos.md`](../medien-&-produktion/fotografie-fuer-ngos.md) und [`performance-und-web-vitals.md`](../coding/performance-und-web-vitals.md).
+**Geltungsbereich:** Gilt für **Auswahl, Bearbeitung, Einsatz** von Fotos und Bildern in NGO/Produkt-Kontexten—Ethik, Einwilligung, Beschnitt, Bildunterschriften, A11y, Dateihandling. Keine Studio-Technik, keine Brand-Illustration. Kombiniere mit [`bildethik-und-bildsprache.md`](../medien-&-produktion/bildethik-und-bildsprache.md), [`bild-und-zitatfreigaben.md`](../ethik-&-recht/bild-und-zitatfreigaben.md), [`fotografie-fuer-ngos.md`](../medien-&-produktion/fotografie-fuer-ngos.md) und [`performance-und-web-vitals.md`](../coding/performance-und-web-vitals.md).
 
-## Excerpt
-
+## Exzerpt
 - **Einwilligung zuerst.** Kein Bild identifizierbarer Personen ohne aktuelle Freigabe.
 - **Würde zuerst.** Kein Leid-als-Selbstzweck; Menschen als Protagonist\*innen, nicht Requisiten.
 - **Kontext zählt**: Caption, Alt, Quelle, Datum.
@@ -52,13 +51,13 @@ Bilder nutzen, um **mit Würde die Wahrheit zu zeigen**.
 
 Caption beantwortet: **wer, was, wo, wann**, ggf. **warum**.
 
-### Schlecht
+### Schlecht: bildunterschriften
 
 ```
 Glückliches Kind.
 ```
 
-### Gut
+### Gut: bildunterschriften
 
 ```
 Aisha, 9, im Nachmittagsangebot, Nairobi, März 2025.
@@ -77,7 +76,7 @@ Foto: Kwame Mensah.
 - **Dekorativ** → `alt=""`.
 - **Bild-Text** → im Alt wiederholen.
 
-### Gut
+### Gut: alt-text
 
 ```html
 <img src="funnel-q1.webp"
@@ -131,12 +130,10 @@ Foto: Kwame Mensah.
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Bilder sagen, **wer diese Menschen sind und wie ihr sie seht**. Mit Einwilligung, Kontext, Handwerk und Kompression. Das Vertrauen aus einem sorgfältigen Bild wirkt über Kampagnen hinaus.
 
-## Further reading
-
+## Weiterführend
 - [Save the Children — Image guidelines](https://www.savethechildren.net/)
 - [IFRC — Ethical photography](https://www.ifrc.org/)
 - [WCAG — Images](https://www.w3.org/WAI/tutorials/images/)

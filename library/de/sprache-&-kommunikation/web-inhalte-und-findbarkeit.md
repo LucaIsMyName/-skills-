@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Planung, Strukturierung und Texterstellung** für öffentliche Websites von NGOs und sozialen Organisationen—Seitenhierarchie, Überschriften, Meta-Beschreibungen, interne Verlinkung und verständliche URLs. Kein technisches SEO-Engineering (Schema-Markup, Core Web Vitals im Code); ergänzend zu [`barrierefreiheit-im-code.md`](../coding/barrierefreiheit-im-code.md) für Entwicklung und [`barrierefreiheit-kommunikation.md`](barrierefreiheit-kommunikation.md) für inklusive Texte und Medien.
 
 ## Exzerpt
-
 - **Eine Hauptaufgabe pro Seite.** Die Startseite nicht mit jedem Programm überladen—wegweisen und verlinken.
 - **Überschriften sind die Gliederung.** Eine logische `<h1>` pro Seite; dann `<h2>` / `<h3>` in Reihenfolge—hilft Lesenden und Suchmaschinen.
 - **Titel und Meta-Beschreibung** passen zur Seite; kein Clickbait; Ort oder Zielgruppe nennen wenn relevant.
@@ -83,8 +82,7 @@ Die Site **verständlich, navigierbar und in Suchergebnissen ehrlich** machen—
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Eine vertrauenswürdige NGO-Site **bringt die richtigen Menschen in ein oder zwei Klicks zur richtigen Seite**—und sagt in der Such-Snippet die Wahrheit.
 
 ## Weiterführend

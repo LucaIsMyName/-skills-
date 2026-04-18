@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **React-State, Built-in-Hooks, Memoisierung, Props vs. Context und Hook-Extraktion** in Komponenten. Kein Routing, keine Server Components (außer kurz erwähnt). Kombiniere mit [`react-komponenten-async-und-struktur.md`](react-komponenten-async-und-struktur.md) und [`react-best-practices.md`](react-best-practices.md).
 
 ## Exzerpt
-
 - **State minimal** halten; `useEffect`-Missbrauch vermeiden.
 - State **ableiten**—nicht per Effekt synchronisieren, wenn eine Berechnung reicht.
 - **Context** für querschnittliche Themen, nicht für jedes geteilte Datum.
@@ -33,7 +32,7 @@ React bedeutet:
 * **Deklarative UI** → beschreiben, *wie* die UI aussehen soll
 * **State-getriebenes Rendering** → UI aktualisiert sich bei State-Änderung
 
-👉 Die UI nicht „manuell steuern“—das macht React.
+ Die UI nicht „manuell steuern“—das macht React.
 
 ---
 
@@ -43,19 +42,19 @@ React bedeutet:
 
 Nur speichern, **was du nicht ableiten kannst**.
 
-### ❌ Schlecht
+### Schlecht: state: minimal halten
 
 ```ts
 const [fullName, setFullName] = useState("");
 ```
 
-### ✅ Gut
+### Gut: state: minimal halten
 
 ```ts
 const fullName = `${firstName} ${lastName}`;
 ```
 
-👉 Abgeleiteten State nicht speichern.
+ Abgeleiteten State nicht speichern.
 
 ---
 
@@ -65,7 +64,7 @@ const fullName = `${firstName} ${lastName}`;
 
 Wenn du nicht mit einem externen System synchronisierst → **`useEffect` brauchst du vermutlich nicht**
 
-### ❌ Typischer Missbrauch
+###  Typischer Missbrauch
 
 ```ts
 useEffect(() => {
@@ -73,7 +72,7 @@ useEffect(() => {
 }, [items]);
 ```
 
-### ✅ Besser
+###  Besser
 
 ```ts
 const filtered = items.filter(i => i.active);
@@ -88,7 +87,7 @@ Nur für:
 * DOM-APIs (Fokus, Messungen)
 * Timer
 
-👉 Frage: „Synchronisiere ich mit etwas **außerhalb** von React?“
+ Frage: „Synchronisiere ich mit etwas **außerhalb** von React?“
 
 Wenn nein → nicht nutzen.
 
@@ -98,7 +97,7 @@ Ausführlich mit Beispielen: [You Might Not Need an Effect](https://react.dev/le
 
 ## 3. Abgeleiteten State nicht in Effects
 
-### ❌ Schlechtes Muster
+###  Schlechtes Muster
 
 ```ts
 useEffect(() => {
@@ -106,13 +105,13 @@ useEffect(() => {
 }, [data]);
 ```
 
-### ✅ Gut
+### Gut: abgeleiteten state nicht in effects
 
 ```ts
 const value = useMemo(() => expensiveCalculation(data), [data]);
 ```
 
-👉 Effects sind **nicht** für Berechnungen.
+ Effects sind **nicht** für Berechnungen.
 
 ---
 
@@ -122,13 +121,13 @@ const value = useMemo(() => expensiveCalculation(data), [data]);
 
 Nur optimieren, wenn nötig.
 
-### ❌ Schlecht
+### Schlecht: `usememo` und `usecallback`: nicht übertreiben
 
 ```ts
 const value = useMemo(() => compute(), []);
 ```
 
-### ✅ Gut
+### Gut: `usememo` und `usecallback`: nicht übertreiben
 
 ```ts
 const value = compute();
@@ -139,7 +138,7 @@ const value = compute();
 * teure Berechnungen
 * unnötige Re-Renders in memoisierten Komponenten vermeiden
 
-👉 Vorzeitige Optimierung = Komplexität.
+ Vorzeitige Optimierung = Komplexität.
 
 ---
 
@@ -151,19 +150,19 @@ const value = compute();
 * keine tief verschachtelten Objekte
 * Primitiven bevorzugen
 
-### ❌ Schlecht
+### Schlecht: props: einfach halten
 
 ```ts
 <Component config={{ theme, layout, user }} />
 ```
 
-### ✅ Gut
+### Gut: props: einfach halten
 
 ```ts
 <Component theme={theme} layout={layout} />
 ```
 
-👉 Einfachere Props = einfacheres Debuggen.
+ Einfachere Props = einfacheres Debuggen.
 
 ---
 
@@ -179,7 +178,7 @@ Eine Komponente soll **eine Sache gut** tun.
 * mehrere Verantwortlichkeiten
 * schwer zu benennen
 
-👉 In kleinere Komponenten oder Hooks teilen.
+ In kleinere Komponenten oder Hooks teilen.
 
 ---
 
@@ -200,21 +199,21 @@ function useUser() {
 }
 ```
 
-👉 Hooks = wiederverwendbare Logik, keine UI.
+ Hooks = wiederverwendbare Logik, keine UI.
 
 ---
 
 ## 8. Prop Drilling vermeiden (Context nicht überall)
 
-### ❌ Schlecht
+### Schlecht: prop drilling vermeiden (context nicht überall)
 
 Props durch viele Ebenen durchreichen
 
-### ⚠️ Überkorrektur
+###  Überkorrektur
 
 Überall Context
 
-### ✅ Ausgewogen
+###  Ausgewogen
 
 * lokaler State zuerst
 * State bei Bedarf hochziehen
@@ -224,11 +223,17 @@ Props durch viele Ebenen durchreichen
   * Auth
   * Einstellungen
 
-👉 Context ist kein Ersatz für globales State-Management.
+ Context ist kein Ersatz für globales State-Management.
 
 ---
 
+## Kerngedanke
 
+Diese Seite bietet praxisnahe Orientierung zu react: state, hooks, effects in klaren, wiederverwendbaren Schritten.
+
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
 
 ---
 

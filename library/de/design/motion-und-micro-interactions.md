@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Bewegung in der UI**: Übergänge, Feedback-Animationen, Ladezustände; keine Videoproduktion, Spielanimation oder TV-Spots.
 
 ## Exzerpt
-
 - Motion nutzen, um **Ursache und Wirkung** zu verdeutlichen, nicht zur Dekoration.
 - **`prefers-reduced-motion`** respektieren: nicht-animierte Alternative anbieten.
 - Dauern oft **kurz** (ca. 150–300 ms für UI); kein großes Parallax in Aufgabenflows.
@@ -30,13 +29,13 @@ Dieses Dokument leitet ein, **wann und wie** Bewegung in Oberflächen sinnvoll i
 
 ### 1. Zweck zuerst
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 Alles animiert beim Hover, weil es „lebendig“ wirkt.
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 Button drückt sich leicht ein zur Bestätigung; Panel fährt ein, weil es von einem klaren Control kommt.
@@ -80,7 +79,7 @@ Wo möglich **fortschrittsbasiert**; **Skeleton** für Struktur; keine Endlosspi
 
 ## Abschließender Gedanke
 
-👉 Motion soll **„Was ist passiert?“** beantworten—wenn es nur **„Schau mich an“** sagt, streichen.
+ Motion soll **„Was ist passiert?“** beantworten—wenn es nur **„Schau mich an“** sagt, streichen.
 
 ## Weiterführende Links
 
@@ -88,3 +87,16 @@ Wo möglich **fortschrittsbasiert**; **Skeleton** für Struktur; keine Endlosspi
 - [W3C WAI — Understanding 2.3.3 Animation aus Interaktionen](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html) — optionale Grenzen für Bewegung
 - [MDN — Web Animations API](https://developer.mozilla.org/de/docs/Web/API/Web_Animations_API) — Timing und Zusammenspiel im Code
 
+---
+
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu motion und micro-interactions in klaren, wiederverwendbaren Schritten.
+
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
+
+---
+
+Englische Version: [`motion-and-micro-interactions.md`](../../en/design/motion-and-micro-interactions.md)

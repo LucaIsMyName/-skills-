@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Spender:innen-Ansprache** in E-Mail, Brief, Landingpage und Kampagnen-Texten im Non-Profit-Bereich. Nicht Förderanträge (siehe [`foerderantraege-und-projektskizzen.md`](foerderantraege-und-projektskizzen.md)) und keine Major-Donor-Verhandlungen. Ergänzt [`stories-schreiben.md`](stories-schreiben.md), [`respektvolle-sprache.md`](respektvolle-sprache.md), [`newsletter-und-e-mail.md`](newsletter-und-e-mail.md).
 
 ## Exzerpt
-
 - **Eine Person, ein Bedarf, ein Appell.** Spendenaufrufe sind keine Jahresberichte—alles andere streichen.
 - **Würde vor Dramatik.** Die Menschen in der Kampagne sind **handelnde Personen**, keine „Fälle"; die Org ist Partnerin, keine Retterin.
 - **Konkrete Wirkung schlägt diffuses Gefühl.** „20 € decken eine Woche Schulessen für Leilas Klasse" schlägt „Ihre Spende verändert Leben".
@@ -50,13 +49,13 @@ Aufrufe schreiben, die **zum Geben bewegen**, alle Beteiligten respektieren und 
 - Präsens für Lebendigkeit; Vergangenheit für Reflexion.
 - Kleines Detail: die Farbe der Jacke, Name der Nachmittagsgruppe, Gewicht der Tasche.
 
-### Schlecht
+### Schlecht: der hook: ein echter moment
 
 ```text
 Tausende Kinder haben keinen Zugang zu ausgewogenen Mahlzeiten und das stellt erhebliche Herausforderungen für ihre langfristige Entwicklung dar.
 ```
 
-### Gut
+### Gut: der hook: ein echter moment
 
 ```text
 Dienstag, 15:40 Uhr. Leila kommt aus der Schule, läuft in unsere Stadtteilküche und isst die erste warme Mahlzeit des Tages. Ihre Mutter arbeitet zwei Schichten und ist erst um 21 Uhr zu Hause.
@@ -77,13 +76,13 @@ Dienstag, 15:40 Uhr. Leila kommt aus der Schule, läuft in unsere Stadtteilküch
 - **Monatlich** klar beschriften („10 € pro Monat", nicht „Guardian-Kreis").
 - **Ein primärer CTA** pro Seite/Mail. Sekundäres: FAQ, Datenschutz, Abmeldung.
 
-### Schlecht
+### Schlecht: der appell: konkret und klar
 
 ```text
 Bitte unterstützen Sie unsere Arbeit, wie es Ihnen möglich ist.
 ```
 
-### Gut
+### Gut: der appell: konkret und klar
 
 ```text
 Spenden Sie heute 20 €—das ist eine Woche Schulessen für ein Kind wie Leila.
@@ -164,4 +163,4 @@ Ein guter Aufruf sagt ehrlich: **hier ist eine Person, so verändert sich etwas 
 
 ---
 
-English version: [`fundraising-appeals.md`](../../en/language-&-communication/fundraising-appeals.md)
+Englische Version: [`fundraising-appeals.md`](../../en/language-&-communication/fundraising-appeals.md)

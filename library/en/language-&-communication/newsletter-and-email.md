@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **marketing and transactional emails** (newsletters, appeals, updates); not individual HR or legal notices, and **not** inventing unsubscribe or privacy policy text—point to legal review.
 
-## Excerpt 
-
+## Excerpt
 - Use for **subject lines, preview text, body structure**, and a **single primary CTA** per email when possible.
 - **Never invent** legal footers, consent language, or region-specific rules—**flag for legal/comms review**.
 - **Ask** for list segment, send date, link targets, and brand voice before drafting.
@@ -38,13 +37,13 @@ This document explains how to draft **effective, trustworthy email** for **socia
 
 **Subject line and email body must match**—same topic; no bait-and-switch from subject to body.
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
 You NEED to see this!!!!!!!!!!
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 Open day: free debt advice this Saturday (book a slot)
@@ -56,13 +55,13 @@ Open day: free debt advice this Saturday (book a slot)
 
 It should **extend** the promise, not repeat the subject word-for-word.
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
 [Preview:] Read our newsletter Read our newsletter
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 [Preview:] Book a 20-minute slot with our advisers—walk-ins welcome.
@@ -74,13 +73,13 @@ It should **extend** the promise, not repeat the subject word-for-word.
 
 Multiple competing buttons reduce action. If two asks are needed, **prioritize** one visually.
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
 [Donate now] [Volunteer] [Read 5 articles] [Survey] [Share] — all same size
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 Primary: [Register for the open day]
@@ -112,9 +111,8 @@ When the user describes segments, **mirror** language to each group (donors vs v
 
 ---
 
-## Final thought
-
-👉 Email builds **trust over time**. Clarity beats cleverness; **legal text is not optional**—get the approved block from your organization.
+## Core idea
+ Email builds **trust over time**. Clarity beats cleverness; **legal text is not optional**—get the approved block from your organization.
 
 ## Further reading
 
@@ -122,3 +120,6 @@ When the user describes segments, **mirror** language to each group (donors vs v
 - [U.S. FTC — CAN-SPAM compliance guide](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) — identification, opt-out, and routing rules for bulk email in the U.S.
 - [W3C WAI — accessible emails](https://www.w3.org/WAI/tutorials/page-structure/) — structure and semantics that help assistive tech (pair with your HTML template owners)
 
+---
+
+German version: [`newsletter-und-e-mail.md`](../../de/sprache-&-kommunikation/newsletter-und-e-mail.md)

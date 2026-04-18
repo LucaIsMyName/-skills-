@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Effiziente** Meetings—Zweck, Agenda, Ergebnisse, Async-Alternativen. Ergänzt [`entscheidungslog-und-adrs.md`](entscheidungslog-und-adrs.md), [`statusberichte-und-reporting.md`](statusberichte-und-reporting.md) und [`workshops-und-moderation.md`](../sprache-&-kommunikation/workshops-und-moderation.md).
 
 ## Exzerpt
-
 - **Zweck** in einem Satz.
 - **Agenda** mit **Zeitboxen** und **Vorlese-Material**.
 - **Output**: Actions mit Owner und Datum.
@@ -35,13 +34,13 @@ Synchronzeit für **Urteil und Entscheidung**—der Rest **steht schriftlich**.
 
 Sag, ob du eine **Entscheidung**, **Alignment** oder ein **Review** brauchst—alles in einem Slot erzeugt Drift.
 
-### Bad
+### Gut: meeting-typ benennen
 
 ```text
 Wöchentliches Sync — TBD
 ```
 
-### Good
+### Gut: meeting-typ benennen
 
 ```text
 Entscheidungs-Meeting (30 Min.): Q3-Rota-Vorschlag freigeben.
@@ -54,13 +53,13 @@ Vorlese: /docs/rota-vorschlag.md — Kommentar bis Di 10:00.
 
 Jedes Thema bekommt **Minutenbudget** und **Link** zu Material, das vorher gelesen werden muss.
 
-### Bad
+### Gut: agenda mit zeitboxen und vorlese-material
 
 ```text
 Agenda: Updates, Blocker, Sonstiges
 ```
 
-### Good
+### Gut: agenda mit zeitboxen und vorlese-material
 
 ```text
 0–5 Min.  Ergebnisse + welche Entscheidungen heute nötig sind
@@ -74,13 +73,13 @@ Agenda: Updates, Blocker, Sonstiges
 
 **Pflicht** sind Personen, die **entscheiden** oder **blockieren** können; alle anderen **optional** oder bekommen **Protokoll**.
 
-### Bad
+### Gut: nur einladen, wer wirklich muss
 
 ```text
 Einladung: ganzes Team + Stakeholder „zur Info“
 ```
 
-### Good
+### Gut: nur einladen, wer wirklich muss
 
 ```text
 Pflicht: Alex (DRI), Sam (Budget). Optional: Design. Protokoll → #proj-freiwillige
@@ -92,13 +91,13 @@ Pflicht: Alex (DRI), Sam (Budget). Optional: Design. Protokoll → #proj-freiwil
 
 Abschluss mit **wer macht was bis wann** in **einem** gemeinsamen Dokument oder Ticket—kein „wir melden uns“.
 
-### Bad
+### Gut: mit schriftlichen actions enden
 
 ```text
 „Lass uns alle drüber nachdenken und später syncen.“
 ```
 
-### Good
+### Gut: mit schriftlichen actions enden
 
 ```text
 Actions: (1) Alex — Rota v2 bis Fr EOD. (2) Sam — Versicherung bestätigen bis Mo.
@@ -111,13 +110,13 @@ Eingetragen in /meetings/2025-04-18.md
 
 **E-Mail, Kommentare oder Dashboards** für reinen Status; Live-Zeit für **Unklarheit, Konflikt oder Commitment**.
 
-### Bad
+### Gut: status lieber async
 
 ```text
 60 Min. Standup: jede*r liest das Board laut vor.
 ```
 
-### Good
+### Gut: status lieber async
 
 ```text
 Status async in #proj-updates bis Do 17:00. Fr 25 Min.: nur Blocker + 2 Entscheidungen.
@@ -129,13 +128,13 @@ Status async in #proj-updates bis Do 17:00. Fr 25 Min.: nur Blocker + 2 Entschei
 
 **Einen** kanonischen Ort (Wiki-Pfad, Doc, Ticket)—immer derselbe Link.
 
-### Bad
+### Gut: eine quelle für protokolle
 
 ```text
 Notizen im Chat + jemandes Notizbuch + Fotos vom Whiteboard.
 ```
 
-### Good
+### Gut: eine quelle für protokolle
 
 ```text
 Protokoll: /wiki/meetings/freiwilligen-rota — Vorlage wie letzte Woche; Link in Kalendereinladung.
@@ -152,8 +151,7 @@ Protokoll: /wiki/meetings/freiwilligen-rota — Vorlage wie letzte Woche; Link i
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Meetings **ändern Zustand**—**entscheiden**, **klären**, **committen**—sonst **schreiben**.
 
 ## Weiterführend

@@ -1,9 +1,8 @@
 # Skill-Dokumentation schreiben
 
-**Scope:** Gilt für **diese Bibliothek und ähnliche Doc-Sets**—Struktur, Überschriften, Querverweise, Beispiele, Stil, damit Texte gut lesbar, zitierbar und konsistent bleiben. Keine allgemeine Technik-Schreib-Theorie. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`kontextfenster-und-chunks.md`](kontextfenster-und-chunks.md), [`markdown-und-mdx.md`](../coding/markdown-und-mdx.md) und [`AGENTS.md`](../../../AGENTS.md).
+**Geltungsbereich:** Gilt für **diese Bibliothek und ähnliche Doc-Sets**—Struktur, Überschriften, Querverweise, Beispiele, Stil, damit Texte gut lesbar, zitierbar und konsistent bleiben. Keine allgemeine Technik-Schreib-Theorie. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`kontextfenster-und-chunks.md`](kontextfenster-und-chunks.md), [`markdown-und-mdx.md`](../coding/markdown-und-mdx.md) und [`AGENTS.md`](../../../AGENTS.md).
 
-## Excerpt
-
+## Exzerpt
 - **Vorhersagbare Form** hilft Lesenden beim Skimmen und hilft Suche und Zusammenfassung: H1, Scope, Excerpt, Before, Purpose, nummerierte Sektionen, Core idea, Further reading.
 - **Kurze, deklarative** Sätze. Kurze Absätze. Viele **Schlecht/Gut**-Paare.
 - **Verknüpfen** zu Geschwisterseiten in Scope; erneut in Sektionen, wo sinnvoll.
@@ -56,7 +55,7 @@ Form ist bewusst stabil—erleichtert Chunking, Retrieval, Zusammenfassung.
 - **H1**: lesbar ("Prompten-Grundlagen", nicht `# prompten-grundlagen.md`).
 - **Scope**: was drin, was nicht, 2–4 Geschwisterlinks.
 
-### Schlecht
+### Schlecht: titel, scope, dateiname
 
 ```md
 # prompten-grundlagen.md
@@ -64,12 +63,12 @@ Form ist bewusst stabil—erleichtert Chunking, Retrieval, Zusammenfassung.
 Es geht um Prompts.
 ```
 
-### Gut
+### Gut: titel, scope, dateiname
 
 ```md
 # Prompten-Grundlagen
 
-**Scope:** Gilt für **wirksame Anweisungen**—Rollen, Einschränkungen,
+**Geltungsbereich:** Gilt für **wirksame Anweisungen**—Rollen, Einschränkungen,
 Beispiele, Iteration, Prüfung. Nicht Modelltraining, nicht Policy. Kombiniere
 mit [`prompt-muster.md`](prompt-muster.md) und [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
 ```
@@ -106,7 +105,7 @@ So schreiben, dass der Abschnitt auch einzeln zitiert noch Sinn ergibt.
 - **Scope**: 2–4 verwandte Seiten.
 - In Sektionen: verlinken, wenn das Thema wirklich woanders wohnt—nicht als Deko.
 - **Relative Pfade**; Auflösung prüfen.
-- **EN↔DE**-Gegenstück unten.
+- **ENDE**-Gegenstück unten.
 
 ## 8. Anti-Muster
 
@@ -126,7 +125,7 @@ So schreiben, dass der Abschnitt auch einzeln zitiert noch Sinn ergibt.
 - [ ] Mindestens ein Schlecht/Gut-Paar.
 - [ ] Core idea.
 - [ ] 2–4 Further reading.
-- [ ] EN↔DE-Link im Footer.
+- [ ] ENDE-Link im Footer.
 - [ ] Keine kaputten Links; Pfade relativ.
 - [ ] Ton: deklarativ, einfach, freundlich.
 
@@ -139,12 +138,10 @@ So schreiben, dass der Abschnitt auch einzeln zitiert noch Sinn ergibt.
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Ein Doc hier ist ein **Vertrag** mit der nächsten Leserin: **vorhersagbare Form, konkrete Beispiele, kurze Sätze, ehrliche Unsicherheit, nützliche Querverweise.**
 
-## Further reading
-
+## Weiterführend
 - [Diátaxis — Documentation framework](https://diataxis.fr/)
 - [Google developer documentation style guide](https://developers.google.com/style)
 - [Write the Docs — Documentation guide](https://www.writethedocs.org/guide/)

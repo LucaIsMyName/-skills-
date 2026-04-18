@@ -1,9 +1,8 @@
 # Barrierefreiheit als Rechtspflicht
 
-**Scope:** Gilt für **rechtliche Pflichten digitaler Barrierefreiheit**—WCAG/EN 301 549, EAA (EU), BFSG (DE), Equality Act (UK), ADA (US), öffentliche Stellen, Erklärungen, Nachbesserung. Keine komplette WCAG-Schulung, nicht länder-erschöpfend. Kombiniere mit [`barrierefreiheit-im-code.md`](../coding/barrierefreiheit-im-code.md), [`content-design-und-microcopy.md`](../design/content-design-und-microcopy.md), [`dsgvo-grundlagen.md`](dsgvo-grundlagen.md) und [`leere-und-fehlerzustaende.md`](../design/leere-und-fehlerzustaende.md).
+**Geltungsbereich:** Gilt für **rechtliche Pflichten digitaler Barrierefreiheit**—WCAG/EN 301 549, EAA (EU), BFSG (DE), Equality Act (UK), ADA (US), öffentliche Stellen, Erklärungen, Nachbesserung. Keine komplette WCAG-Schulung, nicht länder-erschöpfend. Kombiniere mit [`barrierefreiheit-im-code.md`](../coding/barrierefreiheit-im-code.md), [`content-design-und-microcopy.md`](../design/content-design-und-microcopy.md), [`dsgvo-grundlagen.md`](dsgvo-grundlagen.md) und [`leere-und-fehlerzustaende.md`](../design/leere-und-fehlerzustaende.md).
 
-## Excerpt
-
+## Exzerpt
 - **Barrierefreiheit ist Gesetz**, nicht Höflichkeit—EU/DE/UK/US und mehr.
 - **WCAG 2.2 AA** ist das gängige Minimum.
 - **Erklärung zur Barrierefreiheit** ist Pflicht; wahrheitsgemäß und aktuell halten.
@@ -122,12 +121,10 @@ Keine Templates mit "Lorem ipsum" stehen lassen.
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Barrierefreiheit ist **Gesetz und anhaltende Praxis**. WCAG 2.2 AA shippen, in Beschaffung und CI verankern, ehrliche Erklärung, schnell auf Beschwerden reagieren, Hartes fixen.
 
-## Further reading
-
+## Weiterführend
 - [W3C — WCAG 2.2](https://www.w3.org/TR/WCAG22/)
 - [Europäische Kommission — Accessibility](https://ec.europa.eu/social/main.jsp?catId=1202)
 - [BFSG — BMAS](https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Barrierefreiheit/barrierefreiheit.html)

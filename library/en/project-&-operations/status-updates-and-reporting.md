@@ -3,7 +3,6 @@
 **Scope:** **Regular** status—what changed, what’s blocked, what’s next—for teams and stakeholders. Not financial accounting. Pair with [`project-briefs.md`](project-briefs.md), [`meetings-and-agendas.md`](meetings-and-agendas.md), and [`impact-and-annual-reporting.md`](../research-&-analysis/impact-and-annual-reporting.md).
 
 ## Excerpt
-
 - **RAG** or simple **green/yellow/red** for trajectory—**define** thresholds.
 - **Narrative** + **metrics**—story without numbers is vague; numbers without story is noise.
 - **Asks** explicit—**decision**, **resource**, or **risk acceptance**.
@@ -35,13 +34,13 @@ Make progress and problems **visible** so help arrives **before** deadlines burn
 
 Define what **green**, **yellow**, and **red** mean for your project—same words for everyone.
 
-### Bad
+### Bad: rag or green/yellow/red with thresholds
 
 ```text
 Overall: green (but three blockers and we missed last week’s milestone).
 ```
 
-### Good
+### Good: rag or green/yellow/red with thresholds
 
 ```text
 Green: on track for milestone 15 May. Yellow: dependency on Legal >5 days late—risk to date. Red: if API still down Thu EOD.
@@ -53,13 +52,13 @@ Green: on track for milestone 15 May. Yellow: dependency on Legal >5 days late�
 
 Pair **one short story** (what changed for users or the team) with **1–3 numbers** or dates people can verify.
 
-### Bad
+### Bad: narrative plus metrics
 
 ```text
 We made good progress. Velocity is fine.
 ```
 
-### Good
+### Good: narrative plus metrics
 
 ```text
 Shipped volunteer SMS reminders to 40% of cohort; opt-out 2%. Next: expand to full cohort Mon.
@@ -71,13 +70,13 @@ Shipped volunteer SMS reminders to 40% of cohort; opt-out 2%. Next: expand to fu
 
 End with **what you need from readers**—otherwise status is broadcast, not a control loop.
 
-### Bad
+### Bad: asks: decision, resource, or risk acceptance
 
 ```text
 Thanks for reading! Let us know any thoughts.
 ```
 
-### Good
+### Good: asks: decision, resource, or risk acceptance
 
 ```text
 Ask: Sam to approve £500 boost budget by Wed—or we drop paid channel from launch.
@@ -89,13 +88,13 @@ Ask: Sam to approve £500 boost budget by Wed—or we drop paid channel from lau
 
 Pick a **fixed rhythm** (e.g. EOD Friday) and a **word budget**; exec gets shorter than the team channel.
 
-### Bad
+### Bad: cadence and length for the audience
 
 ```text
 Random long emails when something goes wrong.
 ```
 
-### Good
+### Good: cadence and length for the audience
 
 ```text
 Weekly: 200 words to #proj-updates; monthly one-pager to steering—same day each time.
@@ -107,13 +106,13 @@ Weekly: 200 words to #proj-updates; monthly one-pager to steering—same day eac
 
 Store updates in a **dated thread or doc** so onboarding does not rely on memory.
 
-### Bad
+### Bad: archive where new people can read history
 
 ```text
 Status only in scattered Slack threads—no index.
 ```
 
-### Good
+### Good: archive where new people can read history
 
 ```text
 Canonical log: /wiki/project-x/status-log — newest first; link from project brief.
@@ -125,13 +124,13 @@ Canonical log: /wiki/project-x/status-log — newest first; link from project br
 
 Flag **drift and dependency risk** while sponsors can still help—do not save bad news for the deadline.
 
-### Bad
+### Bad: escalate yellow before red explodes
 
 ```text
 We’re green until launch week, then “surprise” delay.
 ```
 
-### Good
+### Good: escalate yellow before red explodes
 
 ```text
 Yellow since Apr 10: vendor slip risks May 1—mitigation: interim manual process; need exec OK for overtime.

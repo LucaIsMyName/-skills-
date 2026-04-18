@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Kampagne** End-to-End—Ziele, Zielgruppen, Kanäle, Zeitplan, Messung. Ergänzt [`kreativbriefs.md`](kreativbriefs.md), [`spendenaufrufe.md`](../sprache-&-kommunikation/spendenaufrufe.md) und [`statusberichte-und-reporting.md`](statusberichte-und-reporting.md).
 
 ## Exzerpt
-
 - **Ziel** mit **Kennzahl**—ein primäres.
 - **Segmente** mit **Botschaften**.
 - **Kanalplan** mit Ownern.
@@ -35,13 +34,13 @@ Koordiniert liefern und **lernen**—kein Einmal-Rauschen.
 
 **Ein** Nordstern-Ergebnis (z. B. Anmeldungen, Spenden, Reichweite) und **wie** ihr es messt—sekundäre Kennzahlen nur unterstützend.
 
-### Bad
+### Gut: ein primäres ziel und eine kennzahl
 
 ```text
 Awareness steigern und Leads und Markenliebe—alles gleich wichtig.
 ```
 
-### Good
+### Gut: ein primäres ziel und eine kennzahl
 
 ```text
 Primär: 200 neue Newsletter-Anmeldungen bis 30. Juni (im Formular bestätigt). Sekundär: Reichweite, Stimmung—berichten, aber nicht gleich optimiert.
@@ -53,13 +52,13 @@ Primär: 200 neue Newsletter-Anmeldungen bis 30. Juni (im Formular bestätigt). 
 
 Pro **Segment** **Insight** und **Botschaft**—kein vages „allgemeine Öffentlichkeit“.
 
-### Bad
+### Gut: zielgruppensegmente und botschaften
 
 ```text
 Alle in der Stadt. Botschaft: wir sind toll.
 ```
 
-### Good
+### Gut: zielgruppensegmente und botschaften
 
 ```text
 Segment A: Eltern—Botschaft: Abendtermine passen zur Schulzeit. Segment B: Arbeitgeber*innen—Botschaft: CSR-Freiwilligentage mit klarem Zeitrahmen.
@@ -71,13 +70,13 @@ Segment A: Eltern—Botschaft: Abendtermine passen zur Schulzeit. Segment B: Arb
 
 **Kanäle**, **Owner**, **Kadenz** und **Erfolg** pro Kanal—„überall posten“ vermeiden.
 
-### Bad
+### Gut: kanalplan mit ownern
 
 ```text
 Im Mai viel posten.
 ```
 
-### Good
+### Gut: kanalplan mit ownern
 
 ```text
 Organisch Social: Kommunikation—3 Posts/Woche—Awareness. Partner-Newsletter: Partnerschaften—1 Versand—Conversion. Paid-Boost: Ads—£500 Cap—nur Anmeldungen.
@@ -89,13 +88,13 @@ Organisch Social: Kommunikation—3 Posts/Woche—Awareness. Partner-Newsletter:
 
 **Rechtsfreigabe**, **Assets**, **Übersetzungen** und **Meilensteine** auf einer Linie—Handoffs sichtbar.
 
-### Bad
+### Gut: timeline und abhängigkeiten
 
 ```text
 Launch 1. Juni—Kreativ offen 28. Mai; Legal hat Text nie gesehen.
 ```
 
-### Good
+### Gut: timeline und abhängigkeiten
 
 ```text
 Text-Freeze 10. Mai → Legal 15. Mai → Design 22. Mai → Übersetzungen 28. Mai → Staging 30. Mai → Launch 1. Juni.
@@ -107,13 +106,13 @@ Text-Freeze 10. Mai → Legal 15. Mai → Design 22. Mai → Übersetzungen 28. 
 
 **Baseline** vor Launch; **UTMs** oder Äquivalent; **wer** liest wöchentlich das Dashboard.
 
-### Bad
+### Gut: messung: baselines und tracking
 
 ```text
 Gefühl, ob es geklappt hat.
 ```
 
-### Good
+### Gut: messung: baselines und tracking
 
 ```text
 Baseline: Listengröße 1.200 (30. Apr.). UTMs: utm_campaign=summer2025 pro Kanal. Owner: Sam—wöchentliches Dashboard in #kampagnen.
@@ -125,13 +124,13 @@ Baseline: Listengröße 1.200 (30. Apr.). UTMs: utm_campaign=summer2025 pro Kana
 
 **Asset-Liste** mit **Format**, **Owner**, **Freigabe bis**—verknüpft mit Kreativbriefs.
 
-### Bad
+### Gut: assets und freigabe-termine
 
 ```text
 Brauchen ein paar Grafiken und vielleicht Video—bald.
 ```
 
-### Good
+### Gut: assets und freigabe-termine
 
 ```text
 Assets: 3×1080 Social (Design bis 12. Mai); Landing-Hero (14. Mai); E-Mail (Copy Legal 10. Mai). Alles in Brief /campaigns/summer2025.
@@ -143,13 +142,13 @@ Assets: 3×1080 Social (Design bis 12. Mai); Landing-Hero (14. Mai); E-Mail (Cop
 
 Kurzes **Risiko-Register**: was schiefgehen kann (Shitstorm, Tech, Ausverkauf) und **wer** reagiert.
 
-### Bad
+### Gut: risiken und response-owner
 
 ```text
 Hoffentlich nichts Schlimmes auf Twitter.
 ```
 
-### Good
+### Gut: risiken und response-owner
 
 ```text
 Risiko: negative Antworten am Launch-Tag. Owner: Comms-Lead—Eskalation zur Geschäftsführung; vorab freigegebene Antworten.
@@ -166,8 +165,7 @@ Risiko: negative Antworten am Launch-Tag. Owner: Comms-Lead—Eskalation zur Ges
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Kampagne = **System** aus Botschaft, Timing, Messung, Ownership.
 
 ## Weiterführend

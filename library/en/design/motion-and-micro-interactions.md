@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **UI motion**: transitions, feedback animations, loading states; not video production, game animation, or brand TV spots.
 
-## Excerpt 
-
+## Excerpt
 - Use motion to **clarify cause and effect**, not to decorate.
 - Respect **`prefers-reduced-motion`**: provide a non-animated equivalent.
 - Keep durations **short** (often ~150–300ms for UI); avoid large parallax on task flows.
@@ -30,13 +29,13 @@ This document guides **when and how** to use motion in interfaces so it improves
 
 ### 1. Purpose first
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
 Everything animates on every hover because it looks “alive.”
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 Button press scales slightly to confirm; panel slides in because it opened from a specific control.
@@ -78,12 +77,15 @@ Use **determinate** progress when possible; **skeleton** for content structure; 
 
 ---
 
-## Final thought
-
-👉 Motion should **answer “what happened?”**—if it only says “look at me,” cut it.
+## Core idea
+ Motion should **answer “what happened?”**—if it only says “look at me,” cut it.
 
 ## Further reading
 
 - [MDN — `prefers-reduced-motion`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) — respect user settings for vestibular disorders
 - [W3C WAI — Understanding 2.3.3 Animation from Interactions](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html) — optional motion thresholds for WCAG
 - [MDN — Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API) — timing and synchronisation when implementing motion in code
+
+---
+
+German version: [`motion-und-micro-interactions.md`](../../de/design/motion-und-micro-interactions.md)

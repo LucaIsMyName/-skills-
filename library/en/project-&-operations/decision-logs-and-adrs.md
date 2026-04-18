@@ -3,7 +3,6 @@
 **Scope:** Recording **decisions** so teams remember **why**—lightweight decision logs and **Architecture Decision Records** (ADRs) for technical choices. Pair with [`project-briefs.md`](project-briefs.md), [`git-and-commits.md`](../coding/git-and-commits.md), and [`meetings-and-agendas.md`](meetings-and-agendas.md).
 
 ## Excerpt
-
 - **Context → Decision → Consequences**—short and durable.
 - **Supersedes** links when decisions change—**history** stays traceable.
 - **One decision per ADR**—do not mash ten topics.
@@ -35,13 +34,13 @@ Stop re-litigating **settled** choices—**onboard** faster and **audit** later.
 
 Every record answers: **why now**, **what we chose**, and **what changes** (good and bad)—in a few short paragraphs.
 
-### Bad
+### Bad: context, decision, consequences
 
 ```text
 We use Postgres. It’s good.
 ```
 
-### Good
+### Good: context, decision, consequences
 
 ```text
 Context: Need relational integrity and reporting for volunteer data.
@@ -55,13 +54,13 @@ Consequences: + Strong consistency, mature tooling. − Ops cost; migrations nee
 
 Split topics so each ADR has **one** decision—readers can find and supersede a single choice.
 
-### Bad
+### Bad: one decision per adr
 
 ```text
 ADR 0009: Auth provider + cache + queue + naming convention (4 pages).
 ```
 
-### Good
+### Good: one decision per adr
 
 ```text
 ADR 0009: OAuth provider (Supabase). ADR 0010: Redis for session cache. Separate files.
@@ -73,13 +72,13 @@ ADR 0009: OAuth provider (Supabase). ADR 0010: Redis for session cache. Separate
 
 Mark **proposed / accepted / deprecated** and **date**; when replacing an ADR, link **Supersedes** and **Superseded by**.
 
-### Bad
+### Bad: status, date, and supersedes
 
 ```text
 Old doc says SQLite; new doc says Postgres; both say “current”.
 ```
 
-### Good
+### Good: status, date, and supersedes
 
 ```text
 ADR 0003 Status: Deprecated (2025-01-10). Superseded by ADR 0007. ADR 0007 Status: Accepted (2025-01-10).
@@ -91,13 +90,13 @@ ADR 0003 Status: Deprecated (2025-01-10). Superseded by ADR 0007. ADR 0007 Statu
 
 List **credible options you rejected** and **one line why**—shows you thought, not only advocated.
 
-### Bad
+### Bad: alternatives considered
 
 ```text
 Alternatives: none worth mentioning.
 ```
 
-### Good
+### Good: alternatives considered
 
 ```text
 Alternatives: SQLite (too limited for multi-user reporting); Document DB (harder analytics). Chose Postgres.
@@ -109,13 +108,13 @@ Alternatives: SQLite (too limited for multi-user reporting); Document DB (harder
 
 State whether the decision is **easy to undo**—informs how much debate you need before accepting.
 
-### Bad
+### Bad: reversibility and cost of change
 
 ```text
 We’ll migrate databases later if needed (no plan).
 ```
 
-### Good
+### Good: reversibility and cost of change
 
 ```text
 Reversibility: Low—data model couples to SQL. Reversal cost: 2–4 weeks + downtime risk; justify before accepting.
@@ -127,13 +126,13 @@ Reversibility: Low—data model couples to SQL. Reversal cost: 2–4 weeks + dow
 
 Store ADRs **next to the code** or in a **known wiki path**; name **stakeholders** who had to align.
 
-### Bad
+### Bad: where it lives and who cares
 
 ```text
 Decision in Slack thread from 2023—link broken.
 ```
 
-### Good
+### Good: where it lives and who cares
 
 ```text
 Location: /docs/adr/0007-postgres.md in repo; linked from README. Stakeholders: Tech lead, DPO (data location).

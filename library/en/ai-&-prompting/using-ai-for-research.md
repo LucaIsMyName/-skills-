@@ -3,7 +3,6 @@
 **Scope:** Applies to **language models in research tasks**—literature scans, interview summarisation, coding qualitative data, drafting survey questions, hypothesis generation. Not statistics (use proper tooling) and not peer-reviewed research methodology. Pair with [`prompting-basics.md`](prompting-basics.md), [`rag-basics.md`](rag-basics.md), [`desk-research.md`](../research-&-analysis/desk-research.md), [`source-evaluation-and-fact-checking.md`](../research-&-analysis/source-evaluation-and-fact-checking.md), [`qualitative-coding.md`](../research-&-analysis/qualitative-coding.md), and [`evaluating-model-output.md`](evaluating-model-output.md).
 
 ## Excerpt
-
 - **AI helps you think; it does not know**. Treat outputs as **hypotheses**, not findings.
 - **Ground** the model in your sources—never ask it to recite facts from memory.
 - **Cite** every claim back to a source you have read; no citation = not a claim.
@@ -54,13 +53,13 @@ Use AI to **accelerate** research tasks—literature scans, coding, pattern-find
 
 Prefer **closed-book** prompts: the model answers only from text you paste or retrieve (see [`rag-basics.md`](rag-basics.md)).
 
-### Bad
+### Bad: ground everything
 
 ```text
 What does the research say about youth mental health in the UK?
 ```
 
-### Good
+### Good: ground everything
 
 ```text
 Using ONLY the sources below, list the claims about UK youth mental health.
@@ -99,7 +98,7 @@ See [`desk-research.md`](../research-&-analysis/desk-research.md) for the full p
 - **Validate** on a held-out subset coded by humans; measure agreement (see [`qualitative-coding.md`](../research-&-analysis/qualitative-coding.md)).
 - Keep a **disagreements** log—that's where real insight lives.
 
-### Good
+### Good: qualitative coding with ai
 
 ```text
 Apply the following CODEBOOK to each QUOTE.

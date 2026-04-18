@@ -3,7 +3,6 @@
 **Scope:** Quick **visual and spatial patterns** that separate supportive UI from confusing UI—useful for handoffs, reviews, and for tools that need a **literal sketch** of design intent. Pair with [`designing-good-interfaces.md`](designing-good-interfaces.md), [`design-basics.md`](design-basics.md), and [`forms-and-input-ux.md`](forms-and-input-ux.md).
 
 ## Excerpt
-
 - **One primary action per screen.** Make the happy path obvious; demote or hide destructive alternatives.
 - **Hierarchy beats decoration.** Title → summary → detail; not three competing “hero” blocks.
 - **Whitespace is structure.** Padding groups related things; crowding implies relationship where there is none.
@@ -118,7 +117,7 @@ Give **scannable before/after** diagrams so reviewers (and AI) can see **what �
 
 ```
   Work email
- 
+
   ┌────────────────────────────────────┐
   │ you@company.org                    │
   └────────────────────────────────────┘
@@ -142,7 +141,7 @@ Give **scannable before/after** diagrams so reviewers (and AI) can see **what �
 
 ```
   Password
- 
+
   ┌────────────────────────────────────┐
   │ short                              │
   └────────────────────────────────────┘
@@ -193,7 +192,7 @@ Give **scannable before/after** diagrams so reviewers (and AI) can see **what �
 
 ```
   Library
-    
+
     Design   ○ current section
     Coding
     Research
@@ -225,7 +224,7 @@ Give **scannable before/after** diagrams so reviewers (and AI) can see **what �
 **Bad — wallpaper of numbers**
 
 ```
- $120,402.38 ERR03 240ms 4% 99.2% ??? FT @queue #7 !! 
+ $120,402.38 ERR03 240ms 4% 99.2% ??? FT @queue #7 !!
 ```
 
 **Intent:** Chunk metrics; one metric role per tile; trend vs raw noise.
@@ -250,3 +249,17 @@ Apply the same discipline as other explainers: patterns here are **defaults**, n
 
 - If “bad” looks tempting (busy banners, loud gradients), users will feel the same fatigue—simplify.
 - Models that read this file benefit from **explicit labels** (“Good”, “Bad”) and **fixed-width boxes**—keep diagrams monospaced in editors.
+
+---
+
+## Core idea
+
+This page gives practical guidance for good and bad ui concepts (ascii patterns) in repeatable, team-friendly steps.
+
+## Further reading
+
+- Continue with the related pages linked in the Scope section for deeper examples and adjacent workflows.
+
+---
+
+German version: [`gute-und-schlechte-ui-konzepte.md`](../../de/design/gute-und-schlechte-ui-konzepte.md)

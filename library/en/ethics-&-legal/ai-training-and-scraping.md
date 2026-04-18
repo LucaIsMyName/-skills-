@@ -3,7 +3,6 @@
 **Scope:** Applies to **how your content, code, and data relate to AI training and web scraping**—opt-outs, `robots.txt`, copyright, datasets, terms of service, defensive practice. Not a full IP or litigation guide. Pair with [`open-source-licenses.md`](open-source-licenses.md), [`gdpr-basics.md`](gdpr-basics.md), [`ai-disclosure-and-policy.md`](ai-disclosure-and-policy.md), and [`using-ai-for-research.md`](../ai-&-prompting/using-ai-for-research.md).
 
 ## Excerpt
-
 - **You own what you publish**, and can **signal** whether you allow training and scraping.
 - **`robots.txt` + `ai.txt` + HTTP headers + platform settings** are the practical tools today.
 - **Personal data** in training sets is a **GDPR** issue, even if it was public.
@@ -48,10 +47,10 @@ Your permissions may differ for each. "No training" is common; "no retrieval" is
   ```
   User-agent: GPTBot
   Disallow: /
-  
+
   User-agent: ClaudeBot
   Disallow: /
-  
+
   User-agent: Google-Extended
   Disallow: /
   ```

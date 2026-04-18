@@ -3,7 +3,6 @@
 **Scope:** Applies to **HTTP APIs you own**—resources, verbs, status codes, payloads, versioning, pagination, errors. Not GraphQL-specific design, not internal RPC, not authentication protocol design. Pair with [`security-for-web-apps.md`](security-for-web-apps.md), [`error-handling-and-logging.md`](error-handling-and-logging.md), [`language-models-in-code.md`](language-models-in-code.md), and [`performance-and-web-vitals.md`](performance-and-web-vitals.md).
 
 ## Excerpt
-
 - **Resources over actions**: model nouns; verbs come from HTTP (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`).
 - **Status codes are contracts**—use the right one; do not return `200` for errors.
 - **Consistent payloads**: a single error shape, a single list shape, stable field names.
@@ -41,7 +40,7 @@ Build HTTP APIs that are **predictable, secure, and stable to integrate against*
 
 Model nouns, not actions.
 
-### Bad
+### Bad: resources and urls
 
 ```
 POST /createUser
@@ -49,7 +48,7 @@ POST /getUserById
 POST /deleteOldPosts
 ```
 
-### Good
+### Good: resources and urls
 
 ```
 POST   /users              # create
@@ -101,7 +100,7 @@ Use them deliberately.
 
 One error shape, everywhere.
 
-### Good
+### Good: error shape
 
 ```json
 {
@@ -135,7 +134,7 @@ Never send secrets, tokens, or hashed passwords in responses. Ever.
 
 ## 6. Collections, pagination, filtering
 
-### Good
+### Good: collections, pagination, filtering
 
 ```
 GET /invoices?status=unpaid&created_after=2025-01-01&limit=25&cursor=abc123

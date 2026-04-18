@@ -1,9 +1,8 @@
 # Git and commits
 
-**Scope:** Applies to **day-to-day git usage**—branches, commits, PRs, reviews. Not for server-side git administration, not for release engineering. Pair with [`agents.md`](../../agents.md) for agent-specific commit rules and [`code-review-checklist.md`](code-review-checklist.md) for review.
+**Scope:** Applies to **day-to-day git usage**—branches, commits, PRs, reviews. Not for server-side git administration, not for release engineering. Pair with [`AGENTS.md`](../../../AGENTS.md) for agent-specific commit rules and [`testing-strategy.md`](testing-strategy.md) for review workflows.
 
-## Excerpt 
-
+## Excerpt
 - **Small, focused commits**; one logical change each. Refactors and behaviour changes travel in separate commits.
 - **Conventional commit** prefixes: `feat`, `fix`, `refactor`, `docs`, `test`, `chore`, `perf`, `style`, `build`, `ci`.
 - **Branch per task**: `feat/…`, `fix/…`, `chore/…`—kebab-case, short.
@@ -57,7 +56,7 @@ Short, kebab-case, no ticket number at the **start** (put it at the end if manda
 - Subject **under 72 chars**, no trailing period.
 - Body optional for trivial changes; required for anything non-obvious.
 
-### Good
+### Good: commit message format
 
 ```
 feat(newsletter): add preheader field to template
@@ -67,7 +66,7 @@ Preheader renders only in the HTML template; plain-text
 fallback is unchanged.
 ```
 
-### Bad
+### Bad: commit message format
 
 ```
 stuff

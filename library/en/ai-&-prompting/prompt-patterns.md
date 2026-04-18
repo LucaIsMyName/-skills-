@@ -3,7 +3,6 @@
 **Scope:** Applies to **reusable patterns** for language-model interactions—few-shot, decomposition, critique-and-revise, structured output, constrained creativity, tool-use handoffs. Not a replacement for domain expertise, not a substitute for fact-checking. Pair with [`prompting-basics.md`](prompting-basics.md), [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md), [`evaluating-model-output.md`](evaluating-model-output.md), and [`working-with-context-windows.md`](working-with-context-windows.md).
 
 ## Excerpt
-
 - **Few-shot** when format or voice is hard to describe—show 1–3 examples of the *exact* shape.
 - **Decompose** long tasks into outline → expand → edit; check at each step.
 - **Critique-then-revise** when a draft is close but uneven—list issues first, fix second.
@@ -37,7 +36,7 @@ Pick **predictable patterns** so the model stays on task, your edits shrink, you
 
 Use when **format** or **voice** is hard to describe in rules alone. Examples beat adjectives.
 
-### Good
+### Good: few-shot (show, don't only tell)
 
 ```text
 Task: Classify each line as "urgent" or "routine".
@@ -63,13 +62,13 @@ Notes:
 
 When you want **explicit reasoning** for debugging or teaching, ask for steps—then **verify** each one. Never treat model "reasoning" as authoritative.
 
-### Bad
+### Bad: chain-of-thought-style prompting (use carefully)
 
 ```text
 Think step by step and tell me the legally correct answer.
 ```
 
-### Good
+### Good: chain-of-thought-style prompting (use carefully)
 
 ```text
 Task: List the steps YOU WOULD TAKE to sanity-check this claim.
@@ -90,7 +89,7 @@ Output:
 
 Long pieces break at the **structural** seams. Decompose them.
 
-### Good
+### Good: decomposition (outline → expand → edit)
 
 ```text
 Step 1: Produce an outline with 5–7 bullets for an 800-word article on X.
@@ -113,7 +112,7 @@ Why it works:
 
 When a first draft is close but uneven.
 
-### Good
+### Good: critique-then-revise
 
 ```text
 Step 1: Review the draft below. List up to 5 issues grouped by
@@ -135,7 +134,7 @@ Draft:
 
 When you need **variants**, not infinite sludge.
 
-### Good
+### Good: constrained creativity (options without chaos)
 
 ```text
 Task: Propose 3 subject lines for a donor email.
@@ -157,7 +156,7 @@ Output format:
 
 When the result will be parsed, stored, or compared, use a schema—see [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md).
 
-### Good
+### Good: structured output (json / schema)
 
 ```text
 Return ONLY JSON matching:
@@ -177,7 +176,7 @@ Rules:
 
 When you have the source text and want the model to stay inside it.
 
-### Good
+### Good: grounding / "closed-book" (rag without a vector store)
 
 ```text
 Answer the question using ONLY the CONTEXT below.
@@ -196,7 +195,7 @@ See [`rag-basics.md`](rag-basics.md) for the fuller retrieval loop.
 
 For safeguarding, legal, medical, political, or crisis topics.
 
-### Good
+### Good: refuse-by-default for sensitive tasks
 
 ```text
 You are drafting a holding statement. Do NOT attribute blame, speculate on
@@ -211,7 +210,7 @@ Approved facts:
 
 When the model should call out to search, a calculator, or an internal system—see [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md) for the engineering side.
 
-### Good
+### Good: tool-use handoff (model proposes, code executes)
 
 ```text
 If external facts are needed, request a tool call:

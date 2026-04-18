@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Recherche- und Reportage-Interviews**—Fachpersonen, Praktiker:innen, Betroffene, Amtsträger:innen—um Material für Stories, Briefs, Berichte zu sammeln. Nicht Medientraining für Sprecher:innen (siehe [`interview-vorbereitung.md`](../sprache-&-kommunikation/interview-vorbereitung.md)). Ergänzt [`stories-schreiben.md`](../sprache-&-kommunikation/stories-schreiben.md), [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md), [`kinder-und-betroffenenschutz.md`](../ethik-&-recht/kinder-und-betroffenenschutz.md), [`datenschutz-in-der-kommunikation.md`](../ethik-&-recht/datenschutz-in-der-kommunikation.md).
 
 ## Exzerpt
-
 - **Das Interview gehört ihnen, nicht dir.** Du führst die Fragen, sie besitzen die Geschichte.
 - **Einwilligung vor Inhalt.** Zweck, Nutzung, Rechte *vor* den Fragen erklären und am Ende erneut bestätigen.
 - **Mehr zuhören als reden.** Ziel 20/80—Pausen als Feature.
@@ -136,4 +135,4 @@ Ein gutes Interview ist ein Tausch von **Aufmerksamkeit gegen Wahrheit**. Vorber
 
 ---
 
-English version: [`interviewing-people.md`](../../en/research-&-analysis/interviewing-people.md)
+Englische Version: [`interviewing-people.md`](../../en/research-&-analysis/interviewing-people.md)

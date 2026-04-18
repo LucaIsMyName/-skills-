@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Export** für Druck—Beschnitt, Auflösung, PDF-Einstellungen—im NGO-Maßstab. Ergänzt [`marken-toolkit-und-asset-bibliothek.md`](marken-toolkit-und-asset-bibliothek.md), [`dateinamen-und-organisation.md`](dateinamen-und-organisation.md) und [`folien-und-praesentationen.md`](../design/folien-und-praesentationen.md).
 
 ## Exzerpt
-
 - **Beschnitt** und **Sicherheitsabstand**.
 - **Raster** ca. **300 dpi** in **Endgröße**.
 - **Schriften** lizenzkonform **einbetten** oder **pfaden**.
@@ -35,13 +34,13 @@
 
 **Hintergründe** über den Endformat hinaus (oft **3 mm Beschnitt**); **Text und Logos** in **Sicherheitsabstand**—nichts Kritisches am Schnitt.
 
-### Bad
+### Gut: beschnitt und sicherheitszone
 
 ```text
 Text 1 mm vom Rand—Toleranz der Schnittkante frisst Buchstaben.
 ```
 
-### Good
+### Gut: beschnitt und sicherheitszone
 
 ```text
 3 mm Beschnitt am Hintergrund; 5 mm Innenabstand für Typo; Hilfslinien im PDF geprüft.
@@ -53,13 +52,13 @@ Text 1 mm vom Rand—Toleranz der Schnittkante frisst Buchstaben.
 
 Rasterbilder **~300 dpi** in **Druckgröße**—**1080px** breites Foto auf **A3**-Plakat = Brei.
 
-### Bad
+### Gut: auflösung in endgröße
 
 ```text
 1080px breites JPG auf A3 gestreckt.
 ```
 
-### Good
+### Gut: auflösung in endgröße
 
 ```text
 Foto für finalen Ausschnitt auf 300 dpi neu berechnet; Logo vektorisiert wo möglich.
@@ -71,13 +70,13 @@ Foto für finalen Ausschnitt auf 300 dpi neu berechnet; Logo vektorisiert wo mö
 
 Entwurf und Export in **CMYK** oder **Sonderfarbe** nach **Druckprofil**—**RGB** auf dem Bildschirm **weicht** auf der Presse ab.
 
-### Bad
+### Gut: farbe: cmyk oder pms nach brief
 
 ```text
 RGB-Export für Offset ohne Absprache mit Druckerei.
 ```
 
-### Good
+### Gut: farbe: cmyk oder pms nach brief
 
 ```text
 FOGRA oder ICC der Druckerei; Pantone für Markenrot; Softproof vor Versand.
@@ -89,13 +88,13 @@ FOGRA oder ICC der Druckerei; Pantone für Markenrot; Softproof vor Versand.
 
 Nach **Druckerei-Vorgabe**: **Subset-Einbettung** oder **Pfade**; **Lizenz** für **Outline**-Lieferung prüfen.
 
-### Bad
+### Gut: schriften: einbetten, pfaden oder liefern
 
 ```text
 Fehlende Schrift—Druckerei ersetzt; Layout bricht.
 ```
 
-### Good
+### Gut: schriften: einbetten, pfaden oder liefern
 
 ```text
 PDF mit eingebetteten Fonts nach Spec; Lizenz-Hinweis in der Übergabe-Mail.
@@ -107,13 +106,13 @@ PDF mit eingebetteten Fonts nach Spec; Lizenz-Hinweis in der Übergabe-Mail.
 
 **Eine** PDF/X-Datei (z. B. **PDF/X-1a** oder Druckereivariante); **Ebenen** nur wenn gewünscht; **Preflight** ohne Fehler.
 
-### Bad
+### Gut: ein freigegebenes pdf-paket
 
 ```text
 Native InDesign + lose Links—Druckerei berechnet Nacharbeit.
 ```
 
-### Good
+### Gut: ein freigegebenes pdf-paket
 
 ```text
 PDF/X-1a; 3 mm Beschnitt; Passmarken außerhalb des Livebereichs; Proof-Abzug geprüft.
@@ -130,8 +129,7 @@ PDF/X-1a; 3 mm Beschnitt; Passmarken außerhalb des Livebereichs; Proof-Abzug ge
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Druck ist **Physik**—**Millimeter**, **Punkte**, **Tinte**—**Spec** lesen.
 
 ## Weiterführend

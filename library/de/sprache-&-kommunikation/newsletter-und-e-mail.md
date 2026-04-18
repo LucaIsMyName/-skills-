@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Newsletter und organisatorische E-Mails** von gemeinnützigen und sozialen Organisationen (Spendenaufrufe, Einladungen, Updates); keine individuellen HR- oder Rechtsschreiben und **keine** Erfindung von Abmelde- oder Datenschutzklauseln—Verweis auf **Rechtsprüfung** und freigegebenen Boilerplate.
 
 ## Exzerpt
-
 - Nutzen für **Betreffzeile, Vorschautext, Aufbau** und möglichst **eine primäre Handlungsaufforderung** pro Mail.
 - **Niemals** finale Rechtstexte oder regionale Pflichtformulierungen erfinden—**Platzhalter** und Rechtsreview empfehlen.
 - **Nachfragen** nach Zielgruppe, Versandtermin, Links und Markenstimme.
@@ -38,13 +37,13 @@ Dieses Dokument beschreibt, wie **wirksame, vertrauenswürdige E-Mails** formuli
 
 **Betreff und E-Mail-Text müssen zusammenpassen**—gleiches Thema, keine Irreführung vom Betreff in den Fließtext.
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 Das musst du UNBEDINGT lesen!!!!!!
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 Tag der offenen Tür: kostenlose Schuldenberatung am Samstag (Termin buchen)
@@ -54,13 +53,13 @@ Tag der offenen Tür: kostenlose Schuldenberatung am Samstag (Termin buchen)
 
 ### 2. Vorschautext ergänzt den Betreff
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 [Vorschau:] Newsletter lesen Newsletter lesen
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 [Vorschau:] 20-Minuten-Slot bei unseren Beraterinnen buchen—auch ohne Anmeldung möglich.
@@ -70,13 +69,13 @@ Tag der offenen Tür: kostenlose Schuldenberatung am Samstag (Termin buchen)
 
 ### 3. Eine primäre Handlungsaufforderung
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 [Jetzt spenden] [Mitmachen] [5 Artikel] [Umfrage] [Teilen] — alles gleich groß
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 Hauptbutton: [Zur Anmeldung Tag der offenen Tür]
@@ -110,7 +109,7 @@ Wenn der Nutzer Segmente nennt, **Sprache und Beispiele** daran ausrichten—Spe
 
 ## Abschließender Gedanke
 
-👉 E-Mail lebt von **Vertrauen**. Klarheit schlägt Effekthascherei; **rechtliche Pflichttexte** kommen aus der Organisation, nicht aus dem Modell.
+ E-Mail lebt von **Vertrauen**. Klarheit schlägt Effekthascherei; **rechtliche Pflichttexte** kommen aus der Organisation, nicht aus dem Modell.
 
 ## Weiterführend
 
@@ -118,3 +117,12 @@ Wenn der Nutzer Segmente nennt, **Sprache und Beispiele** daran ausrichten—Spe
 - [U.S. FTC — CAN-SPAM](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) — Identifikation und Abmeldung bei Massenmail in den USA
 - [W3C WAI — Seitenstruktur](https://www.w3.org/WAI/tutorials/page-structure/) — semantische Struktur für assistive Systeme (mit HTML-Templates abstimmen)
 
+---
+
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu newsletter und e-mail in klaren, wiederverwendbaren Schritten.
+
+---
+
+Englische Version: [`newsletter-and-email.md`](../../en/language-&-communication/newsletter-and-email.md)

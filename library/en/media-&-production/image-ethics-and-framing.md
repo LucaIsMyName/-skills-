@@ -3,7 +3,6 @@
 **Scope:** **Ethical** choices in selecting and **cropping** images—stereotypes, dignity, context. Pair with [`photography-for-ngos.md`](photography-for-ngos.md), [`image-and-quote-releases.md`](../ethics-&-legal/image-and-quote-releases.md), and [`respectful-language.md`](../language-&-communication/respectful-language.md).
 
 ## Excerpt
-
 - **Framing** controls **power**—what is **centred**, what is **cut off**.
 - **Avoid** poverty porn and **saviour** tropes—show **agency** and **systems**.
 - **Intersectionality**: **race**, **gender**, **disability**—**stereotypes** harm.
@@ -35,13 +34,13 @@ Choose imagery that **respects** subjects and **informs** audiences—**truthful
 
 What you **put in the middle** and what you **cut** tells the story—**default** crops often reinforce stereotypes.
 
-### Bad
+### Bad: centre and crop with intention
 
 ```text
 Crop so only hands appear—anonymous “poor” hands without dignity or agency.
 ```
 
-### Good
+### Good: centre and crop with intention
 
 ```text
 Participant centred, eye contact where culturally appropriate; caption names role and programme if consented.
@@ -53,13 +52,13 @@ Participant centred, eye contact where culturally appropriate; caption names rol
 
 Show **people acting**, **community**, and **systems** (programmes, staff)—not only **sympathy triggers**.
 
-### Bad
+### Bad: agency and systems over pity
 
 ```text
 Anonymous child with dirt smeared for effect.
 ```
 
-### Good
+### Good: agency and systems over pity
 
 ```text
 Named participant (consented), in context, with dignity; caption explains programme support and how to get involved.
@@ -71,13 +70,13 @@ Named participant (consented), in context, with dignity; caption explains progra
 
 **Avoid** stock roles (e.g. “white saviour”, “passive victim”); **diversify** with **care**—not token one-offs.
 
-### Bad
+### Bad: intersectionality and stereotypes
 
 ```text
 Always the same demographic in “hero” shots; others only in “support”.
 ```
 
-### Good
+### Good: intersectionality and stereotypes
 
 ```text
 Shot list reviewed for representation; paid contributors from communities shown; no lazy tropes.
@@ -89,13 +88,13 @@ Shot list reviewed for representation; paid contributors from communities shown;
 
 **No** identifiable images of children without **protocol**—**safeguarding** lead signs off; prefer **non-identifying** angles when in doubt.
 
-### Bad
+### Bad: children and safeguarding
 
 ```text
 School photo with name tags visible—posted without consent.
 ```
 
-### Good
+### Good: children and safeguarding
 
 ```text
 Consent form covers use/channel; faces blurred or backs turned; safeguarding lead approves before publish.
@@ -107,13 +106,13 @@ Consent form covers use/channel; faces blurred or backs turned; safeguarding lea
 
 **When** and **where** the photo was taken; **don’t** fabricate urgency or context the image does not support.
 
-### Bad
+### Bad: captions that match the frame
 
 ```text
 Crop removes watermarks or context that changes meaning.
 ```
 
-### Good
+### Good: captions that match the frame
 
 ```text
 Caption: “Riverside session, March 2025, consent on file.”; if composite, label as illustration.
@@ -125,13 +124,13 @@ Caption: “Riverside session, March 2025, consent on file.”; if composite, la
 
 Release covers **this** campaign, **this** channel, and **duration**—**re-use** needs a new check.
 
-### Bad
+### Bad: consent for this use and channel
 
 ```text
 Print consent from 2019 used for paid social ad in 2025.
 ```
 
-### Good
+### Good: consent for this use and channel
 
 ```text
 Release: web + annual report 2025; contact for extension; archive if no response.

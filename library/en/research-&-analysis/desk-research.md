@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **non-empirical research from existing sources** for comms, policy briefs, stories, and campaigns—web, library databases, official statistics, civil-society reports. Not primary data collection and not peer-reviewed study design. Pair with [`source-evaluation-and-fact-checking.md`](source-evaluation-and-fact-checking.md), [`notes-and-synthesis.md`](notes-and-synthesis.md), [`interviewing-people.md`](interviewing-people.md).
 
-## Excerpt 
-
+## Excerpt
 - **Start with the question**, not the search box. "What are we actually trying to find out?"
 - **Plan your search**: terms, synonyms, languages, sources, dates.
 - **Track every source**: URL, title, author, date accessed, where used. Future-you will thank present-you.

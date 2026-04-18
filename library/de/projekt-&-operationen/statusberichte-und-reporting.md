@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Regelmäßiger** Status—was hat sich geändert, was blockiert, was als Nächstes. Ergänzt [`projektbriefs.md`](projektbriefs.md), [`meetings-und-agenden.md`](meetings-und-agenden.md) und [`wirkung-und-jahresberichte.md`](../recherche-&-analyse/wirkung-und-jahresberichte.md).
 
 ## Exzerpt
-
 - **Ampel** oder **G/Y/R**—**Schwellen** definieren.
 - **Story** + **Zahlen**.
 - **Asks** klar—Entscheidung, Ressource, Risikoakzeptanz.
@@ -35,13 +34,13 @@ Fortschritt und Probleme **sichtbar** machen—**Hilfe** rechtzeitig.
 
 Definiere, was **grün**, **gelb** und **rot** für euer Projekt bedeuten—gleiche Begriffe für alle.
 
-### Bad
+### Gut: ampel oder g/y/r mit schwellen
 
 ```text
 Insgesamt grün (aber drei Blocker, letzte Woche Meilenstein verpasst).
 ```
 
-### Good
+### Gut: ampel oder g/y/r mit schwellen
 
 ```text
 Grün: auf Kurs für Meilenstein 15. Mai. Gelb: Legal-Verzug >5 Tage—Datumsrisiko. Rot: wenn API Do EOD noch down.
@@ -53,13 +52,13 @@ Grün: auf Kurs für Meilenstein 15. Mai. Gelb: Legal-Verzug >5 Tage—Datumsris
 
 **Eine kurze Story** (was hat sich für Nutzer*innen oder das Team geändert) mit **1–3 Zahlen** oder Daten, die prüfbar sind.
 
-### Bad
+### Gut: story plus kennzahlen
 
 ```text
 Gute Fortschritte. Velocity passt.
 ```
 
-### Good
+### Gut: story plus kennzahlen
 
 ```text
 SMS-Erinnerungen an 40 % der Kohorte ausgerollt; Opt-out 2 %. Nächste Woche: volle Kohorte ab Mo.
@@ -71,13 +70,13 @@ SMS-Erinnerungen an 40 % der Kohorte ausgerollt; Opt-out 2 %. Nächste Woche: vo
 
 Am Ende **klar sagen**, was ihr von den Leser*innen braucht—sonst ist Status Sendung, kein Regelkreis.
 
-### Bad
+### Gut: asks: entscheidung, ressource, risikoakzeptanz
 
 ```text
 Danke fürs Lesen! Meldet euch bei Ideen.
 ```
 
-### Good
+### Gut: asks: entscheidung, ressource, risikoakzeptanz
 
 ```text
 Bitte: Sam genehmigt £500 Boost-Budget bis Mi—sonst streichen wir Paid-Kanal beim Launch.
@@ -88,13 +87,13 @@ Bitte: Sam genehmigt £500 Boost-Budget bis Mi—sonst streichen wir Paid-Kanal 
 ### Regel
 **Fester Rhythmus** (z. B. freitags EOD) und **Wortlimit**; Führung kürzer als Team-Kanal.
 
-### Bad
+### Gut: rhythmus und länge fürs publikum
 
 ```text
 Lange Mails nur bei Stress.
 ```
 
-### Good
+### Gut: rhythmus und länge fürs publikum
 
 ```text
 Wöchentlich 200 Wörter in #proj-updates; monatlich One-Pager an Steering—immer gleicher Tag.
@@ -106,13 +105,13 @@ Wöchentlich 200 Wörter in #proj-updates; monatlich One-Pager an Steering—imm
 
 Updates **datiert** ablegen—Onboarding hängt nicht an Erinnerung.
 
-### Bad
+### Gut: archiv, wo neue historie lesen
 
 ```text
 Status nur in verstreuten Slack-Threads—kein Index.
 ```
 
-### Good
+### Gut: archiv, wo neue historie lesen
 
 ```text
 Kanonisches Log: /wiki/projekt-x/status-log — neueste oben; Link im Projektbrief.
@@ -124,13 +123,13 @@ Kanonisches Log: /wiki/projekt-x/status-log — neueste oben; Link im Projektbri
 
 **Drift und Abhängigkeitsrisiko** melden, solange Sponsor*innen noch helfen können—keine Überraschung am Deadline-Tag.
 
-### Bad
+### Gut: gelb früh eskalieren
 
 ```text
 Grün bis Launch-Woche, dann „Überraschung“-Delay.
 ```
 
-### Good
+### Gut: gelb früh eskalieren
 
 ```text
 Gelb seit 10. Apr.: Lieferant verzögert Risiko 1. Mai—Mitigation: manueller Prozess interim; Exec-OK für Überstunden nötig.
@@ -147,8 +146,7 @@ Gelb seit 10. Apr.: Lieferant verzögert Risiko 1. Mai—Mitigation: manueller P
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Status ist **Regelkreis**: **Signal**, **Bitte**, **Protokoll**.
 
 ## Weiterführend

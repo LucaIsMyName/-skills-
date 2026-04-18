@@ -1,9 +1,8 @@
 # Storytelling
 
-**Geltungsbereich:** Wirksames Storytelling (Struktur, Emotion, Klarheit) für Texte, Kampagnen und Reden; **kein** Ersatz für **abgesicherte Reportage über echte Menschen**—siehe [`stories-schreiben.md`](stories-schreiben.md), [`respektvolle-sprache.md`](respektvolle-sprache.md), optional [`heldenreise.md`](heldenreise.md). Vertiefungen sind auf zwei Seiten verteilt; Einstieg [`storytelling-struktur-und-elemente.md`](storytelling-struktur-und-elemente.md).
+**Geltungsbereich:** Wirksames Storytelling (Struktur, Emotion, Klarheit) für Texte, Kampagnen und Reden; **kein** Ersatz für **abgesicherte Reportage über echte Menschen**—siehe [`stories-schreiben.md`](stories-schreiben.md), [`respektvolle-sprache.md`](respektvolle-sprache.md), optional [`die-heldenreise.md`](die-heldenreise.md). Vertiefungen sind auf zwei Seiten verteilt; Einstieg [`storytelling-struktur-und-elemente.md`](storytelling-struktur-und-elemente.md).
 
 ## Exzerpt
-
 - **Struktur und Elemente**: Vorbereitung, Grundprinzip, fünf Elemente, Erzähler:in, vom Thema zur Geschichte ([`storytelling-struktur-und-elemente.md`](storytelling-struktur-und-elemente.md)).
 - **Handwerk und Sprache**: anschaulich schreiben, Dramaturgie, Rolle der Organisation, Ton, Vereinfachung ([`storytelling-handwerk-sprache-wirkung.md`](storytelling-handwerk-sprache-wirkung.md)).
 - Menschen folgen **Gefühlen, nicht nackten Fakten**—**Wandel** und **Zusammenhänge** zeigen.
@@ -34,9 +33,12 @@
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Geschichten zeigen **Wandel** in einer **greifbaren Welt**—wähle den Teil, der zu deiner Lücke passt (Struktur vs. Sprache).
+
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
 
 ---
 

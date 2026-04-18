@@ -3,7 +3,6 @@
 **Scope:** Applies to **splitting persistent policy from per-task work**—how and when to use a **system prompt**, a **persona**, and a **user prompt**. Not vendor account setup, not model selection. Pair with [`prompting-basics.md`](prompting-basics.md), [`prompt-patterns.md`](prompt-patterns.md), [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md), and [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md).
 
 ## Excerpt
-
 - **System prompt** = stable rules that apply across turns (tone, safety, refusal style, default format).
 - **User prompt** = the task for this turn.
 - **Persona** is a tool for **tone and audience fit**, not a substitute for facts or accountability.
@@ -40,7 +39,7 @@ Separate **stable policy** (system) from **task-specific work** (user) so behavi
 - **User**: the concrete request for this turn (task + inputs + constraints).
 - **Assistant (prior turns)**: conversation history—keep it **small**, **non-sensitive**, and relevant.
 
-### Bad
+### Bad: the three layers
 
 ```text
 [System]: You are a genius who never makes mistakes.
@@ -49,7 +48,7 @@ Separate **stable policy** (system) from **task-specific work** (user) so behavi
 
 Problems: no rules, no privacy constraints, confidential data going in.
 
-### Good
+### Good: the three layers
 
 ```text
 [System]
@@ -80,7 +79,7 @@ Summarise the following into 5 bullets for the board:
 - **Role framing**: "copy editor" vs "information architect" vs "safeguarding reviewer"—each sets different heuristics.
 - **Constraints by implication**: "act as a first-draft reviewer, not a publisher" reduces overreach.
 
-### Good
+### Good: when a persona helps
 
 ```text
 You are helping a comms lead prepare a draft. You are not a lawyer.
@@ -96,13 +95,13 @@ Personas do not grant the model knowledge, authority, or rights it lacks.
 - **Authority**: do not impersonate a named CEO or spokesperson without the person's approval.
 - **Rights**: personas cannot launder copyrighted style or voice of real individuals.
 
-### Bad
+### Bad: when personas fail
 
 ```text
 You are our CEO, Anna Ruiz. Write the annual letter in her voice.
 ```
 
-### Good
+### Good: when personas fail
 
 ```text
 Draft an annual letter in the voice described by our style guide (pasted).
@@ -114,7 +113,7 @@ CEO with [APPROVE].
 
 Bake refusal behaviour into the system prompt so it is predictable.
 
-### Good
+### Good: refusal and escalation style
 
 ```text
 Refusal rules:

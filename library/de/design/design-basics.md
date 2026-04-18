@@ -3,7 +3,6 @@
 **Geltungsbereich:** Visuelles und UI-/Produktdesign; **keine** Textredaktion für Barrierefreiheit in Kommunikation (eigener Sprach-Skill) und keine Markenstrategie allein.
 
 ## Exzerpt
-
 - Ziel: **nützlich, verständlich, langlebig**—nutzerzentriert, konsistent, hierarchisch klar.
 - Nutzen für Layout, Typografie, Farbe, Systeme; Details und Beispiele in der langen Referenz unten.
 - Praktische Regeln und Checklisten folgen im Dokument.
@@ -29,7 +28,7 @@ Gutes Design ist:
 - **einfach**
 - **bewusst gesetzt**
 
-👉 Design ist keine Dekoration. Es bestimmt, wie etwas **funktioniert**.
+ Design ist keine Dekoration. Es bestimmt, wie etwas **funktioniert**.
 
 ---
 
@@ -39,17 +38,17 @@ Gutes Design ist:
 
 Verstehe den **echten Bedarf**, bevor du gestaltest.
 
-### ❌ Schlecht
+### Schlecht: bei der aufgabe anfangen
 
 Gestalten auf Basis von Annahmen
 
-### ✅ Gut
+### Gut: bei der aufgabe anfangen
 
 - Nutzer\*innen klären
 - ihr Ziel verstehen
 - das Problem klar benennen
 
-👉 Wenn die Aufgabenstellung falsch ist, wird das Design falsch.
+ Wenn die Aufgabenstellung falsch ist, wird das Design falsch.
 
 ---
 
@@ -59,7 +58,7 @@ Gestalten auf Basis von Annahmen
 
 Design muss ein echtes Problem lösen.
 
-👉 Streiche alles, was keinen Mehrwert bringt.
+ Streiche alles, was keinen Mehrwert bringt.
 
 ---
 
@@ -69,17 +68,17 @@ Design muss ein echtes Problem lösen.
 
 Auf das Wesentliche reduzieren.
 
-### ❌ Schlecht
+### Schlecht: einfach halten
 
 Zu viele Funktionen, Optionen oder visuelle Ebenen
 
-### ✅ Gut
+### Gut: einfach halten
 
 - weniger Elemente
 - klare Struktur
 - fokussierte Funktionalität
 
-👉 Einfachheit kostet Mühe.
+ Einfachheit kostet Mühe.
 
 ---
 
@@ -89,17 +88,17 @@ Zu viele Funktionen, Optionen oder visuelle Ebenen
 
 Nutzer\*innen sollten nicht nachdenken müssen.
 
-### ❌ Schlecht
+### Schlecht: verständlich machen
 
 Unklare Navigation, versteckte Aktionen
 
-### ✅ Gut
+### Gut: verständlich machen
 
 - offensichtliche Aktionen
 - klare Beschriftungen
 - vorhersehbares Verhalten
 
-👉 Gutes Design erklärt sich selbst.
+ Gutes Design erklärt sich selbst.
 
 ---
 
@@ -109,13 +108,13 @@ Unklare Navigation, versteckte Aktionen
 
 Nutze durchgängig dieselben Muster.
 
-👉 Gleiche Aktion = überall gleiches Ergebnis
+ Gleiche Aktion = überall gleiches Ergebnis
 
 - Layouts
 - Interaktionen
 - Benennungen
 
-👉 Konsistenz schafft Vertrauen.
+ Konsistenz schafft Vertrauen.
 
 ---
 
@@ -125,17 +124,17 @@ Nutze durchgängig dieselben Muster.
 
 Visuelles Design dient der Funktion.
 
-### ❌ Schlecht
+### Schlecht: klarheit vor stil
 
 Sieht gut aus, verwirrt aber
 
-### ✅ Gut
+### Gut: klarheit vor stil
 
 - gut lesbare Typografie
 - klare Hierarchie
 - ausreichender Kontrast
 
-👉 Wenn es schwer zu bedienen ist, ist es schlechtes Design.
+ Wenn es schwer zu bedienen ist, ist es schlechtes Design.
 
 ---
 
@@ -150,7 +149,7 @@ Denke an reale Bedingungen:
 - verschiedene Geräte
 - Barrierefreiheit
 
-👉 Design muss auch in ungünstigen Situationen funktionieren.
+ Design muss auch in ungünstigen Situationen funktionieren.
 
 ---
 
@@ -166,7 +165,7 @@ Auf jede Aktion sollte eine Reaktion folgen.
 - Erfolgs- und Fehlermeldungen
 - Zustandswechsel
 
-👉 Menschen müssen wissen, was gerade passiert.
+ Menschen müssen wissen, was gerade passiert.
 
 ---
 
@@ -176,17 +175,17 @@ Auf jede Aktion sollte eine Reaktion folgen.
 
 Design soll **Fehler erschweren**.
 
-### ❌ Schlecht
+### Schlecht: fehler verhindern
 
 Oberfläche lädt zu Fehlbedienung ein
 
-### ✅ Gut
+### Gut: fehler verhindern
 
 - Einschränkungen, wo sinnvoll
 - Rückfragen bei riskanten Aktionen
 - klare **Affordances** (erkennbare Bedienelemente)
 
-👉 Vorbeugen ist besser als korrigieren.
+ Vorbeugen ist besser als korrigieren.
 
 ---
 
@@ -196,16 +195,16 @@ Oberfläche lädt zu Fehlbedienung ein
 
 Nutzer\*innen nicht täuschen.
 
-### ❌ Schlecht
+### Schlecht: ehrlich sein
 
 Dark Patterns, künstliche Dringlichkeit
 
-### ✅ Gut
+### Gut: ehrlich sein
 
 - transparente Aktionen
 - klare Folgen
 
-👉 Vertrauen gehört zu gutem Design.
+ Vertrauen gehört zu gutem Design.
 
 ---
 
@@ -219,7 +218,7 @@ Design soll für möglichst viele Menschen funktionieren.
 - ausreichender Kontrast
 - Bedienung per Tastatur und Hilfstechnologien
 
-👉 Barrierefreiheit ist keine Kür.
+ Barrierefreiheit ist keine Kür.
 
 ---
 
@@ -236,7 +235,7 @@ Lenke die Aufmerksamkeit.
 - Kontrast
 - Position
 
-👉 Sofort sollte erkennbar sein, was zählt.
+ Sofort sollte erkennbar sein, was zählt.
 
 ---
 
@@ -250,7 +249,7 @@ Design ist nie „fertig“.
 - Verhalten beobachten
 - kontinuierlich verfeinern
 
-👉 Gutes Design entwickelt sich weiter.
+ Gutes Design entwickelt sich weiter.
 
 ---
 
@@ -260,29 +259,29 @@ Design ist nie „fertig“.
 
 Jedes Element braucht eine Begründung.
 
-👉 Im Zweifel streichen.
+ Im Zweifel streichen.
 
 ---
 
 ## 15. Häufige Fallen
 
-### 🚨 Überdesign
+###  Überdesign
 
 → zu komplex, zu viele Features
 
-### 🚨 Für sich selber designen
+###  Für sich selber designen
 
 → statt für echte Nutzer\*innen
 
-### 🚨 Ästhetik vor Bedienbarkeit
+###  Ästhetik vor Bedienbarkeit
 
 → sieht gut aus, funktioniert schlecht
 
-### 🚨 Inkonsistenz
+###  Inkonsistenz
 
 → verunsichernde Erfahrung
 
-### 🚨 Randfälle ignorieren
+###  Randfälle ignorieren
 
 → bricht in der Praxis
 
@@ -319,7 +318,17 @@ Schlechtes Design wirkt:
 - laut
 - frustrierend
 
-👉 Wenn Nutzer\*innen zu viel nachdenken müssen, ist das Design nicht gut genug.
+ Wenn Nutzer\*innen zu viel nachdenken müssen, ist das Design nicht gut genug.
+
+---
+
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu design basics in klaren, wiederverwendbaren Schritten.
+
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
 
 ---
 

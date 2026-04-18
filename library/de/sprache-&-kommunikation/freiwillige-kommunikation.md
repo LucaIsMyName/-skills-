@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Gewinnung, Onboarding, laufende Kommunikation und Würdigung** von Freiwilligen in NGOs und sozialen Organisationen—E-Mail, Web, Chat, Plakate und Veranstaltungen. Keine arbeitsrechtlichen Anstellungsverträge, keine vertiefende Freiwilligenrecht-Beratung (juristische Klärung einholen). Ergänzend zu [`freiwilligen-koordination.md`](../projekt-&-operationen/freiwilligen-koordination.md), [`newsletter-und-e-mail.md`](newsletter-und-e-mail.md), [`respektvolle-sprache.md`](respektvolle-sprache.md) und [`datenschutz-in-der-kommunikation.md`](../ethik-&-recht/datenschutz-in-der-kommunikation.md).
 
 ## Exzerpt
-
 - **Klare Aufgabenbeschreibung.** Rollenbezeichnung, Zeitumfang, Ort, Fähigkeiten und Bewerbungsweg—Freiwillige sollten Grundlagen nicht suchen müssen.
 - **Würde und sachliche Darstellung.** Wirkung ohne Mitleidsrhetorik; kein „Retter“-Framing weder für Freiwillige noch für Begünstigte.
 - **Onboarding setzt den Ton.** Erste Nachrichten: nächste Schritte, Grundlagen zum Schutz, Ansprechperson.
@@ -83,8 +82,7 @@ Menschen **die passende Rolle finden**, **gut starten**, **informiert bleiben** 
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Starke Freiwilligen-Kommunikation **respektiert Zeit, klärt Erwartungen und dankt sinnvoll**—damit Menschen bleiben, weil sie euch vertrauen, nicht aus schlechtem Gewissen.
 
 ## Weiterführend

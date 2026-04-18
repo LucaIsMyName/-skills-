@@ -1,9 +1,8 @@
 # Fehlerbehandlung und Logging
 
-**Scope:** Gilt für **wie Code auf Fehler reagiert** und **was ihr aufzeichnet**—Exceptions, Retries, Timeouts, User-Meldungen, strukturierte Logs, Metriken, Traces, Alerts. Keine komplette SRE-Praxis, kein Security-Audit. Kombiniere mit [`api-design-und-rest.md`](api-design-und-rest.md), [`sicherheit-fuer-webapps.md`](sicherheit-fuer-webapps.md), [`leere-und-fehlerzustaende.md`](../design/leere-und-fehlerzustaende.md) und [`statusberichte-und-reporting.md`](../projekt-&-operationen/statusberichte-und-reporting.md).
+**Geltungsbereich:** Gilt für **wie Code auf Fehler reagiert** und **was ihr aufzeichnet**—Exceptions, Retries, Timeouts, User-Meldungen, strukturierte Logs, Metriken, Traces, Alerts. Keine komplette SRE-Praxis, kein Security-Audit. Kombiniere mit [`api-design-und-rest.md`](api-design-und-rest.md), [`sicherheit-fuer-webapps.md`](sicherheit-fuer-webapps.md), [`leere-und-fehlerzustaende.md`](../design/leere-und-fehlerzustaende.md) und [`statusberichte-und-reporting.md`](../projekt-&-operationen/statusberichte-und-reporting.md).
 
-## Excerpt
-
+## Exzerpt
 - **Fail fast** am Rand; **nie** Exceptions stillschweigend schlucken.
 - **Zwei Zielgruppen**: **User** (freundlich, konkret, Aktion) und **Dev** (strukturiert, durchsuchbar).
 - **Struktur statt Prosa**: JSON mit `level`, `message`, `context`.
@@ -46,7 +45,7 @@ Fehler in **nützliche Signale und erholbare Zustände** verwandeln.
 
 ## 2. Werfen, nicht schlucken
 
-### Schlecht
+### Schlecht: werfen, nicht schlucken
 
 ```ts
 try {
@@ -56,7 +55,7 @@ try {
 }
 ```
 
-### Gut
+### Gut: werfen, nicht schlucken
 
 ```ts
 try {
@@ -79,13 +78,13 @@ try {
 - **Nicht beschuldigen**.
 - **Keine** Stacktraces/IDs exponieren.
 
-### Schlecht
+### Schlecht: user-meldungen
 
 ```
 Fehler 500. Bitte erneut versuchen.
 ```
 
-### Gut
+### Gut: user-meldungen
 
 ```
 Wir konnten Ihre Änderungen nicht speichern: Die E-Mail wird bereits verwendet.
@@ -94,7 +93,7 @@ Melden Sie sich an oder nutzen Sie eine andere Adresse. Referenz: req_01J8Q...
 
 ## 4. Strukturierte Logs
 
-### Gut
+### Gut: strukturierte logs
 
 ```json
 {
@@ -164,12 +163,10 @@ Auf **Nutzer-sichtbare Symptome**.
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Fehler sind **erstklassige Information**. Mit Blick auf den nächsten Schritt des Users und die Suche des Operators behandeln: strukturierte Logs, Correlation-IDs, ehrliche Statuscodes, maßvolle Retries, sinnvolle Alerts.
 
-## Further reading
-
+## Weiterführend
 - [Google SRE Book — Monitoring](https://sre.google/sre-book/monitoring-distributed-systems/)
 - [OpenTelemetry](https://opentelemetry.io/docs/)
 - [Postmortem culture — Google SRE](https://sre.google/sre-book/postmortem-culture/)

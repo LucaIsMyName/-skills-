@@ -3,7 +3,6 @@
 **Scope:** **Choosing** what to do next—impact/effort, RICE-style thinking, MoSCoW—without dogma. Not OKR coaching. Pair with [`project-briefs.md`](project-briefs.md), [`status-updates-and-reporting.md`](status-updates-and-reporting.md), and [`retrospectives.md`](retrospectives.md).
 
 ## Excerpt
-
 - **Frame** the goal—priorities without a goal are **politics**.
 - **Impact** and **confidence**—evidence beats seniority.
 - **Cost** includes **maintenance** and **support**, not only build.
@@ -35,13 +34,13 @@ Spend limited attention on **highest learning or impact per cost**—**transpare
 
 Write the **outcome** you are optimising for this cycle—priorities without that become **who shouts loudest**.
 
-### Bad
+### Bad: frame the goal first
 
 ```text
 Prioritise the backlog alphabetically / by who escalated last.
 ```
 
-### Good
+### Good: frame the goal first
 
 ```text
 Goal this quarter: reduce volunteer no-shows by 15%. Only items that plausibly move that metric get top slots.
@@ -53,13 +52,13 @@ Goal this quarter: reduce volunteer no-shows by 15%. Only items that plausibly m
 
 Prefer **evidence** (usage, support tickets, research) over **seniority** when scoring impact; note **confidence** explicitly.
 
-### Bad
+### Bad: impact and confidence
 
 ```text
 The CEO wants feature X, so it’s P0.
 ```
 
-### Good
+### Good: impact and confidence
 
 ```text
 Impact 4/5 (500 users/month affected); confidence 3/5 (one survey). Discuss ties with data, not job title.
@@ -71,13 +70,13 @@ Impact 4/5 (500 users/month affected); confidence 3/5 (one survey). Discuss ties
 
 **Cost** includes build, **maintenance**, **support**, and **coordination**—not just dev days.
 
-### Bad
+### Bad: effort and total cost of ownership
 
 ```text
 “Small” feature—only 3 dev days (ignores 2 years of support and docs).
 ```
 
-### Good
+### Good: effort and total cost of ownership
 
 ```text
 Build: 3 days. TCO: ongoing moderation + training volunteers—add 0.2 FTE equivalent; score effort as high.
@@ -89,13 +88,13 @@ Build: 3 days. TCO: ongoing moderation + training volunteers—add 0.2 FTE equiv
 
 Split work so you can **release and measure**—avoid big-bang bets without learning milestones.
 
-### Bad
+### Bad: small slices—ship to learn
 
 ```text
 Full rebuild before any user sees anything—9 months.
 ```
 
-### Good
+### Good: small slices—ship to learn
 
 ```text
 Slice 1: SMS reminder only to evening shift. Measure no-show delta for 4 weeks, then expand.
@@ -107,13 +106,13 @@ Slice 1: SMS reminder only to evening shift. Measure no-show delta for 4 weeks, 
 
 Record **what you are not doing** and **why**—so the backlog does not become a graveyard of implied promises.
 
-### Bad
+### Bad: say no in writing with trade-offs
 
 ```text
 “We’ll get to it next sprint” (repeated for 6 months).
 ```
 
-### Good
+### Good: say no in writing with trade-offs
 
 ```text
 Deferred: multi-language site. Reason: capacity; revisit Q4. Logged in prioritisation notes 2025-04-18.
@@ -125,13 +124,13 @@ Deferred: multi-language site. Reason: capacity; revisit Q4. Logged in prioritis
 
 **Dependency chains** on the wall (or doc)—hidden blockers make fake priorities.
 
-### Bad
+### Bad: map dependencies before final order
 
 ```text
 Priority 1: Launch campaign. Priority 2: Fix DNS. (Campaign needs DNS first.)
 ```
 
-### Good
+### Good: map dependencies before final order
 
 ```text
 Order: (1) DNS + SSL, (2) landing page, (3) campaign assets—dependencies drawn before locking the list.

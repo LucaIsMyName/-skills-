@@ -3,7 +3,6 @@
 **Scope:** **CTAs** that invite **specific** next steps—donate, sign, volunteer—without coercion. Not payment processing. Pair with [`fundraising-appeals.md`](fundraising-appeals.md), [`headline-writing.md`](headline-writing.md), [`respectful-language.md`](respectful-language.md), and [`content-design-and-microcopy.md`](../design/content-design-and-microcopy.md).
 
 ## Excerpt
-
 - **One primary CTA** per screen/email when possible—**compete** with yourself otherwise.
 - **Verb-led** buttons; **outcome**-clear (“Get the guide”, not “Click here”).
 - **Match** intensity to **relationship**—cold vs warm audiences.
@@ -31,13 +30,13 @@ Convert **intent** into **action** **ethically**—clear, respectful, **measurab
 
 ## 1. Copy
 
-### Bad
+### Bad: copy
 
 ```text
 CLICK HERE NOW
 ```
 
-### Good
+### Good: copy
 
 ```text
 Donate £15 to fund one counselling session this week

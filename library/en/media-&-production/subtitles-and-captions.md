@@ -3,7 +3,6 @@
 **Scope:** **Text on video**—captions for accessibility, subtitles for translation—workflows and quality. Pair with [`accessibility-for-comms.md`](../language-&-communication/accessibility-for-comms.md), [`video-production-basics.md`](video-production-basics.md), and [`podcasting-basics.md`](podcasting-basics.md).
 
 ## Excerpt
-
 - **Captions** are **not** optional for many users—**default** them on social where possible.
 - **Accuracy** beats speed—**names** and **terms** verified.
 - **Speaker IDs** when multiple speakers; **sound cues** in brackets if relevant.
@@ -35,13 +34,13 @@ Make spoken content **reachable** and **precise**—for Deaf/hard-of-hearing aud
 
 **Upload** captions with every public video; **enable** on players where the platform allows—**off** by default excludes people.
 
-### Bad
+### Bad: captions as default, not bolt-on
 
 ```text
 “People can turn them on if they want”—but default off and no file uploaded.
 ```
 
-### Good
+### Good: captions as default, not bolt-on
 
 ```text
 VTT attached; player defaults captions on for social (where UX allows); burned-in only when platform forces it.
@@ -53,13 +52,13 @@ VTT attached; player defaults captions on for social (where UX allows); burned-i
 
 **ASR** first draft; **human** pass for **names**, **homophones**, and **timing**; watch **on mute** to verify sense.
 
-### Bad
+### Bad: edit auto-captions—two-pass qa
 
 ```text
 Upload auto-captions without review.
 ```
 
-### Good
+### Good: edit auto-captions—two-pass qa
 
 ```text
 Two-pass edit: meaning + timing; read-along on mute; glossary for project terms.
@@ -71,17 +70,17 @@ Two-pass edit: meaning + timing; read-along on mute; glossary for project terms.
 
 Use **speaker IDs** when multiple people talk; **[bracketed]** non-speech sounds only when they matter to understanding.
 
-### Bad
+### Bad: speaker labels and sound cues
 
 ```text
 All lines attributed to “Speaker” or wrong names from ASR.
 ```
 
-### Good
+### Good: speaker labels and sound cues
 
 ```text
-Alex: Welcome…  
-Sam: Thanks…  
+Alex: Welcome…
+Sam: Thanks…
 [door closes] (only if plot-relevant)
 ```
 
@@ -91,13 +90,13 @@ Sam: Thanks…
 
 Prefer **SRT/VTT** so users can **resize**, **restyle**, and **translate**—burn-in only when platform requires or for universal social autoplay.
 
-### Bad
+### Bad: sidecar vs burned-in
 
 ```text
 Hard-coded tiny white text on busy footage—illegible and not user-controllable.
 ```
 
-### Good
+### Good: sidecar vs burned-in
 
 ```text
 VTT for web; optional burn-in for Instagram with high-contrast safe style guide.
@@ -109,13 +108,13 @@ VTT for web; optional burn-in for Instagram with high-contrast safe style guide.
 
 **Translation** is **subtitling** with cultural fit—**line length** and **reading speed** limits; **avoid** literal jokes that fail.
 
-### Bad
+### Bad: subtitles for translation
 
 ```text
 Machine-translate entire file; wrong register (tu vs vous).
 ```
 
-### Good
+### Good: subtitles for translation
 
 ```text
 Translator briefed on tone; max chars/line per spec; reviewer fluent in target language.
@@ -127,13 +126,13 @@ Translator briefed on tone; max chars/line per spec; reviewer fluent in target l
 
 Captions should **match** spoken words for **news** and **testimonial** content—**summaries** need an editorial rule.
 
-### Bad
+### Bad: do not paraphrase quotes without policy
 
 ```text
 Paraphrase quotes in captions for “clarity” without editorial policy.
 ```
 
-### Good
+### Good: do not paraphrase quotes without policy
 
 ```text
 Verbatim default; if simplify for reading level, label as “simplified captions” and get sign-off for sensitive lines.

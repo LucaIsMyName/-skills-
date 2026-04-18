@@ -3,7 +3,6 @@
 **Scope:** A **one-page** alignment doc for a project—goals, scope, constraints, owners. Not a full business case. Pair with [`creative-briefs.md`](creative-briefs.md), [`prioritisation-basics.md`](prioritisation-basics.md), and [`status-updates-and-reporting.md`](status-updates-and-reporting.md).
 
 ## Excerpt
-
 - **Problem** and **success** in plain language—**measurable** where possible.
 - **In scope / out of scope**—prevents late creep.
 - **Owner** (DRI), **sponsor**, **stakeholders**.
@@ -35,13 +34,13 @@ Create **shared reality** before work spreads—**fewer** surprises, **clearer**
 
 State **what is wrong today** and **what would count as success**—numbers or observable outcomes beat adjectives.
 
-### Bad
+### Bad: problem and success in plain language
 
 ```text
 Make the website better ASAP.
 ```
 
-### Good
+### Good: problem and success in plain language
 
 ```text
 Problem: Volunteer signup abandon rate ~40% on mobile.
@@ -54,13 +53,13 @@ Success: Completed signups +20% in Q3 vs Q2 baseline; form errors <5%.
 
 List **deliverables you will do** and **explicit exclusions** so scope creep has to be a conscious change.
 
-### Bad
+### Bad: in scope and out of scope
 
 ```text
 Improve volunteer journey end-to-end.
 ```
 
-### Good
+### Good: in scope and out of scope
 
 ```text
 In scope: signup flow, confirmation email, help text.
@@ -73,13 +72,13 @@ Out of scope: CRM migration, rebrand, new CMS.
 
 Name a **DRI** for delivery, a **sponsor** with authority, and **stakeholders** who must align—not “the team”.
 
-### Bad
+### Bad: owners, sponsor, stakeholders
 
 ```text
 Owner: everyone. Sponsor: TBD.
 ```
 
-### Good
+### Good: owners, sponsor, stakeholders
 
 ```text
 DRI: Alex (delivery). Sponsor: Sam (budget/sign-off).
@@ -92,13 +91,13 @@ Stakeholders: Legal (disclaimers), Comms (tone).
 
 Use **few milestones** tied to **reviewable outputs**—avoid detailed Gantt fiction early.
 
-### Bad
+### Bad: timeline with milestones, not fantasy
 
 ```text
 Gantt with 47 tasks all green until week 8.
 ```
 
-### Good
+### Good: timeline with milestones, not fantasy
 
 ```text
 M1 (May 15): Flow prototype in staging. M2 (Jun 1): UAT with 5 volunteers. M3 (Jun 20): Launch.
@@ -110,13 +109,13 @@ M1 (May 15): Flow prototype in staging. M2 (Jun 1): UAT with 5 volunteers. M3 (J
 
 Call out **what could block you** and **what you depend on** from other teams or systems.
 
-### Bad
+### Bad: risks and dependencies early
 
 ```text
 Risks: none. Dependencies: we’ll figure it out.
 ```
 
-### Good
+### Good: risks and dependencies early
 
 ```text
 Risk: API rate limits during campaign. Dependency: IT enables SSO test env by Apr 30.
@@ -128,13 +127,13 @@ Risk: API rate limits during campaign. Dependency: IT enables SSO test env by Ap
 
 Surface **brand, legal, accessibility, and budget** constraints up front—hiding them does not make them go away.
 
-### Bad
+### Bad: non-negotiables and resources
 
 ```text
 We’ll stay on brand. Budget flexible.
 ```
 
-### Good
+### Good: non-negotiables and resources
 
 ```text
 Non-negotiables: WCAG 2.2 AA; charity commission wording on donate page.

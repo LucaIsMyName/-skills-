@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Praktische** Bereinigung vor Analysen—Typen, fehlende Werte, Duplikate, einfache Validierung. Ergänzt [`statistik-einfach-lesen.md`](statistik-einfach-lesen.md), [`umfragedesign.md`](umfragedesign.md) und [`notizen-und-synthese.md`](notizen-und-synthese.md).
 
 ## Exzerpt
-
 - Zuerst **profilieren**: Werteberichte, fehlende Felder, Distincts.
 - **Formate** vereinheitlichen (Datum, Währung, Booleans).
 - **Deduplizieren** mit klarer Regel.
@@ -43,8 +42,7 @@ Je nach Fragestellung Statistik einbeziehen—bei **hohem** Eins Expert*in.
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Bereinigung macht **Unsicherheit sichtbar**: **was** geändert wurde und **warum**.
 
 ## Weiterführend

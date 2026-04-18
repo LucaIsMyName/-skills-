@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Utility-first-Styling** mit Tailwind in Anwendungen (dieses Library-Setup: **Tailwind v4**-Stil mit `@import 'tailwindcss'`, CSS-first-Konfiguration und `@theme`-Tokens). Ergänzt [`barrierefreiheit-im-code.md`](barrierefreiheit-im-code.md), [`react-best-practices.md`](react-best-practices.md) und die Design-Explainers unter **Design**.
 
 ## Exzerpt
-
 - **Tokens statt Einzelpixel.** Wiederkehrende Werte ins Theme legen (`@theme`, Design-Tokens), damit die UI konsistent bleibt.
 - **Utilities beschreiben Zustand, keine Geschichten.** `hover:`, `focus-visible:`, `disabled:` gehören zur gleichen Komponente, wenn das Verhalten lokal ist.
 - **Komponenten extrahieren, wenn Wiederholung weh tut**—nicht beim ersten Duplikat; zweimal copy/paste ist oft billiger als die falsche Abstraktion.
@@ -155,3 +154,17 @@ Mit **realen Inhalten**, mehreren Breakpoints und **Tastatur** validieren—Tail
 ## Meta
 
 - Tailwind-Versionen ändern sich—für API-Details **offizielle Doku**; dieser Skill hält **Teamsicht** fest: wann abstrahieren, wann utility-first bleiben, und wie Anbindung an Barrierefreiheit und Design-Tokens gelingt.
+
+---
+
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu tailwind css — leitfaden in klaren, wiederverwendbaren Schritten.
+
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
+
+---
+
+Englische Version: [`tailwind-guide.md`](../../en/coding/tailwind-guide.md)

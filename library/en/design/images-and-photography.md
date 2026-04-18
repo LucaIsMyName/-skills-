@@ -3,7 +3,6 @@
 **Scope:** Applies to **choosing, editing, and using photographs and images** in NGO/charity and product contexts—ethics, consent, cropping, captions, accessibility, file handling. Not studio photography technique, not brand illustration strategy. Pair with [`image-ethics-and-framing.md`](../media-&-production/image-ethics-and-framing.md), [`image-and-quote-releases.md`](../ethics-&-legal/image-and-quote-releases.md), [`photography-for-ngos.md`](../media-&-production/photography-for-ngos.md), and [`performance-and-web-vitals.md`](../coding/performance-and-web-vitals.md).
 
 ## Excerpt
-
 - **Consent first.** No image of an identifiable person without an up-to-date release.
 - **Dignity first.** No suffering-for-suffering's-sake; show people as protagonists, not props.
 - **Context matters**: caption, alt text, source, date—an uncaptioned image is a rumour.
@@ -53,13 +52,13 @@ Use photographs and images to **tell the truth with dignity**—for the people i
 
 A caption answers: **who, what, where, when**, and (if useful) **why this image**.
 
-### Bad
+### Bad: captions
 
 ```
 Happy child.
 ```
 
-### Good
+### Good: captions
 
 ```
 Aisha, 9, at the after-school homework club, Nairobi, March 2025.
@@ -82,7 +81,7 @@ Alt text is for people who cannot see the image. It is not the caption; often it
 - **Decorative** images get empty alt (`alt=""`).
 - **Text in images**: repeat the text in alt.
 
-### Good
+### Good: alt text
 
 ```html
 <img src="funnel-q1.webp"

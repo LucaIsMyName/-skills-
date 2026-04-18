@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Diagramme und Datengrafiken** in Dashboards und Berichten (Web oder statisch); keine vollständige Statistik oder BI-Konfiguration.
 
 ## Exzerpt
-
 - Nutzen für **Diagrammwahl**, Achsenbeschriftung und **Farbe** ohne verzerrte Bedeutung.
 - **Klare Titel** in Alltagssprache; **Unsicherheit** anzeigen, wenn relevant.
 - **Barrierefreiheit:** Kategorien nicht nur über Farbe unterscheiden; wo möglich Tabelle oder Beschriftung.
@@ -38,13 +37,13 @@ Dieses Dokument unterstützt **ehrliche, lesbare** Datenvisualisierungen für **
 | Anteil am Ganzen (100 %) | Gestapelte Balken oder Kreis nur bei wenigen Segmenten |
 | Zusammenhang | Streudiagramm |
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 Kreisdiagramm mit 12 ähnlichen Segmenten; 3D-Effekt für „Wirkung“.
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 Sortiertes Balkendiagramm „Top 5 Programme nach Teilnehmenden“; klarer Titel.
@@ -91,7 +90,7 @@ Vermeiden, **moralische** Qualität nur über Grün–Rot zu suggerieren, außer
 
 ## Abschließender Gedanke
 
-👉 Ein Diagramm ist ein **Argument**. Die Behauptung muss **zum Datenstand passen**.
+ Ein Diagramm ist ein **Argument**. Die Behauptung muss **zum Datenstand passen**.
 
 ## Weiterführende Links
 
@@ -99,3 +98,16 @@ Vermeiden, **moralische** Qualität nur über Grün–Rot zu suggerieren, außer
 - [Our World in Data — FAQs](https://ourworldindata.org/faqs) — transparente Bezugnahme auf Quellen (für NGO-Berichte adaptierbar)
 - [W3C WAI — Tutorial zu komplexen Bildern](https://www.w3.org/WAI/tutorials/images/complex/) — Alternativtexte und Ausweichbeschreibungen für Datengrafiken
 
+---
+
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu datenvisualisierung (grundlagen) in klaren, wiederverwendbaren Schritten.
+
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
+
+---
+
+Englische Version: [`data-visualization-basics.md`](../../en/design/data-visualization-basics.md)

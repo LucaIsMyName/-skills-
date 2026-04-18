@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Kommunikationsabteilungen** (Öffentlichkeitsarbeit, Marketing, Social Media, interne Kommunikation, Kampagnen): **wie ihr textet, briefet, sprecht und Inhalte plant**, damit mehr Menschen zugreifen und folgen können. **Nicht** für Entwicklung, CMS-Technik oder Produkt-UI-Code—dafür die Design-Skills (z. B. [`design-basics.md`](../design/design-basics.md)).
 
 ## Exzerpt
-
 - Nutzen bei **Texten und Botschaften**: Newsletter, Presse, Social, Veranstaltungen, Podcasts, **Briefings** an Web/Design.
 - Fokus: **verständliche Sprache**, **respektvolle Wortwahl**, **Bildbeschreibungen** (in Worten, was zu sehen ist), **verständliche Linkformulierungen**, **Untertitel/Transkripte** als Kommunikationsleistung (Skript, Beauftragung), **zugängliches Sprechen** (deutlich, langsamer bei Bedarf, **sichtbare Inhalte mündlich einführen**).
 - **Keine** erfundene Rechtskonformität; Hinweis, wenn **Recht oder Web** die Freigabe hat.
@@ -35,13 +34,13 @@ Dieses Dokument unterstützt **Kommunikationsteams** dabei, Inhalte **inklusiver
 
 Kommunikation liefert **kurze, sinnvolle Beschreibungen** sinnstiftender Bilder—was man wissen muss, **wenn man das Bild nicht sieht**—nicht den Dateinamen.
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 Foto: IMG_4492.jpg
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 Beschreibung für die Redaktion: Eine Freiwillige übergibt vor dem Gemeindezentrum ein Lebensmittelpaket.
@@ -61,13 +60,13 @@ In Entwürfen und Newslettern: **ein klarer Haupteil**, **Zwischenüberschriften
 
 **Headline und Text müssen zusammenpassen:** Jede Überschrift sollte den Abschnitt darunter treffen (kein „leeres“ Versprechen).
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 Themen durcheinander in einem langen Block; keine erkennbare Ordnung.
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 Haupttitel: Unsere Arbeit 2025
@@ -81,13 +80,13 @@ Kurze Absätze unter jeder Überschrift.
 
 Leserinnen sollen erkennen, **wohin der Link führt**—nicht nur „hier klicken“.
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 Hier klicken für mehr Infos.
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 Jahresbericht 2025 lesen (PDF).
@@ -124,7 +123,7 @@ Jahresbericht 2025 lesen (PDF).
 
 ## Abschließender Gedanke
 
-👉 In der Kommunikation beginnt Barrierefreiheit mit **respektvoller, klarer Sprache** und **guten Briefings**. Technische Umsetzung liegt bei **Web und Design**—Dieses Dokument bleibt bei **Texten, Reden und Kommunikationsplanung**.
+ In der Kommunikation beginnt Barrierefreiheit mit **respektvoller, klarer Sprache** und **guten Briefings**. Technische Umsetzung liegt bei **Web und Design**—Dieses Dokument bleibt bei **Texten, Reden und Kommunikationsplanung**.
 
 ## Weiterführend
 
@@ -132,3 +131,12 @@ Jahresbericht 2025 lesen (PDF).
 - [W3C WAI — Schreiben für barrierefreie Webinhalte](https://www.w3.org/WAI/tips/writing/) — Überschriften, Linktexte und Alternativen
 - [W3C WAI — Audio und Video zugänglich machen](https://www.w3.org/WAI/media/av/) — Transkripte und Untertitel als Teil der Botschaft
 
+---
+
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu barrierefreiheit in der kommunikation in klaren, wiederverwendbaren Schritten.
+
+---
+
+Englische Version: [`accessibility-for-comms.md`](../../en/language-&-communication/accessibility-for-comms.md)

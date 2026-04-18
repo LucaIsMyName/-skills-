@@ -1,9 +1,8 @@
 # Prompt-Muster
 
-**Scope:** Gilt für **wiederverwendbare Muster** in Prompt-Interaktionen mit Sprachmodellen—Few-Shot, Dekomposition, Kritik-und-Überarbeitung, strukturierte Ausgabe, eingeschränkte Kreativität, Tool-Handoffs. Kein Ersatz für Fachwissen, kein Ersatz für Faktenprüfung. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md), [`modelloutput-bewerten.md`](modelloutput-bewerten.md) und [`kontextfenster-und-chunks.md`](kontextfenster-und-chunks.md).
+**Geltungsbereich:** Gilt für **wiederverwendbare Muster** in Prompt-Interaktionen mit Sprachmodellen—Few-Shot, Dekomposition, Kritik-und-Überarbeitung, strukturierte Ausgabe, eingeschränkte Kreativität, Tool-Handoffs. Kein Ersatz für Fachwissen, kein Ersatz für Faktenprüfung. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md), [`modelloutput-bewerten.md`](modelloutput-bewerten.md) und [`kontextfenster-und-chunks.md`](kontextfenster-und-chunks.md).
 
-## Excerpt
-
+## Exzerpt
 - **Few-Shot**, wenn Format/Ton schwer beschreibbar ist—1–3 Beispiele der *genauen* Form.
 - **Dekomposition** langer Aufgaben: Gliederung → Ausbau → Edit; an jedem Schritt prüfen.
 - **Kritik-dann-Überarbeitung**, wenn ein Entwurf fast passt—erst Liste, dann Fix.
@@ -37,7 +36,7 @@
 
 Gut, wenn **Format** oder **Stimme** schwer in Regeln passt.
 
-### Gut
+### Gut: few-shot (zeigen statt nur sagen)
 
 ```text
 Aufgabe: Jede Zeile als "dringend" oder "routine" klassifizieren.
@@ -60,13 +59,13 @@ Zeilen:
 
 Für **explizite Überlegungen** zum Debuggen—aber **prüfen**. Nie als Autorität nehmen.
 
-### Schlecht
+### Schlecht: chain-of-thought (vorsichtig)
 
 ```text
 Denk Schritt für Schritt und nenne mir die rechtlich korrekte Antwort.
 ```
 
-### Gut
+### Gut: chain-of-thought (vorsichtig)
 
 ```text
 Aufgabe: Liste die SCHRITTE, um die Aussage zu prüfen.
@@ -87,7 +86,7 @@ Output:
 
 Lange Texte brechen an **strukturellen** Nähten.
 
-### Gut
+### Gut: dekomposition (gliederung → ausbau → edit)
 
 ```text
 Schritt 1: Gliederung mit 5–7 Bullets für 800-Wort-Artikel zu X.
@@ -109,7 +108,7 @@ Warum es funktioniert:
 
 Wenn ein Entwurf fast passt.
 
-### Gut
+### Gut: kritik-dann-überarbeitung
 
 ```text
 Schritt 1: Entwurf prüfen. Bis zu 5 Punkte gruppiert nach
@@ -131,7 +130,7 @@ Entwurf:
 
 Wenn **Varianten** statt endlosem Brei.
 
-### Gut
+### Gut: eingeschränkte kreativität
 
 ```text
 Aufgabe: 3 Betreffzeilen für Spenden-Mail.
@@ -153,7 +152,7 @@ Format:
 
 Wenn das Ergebnis geparst wird—siehe [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md).
 
-### Gut
+### Gut: strukturierte ausgabe (json/schema)
 
 ```text
 Gib NUR JSON zurück, das diesem Schema entspricht:
@@ -173,7 +172,7 @@ Regeln:
 
 Wenn du Quellen hast und im Rahmen bleiben willst.
 
-### Gut
+### Gut: grundierung / "closed-book"
 
 ```text
 Antworte NUR mit dem KONTEXT unten.
@@ -192,7 +191,7 @@ Siehe [`rag-grundlagen.md`](rag-grundlagen.md).
 
 Kinderschutz, Recht, Medizin, Politik, Krise.
 
-### Gut
+### Gut: vorsicht bei sensiblen themen
 
 ```text
 Entwurf einer Hinhalte-Mitteilung. Keine Schuldzuweisung, keine Ursachenspekulation,
@@ -207,7 +206,7 @@ Freigegebene Fakten:
 
 Modell schlägt Aktion vor, Code führt aus—siehe [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md).
 
-### Gut
+### Gut: tool-handoff
 
 ```text
 Braucht es externe Fakten, fordere einen Tool-Call an:
@@ -226,12 +225,10 @@ Nicht so tun, als wüsstest du es schon.
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Muster sind **Steuerflächen**: Few-Shot für Form, Dekomposition für Länge, Kritik-Revision für Qualität, Grundierung für Fakten, strukturierte Ausgabe für Maschinen. Kleinstes passendes Muster nehmen—und **prüfen**.
 
-## Further reading
-
+## Weiterführend
 - [OpenAI — Prompt engineering guide](https://platform.openai.com/docs/guides/prompt-engineering)
 - [Anthropic — Prompt library](https://docs.anthropic.com/claude/prompt-library)
 - [Google — Prompt design strategies](https://ai.google.dev/gemini-api/docs/prompting-strategies)

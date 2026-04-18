@@ -3,7 +3,6 @@
 **Scope:** Applies to **everyday GDPR/UK-GDPR practice** for teams handling personal data—lawful bases, consent, data minimisation, rights requests, breaches, processors. Not legal advice, not full DPIA/representative/appointed-DPO territory. Pair with [`ai-training-and-scraping.md`](ai-training-and-scraping.md), [`image-and-quote-releases.md`](image-and-quote-releases.md), [`ai-disclosure-and-policy.md`](ai-disclosure-and-policy.md), and [`security-for-web-apps.md`](../coding/security-for-web-apps.md).
 
 ## Excerpt
-
 - **GDPR applies whenever you process personal data**—identifiable people, any context.
 - **Pick a lawful basis** before you collect; write it down; match it to the purpose.
 - **Data minimisation**: collect the least, keep the least, delete routinely.
@@ -76,14 +75,14 @@ Write it at the **audience's reading level**, not in legal jargon.
 - **Anonymise** where you can (analytics, research).
 - **Pseudonymise** where anonymisation is not possible (IDs instead of names).
 
-### Bad
+### Bad: data minimisation
 
 ```
 Sign-up form for a newsletter:
 - Full name, address, phone, date of birth, gender, occupation, income bracket.
 ```
 
-### Good
+### Good: data minimisation
 
 ```
 Sign-up form for a newsletter:

@@ -3,7 +3,6 @@
 **Scope:** Applies to **fitting documents, history, and tool outputs** into a **language model's context window**—chunking, summarisation, prioritisation, re-anchoring, cost and latency trade-offs. Not model architecture, not production vector-store engineering (see [`rag-basics.md`](rag-basics.md) for that). Pair with [`prompting-basics.md`](prompting-basics.md), [`prompt-patterns.md`](prompt-patterns.md), [`writing-skill-documentation.md`](writing-skill-documentation.md), and [`language-models-in-code.md`](../coding/language-models-in-code.md).
 
 ## Excerpt
-
 - **Context is finite** (tokens) and **not free** (cost, latency). Plan what goes in; cut what does not help.
 - **Chunk** long sources at logical seams; process chunks with the **same** question; merge at the end.
 - **Summarise** with explicit goals, not "summarise this"—bad summaries hide the errors that matter.
@@ -42,7 +41,7 @@ Think of every call as having a budget: `budget = model_context − answer_headr
 - **Chat history**: summarised or dropped when stale.
 - **Few-shot examples**: as small as still-effective.
 
-### Bad
+### Bad: the context budget
 
 ```text
 [Paste entire 40-page PDF]
@@ -51,7 +50,7 @@ Now summarise it.
 
 Problems: token cost, latency, the model may focus on the wrong section, any personal data in the PDF is now in the prompt.
 
-### Good
+### Good: the context budget
 
 ```text
 Task: Summarise section 3 only (lines 120–180) into 6 bullets in plain
@@ -70,7 +69,7 @@ When a source is too large for one call:
 - **Titles**: keep the section title inside the chunk so the model has orientation.
 - **IDs**: label chunks (`chunk_3.2`) so the model can cite them in output.
 
-### Good
+### Good: chunking strategies
 
 ```text
 For each chunk below, answer the SAME question:
@@ -92,13 +91,13 @@ Summaries compress **information** but also compress **errors**. Make the goal e
 - **Reduce**: combine the map outputs into a structured final artefact.
 - **Verify**: spot-check quotes against the source (see [`evaluating-model-output.md`](evaluating-model-output.md)).
 
-### Bad
+### Bad: summarisation passes
 
 ```text
 Summarise this in 3 sentences.
 ```
 
-### Good
+### Good: summarisation passes
 
 ```text
 Summarise the document for a trustee board member who has not read it.
@@ -114,7 +113,7 @@ Constraints:
 
 Models forget why you started talking. Every several turns, re-anchor.
 
-### Good
+### Good: re-anchoring long threads
 
 ```text
 Reset task: We are still answering ONE question:

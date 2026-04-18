@@ -3,7 +3,6 @@
 **Scope:** Applies to **getting machine-parseable outputs from language models** (JSON, schemas, enums) and **wiring models to tools** (functions, search, databases) safely. Not full API design (see [`api-design-and-rest.md`](../coding/api-design-and-rest.md)) and not production MLOps. Pair with [`prompting-basics.md`](prompting-basics.md), [`prompt-patterns.md`](prompt-patterns.md), [`evaluating-model-output.md`](evaluating-model-output.md), [`language-models-in-code.md`](../coding/language-models-in-code.md), and [`security-for-web-apps.md`](../coding/security-for-web-apps.md).
 
 ## Excerpt
-
 - **Schema first**: define fields, types, required/optional, enums—then ask the model to **conform**.
 - **Validate** every response—models can emit invalid JSON, extra keys, or the wrong types.
 - **Tools** (search, calculators, ticket systems) belong in **your code**, with **auth** and **auditing**—never "magic" hidden in the prompt.
@@ -36,13 +35,13 @@ Turn model outputs into **reliable inputs for programs**: valid, validated, and 
 
 Ask for JSON, and say it twice.
 
-### Bad
+### Bad: json prompts that actually work
 
 ```text
 Give me JSON with the answer.
 ```
 
-### Good
+### Good: json prompts that actually work
 
 ```text
 Return ONLY a JSON object matching this schema. No Markdown fences,
@@ -100,7 +99,7 @@ These narrow the output distribution and cut the invalid-JSON rate dramatically,
 
 Enums are the cheapest sanity check.
 
-### Good
+### Good: enums and constrained fields
 
 ```text
 "status": "draft" | "review" | "published" | "archived"
@@ -124,13 +123,13 @@ Rules:
 - Each tool runs with **the user's** permissions (least privilege).
 - Every call is **logged** with caller, arguments, result, duration.
 
-### Bad
+### Bad: tool use: the basic loop
 
 ```text
 Tool: shell_exec  (runs any shell command)
 ```
 
-### Good
+### Good: tool use: the basic loop
 
 ```text
 Tool: search_knowledge_base

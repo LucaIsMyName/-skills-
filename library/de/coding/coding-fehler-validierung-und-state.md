@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Funktionsgröße, Reinheit, Fehlerbehandlung, Validierung und Datenfluss** in Anwendungscode. Nicht Logging-Runbooks, nicht API-Security-Design. Kombiniere mit [`coding-stil-und-struktur.md`](coding-stil-und-struktur.md), [`coding-tests-und-gewohnheiten.md`](coding-tests-und-gewohnheiten.md) und [`coding-best-practices.md`](coding-best-practices.md).
 
 ## Exzerpt
-
 - **Kleine Funktionen** mit testbaren Grenzen.
 - **Keine stillen Mutationen**—lieber explizite Ein-/Ausgaben.
 - **Keine verschluckten Fehler**—externe Daten an der Grenze prüfen.
@@ -39,7 +38,7 @@ Passt eine Funktion nicht auf einen Bildschirm → vermutlich zu groß.
 - schwer zu benennen
 - viel Scrollen
 
-👉 In kleinere Teile zerlegen.
+ In kleinere Teile zerlegen.
 
 ---
 
@@ -49,7 +48,7 @@ Passt eine Funktion nicht auf einen Bildschirm → vermutlich zu groß.
 
 Funktionen sollen externen Zustand nicht unerwartet ändern.
 
-### ❌ Schlecht
+### Schlecht: seiteneffekte vermeiden
 
 ```ts
 function addItem(item) {
@@ -57,7 +56,7 @@ function addItem(item) {
 }
 ```
 
-### ✅ Gut
+### Gut: seiteneffekte vermeiden
 
 ```ts
 function addItem(cart, item) {
@@ -65,7 +64,7 @@ function addItem(cart, item) {
 }
 ```
 
-👉 Reine Funktionen sind vorhersagbar und testbar.
+ Reine Funktionen sind vorhersagbar und testbar.
 
 ---
 
@@ -75,7 +74,7 @@ function addItem(cart, item) {
 
 Fehler nie ignorieren.
 
-### ❌ Schlecht
+### Schlecht: fehler explizit behandeln
 
 ```ts
 try {
@@ -83,7 +82,7 @@ try {
 } catch {}
 ```
 
-### ✅ Gut
+### Gut: fehler explizit behandeln
 
 ```ts
 try {
@@ -94,7 +93,7 @@ try {
 }
 ```
 
-👉 Stille Fehler = Debugging-Hölle.
+ Stille Fehler = Debugging-Hölle.
 
 ---
 
@@ -104,7 +103,7 @@ try {
 
 Externe Daten nie blind vertrauen.
 
-### ❌ Schlecht
+### Schlecht: eingaben validieren
 
 ```ts
 function createUser(user) {
@@ -112,7 +111,7 @@ function createUser(user) {
 }
 ```
 
-### ✅ Gut
+### Gut: eingaben validieren
 
 ```ts
 function createUser(user) {
@@ -121,7 +120,7 @@ function createUser(user) {
 }
 ```
 
-👉 An Grenzen validieren.
+ An Grenzen validieren.
 
 ---
 
@@ -131,17 +130,25 @@ function createUser(user) {
 
 Versteckten Zustand und magisches Verhalten vermeiden.
 
-👉 Bevorzugen:
+ Bevorzugen:
 
 - explizite Parameter
 - explizite Rückgaben
 
-👉 Vermeiden:
+ Vermeiden:
 
 - globale Variablen
 - versteckte Mutationen
 
+---
 
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu coding fehler, validierung und state in klaren, wiederverwendbaren Schritten.
+
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
 
 ---
 

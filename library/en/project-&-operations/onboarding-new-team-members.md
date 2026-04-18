@@ -3,7 +3,6 @@
 **Scope:** **First weeks** for new staff or core volunteers—access, context, buddies, expectations. Not HR policy manuals. Pair with [`volunteer-coordination.md`](volunteer-coordination.md), [`meetings-and-agendas.md`](meetings-and-agendas.md), and [`writing-a-story.md`](../language-&-communication/writing-a-story.md) for culture storytelling.
 
 ## Excerpt
-
 - **Day-1 checklist**: accounts, tools, **code of conduct**, safeguarding pointers.
 - **30-60-90** expectations—**learning goals** not only tasks.
 - **Buddy** for questions **too small** for managers.
@@ -35,13 +34,13 @@ Make new people **effective and safe** fast—**without** burning buddies.
 
 **Accounts, tools, code of conduct, and safeguarding links** ready before they sit down—scrambling on day one signals neglect.
 
-### Bad
+### Bad: day-one checklist: access and safety
 
 ```text
 “IT will get back to you about email.” Day 3 still no repo access.
 ```
 
-### Good
+### Good: day-one checklist: access and safety
 
 ```text
 Checklist: laptop imaged; SSO; Slack; repo; handbook link; safeguarding one-pager—all ticked by 10:00 day 1.
@@ -53,13 +52,13 @@ Checklist: laptop imaged; SSO; Slack; repo; handbook link; safeguarding one-page
 
 State **what “good” looks like** at 30, 60, and 90 days—skills and relationships, not only ticket counts.
 
-### Bad
+### Bad: 30-60-90: learning goals, not only tasks
 
 ```text
 First month: work hard. (No clarity.)
 ```
 
-### Good
+### Good: 30-60-90: learning goals, not only tasks
 
 ```text
 30d: ship one small docs fix; know who owns comms. 60d: run one stand-in for buddy. 90d: own a slice of volunteer flow.
@@ -71,13 +70,13 @@ First month: work hard. (No clarity.)
 
 Name a **peer buddy** for “how do we…?” so managers are not the only path—reduces shame and delay.
 
-### Bad
+### Bad: buddy for small questions
 
 ```text
 Ask your manager anything (manager in meetings all day).
 ```
 
-### Good
+### Good: buddy for small questions
 
 ```text
 Buddy: Alex—Slack DM ok for tool questions; escalate to lead only if blocked >4h.
@@ -89,13 +88,13 @@ Buddy: Alex—Slack DM ok for tool questions; escalate to lead only if blocked >
 
 Link **one roadmap**, **one org chart for responsibilities**, and **where to file bugs**—avoid “which Confluence?”
 
-### Bad
+### Bad: single source of truth and ownership
 
 ```text
 Read everything in the wiki. Good luck.
 ```
 
-### Good
+### Good: single source of truth and ownership
 
 ```text
 Start here: /handbook/start — 5 links only. Owners: [roles table]. Questions: #team-ask.
@@ -107,13 +106,13 @@ Start here: /handbook/start — 5 links only. Owners: [roles table]. Questions: 
 
 Space **intro meetings**; leave **slack** for reading and a first tiny win—overload feels like hazing.
 
-### Bad
+### Bad: schedule intros with breathing room
 
 ```text
 8 hours of back-to-back intros day 1—no time to absorb.
 ```
 
-### Good
+### Good: schedule intros with breathing room
 
 ```text
 AM: setup + 2 intros. PM: shadow + 1h focus block. Goal: ship a docs fix by Friday.
@@ -125,13 +124,13 @@ AM: setup + 2 intros. PM: shadow + 1h focus block. Goal: ship a docs fix by Frid
 
 Ask **week 1** what was confusing—**update** the checklist for the next hire.
 
-### Bad
+### Bad: collect feedback and iterate the onboarding
 
 ```text
 Same broken wiki link for six new starters in a row.
 ```
 
-### Good
+### Good: collect feedback and iterate the onboarding
 
 ```text
 15m survey Fri week 1; onboarding doc PR from feedback within a week.

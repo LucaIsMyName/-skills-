@@ -3,7 +3,6 @@
 **Scope:** Applies to **language models in communications work**—newsletters, donor emails, social posts, press releases, translations, internal memos. Not image generation (see [`images-and-photography.md`](../design/images-and-photography.md)), not legal/medical advice, not AI for safeguarding decisions. Pair with [`prompting-basics.md`](prompting-basics.md), [`tone-of-voice-and-brand-voice.md`](../language-&-communication/tone-of-voice-and-brand-voice.md), [`respectful-language.md`](../language-&-communication/respectful-language.md), [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md), and [`evaluating-model-output.md`](evaluating-model-output.md).
 
 ## Excerpt
-
 - **AI drafts, humans decide**—every outward-facing sentence is a human responsibility.
 - **Never** paste donor PII, safeguarding details, or unpublished quotes into uncleared tools.
 - **Ground** the model in your **own** facts; do not let it invent statistics.
@@ -68,13 +67,13 @@ brief → AI draft → human edit → fact-check → review → schedule → dis
 
 ## 4. A donor-email example
 
-### Bad
+### Bad: a donor-email example
 
 ```text
 Write a donor email about our amazing fundraising success.
 ```
 
-### Good
+### Good: a donor-email example
 
 ```text
 Task: Draft a 120-word donor email (UK English).
@@ -107,7 +106,7 @@ Format: subject line, 3 short paragraphs, CTA line.
 - Constrain **length** to platform norms.
 - Ban the trap words your team keeps catching ("incredible", "amazing", "urgent").
 
-### Good
+### Good: social posts and variants
 
 ```text
 Task: 3 variants of a LinkedIn post about the May event.
@@ -125,7 +124,7 @@ Each variant:
 - Keep a **glossary** (brand terms, policy terms, do-not-translate list).
 - Ask the model to **flag** cultural issues, not silently reword.
 
-### Good
+### Good: translations with ai
 
 ```text
 Translate the text below from EN to DE (formal "Sie"):

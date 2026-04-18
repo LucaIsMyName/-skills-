@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Entscheidungen** festhalten—leichte Logs und **Architecture Decision Records** für Technik. Ergänzt [`projektbriefs.md`](projektbriefs.md), [`git-und-commits.md`](../coding/git-und-commits.md) und [`meetings-und-agenden.md`](meetings-und-agenden.md).
 
 ## Exzerpt
-
 - **Kontext → Entscheidung → Konsequenzen**.
 - **Ersetzt**-Links bei Änderungen.
 - **Eine** Entscheidung pro ADR.
@@ -35,13 +34,13 @@
 
 Jeder Eintrag beantwortet: **warum jetzt**, **was gewählt**, **was sich ändert** (positiv und negativ)—kurz.
 
-### Bad
+### Gut: kontext, entscheidung, konsequenzen
 
 ```text
 Wir nutzen Postgres. Ist gut.
 ```
 
-### Good
+### Gut: kontext, entscheidung, konsequenzen
 
 ```text
 Kontext: Relationale Integrität und Reporting für Freiwilligendaten nötig.
@@ -55,13 +54,13 @@ Konsequenzen: + starke Konsistenz, ausgereifte Tools. − Ops-Kosten; Migratione
 
 Themen trennen, sodass jedes ADR **eine** Entscheidung hat—Leser*innen finden und ersetzen gezielt.
 
-### Bad
+### Gut: eine entscheidung pro adr
 
 ```text
 ADR 0009: Auth-Provider + Cache + Queue + Namenskonvention (4 Seiten).
 ```
 
-### Good
+### Gut: eine entscheidung pro adr
 
 ```text
 ADR 0009: OAuth-Provider (Supabase). ADR 0010: Redis für Session-Cache. Getrennte Dateien.
@@ -73,13 +72,13 @@ ADR 0009: OAuth-Provider (Supabase). ADR 0010: Redis für Session-Cache. Getrenn
 
 **Vorgeschlagen / akzeptiert / verworfen** und **Datum**; bei Ersatz **Supersedes** / **Superseded by** verlinken.
 
-### Bad
+### Gut: status, datum, ersetzt durch
 
 ```text
 Altes Doc sagt SQLite; neues sagt Postgres; beide „aktuell“.
 ```
 
-### Good
+### Gut: status, datum, ersetzt durch
 
 ```text
 ADR 0003 Status: Deprecated (10.01.2025). Ersetzt durch ADR 0007. ADR 0007 Status: Accepted (10.01.2025).
@@ -91,13 +90,13 @@ ADR 0003 Status: Deprecated (10.01.2025). Ersetzt durch ADR 0007. ADR 0007 Statu
 
 **Glaubwürdige Optionen**, die ihr verworfen habt, und **eine Zeile warum**—zeigt Nachdenken, nicht nur Advocacy.
 
-### Bad
+### Gut: in betracht gezogene alternativen
 
 ```text
 Alternativen: keine erwähnenswert.
 ```
 
-### Good
+### Gut: in betracht gezogene alternativen
 
 ```text
 Alternativen: SQLite (zu eng für Multi-User-Reporting); Document-DB (Analytics schwieriger). Gewählt: Postgres.
@@ -109,13 +108,13 @@ Alternativen: SQLite (zu eng für Multi-User-Reporting); Document-DB (Analytics 
 
 Ist die Entscheidung **leicht rückgängig**—bestimmt, wie viel Debatte vor Annahme nötig ist.
 
-### Bad
+### Gut: reversibilität und kosten der änderung
 
 ```text
 Datenbank später migrieren (ohne Plan).
 ```
 
-### Good
+### Gut: reversibilität und kosten der änderung
 
 ```text
 Reversibilität: niedrig—Datenmodell an SQL gekoppelt. Umkehr: 2–4 Wochen + Ausfallrisiko; vor Annahme bewusst machen.
@@ -127,13 +126,13 @@ Reversibilität: niedrig—Datenmodell an SQL gekoppelt. Umkehr: 2–4 Wochen + 
 
 ADRs **neben dem Code** oder unter **bekanntem Wiki-Pfad**; **Stakeholder** nennen, die einbinden mussten.
 
-### Bad
+### Gut: wo es liegt und wen es betrifft
 
 ```text
 Entscheidung in Slack-Thread von 2023—Link tot.
 ```
 
-### Good
+### Gut: wo es liegt und wen es betrifft
 
 ```text
 Ort: /docs/adr/0007-postgres.md im Repo; verlinkt in README. Stakeholder: Tech Lead, DPO (Datenstandort).
@@ -150,8 +149,7 @@ Ort: /docs/adr/0007-postgres.md im Repo; verlinkt in README. Stakeholder: Tech L
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Entscheidungen sind **Assets**—**dokumentieren**, wo **Nachfolger*innen** hinschauen.
 
 ## Weiterführend

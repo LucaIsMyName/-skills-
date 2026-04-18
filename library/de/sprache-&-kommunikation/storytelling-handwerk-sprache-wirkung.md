@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Anschaulichkeit, Dramaturgie, organisationale Rolle, Ton und Vereinfachung** in erzählenden Texten. Keine juristische Prüfung von Behauptungen. Kombiniere mit [`storytelling-struktur-und-elemente.md`](storytelling-struktur-und-elemente.md) und [`storytelling.md`](storytelling.md).
 
 ## Exzerpt
-
 - **Leiter der Erzählung** vom Abstrakten zum Konkreten.
 - **Dramaturgie** ohne manipulative Abkürzungen.
 - **Enabler-Rahmen** für Organisationen; **Sprache**: konkret vor abstrakt.
@@ -33,16 +32,16 @@ Die Geschichte **einprägsam und fair** machen—spezifisch ohne Ausnutzung.
 - oben: abstrakt („Armut“)
 - unten: konkret („leerer Kühlschrank“)
 
-👉 Ziel: **so konkret wie möglich erzählen**
+ Ziel: **so konkret wie möglich erzählen**
 
 ---
 
-### ✅ Gut
+### Gut: anschaulich schreiben
 
 - „Er öffnet den Kühlschrank – nur ein halbes Brot liegt darin.“
   → konkret
 
-### ❌ Schlecht
+### Schlecht: anschaulich schreiben
 
 - „Er lebt in schwierigen Verhältnissen.“
   → abstrakt
@@ -57,12 +56,12 @@ Struktur:
 
 ---
 
-### ✅ Gut
+### Gut: der erzählsatz (kern der story)
 
 - „Leser sollen miterleben, wie Anna den Mut findet, allein zu wohnen.“
   → klarer Fokus
 
-### ❌ Schlecht
+### Schlecht: der erzählsatz (kern der story)
 
 - „Es geht um ein wichtiges Thema.“
   → kein Fokus
@@ -81,12 +80,12 @@ Struktur:
 
 ---
 
-### ✅ Gut
+### Gut: dramaturgie
 
 - „Er will Arbeit finden → bekommt Absagen → findet schließlich eine Stelle.“
   → klare Struktur
 
-### ❌ Schlecht
+### Schlecht: dramaturgie
 
 - „Er sucht Arbeit und irgendwann klappt es.“
   → keine Spannung
@@ -101,12 +100,12 @@ Struktur:
 
 ---
 
-### ✅ Gut
+### Gut: dramaturgie
 
 - „Sie verlässt ihr gewohntes Umfeld, kämpft mit Unsicherheit und kommt gestärkt zurück.“
   → Transformation
 
-### ❌ Schlecht
+### Schlecht: dramaturgie
 
 - „Sie erlebt etwas Neues.“
   → keine Entwicklung
@@ -117,7 +116,7 @@ Struktur:
 
 ---
 
-### ❌ Schlecht
+### Schlecht: dramaturgie
 
 - keine innere Veränderung
 - keine Hindernisse
@@ -135,12 +134,12 @@ Struktur:
 
 ---
 
-### ✅ Gut
+### Gut: rolle von organisationen (enabler-prinzip)
 
 - „Die Einrichtung hilft ihm, eigene Entscheidungen zu treffen.“
   → Unterstützung im Hintergrund
 
-### ❌ Schlecht
+### Schlecht: rolle von organisationen (enabler-prinzip)
 
 - „Die Organisation löst alle Probleme.“
   → Organisation im Mittelpunkt
@@ -155,12 +154,12 @@ Struktur:
 
 ---
 
-### ✅ Gut
+### Gut: sprache & wirkung
 
 - „Sie zögert, bevor sie antwortet.“
   → echte Emotion
 
-### ❌ Schlecht
+### Schlecht: sprache & wirkung
 
 - „Eine unfassbar tragische und schreckliche Situation.“
   → übertrieben
@@ -171,12 +170,12 @@ Struktur:
 
 ---
 
-### ✅ Gut
+### Gut: sprache & wirkung
 
 - „Er sitzt jeden Morgen am gleichen Platz im Bus.“
   → greifbar
 
-### ❌ Schlecht
+### Schlecht: sprache & wirkung
 
 - „Sein Alltag ist geprägt von Routinen.“
   → abstrakt
@@ -191,11 +190,11 @@ Struktur:
 
 ---
 
-### ✅ Gut
+### Gut: komplexität reduzieren
 
 - klare Hauptfigur
 
-### ❌ Schlecht
+### Schlecht: komplexität reduzieren
 
 - viele Personen ohne Orientierung
 
@@ -205,11 +204,11 @@ Struktur:
 
 ---
 
-### ✅ Gut
+### Gut: komplexität reduzieren
 
 - nur relevante Details
 
-### ❌ Schlecht
+### Schlecht: komplexität reduzieren
 
 - alles erzählen → keine Struktur
 
@@ -217,7 +216,7 @@ Struktur:
 
 ## Kerngedanke
 
-👉 Eine Geschichte entsteht durch:
+ Eine Geschichte entsteht durch:
 
 - **eine Figur**
 - **ein Problem**
@@ -226,11 +225,11 @@ Struktur:
 
 ---
 
-### ✅ Gut
+### Gut: beispiel
 
 - „Wir erleben, wie sich ein Mensch durch eine Herausforderung verändert.“
 
-### ❌ Schlecht
+### Schlecht: beispiel
 
 - „Wir listen Informationen zu einem Thema auf.“
 
@@ -239,11 +238,6 @@ Struktur:
 - [News values (Überblick)](https://en.wikipedia.org/wiki/News_values) — gängige Kriterien; Orientierung ohne Sensationalismus
 - [BBC Bitesize — What is news?](https://www.bbc.co.uk/bitesize/guides/z9kjhbk/revision/6) — kurze Kriterien, dieselben Fragen wie in der Kommunikation
 - [NCTE — Storytelling as advocacy](https://ncte.org/blog/2015/03/storytelling-as-advocacy-in-higher-education/) — Erzählung bewusst und verantwortlich einsetzen
-
----
-
-English version: [`storytelling.md`](../../en/language-&-communication/storytelling.md)
-
 
 ---
 

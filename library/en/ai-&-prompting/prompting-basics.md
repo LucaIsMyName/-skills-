@@ -3,7 +3,6 @@
 **Scope:** Applies to **writing effective instructions** for language models—roles, constraints, examples, iteration, verification. Not model training, not vendor procurement, not org-wide AI policy (see [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md)). Pair with [`prompt-patterns.md`](prompt-patterns.md), [`evaluating-model-output.md`](evaluating-model-output.md), and [`writing-skill-documentation.md`](writing-skill-documentation.md).
 
 ## Excerpt
-
 - **State the job** in one sentence; add **constraints** (length, tone, audience, format, what must not happen).
 - **Give examples** when format matters; **counter-examples** when a failure mode repeats.
 - **Iterate**: smallest prompt that could work → read output against acceptance criteria → change **one** variable.
@@ -47,13 +46,13 @@ A usable prompt names five things, in this order or close to it:
 - **Format**: how the answer is laid out.
 - **Examples** (optional but often decisive): one or two input/output pairs.
 
-### Bad
+### Bad: anatomy of a strong prompt
 
 ```text
 Write something about our fundraiser.
 ```
 
-### Good
+### Good: anatomy of a strong prompt
 
 ```text
 Task: Draft a 120-word email to existing donors (UK English) inviting them to a
@@ -78,13 +77,13 @@ Format: subject line + short paragraphs + clear CTA line.
 - Prefer **explicit rules** over vibes: "Use plain language, CEFR B1, short sentences" beats "be simple and friendly".
 - See [`system-prompts-and-personas.md`](system-prompts-and-personas.md) for when to put rules in a system prompt vs a user prompt.
 
-### Bad
+### Bad: roles and system prompts
 
 ```text
 You are a world-class marketer. Make it amazing.
 ```
 
-### Good
+### Good: roles and system prompts
 
 ```text
 You are helping a comms lead edit a draft.
@@ -105,7 +104,7 @@ Examples are the fastest way to pin **shape** and **voice**.
 - **Two–three** examples: useful for tone when you cannot describe it in rules.
 - A **counter-example** is worth many adjectives when the same mistake keeps appearing.
 
-### Good
+### Good: examples and counter-examples (few-shot)
 
 ```text
 Example of desired tone:
@@ -147,13 +146,13 @@ Models generate plausible text. Plausibility is not truth.
 - For web claims, require the model to say "not in provided sources" rather than invent a citation.
 - Pair research work with [`using-ai-for-research.md`](using-ai-for-research.md) and [`source-evaluation-and-fact-checking.md`](../research-&-analysis/source-evaluation-and-fact-checking.md).
 
-### Bad
+### Bad: grounding: facts, not vibes
 
 ```text
 Summarise the key statistics on child poverty in the UK in 2024 with citations.
 ```
 
-### Good
+### Good: grounding: facts, not vibes
 
 ```text
 Using ONLY the text below (pasted from source X, accessed 2025-03-01), extract:

@@ -3,7 +3,6 @@
 **Scope:** Applies to **vivid detail, dramaturgy, organisational role, tone, and simplification** in narrative copy. Not legal review of claims. Pair with [`storytelling-structure-and-elements.md`](storytelling-structure-and-elements.md) and [`storytelling.md`](storytelling.md).
 
 ## Excerpt
-
 - **Ladder of narration** from abstract to concrete.
 - **Dramaturgy** patterns—without manipulative shortcuts.
 - **Enabler framing** for organisations; **language** that is concrete before abstract.
@@ -33,16 +32,16 @@ Make the story **memorable and fair**—specific without exploitation.
 - top: abstract (“poverty”)
 - bottom: concrete (“an empty fridge”)
 
-👉 Aim: **tell as concretely as possible**
+ Aim: **tell as concretely as possible**
 
 ---
 
-### Good
+### Good: writing vividly
 
 - “He opens the fridge—only half a loaf of bread is inside.”
   → concrete
 
-### Bad
+### Bad: writing vividly
 
 - “He lives in difficult circumstances.”
   → abstract
@@ -57,12 +56,12 @@ Structure:
 
 ---
 
-### Good
+### Good: the narrative sentence (core of the story)
 
 - “Readers should experience how Anna finds the courage to live alone.”
   → clear focus
 
-### Bad
+### Bad: the narrative sentence (core of the story)
 
 - “It’s about an important topic.”
   → no focus
@@ -81,12 +80,12 @@ Structure:
 
 ---
 
-### Good
+### Good: dramaturgy
 
 - “He wants to find work → gets rejections → finally finds a job.”
   → clear structure
 
-### Bad
+### Bad: dramaturgy
 
 - “He looks for work and eventually it works out.”
   → no tension
@@ -101,12 +100,12 @@ Structure:
 
 ---
 
-### Good
+### Good: dramaturgy
 
 - “She leaves her familiar world, struggles with uncertainty, and returns stronger.”
   → transformation
 
-### Bad
+### Bad: dramaturgy
 
 - “She experiences something new.”
   → no development
@@ -117,7 +116,7 @@ Structure:
 
 ---
 
-### Bad
+### Bad: dramaturgy
 
 - no inner change
 - no obstacles
@@ -135,12 +134,12 @@ Structure:
 
 ---
 
-### Good
+### Good: role of organisations (enabler principle)
 
 - “The service helps him make his own decisions.”
   → support in the background
 
-### Bad
+### Bad: role of organisations (enabler principle)
 
 - “The organisation solves every problem.”
   → organisation in the spotlight
@@ -155,12 +154,12 @@ Structure:
 
 ---
 
-### Good
+### Good: language & effect
 
 - “She hesitates before she answers.”
   → real emotion
 
-### Bad
+### Bad: language & effect
 
 - “An unbelievably tragic and terrible situation.”
   → exaggerated
@@ -171,12 +170,12 @@ Structure:
 
 ---
 
-### Good
+### Good: language & effect
 
 - “Every morning he sits in the same seat on the bus.”
   → tangible
 
-### Bad
+### Bad: language & effect
 
 - “His everyday life is shaped by routines.”
   → abstract
@@ -191,11 +190,11 @@ Structure:
 
 ---
 
-### Good
+### Good: reduce complexity
 
 - one clear main character
 
-### Bad
+### Bad: reduce complexity
 
 - many people with no orientation
 
@@ -205,11 +204,11 @@ Structure:
 
 ---
 
-### Good
+### Good: reduce complexity
 
 - only relevant details
 
-### Bad
+### Bad: reduce complexity
 
 - telling everything → no structure
 
@@ -217,7 +216,7 @@ Structure:
 
 ## Core idea
 
-👉 A story arises from:
+ A story arises from:
 
 - **one character**
 - **one problem**
@@ -226,11 +225,11 @@ Structure:
 
 ---
 
-### Good
+### Good: example
 
 - “We experience how a person changes through a challenge.”
 
-### Bad
+### Bad: example
 
 - “We list information about a topic.”
 
@@ -239,11 +238,6 @@ Structure:
 - [News values (overview)](https://en.wikipedia.org/wiki/News_values) — common criteria editors use; a useful sanity check for comms stories
 - [BBC Bitesize — what is news?](https://www.bbc.co.uk/bitesize/guides/z9kjhbk/revision/6) — concise criteria young writers use; same tests apply in comms
 - [NCTE — storytelling as advocacy](https://ncte.org/blog/2015/03/storytelling-as-advocacy-in-higher-education/) — narrative used deliberately and ethically in public communication
-
----
-
-German version: [`storytelling.md`](../../de/sprache-&-kommunikation/storytelling.md)
-
 
 ---
 

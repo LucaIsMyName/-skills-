@@ -3,7 +3,6 @@
 **Scope:** **Naming** and **folder** conventions for media projects—**human and machine** readable. Not DAM enterprise rollout. Pair with [`brand-toolkit-and-asset-library.md`](brand-toolkit-and-asset-library.md), [`git-and-commits.md`](../coding/git-and-commits.md), and [`video-production-basics.md`](video-production-basics.md).
 
 ## Excerpt
-
 - **Pattern**: `YYYY-MM-DD_project_component_v02.ext`—**date first** sorts chronologically.
 - **Slug** short tokens—**no** spaces (use `-` or `_` **consistently**).
 - **Version** suffixes—**avoid** “final_final”.
@@ -35,14 +34,14 @@ Find files in **seconds**, not **hours**—**onboarding** and **handover** depen
 
 Use **`YYYY-MM-DD_short-slug_element_v02.ext`** so lists sort by time and names stay unique across exports.
 
-### Bad
+### Bad: predictable pattern: date, slug, version
 
 ```text
 edit3 (1).mov
 final_final_v4_REALFINAL.psd
 ```
 
-### Good
+### Good: predictable pattern: date, slug, version
 
 ```text
 2025-04-18_riverside-interview_camA_v03.wav
@@ -55,13 +54,13 @@ final_final_v4_REALFINAL.psd
 
 Pick **hyphens or underscores** for the whole project—**never** spaces or mixed special characters in machine paths.
 
-### Bad
+### Bad: slugs: no spaces, one separator style
 
 ```text
 Summer Campaign / Hero Image / new (use this).png
 ```
 
-### Good
+### Good: slugs: no spaces, one separator style
 
 ```text
 2025-06-01_summer-campaign_hero_16x9_v02.png
@@ -73,13 +72,13 @@ Summer Campaign / Hero Image / new (use this).png
 
 Keep **lossless or project sources** in `/masters` (or equivalent) and **compressed deliverables** in `/export`—**never** overwrite the only source.
 
-### Bad
+### Bad: masters separate from exports
 
 ```text
 Export JPEG over the layered PSD to “save space.”
 ```
 
-### Good
+### Good: masters separate from exports
 
 ```text
 /masters/2025-04-18_interview_roughcut.prproj
@@ -92,13 +91,13 @@ Export JPEG over the layered PSD to “save space.”
 
 One **README** in the project root: folder purpose, **naming rules**, **codec defaults**, and **who owns** updates.
 
-### Bad
+### Bad: readme and ownership at the top
 
 ```text
 Drive folder with 400 files; new hire asks “what is canonical?” in Slack for a week.
 ```
 
-### Good
+### Good: readme and ownership at the top
 
 ```text
 README.md: “Audio: 48kHz WAV masters; exports AAC 256k; owner: Alex; archive after campaign to /archive/2025-q2.”
@@ -110,13 +109,13 @@ README.md: “Audio: 48kHz WAV masters; exports AAC 256k; owner: Alex; archive a
 
 Define **where** finished projects go and **how long** you keep working files—so disks do not become a graveyard.
 
-### Bad
+### Bad: archive and handover after the campaign
 
 ```text
 Everything stays in “Active” forever; three years of “final” folders.
 ```
 
-### Good
+### Good: archive and handover after the campaign
 
 ```text
 Post-campaign: move to /archive/2025-summer-campaign; README notes retention; masters kept 2y, exports 5y.

@@ -3,7 +3,6 @@
 **Scope:** **Live** events and **streams**—run-of-show, redundancy, accessibility, safety. Not broadcast engineering at TV scale. Pair with [`video-production-basics.md`](video-production-basics.md), [`subtitles-and-captions.md`](subtitles-and-captions.md), and [`crisis-and-sensitive-topics.md`](../language-&-communication/crisis-and-sensitive-topics.md).
 
 ## Excerpt
-
 - **Run-of-show** with **owners**—**timecodes** and **handoffs**.
 - **Redundancy**: backup **internet**, **audio**, **slides**.
 - **Moderation** plan for chat/Q&A—**safeguarding** and **spam**.
@@ -35,13 +34,13 @@ Deliver **stable**, **inclusive** live experiences—**predictable** for hosts a
 
 Document **who speaks when**, **slide** advances, and **handoffs**—including **contingency** if someone drops.
 
-### Bad
+### Bad: run-of-show with owners and timecodes
 
 ```text
 “We’ll figure it out live.”
 ```
 
-### Good
+### Good: run-of-show with owners and timecodes
 
 ```text
 ROS: 00:00 host intro (Alex); 00:05 slides (Sam); 05:00 Q&A (moderator); backup host: Jordan if Alex offline.
@@ -53,13 +52,13 @@ ROS: 00:00 host intro (Alex); 00:05 slides (Sam); 05:00 Q&A (moderator); backup 
 
 **Wired** uplink or bonded cellular; **parallel** audio recorder; **offline** PDF of slides in moderator hands.
 
-### Bad
+### Bad: redundancy: internet, audio, slides
 
 ```text
 One Wi‑Fi hop with no backup.
 ```
 
-### Good
+### Good: redundancy: internet, audio, slides
 
 ```text
 Ethernet to router; LTE failover; backup recorder on desk; slides exported PDF + presenter local copy.
@@ -71,13 +70,13 @@ Ethernet to router; LTE failover; backup recorder on desk; slides exported PDF +
 
 **Full dress** rehearsal—same mics, **OBS** or encoder settings, **latency** to platform measured.
 
-### Bad
+### Bad: rehearse with production gear
 
 ```text
 Rehearsal on laptop mic; live day different interface—feedback and levels unknown.
 ```
 
-### Good
+### Good: rehearse with production gear
 
 ```text
 Dry run Tuesday with same rack; note round-trip delay; adjust monitor mix for host.
@@ -89,13 +88,13 @@ Dry run Tuesday with same rack; note round-trip delay; adjust monitor mix for ho
 
 **Moderator** briefed on **what to read aloud**, **spam** handling, and **escalation** for harassment or safeguarding concerns.
 
-### Bad
+### Bad: moderation: chat, q&a, safeguarding
 
 ```text
 Host reads every chat message live—including abusive or identifying content.
 ```
 
-### Good
+### Good: moderation: chat, q&a, safeguarding
 
 ```text
 Moderator filters; only vetted questions to speaker; safeguarding lead on call for yellow/red incidents.
@@ -107,13 +106,13 @@ Moderator filters; only vetted questions to speaker; safeguarding lead on call f
 
 Enable **platform captions** or **human/ASR** live transcript where quality allows; **share** transcript after if not live.
 
-### Bad
+### Bad: accessibility: captions and transcript
 
 ```text
 No caption path—Deaf audiences excluded from a public webinar.
 ```
 
-### Good
+### Good: accessibility: captions and transcript
 
 ```text
 Live captions via provider or platform; post-event VTT uploaded; recording page links transcript.
@@ -125,13 +124,13 @@ Live captions via provider or platform; post-event VTT uploaded; recording page 
 
 **Speakers** sign off on **recording**, **distribution**, and **clip** use—**especially** if repurposed for fundraising.
 
-### Bad
+### Bad: recording and speaker consent
 
 ```text
 Recording published to YouTube without speakers knowing.
 ```
 
-### Good
+### Good: recording and speaker consent
 
 ```text
 Consent: live OK; VOD 90 days; no short-form ads without re-sign—logged in run-of-show pack.

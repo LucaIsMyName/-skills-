@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **short social posts and captions** for nonprofit and social-purpose accounts; not long-form articles, press releases, or paid ad policy compliance (follow platform + legal review).
 
-## Excerpt 
-
+## Excerpt
 - Use for **platform-native** copy: length limits, tone, one main idea per post where possible.
 - **Consent** for photos and quotes; **no sensationalizing** beneficiaries or “poverty porn.”
 - **Ask** for channel, link URL, campaign name, approval level, and hashtag rules before posting.
@@ -46,13 +45,13 @@ Gather **concrete and meta** inputs. If missing, **ask**—do not invent campaig
 
 Readers skim. Lead with **the action or fact** that matters.
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
 So much is happening at our charity this month and we are so excited to tell you everything!!!
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 This week our night shelter adds 15 beds. Volunteers can sign up here: [link]
@@ -64,13 +63,13 @@ This week our night shelter adds 15 beds. Volunteers can sign up here: [link]
 
 Avoid pity, “inspiration porn,” or exaggeration.
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
-You won’t BELIEVE what this homeless man did next 💔😱
+You won’t BELIEVE what this homeless man did next
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 People without a safe place to sleep can get a hot meal and a bed here every night. [link]
@@ -82,13 +81,13 @@ People without a safe place to sleep can get a hot meal and a bed here every nig
 
 Use **consistently** per org playbook; don’t spam. On some platforms (e.g. Bluesky), fewer hashtags work better than Instagram.
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
 #charity #love #hope #blessed #give #ngo #help #everyone #viral #fyp
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 We’re recruiting peer supporters for our youth mentoring programme. Info: [link] #YouthSupport #OurCity
@@ -120,9 +119,8 @@ Put the **primary link** once, where the platform allows (bio link, first commen
 
 ---
 
-## Final thought
-
-👉 Short-form social is **public and permanent**. When in doubt, **ask your org lead** before posting sensitive stories.
+## Core idea
+ Short-form social is **public and permanent**. When in doubt, **ask your org lead** before posting sensitive stories.
 
 ## Further reading
 
@@ -130,3 +128,6 @@ Put the **primary link** once, where the platform allows (bio link, first commen
 - [Meta — Community Standards](https://transparency.meta.com/policies/community-standards/) — baseline rules on harm and misinformation (platform-specific; not a substitute for law or policy)
 - [W3C WAI — how people with disabilities use the web](https://www.w3.org/WAI/people-use-web/) — why alt text, captions, and clear language matter in social cards
 
+---
+
+German version: [`social-kurzformate.md`](../../de/sprache-&-kommunikation/social-kurzformate.md)

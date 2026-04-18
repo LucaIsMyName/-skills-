@@ -3,7 +3,6 @@
 **Geltungsbereich:** Schnelle **visuelle und räumliche Muster**, die unterstützende UI von verwirrender UI unterscheiden—hilfreich für Übergaben, Reviews und für Werkzeuge, die **literale Skizzen** von Design-Intention brauchen. Ergänzt [`gute-interfaces-designen.md`](gute-interfaces-designen.md), [`design-basics.md`](design-basics.md) und [`formulare-und-eingaben-ux.md`](formulare-und-eingaben-ux.md).
 
 ## Exzerpt
-
 - **Eine primäre Aktion pro Bildschirm.** Happy Path offensichtlich machen; destruktive Alternativen zurückstufen oder ausblenden.
 - **Hierarchie schlägt Dekoration.** Titel → Kurzfassung → Detail; nicht drei konkurrierende „Hero“-Blöcke.
 - **Weißraum ist Struktur.** Abstand gruppiert Zusammengehöriges; Gedrängtheit suggeriert Beziehungen, die es nicht gibt.
@@ -118,7 +117,7 @@
 
 ```
   Dienstliche E-Mail
- 
+
   ┌────────────────────────────────────┐
   │ du@firma.de                        │
   └────────────────────────────────────┘
@@ -142,7 +141,7 @@
 
 ```
   Passwort
- 
+
   ┌────────────────────────────────────┐
   │ kurz                               │
   └────────────────────────────────────┘
@@ -193,7 +192,7 @@
 
 ```
   Bibliothek
-    
+
     Design   ○ aktueller Bereich
     Coding
     Recherche
@@ -225,7 +224,7 @@
 **Schlecht — Zahlenwand**
 
 ```
- 120.402,38 € ERR03 240 ms 4 % 99,2 % ??? FT @queue #7 !! 
+ 120.402,38 € ERR03 240 ms 4 % 99,2 % ??? FT @queue #7 !!
 ```
 
 **Intention:** Metriken chunken; pro Kachel eine Rolle; Trend statt Rauschen.
@@ -250,3 +249,17 @@ Wie bei anderen Explainern: Muster hier sind **Defaults**, keine Ausnahmen—im 
 
 - Wenn „schlecht“ verführerisch wirkt (busige Banner, laute Verläufe), empfinden Nutzer:innen dieselbe Ermüdung—vereinfachen.
 - Modelle profitieren von **expliziten Labels** („Gut“, „Schlecht“) und **Festbreiten-Boxen**—Diagramme im Editor monospaced halten.
+
+---
+
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu gute und schlechte ui-konzepte (ascii-muster) in klaren, wiederverwendbaren Schritten.
+
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
+
+---
+
+Englische Version: [`good-and-bad-ui-concepts.md`](../../en/design/good-and-bad-ui-concepts.md)

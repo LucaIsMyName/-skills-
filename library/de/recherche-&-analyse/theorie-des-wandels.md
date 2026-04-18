@@ -1,9 +1,8 @@
-# Theory of Change
+# Theorie des Wandels
 
 **Geltungsbereich:** Eine **Theory of Change** (ToC) beschreibt **wie** und **warum** eine Intervention zu Wirkungen beiträgt—Annahmen, Pfade, Indikatoren. Ergänzt [`monitoring-und-evaluation.md`](monitoring-und-evaluation.md), [`wirkung-und-jahresberichte.md`](wirkung-und-jahresberichte.md) und [`notizen-und-synthese.md`](notizen-und-synthese.md).
 
 ## Exzerpt
-
 - **Ergebniskette**: Ressourcen → Aktivitäten → Outputs → Outcomes → **Impact** vorsichtig verwenden.
 - **Annahmen** explizit—wo kann die Kette **brechen**?
 - **Evidenz** und **Risiken** benennen—**externe** Faktoren (Politik, Markt).
@@ -43,8 +42,7 @@ Aktivität → Output → Outcome mit **Annahmen** in Klammern.
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 ToC ist eine **Hypothesenkarte**: **wenn** X und Annahmen gelten, **dann** wird Y wahrscheinlicher—**prüfen** und **überarbeiten**.
 
 ## Weiterführend

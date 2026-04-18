@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Schreibtisch-Recherche aus bestehenden Quellen** für Comms, Policy-Briefs, Stories, Kampagnen—Web, Bibliotheksdatenbanken, amtliche Statistik, NGO-Berichte. Keine primäre Datenerhebung, keine peer-reviewed Studiendesigns. Ergänzt [`quellenbewertung-und-faktencheck.md`](quellenbewertung-und-faktencheck.md), [`notizen-und-synthese.md`](notizen-und-synthese.md), [`menschen-interviewen.md`](menschen-interviewen.md).
 
 ## Exzerpt
-
 - **Mit der Frage beginnen**, nicht mit der Suchmaske. „Was wollen wir eigentlich wissen?"
 - **Suche planen**: Begriffe, Synonyme, Sprachen, Quellen, Zeitraum.
 - **Jede Quelle protokollieren**: URL, Titel, Autor:in, Abrufdatum, wo verwendet.
@@ -131,4 +130,4 @@ Recherche ist **disziplinierte Neugier**: Frage kennen, breit und dann eng suche
 
 ---
 
-English version: [`desk-research.md`](../../en/research-&-analysis/desk-research.md)
+Englische Version: [`desk-research.md`](../../en/research-&-analysis/desk-research.md)

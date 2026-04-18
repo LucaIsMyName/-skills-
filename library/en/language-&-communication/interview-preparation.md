@@ -1,9 +1,8 @@
 # Interview preparation
 
-**Scope:** Applies to **preparing a spokesperson to be interviewed**—by journalists, podcast hosts, panel moderators, or a camera. Not a guide to interviewing affected people (see [`writing-a-story.md`](writing-a-story.md) and [`interview-ethics-with-affected-people.md`](interview-ethics-with-affected-people.md) when added). Pair with [`crisis-and-sensitive-topics.md`](crisis-and-sensitive-topics.md) and [`press-statement-basics.md`](press-statement-basics.md).
+**Scope:** Applies to **preparing a spokesperson to be interviewed**—by journalists, podcast hosts, panel moderators, or a camera. Not a guide to interviewing affected people (see [`writing-a-story.md`](writing-a-story.md) and [`respectful-language.md`](respectful-language.md)). Pair with [`crisis-and-sensitive-topics.md`](crisis-and-sensitive-topics.md) and [`press-statement-basics.md`](press-statement-basics.md).
 
-## Excerpt 
-
+## Excerpt
 - **Three messages, two stories, one ask.** Go in with this on a card, come out having delivered them.
 - **Bridge**, don't dodge. Acknowledge the question, answer what is true, pivot to what matters.
 - **Short answers, plain words.** Seven seconds to a minute, not a paragraph.

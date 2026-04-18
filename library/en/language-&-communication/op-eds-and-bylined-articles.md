@@ -3,7 +3,6 @@
 **Scope:** **Opinion** pieces under a **named author**—structure, disclosure, voice. Not neutral news reporting. Pair with [`writing-a-story.md`](writing-a-story.md), [`respectful-language.md`](respectful-language.md), [`source-evaluation-and-fact-checking.md`](../research-&-analysis/source-evaluation-and-fact-checking.md), and [`conflict-of-interest-and-disclosures.md`](../ethics-&-legal/conflict-of-interest-and-disclosures.md).
 
 ## Excerpt
-
 - **Claim** a **thesis** early—then **argue** with evidence, not vibes.
 - **Disclose** affiliations and **conflicts**—readers deserve context.
 - **Distinguish** fact, analysis, and opinion—**label** uncertainty.
@@ -35,13 +34,13 @@ Publish **credible** opinion that advances your **cause** without sacrificing **
 2. **Body**: evidence + counterarguments **fairly** stated.
 3. **Close**: concrete **ask** or **implication**.
 
-### Bad
+### Bad: structure
 
 ```text
 Everyone knows we are right; the media lies.
 ```
 
-### Good
+### Good: structure
 
 ```text
 Three facts from [sources] show X. Critics argue Y—here’s why it misses Z.

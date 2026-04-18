@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Folien** (Vorträge, Workshops, Vorstand) für **Lesbarkeit und Struktur**; keine Vollanimation oder Video. Für **Web-UI** siehe [`gute-interfaces-designen.md`](gute-interfaces-designen.md).
 
 ## Exzerpt
-
 - **Eine Hauptidee pro Folie**; große Schrift; hoher Kontrast für Beamer.
 - **Einheitliche Vorlage**: gleiche Ränder, Titelstil, Ausrichtung.
 - **Nachfragen** nach Dauer, Publikum und ob Folien **nur live** oder **zum Nachlesen** dienen.
@@ -32,13 +31,13 @@ Dieses Dokument hilft **gemeinnützigen und sozialen Organisationen**, Präsenta
 
 ### 1. Lesbarkeit aus der Distanz
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 Fließtext 14 pt auf starkem Hintergrundbild.
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 Titel + maximal 3–5 kurze Stichpunkte; Fließtext ≥ 24 pt; ruhiger Hintergrund.
@@ -82,7 +81,7 @@ Vergleiche mit **einfachem Diagramm** oder Tabelle—keine Zahlenwände.
 
 ## Abschließender Gedanke
 
-👉 Folien sind **Stützen**, kein Dokument. Steht alles auf der Folie, **wirkt nichts**.
+ Folien sind **Stützen**, kein Dokument. Steht alles auf der Folie, **wirkt nichts**.
 
 ## Weiterführende Links
 
@@ -90,3 +89,16 @@ Vergleiche mit **einfachem Diagramm** oder Tabelle—keine Zahlenwände.
 - [W3C WAI — Barrierefreie Präsentationen](https://www.w3.org/WAI/teach-advocate/accessible-presentations/) — Planung von Folien, Rede und Teilhabe
 - [MDN — `<video>` Barrierefreiheit](https://developer.mozilla.org/de/docs/Web/HTML/Element/video#barrierefreiheit) — Steuerung und Transkripte für eingebettete Aufzeichnungen
 
+---
+
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu folien und präsentationen in klaren, wiederverwendbaren Schritten.
+
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
+
+---
+
+Englische Version: [`slides-and-presentations.md`](../../en/design/slides-and-presentations.md)

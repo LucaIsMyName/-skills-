@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Ethische** Auswahl und **Schnitt**—Stereotype, Würde, Kontext. Ergänzt [`fotografie-fuer-ngos.md`](fotografie-fuer-ngos.md), [`bild-und-zitatfreigaben.md`](../ethik-&-recht/bild-und-zitatfreigaben.md) und [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md).
 
 ## Exzerpt
-
 - **Bildsprache** steuert **Macht**—was steht **im Zentrum**?
 - **Armutspornografie** und **White-Saviour** vermeiden—**Agency** und **Strukturen** zeigen.
 - **Intersectional** denken—**Klischees** schaden.
@@ -35,13 +34,13 @@ Bilder wählen, die **Menschen respektieren** und **Zuschauer*innen** **wahr** i
 
 Was **Mitte** ist und was **wegfällt**, erzählt die Story—**Standard**-Crops verstärken oft Stereotype.
 
-### Bad
+### Gut: mit absicht zentrieren und zuschneiden
 
 ```text
 Crop: nur Hände — anonyme „arme“ Hände ohne Würde oder Agency.
 ```
 
-### Good
+### Gut: mit absicht zentrieren und zuschneiden
 
 ```text
 Teilnehmende zentriert, Blickkontakt wo kulturell passend; Caption nennt Rolle und Programm bei Einwilligung.
@@ -53,13 +52,13 @@ Teilnehmende zentriert, Blickkontakt wo kulturell passend; Caption nennt Rolle u
 
 **Menschen handeln**, **Gemeinschaft**, **Programme** zeigen—nicht nur **Mitleid triggern**.
 
-### Bad
+### Gut: agency und systeme statt mitleid
 
 ```text
 Anonymes Kind mit Schmutz für Effekt.
 ```
 
-### Good
+### Gut: agency und systeme statt mitleid
 
 ```text
 Namentlich (eingewilligt), im Kontext, mit Würde; Caption erklärt Unterstützung und Mitmach-Möglichkeit.
@@ -71,13 +70,13 @@ Namentlich (eingewilligt), im Kontext, mit Würde; Caption erklärt Unterstützu
 
 **Keine** Stock-Rollen („weiße*r Retter*in“, „passives Opfer“); **Diversität** mit **Sorgfalt**—kein Token.
 
-### Bad
+### Gut: intersectionalität und klischees
 
 ```text
 Immer dieselbe Demografie im Hero; andere nur in „Support“.
 ```
 
-### Good
+### Gut: intersectionalität und klischees
 
 ```text
 Shot-Liste auf Repräsentation geprüft; bezahlte Mitwirkende aus gezeigten Communities; keine faulen Tropes.
@@ -89,13 +88,13 @@ Shot-Liste auf Repräsentation geprüft; bezahlte Mitwirkende aus gezeigten Comm
 
 **Keine** identifizierenden Kinderbilder ohne **Protokoll**—Schutz-Lead stimmt zu; bei Zweifel **nicht identifizierend**.
 
-### Bad
+### Gut: kinder und schutz
 
 ```text
 Klassenfoto mit sichtbaren Namensschildern — ohne Einwilligung veröffentlicht.
 ```
 
-### Good
+### Gut: kinder und schutz
 
 ```text
 Einwilligung deckt Nutzung/Kanal; Gesichter unkenntlich oder von hinten; Schutz-Lead vor Publish.
@@ -107,13 +106,13 @@ Einwilligung deckt Nutzung/Kanal; Gesichter unkenntlich oder von hinten; Schutz-
 
 **Wann** und **wo**; **keine** erfundene Dringlichkeit oder einen Kontext, den das Bild nicht trägt.
 
-### Bad
+### Gut: captions, die zum bild passen
 
 ```text
 Crop entfernt Wasserzeichen oder Kontext, der die Bedeutung ändert.
 ```
 
-### Good
+### Gut: captions, die zum bild passen
 
 ```text
 Caption: „Riverside-Session, März 2025, Einwilligung liegt vor.“; Compositing als Illustration kennzeichnen.
@@ -125,13 +124,13 @@ Caption: „Riverside-Session, März 2025, Einwilligung liegt vor.“; Compositi
 
 Freigabe gilt für **diese** Kampagne, **diesen** Kanal, **Dauer**—**Wiederverwendung** neu prüfen.
 
-### Bad
+### Gut: einwilligung für diesen zweck und kanal
 
 ```text
 Druck-Freigabe von 2019 für bezahlte Social-Anzeige 2025.
 ```
 
-### Good
+### Gut: einwilligung für diesen zweck und kanal
 
 ```text
 Freigabe: Web + Jahresbericht 2025; bei Verlängerung nachfragen; ohne Antwort archivieren.
@@ -148,8 +147,7 @@ Freigabe: Web + Jahresbericht 2025; bei Verlängerung nachfragen; ohne Antwort a
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 **Ausschnitt ist Argument**—**ehrlich**, **eingewilligt**, **gerecht**.
 
 ## Weiterführend

@@ -3,7 +3,6 @@
 **Scope:** **Consistent** organisational voice across channels—principles, **do/don’t** examples, **inclusive** language hooks. Not a full rebrand. Pair with [`respectful-language.md`](respectful-language.md), [`nonprofit-web-content.md`](nonprofit-web-content.md), [`storytelling.md`](storytelling.md), and [`content-design-and-microcopy.md`](../design/content-design-and-microcopy.md).
 
 ## Excerpt
-
 - **Voice** = personality; **tone** shifts by context (crisis vs celebration).
 - **Principles** beat adjectives: “plain, warm, precise” with **examples**.
 - **Inclusive** and **accessible**—avoid idioms that don’t translate.
@@ -31,13 +30,13 @@ Sound recognisably **you** everywhere—so trust compounds instead of **tone** w
 
 ## 1. Voice principles
 
-### Bad
+### Bad: voice principles
 
 ```text
 We are innovative, world-class, and passionate.
 ```
 
-### Good
+### Good: voice principles
 
 ```text
 We sound calm and specific. We say what we did, who it helped, and what’s next. We avoid superlatives we can’t prove.

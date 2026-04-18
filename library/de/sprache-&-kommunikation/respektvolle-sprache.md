@@ -3,7 +3,6 @@
 **Geltungsbereich:** Respektvolle Formulierungen zu sozialen Themen und Menschen in **Kommunikationstexten**; kein Ersatz für Rechtsberatung, Medizin oder Personalakte. Ergänzt [`content-design-und-microcopy.md`](../design/content-design-und-microcopy.md) für UI-Microcopy und [`tonalitaet-und-markenstimme.md`](tonalitaet-und-markenstimme.md) für Markenstimme.
 
 ## Exzerpt
-
 - Nutzen bei **Texten über Armut, Behinderung, Flucht, Pflege** usw.: Würde, keine Pauschalurteile.
 - **Nachfragen** bei fehlendem Kontext oder Pflichtbegriffen der Organisation.
 - Themenblöcke mit „verwenden / vermeiden“ und Kurzbeispiele folgen unten.
@@ -13,7 +12,7 @@
 
 Dieser "skill" zeigt, wie man **respektvoll und würde-achtend über soziale Themen und Menschen spricht**.
 
-👉 Sprache ist nicht neutral – sie prägt unser Denken und Handeln.
+ Sprache ist nicht neutral – sie prägt unser Denken und Handeln.
 
 ## Vollständigkeit vor dem Schreiben
 
@@ -40,7 +39,7 @@ Bevor Texte umformuliert oder neu erstellt werden, **Kontext klären**. Offene L
   - verletzen, ausgrenzen, stigmatisieren
   - ODER wertschätzen, stärken und einbeziehen
 
-👉 Es geht NICHT um „political correctness“,
+ Es geht NICHT um „political correctness“,
 sondern um **Respekt und Würde**
 
 ---
@@ -56,7 +55,7 @@ Menschen dürfen nicht reduziert werden auf:
 - Behinderung
 - Flucht
 
-👉 Der Mensch steht immer im Mittelpunkt.
+ Der Mensch steht immer im Mittelpunkt.
 
 ---
 
@@ -80,21 +79,21 @@ Jeder Mensch:
 
 ## 3. Vermeiden
 
-### 🚫 Verallgemeinerungen
+###  Verallgemeinerungen
 
 - „die Armen“
 - „die Behinderten“
 
-### 🚫 Abwertungen
+###  Abwertungen
 
 - „faul“
 - „Sozialschmarotzer“
 
-### 🚫 Entmenschlichung
+###  Entmenschlichung
 
 - „Fälle“
 
-### 🚫 Angstmachende Bilder
+###  Angstmachende Bilder
 
 - „Flüchtlingswelle“
 - „Flüchtlingsflut“
@@ -103,7 +102,7 @@ Jeder Mensch:
 
 ## 4. Stattdessen verwenden
 
-### ✅ Respektvolle Formulierungen
+###  Respektvolle Formulierungen
 
 - „Menschen in Armut“
 - „Menschen mit Behinderungen“
@@ -120,7 +119,7 @@ Nicht nur das Wort zählt, sondern:
 - Kontext
 - Wirkung
 
-👉 Frage dich:
+ Frage dich:
 **„Welche Haltung steckt hinter meinen Worten?“**
 
 ---
@@ -129,7 +128,7 @@ Nicht nur das Wort zählt, sondern:
 
 ---
 
-### 🟡 Armut
+###  Armut
 
 #### Verwenden:
 
@@ -143,7 +142,7 @@ Nicht nur das Wort zählt, sondern:
 
 ---
 
-### 🟡 Kinder & Jugendliche
+###  Kinder & Jugendliche
 
 #### Verwenden:
 
@@ -156,7 +155,7 @@ Nicht nur das Wort zählt, sondern:
 
 ---
 
-### 🟡 Flucht & Asyl
+###  Flucht & Asyl
 
 #### Verwenden:
 
@@ -170,7 +169,7 @@ Nicht nur das Wort zählt, sondern:
 
 ---
 
-### 🟡 Behinderung
+###  Behinderung
 
 #### Verwenden:
 
@@ -183,7 +182,7 @@ Nicht nur das Wort zählt, sondern:
 
 ---
 
-### 🟡 Alter & Pflege
+###  Alter & Pflege
 
 #### Verwenden:
 
@@ -197,18 +196,18 @@ Nicht nur das Wort zählt, sondern:
 
 ---
 
-### 🟡 Lebensende
+###  Lebensende
 
 #### Verwenden:
 
 - „Palliative Care“
 - „Hospizbegleitung“
 
-👉 Präzise und sensible Sprache ist entscheidend.
+ Präzise und sensible Sprache ist entscheidend.
 
 ---
 
-### 🟡 Internationale Arbeit
+###  Internationale Arbeit
 
 #### Verwenden:
 
@@ -232,7 +231,7 @@ Nicht nur das Wort zählt, sondern:
 
 ## Abschließender Gedanke
 
-👉 Gute Sprache macht Menschen sichtbar –
+ Gute Sprache macht Menschen sichtbar –
 als **Menschen, nicht als Kategorien**.
 
 ## Weiterführend
@@ -240,6 +239,12 @@ als **Menschen, nicht als Kategorien**.
 - [Conscious Style Guide](https://consciousstyleguide.com/) — laufend gepflegte Hinweise zu inklusiver, präziser Sprache
 - [UN DESA — Disability inclusion](https://www.un.org/development/desa/disabilities/) — würdebasierte UN-Rahmen (Abgleich mit Sprachpräferenzen der Community)
 - [APA Style — Biased language](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language) — Formulierungshilfen zu Alter, Behinderung, Gender und Ethnizität
+
+---
+
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu respektvolle sprache in klaren, wiederverwendbaren Schritten.
 
 ---
 

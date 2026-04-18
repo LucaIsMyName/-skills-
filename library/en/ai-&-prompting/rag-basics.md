@@ -3,7 +3,6 @@
 **Scope:** Applies to **retrieval-augmented generation**—answering questions from a specific corpus (docs, policies, wikis). Not full production vector-search engineering (sharding, BM25/hybrid tuning, multi-tenant security). Pair with [`working-with-context-windows.md`](working-with-context-windows.md), [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md), [`security-for-web-apps.md`](../coding/security-for-web-apps.md), and [`evaluating-model-output.md`](evaluating-model-output.md).
 
 ## Excerpt
-
 - **Retrieve relevant chunks** from your corpus, then **ground** the model in them.
 - **Chunking** at logical seams (sections, paragraphs) matters more than fancy embeddings.
 - **Cite** source chunks in the answer; refuse when nothing is relevant.
@@ -71,7 +70,7 @@ Do not rely on the model to respect "don't show this to non-staff".
 
 ## 5. Prompt assembly
 
-### Good
+### Good: prompt assembly
 
 ```text
 Answer using ONLY the CONTEXT below. If the context is insufficient,

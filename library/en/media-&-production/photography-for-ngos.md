@@ -3,7 +3,6 @@
 **Scope:** **Planning and shooting** photos for nonprofits—consent, dignity, safety, technical basics. Not full photojournalism career guide. Pair with [`image-and-quote-releases.md`](../ethics-&-legal/image-and-quote-releases.md), [`image-ethics-and-framing.md`](image-ethics-and-framing.md), and [`images-and-photography.md`](../design/images-and-photography.md).
 
 ## Excerpt
-
 - **Consent** and **context**—who can be identified; can the image be reused?
 - **Dignity** over pity—**avoid** exploitative framing.
 - **Representation**: show **agency**, not only vulnerability—**diversify** subjects with care.
@@ -35,13 +34,13 @@ Create **usable**, **ethical** images that **respect** people and **support** th
 
 Align **shots** to campaign needs; **releases** signed (or **protocol** for public events) **before** you rely on images for hero use.
 
-### Bad
+### Bad: shot list and consent before shutter
 
 ```text
 Random snaps; surprise posting.
 ```
 
-### Good
+### Good: shot list and consent before shutter
 
 ```text
 Shot list: hero group, detail hands-on, quote portrait; releases signed; embargo rules clear.
@@ -53,13 +52,13 @@ Shot list: hero group, detail hands-on, quote portrait; releases signed; embargo
 
 **Direct** people with respect; **avoid** poses that exaggerate hardship; **seek** diverse subjects **without** tokenism.
 
-### Bad
+### Bad: dignity and representation on set
 
 ```text
 “Look more miserable” for the donor appeal.
 ```
 
-### Good
+### Good: dignity and representation on set
 
 ```text
 “Show what you actually do here”—natural activity; debrief if anyone feels uncomfortable.
@@ -71,13 +70,13 @@ Shot list: hero group, detail hands-on, quote portrait; releases signed; embargo
 
 **Stable** exposure (avoid blown highlights on faces); **focus** on **eyes**; **second card** or backup so you do not lose the only take.
 
-### Bad
+### Bad: technical basics: exposure, focus, backup
 
 ```text
 All shots soft focus; card full; no backup.
 ```
 
-### Good
+### Good: technical basics: exposure, focus, backup
 
 ```text
 Check histogram on location; eye focus; dual-slot record; spare battery.
@@ -89,13 +88,13 @@ Check histogram on location; eye focus; dual-slot record; spare battery.
 
 **Safeguarding** lead briefed for **youth**, **trauma**, or **legal** sensitivity—**no** surprise shots in vulnerable moments.
 
-### Bad
+### Bad: safeguarding and sensitive contexts
 
 ```text
 Photograph counselling session without clearance.
 ```
 
-### Good
+### Good: safeguarding and sensitive contexts
 
 ```text
 Closed sessions off-limits; public areas only; verbal consent script for each participant.
@@ -107,13 +106,13 @@ Closed sessions off-limits; public areas only; verbal consent script for each pa
 
 **Names** in captions **only** with approval; **date** and **location** accurate; **no** implied endorsement.
 
-### Bad
+### Bad: editorial: captions and names
 
 ```text
 Caption invents quote or inflates numbers next to the image.
 ```
 
-### Good
+### Good: editorial: captions and names
 
 ```text
 Caption: “Riverside workshop, March 2025—participant names with consent.”; stats from same source as press.
@@ -125,13 +124,13 @@ Caption: “Riverside workshop, March 2025—participant names with consent.”;
 
 **File** images with **consent metadata**; **tag** usable channels; **archive** unused frames with same rights notes.
 
-### Bad
+### Bad: after the shoot: rights and archive
 
 ```text
 Dump folder “camera” with 2000 JPEGs; nobody knows which are cleared.
 ```
 
-### Good
+### Good: after the shoot: rights and archive
 
 ```text
 /2025-03-riverside/selected/ with sidecar: consent_id, channels, expiry; masters in archive.

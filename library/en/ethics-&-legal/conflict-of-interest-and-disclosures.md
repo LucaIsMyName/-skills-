@@ -3,7 +3,6 @@
 **Scope:** Applies to **identifying and disclosing conflicts** in charity, research, journalism, and product contexts—gifts, paid work, family, shares, advocacy, AI/vendor relationships. Not anti-corruption law in full, not regulatory bribery frameworks. Pair with [`ai-disclosure-and-policy.md`](ai-disclosure-and-policy.md), [`respectful-language.md`](../language-&-communication/respectful-language.md), [`status-updates-and-reporting.md`](../project-&-operations/status-updates-and-reporting.md), and [`image-and-quote-releases.md`](image-and-quote-releases.md).
 
 ## Excerpt
-
 - **Disclose early, disclose in writing, disclose specifically.**
 - **A conflict is not wrongdoing**; unmanaged conflict is.
 - **Register** conflicts annually and at the point of a decision—both.
@@ -50,13 +49,13 @@ All can be legitimate; they must be **visible**.
 
 Annual register + decision-time declaration.
 
-### Bad
+### Bad: register early, register specifically
 
 ```
 "I have some business with them, but it's fine."
 ```
 
-### Good
+### Good: register early, register specifically
 
 ```
 Declared interest (2025 register):

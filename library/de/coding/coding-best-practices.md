@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **allgemeine Softwarequalität** in Anwendungscode (jede Sprache/jedes Framework); nicht für Security-Audits, Infrastruktur oder Operations. Diese Seite ist die **Übersicht**—die nummerierten Regeln stehen in den verlinkten Teilen. Kombiniere mit [`coding-stil-und-struktur.md`](coding-stil-und-struktur.md), [`coding-fehler-validierung-und-state.md`](coding-fehler-validierung-und-state.md) und [`coding-tests-und-gewohnheiten.md`](coding-tests-und-gewohnheiten.md).
 
 ## Exzerpt
-
 - **Drei Teile**: Stil und Struktur → Fehler, Validierung, vorhersehbarer Datenfluss → Tests, Konsistenz, Kommentare, Skalierung.
 - **Einfachheit und Benennung** vor Optimierung oder Abstraktion.
 - **Querverweise** zwischen den Teilen; der Reihe nach oder gezielt springen.
@@ -36,9 +35,12 @@ Wartenden einen **kurzen Einstieg** in vertiefte Gewohnheiten geben—ohne ~500 
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Guter Code ist **einfach, lesbar und explizit**—wähle den Teil mit Tiefe, den du brauchst, und setze ihn um.
+
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
 
 ---
 

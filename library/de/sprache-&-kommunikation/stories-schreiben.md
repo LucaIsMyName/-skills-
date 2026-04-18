@@ -3,7 +3,6 @@
 **Geltungsbereich:** Menschenzentrierte **Geschichten** für NGOs und soziale Organisationen (Web, Print, Social); keine Fiktion und keine reine Werbung ohne Fakten und Freigaben.
 
 ## Exzerpt
-
 - **Mit** Menschen erzählen, nicht **über** sie reduzieren; konkrete Alltagsszenen statt Schlagworte.
 - **Einwilligung, Zitate, Anonymisierung** und Organisationseinheiten immer klären, nicht erfinden.
 - Aufbau, Ton, Techniken und ethische Checkliste stehen ausführlich unten.
@@ -18,7 +17,7 @@ Das Ziel ist es, Geschichten zu erzählen, die:
 - **Würde und Individualität** vermitteln
 - **soziale Themen durch einzelne Menschen verständlich machen**
 
-👉 Nicht abstrakte Themen – sondern **Menschen in konkreten Situationen**
+ Nicht abstrakte Themen – sondern **Menschen in konkreten Situationen**
 
 ## Vollständigkeit vor dem Schreiben
 
@@ -42,7 +41,7 @@ Bevor eine Geschichte entworfen wird, muss der Prompt **konkrete und Meta-Inform
 - Was ist **tabu**, zu vermeiden oder besonders sensibel?
 - Bezug zu den folgenden Abschnitten dieses Dokuments (Aufbau, ethische Richtlinien)
 
-👉 Vor der Veröffentlichung zusätzlich die **Checkliste** am Ende dieser Datei nutzen.
+ Vor der Veröffentlichung zusätzlich die **Checkliste** am Ende dieser Datei nutzen.
 
 ---
 
@@ -57,7 +56,7 @@ Bevor eine Geschichte entworfen wird, muss der Prompt **konkrete und Meta-Inform
   - Behinderung
   - Krise
 
-👉 Zeige den **ganzen Menschen**: Leben, Persönlichkeit, Stärken, Herausforderungen
+ Zeige den **ganzen Menschen**: Leben, Persönlichkeit, Stärken, Herausforderungen
 
 ---
 
@@ -69,7 +68,7 @@ Bevor eine Geschichte entworfen wird, muss der Prompt **konkrete und Meta-Inform
 - Keine dramatische oder sensationsbetonte Sprache
 - Ruhig, menschlich und bodenständig bleiben
 
-👉 Der Eindruck beim Lesen sollte sein: _„Ich verstehe diese Person“_, nicht _„Ich habe Mitleid“_
+ Der Eindruck beim Lesen sollte sein: _„Ich verstehe diese Person“_, nicht _„Ich habe Mitleid“_
 
 ---
 
@@ -84,7 +83,7 @@ Beispiele:
 - kleine Details
 - Begegnungen mit anderen
 
-👉 Geschichten werden durch **Details real**
+ Geschichten werden durch **Details real**
 
 ---
 
@@ -93,7 +92,7 @@ Beispiele:
 - Einfache, gut verständliche Sprache verwenden
 - Fachbegriffe vermeiden oder kurz erklären
 
-👉 Alle sollen die Geschichte verstehen können
+ Alle sollen die Geschichte verstehen können
 
 ---
 
@@ -109,7 +108,7 @@ Beispiele:
   - einen zentralen Aspekt ihres Lebens
 - **Headline und Text müssen zusammenpassen**—Titel und Artikelinhalt dürfen inhaltlich nicht auseinanderklaffen
 
-👉 Beispielstruktur:
+ Beispielstruktur:
 
 > „[Name] lebt mit … Wie sie/er lebt, arbeitet und welche Unterstützung es gibt“
 
@@ -121,7 +120,7 @@ Beispiele:
 - Einen ersten Einblick in ihre Situation geben
 - Keine abstrakten Erklärungen
 
-👉 Direkt auf die **menschliche Geschichte** fokussieren
+ Direkt auf die **menschliche Geschichte** fokussieren
 
 ---
 
@@ -133,7 +132,7 @@ Beschreibe:
 - Welche Routinen sind wichtig?
 - Welche Herausforderungen gibt es?
 
-👉 Der Alltag macht abstrakte Themen greifbar  
+ Der Alltag macht abstrakte Themen greifbar
 (z. B. Struktur, Umgebung und Interaktionen sind für viele autistische Menschen entscheidend)
 
 ---
@@ -146,7 +145,7 @@ Beschreibe:
   - Wünsche
   - Erfahrungen
 
-👉 Die Person soll in der Geschichte „zu Wort kommen“
+ Die Person soll in der Geschichte „zu Wort kommen“
 
 ---
 
@@ -159,7 +158,7 @@ Beschreibe:
 
 - Eingebettet in die Geschichte, nicht als Werbung
 
-👉 Fokus auf:
+ Fokus auf:
 
 - Empowerment
 - Teilhabe
@@ -174,7 +173,7 @@ Beschreibe:
   - gesellschaftliche Herausforderungen
   - fehlende Unterstützungssysteme
 
-👉 Immer im Rahmen der **individuellen Geschichte** bleiben
+ Immer im Rahmen der **individuellen Geschichte** bleiben
 
 ---
 
@@ -185,7 +184,7 @@ Beschreibe:
   - einem Zitat
   - oder einem Ausblick
 
-👉 Der Leser soll zurückbleiben mit:
+ Der Leser soll zurückbleiben mit:
 
 - Verständnis
 - Respekt
@@ -197,7 +196,7 @@ Beschreibe:
 
 ---
 
-### ✅ Do (tun)
+###  Do (tun)
 
 - **Personenzentrierte und respektvolle Sprache**
 - **Stärken und Selbstbestimmung** zeigen
@@ -207,7 +206,7 @@ Beschreibe:
 
 ---
 
-### ❌ Don’t (vermeiden)
+###  Don’t (vermeiden)
 
 - Mitleid („leidet an…“, „tragisches Schicksal“)
 - Heldennarrative („trotz allem…“)
@@ -223,8 +222,8 @@ Beschreibe:
 
 ### 1. Zeigen, nicht erklären
 
-❌ „Sie hat einen vollen Tag mit viel Verantwortung“  
-✅ „Bevor die Mittagsgruppe beginnt, legt sie Kärtchen mit Namen hin und fragt, wer heute einen ruhigeren Platz braucht“
+ „Sie hat einen vollen Tag mit viel Verantwortung“
+ „Bevor die Mittagsgruppe beginnt, legt sie Kärtchen mit Namen hin und fragt, wer heute einen ruhigeren Platz braucht“
 
 ---
 
@@ -233,7 +232,7 @@ Beschreibe:
 - Herausforderung vs. Stärke
 - Unterstützung vs. Selbstständigkeit
 
-👉 Aber nicht als „Defizit vs. Erfolg“ Framing
+ Aber nicht als „Defizit vs. Erfolg“ Framing
 
 ---
 
@@ -242,7 +241,7 @@ Beschreibe:
 - Unterschiede als Teil menschlicher Vielfalt darstellen
 - Menschen nicht als „anders“ oder „außergewöhnlich“ darstellen
 
-👉 Beispielidee:  
+ Beispielidee:
 Menschen im Autismus-Spektrum erleben die Welt anders, nicht „weniger“
 
 ---
@@ -270,7 +269,7 @@ Vor der Veröffentlichung prüfen:
 
 ## Abschließender Gedanke
 
-👉 Eine gute menschenzentrierte Geschichte informiert nicht nur –  
+ Eine gute menschenzentrierte Geschichte informiert nicht nur –
 sie schafft **Verständnis, Verbindung und Respekt**.
 
 ## Weiterführend
@@ -278,6 +277,12 @@ sie schafft **Verständnis, Verbindung und Respekt**.
 - [Purdue OWL — Narrative essays](https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/narrative_essays.html) — Szenen, Rhythmus und Perspektive
 - [ARTICLE 19 — Meinungsfreiheit](https://www.article19.org/) — warum Würde, Einverständnis und Genauigkeit bei Geschichten über reale Menschen zählen
 - [APA Style — Biased language](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language) — vorsichtige Wortwahl zu Identität und Würde
+
+---
+
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu stories schreiben in klaren, wiederverwendbaren Schritten.
 
 ---
 

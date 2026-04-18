@@ -3,7 +3,6 @@
 **Scope:** **M&E** for programmes—indicators, baselines, data quality, learning loops. Not funder compliance manuals alone. Pair with [`impact-and-annual-reporting.md`](impact-and-annual-reporting.md), [`reading-statistics-plainly.md`](reading-statistics-plainly.md), and [`theory-of-change.md`](theory-of-change.md).
 
 ## Excerpt
-
 - **Theory of change** links activities → outputs → outcomes—**indicators** must trace that chain.
 - **Baselines** before you intervene—otherwise you cannot claim **change**.
 - **Mix** quantitative and qualitative **purposefully**.
@@ -33,13 +32,13 @@ Know whether programmes **work**, **for whom**, and **why**—then **adapt**.
 
 - **Specific**, measurable with a defined method, **time-bound**.
 
-### Bad
+### Bad: smart-ish indicators
 
 ```text
 Indicator: “Community empowerment” (no definition)
 ```
 
-### Good
+### Good: smart-ish indicators
 
 ```text
 Indicator: % of participants reporting increased confidence (survey item X), measured at T0 and T12, n≥…

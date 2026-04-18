@@ -3,7 +3,6 @@
 **Scope:** **Sizing** and **exporting** for major platforms—safe zones, video specs, accessibility. Not growth hacking. Pair with [`headline-writing.md`](../language-&-communication/headline-writing.md), [`file-naming-and-organising.md`](file-naming-and-organising.md), and [`motion-and-micro-interactions.md`](../design/motion-and-micro-interactions.md).
 
 ## Excerpt
-
 - **Specs change**—**verify** current platform docs before a major launch.
 - **Safe zones** for UI overlays—keep **faces** and **logos** clear.
 - **Alt text** on images; **captions** on video.
@@ -35,13 +34,13 @@ Ship assets that **fit**, **read**, and **stay on-brand**—without last-minute 
 
 Check **official** platform help (Meta, TikTok, LinkedIn, etc.) for **current** pixel dimensions and safe zones—**before** you lock creative.
 
-### Bad
+### Bad: verify specs before launch
 
 ```text
 Reuse last year’s asset sizes without checking—Stories crop faces and logos.
 ```
 
-### Good
+### Good: verify specs before launch
 
 ```text
 Checklist: LinkedIn image spec (Apr 2025); export 1× test post to staging; adjust safe zones before batch export.
@@ -53,13 +52,13 @@ Checklist: LinkedIn image spec (Apr 2025); export 1× test post to staging; adju
 
 Design **critical content** (faces, text, logo) inside **safe areas** that avoid platform UI overlays (profile, buttons, captions).
 
-### Bad
+### Bad: safe zones and overlays
 
 ```text
 One giant square exported everywhere—heads cropped on Stories.
 ```
 
-### Good
+### Good: safe zones and overlays
 
 ```text
 Separate crops per ratio; guides at 10% inset for Stories; named exports: story_9x16_safe, feed_1x1.
@@ -71,13 +70,13 @@ Separate crops per ratio; guides at 10% inset for Stories; named exports: story_
 
 **Describe** images for screen readers; **caption** video (burn-in or platform captions)—same content as hearing viewers get.
 
-### Bad
+### Bad: alt text and captions
 
 ```text
 Image post: alt="image1"; video without captions.
 ```
 
-### Good
+### Good: alt text and captions
 
 ```text
 Alt: “Volunteer Sam handing welcome pack to new participant at Riverside desk.”; captions SRT uploaded with video.
@@ -89,13 +88,13 @@ Alt: “Volunteer Sam handing welcome pack to new participant at Riverside desk.
 
 First **2–3 seconds** carry the promise; **loop** length matches platform norms (e.g. 15–60s) so edits feel intentional.
 
-### Bad
+### Bad: hook and length for short video
 
 ```text
 30s of logo sting before the message; viewers scroll away.
 ```
 
-### Good
+### Good: hook and length for short video
 
 ```text
 Hook in frame 1: “Need evening volunteering?”; total 15s; end card with CTA at 12s.
@@ -107,13 +106,13 @@ Hook in frame 1: “Need evening volunteering?”; total 15s; end card with CTA 
 
 Build from **master templates** in Figma/Canva; **compress** for mobile—**test** on a real phone on cellular.
 
-### Bad
+### Bad: templates and compression
 
 ```text
 8 MB PNG on mobile feed—slow load, no one waits.
 ```
 
-### Good
+### Good: templates and compression
 
 ```text
 Template: brand frame + safe text; export WebP/JPEG under 300KB; legibility check on smallest device in team.
@@ -125,13 +124,13 @@ Template: brand frame + safe text; export WebP/JPEG under 300KB; legibility chec
 
 **Crop** for composition, not to **erase** context that changes meaning (crowd size, setting, relationships).
 
-### Bad
+### Bad: honest crops—no misleading framing
 
 ```text
 Crop removes other volunteers—implies one person did everything.
 ```
 
-### Good
+### Good: honest crops—no misleading framing
 
 ```text
 Caption clarifies group context; wide shot for hero, crop only for detail with same truth.

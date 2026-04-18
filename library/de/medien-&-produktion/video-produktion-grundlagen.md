@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Kurzvideo** für Web/Social—Planung, Ton, Licht, Schnitt-Übergabe. Ergänzt [`untertitel-und-untertitelung.md`](untertitel-und-untertitelung.md), [`dateinamen-und-organisation.md`](dateinamen-und-organisation.md) und [`live-events-und-streaming.md`](live-events-und-streaming.md).
 
 ## Exzerpt
-
 - **Ton zuerst**—schlechter Sound zerstört Vertrauen schneller als weiches Bild.
 - **Licht**: weich, gleichmäßig.
 - **B-Roll** für Kontext und ehrliche Abdeckung.
@@ -35,13 +34,13 @@
 
 **Verständliche** Sprache priorisieren—**Lav oder Richtmikro** nah am Mund; **10 s Raumton**; **Backup-Audio** bei wichtigen Shoots.
 
-### Bad
+### Gut: ton zuerst: mikros, pegel, raum
 
 ```text
 Eingebautes Laptop-Mikro über den Raum.
 ```
 
-### Good
+### Gut: ton zuerst: mikros, pegel, raum
 
 ```text
 Lav auf Sprecher*in; Peaks ca. -12 dBFS; 10 s Raumton; Klatsch-Sync bei Multicam.
@@ -53,13 +52,13 @@ Lav auf Sprecher*in; Peaks ca. -12 dBFS; 10 s Raumton; Klatsch-Sync bei Multicam
 
 **Weiches** Key- oder Fensterlicht; **Schatten** auffüllen, Augen sichtbar—keine **Waschbär-Augen** und keine ausgefransten Highlights.
 
-### Bad
+### Gut: licht: weich und gleichmäßig im gesicht
 
 ```text
 Nur Deckenlicht von oben—harte Schatten, Augen dunkel.
 ```
 
-### Good
+### Gut: licht: weich und gleichmäßig im gesicht
 
 ```text
 Softbox oder Aufheller; Person zur Hauptlichtquelle; Weißabgleich mit Referenz.
@@ -71,13 +70,13 @@ Softbox oder Aufheller; Person zur Hauptlichtquelle; Weißabgleich mit Referenz.
 
 **9:16**, **1:1** oder **16:9** **vor** dem Dreh festlegen—**Nachschnitt** kostet Auflösung.
 
-### Bad
+### Gut: seitenverhältnis und ausspielung pro plattform
 
 ```text
 Quer gedreht; später auf vertikal—Hälfte des Bildes leer oder Köpfe ab.
 ```
 
-### Good
+### Gut: seitenverhältnis und ausspielung pro plattform
 
 ```text
 Shot-Liste: IG Reels 9:16, YouTube 16:9—getrennte Takes oder primäre Plattform im Kader.
@@ -89,13 +88,13 @@ Shot-Liste: IG Reels 9:16, YouTube 16:9—getrennte Takes oder primäre Plattfor
 
 **Cutaways** (Hände, Umgebung, Schilder), damit der Schnitt **klären** kann ohne **Reaktionen zu erfinden**.
 
-### Bad
+### Gut: b-roll für ehrlichen kontext und abdeckung
 
 ```text
 Nur Talking Head—keine Deckung, Sprünge nicht verbergbar.
 ```
 
-### Good
+### Gut: b-roll für ehrlichen kontext und abdeckung
 
 ```text
 B-Roll: Außenansicht, Aktivität, Reaktionen mit Einwilligung; passt zu gesagten Fakten.
@@ -107,13 +106,13 @@ B-Roll: Außenansicht, Aktivität, Reaktionen mit Einwilligung; passt zu gesagte
 
 **Unterschrieben** oder **protokollierte** Einwilligung für erkennbare Personen; **Location** geklärt; **Musik** aus **lizenzierter** Bibliothek oder Vertrag.
 
-### Bad
+### Gut: einwilligung, location, musikrechte
 
 ```text
 Radio im Hintergrund; kommerzieller Track im Schnitt—Takedown-Risiko.
 ```
 
-### Good
+### Gut: einwilligung, location, musikrechte
 
 ```text
 Einwilligung deckt Web + bezahlte Social; Location OK; Musik: Artlist-Track-ID im Projektblatt.
@@ -125,13 +124,13 @@ Einwilligung deckt Web + bezahlte Social; Location OK; Musik: Artlist-Track-ID i
 
 **Klatsch** oder Timecode-Sync; **Ordner** mit Kamerafiles, **getrenntem** Audio, **Skript** und **Regie-Notizen**.
 
-### Bad
+### Gut: übergabe an schnitt: benennung und projekt
 
 ```text
 footage.zip ohne Slate, ohne Sync-Punkte.
 ```
 
-### Good
+### Gut: übergabe an schnitt: benennung und projekt
 
 ```text
 /2025-04-18_interview/ camA/, audio/, storyboard.pdf, Selects-Zeiten in README.
@@ -143,13 +142,13 @@ footage.zip ohne Slate, ohne Sync-Punkte.
 
 **Schnitte** verbinden echte Momente—**keine** erfundenen Reaktionen oder **irreführende** Montage ohne Redaktionsregel.
 
-### Bad
+### Gut: schnitt-disziplin: wahrheit im schnitt
 
 ```text
 Reaktionsaufnahme von einem anderen Tag—suggeriert Streit, der nicht stattfand.
 ```
 
-### Good
+### Gut: schnitt-disziplin: wahrheit im schnitt
 
 ```text
 Chronologie klar; J/L-Cuts für Fluss; Faktenabgleich mit Skript vor Export.
@@ -166,8 +165,7 @@ Chronologie klar; J/L-Cuts für Fluss; Faktenabgleich mit Skript vor Export.
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Video-Qualität = **Ton + Licht + Schnitt-Disziplin**—Equipment danach.
 
 ## Weiterführend

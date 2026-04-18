@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Benennung und Skalierung von Design-Tokens** (Farbe, Abstand, Radius, Typografie) sowie **Hell-/Dunkel-Themes** in digitalen Produkten; kein vollständiges Design-System-Governance und keine Code-Implementierungsdetails (siehe Coding-Skills).
 
 ## Exzerpt
-
 - Nutzen für **semantische Tokens** (`color.action.primary`) statt nur Rohwerte (`#3366cc`).
 - **Eine Quelle der Wahrheit** für Abstands- und Radius-Skalen; Dark-Mode-Zuordnung neben Light dokumentieren.
 - **Nachfragen** nach vorhandenem Token-Set oder Export aus dem Design-Tool, bevor Namen erfunden werden.
@@ -32,14 +31,14 @@ Dieses Dokument beschreibt, wie **Tokens und Themes** strukturiert werden, damit
 
 ### 1. Semantische Namen statt Rohwerte
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 Hintergrund: #F5F5F5
 Abstand: 13px
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 Hintergrund: color.surface.default
@@ -58,13 +57,13 @@ Abstand: space.3   /* z. B. 12px bei 4px-Raster */
 
 Abstand und Radius aus einem **kleinen Satz Stufen** (z. B. 4, 8, 12, 16, 24, 32), nicht beliebige Zahlen.
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 margin: 17px; padding: 11px;
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 margin: space.4; padding: space.3
@@ -96,7 +95,7 @@ Eine Übersicht: **Tokenname → Wert → Verwendung** verhindert Drift zwischen
 
 ## Abschließender Gedanke
 
-👉 Tokens sind **Verträge**. Beschreibt der Name keine **Rolle**, leidet jedes Theme-Update.
+ Tokens sind **Verträge**. Beschreibt der Name keine **Rolle**, leidet jedes Theme-Update.
 
 ## Weiterführende Links
 
@@ -104,3 +103,16 @@ Eine Übersicht: **Tokenname → Wert → Verwendung** verhindert Drift zwischen
 - [Design Tokens Format (Entwurf)](https://www.designtokens.org/tr/drafts/format/) — Konventionen für Tools und Code
 - [W3C — CSS Custom Properties](https://www.w3.org/TR/css-variables-1/) — typische Web-Laufzeitschiene unter Token-Pipelines
 
+---
+
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu design-tokens und theming in klaren, wiederverwendbaren Schritten.
+
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
+
+---
+
+Englische Version: [`design-tokens-and-theming.md`](../../en/design/design-tokens-and-theming.md)

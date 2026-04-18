@@ -1,9 +1,8 @@
 # KI in der Kommunikation
 
-**Scope:** Gilt für **Sprachmodelle in der Kommunikationsarbeit**—Newsletter, Spendenmails, Social Posts, Pressemitteilungen, Übersetzungen, interne Memos. Nicht Bildgenerierung (siehe [`bilder-und-fotografie.md`](../design/bilder-und-fotografie.md)), nicht Rechts-/Medizinrat, nicht KI für Kinderschutzentscheidungen. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md), [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md), [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md) und [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
+**Geltungsbereich:** Gilt für **Sprachmodelle in der Kommunikationsarbeit**—Newsletter, Spendenmails, Social Posts, Pressemitteilungen, Übersetzungen, interne Memos. Nicht Bildgenerierung (siehe [`bilder-und-fotografie.md`](../design/bilder-und-fotografie.md)), nicht Rechts-/Medizinrat, nicht KI für Kinderschutzentscheidungen. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md), [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md), [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md) und [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
 
-## Excerpt
-
+## Exzerpt
 - **KI entwirft, Menschen entscheiden**—jeder Satz nach außen ist menschliche Verantwortung.
 - **Nie** Spender-PII, Kinderschutzdetails, unveröffentlichte Zitate in ungeprüfte Tools.
 - **Grundieren** mit **eigenen** Fakten; keine erfundenen Zahlen.
@@ -60,13 +59,13 @@ Briefing → KI-Entwurf → Human-Edit → Faktencheck → Review → Planen →
 
 ## 4. Beispiel: Spendermail
 
-### Schlecht
+### Schlecht: beispiel: spendermail
 
 ```text
 Schreib eine Spendermail über unseren tollen Erfolg.
 ```
 
-### Gut
+### Gut: beispiel: spendermail
 
 ```text
 Aufgabe: 120-Wörter-Spendermail (DE, Sie).
@@ -99,7 +98,7 @@ Format: Betreff, 3 kurze Absätze, CTA.
 - Längen **plattformgemäß**.
 - Trap-Words verbieten.
 
-### Gut
+### Gut: social posts und varianten
 
 ```text
 3 LinkedIn-Varianten zum Mai-Event.
@@ -117,7 +116,7 @@ Je:
 - **Glossar** (Markenwörter, Nicht-übersetzen-Liste).
 - Modell soll **kulturelle Fallen** melden, nicht still umformulieren.
 
-### Gut
+### Gut: übersetzungen
 
 ```text
 Übersetze DE → EN (formal, Sie-Stil in DE entspricht "we/you" neutral):
@@ -162,12 +161,10 @@ Stimmregeln:
 
 ---
 
-## Core idea
-
+## Kerngedanke
 KI verkürzt den Weg vom **Briefing zum Entwurf**. Stimme, Wahrheit, Würde gehören dir. Mit freigegebenen Fakten, Stimmbeispielen, Review und klarer Offenlegung wird die Zeitersparnis echt.
 
-## Further reading
-
+## Weiterführend
 - [BBC — Editorial guidelines](https://www.bbc.co.uk/editorialguidelines/)
 - [Ethical Journalism Network — AI and ethics](https://ethicaljournalismnetwork.org/)
 - [ICO — AI and data protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/)

@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Freiwillige** organisieren—Rollen, Dienste, Übergaben, Wertschätzung. Ergänzt [`freiwillige-kommunikation.md`](../sprache-&-kommunikation/freiwillige-kommunikation.md), [`onboarding-neuer-teammitglieder.md`](onboarding-neuer-teammitglieder.md) und [`kinder-und-betroffenenschutz.md`](../ethik-&-recht/kinder-und-betroffenenschutz.md).
 
 ## Exzerpt
-
 - **Rollenprofile** mit Zeit und Skills.
 - **Dienste** und **Vertretung**—kein Single Point of Failure.
 - **Übergaben** mit Checklisten.
@@ -35,13 +34,13 @@ Engagement **haltbar** machen—**klar**, **sicher**, **gewürdigt**.
 
 Jede Rolle nennt **Stunden**, **Aufgaben**, **Skills** und **wer beaufsichtigt**—damit sich Menschen realistisch eintragen.
 
-### Bad
+### Gut: rollenprofile mit zeit und skills
 
 ```text
 Helft bei Events, wenn ihr könnt. (Keine Klarheit.)
 ```
 
-### Good
+### Gut: rollenprofile mit zeit und skills
 
 ```text
 Event-Steward: 4h-Schichten; Gäste empfangen; Vorfälle an Lead eskalieren. Skills: ruhig unter Druck. Aufsicht: Schicht-Lead per Funk.
@@ -53,13 +52,13 @@ Event-Steward: 4h-Schichten; Gäste empfangen; Vorfälle an Lead eskalieren. Ski
 
 **Veröffentlichter Plan** mit **benannten Vertretungen**—niemand ist die einzige Person, die aufschließen kann.
 
-### Bad
+### Gut: dienste und vertretung—kein single point of failure
 
 ```text
 Irgendeiner wird schon kommen.
 ```
 
-### Good
+### Gut: dienste und vertretung—kein single point of failure
 
 ```text
 Schichtkalender; Vertretung pro Slot; wenn Vertretung ausfällt, Eskalation an Koordinator:in in #freiwillige innerhalb 2h.
@@ -71,13 +70,13 @@ Schichtkalender; Vertretung pro Slot; wenn Vertretung ausfällt, Eskalation an K
 
 **End-of-Shift-Checkliste** in einem Doc—Tasks, Vorfälle, Schlüssel, was als Nächstes—nics fällt zwischen Schichten weg.
 
-### Bad
+### Gut: übergaben mit checklisten
 
 ```text
 „Steckt alles in meinem Kopf—erzähle der nächsten Person, wenn ich sie sehe.“
 ```
 
-### Good
+### Gut: übergaben mit checklisten
 
 ```text
 Übergabe unter /ops/handover.md—Vorlage: Bestände, Incident-Log-ID, offene Punkte für nächste Schicht.
@@ -88,13 +87,13 @@ Schichtkalender; Vertretung pro Slot; wenn Vertretung ausfällt, Eskalation an K
 ### Regel
 **Wer während Schichten erreichbar ist** und **wie** (Telefon, Slack)—besonders bei Jugend oder vulnerablen Teilnehmenden.
 
-### Bad
+### Gut: aufsicht und erreichbarkeit
 
 ```text
 Koordinator:in liest vielleicht am Wochenende E-Mail.
 ```
 
-### Good
+### Gut: aufsicht und erreichbarkeit
 
 ```text
 On-call: Alex Fr–So 09:00–18:00—Handy im Dienstplan. Eskalation: Schutz-Lead bei Incident ab Gelb+.
@@ -106,13 +105,13 @@ On-call: Alex Fr–So 09:00–18:00—Handy im Dienstplan. Eskalation: Schutz-Le
 
 **Dank**, der zum Aufwand passt; **Referenzen** nur mit **Einwilligung** und **korrekten** Fakten—Freiwillige sind keine emotionale Gratisarbeit.
 
-### Bad
+### Gut: anerkennung und referenzen (mit einwilligung)
 
 ```text
 Öffentlicher Shout-out mit voller Story ohne Rücksprache mit der Freiwilligen.
 ```
 
-### Good
+### Gut: anerkennung und referenzen (mit einwilligung)
 
 ```text
 Dankschreiben + optionale LinkedIn-Empfehlung nach 6 Monaten—Entwurf vor Veröffentlichung mit Freiwilligen abgestimmt.
@@ -124,13 +123,13 @@ Dankschreiben + optionale LinkedIn-Empfehlung nach 6 Monaten—Entwurf vor Verö
 
 Bei Rollen mit **Kindern oder vulnerablen Erwachsenen** vor erster Schicht **Schulung**, **Checks** und **Meldewege**—Recht bestätigt lokale Anforderungen.
 
-### Bad
+### Gut: schutz und prüfungen von anfang an
 
 ```text
 Erst mal warme Körper—Schutz klären wir später.
 ```
 
-### Good
+### Gut: schutz und prüfungen von anfang an
 
 ```text
 Jugend-Rolle: Führungszeugnis + Schulungsmodul + unterschriebener Kodex; kein Einzelkontakt vor Freigabe. Versicherung deckt Rollenumfang—schriftlich bestätigt.
@@ -147,8 +146,7 @@ Jugend-Rolle: Führungszeugnis + Schulungsmodul + unterschriebener Kodex; kein E
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Freiwillige wie ein **System** führen: **Rollen**, **Pläne**, **Übergaben**, **Fürsorge**.
 
 ## Weiterführend

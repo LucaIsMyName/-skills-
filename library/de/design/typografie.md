@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Schriftsetzung in UI, Web, Print und Folien**—Skala, Hierarchie, Paarung, Ziffern, Lesbarkeit. Nicht komplettes Brand-Handbuch (siehe `markenrichtlinien-erstellen.md`). Ergänzt [`design-basics.md`](design-basics.md), [`design-tokens-und-theming.md`](design-tokens-und-theming.md), [`gute-interfaces-designen.md`](gute-interfaces-designen.md).
 
 ## Exzerpt
-
 - **Lesbarkeit zuerst, Stil danach.** Wer zweimal liest, hat die Schrift schon verloren.
 - **Eine Schrift reicht**, zwei sind ein System, drei sind ein Problem.
 - **Skala als Verhältnis** (Modular Scale), nicht geraten. Sechs bis acht Stufen reichen für UI + Langtext.
@@ -144,6 +143,10 @@ Gute Typografie ist **unsichtbar**—gelesen wird der Inhalt, nicht die Schrift.
 - [Microsoft Learn — OpenType-Spezifikation](https://learn.microsoft.com/en-us/typography/opentype/spec/) — Referenz für Features und Kodierung (englisch)
 - [W3C WAI — Understanding 1.4.12 Textabstände](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html) — Mindestabstände bei Nutzer:innen-Overrides
 
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
+
 ---
 
-English version: [`typography.md`](../../en/design/typography.md)
+Englische Version: [`typography.md`](../../en/design/typography.md)

@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Kurze Social-Media-Texte und Bildunterschriften** für gemeinnützige und soziale Organisationen; keine Langartikel, keine Pressemitteilungen und keine Ersatzberatung zu bezahlten Anzeigen oder Plattform-Richtlinien (jeweils Plattform + ggf. Rechtsprüfung).
 
 ## Exzerpt
-
 - Nutzen für **plattformgerechte** Beiträge: Länge, Ton, möglichst **eine Hauptbotschaft**.
 - **Einwilligung** zu Fotos und Zitaten; **keine** sensationsorientierte Darstellung von Betroffenen.
 - **Nachfragen** nach Kanal, Link, Kampagne, Freigabestufe und Hashtag-Regeln.
@@ -44,13 +43,13 @@ Ziele:
 
 ### 1. Eine Hauptbotschaft
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 Bei uns in der Stiftung passiert diesen Monat so viel Spannendes – wir können es kaum erwarten, euch alles zu erzählen!!!
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 Diese Woche erweitern wir die Notschlafstelle um 15 Plätze. Freiwillige können sich hier anmelden: [Link]
@@ -60,13 +59,13 @@ Diese Woche erweitern wir die Notschlafstelle um 15 Plätze. Freiwillige können
 
 ### 2. Ton: respektvoll, nicht sensationsorientiert
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
-Was dieser obdachlose Mann dann tat, wird dich UMHAUEN 💔😱
+Was dieser obdachlose Mann dann tat, wird dich UMHAUEN
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 Menschen ohne sicheren Schlafplatz bekommen hier jede Nacht eine warme Mahlzeit und ein Bett. [Link]
@@ -78,13 +77,13 @@ Menschen ohne sicheren Schlafplatz bekommen hier jede Nacht eine warme Mahlzeit 
 
 **Sparsam und konsistent** nach Org-Leitfaden; nicht spammen.
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 #charity #liebe #hoffnung #spenden #ngo #hilfe #viral
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 Wir suchen Peer-Mentorinnen für unser Jugendprogramm. Infos: [Link] #Jugendhilfe #UnsereStadt
@@ -118,7 +117,7 @@ Wir suchen Peer-Mentorinnen für unser Jugendprogramm. Infos: [Link] #Jugendhilf
 
 ## Abschließender Gedanke
 
-👉 Kurzformate sind **öffentlich und dauerhaft**. Bei sensiblen Themen: bei Zweifeln **Führungs- oder Kommunikationskraft** einbinden, bevor etwas live geht.
+ Kurzformate sind **öffentlich und dauerhaft**. Bei sensiblen Themen: bei Zweifeln **Führungs- oder Kommunikationskraft** einbinden, bevor etwas live geht.
 
 ## Weiterführend
 
@@ -126,3 +125,12 @@ Wir suchen Peer-Mentorinnen für unser Jugendprogramm. Infos: [Link] #Jugendhilf
 - [Meta — Community Standards](https://transparency.meta.com/policies/community-standards/) — Plattformregeln (kein Ersatz für Gesetz und interne Policy)
 - [W3C WAI — How people with disabilities use the web](https://www.w3.org/WAI/people-use-web/) — warum Alternativtexte und klare Sprache in Social Cards zählen
 
+---
+
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu social-kurzformate in klaren, wiederverwendbaren Schritten.
+
+---
+
+Englische Version: [`social-short-form.md`](../../en/language-&-communication/social-short-form.md)

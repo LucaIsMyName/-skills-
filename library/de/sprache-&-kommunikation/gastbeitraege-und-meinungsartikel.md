@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Meinungstexte** mit **klarer Urheberschaft**—Aufbau, Offenlegung, Stimme. Kein neutraler Journalismus. Ergänzt [`stories-schreiben.md`](stories-schreiben.md), [`respektvolle-sprache.md`](respektvolle-sprache.md), [`quellenbewertung-und-faktencheck.md`](../recherche-&-analyse/quellenbewertung-und-faktencheck.md) und [`interessenkonflikte-und-offenlegung.md`](../ethik-&-recht/interessenkonflikte-und-offenlegung.md).
 
 ## Exzerpt
-
 - **These** früh—dann **Argument** mit Belegen, nicht mit Vibes.
 - **Interessen** und **Affiliationen** offenlegen.
 - **Fakten**, **Analyse**, **Meinung** trennen; Unsicherheit **kennzeichnen**.
@@ -43,8 +42,7 @@ Finanzierung und Rollen, die die Lesart beeinflussen können.
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Starker Kommentar = **klare These + ehrliche Belege + transparente Interessen**.
 
 ## Weiterführend

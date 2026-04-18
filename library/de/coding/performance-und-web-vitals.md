@@ -1,9 +1,8 @@
 # Performance und Web Vitals
 
-**Scope:** Gilt für **wahrgenommene und gemessene Performance** von Webapps—Ladezeit, Interaktivität, Responsiveness, Rendering. Kein Backend-Throughput-Tuning jenseits der Haustür, kein Native. Kombiniere mit [`barrierefreiheit-im-code.md`](barrierefreiheit-im-code.md), [`api-design-und-rest.md`](api-design-und-rest.md), [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md) und [`leere-und-fehlerzustaende.md`](../design/leere-und-fehlerzustaende.md).
+**Geltungsbereich:** Gilt für **wahrgenommene und gemessene Performance** von Webapps—Ladezeit, Interaktivität, Responsiveness, Rendering. Kein Backend-Throughput-Tuning jenseits der Haustür, kein Native. Kombiniere mit [`barrierefreiheit-im-code.md`](barrierefreiheit-im-code.md), [`api-design-und-rest.md`](api-design-und-rest.md), [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md) und [`leere-und-fehlerzustaende.md`](../design/leere-und-fehlerzustaende.md).
 
-## Excerpt
-
+## Exzerpt
 - **Messen zuerst**: Real-User-Monitoring (RUM) schlägt Labortests; beide schlagen Raten.
 - **Core Web Vitals**: **LCP** (Laden), **INP** (Interaktivität), **CLS** (Stabilität). Budgets setzen.
 - **Weniger ausliefern**: Bilder, JS, Third-Parties sind die Hauptsünder.
@@ -124,12 +123,10 @@ INP ist die **schlechteste** Interaktion der Session.
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Performance = **weniger shippen, mehr cachen, echte User messen, Budgets durchsetzen**. Gefühlte Geschwindigkeit ist genauso real wie gemessene.
 
-## Further reading
-
+## Weiterführend
 - [web.dev — Core Web Vitals](https://web.dev/vitals/)
 - [web.dev — Optimise LCP/INP/CLS](https://web.dev/articles/optimize-lcp)
 - [Smashing Magazine — Front-end performance checklist](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/)

@@ -1,9 +1,8 @@
 # Markdown und MDX
 
-**Scope:** Gilt für **Markdown- und MDX-Autoring** in Docs und Produkt-Content—Überschriften, Links, Code-Blöcke, Tabellen, Frontmatter, MDX-Komponenten, Barrierefreiheit, Versionierung. Kein LaTeX, kein Static-Site-Tuning. Kombiniere mit [`skill-dokumentation-schreiben.md`](../ki-&-prompting/skill-dokumentation-schreiben.md), [`barrierefreiheit-im-code.md`](barrierefreiheit-im-code.md), [`content-design-und-microcopy.md`](../design/content-design-und-microcopy.md) und [`dateinamen-und-organisation.md`](../medien-&-produktion/dateinamen-und-organisation.md).
+**Geltungsbereich:** Gilt für **Markdown- und MDX-Autoring** in Docs und Produkt-Content—Überschriften, Links, Code-Blöcke, Tabellen, Frontmatter, MDX-Komponenten, Barrierefreiheit, Versionierung. Kein LaTeX, kein Static-Site-Tuning. Kombiniere mit [`skill-dokumentation-schreiben.md`](../ki-&-prompting/skill-dokumentation-schreiben.md), [`barrierefreiheit-im-code.md`](barrierefreiheit-im-code.md), [`content-design-und-microcopy.md`](../design/content-design-und-microcopy.md) und [`dateinamen-und-organisation.md`](../medien-&-produktion/dateinamen-und-organisation.md).
 
-## Excerpt
-
+## Exzerpt
 - **Plain Markdown** zuerst—MDX nur, wenn Komponenten klar etwas bringen.
 - Ein **H1** pro Dokument; dann H2, H3, in Reihenfolge, ohne Sprünge.
 - **Links beschreiben** ihr Ziel—kein "hier klicken".
@@ -47,13 +46,13 @@ Content, der **lesbar, barrierefrei, durchsuchbar** ist—in Git, Review, IDE un
 - **Relative Pfade** im Repo.
 - Externe Docs per **kanonischer URL**.
 
-### Schlecht
+### Schlecht: links
 
 ```md
 Mehr [hier](https://example.com/guide).
 ```
 
-### Gut
+### Gut: links
 
 ```md
 Siehe den [Mozilla — HTTP Accept-Encoding Guide](https://developer.mozilla.org/de/docs/Web/HTTP/Headers/Accept-Encoding).
@@ -65,7 +64,7 @@ Siehe den [Mozilla — HTTP Accept-Encoding Guide](https://developer.mozilla.org
 - Shell: `bash`/`sh`; Config: `yaml`/`toml`/`json`.
 - Kurz (<30 Zeilen); lange Programme verlinken.
 
-### Gut
+### Gut: code-blöcke
 
 ````md
 ```ts
@@ -80,7 +79,7 @@ const user = await db.user.findUniqueOrThrow({ where: { id } })
 - Bevorzugt `.webp`/`.avif`; Diagramme `.svg`.
 - Große Medien in CDN/LFS, nicht als Binary in `main`.
 
-### Gut
+### Gut: bilder/medien
 
 ```md
 ![Funnel mit 40% Konvertierung in Schritt 1, 18% in Schritt 2](./funnel-q1.webp)
@@ -122,7 +121,7 @@ tags: [ai, prompting, documentation]
 - **Barrierefrei** halten (Tastatur, Fokus, ARIA). Siehe [`barrierefreiheit-im-code.md`](barrierefreiheit-im-code.md).
 - **Einfach Props**—Autor\*innen ohne Entwicklerkenntnisse sollen sie bedienen können.
 
-### Gut
+### Gut: mdx-komponenten
 
 ```mdx
 <Hinweis>
@@ -151,12 +150,10 @@ tags: [ai, prompting, documentation]
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Markdown ist das **haltbarste Format** für geschriebenes Wissen: überall lesbar, diff-freundlich, durchsuchbar. Plain halten; MDX-Komponenten nur, wenn sie echten Mehrwert bringen.
 
-## Further reading
-
+## Weiterführend
 - [CommonMark](https://commonmark.org/)
 - [GitHub Flavored Markdown](https://github.github.com/gfm/)
 - [MDX](https://mdxjs.com/)

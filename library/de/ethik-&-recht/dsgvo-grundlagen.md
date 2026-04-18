@@ -1,9 +1,8 @@
 # DSGVO-Grundlagen
 
-**Scope:** Gilt für **alltägliche DSGVO/BDSG-Praxis** in Teams, die personenbezogene Daten verarbeiten—Rechtsgrundlagen, Einwilligung, Datensparsamkeit, Betroffenenrechte, Datenpannen, Auftragsverarbeitung. Keine Rechtsberatung, kein vollständiges DSFA-/DSB-Werk. Kombiniere mit [`ki-training-und-scraping.md`](ki-training-und-scraping.md), [`bild-und-zitatfreigaben.md`](bild-und-zitatfreigaben.md), [`ki-offenlegung-und-richtlinien.md`](ki-offenlegung-und-richtlinien.md) und [`sicherheit-fuer-webapps.md`](../coding/sicherheit-fuer-webapps.md).
+**Geltungsbereich:** Gilt für **alltägliche DSGVO/BDSG-Praxis** in Teams, die personenbezogene Daten verarbeiten—Rechtsgrundlagen, Einwilligung, Datensparsamkeit, Betroffenenrechte, Datenpannen, Auftragsverarbeitung. Keine Rechtsberatung, kein vollständiges DSFA-/DSB-Werk. Kombiniere mit [`ki-training-und-scraping.md`](ki-training-und-scraping.md), [`bild-und-zitatfreigaben.md`](bild-und-zitatfreigaben.md), [`ki-offenlegung-und-richtlinien.md`](ki-offenlegung-und-richtlinien.md) und [`sicherheit-fuer-webapps.md`](../coding/sicherheit-fuer-webapps.md).
 
-## Excerpt
-
+## Exzerpt
 - **DSGVO gilt**, sobald personenbezogene Daten verarbeitet werden.
 - **Rechtsgrundlage festlegen**, bevor erhoben wird; dokumentieren; zum Zweck passend.
 - **Datensparsamkeit**: so wenig wie möglich erheben, kurz speichern, routinemäßig löschen.
@@ -76,14 +75,14 @@ Auf **Zielgruppenniveau**, nicht in Juristensprache.
 - **Anonymisieren**, wo möglich.
 - **Pseudonymisieren**, wo Anonymisierung scheitert.
 
-### Schlecht
+### Schlecht: datensparsamkeit
 
 ```
 Newsletter-Anmeldung:
 - Vollständiger Name, Adresse, Tel, Geburtsdatum, Geschlecht, Beruf, Einkommen.
 ```
 
-### Gut
+### Gut: datensparsamkeit
 
 ```
 Newsletter-Anmeldung:
@@ -138,12 +137,10 @@ Siehe [`ki-training-und-scraping.md`](ki-training-und-scraping.md).
 
 ---
 
-## Core idea
-
+## Kerngedanke
 DSGVO ist **Governance anderer Menschen Daten**. Weniger erheben, kürzer halten, Grund nennen, Rechte einlösen, Plan für den Ausfall—alles andere folgt.
 
-## Further reading
-
+## Weiterführend
 - [BfDI — Datenschutz-Handbuch](https://www.bfdi.bund.de/)
 - [EDSA — Leitlinien](https://edpb.europa.eu/edpb_de)
 - [Datenschutzkonferenz — Kurzpapiere](https://www.datenschutzkonferenz-online.de/)

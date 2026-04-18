@@ -1,9 +1,8 @@
 # Sprachmodelle im Code nutzen
 
-**Scope:** Gilt für **Engineering-Integration mit gehosteten Sprachmodellen**—SDK-Nutzung, Prompt-Versionierung, Streaming, Retries, Kosten, Caching, Tests, Observability. Kein Modelltraining, keine Agenten-Plattformen. Kombiniere mit [`strukturierte-ausgabe-und-tools.md`](../ki-&-prompting/strukturierte-ausgabe-und-tools.md), [`modelloutput-bewerten.md`](../ki-&-prompting/modelloutput-bewerten.md), [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md) und [`sicherheit-fuer-webapps.md`](sicherheit-fuer-webapps.md).
+**Geltungsbereich:** Gilt für **Engineering-Integration mit gehosteten Sprachmodellen**—SDK-Nutzung, Prompt-Versionierung, Streaming, Retries, Kosten, Caching, Tests, Observability. Kein Modelltraining, keine Agenten-Plattformen. Kombiniere mit [`strukturierte-ausgabe-und-tools.md`](../ki-&-prompting/strukturierte-ausgabe-und-tools.md), [`modelloutput-bewerten.md`](../ki-&-prompting/modelloutput-bewerten.md), [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md) und [`sicherheit-fuer-webapps.md`](sicherheit-fuer-webapps.md).
 
-## Excerpt
-
+## Exzerpt
 - **Prompts sind Code**—im Repo, im PR, in CI.
 - **Modell wie flaky API** behandeln: Retries, Timeouts, Fallbacks, Kostenlimits.
 - **Output nie trauen**: Schema validieren, sanitisieren, Human-in-the-Loop.
@@ -82,7 +81,7 @@ Immer senden:
 - **Response-Format** (JSON-Schema) wenn möglich.
 - **User/Session-ID** gehasht für Missbrauch-Tracking.
 
-### Gut
+### Gut: request-shape
 
 ```ts
 const resp = await client.chat.completions.create({
@@ -158,12 +157,10 @@ Dashboards: Error-Rate, Invalid-Schema-Rate, Verweigerung, p95-Latenz, Kosten/Fe
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Ein Sprachmodell in Production ist eine **bezahlte, flaky, nicht-deterministische API**. Wie eine solche wrappen: versionierte Prompts, strikte Schemas, Timeouts, Retries, Observability, Privacy, Fallbacks. Magic ist für Demos.
 
-## Further reading
-
+## Weiterführend
 - [OpenAI — Production best practices](https://platform.openai.com/docs/guides/production-best-practices)
 - [Anthropic — Building with Claude](https://docs.anthropic.com/claude/docs/building-with-claude)
 - [LangSmith](https://docs.smith.langchain.com/)

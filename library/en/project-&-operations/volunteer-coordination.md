@@ -3,7 +3,6 @@
 **Scope:** **Coordinating volunteers**—roles, rotas, handovers, appreciation—beyond comms alone. Pair with [`volunteer-comms.md`](../language-&-communication/volunteer-comms.md), [`onboarding-new-team-members.md`](onboarding-new-team-members.md), and [`safeguarding-in-comms.md`](../ethics-&-legal/safeguarding-in-comms.md).
 
 ## Excerpt
-
 - **Role descriptions** with **time** and **skills**—clarity beats “help us”.
 - **Rotas** and **cover** plans—**no** single points of failure.
 - **Handovers**: checklists so shifts **don’t drop** tasks.
@@ -35,13 +34,13 @@ Make volunteering **sustainable**—**clear**, **safe**, **appreciated**.
 
 Every role states **hours**, **tasks**, **skills**, and **who supervises**—so people opt in honestly.
 
-### Bad
+### Bad: role descriptions with time and skills
 
 ```text
 Help us at events when you can. (No clarity.)
 ```
 
-### Good
+### Good: role descriptions with time and skills
 
 ```text
 Event steward: 4h shifts; greet arrivals; escalate incidents to lead. Skills: calm under pressure. Supervision: shift lead on radio.
@@ -53,13 +52,13 @@ Event steward: 4h shifts; greet arrivals; escalate incidents to lead. Skills: ca
 
 **Published schedule** with **named backups**—nobody is the only person who knows how to open up.
 
-### Bad
+### Bad: rotas and cover—no single point of failure
 
 ```text
 Someone will show up.
 ```
 
-### Good
+### Good: rotas and cover—no single point of failure
 
 ```text
 Shift calendar; backup owner per slot; if backup drops, escalation to coordinator in #volunteers within 2h.
@@ -71,13 +70,13 @@ Shift calendar; backup owner per slot; if backup drops, escalation to coordinato
 
 **End-of-shift checklist** in one doc—tasks, incidents, keys, what’s next—so nothing drops between shifts.
 
-### Bad
+### Bad: handovers with checklists
 
 ```text
 “It’s all in my head—I’ll tell the next person if I see them.”
 ```
 
-### Good
+### Good: handovers with checklists
 
 ```text
 Handover doc at /ops/handover.md—template: stock levels, incidents log ID, open issues for next shift.
@@ -89,13 +88,13 @@ Handover doc at /ops/handover.md—template: stock levels, incidents log ID, ope
 
 Name **who is reachable** during shifts and **how** (phone, Slack)—especially for youth or vulnerable participants.
 
-### Bad
+### Bad: supervision and on-call clarity
 
 ```text
 Coordinator might check email on weekends.
 ```
 
-### Good
+### Good: supervision and on-call clarity
 
 ```text
 On-call: Alex Fri–Sun 09:00–18:00—mobile in roster. Escalation: safeguarding lead if incident code yellow+.
@@ -107,13 +106,13 @@ On-call: Alex Fri–Sun 09:00–18:00—mobile in roster. Escalation: safeguardi
 
 **Thanks** that match effort; **references** only with **consent** and **accurate** facts—volunteers are not free labour to exploit emotionally.
 
-### Bad
+### Bad: recognition and references (with consent)
 
 ```text
 Public shout-out with full story without asking the volunteer.
 ```
 
-### Good
+### Good: recognition and references (with consent)
 
 ```text
 Thank-you note + optional LinkedIn recommendation after 6 months—draft reviewed by volunteer before post.
@@ -125,13 +124,13 @@ Thank-you note + optional LinkedIn recommendation after 6 months—draft reviewe
 
 For roles with **children or vulnerable adults**, **training**, **checks**, and **reporting paths** before first shift—legal confirms local requirements.
 
-### Bad
+### Bad: safeguarding and vetting front and centre
 
 ```text
 Warm bodies needed—sort safeguarding later.
 ```
 
-### Good
+### Good: safeguarding and vetting front and centre
 
 ```text
 Youth role: DBS + training module + signed code; no solo contact until signed off. Insurance covers role scope—confirmed in writing.

@@ -1,9 +1,8 @@
 # Sicherheit für Webapps
 
-**Scope:** Gilt für **alltägliche App-Security** in Webprodukten—Auth, Input, Dependencies, Secrets, Header, Logging. Kein komplettes Infosec-Programm, keine Kryptoprotokoll-Entwicklung, kein Pentest. Kombiniere mit [`api-design-und-rest.md`](api-design-und-rest.md), [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md), [`dsgvo-grundlagen.md`](../ethik-&-recht/dsgvo-grundlagen.md) und [`strukturierte-ausgabe-und-tools.md`](../ki-&-prompting/strukturierte-ausgabe-und-tools.md).
+**Geltungsbereich:** Gilt für **alltägliche App-Security** in Webprodukten—Auth, Input, Dependencies, Secrets, Header, Logging. Kein komplettes Infosec-Programm, keine Kryptoprotokoll-Entwicklung, kein Pentest. Kombiniere mit [`api-design-und-rest.md`](api-design-und-rest.md), [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md), [`dsgvo-grundlagen.md`](../ethik-&-recht/dsgvo-grundlagen.md) und [`strukturierte-ausgabe-und-tools.md`](../ki-&-prompting/strukturierte-ausgabe-und-tools.md).
 
-## Excerpt
-
+## Exzerpt
 - **Default-deny** überall: Auth, Autorisierung, Netz, CORS, CSP.
 - **Validieren** am Rand; **Escapen** am Sink (HTML, SQL, Shell).
 - **Secrets** in Env/Secret-Manager—nie im Code, nie im Log.
@@ -49,14 +48,14 @@ Webapp bauen, die Nutzerdaten und Reputation **by default** schützt—mit sicht
 - Rechte am **User**, Prüfung an der **Ressource**.
 - Service-Accounts: Least Privilege.
 
-### Schlecht
+### Schlecht: autorisierung
 
 ```ts
 if (user.isAdmin) { /* Button zeigen */ }
 // Server akzeptiert ohne weitere Prüfung
 ```
 
-### Gut
+### Gut: autorisierung
 
 ```ts
 router.post('/invoices/:id/void', requireAuth, async (req, res) => {
@@ -132,12 +131,10 @@ Siehe [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md).
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Die meisten Breaches sind **banal**. Das Banale verteidigen: **Default-deny**, parametrisieren, Secrets rotieren, Deps updaten, richtig loggen, Plan für Versagen.
 
-## Further reading
-
+## Weiterführend
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 - [OWASP Cheat Sheets](https://cheatsheetseries.owasp.org/)
 - [Mozilla Observatory](https://observatory.mozilla.org/)

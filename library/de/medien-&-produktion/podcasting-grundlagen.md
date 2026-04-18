@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Audio-Shows**—Format, Aufnahme, Schnitt, Veröffentlichung im kleinen Organisationssetting. Ergänzt [`untertitel-und-untertitelung.md`](untertitel-und-untertitelung.md), [`dateinamen-und-organisation.md`](dateinamen-und-organisation.md) und [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md).
 
 ## Exzerpt
-
 - **Format** wählen und **dabei bleiben**.
 - **Raum** dämpft Hall; **Pegel** testen.
 - **Getrennte** Spuren; **Rauschreduktion** vorsichtig.
@@ -35,13 +34,13 @@
 
 **Interview**, **Erzählung** oder **Panel** als **Hauptform**—Hörer*innen wissen, was jede Episode liefert.
 
-### Bad
+### Gut: ein format wählen und konsistent bleiben
 
 ```text
 Folge 1: Solo-Rant; Folge 2: Dokumentation; Folge 3: Panel—kein roter Faden.
 ```
 
-### Good
+### Gut: ein format wählen und konsistent bleiben
 
 ```text
 Format: 30 Min. Gast-Interview + 5 Min. News; gleicher Cold Open; Gewohnheit entsteht.
@@ -53,13 +52,13 @@ Format: 30 Min. Gast-Interview + 5 Min. News; gleicher Cold Open; Gewohnheit ent
 
 **Weiche** Oberflächen gegen Hall; **ein Mikro pro Person**; **Kopfhörer** für Remote-Gäste gegen Durchschlag.
 
-### Bad
+### Gut: raum und mikro-hygiene
 
 ```text
 Zwei Personen an einem Laptop-Mikro.
 ```
 
-### Good
+### Gut: raum und mikro-hygiene
 
 ```text
 Getrennte Spuren; USB- oder Lav-Mikros; 10 s Raumton; vorsichtige Rauschreduktion in Post—nicht auf verrauschter Quelle.
@@ -71,13 +70,13 @@ Getrennte Spuren; USB- oder Lav-Mikros; 10 s Raumton; vorsichtige Rauschreduktio
 
 **Plattform-Lautheit** anstreben (oft ca. -16 LUFS integriert für Stereo-Podcasts—**Host-Anleitung** prüfen); **Musik** **lizenziert** und unter **Voice** geduckt.
 
-### Bad
+### Gut: pegel, lautheit, musik
 
 ```text
 Wilde Lautstärkesprünge; kommerzieller Bett-Track von Spotify-Rip.
 ```
 
-### Good
+### Gut: pegel, lautheit, musik
 
 ```text
 Normalisierung nach Host-Vorgabe; Musik aus lizenzierter Bibliothek mit ID in Shownotes; Voice 6–10 dB über Bett.
@@ -89,13 +88,13 @@ Normalisierung nach Host-Vorgabe; Musik aus lizenzierter Bibliothek mit ID in Sh
 
 **Shownotes** mit **Links**, **Gast-Bio** und **Timestamps**; **Transkript** oder **Caption-Datei** für Barrierefreiheit und Suche.
 
-### Bad
+### Gut: shownotes, kapitel, transkript
 
 ```text
 Leeres Beschreibungsfeld; kein Überspringen von Abschnitten.
 ```
 
-### Good
+### Gut: shownotes, kapitel, transkript
 
 ```text
 Kapitel bei 00:00, 08:30, 22:10; Transkript verlinkt; Ressourcen als URLs.
@@ -107,13 +106,13 @@ Kapitel bei 00:00, 08:30, 22:10; Transkript verlinkt; Ressourcen als URLs.
 
 **Vorgespräch** mit Themen; **keine** Überraschungs-Fragen zu sensiblen Themen; **Rückzug** riskanter Details vor Publish.
 
-### Bad
+### Gut: redaktion und umgang mit gästen
 
 ```text
 Gäste ohne Absprache mit Off-Topic sensiblen Fragen konfrontieren.
 ```
 
-### Good
+### Gut: redaktion und umgang mit gästen
 
 ```text
 Brief listet Themen; Gast stimmt Zitate bei sensiblen Passagen zu; Schnitt schriftlich abgestimmt.
@@ -125,13 +124,13 @@ Brief listet Themen; Gast stimmt Zitate bei sensiblen Passagen zu; Schnitt schri
 
 **RSS** über zuverlässigen Host; **Analytics** (Downloads, Abbruch) ansehen; **Erscheinungstag**, den ihr **halten** könnt.
 
-### Bad
+### Gut: publishing und kadenz
 
 ```text
 Unregelmäßige Drops; RSS falsch—episodes fehlen in Apps.
 ```
 
-### Good
+### Gut: publishing und kadenz
 
 ```text
 Host: Transistor/Anchor/…; Kalender: jeden zweiten Dienstag; 2 Episoden Puffer vor Launch.
@@ -148,8 +147,7 @@ Host: Transistor/Anchor/…; Kalender: jeden zweiten Dienstag; 2 Episoden Puffer
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Podcast = **Klarheit + Rhythmus + Sorgfalt**—**Klang** ist das Produkt.
 
 ## Weiterführend

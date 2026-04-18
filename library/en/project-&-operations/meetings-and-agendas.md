@@ -3,7 +3,6 @@
 **Scope:** **Efficient** meetings—purpose, agenda, outcomes, async alternatives. Not facilitation certification. Pair with [`decision-logs-and-adrs.md`](decision-logs-and-adrs.md), [`status-updates-and-reporting.md`](status-updates-and-reporting.md), and [`workshop-facilitation.md`](../language-&-communication/workshop-facilitation.md).
 
 ## Excerpt
-
 - **Purpose** in one line—**decision**, **alignment**, or **review**?
 - **Agenda** with **timeboxes** and **pre-reads**.
 - **Outputs**: actions with **owners** and **due dates**.
@@ -35,13 +34,13 @@ Spend synchronous time on **what needs human judgement**—everything else **wri
 
 State whether you need a **decision**, **alignment**, or **review**—mixing all three in one slot guarantees drift.
 
-### Bad
+### Bad: name the meeting type
 
 ```text
 Weekly sync — TBD
 ```
 
-### Good
+### Good: name the meeting type
 
 ```text
 Decision meeting (30m): approve Q3 volunteer rota proposal.
@@ -54,13 +53,13 @@ Pre-read: /docs/rota-proposal.md — comment by Tue 10:00.
 
 Every topic gets a **minute budget** and a **link** to material people must read before the room.
 
-### Bad
+### Bad: agenda with timeboxes and pre-reads
 
 ```text
 Agenda: updates, blockers, other business
 ```
 
-### Good
+### Good: agenda with timeboxes and pre-reads
 
 ```text
 0–5m  Outcomes + decisions we need today
@@ -74,13 +73,13 @@ Agenda: updates, blockers, other business
 
 **Required** attendees are people who can **decide** or **block**; everyone else is **optional** or gets **notes**.
 
-### Bad
+### Bad: invite only who must be there
 
 ```text
 Invite: whole team + stakeholders “FYI”
 ```
 
-### Good
+### Good: invite only who must be there
 
 ```text
 Required: Alex (DRI), Sam (budget). Optional: design. Notes → #proj-volunteers
@@ -92,13 +91,13 @@ Required: Alex (DRI), Sam (budget). Optional: design. Notes → #proj-volunteers
 
 Close with **who does what by when** in one shared doc or ticket—no “we’ll follow up”.
 
-### Bad
+### Bad: end with written actions
 
 ```text
 “Let’s all think about it and sync later.”
 ```
 
-### Good
+### Good: end with written actions
 
 ```text
 Actions: (1) Alex — draft rota v2 — Fri EOD. (2) Sam — confirm insurance — Mon.
@@ -111,13 +110,13 @@ Logged in /meetings/2025-04-18.md
 
 Use **email, doc comments, or dashboards** for pure status; reserve live time for **ambiguity, conflict, or commitment**.
 
-### Bad
+### Bad: prefer async for status
 
 ```text
 60m standup: each person reads their board aloud.
 ```
 
-### Good
+### Good: prefer async for status
 
 ```text
 Status async in #proj-updates by Thu 17:00. 25m Friday: blockers + 2 decisions only.
@@ -129,13 +128,13 @@ Status async in #proj-updates by Thu 17:00. 25m Friday: blockers + 2 decisions o
 
 Pick **one** canonical place (wiki path, doc, or ticket)—same link every time.
 
-### Bad
+### Bad: single source for notes
 
 ```text
 Notes in chat + someone’s notebook + a few photos of a whiteboard.
 ```
 
-### Good
+### Good: single source for notes
 
 ```text
 Notes: /wiki/meetings/volunteer-rota — template copied from last week; link in calendar invite.

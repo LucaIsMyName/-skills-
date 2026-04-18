@@ -3,7 +3,6 @@
 **Scope:** **Designing** questionnaires for **surveys** (online or field)—sampling basics, question wording, bias. Not advanced biostatistics. Pair with [`reading-statistics-plainly.md`](reading-statistics-plainly.md), [`notes-and-synthesis.md`](notes-and-synthesis.md), and [`source-evaluation-and-fact-checking.md`](source-evaluation-and-fact-checking.md).
 
 ## Excerpt
-
 - Start from the **decision** the survey should inform—**questions follow**.
 - **Neutral** wording—avoid leading and double-barrelled questions.
 - **Response scales** consistent; **label** endpoints.
@@ -31,13 +30,13 @@ Collect **actionable**, **ethical** data—so results can be **interpreted** hon
 
 ## 1. Question quality
 
-### Bad
+### Bad: question quality
 
 ```text
 Don’t you agree our service is excellent?
 ```
 
-### Good
+### Good: question quality
 
 ```text
 How satisfied are you with our service?

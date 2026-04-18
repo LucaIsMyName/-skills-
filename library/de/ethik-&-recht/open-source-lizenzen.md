@@ -1,9 +1,8 @@
 # Open-Source-Lizenzen
 
-**Scope:** Gilt für **Nutzung, Beitrag, Veröffentlichung** von Open-Source-Code—Lizenz wählen, fremde respektieren, Attribution, Copyleft, Dual-Licensing, Contributor-Agreements. Kein Patent-/Markenrecht, kein Compliance-Programm. Kombiniere mit [`git-und-commits.md`](../coding/git-und-commits.md), [`ki-training-und-scraping.md`](ki-training-und-scraping.md), [`sprachmodelle-im-code-nutzen.md`](../coding/sprachmodelle-im-code-nutzen.md) und [`dsgvo-grundlagen.md`](dsgvo-grundlagen.md).
+**Geltungsbereich:** Gilt für **Nutzung, Beitrag, Veröffentlichung** von Open-Source-Code—Lizenz wählen, fremde respektieren, Attribution, Copyleft, Dual-Licensing, Contributor-Agreements. Kein Patent-/Markenrecht, kein Compliance-Programm. Kombiniere mit [`git-und-commits.md`](../coding/git-und-commits.md), [`ki-training-und-scraping.md`](ki-training-und-scraping.md), [`sprachmodelle-im-code-nutzen.md`](../coding/sprachmodelle-im-code-nutzen.md) und [`dsgvo-grundlagen.md`](dsgvo-grundlagen.md).
 
-## Excerpt
-
+## Exzerpt
 - **Jede Dependency hat eine Lizenz**—wissen, welche.
 - **Permissiv (MIT/BSD/Apache)** vs **Copyleft (GPL/AGPL/MPL)**—Pflichten verstehen.
 - **Attribution** fast immer nötig; `NOTICE`/`THIRD_PARTY_LICENSES` mitliefern.
@@ -109,12 +108,10 @@ Im Zweifel: Projektmentoren / Anwaltschaft.
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Open Source ist ein **Geschenk mit Regeln**. Inventar halten, Attribution respektieren, Standard-Lizenz beim eigenen Release, gemischte Herkunft (AI) so sorgfältig wie Sicherheit behandeln.
 
-## Further reading
-
+## Weiterführend
 - [choosealicense.com](https://choosealicense.com/)
 - [OSI — Approved licences](https://opensource.org/licenses)
 - [SFC — GPL compliance](https://sfconservancy.org/copyleft-compliance/)

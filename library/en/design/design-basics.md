@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **visual and UI/product design principles**; not copywriting for accessibility (use language-and-communication skills) or standalone marketing strategy.
 
-## Excerpt 
-
+## Excerpt
 - Use for **user-centered** layout, hierarchy, typography, color, and consistency across UI and services.
 - Good design here means **useful, understandable, durable**—not decoration-only.
 - Full file below: mindset, practical rules, examples, and checklists (longer reference).
@@ -29,7 +28,7 @@ Good design is:
 - **simple**
 - **intentional**
 
-👉 Design is not decoration. It is how something **works**.
+ Design is not decoration. It is how something **works**.
 
 ---
 
@@ -39,17 +38,17 @@ Good design is:
 
 Understand the **real need** before designing.
 
-### ❌ Bad
+### Bad: start with the problem
 
 Designing based on assumptions
 
-### ✅ Good
+### Good: start with the problem
 
 - identify the user
 - understand their goal
 - define the problem clearly
 
-👉 If the problem is wrong, the design will be wrong.
+ If the problem is wrong, the design will be wrong.
 
 ---
 
@@ -59,7 +58,7 @@ Designing based on assumptions
 
 Design must solve a real problem.
 
-👉 Remove anything that does not add value.
+ Remove anything that does not add value.
 
 ---
 
@@ -69,17 +68,17 @@ Design must solve a real problem.
 
 Reduce to the essential.
 
-### ❌ Bad
+### Bad: keep it simple
 
 Too many features, options, or visuals
 
-### ✅ Good
+### Good: keep it simple
 
 - fewer elements
 - clear structure
 - focused functionality
 
-👉 Simplicity requires effort.
+ Simplicity requires effort.
 
 ---
 
@@ -89,17 +88,17 @@ Too many features, options, or visuals
 
 The user should not have to think.
 
-### ❌ Bad
+### Bad: make it understandable
 
 Unclear navigation, hidden actions
 
-### ✅ Good
+### Good: make it understandable
 
 - obvious actions
 - clear labels
 - predictable behavior
 
-👉 Good design explains itself.
+ Good design explains itself.
 
 ---
 
@@ -109,13 +108,13 @@ Unclear navigation, hidden actions
 
 Use consistent patterns.
 
-👉 Same action = same result everywhere
+ Same action = same result everywhere
 
 - layouts
 - interactions
 - naming
 
-👉 Consistency builds trust.
+ Consistency builds trust.
 
 ---
 
@@ -125,17 +124,17 @@ Use consistent patterns.
 
 Visual design supports function.
 
-### ❌ Bad
+### Bad: prioritize clarity over style
 
 Design that looks good but confuses
 
-### ✅ Good
+### Good: prioritize clarity over style
 
 - readable typography
 - clear hierarchy
 - strong contrast
 
-👉 If it’s hard to use, it’s bad design.
+ If it’s hard to use, it’s bad design.
 
 ---
 
@@ -150,7 +149,7 @@ Consider real-world conditions:
 - different devices
 - accessibility
 
-👉 Design should work in imperfect situations.
+ Design should work in imperfect situations.
 
 ---
 
@@ -166,7 +165,7 @@ Every action should have a response.
 - success/error messages
 - state changes
 
-👉 Users need to know what is happening.
+ Users need to know what is happening.
 
 ---
 
@@ -176,17 +175,17 @@ Every action should have a response.
 
 Design should **reduce mistakes**.
 
-### ❌ Bad
+### Bad: prevent errors
 
 Easy to misuse interface
 
-### ✅ Good
+### Good: prevent errors
 
 - constraints
 - confirmations
 - clear affordances
 
-👉 Prevention is better than correction.
+ Prevention is better than correction.
 
 ---
 
@@ -196,16 +195,16 @@ Easy to misuse interface
 
 Do not mislead users.
 
-### ❌ Bad
+### Bad: be honest
 
 Dark patterns, fake urgency
 
-### ✅ Good
+### Good: be honest
 
 - transparent actions
 - clear consequences
 
-👉 Trust is part of good design.
+ Trust is part of good design.
 
 ---
 
@@ -219,7 +218,7 @@ Design must work for as many people as possible.
 - sufficient contrast
 - keyboard/navigation support
 
-👉 Accessibility is not optional.
+ Accessibility is not optional.
 
 ---
 
@@ -236,7 +235,7 @@ Guide attention.
 - contrast
 - positioning
 
-👉 Users should instantly see what matters.
+ Users should instantly see what matters.
 
 ---
 
@@ -250,7 +249,7 @@ Design is never finished.
 - observe behavior
 - refine continuously
 
-👉 Good design evolves.
+ Good design evolves.
 
 ---
 
@@ -260,29 +259,29 @@ Design is never finished.
 
 Every element must justify its existence.
 
-👉 If in doubt, remove it.
+ If in doubt, remove it.
 
 ---
 
 ## 15. Common Footguns
 
-### 🚨 Overdesign
+###  Overdesign
 
 → too complex, too many features
 
-### 🚨 Designing for yourself
+###  Designing for yourself
 
 → not for real users
 
-### 🚨 Prioritizing aesthetics over usability
+###  Prioritizing aesthetics over usability
 
 → looks good, works poorly
 
-### 🚨 Inconsistency
+###  Inconsistency
 
 → confusing experience
 
-### 🚨 Ignoring edge cases
+###  Ignoring edge cases
 
 → breaks in real use
 
@@ -319,7 +318,13 @@ Bad design feels:
 - noisy
 - frustrating
 
-👉 If users have to think too much, the design is not good.
+ If users have to think too much, the design is not good.
+
+---
+
+## Core idea
+
+This page gives practical guidance for design basics in repeatable, team-friendly steps.
 
 ---
 

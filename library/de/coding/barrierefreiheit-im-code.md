@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Web-UI-Code** (HTML, CSS, JS/TS, React)—die technische Seite der Barrierefreiheit. Ergänzt [`barrierefreiheit-kommunikation.md`](../sprache-&-kommunikation/barrierefreiheit-kommunikation.md) (Texte, Bildbeschreibungen, Untertitel) und [`gute-interfaces-designen.md`](../design/gute-interfaces-designen.md).
 
 ## Exzerpt
-
 - **Zuerst semantisches HTML.** Das Element wählen, das den Job schon erfüllt; ARIA nur, wenn kein natives Element passt.
 - **Tastaturzugang ist Pflicht.** Jedes interaktive Element ist mit `Tab` / `Shift+Tab` / `Enter` / `Leertaste` / Pfeiltasten (wo üblich) erreichbar, bedienbar und sichtbar fokussiert.
 - **Farbe ist nicht der einzige Hinweis.** Kontrast erfüllt WCAG AA; Zustandsänderungen nutzen auch Text, Icon oder Form.
@@ -41,13 +40,13 @@ Schnittstellen ausliefern, die **mit Tastatur, Screenreader, bei 200 % Zoom, bei
 - Überschriften in Reihenfolge: `<h1>` einmal pro Seite/Route, dann `<h2>`, `<h3>`—nicht überspringen nur wegen Schriftgröße.
 - Landmarks: `<header>`, `<nav>`, `<main>`, `<aside>`, `<footer>`.
 
-### Schlecht
+### Schlecht: mit html beginnen
 
 ```html
 <div class="btn" onclick="save()">Save</div>
 ```
 
-### Gut
+### Gut: mit html beginnen
 
 ```html
 <button type="button" onclick="save()">Save</button>
@@ -122,8 +121,7 @@ Schnittstellen ausliefern, die **mit Tastatur, Screenreader, bei 200 % Zoom, bei
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Eine barrierefreie UI ist kein separater Modus—sie ist der **einzige Modus**, von der ersten Komponente an geplant und gebaut. Wenn Tastatur- oder Screenreader-Nutzer:innen eine Aufgabe nicht erledigen können, ist das ein **Bug**, kein Feature-Request.
 
 ## Weiterführend

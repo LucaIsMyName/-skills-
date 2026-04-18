@@ -3,7 +3,6 @@
 **Scope:** **Audio shows**—format, recording, editing, publishing—at small-org scale. Pair with [`subtitles-and-captions.md`](subtitles-and-captions.md), [`file-naming-and-organising.md`](file-naming-and-organising.md), and [`tone-of-voice-and-brand-voice.md`](../language-&-communication/tone-of-voice-and-brand-voice.md).
 
 ## Excerpt
-
 - **Format** decision: interview, narrative, panel—**one** primary style.
 - **Room** matters—soft furnishings reduce echo; **test** levels.
 - **Host mic** + **guest mic**; **noise reduction** gently—avoid underwater sound.
@@ -35,13 +34,13 @@ Publish **listenable** audio that **respects** guests and **serves** listeners.
 
 Choose **interview**, **narrative**, or **panel** as the **primary** shape—listeners know what to expect each episode.
 
-### Bad
+### Bad: pick one format and stay consistent
 
 ```text
 Episode 1: solo rant; Episode 2: documentary; Episode 3: panel—no through-line.
 ```
 
-### Good
+### Good: pick one format and stay consistent
 
 ```text
 Format: 30m guest interview + 5m news; same cold open every time; audience builds habit.
@@ -53,13 +52,13 @@ Format: 30m guest interview + 5m news; same cold open every time; audience build
 
 **Soft** surfaces to tame echo; **one mic per person**; **headphones** for remote guests to prevent bleed.
 
-### Bad
+### Bad: room and mic hygiene
 
 ```text
 Two people on one laptop mic.
 ```
 
-### Good
+### Good: room and mic hygiene
 
 ```text
 Separate tracks; USB mics or lavs; record room tone 10s; gentle noise reduction in post—not on noisy source.
@@ -71,13 +70,13 @@ Separate tracks; USB mics or lavs; record room tone 10s; gentle noise reduction 
 
 Target **platform loudness** (often ~-16 LUFS integrated for stereo podcasts—**confirm** with host); **music** fully **licensed** and **ducked** under voice.
 
-### Bad
+### Bad: levels, loudness, and music
 
 ```text
 Wild volume swings; copyrighted bed music from Spotify rip.
 ```
 
-### Good
+### Good: levels, loudness, and music
 
 ```text
 Normalize to host spec; music from licensed library with ID in show notes; voice 6–10 dB above bed.
@@ -89,13 +88,13 @@ Normalize to host spec; music from licensed library with ID in show notes; voice
 
 **Show notes** with **links**, **guest bio**, and **timestamps**; add **transcript** or **captions** file for accessibility and search.
 
-### Bad
+### Bad: show notes, chapters, and transcripts
 
 ```text
 Empty description field; no way to skip sections.
 ```
 
-### Good
+### Good: show notes, chapters, and transcripts
 
 ```text
 Chapters at 00:00, 08:30, 22:10; transcript linked; key resources URL-listed.
@@ -107,13 +106,13 @@ Chapters at 00:00, 08:30, 22:10; transcript linked; key resources URL-listed.
 
 **Pre-interview** share topics; **no** surprise sensitive questions; **right to retract** dangerous personal detail before publish.
 
-### Bad
+### Bad: editorial policy and guest care
 
 ```text
 Ambush guests with off-brief topics without consent.
 ```
 
-### Good
+### Good: editorial policy and guest care
 
 ```text
 Brief lists themes; guest approves quotes on sensitive segments; cut agreed in writing.
@@ -125,13 +124,13 @@ Brief lists themes; guest approves quotes on sensitive segments; cut agreed in w
 
 **RSS** via reliable host; **analytics** (downloads, drop-off) reviewed; **release day** you can **sustain** monthly or weekly.
 
-### Bad
+### Bad: publishing stack and cadence
 
 ```text
 Inconsistent drops—audience drifts; RSS misconfigured—episodes missing in apps.
 ```
 
-### Good
+### Good: publishing stack and cadence
 
 ```text
 Host: Transistor/Anchor/etc.; calendar: every other Tuesday; backlog of 2 episodes before launch.

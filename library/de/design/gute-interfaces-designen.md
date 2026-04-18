@@ -3,7 +3,6 @@
 **Geltungsbereich:** **UI- und Interaktionsdesign** (Bedienoberflächen, Abläufe); kein Backend-Design und keine rein textliche Barrierefreiheit ohne UI-Bezug.
 
 ## Exzerpt
-
 - Fokus: Oberflächen **verständlich und bedienbar** machen; klare Struktur, Rückmeldung, Konsistenz.
 - Gutes Design hier = nutzbar, nicht nur „hübsch“; Details in den folgenden Abschnitten.
 - Vollständige Anleitung und Fallstricke unten in der Datei.
@@ -40,7 +39,7 @@ Nutzer*innen sollen sofort verstehen, was sie vor sich sehen.
 * klare Beschriftungen und Sprache
 * wichtige Elemente hervorheben
 
-👉 Wenn zu viel nachgedacht werden muss, ist das Design nicht klar genug.
+ Wenn zu viel nachgedacht werden muss, ist das Design nicht klar genug.
 
 ---
 
@@ -52,7 +51,7 @@ Behalte nur, was nötig ist.
 * sich auf das Hauptziel konzentrieren
 * nicht zu viele Optionen auf einmal
 
-👉 Einfach heißt nicht langweilig — sondern fokussiert.
+ Einfach heißt nicht langweilig — sondern fokussiert.
 
 ---
 
@@ -64,7 +63,7 @@ Dinge sollten sich in der Oberfläche gleich verhalten.
 * gleiche Buttons = gleiche Aktionen
 * gleiche Layoutmuster
 
-👉 Konsistenz schafft Vertrauen und verkürzt die Einarbeitung.
+ Konsistenz schafft Vertrauen und verkürzt die Einarbeitung.
 
 ---
 
@@ -76,7 +75,7 @@ Das System sollte auf Aktionen reagieren.
 * Laden → Fortschritt oder Spinner
 * Fehler → verständliche Meldung
 
-👉 Nutzer*innen sollten sich nie verloren oder unsicher fühlen.
+ Nutzer*innen sollten sich nie verloren oder unsicher fühlen.
 
 ---
 
@@ -88,7 +87,7 @@ Design soll für möglichst viele Menschen funktionieren.
 * klare Schriftarten und Größen
 * Tastatur- und Screenreader-Unterstützung
 
-👉 Gutes Design schließt niemanden aus.
+ Gutes Design schließt niemanden aus.
 
 ---
 
@@ -106,7 +105,7 @@ Lenke die Aufmerksamkeit.
 * auffällig = wichtig
 * oben = oft wichtig
 
-👉 Es sollte klar sein, wo man zuerst hinschaut.
+ Es sollte klar sein, wo man zuerst hinschaut.
 
 ---
 
@@ -118,7 +117,7 @@ Gib Elementen Luft.
 * Zusammengehörendes gruppieren
 * sauber ausrichten
 
-👉 Überladene Oberflächen wirken stressig.
+ Überladene Oberflächen wirken stressig.
 
 ---
 
@@ -130,7 +129,7 @@ Text soll leicht lesbar sein.
 * möglichst wenige Stile (1–2 reichen)
 * Größe und Strichstärke für Struktur nutzen
 
-👉 Gute Typografie verbessert das Verständnis sofort.
+ Gute Typografie verbessert das Verständnis sofort.
 
 ---
 
@@ -142,7 +141,7 @@ Farbe bewusst einsetzen.
 * Zustände zeigen (Fehler = z. B. Rot, Erfolg = z. B. Grün)
 * eine konsistente Palette einhalten
 
-👉 Zu viele Farben erzeugen Unruhe.
+ Zu viele Farben erzeugen Unruhe.
 
 ---
 
@@ -154,7 +153,7 @@ Nutzer*innen sollen erkennen, was klick- oder bedienbar ist.
 * Links sehen aus wie Links
 * Eingabefelder sehen bearbeitbar aus
 
-👉 Wenn gezögert wird, ist die Oberfläche unklar.
+ Wenn gezögert wird, ist die Oberfläche unklar.
 
 ---
 
@@ -201,7 +200,7 @@ Wenn es schlecht ist:
 
 * verwirren, frustrieren und verlassen sie die Oberfläche
 
-👉 Es geht nicht darum zu beeindrucken, sondern **Nutzer*innen mühelos zum Ziel zu bringen**.
+ Es geht nicht darum zu beeindrucken, sondern **Nutzer*innen mühelos zum Ziel zu bringen**.
 
 ---
 
@@ -216,3 +215,17 @@ Wenn es schlecht ist:
 
 - [How to Meet WCAG (quick reference)](https://www.w3.org/WAI/WCAG22/quickref/)
 - [Understanding Success Criterion 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)
+
+---
+
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu gutes interfaces designen in klaren, wiederverwendbaren Schritten.
+
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
+
+---
+
+Englische Version: [`designing-good-interfaces.md`](../../en/design/designing-good-interfaces.md)

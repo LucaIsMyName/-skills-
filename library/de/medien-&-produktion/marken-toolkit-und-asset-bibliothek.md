@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Zentral** Logos, Farben, Vorlagen, **freigegebene** Bilder—Governance für kleine Teams. Ergänzt [`design-tokens-und-theming.md`](../design/design-tokens-und-theming.md), [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md) und [`dateinamen-und-organisation.md`](dateinamen-und-organisation.md).
 
 ## Exzerpt
-
 - **Single source of truth** für Logo-Varianten und **Schutzraum**.
 - **Farben**: Screen **Hex**; Druck **PMS/CMYK**.
 - **Vorlagen** **versionieren**—**Changelog**.
@@ -35,13 +34,13 @@
 
 **Logo-Paket**, **Farbtokens**, **max. 2–3 Schriften**, **Folienmaster**, **Social-Vorlagen**—alles andere ist optionaler Ballast.
 
-### Bad
+### Gut: minimum viable toolkit
 
 ```text
 Logos verstreut in Slack und E-Mail.
 ```
 
-### Good
+### Gut: minimum viable toolkit
 
 ```text
 Laufwerk `/brand` mit README; semantische Versionen; Owner; Unterordner: logo, colour, type, templates, photography.
@@ -53,13 +52,13 @@ Laufwerk `/brand` mit README; semantische Versionen; Owner; Unterordner: logo, c
 
 **SVG** für Screen und **druckfertige** PDF/PNG wo nötig; **minimalen** Schutzraum und **Don’ts** pro Variante dokumentieren.
 
-### Bad
+### Gut: logo-varianten und schutzraum
 
 ```text
 Ein Raster-Logo auf Plakat — Pixelbrei.
 ```
 
-### Good
+### Gut: logo-varianten und schutzraum
 
 ```text
 logo_full_colour.svg, logo_mono.svg, logo_white_on_dark.png; README: 0,25× Kap-Höhe Schutzraum; keine Effekte auf Wortmarke.
@@ -71,13 +70,13 @@ logo_full_colour.svg, logo_mono.svg, logo_white_on_dark.png; README: 0,25× Kap-
 
 **Hex/RGB** für UI und **PMS/CMYK** für Druck in **derselben** Swatch-Datei—Teams raten nicht mehr.
 
-### Bad
+### Gut: farben für screen und druck
 
 ```text
 „Unser Blau nutzen“ — fünf verschiedene Blautöne draußen.
 ```
 
-### Good
+### Gut: farben für screen und druck
 
 ```text
 tokens.json: primary #1a4d8f; Druck: PMS 294 C; Schwarz für Flächen: rich black vs reines Schwarz dokumentiert.
@@ -89,13 +88,13 @@ tokens.json: primary #1a4d8f; Druck: PMS 294 C; Schwarz für Flächen: rich blac
 
 Vorlagen in **datierten oder Semver**-Ordnern; **Changelog** bei Farb- oder Layout-Regeln—alte Kampagnen bleiben reproduzierbar.
 
-### Bad
+### Gut: versionierte vorlagen mit changelog
 
 ```text
 slides_v2_final.pptx still ersetzt; Events von letztem Jahr sehen falsch aus.
 ```
 
-### Good
+### Gut: versionierte vorlagen mit changelog
 
 ```text
 /templates/slides/2025-04-01/README.md — v1.2: neues Deckblatt; v1.1 in /archive.
@@ -107,13 +106,13 @@ slides_v2_final.pptx still ersetzt; Events von letztem Jahr sehen falsch aus.
 
 Jedes freigegebene Bild: **Lizenz**, **Quelle**, **Ablauf**, **Nutzung** (z. B. nur Web)—kein „hübsches Bild von Google“.
 
-### Bad
+### Gut: bildrechte und metadaten
 
 ```text
 Stock-Download im Ordner ohne Attribution — rechtliches Risiko.
 ```
 
-### Good
+### Gut: bildrechte und metadaten
 
 ```text
 hero_2025.jpg: Rechte: Shutterstock ID 123; Lizenz bis 2026; Credit-Zeile im Footer; intern OK.
@@ -125,13 +124,13 @@ hero_2025.jpg: Rechte: Shutterstock ID 123; Lizenz bis 2026; Credit-Zeile im Foo
 
 **Wer** Assets **hinzufügen** darf und **wer** Marken-Ausnahmen **freigibt**—**Lesen** breit, **Schreiben** eng.
 
-### Bad
+### Gut: zugang und freigaben
 
 ```text
 Alle dürfen nach `/brand` — drei widersprüchliche Logos in einer Woche.
 ```
 
-### Good
+### Gut: zugang und freigaben
 
 ```text
 Änderungen: Anfrage in #brand-requests; Comms-Lead genehmigt; Quartals-Review von `/brand`.
@@ -148,8 +147,7 @@ Alle dürfen nach `/brand` — drei widersprüchliche Logos in einer Woche.
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Marke ist **Ops**: **Dateien**, **Rechte**, **Versionen**, **Owner**.
 
 ## Weiterführend

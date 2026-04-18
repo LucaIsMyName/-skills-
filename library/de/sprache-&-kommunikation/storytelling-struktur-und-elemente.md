@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Vorbereitung vor dem Entwurf, Grundprinzip, fünf Elemente, Rolle der Erzählperspektive und vom Thema zur Story**—für gemeinnützige und Kampagnenkontexte. Nicht Medien-Pitching. Kombiniere mit [`storytelling-handwerk-sprache-wirkung.md`](storytelling-handwerk-sprache-wirkung.md) und [`storytelling.md`](storytelling.md).
 
 ## Exzerpt
-
 - **Vorbereiten** mit konkreten/meta-Fragen—keine erfundenen Szenen oder Zitate.
 - **Grundprinzip**: Geschichten zeigen **Wandel**; Ursache, Wirkung, Entwicklung benennen.
 - **Fünf Elemente** und **Erzähler:innen** prägen die Wirkung.
@@ -52,16 +51,16 @@ Das Ziel ist es, Geschichten zu erzählen, die:
 - Zusammenhänge **verständlich machen**
 - Entwicklungen **erlebbar zeigen**
 
-👉 Menschen folgen **Gefühlen, nicht Fakten**
+ Menschen folgen **Gefühlen, nicht Fakten**
 
 ---
 
-### ✅ Gut
+### Gut: beispiel
 
 - „Der König stirbt – und kurz darauf die Königin aus Kummer.“
   → Zusammenhang + Emotion
 
-### ❌ Schlecht
+### Schlecht: beispiel
 
 - „Der König stirbt. Dann stirbt die Königin.“
   → nur Fakten, keine Geschichte
@@ -79,12 +78,12 @@ Das Ziel ist es, Geschichten zu erzählen, die:
 
 ---
 
-### ✅ Gut
+### Gut: grundprinzip
 
 - „Nach der Kündigung beginnt sie, sich neu zu orientieren – und findet einen anderen Weg.“
   → Entwicklung + Ursache
 
-### ❌ Schlecht
+### Schlecht: grundprinzip
 
 - „Sie verliert ihren Job und arbeitet später wieder.“
   → kein Zusammenhang, keine Tiefe
@@ -106,12 +105,12 @@ Das Ziel ist es, Geschichten zu erzählen, die:
 
 ---
 
-### ✅ Gut
+### Gut: die 5 zentralen elemente einer story
 
 - „Er will unabhängig leben, hat aber Angst, allein Entscheidungen zu treffen.“
   → Ziel + Schwäche
 
-### ❌ Schlecht
+### Schlecht: die 5 zentralen elemente einer story
 
 - „Er ist erfolgreich und meistert alle Herausforderungen problemlos.“
   → keine Identifikation
@@ -127,12 +126,12 @@ Das Ziel ist es, Geschichten zu erzählen, die:
 
 ---
 
-### ✅ Gut
+### Gut: die 5 zentralen elemente einer story
 
 - „Die Neonröhre flackert, draußen fährt die letzte Straßenbahn vorbei.“
   → Atmosphäre
 
-### ❌ Schlecht
+### Schlecht: die 5 zentralen elemente einer story
 
 - „Er ist an einem Ort.“
   → keine Wirkung
@@ -151,12 +150,12 @@ Das Ziel ist es, Geschichten zu erzählen, die:
 
 ---
 
-### ✅ Gut
+### Gut: die 5 zentralen elemente einer story
 
 - „Er scheitert zuerst mehrfach, bevor er eine Lösung findet.“
   → Konflikt + Entwicklung
 
-### ❌ Schlecht
+### Schlecht: die 5 zentralen elemente einer story
 
 - „Er hat Herausforderungen im Leben.“
   → keine Handlung
@@ -172,12 +171,12 @@ Das Ziel ist es, Geschichten zu erzählen, die:
 
 ---
 
-### ✅ Gut
+### Gut: die 5 zentralen elemente einer story
 
 - „Der alte Schlüssel hängt immer noch an ihrem Schlüsselbund.“
   → symbolisch, konkret
 
-### ❌ Schlecht
+### Schlecht: die 5 zentralen elemente einer story
 
 - kein konkretes Detail
   → Geschichte bleibt abstrakt
@@ -191,11 +190,11 @@ Das Ziel ist es, Geschichten zu erzählen, die:
 
 ---
 
-### ✅ Gut
+### Gut: die 5 zentralen elemente einer story
 
 - Fakten eingebettet in Handlung („Seit drei Jahren wartet er auf einen Platz.“)
 
-### ❌ Schlecht
+### Schlecht: die 5 zentralen elemente einer story
 
 - „Studien zeigen, dass 35 % betroffen sind.“
   → isoliert, ohne Bezug zur Geschichte
@@ -230,17 +229,23 @@ Neben Held:in und Handlung gibt es die **Erzählerin** (die erzählende Instanz)
 
 ---
 
-### ✅ Gut
+### Gut: vom thema zur story
 
 - Mindmap mit verschiedenen möglichen Protagonisten und Situationen
 
-### ❌ Schlecht
+### Schlecht: vom thema zur story
 
 - sofortige Festlegung auf eine Idee ohne Exploration
 
 ---
 
+## Kerngedanke
 
+Diese Seite bietet praxisnahe Orientierung zu storytelling: struktur und elemente in klaren, wiederverwendbaren Schritten.
+
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
 
 ---
 

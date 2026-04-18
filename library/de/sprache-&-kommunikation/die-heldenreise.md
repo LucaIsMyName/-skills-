@@ -3,7 +3,6 @@
 **Geltungsbereich:** Klassisches **12-Stufen-Erzählmuster** (Campbell/Vogler) für Struktur von Geschichten und Reden; **kein** moralisches Urteil über „Helden“ in der Realität—bei Reportagen [`stories-schreiben.md`](stories-schreiben.md) und [`respektvolle-sprache.md`](respektvolle-sprache.md) beachten.
 
 ## Exzerpt
-
 - **12 Stationen** von der gewohnten Welt bis zur Rückkehr mit dem „Elixier“.
 - Als **Planungsgerüst** nutzen—**nicht** reale Menschen auf Klischees reduzieren.
 - **Nachfragen** bei echten Schicksalen nach Fakten, Freigaben und akzeptabler Rahmung.
@@ -82,7 +81,7 @@ Er bringt das Gelernte zurück und stellt ein Gleichgewicht her.
 
 ## Kerngedanke
 
-👉 Eine gute Geschichte zeigt, wie ein Mensch durch Herausforderungen geht und sich dabei verändert.
+ Eine gute Geschichte zeigt, wie ein Mensch durch Herausforderungen geht und sich dabei verändert.
 
 ## Weiterführend
 
@@ -92,4 +91,4 @@ Er bringt das Gelernte zurück und stellt ein Gleichgewicht her.
 
 ---
 
-English version: [`heroes-journey.md`](../../en/language-&-communication/heroes-journey.md)
+Englische Version: [`heroes-journey.md`](../../en/language-&-communication/heroes-journey.md)

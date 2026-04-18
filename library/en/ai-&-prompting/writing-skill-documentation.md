@@ -3,7 +3,6 @@
 **Scope:** Applies to **this library and similar doc sets**—structure, headings, cross-links, examples, and style for documentation that should be easy to skim, cite, and keep consistent. Not general technical writing theory. Pair with [`prompting-basics.md`](prompting-basics.md), [`working-with-context-windows.md`](working-with-context-windows.md), [`markdown-and-mdx.md`](../coding/markdown-and-mdx.md), and the repository [`AGENTS.md`](../../../AGENTS.md).
 
 ## Excerpt
-
 - **Predictable shape** helps readers skim and helps search and summarisation: H1, Scope, Excerpt, Before, Purpose, numbered sections, Core idea, Further reading.
 - **Short, declarative** sentences. Short paragraphs. Lots of **Bad / Good** pairs.
 - **Cross-link** to sibling pages in Scope; again in sections when relevant.
@@ -56,7 +55,7 @@ This structure is stable on purpose: it makes chunking, retrieval, and summarisa
 - **H1**: human-readable ("Prompting basics", not `# prompting-basics.md`).
 - **Scope**: one sentence of what this page covers, one sentence of what it does **not**, and 2–4 sibling links.
 
-### Bad
+### Bad: titles, scopes, and filenames
 
 ```md
 # prompting-basics.md
@@ -64,7 +63,7 @@ This structure is stable on purpose: it makes chunking, retrieval, and summarisa
 This is about prompts.
 ```
 
-### Good
+### Good: titles, scopes, and filenames
 
 ```md
 # Prompting basics
@@ -108,7 +107,7 @@ Write this section so it still works when quoted alone (for summaries or inline 
 - In **Scope**: link 2–4 related pages.
 - Inside sections: link when the topic genuinely lives elsewhere ("see `evaluating-model-output.md`"), not as decoration.
 - Use **relative paths**; check they resolve.
-- Link the **EN↔DE** counterpart at the bottom.
+- Link the **ENDE** counterpart at the bottom.
 
 ## 8. Anti-patterns (what not to do)
 
@@ -128,7 +127,7 @@ Write this section so it still works when quoted alone (for summaries or inline 
 - [ ] At least one Bad / Good pair where useful.
 - [ ] Core idea paragraph.
 - [ ] 2–4 Further reading links.
-- [ ] EN↔DE counterpart link at the foot.
+- [ ] ENDE counterpart link at the foot.
 - [ ] No broken internal links; paths relative.
 - [ ] Tone: declarative, plain, kind.
 

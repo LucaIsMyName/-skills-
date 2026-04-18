@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **TypeScript in Anwendungscode** (React, Node, API-Handler, Bibliotheken); nicht Build-Tool-Konfiguration, nicht Typsystem-Forschung. Ergänzend zu [`coding-best-practices.md`](coding-best-practices.md) und [`react-best-practices.md`](react-best-practices.md) für React-Details.
 
 ## Exzerpt
-
 - **Strict Mode immer an.** `strict: true`, `noUncheckedIndexedAccess: true`, `exactOptionalPropertyTypes: true`.
 - **Typen, die Werte beschreiben**, nicht die Sprache bekämpfen. Narrowing, discriminated unions, Literal Types.
 - **`unknown`** an Grenzen (I/O, `JSON.parse`, Netzwerk), **`never`** für Exhaustiveness; **`any` nur letzter Ausweg**—mit Kommentar warum.
@@ -60,13 +59,13 @@ type Admin = User & { role: "admin" };
 
 * `as`-Casts sind ein **Versprechen an den Compiler**; **Laufzeit-Checks** bevorzugen, die auch narrowen.
 
-### Schlecht
+### Schlecht: narrowen, nicht casten
 
 ```ts
 const user = data as User;
 ```
 
-### Gut
+### Gut: narrowen, nicht casten
 
 ```ts
 if (isUser(data)) {
@@ -76,13 +75,13 @@ if (isUser(data)) {
 
 ## 4. Discriminated unions statt optionalem Chaos
 
-### Schlecht
+### Schlecht: discriminated unions statt optionalem chaos
 
 ```ts
 type Response = { ok?: boolean; data?: T; error?: string };
 ```
 
-### Gut
+### Gut: discriminated unions statt optionalem chaos
 
 ```ts
 type Response<T> =
@@ -151,8 +150,7 @@ type Result<T, E = Error> = { ok: true; value: T } | { ok: false; error: E };
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Typen sollen beschreiben, **was in deinem Programm wahr ist**. Wenn du gegen sie kämpfst, ist vermutlich das **Design** falsch, nicht der Typ.
 
 ## Weiterführend

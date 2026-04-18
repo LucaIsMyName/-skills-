@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Lernen** nach Meilenstein—gut/lernen/Experimente. Kein Schuldzuweisungs-Ritual. Ergänzt [`meetings-und-agenden.md`](meetings-und-agenden.md), [`entscheidungslog-und-adrs.md`](entscheidungslog-und-adrs.md) und [`priorisierung-grundlagen.md`](priorisierung-grundlagen.md).
 
 ## Exzerpt
-
 - **Psychologische Sicherheit**—Systeme verbessern, nicht Personen demütigen (im Rahmen von Schutz).
 - **Daten** aus der Arbeit einbeziehen.
 - **Wenige** Maßnahmen mit Ownern.
@@ -35,13 +34,13 @@ Erfahrung in **besseres Handeln** verwandeln—**sichtbar**.
 
 Fokus auf **Systeme und Abläufe**; Retro nicht für **öffentliche Demütigung** oder Bruch von **Vertraulichkeit** und Schutzregeln nutzen.
 
-### Bad
+### Gut: psychologische sicherheit und grenzen
 
 ```text
 „Warum war Alex so langsam?“ (öffentlicher Vorwurf)
 ```
 
-### Good
+### Gut: psychologische sicherheit und grenzen
 
 ```text
 „Unsere Review-Warteschlange war überladen—was würde die Wartezeit für alle senken?“
@@ -53,13 +52,13 @@ Fokus auf **Systeme und Abläufe**; Retro nicht für **öffentliche Demütigung*
 
 **Vorfälle**, **Durchlaufzeiten**, **Umfrageausschnitte** oder **Zitate** mitbringen—Debatten werden konkret.
 
-### Bad
+### Gut: auf daten stützen, nicht nur meinung
 
 ```text
 60 Minuten „Ich habe das Gefühl, Kommunikation war schlecht.“
 ```
 
-### Good
+### Gut: auf daten stützen, nicht nur meinung
 
 ```text
 Daten: 4 verpasste Übergaben im April (Ticket-IDs). Hypothese: kein einheitliches Übergabe-Dok. Experimente besprechen.
@@ -71,13 +70,13 @@ Daten: 4 verpasste Übergaben im April (Ticket-IDs). Hypothese: kein einheitlich
 
 Lieber **2–3 Experimente** mit **Ownern und Terminen** als lange Liste ohne Tracking.
 
-### Bad
+### Gut: wenige maßnahmen mit ownern
 
 ```text
 20 Klebezettel; „irgendwer sollte die Doku fixen.“
 ```
 
-### Good
+### Gut: wenige maßnahmen mit ownern
 
 ```text
 Maßnahme 1: Alex—Übergabe-Vorlage in /wiki bis Fr. Maßnahme 2: Sam—Test 15-Min-Sync 2 Sprints lang.
@@ -89,13 +88,13 @@ Maßnahme 1: Alex—Übergabe-Vorlage in /wiki bis Fr. Maßnahme 2: Sam—Test 1
 
 **Wechselnde Personen** leiten die Retro—weniger „Facilitator vs Team“, mehr Kompetenz im Team.
 
-### Bad
+### Gut: facilitation rotieren
 
 ```text
 Gleiche Führungskraft jedes Mal; Team bleibt passiv.
 ```
 
-### Good
+### Gut: facilitation rotieren
 
 ```text
 Rotationsplan im Kalender; kurzes Skript in /retro/README.md
@@ -107,13 +106,13 @@ Rotationsplan im Kalender; kurzes Skript in /retro/README.md
 
 Jede Retro startet mit **Status der letzten Maßnahmen**—erledigt, in Arbeit, verworfen (mit Grund).
 
-### Bad
+### Gut: vorherige maßnahmen zu beginn prüfen
 
 ```text
 Jedes Mal bei null; letzte Zusagen vergessen.
 ```
 
-### Good
+### Gut: vorherige maßnahmen zu beginn prüfen
 
 ```text
 Erste 10 Min.: Stand der 3 Maßnahmen von März—2 erledigt, 1 blockiert—anpassen vor neuen Themen.
@@ -125,13 +124,13 @@ Erste 10 Min.: Stand der 3 Maßnahmen von März—2 erledigt, 1 blockiert—anpa
 
 **Klare Struktur** (z. B. was half / schadete / Experimente) und **pünktliches Ende**—Energie zählt.
 
-### Bad
+### Gut: zeitbox und einfaches format
 
 ```text
 60 Minuten Dampf ablassen, keine Maßnahmen.
 ```
 
-### Good
+### Gut: zeitbox und einfaches format
 
 ```text
 30 Min. Retro → 2 Experimente wählen → Owner → Check-in in 2 Wochen im Kalender
@@ -148,8 +147,7 @@ Erste 10 Min.: Stand der 3 Maßnahmen von März—2 erledigt, 1 blockiert—anpa
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Retros **zahlen Miete** mit **verändertem Verhalten**.
 
 ## Weiterführend

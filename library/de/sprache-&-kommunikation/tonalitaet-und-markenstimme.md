@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Einheitliche** Organisationsstimme über Kanäle—Prinzipien, **Do/Don’t**, inklusive Sprache. Kein Full Rebrand. Ergänzt [`respektvolle-sprache.md`](respektvolle-sprache.md), [`web-inhalte-und-findbarkeit.md`](web-inhalte-und-findbarkeit.md), [`storytelling.md`](storytelling.md) und [`content-design-und-microcopy.md`](../design/content-design-und-microcopy.md).
 
 ## Exzerpt
-
 - **Stimme** = Persönlichkeit; **Tonalität** wechselt mit Kontext (Krise vs. Feier).
 - **Prinzipien** statt Adjektive: „klar, warm, präzise“ mit **Beispielen**.
 - **Inklusiv** und **verständlich**—Idiome mit Vorsicht.
@@ -46,8 +45,7 @@
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Markenstimme ist **Verhalten in Sprache**: **stabile** Prinzipien, **flexible** Tonalität, **Belege** statt Puffer.
 
 ## Weiterführend

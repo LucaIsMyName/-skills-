@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Layout, Labels, Validierung und Zustände** von Formularen in digitalen Produkten; keine Backend-Logik und kein juristischer Einwilligungstext (Comms/Recht).
 
 ## Exzerpt
-
 - Nutzen bei **Dateneingabe**: Einzelfelder, mehrstufige Flows, Assistenten.
 - Wenn möglich **eine primäre Aktion** pro Bildschirm; **klare Fehler** und Wiederherstellung.
 - **Nachfragen** nach Feldern, Pflichtregeln und Quelle der Fehlertexte (Produkt vs. Legal).
@@ -32,13 +31,13 @@ Dieses Dokument **reduziert Fehler und Abbrüche** in Formularen durch klare Str
 
 ### 1. Sichtbare Labels
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 Nur Platzhalter „E-Mail“; verschwindet beim Fokus, kein Label.
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 Dauerhaftes Label über oder neben dem Feld; Platzhalter nur für Beispielformat optional.
@@ -56,13 +55,13 @@ Dauerhaftes Label über oder neben dem Feld; Platzhalter nur für Beispielformat
 
 **Feldnaher** Fehler; bei vielen Fehlern **Zusammenfassung** oben mit Sprung zu den Feldern.
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 Absenden scheitert nur mit Toast: „Etwas ist schiefgelaufen.“
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 „Datum im Format TT.MM.JJJJ“ unter dem Feld; Fokus auf erstes Fehlerfeld.
@@ -94,7 +93,7 @@ Wenn Absenden bis zur Vollständigkeit deaktiviert ist: **anzeigen, was fehlt**,
 
 ## Abschließender Gedanke
 
-👉 Formulare sind **Vertrauensmoment**. Verwirrung dort kostet Vertrauen.
+ Formulare sind **Vertrauensmoment**. Verwirrung dort kostet Vertrauen.
 
 ## Weiterführende Links
 
@@ -102,3 +101,16 @@ Wenn Absenden bis zur Vollständigkeit deaktiviert ist: **anzeigen, was fehlt**,
 - [W3C WAI — Understanding 3.3.2 Beschriftungen oder Anweisungen](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html) — was „klar beschriftet“ für Hilfstechnologien heißt
 - [W3C WAI — Formulare-Tutorial](https://www.w3.org/WAI/tutorials/forms/) — Zuordnung, Validierung und mehrstufige Abläufe
 
+---
+
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu formulare und eingaben (ux) in klaren, wiederverwendbaren Schritten.
+
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
+
+---
+
+Englische Version: [`forms-and-input-ux.md`](../../en/design/forms-and-input-ux.md)

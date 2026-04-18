@@ -3,7 +3,6 @@
 **Scope:** Applies to **lists, forms, handlers, async flows, conditional rendering, and file layout** in React apps. Not form-library deep dives. Pair with [`react-state-hooks-and-effects.md`](react-state-hooks-and-effects.md) and [`react-best-practices.md`](react-best-practices.md).
 
 ## Excerpt
-
 - **Stable keys**; **controlled** forms by default.
 - **Async** with clear loading/error UX; **never mutate** state in place.
 - **Project layout** that matches how teams own features.
@@ -32,19 +31,19 @@ Ship UI that **handles real inputs** and **scales with the codebase**.
 
 Keys must be **stable and unique**
 
-### ❌ Bad
+### Bad: keys in lists
 
 ```ts
 items.map((item, index) => <Item key={index} />)
 ```
 
-### ✅ Good
+### Good: keys in lists
 
 ```ts
 items.map(item => <Item key={item.id} />)
 ```
 
-👉 Wrong keys = weird bugs and broken UI updates. See [Rendering lists — keeping list items in order with `key`](https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-keys).
+ Wrong keys = weird bugs and broken UI updates. See [Rendering lists — keeping list items in order with `key`](https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-keys).
 
 ---
 
@@ -61,31 +60,31 @@ items.map(item => <Item key={item.id} />)
 * Performance matters (large forms)
 * You use form libraries
 
-👉 Controlled = predictable, but can be heavy.
+ Controlled = predictable, but can be heavy.
 
 ---
 
 ## 11. Event Handlers
 
-### ❌ Bad
+### Bad: event handlers
 
 ```ts
 <button onClick={handleClick()} />
 ```
 
-### ✅ Good
+### Good: event handlers
 
 ```ts
 <button onClick={handleClick} />
 ```
 
-👉 Passing a function ≠ calling a function.
+ Passing a function ≠ calling a function.
 
 ---
 
 ## 12. Async Logic
 
-### ❌ Bad
+### Bad: async logic
 
 ```ts
 useEffect(() => {
@@ -98,32 +97,32 @@ useEffect(() => {
 * Use a data library (recommended)
 * Handle loading + error states explicitly
 
-👉 Async without structure leads to bugs fast.
+ Async without structure leads to bugs fast.
 
 ---
 
 ## 13. Mutating State (Big No)
 
-### ❌ Bad
+### Bad: mutating state (big no)
 
 ```ts
 items.push(newItem);
 setItems(items);
 ```
 
-### ✅ Good
+### Good: mutating state (big no)
 
 ```ts
 setItems(prev => [...prev, newItem]);
 ```
 
-👉 Always treat state as immutable.
+ Always treat state as immutable.
 
 ---
 
 ## 14. Conditional Rendering
 
-### ❌ Messy
+###  Messy
 
 ```tsx
 return (
@@ -141,7 +140,7 @@ return (
 );
 ```
 
-### ✅ Clear
+###  Clear
 
 ```ts
 if (loading) return <Loading />;
@@ -150,7 +149,7 @@ if (!data) return <Empty />;
 return <Content data={data} />;
 ```
 
-👉 Prefer early returns over nested ternaries—easier to read and extend.
+ Prefer early returns over nested ternaries—easier to read and extend.
 
 ---
 
@@ -167,33 +166,33 @@ src/
   lib/
 ```
 
-👉 Group by feature, not by type (when scaling).
+ Group by feature, not by type (when scaling).
 
 ---
 
 ## 16. Common Footguns Summary
 
-### 🚨 Overusing `useEffect`
+###  Overusing `useEffect`
 
 → Use it only for side effects
 
-### 🚨 Storing derived state
+###  Storing derived state
 
 → Compute it instead
 
-### 🚨 Using index as key
+###  Using index as key
 
 → Use stable IDs
 
-### 🚨 Mutating state
+###  Mutating state
 
 → Always copy
 
-### 🚨 Over-optimizing with `useMemo`
+###  Over-optimizing with `useMemo`
 
 → Only when needed
 
-### 🚨 Huge components
+###  Huge components
 
 → Split early
 
@@ -229,12 +228,13 @@ Bad React code feels:
 * fragile
 * hard to debug
 
-👉 If something feels complicated, it probably is — simplify it.
+ If something feels complicated, it probably is — simplify it.
 
 ---
 
-German version: [`react-best-practices.md`](../../de/coding/react-best-practices.md)
+## Core idea
 
+This page gives practical guidance for react: components, async, and structure in repeatable, team-friendly steps.
 
 ---
 

@@ -3,7 +3,6 @@
 **Scope:** Applies to **React state, built-in hooks, memoisation, props drilling vs context, and hook extraction** in components. Not routing, not server components unless noted. Pair with [`react-components-async-and-structure.md`](react-components-async-and-structure.md) and [`react-best-practices.md`](react-best-practices.md).
 
 ## Excerpt
-
 - Keep **state minimal**; avoid accidental `useEffect` abuse.
 - **Derive** state; do not sync it in effects when a calculation suffices.
 - **Context** for cross-cutting concerns, not every piece of shared data.
@@ -33,7 +32,7 @@ React is about:
 * **Declarative UI** → describe *what* the UI should look like
 * **State-driven rendering** → UI updates automatically when state changes
 
-👉 You should NOT “control” the UI manually — React does that for you.
+ You should NOT “control” the UI manually — React does that for you.
 
 ---
 
@@ -43,19 +42,19 @@ React is about:
 
 Only store **what you cannot derive**.
 
-### ❌ Bad
+### Bad: state: keep it minimal
 
 ```ts
 const [fullName, setFullName] = useState("");
 ```
 
-### ✅ Good
+### Good: state: keep it minimal
 
 ```ts
 const fullName = `${firstName} ${lastName}`;
 ```
 
-👉 Derived state should NOT be stored.
+ Derived state should NOT be stored.
 
 ---
 
@@ -65,7 +64,7 @@ const fullName = `${firstName} ${lastName}`;
 
 If you’re not syncing with an external system → **you probably don’t need `useEffect`**
 
-### ❌ Common Misuse
+###  Common Misuse
 
 ```ts
 useEffect(() => {
@@ -73,7 +72,7 @@ useEffect(() => {
 }, [items]);
 ```
 
-### ✅ Better
+###  Better
 
 ```ts
 const filtered = items.filter(i => i.active);
@@ -88,7 +87,7 @@ Only for:
 * DOM APIs (focus, measurements)
 * Timers
 
-👉 Think: “Am I syncing with something outside React?”
+ Think: “Am I syncing with something outside React?”
 
 If not → don’t use it.
 
@@ -98,7 +97,7 @@ For a full walkthrough with examples, see the official React guide [You Might No
 
 ## 3. Avoid Derived State in Effects
 
-### ❌ Bad Pattern
+###  Bad Pattern
 
 ```ts
 useEffect(() => {
@@ -106,13 +105,13 @@ useEffect(() => {
 }, [data]);
 ```
 
-### ✅ Good
+### Good: avoid derived state in effects
 
 ```ts
 const value = useMemo(() => expensiveCalculation(data), [data]);
 ```
 
-👉 Effects are NOT for calculations.
+ Effects are NOT for calculations.
 
 ---
 
@@ -122,13 +121,13 @@ const value = useMemo(() => expensiveCalculation(data), [data]);
 
 Only optimize when necessary.
 
-### ❌ Bad
+### Bad: `usememo` and `usecallback`: don’t overuse
 
 ```ts
 const value = useMemo(() => compute(), []);
 ```
 
-### ✅ Good
+### Good: `usememo` and `usecallback`: don’t overuse
 
 ```ts
 const value = compute();
@@ -139,7 +138,7 @@ const value = compute();
 * Expensive computations
 * Prevent unnecessary re-renders in memoized components
 
-👉 Premature optimization = complexity.
+ Premature optimization = complexity.
 
 ---
 
@@ -151,19 +150,19 @@ const value = compute();
 * Avoid deeply nested objects
 * Prefer primitives when possible
 
-### ❌ Bad
+### Bad: props: keep them simple
 
 ```ts
 <Component config={{ theme, layout, user }} />
 ```
 
-### ✅ Good
+### Good: props: keep them simple
 
 ```ts
 <Component theme={theme} layout={layout} />
 ```
 
-👉 Simpler props = easier debugging.
+ Simpler props = easier debugging.
 
 ---
 
@@ -179,7 +178,7 @@ A component should do **one thing well**.
 * Multiple responsibilities
 * Hard to name
 
-👉 Split into smaller components or hooks.
+ Split into smaller components or hooks.
 
 ---
 
@@ -200,21 +199,21 @@ function useUser() {
 }
 ```
 
-👉 Hooks = reusable logic, not UI.
+ Hooks = reusable logic, not UI.
 
 ---
 
 ## 8. Avoid Prop Drilling (But Don’t Overuse Context)
 
-### ❌ Bad
+### Bad: avoid prop drilling (but don’t overuse context)
 
 Passing props through many layers
 
-### ⚠️ Overcorrection
+###  Overcorrection
 
 Using Context everywhere
 
-### ✅ Balanced Approach
+###  Balanced Approach
 
 * Local state first
 * Lift state up if needed
@@ -224,11 +223,17 @@ Using Context everywhere
   * auth
   * settings
 
-👉 Context is not a global state replacement.
+ Context is not a global state replacement.
 
 ---
 
+## Core idea
 
+This page gives practical guidance for react: state, hooks, and effects in repeatable, team-friendly steps.
+
+## Further reading
+
+- Continue with the related pages linked in the Scope section for deeper examples and adjacent workflows.
 
 ---
 

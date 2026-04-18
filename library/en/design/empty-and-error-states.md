@@ -3,7 +3,6 @@
 **Scope:** Applies to **designing non-happy-path screens**—empty lists, no results, loading, errors, permission denials, offline, limits reached. Not exception handling in code beyond UX implications. Pair with [`designing-good-interfaces.md`](designing-good-interfaces.md), [`content-design-and-microcopy.md`](content-design-and-microcopy.md), [`error-handling-and-logging.md`](../coding/error-handling-and-logging.md), and [`accessibility-in-code.md`](../coding/accessibility-in-code.md).
 
 ## Excerpt
-
 - **Empty is a feature**, not a missing page—tell users where they are and what to do next.
 - **Errors are content**: they need design, copy, and a path forward.
 - **Loading** should be **fast, predictable, and informative**—skeletons, not spinners, where possible.
@@ -60,13 +59,13 @@ Components:
 - Optional: **illustration or icon**—kind, not cartoonish.
 - Optional: **link to help**, kept small.
 
-### Bad
+### Bad: empty (first use) — onboard, don't blame
 
 ```
 No items.
 ```
 
-### Good
+### Good: empty (first use) — onboard, don't blame
 
 ```
 Your dashboard is empty. Add your first project to see progress here.
@@ -105,13 +104,13 @@ Every error state should include:
 2. **Why**, briefly, if known and useful.
 3. **What the user can do** now.
 
-### Bad
+### Bad: error states — three ingredients
 
 ```
 Error 500. Please try again.
 ```
 
-### Good
+### Good: error states — three ingredients
 
 ```
 We couldn't save your changes because the connection dropped.

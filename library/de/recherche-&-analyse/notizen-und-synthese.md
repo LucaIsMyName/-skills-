@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Notieren, Ordnen und Umwandeln von Recherchenotizen in Entwürfe**—Artikel, Briefings, Berichte, Stories. Ergänzt [`recherche-grundlagen.md`](recherche-grundlagen.md), [`menschen-interviewen.md`](menschen-interviewen.md), [`literatur-zusammenfassen.md`](literatur-zusammenfassen.md), [`quellenbewertung-und-faktencheck.md`](quellenbewertung-und-faktencheck.md).
 
 ## Exzerpt
-
 - **Notizen sind fürs Denken**, nicht nur für Gedächtnis. Ideen festhalten, nicht nur Zitate.
 - **Eine Idee, eine Notiz**—atomare Notizen schlagen lange Transkripte beim Entwerfen.
 - **Herkunft immer mit**: jede Notiz verlinkt zu Quelle mit Seite/Zeit.
@@ -128,4 +127,4 @@ Gute Recherche wird gutes Schreiben durch **atomare Notizen und ehrliche Synthes
 
 ---
 
-English version: [`notes-and-synthesis.md`](../../en/research-&-analysis/notes-and-synthesis.md)
+Englische Version: [`notes-and-synthesis.md`](../../en/research-&-analysis/notes-and-synthesis.md)

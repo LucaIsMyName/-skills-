@@ -3,7 +3,6 @@
 **Scope:** Applies to **simplicity, readability, naming, and control-flow shape** in application code. Not exhaustive error-handling policy, not test strategy. Pair with [`coding-errors-validation-and-state.md`](coding-errors-validation-and-state.md), [`coding-testing-and-habits.md`](coding-testing-and-habits.md), and [`coding-best-practices.md`](coding-best-practices.md).
 
 ## Excerpt
-
 - **Simple beats clever**; prefer loops readers recognise over one-liners.
 - **Names carry meaning**; if you need a comment to explain identifiers, rename.
 - **One job per function**; flatten nesting with early returns; extract duplication carefully.
@@ -35,7 +34,7 @@ Good software is:
 - **Readable over short**
 - **Correct over fast (initially)**
 
-👉 You are not just writing code for machines—you are writing code for humans.
+ You are not just writing code for machines—you are writing code for humans.
 
 ---
 
@@ -45,13 +44,13 @@ Good software is:
 
 Choose the simplest solution that works.
 
-### ❌ Bad
+### Bad: prefer simplicity
 
 ```ts
 const result = arr.reduce((acc, x) => (x % 2 ? [...acc, x * 2] : acc), []);
 ```
 
-### ✅ Good
+### Good: prefer simplicity
 
 ```ts
 const result = [];
@@ -62,7 +61,7 @@ for (const x of arr) {
 }
 ```
 
-👉 Clever code is harder to debug and maintain.
+ Clever code is harder to debug and maintain.
 
 ---
 
@@ -72,19 +71,19 @@ for (const x of arr) {
 
 Code should be understandable without extra explanation.
 
-### ❌ Bad
+### Bad: readability > everything
 
 ```ts
 const d = new Date();
 ```
 
-### ✅ Good
+### Good: readability > everything
 
 ```ts
 const currentDate = new Date();
 ```
 
-👉 If you need comments to explain basic code, rename things.
+ If you need comments to explain basic code, rename things.
 
 ---
 
@@ -94,7 +93,7 @@ const currentDate = new Date();
 
 A function/module should do **one thing well**.
 
-### ❌ Bad
+### Bad: single responsibility principle
 
 ```ts
 function processUser(user) {
@@ -104,7 +103,7 @@ function processUser(user) {
 }
 ```
 
-### ✅ Good
+### Good: single responsibility principle
 
 ```ts
 function processUser(user) {
@@ -114,7 +113,7 @@ function processUser(user) {
 }
 ```
 
-👉 Small units = easier testing and reuse.
+ Small units = easier testing and reuse.
 
 ---
 
@@ -124,7 +123,7 @@ function processUser(user) {
 
 Keep control flow flat.
 
-### ❌ Bad
+### Bad: avoid deep nesting
 
 ```ts
 if (user) {
@@ -136,7 +135,7 @@ if (user) {
 }
 ```
 
-### ✅ Good
+### Good: avoid deep nesting
 
 ```ts
 if (!user || !user.active || user.role !== "admin") return;
@@ -144,7 +143,7 @@ if (!user || !user.active || user.role !== "admin") return;
 // logic
 ```
 
-👉 Early returns reduce complexity.
+ Early returns reduce complexity.
 
 ---
 
@@ -154,14 +153,14 @@ if (!user || !user.active || user.role !== "admin") return;
 
 Avoid duplicating logic.
 
-### ❌ Bad
+### Bad: don’t repeat yourself (dry)
 
 ```ts
 if (user.age > 18) { ... }
 if (admin.age > 18) { ... }
 ```
 
-### ✅ Good
+### Good: don’t repeat yourself (dry)
 
 ```ts
 function isAdult(person) {
@@ -169,7 +168,7 @@ function isAdult(person) {
 }
 ```
 
-👉 Duplication = bugs waiting to happen.
+ Duplication = bugs waiting to happen.
 
 ---
 
@@ -179,19 +178,19 @@ function isAdult(person) {
 
 Don’t generalize too early.
 
-### ❌ Bad
+### Bad: but don’t over-abstract
 
 ```ts
 function handleEntity(entity, type, config, strategy) { ... }
 ```
 
-### ✅ Good
+### Good: but don’t over-abstract
 
 ```ts
 function handleUser(user) { ... }
 ```
 
-👉 Abstraction should come **after repetition**, not before.
+ Abstraction should come **after repetition**, not before.
 
 ---
 
@@ -201,21 +200,29 @@ function handleUser(user) { ... }
 
 Names should explain intent.
 
-### ❌ Bad
+### Bad: naming matters (a lot)
 
 ```ts
 function calc(x, y) { ... }
 ```
 
-### ✅ Good
+### Good: naming matters (a lot)
 
 ```ts
 function calculateTotalPrice(price, tax) { ... }
 ```
 
-👉 Good naming reduces need for comments.
+ Good naming reduces need for comments.
 
+---
 
+## Core idea
+
+This page gives practical guidance for coding style and structure in repeatable, team-friendly steps.
+
+## Further reading
+
+- Continue with the related pages linked in the Scope section for deeper examples and adjacent workflows.
 
 ---
 

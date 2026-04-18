@@ -3,7 +3,6 @@
 **Geltungsbereich:** Pressemitteilungen und Medientexte für **soziale Organisationen**; keine internen HR-Texte, Arbeitsverträge oder juristische Einzelfallberatung.
 
 ## Exzerpt
-
 - Nutzen für **klare, menschenzentrierte Pressemitteilungen** (W-Fragen, Wirkung, Respekt).
 - **Nachfragen** bei fehlenden Fakten, Zitaten, Kontakt, Embargo—**nichts erfinden**.
 - Erster Absatz = Wesentliches; Überschrift konkret; kein Marketing-Blabla.
@@ -37,7 +36,7 @@ Bevor ein Text entsteht, müssen alle **relevanten Fakten und Rahmenbedingungen*
 - Ton: sachlich und menschenzentriert, welche Nuancen
 - **Keine** identifizierenden Details zu Personen ohne klare Freigabe
 
-👉 Die Struktur in den folgenden Abschnitten lässt sich sinnvoll füllen, wenn der Prompt diese Punkte abdeckt.
+ Die Struktur in den folgenden Abschnitten lässt sich sinnvoll füllen, wenn der Prompt diese Punkte abdeckt.
 
 ---
 
@@ -49,7 +48,7 @@ Eine Pressemitteilung im sozialen Bereich ist:
 - **faktenbasiert**
 - **würdig und respektvoll**
 
-👉 Es geht nicht um Selbstdarstellung, sondern um **Themen, Menschen und Wirkung**.
+ Es geht nicht um Selbstdarstellung, sondern um **Themen, Menschen und Wirkung**.
 
 ---
 
@@ -64,19 +63,19 @@ Der erste Absatz beantwortet:
 - Wann und wo?
 - Warum ist das relevant?
 
-### ❌ Schlecht
+### Schlecht: mit dem wesentlichen beginnen
 
 ```text
 Unsere Organisation startet ein wichtiges neues Projekt.
 ```
 
-### ✅ Gut
+### Gut: mit dem wesentlichen beginnen
 
 ```text
 In Wien startet ab Mai ein neues Beratungsangebot für wohnungslose Menschen, um den Zugang zu medizinischer Versorgung zu verbessern.
 ```
 
-👉 Der gesellschaftliche Kontext muss sofort klar sein.
+ Der gesellschaftliche Kontext muss sofort klar sein.
 
 ---
 
@@ -91,19 +90,19 @@ Die Überschrift sollte:
 - keine Übertreibungen enthalten
 - **Headline und Text müssen zusammenpassen**—was die Überschrift ankündigt, liefert der Fließtext (kein Versprechen ohne inhaltliche Entsprechung)
 
-### ❌ Schlecht
+### Schlecht: klare, sachliche überschrift
 
 ```text
 Ein Meilenstein für eine bessere Zukunft
 ```
 
-### ✅ Gut
+### Gut: klare, sachliche überschrift
 
 ```text
 Neues Beratungsangebot verbessert Zugang zu Gesundheitsversorgung für wohnungslose Menschen
 ```
 
-👉 Leser müssen sofort verstehen, worum es geht.
+ Leser müssen sofort verstehen, worum es geht.
 
 ---
 
@@ -113,19 +112,19 @@ Neues Beratungsangebot verbessert Zugang zu Gesundheitsversorgung für wohnungsl
 
 Zeige, **wen es betrifft und was sich verändert**.
 
-### ❌ Schlecht
+### Schlecht: fokus auf menschen und wirkung
 
 ```text
 Das Projekt umfasst mehrere Maßnahmen zur Optimierung bestehender Prozesse.
 ```
 
-### ✅ Gut
+### Gut: fokus auf menschen und wirkung
 
 ```text
 Das Angebot hilft Betroffenen, schneller medizinische Hilfe zu erhalten.
 ```
 
-👉 Wirkung ist wichtiger als interne Abläufe.
+ Wirkung ist wichtiger als interne Abläufe.
 
 ---
 
@@ -141,19 +140,19 @@ Sprache soll:
 
 sein.
 
-### ❌ Schlecht
+### Schlecht: würdige und respektvolle sprache
 
 ```text
 Obdachlose haben große Probleme.
 ```
 
-### ✅ Gut
+### Gut: würdige und respektvolle sprache
 
 ```text
 Menschen ohne festen Wohnsitz stehen oft vor erheblichen Hürden beim Zugang zu Unterstützung.
 ```
 
-👉 Sprache prägt Wahrnehmung.
+ Sprache prägt Wahrnehmung.
 
 ---
 
@@ -164,19 +163,19 @@ Menschen ohne festen Wohnsitz stehen oft vor erheblichen Hürden beim Zugang zu 
 - kurze Sätze
 - einfache Begriffe
 
-### ❌ Schlecht
+### Schlecht: kurz und verständlich schreiben
 
 ```text
 Die Implementierung niedrigschwelliger Unterstützungsangebote erfolgt im Rahmen eines mehrstufigen Konzepts.
 ```
 
-### ✅ Gut
+### Gut: kurz und verständlich schreiben
 
 ```text
 Das Angebot ist leicht zugänglich und ohne große Hürden nutzbar.
 ```
 
-👉 Verständlichkeit geht vor Fachsprache.
+ Verständlichkeit geht vor Fachsprache.
 
 ---
 
@@ -191,7 +190,7 @@ Das Angebot ist leicht zugänglich und ohne große Hürden nutzbar.
 5. Zitat (optional)
 6. Abschluss / Kontakt
 
-👉 Struktur hilft beim schnellen Erfassen.
+ Struktur hilft beim schnellen Erfassen.
 
 ---
 
@@ -209,7 +208,7 @@ Das Angebot ist leicht zugänglich und ohne große Hürden nutzbar.
 "Der Bedarf an niedrigschwelliger Unterstützung ist in den letzten Jahren deutlich gestiegen", sagt eine Projektverantwortliche.
 ```
 
-👉 Zitate sollen Mehrwert liefern, nicht wiederholen.
+ Zitate sollen Mehrwert liefern, nicht wiederholen.
 
 ---
 
@@ -221,25 +220,25 @@ Das Angebot ist leicht zugänglich und ohne große Hürden nutzbar.
 - Gibt es aktuelle Entwicklungen?
 - Wie groß ist das Problem?
 
-👉 Zahlen und Fakten helfen, aber nur wenn sie verständlich sind.
+ Zahlen und Fakten helfen, aber nur wenn sie verständlich sind.
 
 ---
 
 ## 9. Keine Übertreibung
 
-### ❌ Schlecht
+### Schlecht: keine übertreibung
 
 ```text
 Ein revolutionäres Projekt, das alles verändert.
 ```
 
-### ✅ Gut
+### Gut: keine übertreibung
 
 ```text
 Ein neues Angebot, das bestehende Lücken in der Versorgung schließt.
 ```
 
-👉 Glaubwürdigkeit ist entscheidend.
+ Glaubwürdigkeit ist entscheidend.
 
 ---
 
@@ -250,7 +249,7 @@ Ein neues Angebot, das bestehende Lücken in der Versorgung schließt.
 - keine identifizierbaren Details
 - keine sensationalistische Darstellung
 
-👉 Schutz der betroffenen Personen hat Vorrang.
+ Schutz der betroffenen Personen hat Vorrang.
 
 ---
 
@@ -262,29 +261,29 @@ Ein neues Angebot, das bestehende Lücken in der Versorgung schließt.
 - Zugangsmöglichkeiten
 - Kontakt für Rückfragen
 
-👉 Leser sollen wissen, wie sie mehr erfahren können.
+ Leser sollen wissen, wie sie mehr erfahren können.
 
 ---
 
 ## 12. Häufige Fehler
 
-### 🚨 Zu abstrakt
+###  Zu abstrakt
 
 → konkret machen, Beispiele geben
 
-### 🚨 Zu technisch
+###  Zu technisch
 
 → einfacher formulieren
 
-### 🚨 Fokus auf Organisation statt Menschen
+###  Fokus auf Organisation statt Menschen
 
 → Wirkung in den Mittelpunkt stellen
 
-### 🚨 Unklare Relevanz
+###  Unklare Relevanz
 
 → Warum ist das wichtig?
 
-### 🚨 Zu lang
+###  Zu lang
 
 → auf das Wesentliche reduzieren
 
@@ -305,7 +304,7 @@ Schlechte sind:
 - werblich
 - schwer zugänglich
 
-👉 Wenn der Text nicht zeigt, **wen es betrifft und warum es wichtig ist**, ist er nicht gut genug.
+ Wenn der Text nicht zeigt, **wen es betrifft und warum es wichtig ist**, ist er nicht gut genug.
 
 ## Weiterführend
 
@@ -313,3 +312,12 @@ Schlechte sind:
 - [Dart Center — Trauma](https://dartcenter.org/) — Menschenwürde, wenn Aussagen Schaden oder Verlust betreffen
 - [BBC — Editorial Guidelines](https://www.bbc.co.uk/editorialguidelines/) — Unabhängigkeit, Genauigkeit und Schutz vor Schaden aus der Newsroom-Praxis
 
+---
+
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu pressemitteilungen schreiben in klaren, wiederverwendbaren Schritten.
+
+---
+
+Englische Version: [`press-statement-basics.md`](../../en/language-&-communication/press-statement-basics.md)

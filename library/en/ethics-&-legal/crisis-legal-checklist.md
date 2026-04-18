@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **legal and rights-aware steps during a communications crisis** (accusation, incident, bad press, viral post, safeguarding event, data breach). Not a replacement for a lawyer on an active case. Pair with [`crisis-and-sensitive-topics.md`](../language-&-communication/crisis-and-sensitive-topics.md), [`data-protection-for-comms.md`](data-protection-for-comms.md), and [`safeguarding-in-comms.md`](safeguarding-in-comms.md).
 
-## Excerpt 
-
+## Excerpt
 - **Silence is a decision.** So is a statement. Both have legal weight—make each one deliberately.
 - **Facts first, tone second.** Do not say "we are sorry for X" before you know X happened.
 - **Loop in legal early**, not after the first statement is out. A holding line is cheap; a retraction is expensive.

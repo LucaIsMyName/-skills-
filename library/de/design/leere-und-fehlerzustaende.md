@@ -1,9 +1,8 @@
 # Leere und Fehlerzustände
 
-**Scope:** Gilt für **Non-Happy-Path-Screens**—leere Listen, keine Treffer, Loading, Fehler, fehlende Rechte, offline, Limits erreicht. Kein Code-Exception-Handling jenseits UX-Wirkung. Kombiniere mit [`designing-good-interfaces.md`](designing-good-interfaces.md), [`content-design-und-microcopy.md`](content-design-und-microcopy.md), [`fehlerbehandlung-und-logging.md`](../coding/fehlerbehandlung-und-logging.md) und [`barrierefreiheit-im-code.md`](../coding/barrierefreiheit-im-code.md).
+**Geltungsbereich:** Gilt für **Non-Happy-Path-Screens**—leere Listen, keine Treffer, Loading, Fehler, fehlende Rechte, offline, Limits erreicht. Kein Code-Exception-Handling jenseits UX-Wirkung. Kombiniere mit [`gute-interfaces-designen.md`](gute-interfaces-designen.md), [`content-design-und-microcopy.md`](content-design-und-microcopy.md), [`fehlerbehandlung-und-logging.md`](../coding/fehlerbehandlung-und-logging.md) und [`barrierefreiheit-im-code.md`](../coding/barrierefreiheit-im-code.md).
 
-## Excerpt
-
+## Exzerpt
 - **Leer ist ein Feature**, keine Lücke—sagen, wo man ist und was als Nächstes.
 - **Fehler sind Content**: brauchen Design, Copy, einen Weg weiter.
 - **Loading** schnell, vorhersagbar, informativ—Skeletons statt Spinner, wo möglich.
@@ -50,13 +49,13 @@ Jeden Zustand des Produkts **verständlich und handlungsfähig** machen.
 - **Erste Aktion** (primäre CTA).
 - Optional: freundliche Illustration, Hilfe-Link.
 
-### Schlecht
+### Schlecht: leer (erstnutzung) — einladen, nicht beschuldigen
 
 ```
 Keine Einträge.
 ```
 
-### Gut
+### Gut: leer (erstnutzung) — einladen, nicht beschuldigen
 
 ```
 Ihr Dashboard ist leer. Legen Sie Ihr erstes Projekt an, um Fortschritte zu sehen.
@@ -87,13 +86,13 @@ Entfernen Sie einen Filter oder suchen Sie über alle Jahre.
 2. **Warum**, kurz, wenn bekannt.
 3. **Nächster Schritt**.
 
-### Schlecht
+### Schlecht: fehler-states — drei zutaten
 
 ```
 Fehler 500. Bitte erneut versuchen.
 ```
 
-### Gut
+### Gut: fehler-states — drei zutaten
 
 ```
 Wir konnten Ihre Änderungen nicht speichern: Die Verbindung ist abgebrochen.
@@ -139,12 +138,10 @@ Existenz privater Ressourcen nicht leaken—bei sehr sensibler Sichtbarkeit gene
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Leere und Fehler sind **Orte des Vertrauens**. Jeder Zustand ist ein **Gespräch**: was ist los, warum, was nun. Design sie so sorgfältig wie den Happy Path.
 
-## Further reading
-
+## Weiterführend
 - [NN/g — Empty states](https://www.nngroup.com/articles/empty-state-interface-design/)
 - [GOV.UK — Error messages](https://design-system.service.gov.uk/components/error-message/)
 - [Shopify Polaris — Empty/Error](https://polaris.shopify.com/patterns)

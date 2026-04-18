@@ -3,7 +3,6 @@
 **Scope:** Applies to **function size, purity, errors, validation, and data flow** in application code. Not logging/observability runbooks, not API security design. Pair with [`coding-style-and-structure.md`](coding-style-and-structure.md), [`coding-testing-and-habits.md`](coding-testing-and-habits.md), and [`coding-best-practices.md`](coding-best-practices.md).
 
 ## Excerpt
-
 - **Small functions** with testable boundaries.
 - **Avoid silent mutation**; prefer explicit inputs/outputs.
 - **Never swallow errors**; validate untrusted input at the edge.
@@ -39,7 +38,7 @@ If a function doesn’t fit on one screen → it’s probably too big.
 - hard to name
 - requires scrolling
 
-👉 Break it into smaller pieces.
+ Break it into smaller pieces.
 
 ---
 
@@ -49,7 +48,7 @@ If a function doesn’t fit on one screen → it’s probably too big.
 
 Functions should not unexpectedly change external state.
 
-### ❌ Bad
+### Bad: avoid side effects
 
 ```ts
 function addItem(item) {
@@ -57,7 +56,7 @@ function addItem(item) {
 }
 ```
 
-### ✅ Good
+### Good: avoid side effects
 
 ```ts
 function addItem(cart, item) {
@@ -65,7 +64,7 @@ function addItem(cart, item) {
 }
 ```
 
-👉 Pure functions are predictable and testable.
+ Pure functions are predictable and testable.
 
 ---
 
@@ -75,7 +74,7 @@ function addItem(cart, item) {
 
 Never ignore errors.
 
-### ❌ Bad
+### Bad: handle errors explicitly
 
 ```ts
 try {
@@ -83,7 +82,7 @@ try {
 } catch {}
 ```
 
-### ✅ Good
+### Good: handle errors explicitly
 
 ```ts
 try {
@@ -94,7 +93,7 @@ try {
 }
 ```
 
-👉 Silent failures = nightmare debugging.
+ Silent failures = nightmare debugging.
 
 ---
 
@@ -104,7 +103,7 @@ try {
 
 Never trust external data.
 
-### ❌ Bad
+### Bad: validate inputs
 
 ```ts
 function createUser(user) {
@@ -112,7 +111,7 @@ function createUser(user) {
 }
 ```
 
-### ✅ Good
+### Good: validate inputs
 
 ```ts
 function createUser(user) {
@@ -121,7 +120,7 @@ function createUser(user) {
 }
 ```
 
-👉 Validate at boundaries.
+ Validate at boundaries.
 
 ---
 
@@ -131,17 +130,25 @@ function createUser(user) {
 
 Avoid hidden state and magic behavior.
 
-👉 Prefer:
+ Prefer:
 
 - explicit parameters
 - explicit returns
 
-👉 Avoid:
+ Avoid:
 
 - global variables
 - hidden mutations
 
+---
 
+## Core idea
+
+This page gives practical guidance for coding errors, validation, and predictable state in repeatable, team-friendly steps.
+
+## Further reading
+
+- Continue with the related pages linked in the Scope section for deeper examples and adjacent workflows.
 
 ---
 

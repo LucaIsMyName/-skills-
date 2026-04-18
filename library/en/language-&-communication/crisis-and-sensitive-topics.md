@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **external communications during incidents or sensitive issues** (holding statements, pausing posts); not investigations, HR processes, or legal strategy—**always escalate to organizational leadership**.
 
-## Excerpt 
-
+## Excerpt
 - In **crisis or high-risk** topics: **pause** scheduled content if unsure; **do not speculate** on facts, causes, or blame.
 - **Mandatory:** confirm wording with **communications lead / executive** before external release unless the user explicitly provides approved text.
 - Use **short, factual holding statements**; avoid filling information gaps with guesses.
@@ -36,13 +35,13 @@ This document guides **nonprofit and social-sector teams** on how to **communica
 
 If facts are unclear, harm could result, or minors/vulnerable people are involved: **stop** and recommend **internal escalation** before posting.
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
 We can confirm exactly what happened last night and who is responsible. Full details here:
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 We are aware of reports about [brief factual reference]. We are gathering information and will share updates when we can do so responsibly. For media: [approved contact]
@@ -52,13 +51,13 @@ We are aware of reports about [brief factual reference]. We are gathering inform
 
 ### 2. Holding statements: short and non-speculative
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
 We believe the incident was caused by [guess]. The person probably intended…
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 We are taking this seriously. Our priority is the safety and wellbeing of everyone involved. We are not sharing further details at this stage.
@@ -88,9 +87,8 @@ Acknowledge impact **without** assigning fault before facts exist.
 
 ---
 
-## Final thought
-
-👉 In crisis, **silence is often better than a wrong sentence**. Default to **escalate and confirm**, not to invent narrative.
+## Core idea
+ In crisis, **silence is often better than a wrong sentence**. Default to **escalate and confirm**, not to invent narrative.
 
 ## Further reading
 
@@ -98,3 +96,6 @@ Acknowledge impact **without** assigning fault before facts exist.
 - [WHO — risk communication](https://www.who.int/teams/risk-communication) — international guidance on public communication during health threats
 - [FEMA — crisis communications strategy](https://www.fema.gov/communication-external-affairs-guidance) — coordination, timing, and verification habits (adapt to your sector)
 
+---
+
+German version: [`krise-und-sensible-themen.md`](../../de/sprache-&-kommunikation/krise-und-sensible-themen.md)

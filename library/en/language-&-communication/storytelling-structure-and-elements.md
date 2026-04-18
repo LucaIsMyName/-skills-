@@ -3,7 +3,6 @@
 **Scope:** Applies to **inputs before drafting, core narrative principle, the five elements, narrator role, and moving from topics to a story spine**—for nonprofit and campaign contexts. Not media pitching. Pair with [`storytelling-craft-language-and-impact.md`](storytelling-craft-language-and-impact.md) and [`storytelling.md`](storytelling.md).
 
 ## Excerpt
-
 - **Prepare** with concrete/meta questions—do not invent scenes or quotes.
 - **Core principle**: stories show **change**; name cause, effect, and development.
 - **Five elements** and **narrator** choices shape what readers take away.
@@ -53,16 +52,16 @@ The goal is to tell stories that:
 - make **connections** understandable
 - make **change** tangible
 
-👉 People follow **feelings, not facts**
+ People follow **feelings, not facts**
 
 ---
 
-### Good
+### Good: example
 
 - “The king dies—and shortly after, the queen dies of grief.”
   → connection + emotion
 
-### Bad
+### Bad: example
 
 - “The king dies. Then the queen dies.”
   → facts only, no story
@@ -80,12 +79,12 @@ The goal is to tell stories that:
 
 ---
 
-### Good
+### Good: core principle
 
 - “After losing her job, she starts to find a new direction—and discovers another path.”
   → development + cause
 
-### Bad
+### Bad: core principle
 
 - “She loses her job and later works again.”
   → no connection, no depth
@@ -107,12 +106,12 @@ The goal is to tell stories that:
 
 ---
 
-### Good
+### Good: the 5 core elements of a story
 
 - “He wants to live independently but is afraid to decide alone.”
   → goal + weakness
 
-### Bad
+### Bad: the 5 core elements of a story
 
 - “He is successful and masters every challenge effortlessly.”
   → no identification
@@ -128,12 +127,12 @@ The goal is to tell stories that:
 
 ---
 
-### Good
+### Good: the 5 core elements of a story
 
 - “The neon tube flickers; outside, the last tram goes by.”
   → atmosphere
 
-### Bad
+### Bad: the 5 core elements of a story
 
 - “He is in a place.”
   → no effect
@@ -152,12 +151,12 @@ The goal is to tell stories that:
 
 ---
 
-### Good
+### Good: the 5 core elements of a story
 
 - “He fails several times before he finds a solution.”
   → conflict + development
 
-### Bad
+### Bad: the 5 core elements of a story
 
 - “He has challenges in life.”
   → no real plot
@@ -173,12 +172,12 @@ The goal is to tell stories that:
 
 ---
 
-### Good
+### Good: the 5 core elements of a story
 
 - “The old key is still on her key ring.”
   → symbolic, concrete
 
-### Bad
+### Bad: the 5 core elements of a story
 
 - no concrete detail
   → the story stays abstract
@@ -192,11 +191,11 @@ The goal is to tell stories that:
 
 ---
 
-### Good
+### Good: the 5 core elements of a story
 
 - Facts woven into the plot (“For three years he has been waiting for a place.”)
 
-### Bad
+### Bad: the 5 core elements of a story
 
 - “Studies show 35% are affected.”
   → isolated, no link to the story
@@ -231,16 +230,23 @@ Besides protagonist and plot there is the **narrator** (the narrative voice)—n
 
 ---
 
-### Good
+### Good: from topic to story
 
 - A mind map with several possible protagonists and situations
 
-### Bad
+### Bad: from topic to story
 
 - Locking onto one idea immediately with no exploration
 
 ---
 
+## Core idea
+
+This page gives practical guidance for storytelling: structure and elements in repeatable, team-friendly steps.
+
+## Further reading
+
+- Continue with the related pages linked in the Scope section for deeper examples and adjacent workflows.
 
 ---
 

@@ -2,8 +2,7 @@
 
 **Scope:** Applies to rewriting text into **plain, accessible English**; not certified Easy Read formats with symbols, layout, and user testing unless the user explicitly asks.
 
-## Excerpt 
-
+## Excerpt
 - Use to **simplify** vocabulary and sentences for literacy, EAL readers, or general clarity.
 - **Do not** change legal meaning, numbers, or required terms without explicit instruction—**ask** if unsure.
 - Prefer short sentences, one idea per sentence, consistent terms, active voice where clear.
@@ -15,7 +14,7 @@ This document explains how to **rewrite or translate any source text** into **cl
 
 The label **“Easy Read English”** is used here for **text-level simplification** (vocabulary, sentences, structure). It aligns with **international plain-language principles** (e.g. **ISO 24495-1**, which applies across languages) and literacy-friendly English. The site [Easy Read English](https://www.easyreadenglish.com/) focuses on **reading instruction** (e.g. syllables, stories); This document is about **producing easy-to-read text**, not replacing a full reading curriculum.
 
-👉 If the user wants a **specific “Easy Read” accessibility format** (very short lines, images, testing with readers), treat that as an **extra layout and process requirement**—ask before assuming.
+ If the user wants a **specific “Easy Read” accessibility format** (very short lines, images, testing with readers), treat that as an **extra layout and process requirement**—ask before assuming.
 
 ## completeness before drafting
 
@@ -121,9 +120,8 @@ Before rewriting, gather **concrete and meta information**. If something materia
 
 ---
 
-## Final thought
-
-👉 **Accessible English** helps more people use information fairly—in health, government, education, and daily life. This document is **reader-centered work**, not “dumbing down.”
+## Core idea
+ **Accessible English** helps more people use information fairly—in health, government, education, and daily life. This document is **reader-centered work**, not “dumbing down.”
 
 ## Further reading
 
@@ -131,3 +129,6 @@ Before rewriting, gather **concrete and meta information**. If something materia
 - [Readability Guidelines](https://readabilityguidelines.co.uk/) — evidence-informed patterns for clearer public content (UK-led; language-neutral ideas)
 - [W3C WAI — Understanding 3.1.5 Reading Level](https://www.w3.org/WAI/WCAG22/Understanding/reading-level.html) — how complexity relates to accessibility on the web
 
+---
+
+German version: [`einfache-sprache.md`](../../de/sprache-&-kommunikation/einfache-sprache.md)

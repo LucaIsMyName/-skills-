@@ -3,7 +3,6 @@
 **Scope:** **Relationship** communications with donors—thank-yous, updates, recognition—without manipulation. Not tax/receipt law. Pair with [`fundraising-appeals.md`](fundraising-appeals.md), [`newsletter-and-email.md`](newsletter-and-email.md), [`respectful-language.md`](respectful-language.md), and [`content-design-and-microcopy.md`](../design/content-design-and-microcopy.md).
 
 ## Excerpt
-
 - **Thank fast**—ideally within days; **specific** about what the gift enables.
 - **Tone**: gratitude and **dignity**—not guilt for not giving more.
 - **Segment** messages where possible (first gift vs recurring vs major).
@@ -31,13 +30,13 @@ Make donors feel **seen** and **informed**—so support continues for the **righ
 
 ## 1. Thank-you content
 
-### Bad
+### Bad: thank-you content
 
 ```text
 Thanks!!!
 ```
 
-### Good
+### Good: thank-you content
 
 ```text
 Thank you, Alex. Your gift helps us run three community sessions this month. We’ll send a short update in June.

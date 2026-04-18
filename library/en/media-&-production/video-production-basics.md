@@ -3,7 +3,6 @@
 **Scope:** **Short-form** video for web/social—planning, lighting, audio, edit handoff. Not cinema. Pair with [`subtitles-and-captions.md`](subtitles-and-captions.md), [`file-naming-and-organising.md`](file-naming-and-organising.md), and [`live-events-and-streaming.md`](live-events-and-streaming.md).
 
 ## Excerpt
-
 - **Audio first**—bad sound kills trust faster than soft video.
 - **Lighting**: soft, even; **avoid** harsh shadows on faces.
 - **B-roll** for coverage and **honest** context.
@@ -35,13 +34,13 @@ Ship **clear** video that people can **hear**, **see**, and **trust**.
 
 **Prioritise** intelligible dialogue—**lav or shotgun** close to mouth; record **10s room tone**; **backup** audio if the shoot matters.
 
-### Bad
+### Bad: audio first: mics, levels, room
 
 ```text
 Built-in laptop mic across the room.
 ```
 
-### Good
+### Good: audio first: mics, levels, room
 
 ```text
 Lav on speaker; peaks around -12 dBFS; 10s room tone; clap sync if multicam.
@@ -53,13 +52,13 @@ Lav on speaker; peaks around -12 dBFS; 10s room tone; clap sync if multicam.
 
 **Soft** key or window light; **fill** shadows so eyes are visible—avoid **raccoon eyes** and blown highlights.
 
-### Bad
+### Bad: lighting: soft and even on faces
 
 ```text
 Overhead downlight only—harsh shadows; eyes in darkness.
 ```
 
-### Good
+### Good: lighting: soft and even on faces
 
 ```text
 Softbox or bounce card; subject facing main light; white balance card or grey reference.
@@ -71,13 +70,13 @@ Softbox or bounce card; subject facing main light; white balance card or grey re
 
 Decide **9:16**, **1:1**, or **16:9** **before** the shoot—**reframing** in post wastes resolution.
 
-### Bad
+### Bad: plan aspect ratio and delivery per platform
 
 ```text
 Film landscape; crop to vertical later—half the frame is empty or faces cut off.
 ```
 
-### Good
+### Good: plan aspect ratio and delivery per platform
 
 ```text
 Shot list tags: IG Reels 9:16, YouTube 16:9—separate takes or frame for primary platform.
@@ -89,13 +88,13 @@ Shot list tags: IG Reels 9:16, YouTube 16:9—separate takes or frame for primar
 
 Capture **cutaways** (hands, environment, signage) so edits can **clarify** without **faking** reactions.
 
-### Bad
+### Bad: b-roll for honest context and coverage
 
 ```text
 Single talking-head take only—edits cannot hide jump cuts or add context.
 ```
 
-### Good
+### Good: b-roll for honest context and coverage
 
 ```text
 B-roll: venue exterior, activity, reaction shots with consent; matches spoken facts.
@@ -107,13 +106,13 @@ B-roll: venue exterior, activity, reaction shots with consent; matches spoken fa
 
 **Signed** or **recorded** consent for identifiable people; **location** permits; **music** from licensed library or composer agreement.
 
-### Bad
+### Bad: consent, location, and music rights
 
 ```text
 Radio playing in background; commercial track under edit—takedown risk.
 ```
 
-### Good
+### Good: consent, location, and music rights
 
 ```text
 Consent form covers web + paid social; location OK’d; music: Artlist track ID logged in project sheet.
@@ -125,13 +124,13 @@ Consent form covers web + paid social; location OK’d; music: Artlist track ID 
 
 **Clap** or timecode sync; **folder** with camera files, **separate** audio, **script**, and **notes** for director’s intent.
 
-### Bad
+### Bad: handoff to edit: naming and project file
 
 ```text
 “Footage.zip” with no slate, no audio sync points.
 ```
 
-### Good
+### Good: handoff to edit: naming and project file
 
 ```text
 /2025-04-18_interview/ camA/, audio/, storyboard.pdf, “selects” timestamps in README.
@@ -143,13 +142,13 @@ Consent form covers web + paid social; location OK’d; music: Artlist track ID 
 
 **Cuts** connect real moments—**no** invented reactions or **misleading** juxtaposition without editorial policy.
 
-### Bad
+### Bad: edit discipline: truth in the cut
 
 ```text
 Reaction shot from another day spliced to imply disagreement that did not happen.
 ```
 
-### Good
+### Good: edit discipline: truth in the cut
 
 ```text
 Chronology clear; J-cuts/L-cuts for flow; fact-check against script before export.

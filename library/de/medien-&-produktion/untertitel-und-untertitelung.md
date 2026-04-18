@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Text auf Video**—Captions (Barrierefreiheit), Untertitel (Übersetzung)—Workflows und Qualität. Ergänzt [`barrierefreiheit-kommunikation.md`](../sprache-&-kommunikation/barrierefreiheit-kommunikation.md), [`video-produktion-grundlagen.md`](video-produktion-grundlagen.md) und [`podcasting-grundlagen.md`](podcasting-grundlagen.md).
 
 ## Exzerpt
-
 - **Captions** für viele Nutzer\*innen **pflichtnah**—wo möglich **default an**.
 - **Genauigkeit** vor Geschwindigkeit—**Namen** und **Fachbegriffe** prüfen.
 - **Sprecher\*innen** kennzeichnen; **Geräusche** in Klammern, wenn relevant.
@@ -35,13 +34,13 @@ Gesprochenes **zugänglich** und **präzise** machen.
 
 **Untertitel** mit jedem öffentlichen Video **mitliefern**; in Playern **aktivieren**, wo UX es erlaubt—**aus** als Default schließt Menschen aus.
 
-### Bad
+### Gut: captions als standard, nicht zusatz
 
 ```text
 „Kann man ja einschalten“—aber Default aus und keine Datei hochgeladen.
 ```
 
-### Good
+### Gut: captions als standard, nicht zusatz
 
 ```text
 VTT angehängt; Player startet mit Untertiteln wo möglich; nur eingebrannt, wenn Plattform nichts anderes erlaubt.
@@ -53,13 +52,13 @@ VTT angehängt; Player startet mit Untertiteln wo möglich; nur eingebrannt, wen
 
 **ASR** als erste Fassung; **menschlicher** Durchgang für **Namen**, **Homophone**, **Timing**; **stumm** ansehen, ob Sinn stimmt.
 
-### Bad
+### Gut: auto-untertitel editieren—zweistufiges qa
 
 ```text
 Auto-Untertitel ohne Prüfung hochladen.
 ```
 
-### Good
+### Gut: auto-untertitel editieren—zweistufiges qa
 
 ```text
 Zwei Durchgänge: Inhalt + Timing; stumm mitlesen; Glossar für Projektbegriffe.
@@ -71,13 +70,13 @@ Zwei Durchgänge: Inhalt + Timing; stumm mitlesen; Glossar für Projektbegriffe.
 
 **Sprecher-IDs** bei mehreren Personen; **nicht-sprachliche** Geräusche nur in **[Klammern]**, wenn fürs Verständnis nötig.
 
-### Bad
+### Gut: sprecher-labels und sound-hinweise
 
 ```text
 Alles „Sprecher“ oder falsche Namen aus ASR.
 ```
 
-### Good
+### Gut: sprecher-labels und sound-hinweise
 
 ```text
 Alex: Willkommen…
@@ -91,13 +90,13 @@ Sam: Danke…
 
 **SRT/VTT** bevorzugen, damit Nutzer*innen **Größe**, **Stil** und **Übersetzung** wählen—Einbrennen nur bei Plattform- oder Autoplay-Zwang.
 
-### Bad
+### Gut: sidecar statt eingebrannt
 
 ```text
 Harte kleine weiße Schrift auf unruhigem Bild—nicht lesbar, nicht steuerbar.
 ```
 
-### Good
+### Gut: sidecar statt eingebrannt
 
 ```text
 VTT fürs Web; optionales Einbrennen für Instagram mit kontrastreichem, sicherem Styleguide.
@@ -109,13 +108,13 @@ VTT fürs Web; optionales Einbrennen für Instagram mit kontrastreichem, sichere
 
 **Übersetzung** ist Untertitel mit **kulturellem** Pass—**Zeilenlänge** und **Lesegeschwindigkeit**; keine wörtlich falschen Register.
 
-### Bad
+### Gut: untertitel für übersetzung
 
 ```text
 Maschinell alles übersetzt; falsches Sie/du.
 ```
 
-### Good
+### Gut: untertitel für übersetzung
 
 ```text
 Übersetzer:in mit Tonalitäts-Brief; max. Zeichen/Zeile nach Spec; Review durch Muttersprachler*in.
@@ -127,13 +126,13 @@ Maschinell alles übersetzt; falsches Sie/du.
 
 Captions sollten **gesprochenen** Wortlaut treffen—**bei News** und **Zeugnissen**; **Verkürzen** nur mit Redaktionskriterium.
 
-### Bad
+### Gut: zitate nicht umschreiben ohne regel
 
 ```text
 Zitate in Captions „klarer“ umschreiben ohne Policy.
 ```
 
-### Good
+### Gut: zitate nicht umschreiben ohne regel
 
 ```text
 Standard: wörtlich; bei vereinfachter Lesestufe kennzeichnen und bei sensiblen Zeilen Freigabe.
@@ -150,8 +149,7 @@ Standard: wörtlich; bei vereinfachter Lesestufe kennzeichnen und bei sensiblen 
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Untertitel sind **Teil der Botschaft**—**Genauigkeit**, **Timing**, **Inklusion**.
 
 ## Weiterführend

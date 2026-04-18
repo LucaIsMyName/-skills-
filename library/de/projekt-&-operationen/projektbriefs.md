@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Ein-Pager** zur Ausrichtung—Ziele, Scope, Constraints, Owner. Kein Business-Case. Ergänzt [`kreativbriefs.md`](kreativbriefs.md), [`priorisierung-grundlagen.md`](priorisierung-grundlagen.md) und [`statusberichte-und-reporting.md`](statusberichte-und-reporting.md).
 
 ## Exzerpt
-
 - **Problem** und **Erfolg** klar—**messbar** wo möglich.
 - **In/Out of Scope**—gegen Scope-Creep.
 - **DRI**, Sponsor, Stakeholder.
@@ -35,13 +34,13 @@
 
 **Was heute schief läuft** und **was als Erfolg gilt**—Zahlen oder beobachtbare Ergebnisse schlagen Adjektive.
 
-### Bad
+### Gut: problem und erfolg in klarer sprache
 
 ```text
 Website besser machen, ASAP.
 ```
 
-### Good
+### Gut: problem und erfolg in klarer sprache
 
 ```text
 Problem: Abbruchquote bei Freiwilligen-Anmeldung mobil ~40%.
@@ -54,13 +53,13 @@ Erfolg: Abgeschlossene Anmeldungen +20% in Q3 vs Q2; Formularfehler <5%.
 
 **Liefergegenstände** und **explizite Ausschlüsse**—damit Scope-Creep ein bewusster Wechsel ist.
 
-### Bad
+### Gut: in scope und out of scope
 
 ```text
 Freiwilligen-Journey End-to-End verbessern.
 ```
 
-### Good
+### Gut: in scope und out of scope
 
 ```text
 In Scope: Anmeldeflow, Bestätigungsmail, Hilfetexte.
@@ -73,13 +72,13 @@ Out of Scope: CRM-Migration, Rebrand, neues CMS.
 
 **DRI** für Delivery, **Sponsor** mit Entscheidungsmacht, **Stakeholder** zum Abgleich—nicht „das Team“.
 
-### Bad
+### Gut: owner, sponsor, stakeholder
 
 ```text
 Owner: alle. Sponsor: TBD.
 ```
 
-### Good
+### Gut: owner, sponsor, stakeholder
 
 ```text
 DRI: Alex (Delivery). Sponsor: Sam (Budget/Freigabe).
@@ -92,13 +91,13 @@ Stakeholder: Legal (Disclaimer), Kommunikation (Tonalität).
 
 **Wenige Meilensteine** mit **überprüfbaren Outputs**—kein detailliertes Gantt-Märchen am Anfang.
 
-### Bad
+### Gut: timeline mit meilensteinen, keine fantasie
 
 ```text
 Gantt mit 47 Tasks, alles grün bis Woche 8.
 ```
 
-### Good
+### Gut: timeline mit meilensteinen, keine fantasie
 
 ```text
 M1 (15. Mai): Flow-Prototyp in Staging. M2 (1. Jun.): UAT mit 5 Freiwilligen. M3 (20. Jun.): Go-live.
@@ -110,13 +109,13 @@ M1 (15. Mai): Flow-Prototyp in Staging. M2 (1. Jun.): UAT mit 5 Freiwilligen. M3
 
 **Blocker** und **Abhängigkeiten** von anderen Teams oder Systemen benennen.
 
-### Bad
+### Gut: risiken und abhängigkeiten früh
 
 ```text
 Risiken: keine. Abhängigkeiten: klären wir noch.
 ```
 
-### Good
+### Gut: risiken und abhängigkeiten früh
 
 ```text
 Risiko: API-Rate-Limits während Kampagne. Abhängigkeit: IT stellt SSO-Testumgebung bis 30. Apr.
@@ -128,13 +127,13 @@ Risiko: API-Rate-Limits während Kampagne. Abhängigkeit: IT stellt SSO-Testumge
 
 **Marke, Recht, Barrierefreiheit, Budget** von Anfang an—verschweigen hilft nicht.
 
-### Bad
+### Gut: non-negotiables und ressourcen
 
 ```text
 Bleiben on brand. Budget flexibel.
 ```
 
-### Good
+### Gut: non-negotiables und ressourcen
 
 ```text
 Non-negotiables: WCAG 2.2 AA; Wortlaut Spendenkommission auf Spendenseite.
@@ -152,8 +151,7 @@ Ressourcen: 0,5 FTE Dev 12 Wochen; £2k Usability-Tests.
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Ein Brief ist **Klarheitsvertrag**: **Absicht**, **Grenzen**, **Wer entscheidet**.
 
 ## Weiterführend

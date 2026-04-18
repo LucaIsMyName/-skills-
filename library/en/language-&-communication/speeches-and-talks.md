@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **scripting and delivering spoken content**—keynotes, opening remarks, panel statements, ceremonies, short video addresses. Not interviewing (see [`interview-preparation.md`](interview-preparation.md)) and not presentation slides (see [`slides-and-presentations.md`](../design/slides-and-presentations.md)). Pair with [`storytelling.md`](storytelling.md).
 
-## Excerpt 
-
+## Excerpt
 - **One audience, one goal, one takeaway.** Everything else is support.
 - **Spoken language is short.** Sentences fit on one breath; lists fit on one hand.
 - **Stories beat slides.** Two concrete stories outperform twelve abstract points.
@@ -48,13 +47,13 @@ Draft and deliver a talk that is **clear, humane, and on time**—one where the 
 - **Concrete words**: a person, a place, a date—over "stakeholders", "ecosystem", "impact".
 - **Read aloud while editing.** Anything you cannot say without stumbling, rewrite.
 
-### Bad
+### Bad: write for the ear
 
 ```text
 Our multifaceted initiative leverages intersectoral partnerships in order to holistically address the structural determinants…
 ```
 
-### Good
+### Good: write for the ear
 
 ```text
 We work with three hospitals and six schools in one district. Together we fix what one of us cannot fix alone.

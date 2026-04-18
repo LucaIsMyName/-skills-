@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Farbwahl und -einsatz** in UI, Web, Print und Datengrafiken—inklusive Kontraste, semantische Rollen, Theming. Ergänzt [`design-tokens-und-theming.md`](design-tokens-und-theming.md), [`barrierefreies-design.md`](barrierefreies-design.md), [`datenvisualisierung-grundlagen.md`](datenvisualisierung-grundlagen.md).
 
 ## Exzerpt
-
 - **Semantische Rollen statt Hex-Werten.** Farben nach **Funktion** benennen (`surface`, `text`, `accent`, `danger`), nicht nach Hue (`blue-500`).
 - **Kontrast zuerst.** WCAG AA: 4,5:1 für Body, 3:1 für große Schrift und UI. Vor Palettenliebe prüfen.
 - **Farbe nie allein.** Mit Icon, Text oder Form koppeln—farbenblinde Nutzer:innen und Graustufendrucke existieren.
@@ -133,6 +132,10 @@ Ein gutes Farbsystem ist **eine kurze Liste klar definierter Rollen**, mit zugä
 - [W3C WAI — Understanding 1.4.11 Non-text Contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html) — UI-Teile, Diagramme und Bedienelemente
 - [W3C — CSS Color Module Level 4](https://www.w3.org/TR/css-color-4/) — moderne Farbräume (z. B. OKLCH) in aktuellen Tools
 
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
+
 ---
 
-English version: [`color-and-contrast.md`](../../en/design/color-and-contrast.md)
+Englische Version: [`color-and-contrast.md`](../../en/design/color-and-contrast.md)

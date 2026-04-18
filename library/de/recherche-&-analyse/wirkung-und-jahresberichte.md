@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Wirkungsberichte, Jahresberichte und Rechenschaftsberichte** für Vorstände, Förderer, Mitglieder und die Öffentlichkeit in NGOs und sozialen Organisationen. Keine gesetzliche Jahresabschlussprüfung, keine vollständigen Jahresabschlüsse durch Steuerberater:innen. Ergänzend zu [`statistik-einfach-lesen.md`](statistik-einfach-lesen.md), [`datenvisualisierung-grundlagen.md`](../design/datenvisualisierung-grundlagen.md), [`notizen-und-synthese.md`](notizen-und-synthese.md) und [`recherche-grundlagen.md`](recherche-grundlagen.md).
 
 ## Exzerpt
-
 - **Ehrliche Zahlen + menschlicher Kontext.** Kennzahlen ohne Erklärung irreführen; Geschichten ohne Kennzahlen schwer prüfbar—beides kombinieren.
 - **Pro Abschnitt eine Leseperspektive.** Vorstand will Strategie und Risiko; Förderin will Ergebnisse gegen Zuwendung; Öffentlichkeit will Klarheit und Vertrauen.
 - **Zuerst Definitionen.** Wie ihr „betreute Familien“, „Schulungsstunden“ oder „Reichweite“ zählt—und ob sich das zum Vorjahr geändert hat.
@@ -80,8 +79,7 @@ Eine **wahre, verständliche Geschichte** davon erzählen, was sich durch eure A
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Gutes Berichten schafft **Vertrauen**: Es zeigt, was ihr erreicht habt, was ihr gelernt habt und was ihr den Menschen, denen ihr dient, schuldet.
 
 ## Weiterführend

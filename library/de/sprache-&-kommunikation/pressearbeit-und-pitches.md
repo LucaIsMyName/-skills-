@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Themen** an Journalist*innen herantragen—Timing, Form, Genauigkeit, Follow-up. Keine Krisen-Eskalation—[`krise-und-sensible-themen.md`](krise-und-sensible-themen.md). Ergänzt [`pressemitteilungen-schreiben.md`](pressemitteilungen-schreiben.md), [`quellenbewertung-und-faktencheck.md`](../recherche-&-analyse/quellenbewertung-und-faktencheck.md) und [`respektvolle-sprache.md`](respektvolle-sprache.md).
 
 ## Exzerpt
-
 - **Outlet** und **Ressort** recherchieren—**personalisiert**, nicht Massenmail.
 - **Lead** mit **Neuigkeitswert**—warum **jetzt**, warum **dieses** Publikum.
 - **Fakten** bereit: Ansprechpartner*innen, Zahlen, Links—**keine** Übertreibung.
@@ -43,8 +42,7 @@ Betreff klar; Einleitung mit Bezug; Faktenbox; Interviewoptionen; Materialien-Li
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Pitching ist **Journalismus unterstützen**: **klare** Fakten, **schneller** Zugang, **null** Spin bei Zahlen.
 
 ## Weiterführend

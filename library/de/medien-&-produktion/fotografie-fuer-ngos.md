@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Planen und fotografieren** für gemeinnützige Arbeit—Einwilligung, Würde, Schutz, technische Basics. Ergänzt [`bild-und-zitatfreigaben.md`](../ethik-&-recht/bild-und-zitatfreigaben.md), [`bildethik-und-bildsprache.md`](bildethik-und-bildsprache.md) und [`bilder-und-fotografie.md`](../design/bilder-und-fotografie.md).
 
 ## Exzerpt
-
 - **Einwilligung** und **Kontext**—Wiederverwendung, Kanäle.
 - **Würde** vor Mitleid—keine ausbeuterische Bildsprache.
 - **Repräsentation**: **Agency** zeigen; **Diversität** mit Sorgfalt.
@@ -35,13 +34,13 @@
 
 **Shots** an Kampagnenbedarf koppeln; **Releases** unterschrieben (oder **Regeln** bei öffentlichen Events), **bevor** Hero-Nutzung geplant wird.
 
-### Bad
+### Gut: shot-liste und einwilligung vor dem auslösen
 
 ```text
 Zufallsschnappschüsse; Überraschungs-Publish.
 ```
 
-### Good
+### Gut: shot-liste und einwilligung vor dem auslösen
 
 ```text
 Shot-Liste: Hero-Gruppe, Detail Hands-on, Zitat-Portrait; Releases da; Embargo klar.
@@ -53,13 +52,13 @@ Shot-Liste: Hero-Gruppe, Detail Hands-on, Zitat-Portrait; Releases da; Embargo k
 
 **Respektvoll** dirigieren; **keine** Posen, die Not **übertreiben**; **diverse** Motive **ohne** Tokenismus.
 
-### Bad
+### Gut: würde und repräsentation am set
 
 ```text
 „Wirkt elender“ für den Spendenaufruf.
 ```
 
-### Good
+### Gut: würde und repräsentation am set
 
 ```text
 „Zeigt, was ihr hier wirklich macht“—natürliche Aktivität; Debrief, wenn sich jemand unwohl fühlt.
@@ -71,13 +70,13 @@ Shot-Liste: Hero-Gruppe, Detail Hands-on, Zitat-Portrait; Releases da; Embargo k
 
 **Stabile** Belichtung (Gesichter nicht ausfressen); **Fokus** auf **Augen**; **zweite Karte** oder Backup—kein Verlust des einzigen Takes.
 
-### Bad
+### Gut: technik: belichtung, fokus, backup
 
 ```text
 Alles unscharf; Karte voll; kein Backup.
 ```
 
-### Good
+### Gut: technik: belichtung, fokus, backup
 
 ```text
 Histogramm vor Ort; Augenfokus; Dual-Slot; Ersatzakku.
@@ -89,13 +88,13 @@ Histogramm vor Ort; Augenfokus; Dual-Slot; Ersatzakku.
 
 **Schutz**-Lead bei **Jugend**, **Trauma** oder **rechtlicher** Sensibilität einbinden—**keine** Überraschungsfotos in vulnerablen Momenten.
 
-### Bad
+### Gut: schutz und sensible kontexte
 
 ```text
 Beratungssitzung fotografieren ohne Freigabe.
 ```
 
-### Good
+### Gut: schutz und sensible kontexte
 
 ```text
 Geschlossene Sessions tabu; nur öffentliche Bereiche; mündliches Einwilligungs-Script pro Person.
@@ -107,13 +106,13 @@ Geschlossene Sessions tabu; nur öffentliche Bereiche; mündliches Einwilligungs
 
 **Namen** nur mit Freigabe; **Datum** und **Ort** stimmen; **keine** suggerierte Zustimmung Dritter.
 
-### Bad
+### Gut: editorial: captions und namen
 
 ```text
 Caption erfindet Zitat oder aufbläht Zahlen neben dem Bild.
 ```
 
-### Good
+### Gut: editorial: captions und namen
 
 ```text
 Caption: „Riverside-Workshop, März 2025—Namen mit Einwilligung.“; Zahlen aus derselben Quelle wie Presse.
@@ -125,13 +124,13 @@ Caption: „Riverside-Workshop, März 2025—Namen mit Einwilligung.“; Zahlen 
 
 Bilder mit **Einwilligungs-Metadaten** **ablegen**; **nutzbare Kanäle** taggen; **unbenutzte** Frames mit gleichen Rechte-Infos archivieren.
 
-### Bad
+### Gut: nach dem shooting: rechte und archiv
 
 ```text
 Ordner „kamera“ mit 2000 JPEGs; niemand weiß, was freigegeben ist.
 ```
 
-### Good
+### Gut: nach dem shooting: rechte und archiv
 
 ```text
 /2025-03-riverside/auswahl/ mit Sidecar: consent_id, Kanäle, Ablauf; Master im Archiv.
@@ -148,8 +147,7 @@ Ordner „kamera“ mit 2000 JPEGs; niemand weiß, was freigegeben ist.
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 NGO-Fotografie dient **Wahrheit und Würde**—**Einwilligung**, **Kontext**, **Sorgfalt**.
 
 ## Weiterführend

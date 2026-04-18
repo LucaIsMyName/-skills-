@@ -3,7 +3,6 @@
 **Scope:** **Utility-first styling** with Tailwind in apps (this library assumes **Tailwind v4**-style setup: `@import 'tailwindcss'`, CSS-first config, and `@theme` tokens). Not a substitute for component-library docs or a11y audits—pair with [`accessibility-in-code.md`](accessibility-in-code.md), [`react-best-practices.md`](react-best-practices.md), and design explainers under **Design**.
 
 ## Excerpt
-
 - **Prefer tokens over one-off pixels.** Map recurring values to your theme (`@theme`, design tokens) so UI stays consistent.
 - **Utilities describe state, not stories.** `hover:`, `focus-visible:`, `disabled:` belong in the same component string when behavior is local.
 - **Extract components when repetition hurts**, not on the first duplicate—copy/paste twice can be cheaper than the wrong abstraction.
@@ -155,3 +154,17 @@ Validate in **real content**, multiple breakpoints, and keyboard—Tailwind make
 ## Meta
 
 - Tailwind versions evolve: prefer **official docs** for API details; this skill encodes **team judgement**—when to abstract, when to stay utility-first, and how to stay aligned with accessibility and design tokens.
+
+---
+
+## Core idea
+
+This page gives practical guidance for tailwind css guide in repeatable, team-friendly steps.
+
+## Further reading
+
+- Continue with the related pages linked in the Scope section for deeper examples and adjacent workflows.
+
+---
+
+German version: [`tailwind-guide.md`](../../de/coding/tailwind-guide.md)

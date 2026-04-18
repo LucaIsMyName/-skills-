@@ -3,7 +3,6 @@
 **Scope:** Applies to **perceived and measured performance** of web apps—page load, interactivity, responsiveness, rendering. Not backend throughput tuning beyond the front door, not mobile native. Pair with [`accessibility-in-code.md`](accessibility-in-code.md), [`api-design-and-rest.md`](api-design-and-rest.md), [`error-handling-and-logging.md`](error-handling-and-logging.md), and [`empty-and-error-states.md`](../design/empty-and-error-states.md).
 
 ## Excerpt
-
 - **Measure first**: Real-User Monitoring (RUM) beats lab tests; both beat guessing.
 - **Core Web Vitals**: **LCP** (loading), **INP** (interactivity), **CLS** (stability). Set budgets.
 - **Ship less**: images, JS, and third-party scripts are where most pages go wrong.

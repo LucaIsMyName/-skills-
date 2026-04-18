@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **naming and scaling design tokens** (color, space, radius, typography) and **light/dark themes** in digital products; not a full design system governance process or code implementation details (see coding skills for implementation).
 
-## Excerpt 
-
+## Excerpt
 - Use when defining **semantic tokens** (`color.action.primary`) instead of only raw values (`#3366cc`).
 - Keep **one source of truth** for spacing and radius scales; document dark-mode mappings alongside light.
 - **Ask** for existing token set or design tool export before inventing names.
@@ -32,14 +31,14 @@ This document explains how to structure **tokens and themes** so UI stays **cons
 
 ### 1. Prefer semantic names over raw values
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
 background: #F5F5F5
 padding: 13px
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 background: color.surface.default
@@ -58,13 +57,13 @@ Define **semantic roles** (text.primary, border.subtle) mapped to palette entrie
 
 Spacing and radius should come from a **small set of steps** (e.g. 4, 8, 12, 16, 24, 32) rather than arbitrary numbers.
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
 margin: 17px; padding: 11px;
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 margin: space.4; padding: space.3
@@ -94,9 +93,8 @@ A one-page table: **token name → value → usage** prevents drift between desi
 
 ---
 
-## Final thought
-
-👉 Tokens are **contracts**. If the name does not describe **role**, theme switches become painful.
+## Core idea
+ Tokens are **contracts**. If the name does not describe **role**, theme switches become painful.
 
 ## Further reading
 
@@ -104,3 +102,6 @@ A one-page table: **token name → value → usage** prevents drift between desi
 - [Design Tokens Format (draft)](https://www.designtokens.org/tr/drafts/format/) — emerging file format conventions for tools and code
 - [W3C — CSS custom properties](https://www.w3.org/TR/css-variables-1/) — the usual web runtime mapping layer beneath many token pipelines
 
+---
+
+German version: [`design-tokens-und-theming.md`](../../de/design/design-tokens-und-theming.md)

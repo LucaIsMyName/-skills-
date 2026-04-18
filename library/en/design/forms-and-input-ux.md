@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **form layout, labels, validation, and input states** in digital products; not backend validation logic or legal text for consent (point to comms/legal).
 
-## Excerpt 
-
+## Excerpt
 - Use when designing **data entry**: single fields, multi-step flows, wizards.
 - **One primary action** per screen when possible; **clear error** placement and recovery.
 - **Ask** for field list, required rules, and error messaging source (product copy vs legal).
@@ -32,13 +31,13 @@ This document helps **reduce errors and abandonment** in forms through clear str
 
 ### 1. Visible labels
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
 Placeholder only: “Email” with no label; placeholder disappears on focus.
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 Persistent label above or beside field; placeholder optional for example format only.
@@ -56,13 +55,13 @@ Mark **optional** fields or state “required” clearly—don’t rely on aster
 
 Show **field-level** error next to the field; for many errors, add a **summary** at the top with links to fields.
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
 Submit fails with only a toast: “Something went wrong.”
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 “Enter a date in DD.MM.YYYY format” under the field; focus moves to first error.
@@ -92,9 +91,8 @@ If submit is disabled until complete, show **what’s missing** or enable submit
 
 ---
 
-## Final thought
-
-👉 Forms are where users **commit**. Confusion here is trust lost.
+## Core idea
+ Forms are where users **commit**. Confusion here is trust lost.
 
 ## Further reading
 
@@ -102,3 +100,6 @@ If submit is disabled until complete, show **what’s missing** or enable submit
 - [W3C WAI — Understanding 3.3.2 Labels or Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html) — what “obvious label” means for assistive tech
 - [W3C WAI — Forms tutorial](https://www.w3.org/WAI/tutorials/forms/) — label association, validation, and multi-step flows
 
+---
+
+German version: [`formulare-und-eingaben-ux.md`](../../de/design/formulare-und-eingaben-ux.md)

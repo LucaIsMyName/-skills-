@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Beziehungspflege** mit Spender*innen—Dank, Updates, Würdigung—ohne Manipulation. Kein Steuer-/Quittungsrecht. Ergänzt [`spendenaufrufe.md`](spendenaufrufe.md), [`newsletter-und-e-mail.md`](newsletter-und-e-mail.md), [`respektvolle-sprache.md`](respektvolle-sprache.md) und [`content-design-und-microcopy.md`](../design/content-design-und-microcopy.md).
 
 ## Exzerpt
-
 - **Schnell danken**—ideal in Tagen; **konkret**, wofür die Spende wirkt.
 - **Ton**: Wertschätzung und **Würde**—kein Schuldzuweisungs-Ton bei „nicht mehr“.
 - **Segmentierung** wo möglich (Erstspende vs. wiederkehrend vs. Großspende).
@@ -45,8 +44,7 @@ Spender*innen **wahrnehmen** und **informieren**—damit Unterstützung aus **ri
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Spenderbindung ist **Respekt in der Praxis**: **zeitnaher** Dank, **ehrliche** Wirkung, **maßvolle** weiteren Asks.
 
 ## Weiterführend

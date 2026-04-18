@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für den **Einsatz von KI in der Kommunikationsarbeit**—Entwürfe, Übersetzung, Redaktion, Bildgenerierung, Zusammenfassung, Transkription. Kein Ersatz für org-weite KI-Richtlinien oder Rechtsprüfung. Ergänzt [`prompten-grundlagen.md`](../ki-&-prompting/prompten-grundlagen.md), [`ki-in-der-kommunikation.md`](../ki-&-prompting/ki-in-der-kommunikation.md), [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`urheber-und-nutzungsrechte.md`](urheber-und-nutzungsrechte.md), [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md).
 
 ## Exzerpt
-
 - **KI ist Werkzeug**, keine Autor:in. Die veröffentlichende Person bleibt verantwortlich für Richtigkeit, Einwilligung und Ton.
 - **Substanziellen KI-Einsatz offenlegen.** „Wir haben Rechtschreibprüfung genutzt" ist nicht erheblich; „Bild vollständig KI-generiert" schon.
 - **Keine** personenbezogenen Daten, Safeguarding-Fälle, Spender:innendaten oder Klient:innenzitate in ungeklärte KI-Tools.
@@ -124,4 +123,4 @@ Die Frage ist nicht „hast du KI genutzt". Sie lautet: „**war das ehrlich, un
 
 ---
 
-English version: [`ai-disclosure-and-policy.md`](../../en/ethics-&-legal/ai-disclosure-and-policy.md)
+Englische Version: [`ai-disclosure-and-policy.md`](../../en/ethics-&-legal/ai-disclosure-and-policy.md)

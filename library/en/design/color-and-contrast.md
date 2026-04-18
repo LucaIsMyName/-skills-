@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **choosing and using colour** in UI, web, print, and data graphics—including accessible contrast, semantic colour roles, and theming. Pair with [`design-tokens-and-theming.md`](design-tokens-and-theming.md), [`design-accessibility.md`](design-accessibility.md), and [`data-visualization-basics.md`](data-visualization-basics.md).
 
-## Excerpt 
-
+## Excerpt
 - **Semantic roles over hex values.** Name colours by **what they do** (`surface`, `text`, `accent`, `danger`), not by their hue (`blue-500`).
 - **Contrast first.** WCAG AA: 4.5:1 for body text, 3:1 for large text and UI components. Check before you fall in love with a palette.
 - **Colour is never the only signal.** Pair with icon, text, or shape—colour-blind users and grayscale printers exist.

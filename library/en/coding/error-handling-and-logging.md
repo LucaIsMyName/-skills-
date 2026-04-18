@@ -3,7 +3,6 @@
 **Scope:** Applies to **how code reacts to failure** and **what you record**—exceptions, retries, timeouts, user-facing messages, structured logs, metrics, traces, alerts. Not full SRE/incident practice, not full security auditing. Pair with [`api-design-and-rest.md`](api-design-and-rest.md), [`security-for-web-apps.md`](security-for-web-apps.md), [`empty-and-error-states.md`](../design/empty-and-error-states.md), and [`status-updates-and-reporting.md`](../project-&-operations/status-updates-and-reporting.md).
 
 ## Excerpt
-
 - **Fail fast** at boundaries; **never swallow** exceptions silently.
 - **Two audiences**: a **user** (kind, concrete, action) and a **developer** (structured, searchable).
 - **Log structure, not prose**: JSON with `level`, `message`, `context`.
@@ -48,7 +47,7 @@ Design messages and handling per type, not one generic catch-all.
 
 ## 2. Raise, don't swallow
 
-### Bad
+### Bad: raise, don't swallow
 
 ```ts
 try {
@@ -59,7 +58,7 @@ try {
 // code continues as if mail was sent
 ```
 
-### Good
+### Good: raise, don't swallow
 
 ```ts
 try {
@@ -89,13 +88,13 @@ Rules:
 - **Do not** blame the user with "invalid input".
 - **Do not** expose stack traces or internal ids to end users.
 
-### Bad
+### Bad: user-facing error messages
 
 ```
 Error 500. Please try again.
 ```
 
-### Good
+### Good: user-facing error messages
 
 ```
 We couldn't save your changes because your email is already in use.
@@ -108,7 +107,7 @@ Pair with [`empty-and-error-states.md`](../design/empty-and-error-states.md).
 
 Emit JSON. Humans can grep it; machines can index it.
 
-### Good
+### Good: structured logs
 
 ```json
 {

@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **web UI code** (HTML, CSS, JS/TS, React)—the engineering side of accessibility. Companion to [`accessibility-for-comms.md`](../language-&-communication/accessibility-for-comms.md) (copy, image descriptions, captions) and [`designing-good-interfaces.md`](../design/designing-good-interfaces.md).
 
-## Excerpt 
-
+## Excerpt
 - **Semantic HTML first.** Use the element that already does the job; reach for ARIA only when no native element fits.
 - **Keyboard access is non-negotiable.** Every interactive element is reachable, operable, and visibly focused with `Tab` / `Shift+Tab` / `Enter` / `Space` / arrow keys where expected.
 - **Colour is not the only cue.** Contrast meets WCAG AA; state changes also use text, icon, or shape.
@@ -41,13 +40,13 @@ Ship interfaces that **work with a keyboard, a screen reader, at 200% zoom, in r
 - Headings in order: `<h1>` once per page/route, then `<h2>`, `<h3>`—no skipping for visual size.
 - Landmarks: `<header>`, `<nav>`, `<main>`, `<aside>`, `<footer>`.
 
-### Bad
+### Bad: start with html
 
 ```html
 <div class="btn" onclick="save()">Save</div>
 ```
 
-### Good
+### Good: start with html
 
 ```html
 <button type="button" onclick="save()">Save</button>

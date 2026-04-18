@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **GDPR-style data protection** as it affects communications work (photos, quotes, newsletters, forms, analytics). Not a legal opinion—when in doubt, escalate to a DPO or lawyer. Pair with [`image-and-quote-releases.md`](image-and-quote-releases.md), [`safeguarding-in-comms.md`](safeguarding-in-comms.md), and [`newsletter-and-email.md`](../language-&-communication/newsletter-and-email.md).
 
-## Excerpt 
-
+## Excerpt
 - **Personal data** is anything that can identify a person directly or in combination (name, photo, email, voice, IP).
 - **Lawful basis first**, then process: usually **consent**, **contract**, or **legitimate interest** for comms; **special categories** (health, religion, sexuality) need a higher bar.
 - **Minimise**: collect the least, keep it shortest, share it narrowest.

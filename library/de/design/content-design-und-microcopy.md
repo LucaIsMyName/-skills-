@@ -1,9 +1,8 @@
 # Content-Design und Microcopy
 
-**Scope:** Gilt für **Wörter im Interface**—Labels, Buttons, Formularhilfen, leere Zustände, Fehlermeldungen, Bestätigungen, Benachrichtigungen. Kein Longform-Texten, keine Markenstrategie. Kombiniere mit [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md), [`leere-und-fehlerzustaende.md`](leere-und-fehlerzustaende.md), [`handlungsaufrufe-und-asks.md`](../sprache-&-kommunikation/handlungsaufrufe-und-asks.md) und [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md).
+**Geltungsbereich:** Gilt für **Wörter im Interface**—Labels, Buttons, Formularhilfen, leere Zustände, Fehlermeldungen, Bestätigungen, Benachrichtigungen. Kein Longform-Texten, keine Markenstrategie. Kombiniere mit [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md), [`leere-und-fehlerzustaende.md`](leere-und-fehlerzustaende.md), [`handlungsaufrufe-und-asks.md`](../sprache-&-kommunikation/handlungsaufrufe-und-asks.md) und [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md).
 
-## Excerpt
-
+## Exzerpt
 - **Copy ist UI.** Wörter sind genauso Interface wie Buttons.
 - **Einfache Sprache, Verben auf Buttons, konsistente Begriffe.**
 - **Konkret schlägt generisch**: "Änderungen speichern" schlägt "OK".
@@ -45,13 +44,13 @@ Wörter, die Nutzende **mit Sicherheit handeln** lassen—ehrlich, konkret, kons
 
 Feld-Label beschreibt **was reinkommt**, nicht wie.
 
-### Schlecht
+### Schlecht: labels
 
 ```
 Bitte geben Sie unten Ihre E-Mail-Adresse ein:
 ```
 
-### Gut
+### Gut: labels
 
 ```
 E-Mail-Adresse
@@ -67,13 +66,13 @@ E-Mail-Adresse
 - Kein "OK" auf destruktiven Bestätigungen.
 - "Senden" vermeiden—lieber "Einladung senden", "Änderungen speichern".
 
-### Schlecht
+### Schlecht: buttons/ctas
 
 ```
 [ OK ]
 ```
 
-### Gut
+### Gut: buttons/ctas
 
 ```
 [ Rechnung löschen ]
@@ -87,13 +86,13 @@ Marketing-CTAs: siehe [`handlungsaufrufe-und-asks.md`](../sprache-&-kommunikatio
 - **Beispiele**: "z. B. 0176 1234567".
 - **Validierung** erklärt Problem + Fix.
 
-### Schlecht
+### Schlecht: formularhilfen/validierung
 
 ```
 Ungültige Eingabe.
 ```
 
-### Gut
+### Gut: formularhilfen/validierung
 
 ```
 Nutzen Sie eine Arbeitsadresse (z. B. sie@ihrverein.de), damit wir Ihr Team verknüpfen können.
@@ -112,13 +111,13 @@ Noch keine Projekte. Legen Sie Ihr erstes an, um Fortschritt zu sehen.
 
 **Was**, **warum**, **was nun**.
 
-### Schlecht
+### Schlecht: fehlermeldungen
 
 ```
 Etwas ist schiefgelaufen.
 ```
 
-### Gut
+### Gut: fehlermeldungen
 
 ```
 Wir konnten Ihre Änderungen nicht speichern: die Verbindung brach ab.
@@ -134,7 +133,7 @@ Nie beschuldigen—"Prüfen Sie die E-Mail—das Format erkennen wir nicht."
 - **Verb** auf Confirm-Button.
 - Keine Tricks ("Nö, will ich nicht" für "Abbrechen").
 
-### Gut
+### Gut: bestätigungen
 
 ```
 "Jahresbericht 2024" löschen?
@@ -159,13 +158,13 @@ Die Datei wandert in den Papierkorb. 30 Tage wiederherstellbar.
 - **Übersetzer-Notizen** bei doppeldeutigen Begriffen.
 - Siehe [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md).
 
-### Schlecht
+### Schlecht: lokalisierung
 
 ```
 "Hi {{name}}, dein {{plan}} wurde gerade besser!"
 ```
 
-### Gut
+### Gut: lokalisierung
 
 ```
 "Hallo {{name}}, wir haben Ihren Plan ({{plan}}) aktualisiert."
@@ -181,12 +180,10 @@ Die Datei wandert in den Papierkorb. 30 Tage wiederherstellbar.
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Microcopy ist die **freundliche, kompetente Kollegin** im Produkt: sagt, was hier ist, was passieren wird, was passiert ist—in wenigen Worten, in der Sprache der Nutzenden.
 
-## Further reading
-
+## Weiterführend
 - [UX Writing Hub](https://uxwritinghub.com/ux-writing-examples/)
 - [Microsoft Style Guide](https://learn.microsoft.com/de-de/style-guide/welcome/)
 - [Shopify Polaris — Content](https://polaris.shopify.com/content)

@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Listen, Formulare, Handler, Async, bedingtes Rendering und Dateistruktur** in React-Apps. Keine Form-Library-Tiefen. Kombiniere mit [`react-state-hooks-und-effects.md`](react-state-hooks-und-effects.md) und [`react-best-practices.md`](react-best-practices.md).
 
 ## Exzerpt
-
 - **Stabile Keys**; **kontrollierte** Formulare als Standard.
 - **Async** mit klarem Loading/Error-UX; **niemals** State mutieren.
 - **Projekt-Layout** passend zu Feature-Ownership.
@@ -32,19 +31,19 @@ UI liefern, die **echte Eingaben** abfedert und **mit dem Code wächst**.
 
 Keys müssen **stabil und eindeutig** sein.
 
-### ❌ Schlecht
+### Schlecht: keys in listen
 
 ```ts
 items.map((item, index) => <Item key={index} />)
 ```
 
-### ✅ Gut
+### Gut: keys in listen
 
 ```ts
 items.map(item => <Item key={item.id} />)
 ```
 
-👉 Falsche Keys = seltsame Bugs. Siehe [Rendering lists — keys](https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-keys).
+ Falsche Keys = seltsame Bugs. Siehe [Rendering lists — keys](https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-keys).
 
 ---
 
@@ -61,31 +60,31 @@ items.map(item => <Item key={item.id} />)
 * Performance (große Formulare)
 * Formular-Bibliotheken
 
-👉 Kontrolliert = vorhersagbar, kann aber teuer sein.
+ Kontrolliert = vorhersagbar, kann aber teuer sein.
 
 ---
 
 ## 11. Event-Handler
 
-### ❌ Schlecht
+### Schlecht: event-handler
 
 ```ts
 <button onClick={handleClick()} />
 ```
 
-### ✅ Gut
+### Gut: event-handler
 
 ```ts
 <button onClick={handleClick} />
 ```
 
-👉 Funktion übergeben ≠ Funktion aufrufen.
+ Funktion übergeben ≠ Funktion aufrufen.
 
 ---
 
 ## 12. Async-Logik
 
-### ❌ Schlecht
+### Schlecht: async-logik
 
 ```ts
 useEffect(() => {
@@ -98,32 +97,32 @@ useEffect(() => {
 * Datenbibliothek (empfohlen)
 * Loading- und Fehlerzustände explizit
 
-👉 Async ohne Struktur = schnell Bugs.
+ Async ohne Struktur = schnell Bugs.
 
 ---
 
 ## 13. State mutieren (nein)
 
-### ❌ Schlecht
+### Schlecht: state mutieren (nein)
 
 ```ts
 items.push(newItem);
 setItems(items);
 ```
 
-### ✅ Gut
+### Gut: state mutieren (nein)
 
 ```ts
 setItems(prev => [...prev, newItem]);
 ```
 
-👉 State immer als unveränderlich behandeln.
+ State immer als unveränderlich behandeln.
 
 ---
 
 ## 14. Bedingtes Rendern
 
-### ❌ Unübersichtlich
+###  Unübersichtlich
 
 ```tsx
 return (
@@ -141,7 +140,7 @@ return (
 );
 ```
 
-### ✅ Klar
+###  Klar
 
 ```ts
 if (loading) return <Loading />;
@@ -150,7 +149,7 @@ if (!data) return <Empty />;
 return <Content data={data} />;
 ```
 
-👉 Frühe Returns statt verschachtelter Ternäre—lesbarer und erweiterbarer.
+ Frühe Returns statt verschachtelter Ternäre—lesbarer und erweiterbarer.
 
 ---
 
@@ -167,33 +166,33 @@ src/
   lib/
 ```
 
-👉 Bei Skalierung nach Feature gruppieren, nicht nur nach Typ.
+ Bei Skalierung nach Feature gruppieren, nicht nur nach Typ.
 
 ---
 
 ## 16. Häufige Fußangeln
 
-### 🚨 `useEffect` überall
+###  `useEffect` überall
 
 → nur für Side Effects
 
-### 🚨 Abgeleiteten State speichern
+###  Abgeleiteten State speichern
 
 → ableiten
 
-### 🚨 Index als Key
+###  Index als Key
 
 → stabile IDs
 
-### 🚨 State mutieren
+###  State mutieren
 
 → immer kopieren
 
-### 🚨 `useMemo` überoptimieren
+###  `useMemo` überoptimieren
 
 → nur bei Bedarf
 
-### 🚨 Riesige Komponenten
+###  Riesige Komponenten
 
 → früh teilen
 
@@ -229,12 +228,13 @@ Schlechter React-Code wirkt:
 * fragil
 * schwer zu debuggen
 
-👉 Wenn etwas kompliziert wirkt, ist es das meist auch—vereinfachen.
+ Wenn etwas kompliziert wirkt, ist es das meist auch—vereinfachen.
 
 ---
 
-Englische Version: [`react-best-practices.md`](../../en/coding/react-best-practices.md)
+## Kerngedanke
 
+Diese Seite bietet praxisnahe Orientierung zu react: komponenten, async, struktur in klaren, wiederverwendbaren Schritten.
 
 ---
 

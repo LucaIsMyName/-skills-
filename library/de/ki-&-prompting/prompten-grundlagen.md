@@ -1,9 +1,8 @@
 # Prompten-Grundlagen
 
-**Scope:** Gilt für **wirksame Anweisungen** an Sprachmodelle—Rollen, Einschränkungen, Beispiele, Iteration, Prüfung. Nicht für Modelltraining, Einkauf oder organisationsweite KI-Richtlinien (siehe [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md)). Kombiniere mit [`prompt-muster.md`](prompt-muster.md), [`modelloutput-bewerten.md`](modelloutput-bewerten.md) und [`skill-dokumentation-schreiben.md`](skill-dokumentation-schreiben.md).
+**Geltungsbereich:** Gilt für **wirksame Anweisungen** an Sprachmodelle—Rollen, Einschränkungen, Beispiele, Iteration, Prüfung. Nicht für Modelltraining, Einkauf oder organisationsweite KI-Richtlinien (siehe [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md)). Kombiniere mit [`prompt-muster.md`](prompt-muster.md), [`modelloutput-bewerten.md`](modelloutput-bewerten.md) und [`skill-dokumentation-schreiben.md`](skill-dokumentation-schreiben.md).
 
-## Excerpt
-
+## Exzerpt
 - **Aufgabe** in einem Satz; klare **Einschränkungen** (Länge, Ton, Zielgruppe, Format, Verbote).
 - **Beispiele** bei schwer beschreibbarer Form; **Gegenbeispiele** gegen wiederkehrende Fehler.
 - **Iterieren**: kleinster Prompt, der plausibel reicht → Output gegen Abnahmekriterien lesen → **eine** Variable ändern.
@@ -47,13 +46,13 @@ Ein brauchbarer Prompt nennt fünf Dinge, möglichst in dieser Reihenfolge:
 - **Format**: Layout der Antwort.
 - **Beispiele** (optional, oft entscheidend): ein bis zwei Input/Output-Paare.
 
-### Schlecht
+### Schlecht: anatomie eines starken prompts
 
 ```text
 Schreib was zur Spendenaktion.
 ```
 
-### Gut
+### Gut: anatomie eines starken prompts
 
 ```text
 Aufgabe: 120-Wörter-Mail an Bestandsspender\*innen (DE, Sie), Einladung
@@ -77,13 +76,13 @@ Format: Betreff + kurze Absätze + eigene CTA-Zeile.
 - Lieber **explizite Regeln**: "Einfache Sprache, CEFR B1, kurze Sätze" schlägt "sei einfach und freundlich".
 - Siehe [`systemprompts-und-personas.md`](systemprompts-und-personas.md).
 
-### Schlecht
+### Schlecht: rollen und system-prompts
 
 ```text
 Du bist ein Weltklasse-Marketer. Mach es grandios.
 ```
 
-### Gut
+### Gut: rollen und system-prompts
 
 ```text
 Du hilfst der Kommunikationsleitung beim Editieren eines Entwurfs.
@@ -103,7 +102,7 @@ Beispiele fixieren **Form** und **Stimme** am schnellsten.
 - **Zwei–drei** Beispiele: für schwer beschreibbaren Ton.
 - **Gegenbeispiel** schlägt viele Adjektive, wenn derselbe Fehler wiederkommt.
 
-### Gut
+### Gut: beispiele und gegenbeispiele (few-shot)
 
 ```text
 So soll der Ton klingen:
@@ -143,9 +142,9 @@ Modelle erzeugen plausiblen Text. Plausibilität ist nicht Wahrheit.
 
 - **Fakten mitgeben**, nicht ans "Gedächtnis" des Modells appellieren.
 - Bei Web-Aussagen erlauben, "nicht in den Quellen enthalten" zu sagen, statt zu erfinden.
-- Forschungsarbeit mit [`ki-in-der-recherche.md`](ki-in-der-recherche.md) und [`quellenpruefung-und-faktencheck.md`](../recherche-&-analyse/quellenpruefung-und-faktencheck.md) kombinieren.
+- Forschungsarbeit mit [`ki-in-der-recherche.md`](ki-in-der-recherche.md) und [`quellenbewertung-und-faktencheck.md`](../recherche-&-analyse/quellenbewertung-und-faktencheck.md) kombinieren.
 
-### Gut
+### Gut: grundierung: fakten statt stimmung
 
 ```text
 Extrahiere NUR aus dem folgenden Text (Quelle X, abgerufen 2025-03-01):
@@ -206,12 +205,10 @@ Beispiele:
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Prompten ist **Spezifikationsarbeit unter Unsicherheit**: das Modell spiegelt die Schärfe deiner Spezifikation und die Qualität deiner Prüfung. Wenn der Output falsch ist, liegt es fast nie an "zu wenig cleverem Prompt"—sondern an unklarem Ziel, schlechten Inputs oder ehrlichem "nicht genug Information".
 
-## Further reading
-
+## Weiterführend
 - [OpenAI — Prompt engineering guide](https://platform.openai.com/docs/guides/prompt-engineering)
 - [Anthropic — Prompt engineering overview](https://docs.anthropic.com/claude/docs/intro-to-prompting)
 - [Google — Prompt design strategies](https://ai.google.dev/gemini-api/docs/prompting-strategies)

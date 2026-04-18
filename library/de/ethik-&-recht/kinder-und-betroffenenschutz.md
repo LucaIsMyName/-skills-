@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Kommunikationsentscheidungen mit Kindern, Jugendlichen und schutzbedürftigen Erwachsenen** (Klient:innen, Bewohner:innen, Patient:innen, Überlebende, Menschen in Krise). Kein Ersatz für die komplette Schutz-/Safeguarding-Richtlinie der Organisation. Ergänzt [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`bild-und-zitatfreigaben.md`](bild-und-zitatfreigaben.md), [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md).
 
 ## Exzerpt
-
 - **Schutz vor Geschichte.** Kein Bild, kein Zitat, kein Fallbeispiel ist Schaden an der Person wert.
 - Kinder und schutzbedürftige Erwachsene: **Einwilligung der Erziehungsberechtigten + altersgerechte Zustimmung der Person** plus zweites redaktionelles Augenpaar.
 - **Erkennbarkeit ist kumulativ**—Vorname + Diagnose + Viertel reichen.
@@ -124,4 +123,4 @@ Schutz in Comms heißt: **die Person geht aus der Veröffentlichung besser herau
 
 ---
 
-English version: [`safeguarding-in-comms.md`](../../en/ethics-&-legal/safeguarding-in-comms.md)
+Englische Version: [`safeguarding-in-comms.md`](../../en/ethics-&-legal/safeguarding-in-comms.md)

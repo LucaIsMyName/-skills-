@@ -3,7 +3,6 @@
 **Scope:** Applies to **Markdown and MDX authoring in docs and product content**—headings, links, code blocks, tables, frontmatter, MDX components, accessibility, versioning. Not full LaTeX, not static-site tuning. Pair with [`writing-skill-documentation.md`](../ai-&-prompting/writing-skill-documentation.md), [`accessibility-in-code.md`](accessibility-in-code.md), [`content-design-and-microcopy.md`](../design/content-design-and-microcopy.md), and [`file-naming-and-organising.md`](../media-&-production/file-naming-and-organising.md).
 
 ## Excerpt
-
 - **Plain Markdown first**—add MDX components only when they earn their complexity.
 - One **H1** per document; then H2 and H3, in order, no skips.
 - **Links describe their target**—no "click here".
@@ -47,13 +46,13 @@ Author docs and product content that are **readable, accessible, and searchable*
 - Use **relative paths** for in-repo links.
 - Reference external docs with their **canonical URL**.
 
-### Bad
+### Bad: links
 
 ```md
 Read more [here](https://example.com/guide).
 ```
 
-### Good
+### Good: links
 
 ```md
 See the [Mozilla — HTTP Accept-Encoding guide](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Encoding).
@@ -65,7 +64,7 @@ See the [Mozilla — HTTP Accept-Encoding guide](https://developer.mozilla.org/e
 - For shell, use `bash` or `sh`; for config, `yaml`, `toml`, `json`.
 - Keep blocks focused: one idea, under ~30 lines. Long programs live in a linked file.
 
-### Bad
+### Bad: code blocks
 
 ````md
 ```
@@ -73,7 +72,7 @@ const x = 1
 ```
 ````
 
-### Good
+### Good: code blocks
 
 ````md
 ```ts
@@ -88,7 +87,7 @@ const user = await db.user.findUniqueOrThrow({ where: { id } })
 - Prefer `.webp`/`.avif` for photos, `.svg` for diagrams.
 - Store large media in a CDN or LFS, not in `main` as raw binaries.
 
-### Good
+### Good: images and media
 
 ```md
 ![Funnel chart showing 40% conversion on step 1, 18% on step 2](./funnel-q1.webp)
@@ -130,7 +129,7 @@ tags: [ai, prompting, documentation]
 - Keep components **accessible**—keyboard, focus, ARIA; see [`accessibility-in-code.md`](accessibility-in-code.md).
 - Keep props **simple**—a component used in docs by non-engineers needs to be forgiving.
 
-### Good
+### Good: mdx components
 
 ```mdx
 <Note>

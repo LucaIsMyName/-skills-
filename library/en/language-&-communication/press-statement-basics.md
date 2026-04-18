@@ -2,8 +2,7 @@
 
 **Scope:** Applies to external press statements and media-facing announcements; not internal HR policies, contracts, or legal advice.
 
-## Excerpt 
-
+## Excerpt
 - Use when drafting or editing **press releases** for journalists and the public.
 - Lead with **who / what / when / where / why**; stay factual, not promotional.
 - **Ask** for missing facts, quotes, contacts, and embargoes—**do not invent** them.
@@ -38,7 +37,7 @@ Before drafting, the prompt must include **all relevant facts and constraints**,
 - Tone: neutral, factual, and appropriate level of accessibility
 - **No** identifying details about individuals without clear approval
 
-👉 The structure in the sections below only works if the prompt fills these slots.
+ The structure in the sections below only works if the prompt fills these slots.
 
 ---
 
@@ -50,7 +49,7 @@ A press statement is:
 * **clear, not clever**
 * **structured, not free-form**
 
-👉 You are not writing marketing copy — you are communicating facts.
+ You are not writing marketing copy — you are communicating facts.
 
 ---
 
@@ -66,19 +65,19 @@ The first paragraph should answer:
 * Where?
 * Why?
 
-### ❌ Bad
+### Bad: lead with the facts
 
 ```text
 Our charity is delighted to share some truly wonderful news with you all.
 ```
 
-### ✅ Good
+### Good: lead with the facts
 
 ```text
 The Riverside Community Trust opens a new weekly advice session for families on low incomes in Bristol on Monday.
 ```
 
-👉 The reader should understand the core message immediately.
+ The reader should understand the core message immediately.
 
 ---
 
@@ -93,19 +92,19 @@ The headline should be:
 * factual
 * **Headline and body copy must match**—what the headline announces, the text delivers (no empty promise)
 
-### ❌ Bad
+### Bad: write a strong headline
 
 ```text
 Hope for a Better Tomorrow
 ```
 
-### ✅ Good
+### Good: write a strong headline
 
 ```text
 City Food Bank Opens New Weekend Collection Point in Riverside
 ```
 
-👉 Avoid vague or exaggerated language.
+ Avoid vague or exaggerated language.
 
 ---
 
@@ -115,19 +114,19 @@ City Food Bank Opens New Weekend Collection Point in Riverside
 
 Use short sentences and paragraphs.
 
-### ❌ Bad
+### Bad: keep it concise
 
 ```text
 The organization, which for many years has pursued a mission of holistic empowerment, is pleased to unveil a multi-phase initiative that will...
 ```
 
-### ✅ Good
+### Good: keep it concise
 
 ```text
 The trust launched a night shelter for rough sleepers. It adds 20 beds this winter.
 ```
 
-👉 One idea per sentence.
+ One idea per sentence.
 
 ---
 
@@ -137,19 +136,19 @@ The trust launched a night shelter for rough sleepers. It adds 20 beds this wint
 
 Avoid hype, exaggeration, or emotional language.
 
-### ❌ Bad
+### Bad: stay neutral and professional
 
 ```text
 An incredible, life-changing programme that will transform everything!
 ```
 
-### ✅ Good
+### Good: stay neutral and professional
 
 ```text
 A new debt advice service with longer opening hours.
 ```
 
-👉 Let facts speak for themselves.
+ Let facts speak for themselves.
 
 ---
 
@@ -164,7 +163,7 @@ A new debt advice service with longer opening hours.
 5. Closing / additional info
 6. Contact information
 
-👉 Readers expect this structure.
+ Readers expect this structure.
 
 ---
 
@@ -183,7 +182,7 @@ A new debt advice service with longer opening hours.
 * internal jargon
 * irrelevant details
 
-👉 Every sentence should add value.
+ Every sentence should add value.
 
 ---
 
@@ -200,25 +199,25 @@ A new debt advice service with longer opening hours.
 "This means we can see people the same week they ask for help," said the programme director.
 ```
 
-👉 Quotes should add meaning, not repeat facts.
+ Quotes should add meaning, not repeat facts.
 
 ---
 
 ## 8. Avoid Jargon and Buzzwords
 
-### ❌ Bad
+### Bad: avoid jargon and buzzwords
 
 ```text
 A scalable, transformative, next-generation wraparound ecosystem
 ```
 
-### ✅ Good
+### Good: avoid jargon and buzzwords
 
 ```text
 A helpline that can take more calls when demand goes up
 ```
 
-👉 Write for a general audience, not insiders.
+ Write for a general audience, not insiders.
 
 ---
 
@@ -228,19 +227,19 @@ A helpline that can take more calls when demand goes up
 
 Use concrete, verifiable statements.
 
-### ❌ Bad
+### Bad: be precise
 
 ```text
 Soon our work will change everything for everyone.
 ```
 
-### ✅ Good
+### Good: be precise
 
 ```text
 Volunteer induction training starts on 15 September 2026.
 ```
 
-👉 Specifics build credibility.
+ Specifics build credibility.
 
 ---
 
@@ -253,7 +252,7 @@ A press statement should be:
 * typically 150–400 words
 * focused on one main message
 
-👉 If it’s too long, it won’t be read.
+ If it’s too long, it won’t be read.
 
 ---
 
@@ -265,29 +264,29 @@ A press statement should be:
 * contact info
 * links (if applicable)
 
-👉 Make it easy to follow up.
+ Make it easy to follow up.
 
 ---
 
 ## 12. Common Footguns
 
-### 🚨 Too much marketing tone
+###  Too much marketing tone
 
 → Sounds like an ad → loses credibility
 
-### 🚨 Burying the main message
+###  Burying the main message
 
 → Put key info first
 
-### 🚨 Long, complex sentences
+###  Long, complex sentences
 
 → Hard to read → easy to misunderstand
 
-### 🚨 No clear structure
+###  No clear structure
 
 → Confuses the reader
 
-### 🚨 Vague statements
+###  Vague statements
 
 → Reduces trust
 
@@ -307,10 +306,20 @@ Bad ones feel:
 * confusing
 * bloated
 
-👉 If it sounds like marketing, rewrite it.
+ If it sounds like marketing, rewrite it.
 
 ## Further reading
 
 - [GOV.UK — style guide A to Z](https://www.gov.uk/guidance/style-guide/a-to-z) — plain, consistent wording for public-facing copy
 - [Dart Center — covering trauma](https://dartcenter.org/) — dignity-first guidance when statements involve harm or loss
 - [BBC — Editorial Guidelines (hub)](https://www.bbc.co.uk/editorialguidelines/) — independence, accuracy, privacy, and harm standards from a major newsroom
+
+---
+
+## Core idea
+
+This page gives practical guidance for press statement basics in repeatable, team-friendly steps.
+
+---
+
+German version: [`pressemitteilungen-schreiben.md`](../../de/sprache-&-kommunikation/pressemitteilungen-schreiben.md)

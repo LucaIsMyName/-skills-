@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für die **Design-Seite der Barrierefreiheit**—Layout, Typografie, Farbe, Motion, Affordances, Muster. Ergänzt [`accessibility-in-code.md`](../../en/coding/accessibility-in-code.md) (Engineering) und [`barrierefreiheit-kommunikation.md`](../sprache-&-kommunikation/barrierefreiheit-kommunikation.md) (Text). Pairt mit [`farbe-und-kontrast.md`](farbe-und-kontrast.md), [`typografie.md`](typografie.md), [`motion-und-micro-interactions.md`](motion-und-micro-interactions.md).
 
 ## Exzerpt
-
 - **Barrierefreiheit ist Design**, kein Nachklapp. Wer bei Zoom, Reduced Motion oder Tastatur scheitert, hat das Design verfehlt.
 - **Trefferflächen** ≥24×24 CSS-Pixel (WCAG 2.2), möglichst ≥44×44. Klickfläche größer als Optik.
 - **Kontrast** mindestens AA (4,5:1 Body, 3:1 groß/UI). Siehe [`farbe-und-kontrast.md`](farbe-und-kontrast.md).
@@ -136,6 +135,10 @@ Barrierefreies Design ist **erster Durchgang, nicht letzter**. „Funktioniert f
 - [Inclusive Design Principles](https://inclusivedesignprinciples.org/) — Menschen-zuerst-Heuristiken ergänzend zu WCAG-Tests
 - [W3C WAI — Tutorials](https://www.w3.org/WAI/tutorials/) — Regionen, Bilder, Tabellen, Formulare praxisnah
 
+## Weiterführend
+
+- Nutze die verwandten Seiten im Geltungsbereich fuer vertiefende Beispiele und angrenzende Workflows.
+
 ---
 
-English version: [`design-accessibility.md`](../../en/design/design-accessibility.md)
+Englische Version: [`design-accessibility.md`](../../en/design/design-accessibility.md)

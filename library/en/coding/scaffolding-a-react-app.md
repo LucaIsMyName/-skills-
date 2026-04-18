@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **bootstrapping new React projects** and initial repo layout; not migrating legacy codebases or choosing non-React stacks.
 
-## Excerpt 
-
+## Excerpt
 - Use when **creating a new React app** from scratch: tooling order, folder expectations, consistency with project conventions.
 - Follow the **scaffold sequence** in the file; confirm toolchain (package manager, Vite/CRA, etc.) with the user if unknown.
 - Full file below: step-by-step scaffolding and setup details.
@@ -49,7 +48,7 @@ npx shadcn@latest init
 - Avoid non-null assertions (`!`)
   - Prefer optional chaining (`?.`) or guards
 
-👉 Type safety is not optional — it prevents bugs early.
+ Type safety is not optional — it prevents bugs early.
 
 ---
 
@@ -69,7 +68,7 @@ npx shadcn@latest init
   - Base styles = mobile
   - Use `sm:`, `md:`, `lg:` for larger screens
 
-👉 Consistency in styling = faster development + cleaner UI.
+ Consistency in styling = faster development + cleaner UI.
 
 ---
 
@@ -97,7 +96,7 @@ npx shadcn@latest init
   npm install @base-ui-components/react
   ```
 
-👉 Prefer composition over reinvention.
+ Prefer composition over reinvention.
 
 ---
 
@@ -125,7 +124,7 @@ npx shadcn@latest init
   React.lazy(() => import("@/modules/..."));
   ```
 
-👉 Routing should be centralized and predictable.
+ Routing should be centralized and predictable.
 
 ---
 
@@ -148,7 +147,7 @@ npm install @tanstack/react-query
 - Use `useMutation` for writes
   - Invalidate queries in `onSuccess`
 
-👉 Server state ≠ UI state. Treat it differently.
+ Server state ≠ UI state. Treat it differently.
 
 ---
 
@@ -167,7 +166,7 @@ npm install @tanstack/react-virtual
 
 - Do NOT add unless needed (100+ items)
 
-👉 Optimize only when necessary.
+ Optimize only when necessary.
 
 ---
 
@@ -185,7 +184,7 @@ npm install @tanstack/react-table
   - `getPaginationRowModel`
   - etc.
 
-👉 Avoid unnecessary computation and re-renders.
+ Avoid unnecessary computation and re-renders.
 
 ---
 
@@ -210,7 +209,7 @@ npm install react-helmet-async
   - internal tools
   - non-indexed apps
 
-👉 SEO only matters when content is public.
+ SEO only matters when content is public.
 
 ---
 
@@ -275,6 +274,12 @@ StrictMode > HelmetProvider > QueryClientProvider > RouterProvider
 **TypeScript**
 
 - [TypeScript — tsconfig reference](https://www.typescriptlang.org/tsconfig/) — use with `strict` and unused checks aligned with this scaffold
+
+---
+
+## Core idea
+
+This page gives practical guidance for scaffolding a react app in repeatable, team-friendly steps.
 
 ---
 

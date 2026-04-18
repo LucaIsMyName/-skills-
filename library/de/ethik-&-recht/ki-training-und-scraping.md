@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Ethische und rechtliche** Risiken, wenn Webinhalte **gescraped** oder zum **Trainieren** von KI genutzt werden—Zustimmung, Nutzungsbedingungen, robots, Opt-outs. **Keine Rechtsberatung.** Ergänzt [`ki-offenlegung-und-richtlinien.md`](ki-offenlegung-und-richtlinien.md), [`urheber-und-nutzungsrechte.md`](urheber-und-nutzungsrechte.md) und [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md).
 
 ## Exzerpt
-
 - **AGB** und **robots.txt** können automatisierten Zugriff begrenzen—**lesen**.
 - **Urheberrecht** kann **Werke** schützen—**Training** kann Rechte berühren.
 - **Personenbezogene Daten** in gescrapten Seiten können **DSGVO** auslösen.
@@ -45,8 +44,7 @@
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 **Datennutzung ist bedingt**—**Rechte**, **Recht**, **Menschen** vor **Modell-Performance**.
 
 ## Weiterführend

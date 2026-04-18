@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **deciding whether a source can be trusted** and **verifying claims** before publication in comms, press, stories, or briefings. Pair with [`desk-research.md`](desk-research.md), [`reading-statistics-plainly.md`](reading-statistics-plainly.md), [`crisis-and-sensitive-topics.md`](../language-&-communication/crisis-and-sensitive-topics.md).
 
-## Excerpt 
-
+## Excerpt
 - **Source evaluation** asks: _can I rely on this?_ **Fact-checking** asks: _is this specific claim correct?_ Do both.
 - Use **CRAAP** as a quick filter: **C**urrency, **R**elevance, **A**uthority, **A**ccuracy, **P**urpose.
 - **Triangulate**: two or more independent sources for any non-trivial claim. Copies of each other do not count as independent.

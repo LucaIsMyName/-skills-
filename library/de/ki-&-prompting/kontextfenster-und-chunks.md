@@ -1,9 +1,8 @@
 # Kontextfenster und Chunks
 
-**Scope:** Gilt für **Passen von Dokumenten, Verlauf und Tool-Outputs** ins **Kontextfenster** eines Sprachmodells—Chunking, Zusammenfassung, Priorisierung, Re-Anchoring, Kosten/Latenz. Nicht Modellarchitektur, nicht Produktions-Vektor-Infra (siehe [`rag-grundlagen.md`](rag-grundlagen.md)). Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`prompt-muster.md`](prompt-muster.md), [`skill-dokumentation-schreiben.md`](skill-dokumentation-schreiben.md) und [`sprachmodelle-im-code-nutzen.md`](../coding/sprachmodelle-im-code-nutzen.md).
+**Geltungsbereich:** Gilt für **Passen von Dokumenten, Verlauf und Tool-Outputs** ins **Kontextfenster** eines Sprachmodells—Chunking, Zusammenfassung, Priorisierung, Re-Anchoring, Kosten/Latenz. Nicht Modellarchitektur, nicht Produktions-Vektor-Infra (siehe [`rag-grundlagen.md`](rag-grundlagen.md)). Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`prompt-muster.md`](prompt-muster.md), [`skill-dokumentation-schreiben.md`](skill-dokumentation-schreiben.md) und [`sprachmodelle-im-code-nutzen.md`](../coding/sprachmodelle-im-code-nutzen.md).
 
-## Excerpt
-
+## Exzerpt
 - **Kontext ist endlich** (Tokens) und **nicht gratis** (Kosten, Latenz). Planen, nicht "reinstopfen".
 - **Chunks** an logischen Nähten; gleiche Frage pro Chunk; am Ende zusammenführen.
 - **Zusammenfassungen** mit explizitem Ziel; "fasse zusammen" verbirgt wichtige Fehler.
@@ -42,14 +41,14 @@ Kontextbudget für **Signal** ausgeben, damit Outputs **geerdet, fokussiert, bez
 - **Verlauf**: zusammenfassen oder wegwerfen.
 - **Few-Shot-Beispiele**: so klein wie noch wirksam.
 
-### Schlecht
+### Schlecht: das kontextbudget
 
 ```text
 [40-Seiten-PDF einfügen]
 Fasse zusammen.
 ```
 
-### Gut
+### Gut: das kontextbudget
 
 ```text
 Aufgabe: Nur Abschnitt 3 (Zeilen 120–180) in 6 Bullets in einfacher Sprache.
@@ -66,7 +65,7 @@ Auszug (Abschnitt 3 only, Namen geschwärzt):
 - **Titel** im Chunk lassen.
 - **IDs** (`chunk_3.2`) für Zitate.
 
-### Gut
+### Gut: chunking-strategien
 
 ```text
 Für jeden Chunk dieselbe Frage beantworten:
@@ -88,13 +87,13 @@ Summaries verdichten auch **Fehler**. Ziel explizit machen.
 - **Reduce**: strukturiertes finales Artefakt.
 - **Verify**: Zitate gegen Quelle prüfen.
 
-### Schlecht
+### Schlecht: zusammenfassen
 
 ```text
 Fasse in 3 Sätzen zusammen.
 ```
 
-### Gut
+### Gut: zusammenfassen
 
 ```text
 Zusammenfassung für ein Vorstandsmitglied.
@@ -110,7 +109,7 @@ Einschränkungen:
 
 Modelle vergessen, warum ihr redet. Alle paar Turns erinnern.
 
-### Gut
+### Gut: re-anchoring langer threads
 
 ```text
 Reset: Wir beantworten EINE Frage:
@@ -172,12 +171,10 @@ Vendor-Semantik aktuell prüfen.
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Kontext ist ein **Budget**: kleinster Prompt, minimale maßgebliche Belege, Retrieval bei großen Korpora, frische Session bei müden Threads. Der beste Kontext macht die Antwort **kurz, geerdet, leicht reviewbar**.
 
-## Further reading
-
+## Weiterführend
 - [OpenAI — Models and token limits](https://platform.openai.com/docs/models)
 - [Anthropic — Long context](https://docs.anthropic.com/claude/docs/long-context-window-tips)
 - [Google — Gemini context caching](https://ai.google.dev/gemini-api/docs/caching)

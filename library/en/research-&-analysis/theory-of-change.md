@@ -3,7 +3,6 @@
 **Scope:** A **theory of change** (ToC) explains **how** and **why** an intervention contributes to outcomes—assumptions, pathways, indicators. Not a logo exercise. Pair with [`monitoring-and-evaluation.md`](monitoring-and-evaluation.md), [`impact-and-annual-reporting.md`](impact-and-annual-reporting.md), and [`notes-and-synthesis.md`](notes-and-synthesis.md).
 
 ## Excerpt
-
 - **Outcomes chain**: inputs → activities → outputs → outcomes → impact (use **carefully**—impact is **hard**).
 - **Assumptions** explicit—where could the chain **break**?
 - **Evidence** and **risks** named—**external factors** (policy, economy).
@@ -31,7 +30,7 @@ Align teams and funders on **why** the work should matter—so **M&E** and **sto
 
 ## 1. Simple pathway
 
-### Good
+### Good: simple pathway
 
 ```text
 We run training (activity) → participants gain skills (output) → they secure better jobs within 6 months (outcome), assuming local employers hire (assumption).
@@ -57,4 +56,4 @@ A ToC is a **hypothesis map**: **if** we do X **and** assumptions hold, **then**
 
 ---
 
-German version: [`theory-of-change.md`](../../de/recherche-&-analyse/theory-of-change.md)
+German version: [`theorie-des-wandels.md`](../../de/recherche-&-analyse/theorie-des-wandels.md)

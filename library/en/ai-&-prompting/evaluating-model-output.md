@@ -3,7 +3,6 @@
 **Scope:** Applies to **judging whether a model-generated answer is good enough to use**—rubrics, human review, automatic checks, regression sets, red-teaming. Not model benchmarking. Pair with [`prompting-basics.md`](prompting-basics.md), [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md), [`source-evaluation-and-fact-checking.md`](../research-&-analysis/source-evaluation-and-fact-checking.md), and [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md).
 
 ## Excerpt
-
 - **Acceptance criteria first**: name what "good" means before you read the output.
 - **Four lenses**: accuracy, appropriateness, completeness, safety.
 - **Human-in-the-loop** for anything the audience relies on; **automatic checks** for scale.
@@ -88,7 +87,7 @@ Using one model to grade another's output:
 - Is biased towards **longer**, more confident answers—calibrate with rubrics and paired comparisons.
 - Always **spot-check** judge scores against human judgment.
 
-### Good
+### Good: using a second model as judge (with caution)
 
 ```text
 You are a strict rubric grader. Score the draft on:

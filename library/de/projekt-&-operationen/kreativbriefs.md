@@ -3,7 +3,6 @@
 **Geltungsbereich:** Briefing für **Design/Kommunikation**—Zielgruppe, Botschaft, Belege, Deliverables. Ergänzt [`kampagnenplanung.md`](kampagnenplanung.md), [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md) und [`projektbriefs.md`](projektbriefs.md).
 
 ## Exzerpt
-
 - **Zielgruppe** + **Insight**.
 - **Eine** Kernaussage.
 - **Belege**—Fakten, Stories (mit Einwilligung).
@@ -35,13 +34,13 @@ Kreativen **Rahmen geben**, der **befreit**—Klarheit schlägt leeres Blatt.
 
 **Wen** du erreichst und **was sie heute glauben oder fürchten**—damit die Arbeit die gewünschte Verschiebung trägt.
 
-### Bad
+### Gut: zielgruppe und insight
 
 ```text
 Allgemeine Öffentlichkeit. Soll ansprechend sein.
 ```
 
-### Good
+### Gut: zielgruppe und insight
 
 ```text
 Zielgruppe: lokale Spender*innen 45–65, skeptisch bei Verwaltungskosten.
@@ -54,13 +53,13 @@ Insight: Sie vermuten zu hohe Overhead-Ausgaben; sie wollen Wirkungsnachweise.
 
 **Eine** Leitbotschaft und **Belege**, die du zeigen darfst (Zahlen, Zitate—mit Einwilligung).
 
-### Bad
+### Gut: eine kernaussage und belege
 
 ```text
 Alles erzählen, was wir tun. Mutig sein.
 ```
 
-### Good
+### Gut: eine kernaussage und belege
 
 ```text
 Kernaussage: Abendtermine passen zu berufstätigen Betreuungspersonen.
@@ -73,13 +72,13 @@ Belege: 3 Termine/Woche; Zitat Freiwillige*r Sam [Freigabe]; Kennzahl aus Jahres
 
 **Jedes Asset**, **Maße**, **Dateityp**—nicht „etwas Social und ein Plakat“.
 
-### Bad
+### Gut: deliverables und formate explizit
 
 ```text
 Social-Assets und was für die Website.
 ```
 
-### Good
+### Gut: deliverables und formate explizit
 
 ```text
 1080×1080 (×3), 1080×1920 Story (×1), Landing-Hero 1600×900, E-Mail-Header 600×200. Alles RGB; Print-PDF separat.
@@ -91,13 +90,13 @@ Social-Assets und was für die Website.
 
 **Rechtstexte**, **Disclaimer**, **Logo-Regeln** und **wer freigibt** (Rolle + Runden).
 
-### Bad
+### Gut: pflichtangaben und freigabe
 
 ```text
 Legal schaut später. Unser Logo nutzen.
 ```
 
-### Good
+### Gut: pflichtangaben und freigabe
 
 ```text
 Pflicht: Vereins-/Stiftungszeile; „Spenden“-CTA nach Legal-Text v3.
@@ -110,13 +109,13 @@ Freigabe: Kommunikationsleitung → Legal → Brand (max. 2 Runden bis 1. Mai).
 
 **Echte Zahlen**, **Termine**, **Stil-Referenzen** (Stimmung, kein Layout-Kopieren).
 
-### Bad
+### Gut: budget, timeline, referenzen
 
 ```text
 ASAP. Budget offen. Wie Apple, aber für NGOs.
 ```
 
-### Good
+### Gut: budget, timeline, referenzen
 
 ```text
 Budget: £4k Produktion. Deadline: Assets bis 15. Mai für Juni-Kampagne.
@@ -129,13 +128,13 @@ Referenzen: 3 Links für Ton (menschlich, nicht corporate)—nicht zum Abkupfern
 
 Wenn sich **Ziel oder Umfang** nach erster Review ändert, **Timeline, Budget oder Deliverables** schriftlich neu festziehen.
 
-### Bad
+### Gut: änderungen am ziel kontrollieren
 
 ```text
 Brauchen wir auch noch ein Video—gleiche Deadline.
 ```
 
-### Good
+### Gut: änderungen am ziel kontrollieren
 
 ```text
 Scope-Änderung: +30 s Video. Neuer Termin 30. Mai; +£2k oder ein Static weniger—bitte per Mail bestätigen.
@@ -152,8 +151,7 @@ Scope-Änderung: +30 s Video. Neuer Termin 30. Mai; +£2k oder ein Static wenige
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Ein Kreativbrief beantwortet **wer**, **warum**, **welche belegbare Wahrheit**, **was wird geliefert**.
 
 ## Weiterführend

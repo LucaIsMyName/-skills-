@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **formale Förderanträge, Projektskizzen und Antragsschreiben** für NGOs und Organisationen im sozialen Bereich—EU-, national-, stiftungs- oder institutionelle Ausschreibungen. Keine juristische Prüfung von Zuwendungsverträgen, keine Major-Donor-Betreuung (siehe [`spendenaufrufe.md`](spendenaufrufe.md)), kein vollständiges Finanzmodell durch eine Buchhaltung. Ergänzend zu [`literatur-zusammenfassen.md`](../recherche-&-analyse/literatur-zusammenfassen.md), [`recherche-grundlagen.md`](../recherche-&-analyse/recherche-grundlagen.md) und [`stories-schreiben.md`](stories-schreiben.md) für erzählerische Abschnitte.
 
 ## Exzerpt
-
 - **Zur Ausschreibung passen.** Die Fragen der Mittelgeber:in in der vorgegebenen Reihenfolge beantworten; kein generischer Projektsteckbrief in jedes Formular.
 - **Wirkung, kein Pathos.** Was sich für wen bis wann ändern soll und woran Sie es messen—passend zu den Indikatoren der Ausschreibung.
 - **Budget = Geschichte.** Positionen sollten zu Maßnahmen und Personenstunden passen; unerklärte runde Zahlen untergraben Vertrauen.
@@ -95,8 +94,7 @@ An die Vorlage anpassen, meist aber enthalten:
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Ein überzeugender Förderantrag ist eine **präzise Antwort auf eine präzise Frage**—kein Imageprospekt über eure Organisation.
 
 ## Weiterführend

@@ -1,9 +1,8 @@
 # Strukturierte Ausgabe und Tools
 
-**Scope:** Gilt für **maschinenlesbare Modellausgaben** (JSON, Schemas, Enums) und **Tool-Anbindung** (Funktionen, Suche, Datenbanken). Kein vollständiges API-Design (siehe [`api-design-und-rest.md`](../coding/api-design-und-rest.md)), kein produktives MLOps. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`prompt-muster.md`](prompt-muster.md), [`modelloutput-bewerten.md`](modelloutput-bewerten.md), [`sprachmodelle-im-code-nutzen.md`](../coding/sprachmodelle-im-code-nutzen.md) und [`sicherheit-fuer-webapps.md`](../coding/sicherheit-fuer-webapps.md).
+**Geltungsbereich:** Gilt für **maschinenlesbare Modellausgaben** (JSON, Schemas, Enums) und **Tool-Anbindung** (Funktionen, Suche, Datenbanken). Kein vollständiges API-Design (siehe [`api-design-und-rest.md`](../coding/api-design-und-rest.md)), kein produktives MLOps. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`prompt-muster.md`](prompt-muster.md), [`modelloutput-bewerten.md`](modelloutput-bewerten.md), [`sprachmodelle-im-code-nutzen.md`](../coding/sprachmodelle-im-code-nutzen.md) und [`sicherheit-fuer-webapps.md`](../coding/sicherheit-fuer-webapps.md).
 
-## Excerpt
-
+## Exzerpt
 - **Schema zuerst**: Felder, Typen, required/optional, Enums—dann **konformieren** lassen.
 - **Validieren** jede Antwort—Modelle erzeugen falsches JSON, Extra-Keys, falsche Typen.
 - **Tools** (Suche, Rechner, Tickets) leben in **deinem Code** mit **Auth** und **Audit**—niemals "magisch" im Prompt.
@@ -36,13 +35,13 @@ Modell-Output in **verlässliche Programminputs** verwandeln: valide, validiert,
 
 JSON anfordern—zweimal sagen.
 
-### Schlecht
+### Schlecht: json-prompts, die wirklich funktionieren
 
 ```text
 Gib mir die Antwort als JSON.
 ```
 
-### Gut
+### Gut: json-prompts, die wirklich funktionieren
 
 ```text
 Gib NUR ein JSON-Objekt zurück, das diesem Schema entspricht.
@@ -93,7 +92,7 @@ Senkt Invalid-JSON-Rate deutlich—**trotzdem validieren**.
 
 Enums sind billige Sanity-Checks.
 
-### Gut
+### Gut: enums und constraints
 
 ```text
 "status": "draft" | "review" | "published" | "archived"
@@ -117,13 +116,13 @@ Regeln:
 - Jeder Aufruf mit **Rechten des Users** (Least Privilege).
 - Jeder Aufruf **geloggt**: Caller, Argumente, Ergebnis, Dauer.
 
-### Schlecht
+### Schlecht: tool-nutzung: grundmuster
 
 ```text
 Tool: shell_exec  (führt beliebige Shell-Kommandos aus)
 ```
 
-### Gut
+### Gut: tool-nutzung: grundmuster
 
 ```text
 Tool: search_knowledge_base
@@ -182,12 +181,10 @@ Dashboards: Invalid-JSON-Rate, Tool-Error-Rate, Verweigerungsrate, Top-Fehler-Sc
 
 ---
 
-## Core idea
-
+## Kerngedanke
 **Schema + Validierung + berechtigte Tools + Human-in-the-Loop**—so werden Assistenten aus Spielzeug zu **lieferbaren Systemen**. Das Modell rendert Struktur; dein Code besitzt Wahrheit, Sicherheit, Seiteneffekte.
 
-## Further reading
-
+## Weiterführend
 - [JSON Schema](https://json-schema.org/)
 - [OpenAI — Structured outputs](https://platform.openai.com/docs/guides/structured-outputs)
 - [Anthropic — Tool use](https://docs.anthropic.com/claude/docs/tool-use)

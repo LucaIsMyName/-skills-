@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Auswahl**, was als Nächstes kommt—Impact/Aufwand, RICE/MoSCoW ohne Dogma. Ergänzt [`projektbriefs.md`](projektbriefs.md), [`statusberichte-und-reporting.md`](statusberichte-und-reporting.md) und [`retrospektiven.md`](retrospektiven.md).
 
 ## Exzerpt
-
 - **Ziel** rahmen—Prioritäten ohne Ziel sind **Macht**.
 - **Impact** und **Vertrauen** in Evidenz.
 - **Kosten** inkl. **Betrieb** und Support.
@@ -35,13 +34,13 @@ Aufmerksamkeit auf **höchsten** Lern- oder Wertbeitrag pro Kosten legen.
 
 **Ergebnis** für diesen Zyklus schreiben—ohne das werden Prioritäten zu **wer am lautesten schreit**.
 
-### Bad
+### Gut: zuerst das ziel rahmen
 
 ```text
 Backlog alphabetisch / nach letzter Eskalation sortieren.
 ```
 
-### Good
+### Gut: zuerst das ziel rahmen
 
 ```text
 Ziel dieses Quartals: No-Shows bei Freiwilligen um 15 % senken. Nur Themen mit plausiblen Hebel dafür ganz oben.
@@ -53,13 +52,13 @@ Ziel dieses Quartals: No-Shows bei Freiwilligen um 15 % senken. Nur Themen mit p
 
 **Evidenz** (Nutzung, Tickets, Research) vor **Hierarchie** beim Impact; **Vertrauen** in die Schätzung benennen.
 
-### Bad
+### Gut: impact und vertrauen
 
 ```text
 CEO will Feature X, also P0.
 ```
 
-### Good
+### Gut: impact und vertrauen
 
 ```text
 Impact 4/5 (500 Nutzer*innen/Monat); Vertrauen 3/5 (eine Umfrage). Bei Gleichstand Daten, nicht Titel.
@@ -71,13 +70,13 @@ Impact 4/5 (500 Nutzer*innen/Monat); Vertrauen 3/5 (eine Umfrage). Bei Gleichsta
 
 **Kosten** = Build + **Betrieb** + **Support** + **Koordination**—nicht nur Dev-Tage.
 
-### Bad
+### Gut: aufwand und total cost of ownership
 
 ```text
 „Kleines“ Feature—nur 3 Dev-Tage (Support und Doku ignoriert).
 ```
 
-### Good
+### Gut: aufwand und total cost of ownership
 
 ```text
 Build: 3 Tage. TCO: laufende Moderation + Schulung Freiwillige—ca. 0,2 FTE-Äquivalent; Aufwand hoch einstufen.
@@ -89,13 +88,13 @@ Build: 3 Tage. TCO: laufende Moderation + Schulung Freiwillige—ca. 0,2 FTE-Äq
 
 Arbeit so teilen, dass du **ausliefern und messen** kannst—keine Big-Bang-Wetten ohne Lern-Meilensteine.
 
-### Bad
+### Gut: kleine scheiben—liefern zum lernen
 
 ```text
 Komplett-Rebuild, bevor Nutzer*innen etwas sehen—9 Monate.
 ```
 
-### Good
+### Gut: kleine scheiben—liefern zum lernen
 
 ```text
 Scheibe 1: nur SMS-Erinnerung Abendschicht. No-Show-Delta 4 Wochen messen, dann ausweiten.
@@ -107,13 +106,13 @@ Scheibe 1: nur SMS-Erinnerung Abendschicht. No-Show-Delta 4 Wochen messen, dann 
 
 **Was ihr nicht tut** und **warum** festhalten—sonst wird das Backlog ein Friedhof stiller Versprechen.
 
-### Bad
+### Gut: nein schriftlich mit trade-offs
 
 ```text
 „Nächster Sprint“ (6 Monate lang).
 ```
 
-### Good
+### Gut: nein schriftlich mit trade-offs
 
 ```text
 Zurückgestellt: mehrsprachige Website. Grund: Kapazität; Review Q4. Protokoll Priorisierung 2025-04-18.
@@ -125,13 +124,13 @@ Zurückgestellt: mehrsprachige Website. Grund: Kapazität; Review Q4. Protokoll 
 
 **Abhängigkeitsketten** sichtbar machen—versteckte Blocker erzeugen falsche Prioritäten.
 
-### Bad
+### Gut: abhängigkeiten vor finaler reihenfolge
 
 ```text
 Prio 1: Kampagne starten. Prio 2: DNS fixen. (Kampagne braucht DNS zuerst.)
 ```
 
-### Good
+### Gut: abhängigkeiten vor finaler reihenfolge
 
 ```text
 Reihenfolge: (1) DNS + SSL, (2) Landing, (3) Kampagnen-Assets—Ketten vor Fixierung der Liste zeichnen.
@@ -148,8 +147,7 @@ Reihenfolge: (1) DNS + SSL, (2) Landing, (3) Kampagnen-Assets—Ketten vor Fixie
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Priorisierung ist **Nein mit Gründen**—**gemeinsame** Kriterien.
 
 ## Weiterführend

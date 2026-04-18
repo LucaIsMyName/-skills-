@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für die **Vorbereitung einer Sprecher:in** auf Interviews—durch Journalist:innen, Podcast-Host:innen, Moderator:innen oder Kamera. Nicht für Interviews mit Betroffenen (siehe [`stories-schreiben.md`](stories-schreiben.md)). Ergänzt [`krise-und-sensible-themen.md`](krise-und-sensible-themen.md) und [`pressemitteilungen-schreiben.md`](pressemitteilungen-schreiben.md).
 
 ## Exzerpt
-
 - **Drei Botschaften, zwei Geschichten, ein Appell.** Auf einer Karte rein, mit denen raus.
 - **Brücke schlagen**, nicht ausweichen. Frage anerkennen, wahrhaftig antworten, zum Wichtigen überleiten.
 - **Kurze Antworten, einfache Worte.** Sieben Sekunden bis eine Minute, kein Absatz.
@@ -151,4 +150,4 @@ Ein gutes Interview ist kein **Gewinnen**—es ist **beenden, und das Publikum w
 
 ---
 
-English version: [`interview-preparation.md`](../../en/language-&-communication/interview-preparation.md)
+Englische Version: [`interview-preparation.md`](../../en/language-&-communication/interview-preparation.md)

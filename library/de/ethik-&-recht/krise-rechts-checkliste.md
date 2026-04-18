@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **rechtlich wache Schritte in einer Kommunikationskrise** (Vorwurf, Vorfall, schlechte Presse, Virals, Safeguarding-Ereignis, Datenpanne). Kein Ersatz für Anwält:in in einem laufenden Fall. Ergänzt [`krise-und-sensible-themen.md`](../sprache-&-kommunikation/krise-und-sensible-themen.md), [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`kinder-und-betroffenenschutz.md`](kinder-und-betroffenenschutz.md).
 
 ## Exzerpt
-
 - **Schweigen ist eine Entscheidung.** Aussagen auch. Beide haben rechtliche Wirkung—bewusst wählen.
 - **Fakten zuerst, Ton danach.** Kein „Es tut uns leid, dass X" bevor X geklärt ist.
 - **Jurist:innen früh** einbeziehen, nicht erst nach dem ersten Statement. Halteformel ist günstig; Widerruf ist teuer.
@@ -126,4 +125,4 @@ In der Krise ist Comms **eine Disziplin von mehreren** am Stift. Langsam, richti
 
 ---
 
-English version: [`crisis-legal-checklist.md`](../../en/ethics-&-legal/crisis-legal-checklist.md)
+Englische Version: [`crisis-legal-checklist.md`](../../en/ethics-&-legal/crisis-legal-checklist.md)

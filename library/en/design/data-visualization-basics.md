@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **charts and data graphics** in dashboards and reports (web or static); not full statistical analysis or BI tool configuration.
 
-## Excerpt 
-
+## Excerpt
 - Use for **choosing chart types**, labeling axes, and **color** that does not distort meaning.
 - Prefer **plain language** titles; show **uncertainty** when relevant.
 - **Accessibility:** do not rely on color alone for categories; provide table alternative or labels when possible.
@@ -38,13 +37,13 @@ This document helps communicators and designers produce **honest, readable** dat
 | Part of whole (sums to 100%) | Stacked bar or pie only if few segments |
 | Correlation | Scatter |
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
 Pie chart with 12 similar slices; 3D effects for “impact.”
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 Sorted bar chart for “top 5 programmes by participants”; clear title.
@@ -89,9 +88,8 @@ Avoid implying **moral** quality with a single green–red gradient unless the m
 
 ---
 
-## Final thought
-
-👉 A chart is an **argument**. Make the claim **proportionate** to the data.
+## Core idea
+ A chart is an **argument**. Make the claim **proportionate** to the data.
 
 ## Further reading
 
@@ -99,3 +97,6 @@ Avoid implying **moral** quality with a single green–red gradient unless the m
 - [Our World in Data — FAQs](https://ourworldindata.org/faqs) — transparent sourcing habits worth mirroring in NGO reporting
 - [W3C WAI — complex images tutorial](https://www.w3.org/WAI/tutorials/images/complex/) — alt text and long descriptions for data graphics
 
+---
+
+German version: [`datenvisualisierung-grundlagen.md`](../../de/design/datenvisualisierung-grundlagen.md)

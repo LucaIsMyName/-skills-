@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **communications teams only** (PR, marketing, social media, internal comms, campaigns): **how you write, brief, speak, and plan messages** so more people can understand and use them. **Not** for developers, CMS markup, or product UI code—use design skills (e.g. [`design-basics.md`](../design/design-basics.md)) for implementation details.
 
-## Excerpt 
-
+## Excerpt
 - Use when **wording content** for newsletters, press, social, events, podcasts, or **briefing** designers/web colleagues.
 - Focus: **plain language**, **respectful wording**, **image descriptions** (what to say in words), **link phrasing**, **video captions** as a comms deliverable (script, briefing), **accessible speaking** (clear pace, describing visuals aloud when presenting).
 - **Do not** invent legal accessibility compliance; flag when **legal or web team** sign-off is needed.
@@ -35,13 +34,13 @@ This document helps **nonprofit communicators** make content **more inclusive** 
 
 Communicators should supply **short, useful descriptions** of meaningful images so they can be published accessibly. Write what someone needs to know **if they cannot see the image**—not the file name.
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
 Photo: IMG_4492.jpg
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 Description for editors: A volunteer hands a food parcel to a visitor outside the community centre entrance.
@@ -61,13 +60,13 @@ In drafts and newsletters, use **one clear main title** and **subheadings in log
 
 **Headline and body copy must match:** each heading should describe the section below it (no empty promise).
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
 Tiny sub-label “Programmes” buried under a huge unrelated banner title; three different topics in one wall of text.
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 Main title: Our work in 2025
@@ -81,13 +80,13 @@ Short paragraphs under each subheading.
 
 Readers should understand **where the link goes** without relying on “click here.”
 
-### ❌ Bad
+### Bad: core rules
 
 ```text
 Click here for more information.
 ```
 
-### ✅ Good
+### Good: core rules
 
 ```text
 Read our 2025 impact report (PDF).
@@ -122,9 +121,8 @@ Read our 2025 impact report (PDF).
 
 ---
 
-## Final thought
-
-👉 In comms, accessibility starts with **respectful, clear language** and **good briefs**. Technical implementation belongs with **web and design colleagues**—This document keeps your lane **writing and speaking**.
+## Core idea
+ In comms, accessibility starts with **respectful, clear language** and **good briefs**. Technical implementation belongs with **web and design colleagues**—This document keeps your lane **writing and speaking**.
 
 ## Further reading
 
@@ -132,3 +130,6 @@ Read our 2025 impact report (PDF).
 - [W3C WAI — Writing for web accessibility](https://www.w3.org/WAI/tips/writing/) — headlines, link text, and media alternatives in copy
 - [W3C WAI — Making audio and video media accessible](https://www.w3.org/WAI/media/av/) — why transcripts and captions are part of the message
 
+---
+
+German version: [`barrierefreiheit-kommunikation.md`](../../de/sprache-&-kommunikation/barrierefreiheit-kommunikation.md)

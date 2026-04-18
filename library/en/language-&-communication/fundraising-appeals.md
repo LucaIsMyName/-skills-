@@ -2,8 +2,7 @@
 
 **Scope:** Applies to **donor-facing appeals** in email, letter, landing page, and campaign copy for nonprofit and social-sector work. Not grant applications (see [`grant-writing.md`](grant-writing.md)) and not major-gift negotiations. Pair with [`writing-a-story.md`](writing-a-story.md), [`respectful-language.md`](respectful-language.md), and [`newsletter-and-email.md`](newsletter-and-email.md).
 
-## Excerpt 
-
+## Excerpt
 - **One person, one need, one ask.** Appeals are not annual reports—trim everything else.
 - **Dignity over dramatics.** People in the appeal are portrayed as **agents**, not "cases"; your org is a partner, not a saviour.
 - **Concrete impact beats vague emotion.** "€20 pays for a week of after-school meals for Leila's class" outperforms "your gift changes lives".
@@ -50,13 +49,13 @@ Write appeals that **move people to give**, respect everyone portrayed, and tell
 - Present tense for vividness; past tense for reflection.
 - Small detail: the colour of the jacket, the name of the afternoon class, the weight of the bag.
 
-### Bad
+### Bad: the hook: a real moment
 
 ```text
 Across the country, thousands of children lack access to nutritious meals, posing significant challenges to their long-term development outcomes.
 ```
 
-### Good
+### Good: the hook: a real moment
 
 ```text
 It's 3:40pm on a Tuesday. Leila finishes school, walks to our community kitchen, and eats the first hot meal of her day. Her mother works two shifts and can't be home until 9.
@@ -77,13 +76,13 @@ It's 3:40pm on a Tuesday. Leila finishes school, walks to our community kitchen,
 - **Monthly option** labelled clearly ("Give €10 a month" not "Become a Guardian Circle Member").
 - **One primary CTA** per page or email. Secondary links to FAQ, privacy, unsubscribe.
 
-### Bad
+### Bad: the ask: concrete and plain
 
 ```text
 Please consider supporting our mission in whatever way you can.
 ```
 
-### Good
+### Good: the ask: concrete and plain
 
 ```text
 Give €20 today—that's a week of after-school meals for one child like Leila.

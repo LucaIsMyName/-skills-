@@ -3,7 +3,6 @@
 **Scope:** **Exporting** assets for print—CMYK/PMS basics, bleed, resolution, PDF settings—at NGO scale. Not prepress career training. Pair with [`brand-toolkit-and-asset-library.md`](brand-toolkit-and-asset-library.md), [`file-naming-and-organising.md`](file-naming-and-organising.md), and [`slides-and-presentations.md`](../design/slides-and-presentations.md).
 
 ## Excerpt
-
 - **Bleed** (often 3 mm) and **safe zone**—no critical text on the edge.
 - **Resolution**: ~300 dpi at **final print size** for raster images.
 - **Fonts**: **outline** or **embed** per printer spec—**license** allows print.
@@ -35,13 +34,13 @@ Avoid **expensive** surprises—**one** correct file package to the **vendor**.
 
 Extend **backgrounds** past trim (often **3 mm bleed**); keep **text and logos** inside **safe** margin—no critical detail on the cut line.
 
-### Bad
+### Bad: bleed and safe zone
 
 ```text
 Text 1 mm from edge—blade tolerance cuts off letters.
 ```
 
-### Good
+### Good: bleed and safe zone
 
 ```text
 3 mm bleed on background; 5 mm safe inset for type; guides checked in PDF.
@@ -53,13 +52,13 @@ Text 1 mm from edge—blade tolerance cuts off letters.
 
 Raster images **~300 dpi** at **printed dimensions**—upscaling a **1080px** wide photo to **A3** poster = mush.
 
-### Bad
+### Bad: resolution at final size
 
 ```text
 1080px wide JPG stretched to A3 poster.
 ```
 
-### Good
+### Good: resolution at final size
 
 ```text
 Photo resampled at 300 dpi for final crop; vector logo where possible.
@@ -71,13 +70,13 @@ Photo resampled at 300 dpi for final crop; vector logo where possible.
 
 Design and export in **CMYK** or **spot** per **printer profile**—**RGB** on screen will **shift** on press.
 
-### Bad
+### Bad: colour: cmyk or pms per brief
 
 ```text
 RGB export for offset without printer agreement.
 ```
 
-### Good
+### Good: colour: cmyk or pms per brief
 
 ```text
 FOGRA or printer ICC; spot Pantone for brand red; soft-proof before send.
@@ -89,13 +88,13 @@ FOGRA or printer ICC; spot Pantone for brand red; soft-proof before send.
 
 Follow **printer spec**: **embed** subsets or **outline** type; confirm **licence** covers **outlined** delivery.
 
-### Bad
+### Bad: fonts: embed, outline, or supply
 
 ```text
 Missing font—printer substitutes; layout breaks.
 ```
 
-### Good
+### Good: fonts: embed, outline, or supply
 
 ```text
 PDF with embedded fonts per spec; licence file noted in handoff email.
@@ -107,13 +106,13 @@ PDF with embedded fonts per spec; licence file noted in handoff email.
 
 **Single** PDF/X (e.g. **PDF/X-1a** or printer’s variant); **named** layers off unless requested; **preflight** report clean.
 
-### Bad
+### Bad: one approved pdf package
 
 ```text
 Native InDesign file + random links—printer charges fix-up.
 ```
 
-### Good
+### Good: one approved pdf package
 
 ```text
 PDF/X-1a; 3 mm bleed; marks outside live area; checksum filename; proof print reviewed.

@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Externe Kommunikation** in Krisen oder bei sensiblen Themen (Holding Statements, Publikationen anhalten); keine internen Ermittlungen, keine HR-Verfahren und keine Rechtsstrategie—**immer Eskalation an die Leitung**.
 
 ## Exzerpt
-
 - Bei **hohem Risiko** oder unklaren Fakten: **geplante Posts anhalten**; **nicht spekulieren**.
 - **Pflicht:** Formulierungen mit **Kommunikationsverantwortung oder Leitung** abstimmen, sofern der Nutzer keine ausdrücklich freigegebenen Texte liefert.
 - **Kurze, sachliche Holding Statements**; keine Lücken mit Vermutungen füllen.
@@ -36,13 +35,13 @@ Dieses Dokument unterstützt **gemeinnützige und soziale Organisationen** dabei
 
 Sind Fakten unklar, droht Schaden für Betroffene oder sind Minderjährige beteiligt: **Stop** und **interne Klärung** vor externer Aussage empfehlen.
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 Wir können genau bestätigen, was letzte Nacht passiert ist und wer die Schuld trägt. Alle Details hier:
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 Wir nehmen Meldungen zu [kurze sachliche Bezugnahme] ernst. Wir prüfen die Lage und informieren, sobald wir verantwortungsvoll informieren können. Medien: [freigegebener Kontakt]
@@ -52,13 +51,13 @@ Wir nehmen Meldungen zu [kurze sachliche Bezugnahme] ernst. Wir prüfen die Lage
 
 ### 2. Holding Statements: kurz und ohne Spekulation
 
-### ❌ Schlecht
+### Schlecht: grundregeln
 
 ```text
 Wir vermuten, die Ursache lag an … Die betreffende Person wollte wahrscheinlich …
 ```
 
-### ✅ Gut
+### Gut: grundregeln
 
 ```text
 Uns liegt die Sache am Herzen. Der Schutz aller Beteiligten hat Vorrang. Weitere Details geben wir derzeit nicht preis.
@@ -90,7 +89,7 @@ Betroffenheit **anerkennen**, ohne Schuld zu verteilen, bevor Fakten vorliegen.
 
 ## Abschließender Gedanke
 
-👉 In Krisen ist ein **falscher Satz** schlimmer als eine kurze Pause. Standard: **eskaliere und bestätige**, keine erfundene Erzählung.
+ In Krisen ist ein **falscher Satz** schlimmer als eine kurze Pause. Standard: **eskaliere und bestätige**, keine erfundene Erzählung.
 
 ## Weiterführend
 
@@ -98,3 +97,12 @@ Betroffenheit **anerkennen**, ohne Schuld zu verteilen, bevor Fakten vorliegen.
 - [WHO — Risk communication](https://www.who.int/teams/risk-communication) — internationale Orientierung in Gesundheits- und Risikofällen
 - [FEMA — Crisis communications](https://www.fema.gov/communication-external-affairs-guidance) — Koordination, Timing und Abgleich (Branche anpassen)
 
+---
+
+## Kerngedanke
+
+Diese Seite bietet praxisnahe Orientierung zu krise und sensible themen in klaren, wiederverwendbaren Schritten.
+
+---
+
+Englische Version: [`crisis-and-sensitive-topics.md`](../../en/language-&-communication/crisis-and-sensitive-topics.md)

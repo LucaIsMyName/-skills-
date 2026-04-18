@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Erste Wochen** für neue Team- oder Kern-Freiwillige—Zugang, Kontext, Buddies, Erwartungen. Ergänzt [`freiwilligen-koordination.md`](freiwilligen-koordination.md), [`meetings-und-agenden.md`](meetings-und-agenden.md) und [`stories-schreiben.md`](../sprache-&-kommunikation/stories-schreiben.md).
 
 ## Exzerpt
-
 - **Tag-1-Checkliste**: Konten, Tools, **Code of Conduct**, Schutz-Hinweise.
 - **30-60-90** Erwartungen—**Lernziele**.
 - **Buddy** für „kleine“ Fragen.
@@ -35,13 +34,13 @@ Neue Menschen **schnell** wirksam und **sicher**—Buddys nicht verbrennen.
 
 **Konten, Tools, Code of Conduct und Schutz-Links** stehen, bevor es losgeht—Trubel am ersten Tag signalisiert Vernachlässigung.
 
-### Bad
+### Gut: tag-1-checkliste: zugang und sicherheit
 
 ```text
 „IT meldet sich wegen E-Mail.“ Tag 3 noch kein Repo-Zugang.
 ```
 
-### Good
+### Gut: tag-1-checkliste: zugang und sicherheit
 
 ```text
 Checkliste: Laptop vorbereitet; SSO; Slack; Repo; Handbuch-Link; Schutz-One-Pager—alles bis 10:00 Tag 1 erledigt.
@@ -53,13 +52,13 @@ Checkliste: Laptop vorbereitet; SSO; Slack; Repo; Handbuch-Link; Schutz-One-Page
 
 Sage, was **„gut“** nach 30, 60 und 90 Tagen heißt—Fähigkeiten und Beziehungen, nicht nur Ticketzahl.
 
-### Bad
+### Gut: 30-60-90: lernziele, nicht nur tasks
 
 ```text
 Erster Monat: viel arbeiten. (Keine Klarheit.)
 ```
 
-### Good
+### Gut: 30-60-90: lernziele, nicht nur tasks
 
 ```text
 30 T.: kleinen Doku-Fix shippen; wissen, wer Kommunikation owned. 60 T.: einmal Stand-in für Buddy. 90 T.: eigenes Stück Freiwilligen-Flow.
@@ -71,13 +70,13 @@ Erster Monat: viel arbeiten. (Keine Klarheit.)
 
 **Peer-Buddy** für „Wie machen wir …?“—damit Führung nicht der einzige Weg ist; weniger Scham, weniger Verzug.
 
-### Bad
+### Gut: buddy für kleine fragen
 
 ```text
 Frag deine Führungskraft (die den ganzen Tag in Meetings ist).
 ```
 
-### Good
+### Gut: buddy für kleine fragen
 
 ```text
 Buddy: Alex—Slack-DM ok für Tool-Fragen; eskalieren zur Lead nur bei Blocker >4h.
@@ -89,13 +88,13 @@ Buddy: Alex—Slack-DM ok für Tool-Fragen; eskalieren zur Lead nur bei Blocker 
 
 **Eine** Roadmap, **eine** Verantwortlichkeiten-Übersicht, **wo Bugs** hingehören—kein „welches Confluence?“
 
-### Bad
+### Gut: single source of truth und ownership
 
 ```text
 Lies alles im Wiki. Viel Erfolg.
 ```
 
-### Good
+### Gut: single source of truth und ownership
 
 ```text
 Start: /handbook/start — nur 5 Links. Owner: [Rollentabelle]. Fragen: #team-ask.
@@ -107,13 +106,13 @@ Start: /handbook/start — nur 5 Links. Owner: [Rollentabelle]. Fragen: #team-as
 
 **Intro-Termine** streuen; **Puffer** für Lesen und ersten kleinen Erfolg—Vollpack fühlt sich wie Initiation an.
 
-### Bad
+### Gut: termine mit luft
 
 ```text
 8 Stunden Intro-Termine am ersten Tag—keine Zeit zum Verarbeiten.
 ```
 
-### Good
+### Gut: termine mit luft
 
 ```text
 Vormittag: Setup + 2 Intros. Nachmittag: Shadow + 1h Fokusblock. Ziel: bis Fr einen Doku-Fix shippen.
@@ -125,13 +124,13 @@ Vormittag: Setup + 2 Intros. Nachmittag: Shadow + 1h Fokusblock. Ziel: bis Fr ei
 
 **Woche 1** fragen, was unklar war—**Checkliste** für die nächste Einstellung anpassen.
 
-### Bad
+### Gut: feedback einholen und onboarding verbessern
 
 ```text
 Sechs Neue in Folge derselbe kaputte Wiki-Link.
 ```
 
-### Good
+### Gut: feedback einholen und onboarding verbessern
 
 ```text
 15-Min-Umfrage Fr Woche 1; Onboarding-Doku innerhalb einer Woche PR aus Feedback.
@@ -148,8 +147,7 @@ Sechs Neue in Folge derselbe kaputte Wiki-Link.
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Onboarding ist **verdichtetes Vertrauen**: **Klarheit**, **Sicherheit**, **frühe** Erfolge.
 
 ## Weiterführend

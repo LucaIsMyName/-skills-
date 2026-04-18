@@ -3,7 +3,6 @@
 **Scope:** Applies to **legal obligations around digital accessibility**—WCAG/EN 301 549, EAA (EU), Equality Act (UK), ADA (US), public-sector rules, statements, remediation. Not a full WCAG training, not country-exhaustive. Pair with [`accessibility-in-code.md`](../coding/accessibility-in-code.md), [`content-design-and-microcopy.md`](../design/content-design-and-microcopy.md), [`gdpr-basics.md`](gdpr-basics.md), and [`empty-and-error-states.md`](../design/empty-and-error-states.md).
 
 ## Excerpt
-
 - **Accessibility is law, not courtesy**—in EU/UK/US/many other jurisdictions.
 - **WCAG 2.2 AA** is the common minimum; public sector and regulated industries often exceed it.
 - **Accessibility statement** required in many regimes; keep it truthful and current.

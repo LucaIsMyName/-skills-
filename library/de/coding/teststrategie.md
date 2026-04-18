@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Anwendungstests** auf Unit-, Integrations- und E2E-Ebene; nicht Last- oder Security-Tests, nicht QA-Prozessdesign. Ergänzend zu [`coding-best-practices.md`](coding-best-practices.md) und [`react-best-practices.md`](react-best-practices.md).
 
 ## Exzerpt
-
 - Tests existieren, damit du **Code ohne Angst ändern** kannst—Sicherheitsnetz, nicht Abzeichen.
 - Pyramiden-artig: **viele Unit, weniger Integration, wenige E2E**. Das richtige Verhältnis hängt davon ab, was in Produktion wirklich bricht.
 - **Verhalten testen, nicht Implementierung.** Bricht der Test bei Refactor ohne Nutzer-Regression, war der Test falsch.
@@ -62,13 +61,13 @@ Eine Testsuite, die **Regressionen findet**, **Verhalten dokumentiert** und **sc
 
 ## 3. Verhalten testen, nicht Implementierung
 
-### Schlecht
+### Schlecht: verhalten testen, nicht implementierung
 
 ```ts
 expect(service._buildInternalQuery).toHaveBeenCalledWith(...);
 ```
 
-### Gut
+### Gut: verhalten testen, nicht implementierung
 
 ```ts
 const result = service.search("tax relief");
@@ -131,8 +130,7 @@ Drei Blöcke, Leerzeile dazwischen. Kein verstecktes Setup in Helfern, das Arran
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Eine gute Testsuite lässt dich **Ja zu Änderungen** sagen. Wenn Tests Refactors erschrecken, bewachen sie die **Implementierung** statt das **Verhalten**—umschreiben.
 
 ## Weiterführend

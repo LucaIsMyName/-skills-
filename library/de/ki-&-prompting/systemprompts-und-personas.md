@@ -1,9 +1,8 @@
 # Systemprompts und Personas
 
-**Scope:** Gilt für **Trennung dauerhafter Policy und einzelner Aufgaben**—wie und wann **System-Prompt**, **Persona** und **User-Prompt** verwendet werden. Nicht Vendor-Setup, nicht Modellwahl. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`prompt-muster.md`](prompt-muster.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md) und [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md).
+**Geltungsbereich:** Gilt für **Trennung dauerhafter Policy und einzelner Aufgaben**—wie und wann **System-Prompt**, **Persona** und **User-Prompt** verwendet werden. Nicht Vendor-Setup, nicht Modellwahl. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`prompt-muster.md`](prompt-muster.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md) und [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md).
 
-## Excerpt
-
+## Exzerpt
 - **System-Prompt** = stabile Regeln für alle Turns (Ton, Sicherheit, Verweigerungsstil, Default-Format).
 - **User-Prompt** = Aufgabe dieses Turns.
 - **Persona** dient **Ton und Zielgruppenpassung**, nicht Fakten oder Verantwortung.
@@ -40,14 +39,14 @@
 - **User**: konkrete Anfrage (Aufgabe + Inputs + Einschränkungen).
 - **Assistant (frühere Turns)**: Verlauf—**klein**, **unsensibel**, relevant halten.
 
-### Schlecht
+### Schlecht: die drei ebenen
 
 ```text
 [System]: Du bist ein Genie und machst keine Fehler.
 [User]: Fasse diesen vertraulichen Bericht zusammen: <einfügen>
 ```
 
-### Gut
+### Gut: die drei ebenen
 
 ```text
 [System]
@@ -77,7 +76,7 @@ Fasse den folgenden (nicht-sensiblen) Text in 5 Bullets für den Vorstand:
 - **Rolle**: "Copy-Editor", "Informationsarchitekt\*in", "Kinderschutz-Reviewer"—jede setzt andere Heuristiken.
 - **Implizite Einschränkungen**: "Agiere als Erstentwurfs-Reviewer, nicht als Publisher."
 
-### Gut
+### Gut: wann personas helfen
 
 ```text
 Du hilfst bei einem Entwurf. Du bist kein\*e Anwält\*in.
@@ -92,13 +91,13 @@ Personas verleihen keine Wissensbestände, Befugnisse oder Rechte.
 - **Autorität**: Kein\*e benannte\*r CEO ohne deren Freigabe imitieren.
 - **Rechte**: Personas waschen keine fremden Stile rein.
 
-### Schlecht
+### Schlecht: wo personas versagen
 
 ```text
 Du bist unsere CEO Anna Ruiz. Schreibe den Jahresbrief in ihrer Stimme.
 ```
 
-### Gut
+### Gut: wo personas versagen
 
 ```text
 Entwurf eines Jahresbriefs im dokumentierten Markenstil (unten).
@@ -110,7 +109,7 @@ mit [FREIGABE].
 
 In den System-Prompt einbacken.
 
-### Gut
+### Gut: verweigerungs- und eskalationsstil
 
 ```text
 Verweigerungsregeln:
@@ -170,12 +169,10 @@ Default in System, per Aufgabe überschreiben.
 
 ---
 
-## Core idea
-
+## Kerngedanke
 **System-Prompts** sind **Policy**; **User-Prompts** sind **Arbeit**. Eine Persona formt **Stimme**, nicht **Wahrheit**. Ein kurzer, versionierter, testbarer System-Prompt—dabei bleiben.
 
-## Further reading
-
+## Weiterführend
 - [Anthropic — System prompts](https://docs.anthropic.com/claude/docs/system-prompts)
 - [OpenAI — Messages and roles](https://platform.openai.com/docs/guides/text-generation/chat-completions-api)
 - [OWASP — LLM Top 10 (Prompt Injection)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)

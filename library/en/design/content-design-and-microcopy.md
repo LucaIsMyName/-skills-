@@ -3,7 +3,6 @@
 **Scope:** Applies to **words in the interface**—labels, buttons, form help, empty states, error messages, confirmations, notifications. Not long-form copywriting, not brand strategy. Pair with [`tone-of-voice-and-brand-voice.md`](../language-&-communication/tone-of-voice-and-brand-voice.md), [`empty-and-error-states.md`](empty-and-error-states.md), [`calls-to-action-and-asks.md`](../language-&-communication/calls-to-action-and-asks.md), and [`respectful-language.md`](../language-&-communication/respectful-language.md).
 
 ## Excerpt
-
 - **Copy is UI.** The words users read are as much interface as the buttons they click.
 - **Plain language, verbs on buttons, consistency in terms.**
 - **Specific beats generic**: "Save changes" beats "OK".
@@ -45,13 +44,13 @@ Write words that **help users act with confidence**—honest, specific, consiste
 
 Field labels describe **what is inside the field**, not how to fill it.
 
-### Bad
+### Bad: labels
 
 ```
 Please enter your email address below:
 ```
 
-### Good
+### Good: labels
 
 ```
 Email address
@@ -69,13 +68,13 @@ Rules:
 - No "OK" on destructive confirms; use the **verb**.
 - Avoid "Submit" on anything meaningful—prefer "Send invitation", "Save changes", "Publish draft".
 
-### Bad
+### Bad: buttons and ctas
 
 ```
 [ OK ]
 ```
 
-### Good
+### Good: buttons and ctas
 
 ```
 [ Delete invoice ]
@@ -89,13 +88,13 @@ See [`calls-to-action-and-asks.md`](../language-&-communication/calls-to-action-
 - **Examples** in help text: "e.g. 07700 900123".
 - **Validation messages** explain the problem and the fix.
 
-### Bad
+### Bad: form help and validation
 
 ```
 Invalid input.
 ```
 
-### Good
+### Good: form help and validation
 
 ```
 Use a work email (e.g. you@yourcharity.org) so we can link your team.
@@ -105,7 +104,7 @@ Use a work email (e.g. you@yourcharity.org) so we can link your team.
 
 Every empty list is a small teaching moment—see [`empty-and-error-states.md`](empty-and-error-states.md).
 
-### Good
+### Good: empty states
 
 ```
 No projects yet. Create your first to start tracking progress.
@@ -116,13 +115,13 @@ No projects yet. Create your first to start tracking progress.
 
 Three jobs: **what**, **why**, **what to do**.
 
-### Bad
+### Bad: error messages
 
 ```
 Something went wrong.
 ```
 
-### Good
+### Good: error messages
 
 ```
 We couldn't save your changes because the connection dropped.
@@ -138,7 +137,7 @@ Never blame the user ("Invalid email"). Prefer "Check the email address—we don
 - Use the **verb** on the confirm button.
 - Avoid trickery ("Nah, I don't want this" for "Cancel").
 
-### Good
+### Good: confirmations and destructive actions
 
 ```
 Delete "Annual Report 2024"?
@@ -155,7 +154,7 @@ This file will be moved to Trash. You can restore it for 30 days.
 - **Future intention** for "scheduled" ("Will send on 12 May").
 - Include **undo** where safe.
 
-### Good
+### Good: notifications and toasts
 
 ```
 Invitation sent to anna@example.org. [ Undo ]
@@ -169,7 +168,7 @@ Invitation sent to anna@example.org. [ Undo ]
 - Write translator **notes** for ambiguous terms.
 - Pair with [`respectful-language.md`](../language-&-communication/respectful-language.md).
 
-### Bad
+### Bad: localisation
 
 ```
 "Hi {{name}}, your {{plan}} just got better!"
@@ -177,7 +176,7 @@ Invitation sent to anna@example.org. [ Undo ]
 
 This may not inflect correctly in all languages.
 
-### Good
+### Good: localisation
 
 ```
 "Hi {{name}}, we've upgraded your plan ({{plan}})."

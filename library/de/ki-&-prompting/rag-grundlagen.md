@@ -1,9 +1,8 @@
 # RAG-Grundlagen
 
-**Scope:** Gilt für **Retrieval-Augmented Generation**—Antworten aus einem konkreten Korpus (Docs, Policies, Wikis). Keine produktive Vektor-Suche mit Sharding, BM25/Hybrid-Tuning, Multi-Tenant. Kombiniere mit [`kontextfenster-und-chunks.md`](kontextfenster-und-chunks.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md), [`sicherheit-fuer-webapps.md`](../coding/sicherheit-fuer-webapps.md) und [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
+**Geltungsbereich:** Gilt für **Retrieval-Augmented Generation**—Antworten aus einem konkreten Korpus (Docs, Policies, Wikis). Keine produktive Vektor-Suche mit Sharding, BM25/Hybrid-Tuning, Multi-Tenant. Kombiniere mit [`kontextfenster-und-chunks.md`](kontextfenster-und-chunks.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md), [`sicherheit-fuer-webapps.md`](../coding/sicherheit-fuer-webapps.md) und [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
 
-## Excerpt
-
+## Exzerpt
 - **Relevante Chunks** aus deinem Korpus holen, Modell darauf grundieren.
 - **Chunking** an logischen Nähten ist wichtiger als fancy Embeddings.
 - **Zitieren** im Antworttext; **verweigern**, wenn nichts relevant ist.
@@ -71,7 +70,7 @@ Das Modell soll nichts entscheiden.
 
 ## 5. Prompt-Aufbau
 
-### Gut
+### Gut: prompt-aufbau
 
 ```text
 Antworte NUR mit dem KONTEXT unten. Reicht der Kontext nicht,
@@ -132,12 +131,10 @@ Ohne Evals wird RAG leise schlechter.
 
 ---
 
-## Core idea
-
+## Kerngedanke
 RAG ist **Retrieval mit Schreibmaschine**. Die Qualität liegt fast ganz in **Retrieval**—Indizierung, Chunking, Filterung—plus ein strenger Prompt, der bei fehlenden Belegen verweigert.
 
-## Further reading
-
+## Weiterführend
 - [OpenAI — Retrieval-augmented generation](https://platform.openai.com/docs/guides/retrieval)
 - [Anthropic — Contextual retrieval](https://www.anthropic.com/news/contextual-retrieval)
 - [Pinecone — RAG learning center](https://www.pinecone.io/learn/retrieval-augmented-generation/)

@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Vertrauen in Quellen** und **Prüfen konkreter Aussagen** vor Veröffentlichung in Comms, Presse, Stories, Briefings. Ergänzt [`recherche-grundlagen.md`](recherche-grundlagen.md), [`statistik-einfach-lesen.md`](statistik-einfach-lesen.md), [`krise-und-sensible-themen.md`](../sprache-&-kommunikation/krise-und-sensible-themen.md).
 
 ## Exzerpt
-
 - **Quellenbewertung** fragt: _Kann ich dem trauen?_ **Faktencheck** fragt: _Stimmt diese konkrete Aussage?_ Beides tun.
 - **CRAAP** als Schnellfilter: **C**urrency (Aktualität), **R**elevance, **A**uthority, **A**ccuracy, **P**urpose.
 - **Triangulieren**: zwei oder mehr **unabhängige** Quellen pro nicht-trivialer Behauptung. Abschriften voneinander zählen nicht.
@@ -139,4 +138,4 @@ Vertrauen kommt aus **gezeigter Arbeit**, nicht aus Überzeugungs-Ton. Quelle pr
 
 ---
 
-English version: [`source-evaluation-and-fact-checking.md`](../../en/research-&-analysis/source-evaluation-and-fact-checking.md)
+Englische Version: [`source-evaluation-and-fact-checking.md`](../../en/research-&-analysis/source-evaluation-and-fact-checking.md)

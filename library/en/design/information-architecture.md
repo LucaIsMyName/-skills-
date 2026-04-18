@@ -3,7 +3,6 @@
 **Scope:** Applies to **how content is organised, labelled, and navigated** in digital products and websites—site structure, navigation, taxonomy, search, URLs. Not visual design, not copywriting. Pair with [`designing-good-interfaces.md`](designing-good-interfaces.md), [`wireframing-and-prototyping.md`](wireframing-and-prototyping.md), [`content-design-and-microcopy.md`](content-design-and-microcopy.md), and [`accessibility-in-code.md`](../coding/accessibility-in-code.md).
 
 ## Excerpt
-
 - **Users > structure > labels**: know who needs what, then group, then name.
 - **Shallow wins**: fewer levels, clearer pages, better search.
 - **One thing in one place**—duplicate nav items and duplicate content both confuse.
@@ -84,13 +83,13 @@ Prefer **one clear path** over multiple clever shortcuts that all do the same th
 - Include **locale** where needed (`/de/spenden`, `/en/donate`).
 - **Redirect** when you restructure; never let a URL 404 just because you moved it.
 
-### Bad
+### Bad: urls are permanent
 
 ```
 https://example.org/index.php?id=412&ref=nav
 ```
 
-### Good
+### Good: urls are permanent
 
 ```
 https://example.org/en/grants/education-2025

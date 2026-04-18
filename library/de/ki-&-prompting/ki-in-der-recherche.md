@@ -1,9 +1,8 @@
 # KI in der Recherche
 
-**Scope:** Gilt für **Sprachmodelle in der Recherche**—Literaturscans, Interview-Zusammenfassungen, qualitative Kodierung, Umfrageentwürfe, Hypothesenbildung. Nicht Statistik (echte Tools), nicht peer-reviewed Methodik. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`rag-grundlagen.md`](rag-grundlagen.md), [`desk-research.md`](../recherche-&-analyse/desk-research.md), [`quellenpruefung-und-faktencheck.md`](../recherche-&-analyse/quellenpruefung-und-faktencheck.md), [`qualitative-codierung.md`](../recherche-&-analyse/qualitative-codierung.md) und [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
+**Geltungsbereich:** Gilt für **Sprachmodelle in der Recherche**—Literaturscans, Interview-Zusammenfassungen, qualitative Kodierung, Umfrageentwürfe, Hypothesenbildung. Nicht Statistik (echte Tools), nicht peer-reviewed Methodik. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`rag-grundlagen.md`](rag-grundlagen.md), [`recherche-grundlagen.md`](../recherche-&-analyse/recherche-grundlagen.md), [`quellenbewertung-und-faktencheck.md`](../recherche-&-analyse/quellenbewertung-und-faktencheck.md), [`qualitative-codierung.md`](../recherche-&-analyse/qualitative-codierung.md) und [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
 
-## Excerpt
-
+## Exzerpt
 - **KI hilft beim Denken; sie weiß nichts**. Output = **Hypothese**, nicht Befund.
 - **Grundieren** mit deinen Quellen—nie aus dem Gedächtnis.
 - **Zitieren** jede Aussage aus einer von dir gelesenen Quelle.
@@ -54,13 +53,13 @@ Rechercheaufgaben **beschleunigen**—mit Quellen, prüfbar, reproduzierbar.
 
 **Closed-Book**-Prompts bevorzugt—siehe [`rag-grundlagen.md`](rag-grundlagen.md).
 
-### Schlecht
+### Schlecht: alles grundieren
 
 ```text
 Was sagt die Forschung zu Jugend-Mental-Health in Deutschland?
 ```
 
-### Gut
+### Gut: alles grundieren
 
 ```text
 Extrahiere NUR aus den folgenden Quellen alle Aussagen zu Jugend-MH in DE.
@@ -82,7 +81,7 @@ Quellen:
 
 ## 4. Desk-Research-Loop
 
-Siehe [`desk-research.md`](../recherche-&-analyse/desk-research.md).
+Siehe [`recherche-grundlagen.md`](../recherche-&-analyse/recherche-grundlagen.md).
 
 1. **Frage** definieren (Mensch).
 2. **Quellen finden** (Mensch; KI kann Suchbegriffe vorschlagen).
@@ -98,7 +97,7 @@ Siehe [`desk-research.md`](../recherche-&-analyse/desk-research.md).
 - Auf einem von Menschen kodierten Subset **validieren** (siehe [`qualitative-codierung.md`](../recherche-&-analyse/qualitative-codierung.md)).
 - **Disagreement-Log**—dort wohnt der Erkenntnisgewinn.
 
-### Gut
+### Gut: qualitative kodierung mit ki
 
 ```text
 Wende folgendes CODEBOOK auf jedes ZITAT an.
@@ -155,12 +154,10 @@ Map-Outputs aufbewahren—das ist der **Prüfpfad**.
 
 ---
 
-## Core idea
-
+## Kerngedanke
 KI ist ein **schnelles, wortgewandtes Praktikum in der Bibliothek**: sie summiert, was du ihr zeigst, und schlägt Muster vor. Sie weiß nichts. Jede Aussage braucht eine geprüfte Quelle.
 
-## Further reading
-
+## Weiterführend
 - [Elicit](https://elicit.com/)
 - [Cochrane Handbook](https://training.cochrane.org/handbook)
 - [UK Statistics Authority — Code of Practice](https://code.statisticsauthority.gov.uk/)

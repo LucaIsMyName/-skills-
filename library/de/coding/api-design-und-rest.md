@@ -1,9 +1,8 @@
 # API-Design und REST
 
-**Scope:** Gilt für **eigene HTTP-APIs**—Ressourcen, Verben, Statuscodes, Payloads, Versionierung, Pagination, Fehler. Kein GraphQL-Design, kein internes RPC, kein Auth-Protokoll-Design. Kombiniere mit [`sicherheit-fuer-webapps.md`](sicherheit-fuer-webapps.md), [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md), [`sprachmodelle-im-code-nutzen.md`](sprachmodelle-im-code-nutzen.md) und [`performance-und-web-vitals.md`](performance-und-web-vitals.md).
+**Geltungsbereich:** Gilt für **eigene HTTP-APIs**—Ressourcen, Verben, Statuscodes, Payloads, Versionierung, Pagination, Fehler. Kein GraphQL-Design, kein internes RPC, kein Auth-Protokoll-Design. Kombiniere mit [`sicherheit-fuer-webapps.md`](sicherheit-fuer-webapps.md), [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md), [`sprachmodelle-im-code-nutzen.md`](sprachmodelle-im-code-nutzen.md) und [`performance-und-web-vitals.md`](performance-und-web-vitals.md).
 
-## Excerpt
-
+## Exzerpt
 - **Ressourcen statt Aktionen**: Nomen modellieren; Verben kommen von HTTP (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`).
 - **Statuscodes sind Verträge**—richtig setzen; kein `200` für Fehler.
 - **Konsistente Payloads**: ein Fehler-Shape, ein List-Shape, stabile Feldnamen.
@@ -39,7 +38,7 @@ HTTP-APIs bauen, die **vorhersagbar, sicher, stabil** zu integrieren sind.
 
 Nomen, keine Aktionen.
 
-### Schlecht
+### Schlecht: ressourcen und urls
 
 ```
 POST /createUser
@@ -47,7 +46,7 @@ POST /getUserById
 POST /deleteOldPosts
 ```
 
-### Gut
+### Gut: ressourcen und urls
 
 ```
 POST   /users
@@ -86,7 +85,7 @@ Für Writes über unzuverlässige Netze: `Idempotency-Key`-Header.
 
 Ein Shape, überall.
 
-### Gut
+### Gut: fehler-shape
 
 ```json
 {
@@ -118,7 +117,7 @@ Keine Secrets/Tokens/Passwort-Hashes in Antworten.
 
 ## 6. Collections, Pagination, Filter
 
-### Gut
+### Gut: collections, pagination, filter
 
 ```
 GET /invoices?status=unpaid&created_after=2025-01-01&limit=25&cursor=abc123
@@ -167,12 +166,10 @@ GET /invoices?status=unpaid&created_after=2025-01-01&limit=25&cursor=abc123
 
 ---
 
-## Core idea
-
+## Kerngedanke
 Eine HTTP-API ist ein **öffentliches Versprechen**: stabile URLs, ehrliche Statuscodes, berechenbare Payloads, Versionsplan. Langweilig ist gut.
 
-## Further reading
-
+## Weiterführend
 - [Zalando RESTful API Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
 - [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines)
 - [Stripe API reference](https://docs.stripe.com/api)

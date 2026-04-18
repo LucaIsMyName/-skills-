@@ -1,6 +1,6 @@
 {
   "name": "skills",
-  "version": "2026.04.18.8",
+  "version": "2026.04.18.9",
   "private": true,
   "description": "a collection of \"skills\" that are just plain markdown files explaining concepts and workflows to any AI without having to write the same old instructions and meta-infos over and over again",
   "main": "./",
@@ -10,7 +10,10 @@
   "scripts": {
     "docs:dev": "npm run dev -w app",
     "docs:build": "npm run build -w app",
-    "docs:preview": "npm run preview -w app"
+    "docs:preview": "npm run preview -w app",
+    "docs:normalize": "node scripts/normalize-library-docs.mjs",
+    "docs:fill-missing": "node scripts/fill-missing-library-sections.mjs",
+    "docs:check": "node scripts/check-library-docs.mjs"
   },
   "author": "LucaIsMyName",
   "repository": {

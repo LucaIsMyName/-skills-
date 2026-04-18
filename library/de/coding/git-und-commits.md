@@ -1,9 +1,8 @@
 # Git und Commits
 
-**Geltungsbereich:** Gilt für **tägliche Git-Nutzung**—Branches, Commits, PRs, Reviews. Nicht für serverseitige Git-Administration, nicht für Release Engineering. Ergänzend zu [`agents.md`](../../agents.md) für agent-spezifische Commit-Regeln und [`code-review-checklist.md`](code-review-checklist.md) für Reviews.
+**Geltungsbereich:** Gilt für **tägliche Git-Nutzung**—Branches, Commits, PRs, Reviews. Nicht für serverseitige Git-Administration, nicht für Release Engineering. Ergänzend zu [`AGENTS.md`](../../../AGENTS.md) für agent-spezifische Commit-Regeln und [`teststrategie.md`](teststrategie.md) für Review-Workflows.
 
 ## Exzerpt
-
 - **Kleine, fokussierte Commits**; je einer logische Änderung. Refactors und Verhaltensänderungen in **getrennten** Commits.
 - **Conventional-Commit**-Präfixe: `feat`, `fix`, `refactor`, `docs`, `test`, `chore`, `perf`, `style`, `build`, `ci`.
 - **Branch pro Aufgabe**: `feat/…`, `fix/…`, `chore/…`—kebab-case, kurz.
@@ -57,7 +56,7 @@ Kurz, kebab-case, keine Ticketnummer **am Anfang** (falls Pflicht: ans Ende: `fe
 - Betreff **unter 72 Zeichen**, kein Punkt am Ende.
 - Body optional bei trivialen Änderungen; bei allem Nicht-Offensichtlichen Pflicht.
 
-### Gut
+### Gut: commit-message-format
 
 ```
 feat(newsletter): add preheader field to template
@@ -67,7 +66,7 @@ Preheader renders only in the HTML template; plain-text
 fallback is unchanged.
 ```
 
-### Schlecht
+### Schlecht: commit-message-format
 
 ```
 stuff
@@ -126,8 +125,7 @@ Fixed the newsletter thingy because Anna asked me to.
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Git-Historie ist ein **Brief an die Zukunft**. So schreiben, dass jemand sechs Monate später lesen, sauber bisecten und jedem Commit vertrauen kann.
 
 ## Weiterführend

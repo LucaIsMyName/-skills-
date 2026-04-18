@@ -3,7 +3,6 @@
 **Geltungsbereich:** Gilt für **Skript und Vortrag gesprochener Formate**—Keynotes, Grußworte, Panelstatements, Feiern, kurze Videoansprachen. Nicht Interviews (siehe [`interview-vorbereitung.md`](interview-vorbereitung.md)) und nicht Foliensatz (siehe [`folien-und-praesentationen.md`](../design/folien-und-praesentationen.md)). Ergänzt [`storytelling.md`](storytelling.md).
 
 ## Exzerpt
-
 - **Ein Publikum, ein Ziel, eine Kernbotschaft.** Alles andere ist Beiwerk.
 - **Gesprochene Sprache ist kurz.** Sätze auf einen Atem; Listen auf eine Hand.
 - **Geschichten schlagen Folien.** Zwei konkrete Geschichten schlagen zwölf abstrakte Punkte.
@@ -47,13 +46,13 @@ Eine Rede entwerfen und halten, die **klar, menschlich und pünktlich** ist—da
 - **Konkret**: eine Person, ein Ort, ein Datum—statt „Akteure", „Ökosystem", „Wirkung".
 - **Laut lesen beim Redigieren.** Was man nicht flüssig sagt, umschreiben.
 
-### Schlecht
+### Schlecht: fürs ohr schreiben
 
 ```text
 Unsere facettenreiche Initiative nutzt intersektorale Partnerschaften, um die strukturellen Determinanten ganzheitlich zu adressieren …
 ```
 
-### Gut
+### Gut: fürs ohr schreiben
 
 ```text
 Wir arbeiten mit drei Kliniken und sechs Schulen in einem Stadtteil. Zusammen lösen wir, was einzeln keiner schafft.
@@ -145,4 +144,4 @@ Eine gute Rede ist **ein Geschenk aus Aufmerksamkeit, als Klarheit zurückgegebe
 
 ---
 
-English version: [`speeches-and-talks.md`](../../en/language-&-communication/speeches-and-talks.md)
+Englische Version: [`speeches-and-talks.md`](../../en/language-&-communication/speeches-and-talks.md)

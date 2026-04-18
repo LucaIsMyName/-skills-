@@ -3,7 +3,6 @@
 **Scope:** **Headlines** for web, email, social, and print—**clarity**, **accuracy**, **scanning**. Not full SEO engineering. Pair with [`newsletter-and-email.md`](newsletter-and-email.md), [`social-short-form.md`](social-short-form.md), [`respectful-language.md`](respectful-language.md), and [`calls-to-action-and-asks.md`](calls-to-action-and-asks.md).
 
 ## Excerpt
-
 - **Promise** only what the body **delivers**—no clickbait cruelty.
 - **Front-load** keywords; **one idea** per headline.
 - **Tone** matches brand—**calm** beats **hype** for trust orgs.
@@ -31,13 +30,13 @@ Earn **attention** **honestly**—readers know what they get, editors sleep at n
 
 ## 1. Patterns
 
-### Bad
+### Bad: patterns
 
 ```text
 You won’t believe what happened next!!!
 ```
 
-### Good
+### Good: patterns
 
 ```text
 New evening sessions open at Riverside Youth Hub

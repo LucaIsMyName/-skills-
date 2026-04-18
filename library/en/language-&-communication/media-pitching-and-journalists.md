@@ -3,7 +3,6 @@
 **Scope:** **Pitching** stories to journalists—timing, format, accuracy, follow-up. Not crisis escalation (see [`crisis-and-sensitive-topics.md`](crisis-and-sensitive-topics.md)). Pair with [`press-statement-basics.md`](press-statement-basics.md), [`source-evaluation-and-fact-checking.md`](../research-&-analysis/source-evaluation-and-fact-checking.md), and [`respectful-language.md`](respectful-language.md).
 
 ## Excerpt
-
 - **Research** the outlet and **beat**—personalise, don’t spray.
 - **Lead** with **news value**—why **now**, why **this audience**.
 - **Facts** ready: spokespeople, stats, links—**no** exaggeration.
@@ -31,13 +30,13 @@ Earn **fair coverage** by being **accurate**, **relevant**, and **easy** to work
 
 ## 1. Email pitch
 
-### Bad
+### Bad: email pitch
 
 ```text
 Dear Sir/Madam, Please find our amazing press release attached.
 ```
 
-### Good
+### Good: email pitch
 
 ```text
 Subject: Local youth hub opens 3 new evening sessions (Cityname)

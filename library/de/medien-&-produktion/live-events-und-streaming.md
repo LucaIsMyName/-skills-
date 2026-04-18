@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Live**-Veranstaltungen und **Streams**—Ablauf, Redundanz, Barrierefreiheit, Sicherheit. Ergänzt [`video-produktion-grundlagen.md`](video-produktion-grundlagen.md), [`untertitel-und-untertitelung.md`](untertitel-und-untertitelung.md) und [`krise-und-sensible-themen.md`](../sprache-&-kommunikation/krise-und-sensible-themen.md).
 
 ## Exzerpt
-
 - **Ablauf** mit **Ownern** und **Zeiten**.
 - **Redundanz**: Backup-**Internet**, **Audio**, **Folien**.
 - **Moderation** von Chat/Q&A—**Spam** und **Schutz**.
@@ -35,13 +34,13 @@
 
 **Wer wann** spricht, **Folien**-Wechsel und **Übergänge** dokumentieren—**inkl.** Plan B, wenn jemand ausfällt.
 
-### Bad
+### Gut: ablauf mit ownern und timecodes
 
 ```text
 „Lösen wir live.“
 ```
 
-### Good
+### Gut: ablauf mit ownern und timecodes
 
 ```text
 Ablauf: 00:00 Host-Intro (Alex); 00:05 Folien (Sam); 05:00 Q&A (Moderation); Backup-Host: Jordan bei Alex-Ausfall.
@@ -53,13 +52,13 @@ Ablauf: 00:00 Host-Intro (Alex); 00:05 Folien (Sam); 05:00 Q&A (Moderation); Bac
 
 **Kabel**-Uplink oder gebündeltes LTE; **paralleler** Audio-Recorder; **offline**-PDF der Folien bei Moderation.
 
-### Bad
+### Gut: redundanz: internet, audio, folien
 
 ```text
 Ein WLAN-Hop ohne Backup.
 ```
 
-### Good
+### Gut: redundanz: internet, audio, folien
 
 ```text
 Ethernet zum Router; LTE-Failover; Backup-Recorder auf dem Tisch; Folien als PDF + lokale Kopie beim Vortragenden.
@@ -71,13 +70,13 @@ Ethernet zum Router; LTE-Failover; Backup-Recorder auf dem Tisch; Folien als PDF
 
 **Generalprobe** mit denselben Mikros, **OBS**- oder Encoder-Einstellungen und **gemessener** Plattform-Latenz.
 
-### Bad
+### Gut: probe mit gleicher technik
 
 ```text
 Probe mit Laptop-Mikro; Live-Tag anderes Interface—Feedback und Pegel unbekannt.
 ```
 
-### Good
+### Gut: probe mit gleicher technik
 
 ```text
 Trockenlauf Dienstag mit gleichem Rack; Round-Trip-Delay notiert; Monitor-Mix für Host angepasst.
@@ -89,13 +88,13 @@ Trockenlauf Dienstag mit gleichem Rack; Round-Trip-Delay notiert; Monitor-Mix f�
 
 **Moderator:in** weiß, **was** laut vorgelesen wird, **Spam**-Regeln und **Eskalation** bei Belästigung oder Schutzfällen.
 
-### Bad
+### Gut: moderation: chat, q&a, schutz
 
 ```text
 Host liest jeden Chat live—mit beleidigendem oder identifizierendem Inhalt.
 ```
 
-### Good
+### Gut: moderation: chat, q&a, schutz
 
 ```text
 Moderation filtert; nur geprüfte Fragen an die Bühne; Schutz-Lead bei Gelb/Rot erreichbar.
@@ -107,13 +106,13 @@ Moderation filtert; nur geprüfte Fragen an die Bühne; Schutz-Lead bei Gelb/Rot
 
 **Plattform-Captions** oder **Live-Transkript** (Mensch/ASR) wo Qualität reicht; **Transkript** nachreichen, wenn nicht live.
 
-### Bad
+### Gut: barrierefreiheit: captions und transkript
 
 ```text
 Kein Untertitel-Pfad—öffentliches Webinar ohne Zugang für gehörlose Nutzer*innen.
 ```
 
-### Good
+### Gut: barrierefreiheit: captions und transkript
 
 ```text
 Live-Captions via Anbieter oder Plattform; nach Event VTT hochladen; Aufzeichnungsseite verlinkt Transkript.
@@ -125,13 +124,13 @@ Live-Captions via Anbieter oder Plattform; nach Event VTT hochladen; Aufzeichnun
 
 **Einwilligung** zu **Aufzeichnung**, **Verbreitung** und **Kurzclips**—**besonders** bei Fundraising-Nutzung.
 
-### Bad
+### Gut: aufzeichnung und einwilligung der sprecher*innen
 
 ```text
 Aufzeichnung auf YouTube ohne Wissen der Redner*innen.
 ```
 
-### Good
+### Gut: aufzeichnung und einwilligung der sprecher*innen
 
 ```text
 Einwilligung: Live OK; VOD 90 Tage; keine Kurzclips für Ads ohne Nachzeichnung—im Ablaufprotokoll.
@@ -148,8 +147,7 @@ Einwilligung: Live OK; VOD 90 Tage; keine Kurzclips für Ads ohne Nachzeichnung�
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Live = **Logistik + Empathie**—**proben**, **backupen**, **moderieren**, **untertiteln**.
 
 ## Weiterführend

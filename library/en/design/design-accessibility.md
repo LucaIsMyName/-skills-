@@ -2,8 +2,7 @@
 
 **Scope:** Applies to the **design side of accessibility**—layout, typography, colour, motion, affordances, and patterns. Companion to [`accessibility-in-code.md`](../coding/accessibility-in-code.md) (engineering) and [`accessibility-for-comms.md`](../language-&-communication/accessibility-for-comms.md) (copy). Pair with [`color-and-contrast.md`](color-and-contrast.md), [`typography.md`](typography.md), [`motion-and-micro-interactions.md`](motion-and-micro-interactions.md).
 
-## Excerpt 
-
+## Excerpt
 - **Accessibility is design**, not a later pass. If the design fails at zoom, in reduced motion, or with a keyboard, the design is wrong.
 - **Target sizes** ≥24×24 CSS px (WCAG 2.2), ideally ≥44×44. Hit zones larger than visuals.
 - **Contrast** meets at least AA (4.5:1 body, 3:1 large/UI). See [`color-and-contrast.md`](color-and-contrast.md).

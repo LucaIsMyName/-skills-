@@ -3,7 +3,6 @@
 **Geltungsbereich:** **Größen** und **Export** für Plattformen—Safe Zones, Video-Specs, Barrierefreiheit. Ergänzt [`headlines-schreiben.md`](../sprache-&-kommunikation/headlines-schreiben.md), [`dateinamen-und-organisation.md`](dateinamen-und-organisation.md) und [`motion-und-micro-interactions.md`](../design/motion-und-micro-interactions.md).
 
 ## Exzerpt
-
 - **Specs** ändern sich—vor Launch **aktuell** prüfen.
 - **Safe Zones** für UI-Overlays.
 - **Alt-Text**; **Untertitel** bei Video.
@@ -34,13 +33,13 @@ Assets **passend**, **lesbar**, **on-brand** ausliefern.
 
 **Offizielle** Plattform-Hilfen (Meta, TikTok, LinkedIn …) für **aktuelle** Pixel und Safe Zones — **bevor** kreativ festgezurrt wird.
 
-### Bad
+### Gut: specs vor launch verifizieren
 
 ```text
 Asset-Maße aus letztem Jahr ohne Check — Stories schneiden Gesichter und Logos.
 ```
 
-### Good
+### Gut: specs vor launch verifizieren
 
 ```text
 Checkliste: LinkedIn-Bild-Spec (Apr. 2025); 1× Test-Post in Staging; Safe Zones vor Export-Batch anpassen.
@@ -52,13 +51,13 @@ Checkliste: LinkedIn-Bild-Spec (Apr. 2025); 1× Test-Post in Staging; Safe Zones
 
 **Wichtiges** (Gesichter, Text, Logo) in **sicheren Bereichen** unterhalb der **UI-Overlays** (Profil, Buttons, Untertitel).
 
-### Bad
+### Gut: safe zones und overlays
 
 ```text
 Ein großes Quadrat überall — Köpfe in Stories abgeschnitten.
 ```
 
-### Good
+### Gut: safe zones und overlays
 
 ```text
 Getrennte Crops pro Format; Hilfslinien z. B. 10 % Innenabstand für Stories; benannte Exporte: story_9x16_safe, feed_1x1.
@@ -70,13 +69,13 @@ Getrennte Crops pro Format; Hilfslinien z. B. 10 % Innenabstand für Stories; be
 
 **Bilder** für Screenreader **beschreiben**; **Video** untertiteln (einbrennen oder Plattform)—gleicher Inhalt wie für Hörende.
 
-### Bad
+### Gut: alt-text und untertitel
 
 ```text
 Alt: „bild1“; Video ohne Untertitel.
 ```
 
-### Good
+### Gut: alt-text und untertitel
 
 ```text
 Alt: „Freiwillige*r Sam übergibt Willkommenspaket an neue Teilnehmer*in am Riverside-Tresen.“; SRT mit Video hochgeladen.
@@ -88,13 +87,13 @@ Alt: „Freiwillige*r Sam übergibt Willkommenspaket an neue Teilnehmer*in am Ri
 
 **Erste 2–3 Sekunden** tragen die Aussage; **Loop**-Länge und Plattformnorm (z. B. 15–60 s) bewusst wählen.
 
-### Bad
+### Gut: hook und länge für kurzvideo
 
 ```text
 30 s Logo-Stinger vor der Botschaft — Zuschauer*innen scrollen weiter.
 ```
 
-### Good
+### Gut: hook und länge für kurzvideo
 
 ```text
 Hook in Frame 1: „Abend-Freiwilligenarbeit?“; gesamt 15 s; End-Card mit CTA bei 12 s.
@@ -106,13 +105,13 @@ Hook in Frame 1: „Abend-Freiwilligenarbeit?“; gesamt 15 s; End-Card mit CTA 
 
 Aus **Master-Templates** (Figma/Canva) exportieren; für Mobil **komprimieren**—auf **echtem Handy** im Mobilfunk testen.
 
-### Bad
+### Gut: templates und kompression
 
 ```text
 8 MB PNG im Feed — langsam, niemand wartet.
 ```
 
-### Good
+### Gut: templates und kompression
 
 ```text
 Template: Markenrahmen + sicherer Text; WebP/JPEG unter 300 KB; Lesbarkeit auf kleinstem Gerät im Team prüfen.
@@ -124,13 +123,13 @@ Template: Markenrahmen + sicherer Text; WebP/JPEG unter 300 KB; Lesbarkeit auf k
 
 **Zuschneiden** für Bildaufbau, nicht um **Kontext** zu verstecken, der die Aussage ändert (Größe der Gruppe, Ort, Beziehungen).
 
-### Bad
+### Gut: ehrliche crops — kein irreführender ausschnitt
 
 ```text
 Crop blendet andere Freiwillige aus — wirkt wie ein Einzelkampf.
 ```
 
-### Good
+### Gut: ehrliche crops — kein irreführender ausschnitt
 
 ```text
 Caption erklärt Gruppenkontext; Hero als Weitwinkel, Detail-Crop nur mit gleicher Wahrheit.
@@ -147,8 +146,7 @@ Caption erklärt Gruppenkontext; Hero als Weitwinkel, Detail-Crop nur mit gleich
 
 ---
 
-## Kernidee
-
+## Kerngedanke
 Social-Assets = **Constraints** verstehen—**Spec zuerst**, Kreativität darin.
 
 ## Weiterführend
