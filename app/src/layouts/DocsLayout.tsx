@@ -1,4 +1,4 @@
-import { Outlet, useParams } from 'react-router-dom'
+import { Outlet, useLocation, useParams } from 'react-router-dom'
 import { useState, useEffect, useCallback } from 'react'
 import { Button } from '@/components/ui/button'
 import {
@@ -20,6 +20,7 @@ import {
 } from '../components/DocsSearchDialog'
 
 export function DocsLayout() {
+  const location = useLocation()
   const { lang } = useParams<{
     lang: string
   }>()
@@ -44,6 +45,11 @@ export function DocsLayout() {
   useEffect(() => {
     if (lang) document.documentElement.lang = lang
   }, [lang])
+
+  /** Main column uses document scroll; sidebar has its own overflow — only reset window scroll. */
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+  }, [location.pathname, location.search])
 
   const closeDrawer = () => setDrawerOpen(false)
 
