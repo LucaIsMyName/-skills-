@@ -75,11 +75,42 @@ function writeEnvelope<T>(key: string, value: T, ttlMs = SEVEN_DAYS_MS): void {
     source: githubSourceKey(),
     value,
   }
+  const serialized = JSON.stringify(payload)
   try {
-    storage.setItem(key, JSON.stringify(payload))
-  } catch {
-    // Ignore quota/privacy mode failures and continue with network behavior.
+    storage.setItem(key, serialized)
+  } catch (err) {
+    if (!(err instanceof DOMException && err.name === 'QuotaExceededError')) return
+    evictOldestCacheEntry(storage)
+    try {
+      storage.setItem(key, serialized)
+    } catch {
+      // Still over quota after eviction — skip caching silently.
+    }
   }
+}
+
+/** Removes the single oldest `skills-doc-cache:v1` entry to free space. */
+function evictOldestCacheEntry(storage: Storage): void {
+  let oldestKey: string | null = null
+  let oldestCachedAt = Infinity
+  for (let i = 0; i < storage.length; i++) {
+    const k = storage.key(i)
+    if (!k?.startsWith(CACHE_PREFIX)) continue
+    try {
+      const raw = storage.getItem(k)
+      if (!raw) continue
+      const parsed = JSON.parse(raw) as Partial<CacheEnvelope<unknown>>
+      const cachedAt = typeof parsed.cachedAt === 'number' ? parsed.cachedAt : Infinity
+      if (cachedAt < oldestCachedAt) {
+        oldestCachedAt = cachedAt
+        oldestKey = k
+      }
+    } catch {
+      oldestKey = k
+      break
+    }
+  }
+  if (oldestKey) storage.removeItem(oldestKey)
 }
 
 export function getMarkdownCache(

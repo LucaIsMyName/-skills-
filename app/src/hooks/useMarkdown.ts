@@ -8,12 +8,12 @@ export function useMarkdown(path: string | undefined, enabled: boolean) {
     queryKey: path
       ? queryKeys.markdown(path, githubSourceKey())
       : ["markdown", "none"],
-    queryFn: async () => {
+    queryFn: async ({ signal }) => {
       const markdownPath = path!;
       const fresh = getMarkdownCache(markdownPath);
       if (fresh !== undefined) return fresh;
       try {
-        const md = await fetchRawMarkdown(markdownPath);
+        const md = await fetchRawMarkdown(markdownPath, signal);
         setMarkdownCache(markdownPath, md);
         return md;
       } catch (error) {

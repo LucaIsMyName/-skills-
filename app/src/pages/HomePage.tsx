@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { useLibraryIndex } from '../hooks/useLibraryIndex'
 import { useUiStrings } from '../hooks/useUiStrings'
@@ -7,6 +8,10 @@ export function HomePage() {
   const { lang } = useParams<{ lang: string }>()
   const { data, isLoading, isError, error } = useLibraryIndex()
   const t = useUiStrings()
+
+  useEffect(() => {
+    document.title = 'Skills library'
+  }, [])
 
   if (!lang) return null
 

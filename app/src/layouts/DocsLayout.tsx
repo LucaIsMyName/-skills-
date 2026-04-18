@@ -1,5 +1,5 @@
 import { Outlet, useParams } from 'react-router-dom'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useLibraryIndex } from '../hooks/useLibraryIndex'
 import { useUiStrings } from '../hooks/useUiStrings'
 import { AppLogo } from '../components/AppLogo'
@@ -13,6 +13,10 @@ export function DocsLayout() {
   const { data, isLoading, error, isError } = useLibraryIndex()
   const [drawerOpen, setDrawerOpen] = useState(false)
   const t = useUiStrings()
+
+  useEffect(() => {
+    if (lang) document.documentElement.lang = lang
+  }, [lang])
 
   const closeDrawer = () => setDrawerOpen(false)
 

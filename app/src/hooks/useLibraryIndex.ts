@@ -25,12 +25,12 @@ function toRuntimeIndex(cached: PersistedLibraryIndex): {
 export function useLibraryIndex() {
   return useQuery({
     queryKey: queryKeys.libraryIndex(githubSourceKey()),
-    queryFn: async () => {
+    queryFn: async ({ signal }) => {
       const fresh = getLibraryIndexCache()
       if (fresh) return toRuntimeIndex(fresh)
 
       try {
-        const map = await fetchLibraryIndexes()
+        const map = await fetchLibraryIndexes(signal)
         const next = {
           byLang: map,
           langs: [...map.keys()].sort(),

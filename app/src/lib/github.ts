@@ -86,10 +86,11 @@ async function fetchWithRetry(
   url: string,
   init: RequestInit,
   target: 'index' | 'markdown',
+  signal?: AbortSignal,
 ): Promise<Response> {
   let lastRes: Response | null = null
   for (let attempt = 1; attempt <= DEFAULT_RETRY_ATTEMPTS; attempt += 1) {
-    const res = await fetch(url, init)
+    const res = await fetch(url, { ...init, signal })
     if (res.ok) return res
     lastRes = res
     if (!isRetryable(res.status) || attempt >= DEFAULT_RETRY_ATTEMPTS) {
@@ -102,12 +103,13 @@ async function fetchWithRetry(
 }
 
 /** Single tree request — filters to markdown files under library/lang/chapter/ */
-export async function fetchLibraryIndexes(): Promise<Map<string, LangIndex>> {
+export async function fetchLibraryIndexes(signal?: AbortSignal): Promise<Map<string, LangIndex>> {
   const { owner, repo, ref } = getGithubConfig()
   const res = await fetchWithRetry(
     `https://api.github.com/repos/${owner}/${repo}/git/trees/${ref}?recursive=1`,
     { headers: getGithubHeaders() },
     'index',
+    signal,
   )
   const data = (await res.json()) as {
     tree: { path: string; type: string }[]
@@ -167,8 +169,8 @@ export function rawMarkdownUrl(path: string): string {
   return `https://raw.githubusercontent.com/${owner}/${repo}/${ref}/${path}`
 }
 
-export async function fetchRawMarkdown(path: string): Promise<string> {
-  const res = await fetchWithRetry(rawMarkdownUrl(path), {}, 'markdown')
+export async function fetchRawMarkdown(path: string, signal?: AbortSignal): Promise<string> {
+  const res = await fetchWithRetry(rawMarkdownUrl(path), {}, 'markdown', signal)
   return res.text()
 }
 

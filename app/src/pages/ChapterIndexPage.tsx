@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useEffect } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { useLibraryIndex } from '../hooks/useLibraryIndex'
 import { useMarkdownH1ByPath } from '../hooks/useMarkdownH1Labels'
@@ -17,6 +17,12 @@ export function ChapterIndexPage() {
   }, [lang, chapter, index])
   const h1Query = useMarkdownH1ByPath(pages)
   const h1ByPath = h1Query.labels
+
+  useEffect(() => {
+    if (chapter) {
+      document.title = `${formatChapterTitle(chapter)} — Skills`
+    }
+  }, [chapter])
 
   if (!lang || !chapter) return null
 

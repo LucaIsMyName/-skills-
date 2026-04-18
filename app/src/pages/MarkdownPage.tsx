@@ -48,10 +48,15 @@ export function MarkdownPage() {
   const title = useMemo(() => firstMarkdownTitle(md), [md])
   const tocItems = useMemo(() => extractMarkdownToc(md), [md])
 
-  const split = splitLeadingAtxH1(md)
+  const split = useMemo(() => splitLeadingAtxH1(md), [md])
   const leadH1Text = split.h1Text
   const markdownBody = leadH1Text ? split.body : md
   const leadH1Id = leadH1Text ? rehypeSlugIdForAtxH1Text(leadH1Text) : null
+
+  useEffect(() => {
+    const pageTitle = title ?? page ?? ''
+    document.title = pageTitle ? `${pageTitle} — Skills` : 'Skills library'
+  }, [title, page])
 
   useEffect(() => {
     const id = location.hash.replace(/^#/, '')
