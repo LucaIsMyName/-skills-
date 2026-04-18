@@ -63,7 +63,7 @@ const en: UiCopy = {
   chapterNavDownloadError: 'Download failed. Please try again.',
   chapterNavLabelsError:
     'Some page titles could not be preloaded. Slugs are shown as fallback.',
-  homeTitle: 'Chapters',
+  homeTitle: 'Skills',
   homeSubtitle: 'Pick a topic to browse explainers.',
   homeLoading: 'Loading chapters…',
   homeIndexError: 'Failed to load library index.',
@@ -107,7 +107,7 @@ const de: UiCopy = {
   chapterNavDownloadError: 'Download fehlgeschlagen. Bitte erneut versuchen.',
   chapterNavLabelsError:
     'Einige Seitentitel konnten nicht vorgeladen werden. Slugs werden als Fallback angezeigt.',
-  homeTitle: 'Kapitel',
+  homeTitle: 'Skills',
   homeSubtitle: 'Wähle ein Thema, um die Erklärungen zu durchsuchen.',
   homeLoading: 'Kapitel werden geladen…',
   homeIndexError: 'Bibliotheksindex konnte nicht geladen werden.',

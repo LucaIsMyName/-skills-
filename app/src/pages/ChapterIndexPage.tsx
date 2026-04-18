@@ -1,5 +1,6 @@
 import { useMemo, useEffect } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
+import { Alert, AlertDescription } from '@/components/ui/alert'
 import { useLibraryIndex } from '../hooks/useLibraryIndex'
 import { useMarkdownH1ByPath } from '../hooks/useMarkdownH1Labels'
 import { useUiStrings } from '../hooks/useUiStrings'
@@ -36,12 +37,9 @@ export function ChapterIndexPage() {
 
   if (isError) {
     return (
-      <div
-        className="rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-800 dark:border-red-900/50 dark:bg-red-900/20 dark:text-red-400"
-        role="alert"
-      >
-        {String(error?.message ?? t.chapterIndexIndexError)}
-      </div>
+      <Alert variant="destructive">
+        <AlertDescription>{String(error?.message ?? t.chapterIndexIndexError)}</AlertDescription>
+      </Alert>
     )
   }
 
@@ -60,12 +58,9 @@ export function ChapterIndexPage() {
         {t.chapterIndexExplainersIn(pages.length)}
       </p>
       {h1Query.isError ? (
-        <p
-          className="mt-3 rounded-md border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-800 dark:border-amber-900/50 dark:bg-amber-900/20 dark:text-amber-400"
-          role="status"
-        >
-          {t.chapterIndexLabelsError}
-        </p>
+        <Alert variant="warning" className="mt-3 py-2 text-xs">
+          <AlertDescription>{t.chapterIndexLabelsError}</AlertDescription>
+        </Alert>
       ) : null}
       <ol className="mt-8 flex flex-col gap-2">
         {pages.map((p) => (

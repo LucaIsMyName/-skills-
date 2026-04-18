@@ -1,5 +1,9 @@
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+
+const appDir = path.dirname(fileURLToPath(import.meta.url))
 
 function guardPublicToken(): { name: string; configResolved: (cfg: { env: Record<string, string> }) => void } {
   return {
@@ -18,4 +22,9 @@ function guardPublicToken(): { name: string; configResolved: (cfg: { env: Record
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), guardPublicToken()],
+  resolve: {
+    alias: {
+      '@': path.resolve(appDir, 'src'),
+    },
+  },
 })

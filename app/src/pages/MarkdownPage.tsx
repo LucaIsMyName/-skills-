@@ -11,6 +11,8 @@ type MarkdownCodeRenderProps = ComponentPropsWithoutRef<'code'> & {
   inline?: boolean
   node?: unknown
 }
+import { Alert, AlertDescription } from '@/components/ui/alert'
+import { Button } from '@/components/ui/button'
 import { useLibraryIndex } from '../hooks/useLibraryIndex'
 import { useMarkdown } from '../hooks/useMarkdown'
 import { useUiStrings } from '../hooks/useUiStrings'
@@ -111,12 +113,14 @@ export function MarkdownPage() {
 
   if (lib && !path) {
     return (
-      <p className="text-sm text-zinc-600 dark:text-zinc-400">
-        {t.markdownNotInIndex}{' '}
-        <Link to={`/${lang}/${chapter}`} className="text-zinc-900 underline dark:text-zinc-200">
-          {t.markdownBackToChapter}
-        </Link>
-      </p>
+      <Alert>
+        <AlertDescription className="text-sm">
+          {t.markdownNotInIndex}{' '}
+          <Link to={`/${lang}/${chapter}`} className="font-medium text-foreground underline">
+            {t.markdownBackToChapter}
+          </Link>
+        </AlertDescription>
+      </Alert>
     )
   }
 
@@ -130,12 +134,11 @@ export function MarkdownPage() {
 
   if (q.isError) {
     return (
-      <div
-        className="rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-800"
-        role="alert"
-      >
-        {String(q.error?.message ?? t.markdownLoadError)} {t.markdownRateLimitHint}
-      </div>
+      <Alert variant="destructive">
+        <AlertDescription>
+          {String(q.error?.message ?? t.markdownLoadError)} {t.markdownRateLimitHint}
+        </AlertDescription>
+      </Alert>
     )
   }
 
@@ -162,16 +165,20 @@ export function MarkdownPage() {
           ) : null}
         </div>
         <div className="flex flex-wrap gap-2">
-          <button
+          <Button
             type="button"
-            className="rounded-lg border border-zinc-200 bg-white px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-zinc-700 shadow-sm hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700"
+            variant="outline"
+            size="sm"
+            className="text-xs font-semibold uppercase tracking-wide"
             onClick={() => downloadMarkdownFile(`${baseName}.md`, exportMd)}
           >
             {t.exportMarkdown}
-          </button>
-          <button
+          </Button>
+          <Button
             type="button"
-            className="rounded-lg border border-zinc-200 bg-white px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-zinc-700 shadow-sm hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700"
+            variant="outline"
+            size="sm"
+            className="text-xs font-semibold uppercase tracking-wide"
             onClick={() =>
               void import('../lib/exports').then(({ downloadDocx }) =>
                 downloadDocx(`${baseName}.docx`, exportMd, displayTitle),
@@ -179,10 +186,12 @@ export function MarkdownPage() {
             }
           >
             {t.exportWord}
-          </button>
-          <button
+          </Button>
+          <Button
             type="button"
-            className="rounded-lg border border-zinc-200 bg-zinc-800 px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-white shadow-sm hover:bg-zinc-900 dark:border-zinc-600 dark:bg-zinc-700 dark:hover:bg-zinc-600"
+            variant="default"
+            size="sm"
+            className="text-xs font-semibold uppercase tracking-wide"
             onClick={() =>
               void import('../lib/exports').then(({ downloadPdfFromMarkdown }) =>
                 downloadPdfFromMarkdown(exportMd, displayTitle, `${baseName}.pdf`),
@@ -190,7 +199,7 @@ export function MarkdownPage() {
             }
           >
             {t.exportPdf}
-          </button>
+          </Button>
         </div>
       </div>
 

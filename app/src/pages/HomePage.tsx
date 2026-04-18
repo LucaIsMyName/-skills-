@@ -1,5 +1,13 @@
 import { useEffect } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
+import { Badge } from '@/components/ui/badge'
+import {
+  Card,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card'
+import { Alert, AlertDescription } from '@/components/ui/alert'
 import { useLibraryIndex } from '../hooks/useLibraryIndex'
 import { useUiStrings } from '../hooks/useUiStrings'
 import { formatChapterTitle } from '../lib/strings'
@@ -25,12 +33,9 @@ export function HomePage() {
 
   if (isError) {
     return (
-      <div
-        className="rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-800 dark:border-red-900/50 dark:bg-red-900/20 dark:text-red-400"
-        role="alert"
-      >
-        {String(error?.message ?? t.homeIndexError)}
-      </div>
+      <Alert variant="destructive">
+        <AlertDescription>{String(error?.message ?? t.homeIndexError)}</AlertDescription>
+      </Alert>
     )
   }
 
@@ -52,16 +57,20 @@ export function HomePage() {
       <ul className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
         {index.chapters.map((ch) => (
           <li key={ch}>
-            <Link
-              to={`/${lang}/${ch}`}
-              className="flex h-full flex-col rounded-xl border border-zinc-200 bg-white p-5 shadow-sm transition hover:border-zinc-300 hover:shadow-md dark:border-zinc-700 dark:bg-zinc-800 dark:hover:border-zinc-600"
-            >
-              <span className="text-base font-semibold text-zinc-900 dark:text-zinc-100">
-                {formatChapterTitle(ch)}
-              </span>
-              <span className="mt-2 line-clamp-2 text-sm text-zinc-500 dark:text-zinc-400">
-                {t.homeExplainersCount(index.byChapter[ch]?.length ?? 0)}
-              </span>
+            <Link to={`/${lang}/${ch}`} className="block h-full">
+              <Card className="h-full transition-shadow hover:shadow-md">
+                <CardHeader>
+                  <div className="flex items-start justify-between gap-2">
+                    <CardTitle className="text-base">{formatChapterTitle(ch)}</CardTitle>
+                    <Badge variant="secondary" className="shrink-0 tabular-nums">
+                      {index.byChapter[ch]?.length ?? 0}
+                    </Badge>
+                  </div>
+                  <CardDescription className="line-clamp-2">
+                    {t.homeExplainersCount(index.byChapter[ch]?.length ?? 0)}
+                  </CardDescription>
+                </CardHeader>
+              </Card>
             </Link>
           </li>
         ))}

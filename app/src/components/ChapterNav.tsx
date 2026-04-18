@@ -1,5 +1,13 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, type MouseEvent } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
+import { Alert, AlertDescription } from '@/components/ui/alert'
+import { Button } from '@/components/ui/button'
+import { Separator } from '@/components/ui/separator'
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from '@/components/ui/tooltip'
 import type { ExplainerMeta, LangIndex } from '../lib/github'
 import { useMarkdownH1ByPath } from '../hooks/useMarkdownH1Labels'
 import {
@@ -115,22 +123,16 @@ export function ChapterNav({ lang, index, onPick, ui: t }: Props) {
   return (
     <nav className="flex min-w-0 flex-col gap-1" aria-label={t.chapterNavAria}>
       {downloadError ? (
-        <p
-          className="mb-1 rounded-md border border-red-200 bg-red-50 px-2 py-1 text-xs text-red-700 dark:border-red-900/50 dark:bg-red-900/20 dark:text-red-400"
-          role="alert"
-        >
-          {downloadError}
-        </p>
+        <Alert variant="destructive" className="mb-1 py-2 text-xs">
+          <AlertDescription>{downloadError}</AlertDescription>
+        </Alert>
       ) : null}
       {h1Query.isError ? (
-        <p
-          className="mb-1 rounded-md border border-amber-200 bg-amber-50 px-2 py-1 text-xs text-amber-800 dark:border-amber-900/50 dark:bg-amber-900/20 dark:text-amber-400"
-          role="status"
-        >
-          {t.chapterNavLabelsError}
-        </p>
+        <Alert variant="warning" className="mb-1 py-2 text-xs">
+          <AlertDescription>{t.chapterNavLabelsError}</AlertDescription>
+        </Alert>
       ) : null}
-      {index.chapters.map((ch) => {
+      {index.chapters.map((ch, chapterIdx) => {
         const pages = index.byChapter[ch] ?? []
         const prefix = `/${lang}/${ch}`
         const inChapter =
@@ -158,20 +160,28 @@ export function ChapterNav({ lang, index, onPick, ui: t }: Props) {
                 {formatChapterTitle(ch)}
               </NavLink>
               {pages.length > 0 ? (
-                <button
-                  type="button"
-                  title={t.chapterNavZipTitle}
-                  aria-label={t.chapterNavZipAria(formatChapterTitle(ch))}
-                  disabled={downloadBusy !== null}
-                  className={rowDownloadBtnClass(zipKey, downloadBusy, 'chapter')}
-                  onClick={(e) => {
-                    e.preventDefault()
-                    e.stopPropagation()
-                    onChapterZip(ch, pages)
-                  }}
-                >
-                  <DownloadGlyph className="h-4 w-4" />
-                </button>
+                <Tooltip>
+                  <TooltipTrigger
+                    render={
+                      <Button
+                        variant="ghost"
+                        size="icon-sm"
+                        type="button"
+                        disabled={downloadBusy !== null}
+                        aria-label={t.chapterNavZipAria(formatChapterTitle(ch))}
+                        className={rowDownloadBtnClass(zipKey, downloadBusy, 'chapter')}
+                        onClick={(e: MouseEvent<HTMLButtonElement>) => {
+                          e.preventDefault()
+                          e.stopPropagation()
+                          onChapterZip(ch, pages)
+                        }}
+                      />
+                    }
+                  >
+                    <DownloadGlyph className="h-4 w-4" />
+                  </TooltipTrigger>
+                  <TooltipContent side="right">{t.chapterNavZipTitle}</TooltipContent>
+                </Tooltip>
               ) : null}
             </div>
             {showExplainers && (
@@ -197,31 +207,42 @@ export function ChapterNav({ lang, index, onPick, ui: t }: Props) {
                       >
                         {h1ByPath.get(p.path) ?? humanizeSlug(p.slug)}
                       </NavLink>
-                      <button
-                        type="button"
-                        title={t.chapterNavMdTitle}
-                        aria-label={t.chapterNavMdAria(
-                          h1ByPath.get(p.path) ?? humanizeSlug(p.slug),
-                        )}
-                        disabled={downloadBusy !== null}
-                        className={rowDownloadBtnClass(
-                          mdKey,
-                          downloadBusy,
-                          'page',
-                        )}
-                        onClick={(e) => {
-                          e.preventDefault()
-                          e.stopPropagation()
-                          onPageMd(ch, p)
-                        }}
-                      >
-                        <DownloadGlyph className="h-3.5 w-3.5" />
-                      </button>
+                      <Tooltip>
+                        <TooltipTrigger
+                          render={
+                            <Button
+                              variant="ghost"
+                              size="icon-sm"
+                              type="button"
+                              disabled={downloadBusy !== null}
+                              aria-label={t.chapterNavMdAria(
+                                h1ByPath.get(p.path) ?? humanizeSlug(p.slug),
+                              )}
+                              className={rowDownloadBtnClass(
+                                mdKey,
+                                downloadBusy,
+                                'page',
+                              )}
+                              onClick={(e: MouseEvent<HTMLButtonElement>) => {
+                                e.preventDefault()
+                                e.stopPropagation()
+                                onPageMd(ch, p)
+                              }}
+                            />
+                          }
+                        >
+                          <DownloadGlyph className="h-3.5 w-3.5" />
+                        </TooltipTrigger>
+                        <TooltipContent side="right">{t.chapterNavMdTitle}</TooltipContent>
+                      </Tooltip>
                     </li>
                   )
                 })}
               </ul>
             )}
+            {chapterIdx < index.chapters.length - 1 ? (
+              <Separator className="my-2 shrink-0 bg-border" />
+            ) : null}
           </div>
         )
       })}

@@ -2,6 +2,10 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { Component, lazy, Suspense } from 'react'
 import type { ErrorInfo, ReactNode } from 'react'
+import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
+import { Button } from '@/components/ui/button'
+import { Toaster } from '@/components/ui/sonner'
+import { TooltipProvider } from '@/components/ui/tooltip'
 import { DocsLayout } from './layouts/DocsLayout'
 import { ChapterIndexPage } from './pages/ChapterIndexPage'
 import { HomePage } from './pages/HomePage'
@@ -28,12 +32,14 @@ class AppErrorBoundary extends Component<{ children: ReactNode }, ErrorBoundaryS
   render() {
     if (this.state.hasError) {
       return (
-        <div className="flex min-h-screen flex-col items-center justify-center gap-4 p-8 text-center">
-          <p className="text-lg font-semibold text-zinc-900">Something went wrong</p>
-          <p className="max-w-sm text-sm text-zinc-500">{this.state.message}</p>
-          <a href="/" className="rounded-lg border border-zinc-200 bg-white px-4 py-2 text-sm font-medium text-zinc-700 shadow-sm hover:bg-zinc-50">
+        <div className="flex min-h-screen flex-col items-center justify-center gap-4 bg-background p-8 text-center">
+          <Alert variant="destructive" className="max-w-md text-left">
+            <AlertTitle>Something went wrong</AlertTitle>
+            <AlertDescription>{this.state.message}</AlertDescription>
+          </Alert>
+          <Button variant="outline" render={<a href="/" />}>
             Go home
-          </a>
+          </Button>
         </div>
       )
     }
@@ -67,22 +73,25 @@ export default function App() {
   return (
     <AppErrorBoundary>
       <QueryClientProvider client={queryClient}>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<DefaultLangRedirect />} />
-            <Route path=":lang" element={<DocsLayout />}>
-              <Route index element={<HomePage />} />
-              <Route path=":chapter/:page" element={<MarkdownPage />} />
-              <Route path=":chapter" element={<ChapterIndexPage />} />
-            </Route>
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-          {DevCacheResetButton && (
-            <Suspense>
-              <DevCacheResetButton />
-            </Suspense>
-          )}
-        </BrowserRouter>
+        <TooltipProvider>
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<DefaultLangRedirect />} />
+              <Route path=":lang" element={<DocsLayout />}>
+                <Route index element={<HomePage />} />
+                <Route path=":chapter/:page" element={<MarkdownPage />} />
+                <Route path=":chapter" element={<ChapterIndexPage />} />
+              </Route>
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+            {DevCacheResetButton && (
+              <Suspense>
+                <DevCacheResetButton />
+              </Suspense>
+            )}
+          </BrowserRouter>
+          <Toaster />
+        </TooltipProvider>
       </QueryClientProvider>
     </AppErrorBoundary>
   )

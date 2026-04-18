@@ -6,6 +6,7 @@ import {
   type ComponentPropsWithoutRef,
   type JSX,
 } from 'react'
+import { Button } from '@/components/ui/button'
 import { useUiStrings } from '../hooks/useUiStrings'
 
 type PreProps = ComponentPropsWithoutRef<'pre'>
@@ -32,10 +33,12 @@ export function MarkdownPreWithCopy({ children, className, ...rest }: PreProps):
 
   return (
     <div className="relative my-4">
-      <button
+      <Button
         type="button"
+        variant="outline"
+        size="icon-sm"
         onClick={() => void handleCopy()}
-        className="absolute right-2 top-2 z-10 rounded-md border border-zinc-200 bg-white p-1.5 text-zinc-600 shadow-sm transition-colors hover:bg-zinc-50 hover:text-zinc-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400 dark:border-zinc-600 dark:bg-zinc-700 dark:text-zinc-400 dark:hover:bg-zinc-600 dark:hover:text-zinc-100"
+        className="absolute right-2 top-2 z-10 shadow-sm"
         aria-label={copied ? t.copyCodeCopied : t.copyCode}
       >
         {copied ? (
@@ -43,7 +46,7 @@ export function MarkdownPreWithCopy({ children, className, ...rest }: PreProps):
         ) : (
           <Copy className="size-4" strokeWidth={2} aria-hidden />
         )}
-      </button>
+      </Button>
       <pre ref={preRef} className={className} {...rest}>
         {children}
       </pre>
@@ -81,10 +84,12 @@ export function MarkdownInlineCode({
       <code className={className} {...rest}>
         {children}
       </code>
-      <button
+      <Button
         type="button"
+        variant="ghost"
+        size="icon-xs"
         onClick={() => void handleCopy()}
-        className="-mb-px inline-flex shrink-0 rounded p-0.5 text-zinc-400 transition-colors hover:bg-zinc-100 hover:text-zinc-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400 dark:text-zinc-500 dark:hover:bg-zinc-700 dark:hover:text-zinc-300"
+        className="-mb-px h-6 min-w-6 shrink-0 px-0 text-muted-foreground"
         aria-label={copied ? t.copyCodeCopied : t.copyCode}
       >
         {copied ? (
@@ -92,7 +97,7 @@ export function MarkdownInlineCode({
         ) : (
           <Copy className="size-3" strokeWidth={2} aria-hidden />
         )}
-      </button>
+      </Button>
     </span>
   )
 }
