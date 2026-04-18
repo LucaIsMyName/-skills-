@@ -29,29 +29,122 @@ Spend limited attention on **highest learning or impact per cost**—**transpare
 
 ---
 
-## 1. Impact × Effort
+## 1. Frame the goal first
 
-- Quick wins (high/low), **time sinks** (low/high)—**avoid** the latter without reason.
+### Rule
+
+Write the **outcome** you are optimising for this cycle—priorities without that become **who shouts loudest**.
 
 ### Bad
 
 ```text
-Prioritise by who shouts loudest.
+Prioritise the backlog alphabetically / by who escalated last.
 ```
 
 ### Good
 
 ```text
-Score impact (1–5) and effort (1–5); discuss ties with data.
+Goal this quarter: reduce volunteer no-shows by 15%. Only items that plausibly move that metric get top slots.
 ```
 
-## 2. MoSCoW (when useful)
+## 2. Impact and confidence
 
-- Must / Should / Could / Won’t (**this** time).
+### Rule
 
-## 3. What not to do
+Prefer **evidence** (usage, support tickets, research) over **seniority** when scoring impact; note **confidence** explicitly.
 
-- **Hide** dependency chains—**map** them.
+### Bad
+
+```text
+The CEO wants feature X, so it’s P0.
+```
+
+### Good
+
+```text
+Impact 4/5 (500 users/month affected); confidence 3/5 (one survey). Discuss ties with data, not job title.
+```
+
+## 3. Effort and total cost of ownership
+
+### Rule
+
+**Cost** includes build, **maintenance**, **support**, and **coordination**—not just dev days.
+
+### Bad
+
+```text
+“Small” feature—only 3 dev days (ignores 2 years of support and docs).
+```
+
+### Good
+
+```text
+Build: 3 days. TCO: ongoing moderation + training volunteers—add 0.2 FTE equivalent; score effort as high.
+```
+
+## 4. Small slices—ship to learn
+
+### Rule
+
+Split work so you can **release and measure**—avoid big-bang bets without learning milestones.
+
+### Bad
+
+```text
+Full rebuild before any user sees anything—9 months.
+```
+
+### Good
+
+```text
+Slice 1: SMS reminder only to evening shift. Measure no-show delta for 4 weeks, then expand.
+```
+
+## 5. Say no in writing with trade-offs
+
+### Rule
+
+Record **what you are not doing** and **why**—so the backlog does not become a graveyard of implied promises.
+
+### Bad
+
+```text
+“We’ll get to it next sprint” (repeated for 6 months).
+```
+
+### Good
+
+```text
+Deferred: multi-language site. Reason: capacity; revisit Q4. Logged in prioritisation notes 2025-04-18.
+```
+
+## 6. Map dependencies before final order
+
+### Rule
+
+**Dependency chains** on the wall (or doc)—hidden blockers make fake priorities.
+
+### Bad
+
+```text
+Priority 1: Launch campaign. Priority 2: Fix DNS. (Campaign needs DNS first.)
+```
+
+### Good
+
+```text
+Order: (1) DNS + SSL, (2) landing page, (3) campaign assets—dependencies drawn before locking the list.
+```
+
+---
+
+## Common Footguns
+
+- **Everything P0**—no sequencing, so teams context-switch and ship nothing finished.
+- **HiPPO** (highest paid person’s opinion) as the only signal—no room for user evidence.
+- **Ignoring** maintenance—shipping features that collapse under support load next quarter.
+- **Silent** deferrals—stakeholders assume “later” means “soon”.
 
 ---
 
@@ -62,6 +155,8 @@ Prioritisation is **saying no with reasons**—**shared** criteria beat hidden p
 ## Further reading
 
 - [Intercom — RICE](https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/) — one framework among many
+- [Atlassian — Prioritization frameworks](https://www.atlassian.com/agile/project-management/prioritization-frameworks) — MoSCoW and alternatives in context
+- [NN/g — Prioritizing UX](https://www.nngroup.com/articles/prioritization-ux/) — impact vs user value
 
 ---
 

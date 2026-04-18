@@ -29,9 +29,101 @@ Turn experience into **better defaults**—**visible** improvements, not ritual.
 
 ---
 
-## 1. Simple format
+## 1. Psychological safety and boundaries
 
-- What helped? What hurt? What experiments next?
+### Rule
+
+Focus on **systems and processes**; never use the retro to **humiliate** or break **confidentiality** or safeguarding rules.
+
+### Bad
+
+```text
+“Why was Alex so slow?” (public blame)
+```
+
+### Good
+
+```text
+“Our review queue was overloaded—what would reduce wait time for everyone?”
+```
+
+## 2. Ground in data, not only opinions
+
+### Rule
+
+Bring **incident counts**, **cycle time**, **survey lines**, or **customer quotes**—so debates are specific.
+
+### Bad
+
+```text
+60 minutes of “I feel like communication was bad.”
+```
+
+### Good
+
+```text
+Data: 4 missed handovers in April (ticket IDs). Hypothesis: no single handover doc. Discuss experiments.
+```
+
+## 3. Few actions with named owners
+
+### Rule
+
+Prefer **2–3 experiments** with **owners and dates** over a long backlog nobody tracks.
+
+### Bad
+
+```text
+20 sticky notes; “someone should fix docs.”
+```
+
+### Good
+
+```text
+Action 1: Alex—handover template in /wiki by Fri. Action 2: Sam—trial weekly 15m sync—2 sprints only.
+```
+
+## 4. Rotate facilitation
+
+### Rule
+
+**Different people** run the retro over time—reduces “facilitator vs team” dynamics and builds skills.
+
+### Bad
+
+```text
+Same manager runs every retro; team stays passive.
+```
+
+### Good
+
+```text
+Rotating facilitator schedule in calendar; lightweight script shared in /retro/README.md
+```
+
+## 5. Check previous actions at the start
+
+### Rule
+
+Begin each retro by reviewing **last retro’s actions**—closed, in progress, or dropped (and why).
+
+### Bad
+
+```text
+Fresh retro every time; last commitments forgotten.
+```
+
+### Good
+
+```text
+First 10m: status of 3 actions from March retro—2 done, 1 blocked—adjust before new topics.
+```
+
+## 6. Timebox and simple format
+
+### Rule
+
+Use a **clear structure** (e.g. what helped / hurt / experiments) and **end on time**—energy matters.
 
 ### Bad
 
@@ -42,12 +134,17 @@ Vent for 60 minutes, no actions.
 ### Good
 
 ```text
-30m retro → pick 2 experiments → owners → calendar check-in
+30m retro → pick 2 experiments → owners → calendar check-in in 2 weeks
 ```
 
-## 2. What not to do
+---
 
-- **Public** blame or **breaking** confidentiality.
+## Common Footguns
+
+- **Blame** disguised as “honesty”—people stop showing up or tell safe lies.
+- **Action inflation**—ten actions, zero capacity; nothing changes.
+- **No follow-up**—same complaints every month; cynicism grows.
+- **Wrong scope**—retro about everything; no shared context from the people who did the work.
 
 ---
 
@@ -58,6 +155,8 @@ Retros **pay rent** with **changed behaviour**—otherwise they’re theatre.
 ## Further reading
 
 - [Agile Alliance — Retrospective](https://www.agilealliance.org/glossary/heartbeat-retrospective/) — classic framing
+- [Google re:Work — Psychological safety](https://rework.withgoogle.com/guides/understanding-team-effectiveness/steps/introduction/) — why safety matters for learning
+- [Atlassian — Sprint retrospectives](https://www.atlassian.com/agile/scrum/sprint-retrospective) — facilitation basics
 
 ---
 

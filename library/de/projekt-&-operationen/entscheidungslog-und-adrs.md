@@ -29,13 +29,136 @@
 
 ---
 
+## 1. Kontext, Entscheidung, Konsequenzen
+
+### Regel
+
+Jeder Eintrag beantwortet: **warum jetzt**, **was gewählt**, **was sich ändert** (positiv und negativ)—kurz.
+
+### Bad
+
+```text
+Wir nutzen Postgres. Ist gut.
+```
+
+### Good
+
+```text
+Kontext: Relationale Integrität und Reporting für Freiwilligendaten nötig.
+Entscheidung: Managed Postgres als Primärspeicher.
+Konsequenzen: + starke Konsistenz, ausgereifte Tools. − Ops-Kosten; Migrationen brauchen Disziplin.
+```
+
+## 2. Eine Entscheidung pro ADR
+
+### Regel
+
+Themen trennen, sodass jedes ADR **eine** Entscheidung hat—Leser*innen finden und ersetzen gezielt.
+
+### Bad
+
+```text
+ADR 0009: Auth-Provider + Cache + Queue + Namenskonvention (4 Seiten).
+```
+
+### Good
+
+```text
+ADR 0009: OAuth-Provider (Supabase). ADR 0010: Redis für Session-Cache. Getrennte Dateien.
+```
+
+## 3. Status, Datum, ersetzt durch
+
+### Regel
+
+**Vorgeschlagen / akzeptiert / verworfen** und **Datum**; bei Ersatz **Supersedes** / **Superseded by** verlinken.
+
+### Bad
+
+```text
+Altes Doc sagt SQLite; neues sagt Postgres; beide „aktuell“.
+```
+
+### Good
+
+```text
+ADR 0003 Status: Deprecated (10.01.2025). Ersetzt durch ADR 0007. ADR 0007 Status: Accepted (10.01.2025).
+```
+
+## 4. In Betracht gezogene Alternativen
+
+### Regel
+
+**Glaubwürdige Optionen**, die ihr verworfen habt, und **eine Zeile warum**—zeigt Nachdenken, nicht nur Advocacy.
+
+### Bad
+
+```text
+Alternativen: keine erwähnenswert.
+```
+
+### Good
+
+```text
+Alternativen: SQLite (zu eng für Multi-User-Reporting); Document-DB (Analytics schwieriger). Gewählt: Postgres.
+```
+
+## 5. Reversibilität und Kosten der Änderung
+
+### Regel
+
+Ist die Entscheidung **leicht rückgängig**—bestimmt, wie viel Debatte vor Annahme nötig ist.
+
+### Bad
+
+```text
+Datenbank später migrieren (ohne Plan).
+```
+
+### Good
+
+```text
+Reversibilität: niedrig—Datenmodell an SQL gekoppelt. Umkehr: 2–4 Wochen + Ausfallrisiko; vor Annahme bewusst machen.
+```
+
+## 6. Wo es liegt und wen es betrifft
+
+### Regel
+
+ADRs **neben dem Code** oder unter **bekanntem Wiki-Pfad**; **Stakeholder** nennen, die einbinden mussten.
+
+### Bad
+
+```text
+Entscheidung in Slack-Thread von 2023—Link tot.
+```
+
+### Good
+
+```text
+Ort: /docs/adr/0007-postgres.md im Repo; verlinkt in README. Stakeholder: Tech Lead, DPO (Datenstandort).
+```
+
+---
+
+## Typische Stolpersteine
+
+- **Protokoll** statt ADR—Entscheidungen in Fließtext, kein Status-Feld.
+- **Politische** Treiber versteckt—echte Vorgabe war Board-Termin, nicht Technik; Konflikt bricht wieder auf.
+- **Pilz-ADRs**—zehn Entscheidungen in einer Datei, sauberes Ersetzen unmöglich.
+- **Kein** Link aus Code oder Runbooks—Neue finden den Eintrag nie.
+
+---
+
 ## Kernidee
 
 Entscheidungen sind **Assets**—**dokumentieren**, wo **Nachfolger*innen** hinschauen.
 
 ## Weiterführend
 
-- [ADR](https://adr.github.io/)
+- [ADR GitHub organization](https://adr.github.io/) — Vorlagen
+- [Michael Nygard — Documenting architecture decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) — ursprüngliches ADR-Framing
+- [GOV.UK — Documenting decisions](https://www.gov.uk/service-manual/agile-technology/documenting-decisions) — leichte Decision Records im öffentlichen Dienst
 
 ---
 

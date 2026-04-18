@@ -29,13 +29,152 @@ Koordiniert liefern und **lernen**—kein Einmal-Rauschen.
 
 ---
 
+## 1. Ein primäres Ziel und eine Kennzahl
+
+### Regel
+
+**Ein** Nordstern-Ergebnis (z. B. Anmeldungen, Spenden, Reichweite) und **wie** ihr es messt—sekundäre Kennzahlen nur unterstützend.
+
+### Bad
+
+```text
+Awareness steigern und Leads und Markenliebe—alles gleich wichtig.
+```
+
+### Good
+
+```text
+Primär: 200 neue Newsletter-Anmeldungen bis 30. Juni (im Formular bestätigt). Sekundär: Reichweite, Stimmung—berichten, aber nicht gleich optimiert.
+```
+
+## 2. Zielgruppensegmente und Botschaften
+
+### Regel
+
+Pro **Segment** **Insight** und **Botschaft**—kein vages „allgemeine Öffentlichkeit“.
+
+### Bad
+
+```text
+Alle in der Stadt. Botschaft: wir sind toll.
+```
+
+### Good
+
+```text
+Segment A: Eltern—Botschaft: Abendtermine passen zur Schulzeit. Segment B: Arbeitgeber*innen—Botschaft: CSR-Freiwilligentage mit klarem Zeitrahmen.
+```
+
+## 3. Kanalplan mit Ownern
+
+### Regel
+
+**Kanäle**, **Owner**, **Kadenz** und **Erfolg** pro Kanal—„überall posten“ vermeiden.
+
+### Bad
+
+```text
+Im Mai viel posten.
+```
+
+### Good
+
+```text
+Organisch Social: Kommunikation—3 Posts/Woche—Awareness. Partner-Newsletter: Partnerschaften—1 Versand—Conversion. Paid-Boost: Ads—£500 Cap—nur Anmeldungen.
+```
+
+## 4. Timeline und Abhängigkeiten
+
+### Regel
+
+**Rechtsfreigabe**, **Assets**, **Übersetzungen** und **Meilensteine** auf einer Linie—Handoffs sichtbar.
+
+### Bad
+
+```text
+Launch 1. Juni—Kreativ offen 28. Mai; Legal hat Text nie gesehen.
+```
+
+### Good
+
+```text
+Text-Freeze 10. Mai → Legal 15. Mai → Design 22. Mai → Übersetzungen 28. Mai → Staging 30. Mai → Launch 1. Juni.
+```
+
+## 5. Messung: Baselines und Tracking
+
+### Regel
+
+**Baseline** vor Launch; **UTMs** oder Äquivalent; **wer** liest wöchentlich das Dashboard.
+
+### Bad
+
+```text
+Gefühl, ob es geklappt hat.
+```
+
+### Good
+
+```text
+Baseline: Listengröße 1.200 (30. Apr.). UTMs: utm_campaign=summer2025 pro Kanal. Owner: Sam—wöchentliches Dashboard in #kampagnen.
+```
+
+## 6. Assets und Freigabe-Termine
+
+### Regel
+
+**Asset-Liste** mit **Format**, **Owner**, **Freigabe bis**—verknüpft mit Kreativbriefs.
+
+### Bad
+
+```text
+Brauchen ein paar Grafiken und vielleicht Video—bald.
+```
+
+### Good
+
+```text
+Assets: 3×1080 Social (Design bis 12. Mai); Landing-Hero (14. Mai); E-Mail (Copy Legal 10. Mai). Alles in Brief /campaigns/summer2025.
+```
+
+## 7. Risiken und Response-Owner
+
+### Regel
+
+Kurzes **Risiko-Register**: was schiefgehen kann (Shitstorm, Tech, Ausverkauf) und **wer** reagiert.
+
+### Bad
+
+```text
+Hoffentlich nichts Schlimmes auf Twitter.
+```
+
+### Good
+
+```text
+Risiko: negative Antworten am Launch-Tag. Owner: Comms-Lead—Eskalation zur Geschäftsführung; vorab freigegebene Antworten.
+```
+
+---
+
+## Typische Stolpersteine
+
+- **Überall und dünn**—jeder Kanal ein bisschen; keiner funktioniert.
+- **Späte Legal-Freigabe**—Text erst in der Launch-Nacht; Fehler rutschen durch.
+- **Keine Baseline**—unmöglich zu sagen, ob die Kampagne wirkte.
+- **Stille Handoffs**—Design wartet auf Copy; Copy auf Legal; Launch verschiebt sich unsichtbar.
+
+---
+
 ## Kernidee
 
 Kampagne = **System** aus Botschaft, Timing, Messung, Ownership.
 
 ## Weiterführend
 
-- [MindTools](https://www.mindtools.com/)
+- [MindTools — Campaign planning](https://www.mindtools.com/) — Planungsgerüst
+- [GOV.UK — Communications planning](https://www.gov.uk/government/publications/communications-planning-template) — strukturierte Kampagnenkommunikation
+- [Google — Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/) — konsistente UTMs (an eigenes Analytics anpassen)
 
 ---
 

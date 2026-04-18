@@ -29,10 +29,65 @@ Make new people **effective and safe** fast—**without** burning buddies.
 
 ---
 
-## 1. Plan skeleton
+## 1. Day-one checklist: access and safety
 
-- Week 1: setup + shadowing + small shipped task
-- Week 2–4: increasing ownership + written reflections
+### Rule
+
+**Accounts, tools, code of conduct, and safeguarding links** ready before they sit down—scrambling on day one signals neglect.
+
+### Bad
+
+```text
+“IT will get back to you about email.” Day 3 still no repo access.
+```
+
+### Good
+
+```text
+Checklist: laptop imaged; SSO; Slack; repo; handbook link; safeguarding one-pager—all ticked by 10:00 day 1.
+```
+
+## 2. 30-60-90: learning goals, not only tasks
+
+### Rule
+
+State **what “good” looks like** at 30, 60, and 90 days—skills and relationships, not only ticket counts.
+
+### Bad
+
+```text
+First month: work hard. (No clarity.)
+```
+
+### Good
+
+```text
+30d: ship one small docs fix; know who owns comms. 60d: run one stand-in for buddy. 90d: own a slice of volunteer flow.
+```
+
+## 3. Buddy for small questions
+
+### Rule
+
+Name a **peer buddy** for “how do we…?” so managers are not the only path—reduces shame and delay.
+
+### Bad
+
+```text
+Ask your manager anything (manager in meetings all day).
+```
+
+### Good
+
+```text
+Buddy: Alex—Slack DM ok for tool questions; escalate to lead only if blocked >4h.
+```
+
+## 4. Single source of truth and ownership
+
+### Rule
+
+Link **one roadmap**, **one org chart for responsibilities**, and **where to file bugs**—avoid “which Confluence?”
 
 ### Bad
 
@@ -43,12 +98,53 @@ Read everything in the wiki. Good luck.
 ### Good
 
 ```text
-Goal: Ship a docs fix by Friday. Buddy: Alex. Key links: [handbook], [roadmap].
+Start here: /handbook/start — 5 links only. Owners: [roles table]. Questions: #team-ask.
 ```
 
-## 2. What not to do
+## 5. Schedule intros with breathing room
 
-- **Assume** implicit knowledge—**write** the obvious.
+### Rule
+
+Space **intro meetings**; leave **slack** for reading and a first tiny win—overload feels like hazing.
+
+### Bad
+
+```text
+8 hours of back-to-back intros day 1—no time to absorb.
+```
+
+### Good
+
+```text
+AM: setup + 2 intros. PM: shadow + 1h focus block. Goal: ship a docs fix by Friday.
+```
+
+## 6. Collect feedback and iterate the onboarding
+
+### Rule
+
+Ask **week 1** what was confusing—**update** the checklist for the next hire.
+
+### Bad
+
+```text
+Same broken wiki link for six new starters in a row.
+```
+
+### Good
+
+```text
+15m survey Fri week 1; onboarding doc PR from feedback within a week.
+```
+
+---
+
+## Common Footguns
+
+- **Access drift**—weeks without tools; new hires disengage or work insecurely on personal accounts.
+- **Implicit culture**—“everyone knows” unwritten rules; only insiders thrive.
+- **Buddy burnout**—buddy is also overloaded; no cap on questions or time.
+- **No first win**—only reading for weeks; no proof they belong.
 
 ---
 
@@ -59,6 +155,8 @@ Onboarding is **compressed trust-building**—**clarity**, **safety**, **early w
 ## Further reading
 
 - [First Round Review — Onboarding](https://review.firstround.com/) — operator essays
+- [GOV.UK — Joining a new team](https://www.gov.uk/government/publications/joining-a-new-team) — practical orientation ideas
+- [Atlassian — Team playbook](https://www.atlassian.com/team-playbook) — rituals and working agreements
 
 ---
 

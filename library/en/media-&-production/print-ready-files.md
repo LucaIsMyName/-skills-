@@ -29,9 +29,29 @@ Avoid **expensive** surprises—**one** correct file package to the **vendor**.
 
 ---
 
-## 1. Checklist
+## 1. Bleed and safe zone
 
-- Embedded fonts or outlines; images **300 dpi** effective; bleed; **CMYK** preview.
+### Rule
+
+Extend **backgrounds** past trim (often **3 mm bleed**); keep **text and logos** inside **safe** margin—no critical detail on the cut line.
+
+### Bad
+
+```text
+Text 1 mm from edge—blade tolerance cuts off letters.
+```
+
+### Good
+
+```text
+3 mm bleed on background; 5 mm safe inset for type; guides checked in PDF.
+```
+
+## 2. Resolution at final size
+
+### Rule
+
+Raster images **~300 dpi** at **printed dimensions**—upscaling a **1080px** wide photo to **A3** poster = mush.
 
 ### Bad
 
@@ -42,12 +62,71 @@ Avoid **expensive** surprises—**one** correct file package to the **vendor**.
 ### Good
 
 ```text
-Vector logo + 300 dpi photo at final crop; 3 mm bleed; PDF/X-1a per spec.
+Photo resampled at 300 dpi for final crop; vector logo where possible.
 ```
 
-## 2. What not to do
+## 3. Colour: CMYK or PMS per brief
 
-- **RGB** export for **offset** without printer agreement.
+### Rule
+
+Design and export in **CMYK** or **spot** per **printer profile**—**RGB** on screen will **shift** on press.
+
+### Bad
+
+```text
+RGB export for offset without printer agreement.
+```
+
+### Good
+
+```text
+FOGRA or printer ICC; spot Pantone for brand red; soft-proof before send.
+```
+
+## 4. Fonts: embed, outline, or supply
+
+### Rule
+
+Follow **printer spec**: **embed** subsets or **outline** type; confirm **licence** covers **outlined** delivery.
+
+### Bad
+
+```text
+Missing font—printer substitutes; layout breaks.
+```
+
+### Good
+
+```text
+PDF with embedded fonts per spec; licence file noted in handoff email.
+```
+
+## 5. One approved PDF package
+
+### Rule
+
+**Single** PDF/X (e.g. **PDF/X-1a** or printer’s variant); **named** layers off unless requested; **preflight** report clean.
+
+### Bad
+
+```text
+Native InDesign file + random links—printer charges fix-up.
+```
+
+### Good
+
+```text
+PDF/X-1a; 3 mm bleed; marks outside live area; checksum filename; proof print reviewed.
+```
+
+---
+
+## Common Footguns
+
+- **Rich black** built wrong—**muddy** greys or registration issues.
+- **RGB** black text—**four-colour** black on small type.
+- **Low-res** logos **uprezzed**—jagged on poster.
+- **Last-minute** copy change in **flattened** PDF—full re-export.
 
 ---
 
@@ -58,6 +137,8 @@ Print is **physics**—**millimetres**, **dots**, **ink**—**check** the spec s
 ## Further reading
 
 - [Adobe — Print design basics](https://helpx.adobe.com/) — tool-specific export docs
+- [Ghent PDF Workgroup](https://www.gwg.org/) — PDF standards for print
+- [ISO — PDF/X](https://www.iso.org/standard/38920.html) — when your printer asks for PDF/X
 
 ---
 

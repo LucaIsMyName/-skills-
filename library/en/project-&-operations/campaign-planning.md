@@ -29,9 +29,47 @@ Ship coordinated work that **learns**—not one-off noise.
 
 ---
 
-## 1. One-page plan
+## 1. One primary objective and metric
 
-- Goal → Audiences → Messages → Channels → Timeline → Metrics → Risks.
+### Rule
+
+Choose **one** north-star outcome (e.g. signups, donations, reach) and **how you’ll measure it**—secondary metrics are supporting only.
+
+### Bad
+
+```text
+Raise awareness and get leads and build brand love—all equally important.
+```
+
+### Good
+
+```text
+Primary: 200 new mailing list signups by 30 June (confirmed in form). Secondary: reach, sentiment—reported but not optimised equally.
+```
+
+## 2. Audience segments and messages
+
+### Rule
+
+For each **segment**, note **insight** and **message**—avoid one vague “general public” blob.
+
+### Bad
+
+```text
+Everyone in the city. Message: we’re great.
+```
+
+### Good
+
+```text
+Segment A: parents—message: evening sessions fit school hours. Segment B: employers—message: CSR volunteer days with clear time box.
+```
+
+## 3. Channel plan with owners
+
+### Rule
+
+List **channels**, **owner**, **cadence**, and **what success means** per channel—resist “post everywhere.”
 
 ### Bad
 
@@ -42,14 +80,89 @@ We’ll post a lot in May.
 ### Good
 
 ```text
-Goal: 200 new mailing list signups by 30 June.
-Channels: organic social (awareness) + one paid boost + partner newsletter (conversion).
-Weekly checkpoint Wednesdays.
+Organic social: Comms—3 posts/wk—awareness. Partner newsletter: Partnerships—1 send—conversion. Paid boost: Ads—£500 cap—signups only.
 ```
 
-## 2. What not to do
+## 4. Timeline and dependencies
 
-- **Launch** without **tracking** and **owner** for replies.
+### Rule
+
+Map **legal approval**, **asset delivery**, **translations**, and **key dates** on one timeline—handoffs visible.
+
+### Bad
+
+```text
+Launch 1 June—creative still TBD 28 May; Legal never saw copy.
+```
+
+### Good
+
+```text
+Copy freeze 10 May → Legal 15 May → design 22 May → translations 28 May → staging 30 May → launch 1 June.
+```
+
+## 5. Measurement: baselines and tracking
+
+### Rule
+
+Set **baseline** before launch; use **UTMs** or equivalent; name **who reads** the dashboard weekly.
+
+### Bad
+
+```text
+We’ll see how it went from gut feel.
+```
+
+### Good
+
+```text
+Baseline: list size 1,200 (30 Apr). UTMs: utm_campaign=summer2025 per channel. Owner: Sam—weekly dashboard in #campaigns.
+```
+
+## 6. Assets and approval deadlines
+
+### Rule
+
+**Asset list** with **format**, **owner**, and **approval by** date—creative briefs linked.
+
+### Bad
+
+```text
+We need some graphics and maybe a video—soon.
+```
+
+### Good
+
+```text
+Assets: 3×1080 social (design by 12 May); landing hero (14 May); email (copy Legal 10 May). All in brief /campaigns/summer2025.
+```
+
+## 7. Risks and response ownership
+
+### Rule
+
+Short **risk register**: what could go wrong (backlash, tech fail, stockout) and **who** responds.
+
+### Bad
+
+```text
+Hope nothing goes wrong on Twitter.
+```
+
+### Good
+
+```text
+Risk: negative replies on launch day. Owner: Comms lead—escalation path to ED; holding replies approved in advance.
+```
+
+---
+
+## Common Footguns
+
+- **Everything everywhere**—thin content on every channel; no channel works.
+- **Late Legal**—copy approved night before launch; errors slip through.
+- **No baseline**—impossible to know if the campaign worked.
+- **Silent** handoffs—design waits for copy; copy waits for Legal; launch slips with no visibility.
 
 ---
 
@@ -60,6 +173,8 @@ A campaign is a **system**: **message**, **timing**, **measurement**, **ownershi
 ## Further reading
 
 - [MindTools — Campaign planning](https://www.mindtools.com/) — general planning scaffolding
+- [GOV.UK — Communications planning](https://www.gov.uk/government/publications/communications-planning-template) — structured campaign comms
+- [Google — Campaign URL Builder](https://ga-dev-tools.google/campaign-url-builder/) — consistent UTM hygiene (adapt to your analytics stack)
 
 ---
 

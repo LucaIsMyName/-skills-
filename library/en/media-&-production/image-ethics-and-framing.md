@@ -29,7 +29,29 @@ Choose imagery that **respects** subjects and **informs** audiences—**truthful
 
 ---
 
-## 1. Bad vs good
+## 1. Centre and crop with intention
+
+### Rule
+
+What you **put in the middle** and what you **cut** tells the story—**default** crops often reinforce stereotypes.
+
+### Bad
+
+```text
+Crop so only hands appear—anonymous “poor” hands without dignity or agency.
+```
+
+### Good
+
+```text
+Participant centred, eye contact where culturally appropriate; caption names role and programme if consented.
+```
+
+## 2. Agency and systems over pity
+
+### Rule
+
+Show **people acting**, **community**, and **systems** (programmes, staff)—not only **sympathy triggers**.
 
 ### Bad
 
@@ -40,12 +62,89 @@ Anonymous child with dirt smeared for effect.
 ### Good
 
 ```text
-Named participant (consented), in context, with dignity; caption explains programme support.
+Named participant (consented), in context, with dignity; caption explains programme support and how to get involved.
 ```
 
-## 2. What not to do
+## 3. Intersectionality and stereotypes
 
-- **Crop** to remove **watermarks** or **context** that changes meaning.
+### Rule
+
+**Avoid** stock roles (e.g. “white saviour”, “passive victim”); **diversify** with **care**—not token one-offs.
+
+### Bad
+
+```text
+Always the same demographic in “hero” shots; others only in “support”.
+```
+
+### Good
+
+```text
+Shot list reviewed for representation; paid contributors from communities shown; no lazy tropes.
+```
+
+## 4. Children and safeguarding
+
+### Rule
+
+**No** identifiable images of children without **protocol**—**safeguarding** lead signs off; prefer **non-identifying** angles when in doubt.
+
+### Bad
+
+```text
+School photo with name tags visible—posted without consent.
+```
+
+### Good
+
+```text
+Consent form covers use/channel; faces blurred or backs turned; safeguarding lead approves before publish.
+```
+
+## 5. Captions that match the frame
+
+### Rule
+
+**When** and **where** the photo was taken; **don’t** fabricate urgency or context the image does not support.
+
+### Bad
+
+```text
+Crop removes watermarks or context that changes meaning.
+```
+
+### Good
+
+```text
+Caption: “Riverside session, March 2025, consent on file.”; if composite, label as illustration.
+```
+
+## 6. Consent for this use and channel
+
+### Rule
+
+Release covers **this** campaign, **this** channel, and **duration**—**re-use** needs a new check.
+
+### Bad
+
+```text
+Print consent from 2019 used for paid social ad in 2025.
+```
+
+### Good
+
+```text
+Release: web + annual report 2025; contact for extension; archive if no response.
+```
+
+---
+
+## Common Footguns
+
+- **Cropping** to remove **watermarks** or **other orgs’ logos**—rights and ethics breach.
+- **Trauma** as aesthetic—graphic imagery for shock without support context.
+- **Outdated** context—old photo implying current crisis.
+- **One-off** diversity push—then back to default; **trust** erodes.
 
 ---
 
@@ -56,6 +155,8 @@ Named participant (consented), in context, with dignity; caption explains progra
 ## Further reading
 
 - [Ethics Centre — Visual ethics](https://ethics.org.au/) — general framing (adapt to your sector)
+- [DART Center — Trauma-aware reporting](https://dartcenter.org/) — sensitivity when depicting harm
+- [UNICEF — Principles for ethical reporting on children](https://www.unicef.org/press-releases) — principles; pair with your local policy
 
 ---
 

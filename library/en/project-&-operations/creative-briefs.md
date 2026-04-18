@@ -29,26 +29,126 @@ Give creatives **constraints that liberate**—clarity beats blank slates.
 
 ---
 
-## 1. Bad vs good
+## 1. Audience and insight
+
+### Rule
+
+Describe **who** you are talking to and **what they believe or fear today**—so the work can bridge to the desired shift.
 
 ### Bad
 
 ```text
-Make it pop. Be bold.
+General public. Make it engaging.
 ```
 
 ### Good
 
 ```text
 Audience: local donors 45–65, cautious about overhead.
-Objective: explain new evening sessions; increase volunteer signups.
-Proof: 3 sessions/week; quote from volunteer [approved].
-Deliverables: 1080×1080 (3), story (1), landing copy.
+Insight: They assume we spend too much on admin; they want proof of impact.
 ```
 
-## 2. What not to do
+## 2. One proposition and proof
 
-- **Change** the objective after first review without **resetting** scope.
+### Rule
+
+One **single-minded** message and **evidence** you are allowed to show (stats, quotes—with consent).
+
+### Bad
+
+```text
+Tell them everything we do. Be bold.
+```
+
+### Good
+
+```text
+Proposition: Evening sessions fit working carers.
+Proof: 3 sessions/week; quote from volunteer Sam [signed release]; impact stat from annual report p.12.
+```
+
+## 3. Deliverables and formats explicit
+
+### Rule
+
+List **every asset**, **dimensions**, and **file type**—not “some social and a poster”.
+
+### Bad
+
+```text
+Social assets and stuff for the site.
+```
+
+### Good
+
+```text
+1080×1080 (×3), 1080×1920 story (×1), landing hero 1600×900, email header 600×200. All RGB; print PDF separate.
+```
+
+## 4. Mandatories and approval path
+
+### Rule
+
+State **legal lines**, **disclaimers**, **logo rules**, and **who signs off** (role + round count).
+
+### Bad
+
+```text
+Legal will look later. Use our logo.
+```
+
+### Good
+
+```text
+Mandatories: Charity reg line; “Donate” CTA wording per Legal v3.
+Approval: Comms lead → Legal → Brand (max 2 rounds by May 1).
+```
+
+## 5. Budget, timeline, and references
+
+### Rule
+
+Give **real numbers**, **deadlines**, and **style references** (mood, not copy-paste).
+
+### Bad
+
+```text
+ASAP. Budget TBD. Like Apple but for charities.
+```
+
+### Good
+
+```text
+Budget: £4k production. Deadline: assets due May 15 for June campaign.
+References: 3 links for tone (human, not corporate)—not for layout theft.
+```
+
+## 6. Change control on the objective
+
+### Rule
+
+If the **objective or scope** shifts after first review, **reset** timeline, budget, or deliverables in writing.
+
+### Bad
+
+```text
+Actually we also need a video—same deadline.
+```
+
+### Good
+
+```text
+Scope change: +30s video. New deadline May 30; +£2k or drop one static asset—confirm by email.
+```
+
+---
+
+## Common Footguns
+
+- **No single proposition**—three “main messages” so every execution is mushy.
+- **Proof** missing or informal—creatives invent claims Legal cannot approve.
+- **Approval** mystery—endless rounds because nobody knew who could say yes.
+- **References** that are actually **competitor copy**—plagiarism and brand risk.
 
 ---
 
@@ -59,6 +159,8 @@ A creative brief answers **who**, **why**, **what truth we can show**, and **wha
 ## Further reading
 
 - [D&AD — Creative brief guidance](https://www.dandad.org/) — industry context
+- [GOV.UK — Preparing a communications brief](https://www.gov.uk/government/publications/communications-planning-template) — structured comms planning
+- [W3C — Images of text](https://www.w3.org/WAI/WCAG22/Understanding/images-of-text.html) — when text must stay real text for accessibility
 
 ---
 

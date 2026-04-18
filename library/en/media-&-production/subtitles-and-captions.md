@@ -29,7 +29,29 @@ Make spoken content **reachable** and **precise**—for Deaf/hard-of-hearing aud
 
 ---
 
-## 1. QA
+## 1. Captions as default, not bolt-on
+
+### Rule
+
+**Upload** captions with every public video; **enable** on players where the platform allows—**off** by default excludes people.
+
+### Bad
+
+```text
+“People can turn them on if they want”—but default off and no file uploaded.
+```
+
+### Good
+
+```text
+VTT attached; player defaults captions on for social (where UX allows); burned-in only when platform forces it.
+```
+
+## 2. Edit auto-captions—two-pass QA
+
+### Rule
+
+**ASR** first draft; **human** pass for **names**, **homophones**, and **timing**; watch **on mute** to verify sense.
 
 ### Bad
 
@@ -40,12 +62,91 @@ Upload auto-captions without review.
 ### Good
 
 ```text
-Two-pass edit: meaning + timing; read-along on mute.
+Two-pass edit: meaning + timing; read-along on mute; glossary for project terms.
 ```
 
-## 2. What not to do
+## 3. Speaker labels and sound cues
 
-- **Paraphrase** quotes in captions for “clarity” without editorial policy.
+### Rule
+
+Use **speaker IDs** when multiple people talk; **[bracketed]** non-speech sounds only when they matter to understanding.
+
+### Bad
+
+```text
+All lines attributed to “Speaker” or wrong names from ASR.
+```
+
+### Good
+
+```text
+Alex: Welcome…  
+Sam: Thanks…  
+[door closes] (only if plot-relevant)
+```
+
+## 4. Sidecar vs burned-in
+
+### Rule
+
+Prefer **SRT/VTT** so users can **resize**, **restyle**, and **translate**—burn-in only when platform requires or for universal social autoplay.
+
+### Bad
+
+```text
+Hard-coded tiny white text on busy footage—illegible and not user-controllable.
+```
+
+### Good
+
+```text
+VTT for web; optional burn-in for Instagram with high-contrast safe style guide.
+```
+
+## 5. Subtitles for translation
+
+### Rule
+
+**Translation** is **subtitling** with cultural fit—**line length** and **reading speed** limits; **avoid** literal jokes that fail.
+
+### Bad
+
+```text
+Machine-translate entire file; wrong register (tu vs vous).
+```
+
+### Good
+
+```text
+Translator briefed on tone; max chars/line per spec; reviewer fluent in target language.
+```
+
+## 6. Do not paraphrase quotes without policy
+
+### Rule
+
+Captions should **match** spoken words for **news** and **testimonial** content—**summaries** need an editorial rule.
+
+### Bad
+
+```text
+Paraphrase quotes in captions for “clarity” without editorial policy.
+```
+
+### Good
+
+```text
+Verbatim default; if simplify for reading level, label as “simplified captions” and get sign-off for sensitive lines.
+```
+
+---
+
+## Common Footguns
+
+- **Timing** drift—captions 2s late; worse than none for some users.
+- **ALL CAPS** or **garish** styles—hard to read; use platform defaults or brand-accessible styles.
+- **Missing** music lyrics when they carry meaning—**equal** access.
+- **Wrong** language tag—player picks wrong font or direction.
 
 ---
 
@@ -55,7 +156,9 @@ Captions are **part of the message**—**accuracy**, **timing**, **inclusion**.
 
 ## Further reading
 
-- [W3C — Captions](https://www.w3.org/WAI/media/av/captions/)
+- [W3C — Captions](https://www.w3.org/WAI/media/av/captions/) — overview
+- [W3C — Understanding 1.2.2 Captions (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html) — success criterion context
+- [BBC — Subtitle guidelines](https://www.bbc.co.uk/accessibility/forproducts/guides/subtitles) — timing and speaker conventions
 
 ---
 
