@@ -92,3 +92,10 @@ Vermeiden, **moralische** Qualität nur über Grün–Rot zu suggerieren, außer
 ## Abschließender Gedanke
 
 👉 Ein Diagramm ist ein **Argument**. Die Behauptung muss **zum Datenstand passen**.
+
+## Weiterführende Links
+
+- [From Data to Viz](https://www.data-to-viz.com/) — Diagrammwahl nach Datenform
+- [Our World in Data — FAQs](https://ourworldindata.org/faqs) — transparente Bezugnahme auf Quellen (für NGO-Berichte adaptierbar)
+- [W3C WAI — Tutorial zu komplexen Bildern](https://www.w3.org/WAI/tutorials/images/complex/) — Alternativtexte und Ausweichbeschreibungen für Datengrafiken
+

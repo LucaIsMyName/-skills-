@@ -97,3 +97,10 @@ A one-page table: **token name → value → usage** prevents drift between desi
 ## Final thought
 
 👉 Tokens are **contracts**. If the name does not describe **role**, theme switches become painful.
+
+## Further reading
+
+- [W3C Design Tokens Community Group](https://www.w3.org/community/design-tokens/) — shared format work and interoperability notes
+- [Design Tokens Format (draft)](https://www.designtokens.org/tr/drafts/format/) — emerging file format conventions for tools and code
+- [W3C — CSS custom properties](https://www.w3.org/TR/css-variables-1/) — the usual web runtime mapping layer beneath many token pipelines
+

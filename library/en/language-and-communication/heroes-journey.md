@@ -86,6 +86,12 @@ They bring what they learned back and restore balance.
 
 👉 A strong story shows **how someone moves through difficulty and changes**—without flattening real people into stereotypes.
 
+## Further reading
+
+- [Monomyth (Hero’s journey)](https://en.wikipedia.org/wiki/Hero%27s_journey) — common narrative stages (use critically; avoid flattening lived experience)
+- [Britannica — monomyth](https://www.britannica.com/art/monomyth) — short encyclopedia overview of the recurring journey pattern
+- [Purdue OWL — Narrative essays](https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/narrative_essays.html) — structure and pacing ideas applicable beyond academia
+
 ---
 
 German version: [`die-heldenreise.md`](../../de/sprache-und-kommunikation/die-heldenreise.md)

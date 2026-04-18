@@ -87,6 +87,12 @@ Make your site **easy to understand, easy to navigate, and honest in search resu
 
 A trustworthy nonprofit site **helps the right people find the right page in one or two clicks**—and tells the truth in the snippet they see in search.
 
+## Further reading
+
+- [Google Search Central — SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) — technical-agnostic basics on titles, links, and crawlability
+- [W3C WAI — Writing for web accessibility](https://www.w3.org/WAI/tips/writing/) — headings, links, and media text that help every reader
+- [web.dev — Learn Accessibility](https://web.dev/learn/accessibility/) — how content choices interact with accessible front ends
+
 ---
 
 German version: [`web-inhalte-und-findbarkeit.md`](../../de/sprache-und-kommunikation/web-inhalte-und-findbarkeit.md)

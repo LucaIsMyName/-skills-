@@ -138,6 +138,12 @@ Spoken audiences can't scroll back—tell them where they are.
 
 A good talk is **a gift of attention given back to the audience as clarity**. Know your one takeaway, say it three times, and leave on time.
 
+## Further reading
+
+- [Toastmasters — public speaking tips](https://www.toastmasters.org/resources/public-speaking-tips) — rehearsal, structure, and presence
+- [Purdue OWL — oral presentations](https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/creating_a_the_for_oral_presentations.html) — outlining and adapting written ideas to speech
+- [W3C WAI — making events accessible](https://www.w3.org/WAI/teachers/accessible-meeting-guidance) — captions, slides, and participation for mixed audiences
+
 ---
 
 German version: [`reden-und-vortraege.md`](../../de/sprache-und-kommunikation/reden-und-vortraege.md)

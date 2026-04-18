@@ -10,7 +10,7 @@
 - **Synthetische Medien** (Bild, Stimme, Video) klar kennzeichnen—besonders, wenn Verwechslung mit echter Person möglich.
 - Regeln, Prompt-Hygiene, Warnsignale unten.
 
-## KI / Prompt: vor KI-Einsatz in Comms
+## Vor KI-Einsatz in Comms
 
 Vor Nutzung eines KI-Tools in einer Arbeit **Zweck, Eingaben und Pflicht gegenüber Leser:innen** klären.
 
@@ -115,6 +115,12 @@ Bei kostenlosen Tools annehmen, dass Eingaben zu Training verwendet werden könn
 ## Kerngedanke
 
 Die Frage ist nicht „hast du KI genutzt". Sie lautet: „**war das ehrlich, und sind die Menschen in der Arbeit unversehrt geblieben**". Offenlegen, schützen, prüfen—in dieser Reihenfolge.
+
+## Weiterführend
+
+- [EU-Verordnung über künstliche Intelligenz — konsolidierter Text (EUR-Lex)](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32024R1689) — EU-Rechtsrahmen mit Relevanz für bestimmte KI-Einsätze
+- [OECD — KI-Prinzipien (Übersicht)](https://oecd.ai/de/dashboards) — politische Leitlinien zu Menschenrechten und Rechenschaft
+- [UNESCO — Empfehlung zu Ethik der Künstlichen Intelligenz](https://www.unesco.org/de/legal-affairs/recommendation-ethics-artificial-intelligence) — internationale Orientierung für Bildung, Wissenschaft, Kultur
 
 ---
 

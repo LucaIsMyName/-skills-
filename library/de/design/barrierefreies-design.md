@@ -11,7 +11,7 @@
 - **Reflow, Zoom, reduzierte Bewegung, High Contrast**—für jeden Modus designen, nicht nur Fallback behandeln.
 - Regeln, Muster, Warnsignale unten.
 
-## KI / Prompt: vor dem Screen-Mock
+## Vor dem Screen-Mock
 
 Vor UI-Entwurf **Wer und Umstände** klären.
 
@@ -129,6 +129,12 @@ Interfaces so entwerfen, dass sie **von Anfang an für eine breite Bandbreite an
 ## Kerngedanke
 
 Barrierefreies Design ist **erster Durchgang, nicht letzter**. „Funktioniert für mehr Menschen" schlägt „für die meisten plus Workaround"—und nebenbei wird das Produkt für alle besser.
+
+## Weiterführende Links
+
+- [W3C WAI — WCAG-2-Überblick](https://www.w3.org/WAI/standards-guidelines/wcag/) — gemeinsame Begriffe: wahrnehmbar, bedienbar, verständlich, robust
+- [Inclusive Design Principles](https://inclusivedesignprinciples.org/) — Menschen-zuerst-Heuristiken ergänzend zu WCAG-Tests
+- [W3C WAI — Tutorials](https://www.w3.org/WAI/tutorials/) — Regionen, Bilder, Tabellen, Formulare praxisnah
 
 ---
 

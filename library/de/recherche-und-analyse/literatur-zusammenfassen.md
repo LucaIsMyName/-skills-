@@ -11,7 +11,7 @@
 - **Quelle vorn benennen**: wer, wann, welche Art, wo publiziert—dann Zusammenfassung.
 - Ablauf und Fallen unten.
 
-## KI / Prompt: vor dem Zusammenfassen
+## Vor dem Zusammenfassen
 
 Vor dem Komprimieren **Warum, Für wen, Wie lang** klären.
 
@@ -120,6 +120,12 @@ Vorlage 150–300 Wörter:
 ## Kerngedanke
 
 Eine gute Zusammenfassung ist **kürzer, nicht mutiger**. Die Aussage der Quelle erhalten, Hedges behalten, klar zuschreiben, Kommentar trennen—dann tragen Zusammenfassung und Quelle beide Vertrauen.
+
+## Weiterführend
+
+- [Purdue OWL — Quoting, Paraphrasing, and Summarizing](https://owl.purdue.edu/owl/research_and_citation/using_research/quoting_paraphrasing_and_summarizing/index.html) — Grundlagen akademischer Integrität, übertragbar auf Komms-Zusammenfassungen
+- [Wikipedia — Neutraler Standpunkt](https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view) — Disziplin: berichten, was Quellen sagen, Gewichtungen fair zuschreiben
+- [APA Style — Paraphrasing](https://apastyle.apa.org/style-grammar-guidelines/citations/paraphrasing) — eigene Formulierung klar von der Quelle trennen
 
 ---
 

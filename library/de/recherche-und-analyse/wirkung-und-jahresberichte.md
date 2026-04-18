@@ -10,7 +10,7 @@
 - **Grenzen gehören dazu.** Was ihr nicht messen konntet oder was sich mittendrin änderte, stärkt Glaubwürdigkeit.
 - Vollständiges Gerüst, Fallstricke und Checkliste unten.
 
-## KI / Prompt: vor dem Berichtentwurf
+## Vor dem Berichtentwurf
 
 **Verifizierte Kennzahlen, Zeiträume und Freigaben** für Zitate und Fotos zusammenstellen.
 
@@ -83,6 +83,12 @@ Eine **wahre, verständliche Geschichte** davon erzählen, was sich durch eure A
 ## Kernidee
 
 Gutes Berichten schafft **Vertrauen**: Es zeigt, was ihr erreicht habt, was ihr gelernt habt und was ihr den Menschen, denen ihr dient, schuldet.
+
+## Weiterführend
+
+- [GRI Standards — Global Reporting Initiative](https://www.globalreporting.org/standards/) — weit verbreiteter Rahmen für Nachhaltigkeits- und Wirkungsberichterstattung (Umfang anpassen)
+- [Charity Commission for England and Wales — Jahresberichts-Ratgeber](https://www.gov.uk/guidance/annual-report-guidance-for-charity-trustees) — Beispiel: Klarheit, Rechenschaft, Lesererwartungen an Vereinsberichte
+- [Eurostat — Statistics Explained](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Main_Page) — Begrifflichkeiten für Kennzahlen in Wirkungsabschnitten
 
 ---
 

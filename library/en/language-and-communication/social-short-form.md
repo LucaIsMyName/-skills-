@@ -123,3 +123,10 @@ Put the **primary link** once, where the platform allows (bio link, first commen
 ## Final thought
 
 👉 Short-form social is **public and permanent**. When in doubt, **ask your org lead** before posting sensitive stories.
+
+## Further reading
+
+- [UNESCO — media and information literacy](https://www.unesco.org/en/media-literacy) — skills for judging sources and framing claims responsibly online
+- [Meta — Community Standards](https://transparency.meta.com/policies/community-standards/) — baseline rules on harm and misinformation (platform-specific; not a substitute for law or policy)
+- [W3C WAI — how people with disabilities use the web](https://www.w3.org/WAI/people-use-web/) — why alt text, captions, and clear language matter in social cards
+

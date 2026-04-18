@@ -126,3 +126,10 @@ Wenn der Nutzer **„Leichte Sprache“** will: Layout (kurze Zeilen), Bilder, s
 ## Abschließender Gedanke
 
 👉 Einfache Sprache ist **keine** „Dumm-Sprache“, sondern **präzise, leserorientierte Arbeit**. Sie erhöht **Zugang und Teilhabe** – in Verwaltung, Gesundheit, Bildung und im Alltag.
+
+## Weiterführend
+
+- [digital.gov — Plain language guide](https://digital.gov/guides/plain-language/) — US-Bundesleitfaden zu klarem Satzbau und Aufbau
+- [Netzwerk Leichte Sprache](https://www.netzwerk-leichte-sprache.de/ls/) — deutscher Verbund zu Regeln und Gutachten für Leichte Sprache
+- [W3C WAI — Understanding 3.1.5 Reading Level](https://www.w3.org/WAI/WCAG22/Understanding/reading-level.html) — Lesbarkeit und Komplexität im Web kontextualisiert
+

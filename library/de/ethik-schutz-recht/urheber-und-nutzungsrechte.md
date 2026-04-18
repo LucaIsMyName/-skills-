@@ -10,7 +10,7 @@
 - **KI-Material** ist rechtlich unklar; Ergebnisse und Prompts dokumentieren.
 - Regeln, Lizenztypen und Hinweise für NGOs unten.
 
-## KI / Prompt: vor der Nachnutzung
+## Vor der Nachnutzung
 
 Vor jeder Nachnutzung **Urheber:in, Lizenzwortlaut und geplante Nutzung** klären.
 
@@ -112,6 +112,12 @@ Namensnennung **beim Asset** oder in verlinktem Credit-Bereich.
 ## Kerngedanke
 
 Saubere Rechtepraxis ist **bewusst langweilig**: Lizenz lesen, Urheber:in nennen, aufschreiben. Spannende Rechte-Geschichten passieren denen, die das nicht tun.
+
+## Weiterführend
+
+- [Creative Commons — Lizenzen erklärt](https://creativecommons.org/share-your-work/cclicenses/) — Bedeutung von BY, NC, SA, ND
+- [WIPO — Urheberrecht (Übersicht)](https://www.wipo.int/copyright/de) — Grundlagen und Vertragsarchitektur
+- [Urheberrecht in der EU — Kommissionsseite](https://commission.europa.eu/law/law-topic/copyright_de) — aktuelle EU-Rechtslage und Verknüpfungen
 
 ---
 

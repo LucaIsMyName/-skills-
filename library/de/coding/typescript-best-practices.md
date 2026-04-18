@@ -155,6 +155,12 @@ type Result<T, E = Error> = { ok: true; value: T } | { ok: false; error: E };
 
 Typen sollen beschreiben, **was in deinem Programm wahr ist**. Wenn du gegen sie kämpfst, ist vermutlich das **Design** falsch, nicht der Typ.
 
+## Weiterführend
+
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) — offizieller Einstieg und Referenz
+- [TypeScript Deep Dive](https://basarat.gitbook.io/typescript) — vertiefende Erklärungen zu fortgeschrittenen Typmustern
+- [DefinitelyTyped — README](https://github.com/DefinitelyTyped/DefinitelyTyped#readme) — Pflege gemeinschaftlicher `.d.ts`-Pakete
+
 ---
 
 Englische Version: [`typescript-best-practices.md`](../../en/coding/typescript-best-practices.md)

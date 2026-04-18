@@ -81,3 +81,9 @@ Use **determinate** progress when possible; **skeleton** for content structure; 
 ## Final thought
 
 👉 Motion should **answer “what happened?”**—if it only says “look at me,” cut it.
+
+## Further reading
+
+- [MDN — `prefers-reduced-motion`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) — respect user settings for vestibular disorders
+- [W3C WAI — Understanding 2.3.3 Animation from Interactions](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html) — optional motion thresholds for WCAG
+- [MDN — Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API) — timing and synchronisation when implementing motion in code

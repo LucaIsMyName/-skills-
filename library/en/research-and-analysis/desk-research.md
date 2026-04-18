@@ -123,6 +123,12 @@ For every source that might make it into the deliverable:
 
 Desk research is **disciplined curiosity**: know the question, search wide then narrow, log every source, and triangulate the important claims. Speed comes from structure, not from skipping it.
 
+## Further reading
+
+- [Eurostat](https://ec.europa.eu/eurostat) — official EU statistics portal
+- [Destatis](https://www.destatis.de/EN/Home/_node.html) — German Federal Statistical Office (English home)
+- [Google Scholar](https://scholar.google.com/) — scholarly literature discovery (always verify access and full text)
+
 ---
 
 German version: [`recherche-grundlagen.md`](../../de/recherche-und-analyse/recherche-grundlagen.md)

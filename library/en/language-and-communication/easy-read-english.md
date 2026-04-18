@@ -124,3 +124,10 @@ Before rewriting, gather **concrete and meta information**. If something materia
 ## Final thought
 
 👉 **Accessible English** helps more people use information fairly—in health, government, education, and daily life. This document is **reader-centered work**, not “dumbing down.”
+
+## Further reading
+
+- [U.S. General Services Administration — plain language guide](https://digital.gov/guides/plain-language/) — federal guidance on clear wording and structure
+- [Readability Guidelines](https://readabilityguidelines.co.uk/) — evidence-informed patterns for clearer public content (UK-led; language-neutral ideas)
+- [W3C WAI — Understanding 3.1.5 Reading Level](https://www.w3.org/WAI/WCAG22/Understanding/reading-level.html) — how complexity relates to accessibility on the web
+

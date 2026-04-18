@@ -10,7 +10,7 @@
 - **Kurze, offene Fragen.** „Was kam danach?" schlägt „Als Sie sich frustriert fühlten, was haben Sie dann zur Finanzierung entschieden?"
 - Ablauf, Fragetypen, Aufzeichnung, Ethik unten.
 
-## KI / Prompt: vor Terminvereinbarung
+## Vor Terminvereinbarung
 
 Vor dem Gespräch **Wer, Warum, Wie lange, Unter welchen Bedingungen** klären.
 
@@ -127,6 +127,12 @@ Interviews so führen, dass sie **genaues, lebendiges, nutzbares Material** lief
 ## Kerngedanke
 
 Ein gutes Interview ist ein Tausch von **Aufmerksamkeit gegen Wahrheit**. Vorbereiten, zuhören, schützen—und das Material trägt Leben, das keine Schreibtischquelle liefert.
+
+## Weiterführend
+
+- [Belmont Report — ethische Grundsätze für Forschung mit Menschen (US HHS)](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html) — Achtung, Nutzen, Gerechtigkeit (international oft zitiert)
+- [Oral History Association — Principles and Best Practices](https://www.oralhistory.org/principles-and-best-practices/) — Einwilligung, Aufbewahrung, Nutzung aufgezeichneter Zeugnisse
+- [ALLEA — European Code of Conduct for Research Integrity](https://allea.org/code-of-conduct/) — gemeinsame Normen zu Sorgfalt, Ehrlichkeit und Verantwortung in der Forschung
 
 ---
 

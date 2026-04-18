@@ -156,6 +156,12 @@ Or set up €10 a month so the kitchen is open all year.
 
 A good appeal says honestly: **here is one person, here is what changes with your help, here is what we do not do without you**. Dignity is not a tax on response rates; over time, it is why donors stay.
 
+## Further reading
+
+- [ICO — direct marketing guidance](https://ico.org.uk/for-organisations/direct-marketing/) — consent, lists, and accountability (UK regulator; principles transfer)
+- [AFP — Donor Bill of Rights](https://www.afpglobal.org/donor-bill-of-rights) — expectations donors can reasonably hold fundraisers to
+- [Charity Commission for England and Wales — fund-raising overview](https://www.gov.uk/guidance/fundraising) — example expectations on clarity and honesty
+
 ---
 
 German version: [`spendenaufrufe.md`](../../de/sprache-und-kommunikation/spendenaufrufe.md)

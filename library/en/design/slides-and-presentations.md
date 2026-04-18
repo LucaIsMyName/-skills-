@@ -83,3 +83,10 @@ If comparing metrics, use a **simple chart** or table—avoid walls of numbers.
 ## Final thought
 
 👉 Slides are **visual cues**, not a document. If everything is on the slide, nothing is.
+
+## Further reading
+
+- [W3C WAI — making audio and video accessible](https://www.w3.org/WAI/media/av/) — why live captions and described visuals matter for hybrid audiences
+- [W3C WAI — accessible presentations](https://www.w3.org/WAI/teach-advocate/accessible-presentations/) — planning slides, speaking, and hybrid access
+- [MDN — `<video>` accessibility](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#accessibility_concerns) — transcripts and controls basics for embedded recordings
+

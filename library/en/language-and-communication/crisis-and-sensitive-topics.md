@@ -91,3 +91,10 @@ Acknowledge impact **without** assigning fault before facts exist.
 ## Final thought
 
 👉 In crisis, **silence is often better than a wrong sentence**. Default to **escalate and confirm**, not to invent narrative.
+
+## Further reading
+
+- [CDC — Crisis and emergency risk communication](https://www.cdc.gov/cerc/index.html) — principles for clear, credible messages under uncertainty
+- [WHO — risk communication](https://www.who.int/teams/risk-communication) — international guidance on public communication during health threats
+- [FEMA — crisis communications strategy](https://www.fema.gov/communication-external-affairs-guidance) — coordination, timing, and verification habits (adapt to your sector)
+

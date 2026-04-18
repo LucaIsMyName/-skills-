@@ -276,6 +276,12 @@ Before publishing, ask:
 👉 A good people-first story does not just inform —
 it creates **understanding, connection, and respect**.
 
+## Further reading
+
+- [Purdue OWL — Narrative essays](https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/narrative_essays.html) — scenes, pacing, and point of view
+- [ARTICLE 19 — the right to freedom of expression](https://www.article19.org/) — why dignity, consent, and accuracy matter when stories affect real people
+- [APA Style — biased language](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language) — careful wording around identity and dignity
+
 ---
 
 German version: [`stories-schreiben.md`](../../de/sprache-und-kommunikation/stories-schreiben.md)

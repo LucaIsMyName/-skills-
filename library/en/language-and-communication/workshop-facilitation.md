@@ -95,6 +95,12 @@ Run sessions where people can **think together productively**, **speak safely**,
 
 A good workshop **finishes with shared understanding and named owners**—not just a warm conversation that evaporates.
 
+## Further reading
+
+- [IAP2 International — participation spectrum](https://www.iap2.org/) — levels of involvement and when facilitation fits
+- [SessionLab — facilitation guides](https://www.sessionlab.com/library) — Creative Commons–licensed activities and methods (verify licence per item)
+- [W3C — accessible meetings](https://www.w3.org/WAI/teachers/accessible-meeting-guidance) — inclusive scheduling, materials, and participation
+
 ---
 
 German version: [`workshops-und-moderation.md`](../../de/sprache-und-kommunikation/workshops-und-moderation.md)

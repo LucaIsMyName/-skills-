@@ -81,3 +81,10 @@ Wo möglich **fortschrittsbasiert**; **Skeleton** für Struktur; keine Endlosspi
 ## Abschließender Gedanke
 
 👉 Motion soll **„Was ist passiert?“** beantworten—wenn es nur **„Schau mich an“** sagt, streichen.
+
+## Weiterführende Links
+
+- [MDN — `prefers-reduced-motion`](https://developer.mozilla.org/de/docs/Web/CSS/@media/prefers-reduced-motion) — Nutzerpräferenz für weniger Bewegung
+- [W3C WAI — Understanding 2.3.3 Animation aus Interaktionen](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html) — optionale Grenzen für Bewegung
+- [MDN — Web Animations API](https://developer.mozilla.org/de/docs/Web/API/Web_Animations_API) — Timing und Zusammenspiel im Code
+

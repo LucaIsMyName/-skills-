@@ -273,6 +273,12 @@ Vor der Veröffentlichung prüfen:
 👉 Eine gute menschenzentrierte Geschichte informiert nicht nur –  
 sie schafft **Verständnis, Verbindung und Respekt**.
 
+## Weiterführend
+
+- [Purdue OWL — Narrative essays](https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/narrative_essays.html) — Szenen, Rhythmus und Perspektive
+- [ARTICLE 19 — Meinungsfreiheit](https://www.article19.org/) — warum Würde, Einverständnis und Genauigkeit bei Geschichten über reale Menschen zählen
+- [APA Style — Biased language](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language) — vorsichtige Wortwahl zu Identität und Würde
+
 ---
 
 Englische Version: [`writing-a-story.md`](../../en/language-and-communication/writing-a-story.md)

@@ -91,3 +91,10 @@ Betroffenheit **anerkennen**, ohne Schuld zu verteilen, bevor Fakten vorliegen.
 ## Abschließender Gedanke
 
 👉 In Krisen ist ein **falscher Satz** schlimmer als eine kurze Pause. Standard: **eskaliere und bestätige**, keine erfundene Erzählung.
+
+## Weiterführend
+
+- [CDC — Crisis and emergency risk communication](https://www.cdc.gov/cerc/index.html) — Prinzipien klarer, glaubwürdiger Kommunikation unter Unsicherheit
+- [WHO — Risk communication](https://www.who.int/teams/risk-communication) — internationale Orientierung in Gesundheits- und Risikofällen
+- [FEMA — Crisis communications](https://www.fema.gov/communication-external-affairs-guidance) — Koordination, Timing und Abgleich (Branche anpassen)
+

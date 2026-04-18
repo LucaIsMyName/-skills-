@@ -10,7 +10,7 @@
 - **Klar fragen** und **früh**. Der Appell darf nie gesucht werden müssen.
 - Kein Schuldkonstrukt, keine Elends-Ästhetik, kein Druck. Regeln, Struktur, Anti-Muster unten.
 
-## KI / Prompt: vor dem Entwurf
+## Vor dem Entwurf
 
 Vor dem Schreiben **Adressat:in, Anliegen, Betroffene, Einwilligungsstand** klären.
 
@@ -155,6 +155,12 @@ Oder richten Sie 10 € pro Monat ein, damit die Küche das ganze Jahr geöffnet
 ## Kerngedanke
 
 Ein guter Aufruf sagt ehrlich: **hier ist eine Person, so verändert sich etwas mit Ihrer Hilfe, das tun wir ohne Sie nicht**. Würde ist kein Preis auf Response; auf Dauer ist sie der Grund, warum Menschen bleiben.
+
+## Weiterführend
+
+- [ICO — Direct marketing](https://ico.org.uk/for-organisations/direct-marketing/) — Einwilligung, Listen, Rechenschaft (UK-Regulierung; Prinzipien übertragbar)
+- [AFP — Donor Bill of Rights](https://www.afpglobal.org/donor-bill-of-rights) — was Spender:innen von Fundraising fair erwarten dürfen
+- [Charity Commission — Fundraising](https://www.gov.uk/guidance/fundraising) — Beispiel für Klarheit und Ehrlichkeit bei gemeinnützigen Organisationen
 
 ---
 

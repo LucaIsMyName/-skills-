@@ -92,3 +92,10 @@ Avoid implying **moral** quality with a single green–red gradient unless the m
 ## Final thought
 
 👉 A chart is an **argument**. Make the claim **proportionate** to the data.
+
+## Further reading
+
+- [From Data to Viz](https://www.data-to-viz.com/) — chart-type chooser grounded in data shape
+- [Our World in Data — FAQs](https://ourworldindata.org/faqs) — transparent sourcing habits worth mirroring in NGO reporting
+- [W3C WAI — complex images tutorial](https://www.w3.org/WAI/tutorials/images/complex/) — alt text and long descriptions for data graphics
+

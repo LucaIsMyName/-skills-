@@ -131,6 +131,12 @@ Two sources are only independent if they did not **copy each other**:
 
 Trust comes from the **work you show**, not the confidence you project. Check the source, check the claim, and name what you could not verify. The reader rewards honesty over certainty.
 
+## Further reading
+
+- [CRAAP test — evaluating sources](https://library.csuchico.edu/lins/handouts/evalwebsites.html) — Currency, Relevance, Authority, Accuracy, Purpose (classic checklist)
+- [International Fact-Checking Network — Code of Principles](https://ifcncodeofprinciples.poynter.org/) — professional standards for fact-check organisations
+- [Full Fact](https://fullfact.org/) — example methodology for claim-level verification (UK-focused)
+
 ---
 
 German version: [`quellenbewertung-und-faktencheck.md`](../../de/recherche-und-analyse/quellenbewertung-und-faktencheck.md)

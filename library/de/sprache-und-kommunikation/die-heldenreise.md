@@ -84,6 +84,12 @@ Er bringt das Gelernte zurück und stellt ein Gleichgewicht her.
 
 👉 Eine gute Geschichte zeigt, wie ein Mensch durch Herausforderungen geht und sich dabei verändert.
 
+## Weiterführend
+
+- [Monomyth (Heldenreise)](https://en.wikipedia.org/wiki/Hero%27s_journey) — gängige Erzählstufen (kritisch nutzen; Lebensrealitäten nicht verflachen)
+- [Britannica — Monomyth](https://www.britannica.com/art/monomyth) — knapper enzyklopädischer Überblick
+- [Purdue OWL — Narrative essays](https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/narrative_essays.html) — Struktur und Tempo, übertragbar auf Kommunikation
+
 ---
 
 English version: [`heroes-journey.md`](../../en/language-and-communication/heroes-journey.md)

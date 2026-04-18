@@ -84,6 +84,12 @@ Tell a **true, understandable story** of what changed because of your work, back
 
 Good reporting earns **trust**: it shows what you achieved, what you learned, and what you owe the people you serve.
 
+## Further reading
+
+- [GRI Standards — Global Reporting Initiative](https://www.globalreporting.org/standards/) — widely used sustainability reporting framework (adapt scope to your org)
+- [Charity Commission for England and Wales — annual reporting guidance (example)](https://www.gov.uk/guidance/annual-report-guidance-for-charity-trustees) — clarity, accountability, and what readers expect from a charity report
+- [Eurostat — Statistics Explained](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Main_Page) — definitions for indicators you may cite in impact sections
+
 ---
 
 German version: [`wirkung-und-jahresberichte.md`](../../de/recherche-und-analyse/wirkung-und-jahresberichte.md)

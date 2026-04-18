@@ -120,6 +120,12 @@ Turn a pile of inputs—interviews, studies, reports, web pages—into a **confi
 
 Good research becomes good writing through **atomic notes and honest synthesis**. Capture in your own words, link every idea to a source, rearrange before you write—and draft from the map, not from the pile.
 
+## Further reading
+
+- [Zettelkasten.de — Introduction](https://zettelkasten.de/introduction/) — lightweight explanation of linked note systems
+- [Ahrens — *How to Take Smart Notes* (book site)](https://takesmartnotes.com/) — popular workflow connecting reading to writing (commercial; method is the value)
+- [Obsidian Help — Linking your thoughts](https://help.obsidian.md/Linking+notes+and+ideas) — tool-agnostic ideas translate to any Markdown or paper system
+
 ---
 
 German version: [`notizen-und-synthese.md`](../../de/recherche-und-analyse/notizen-und-synthese.md)

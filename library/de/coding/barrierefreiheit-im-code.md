@@ -126,6 +126,12 @@ Schnittstellen ausliefern, die **mit Tastatur, Screenreader, bei 200 % Zoom, bei
 
 Eine barrierefreie UI ist kein separater Modus—sie ist der **einzige Modus**, von der ersten Komponente an geplant und gebaut. Wenn Tastatur- oder Screenreader-Nutzer:innen eine Aufgabe nicht erledigen können, ist das ein **Bug**, kein Feature-Request.
 
+## Weiterführend
+
+- [WAI-ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/) — Muster für Widgets, Tastaturführung und Rollen
+- [MDN — Barrierefreiheit](https://developer.mozilla.org/de/docs/Web/Accessibility) — HTML, CSS und ARIA im Browser zusammendenken
+- [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) — statische Prüfungen für typische JSX-/React-Fallen
+
 ---
 
 Englische Version: [`accessibility-in-code.md`](../../en/coding/accessibility-in-code.md)

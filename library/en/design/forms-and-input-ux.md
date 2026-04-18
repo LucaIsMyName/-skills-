@@ -95,3 +95,10 @@ If submit is disabled until complete, show **what’s missing** or enable submit
 ## Final thought
 
 👉 Forms are where users **commit**. Confusion here is trust lost.
+
+## Further reading
+
+- [GOV.UK Design System — form inputs](https://design-system.service.gov.uk/components/) — labels, errors, and grouping patterns widely cited in public-sector UI
+- [W3C WAI — Understanding 3.3.2 Labels or Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html) — what “obvious label” means for assistive tech
+- [W3C WAI — Forms tutorial](https://www.w3.org/WAI/tutorials/forms/) — label association, validation, and multi-step flows
+

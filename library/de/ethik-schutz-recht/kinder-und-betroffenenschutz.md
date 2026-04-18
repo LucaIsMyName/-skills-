@@ -116,6 +116,12 @@ Vor Veröffentlichung fragen:
 
 Schutz in Comms heißt: **die Person geht aus der Veröffentlichung besser heraus als hinein**. Wenn das nicht ehrlich sagbar ist, ist die Geschichte nicht fertig—oder nicht zum Erzählen durch uns.
 
+## Weiterführend
+
+- [UNICEF Deutschland — Kinderrechte und Schutz](https://www.unicef.de/informieren/themen-mission/kinderschutz-2418) — ethische Orientierung für Berichterstattung über Kinder
+- [Europarat — Kinderrechte](https://www.coe.int/de/web/children) — menschenrechtliche Einordnung (Europa)
+- [UNICEF global — Child protection](https://www.unicef.org/child-protection) — Programme und Kommunikationsethik (englisch)
+
 ---
 
 English version: [`safeguarding-in-comms.md`](../../en/ethics-safeguarding-legal/safeguarding-in-comms.md)

@@ -130,6 +130,12 @@ Fixed the newsletter thingy because Anna asked me to.
 
 Git history is a **letter to the future**. Write it so someone can read six months later, bisect cleanly, and trust what each commit claims.
 
+## Further reading
+
+- [Pro Git book (online)](https://git-scm.com/book/en/v2) — official deep reference for workflows, internals, and recovery
+- [Conventional Commits](https://www.conventionalcommits.org/) — widely used prefix convention for messages and changelogs
+- [GitHub Docs — protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) — how teams enforce review before merge
+
 ---
 
 German version: [`git-und-commits.md`](../../de/coding/git-und-commits.md)

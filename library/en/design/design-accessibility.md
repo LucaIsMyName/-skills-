@@ -130,6 +130,12 @@ Design interfaces that **work for the widest range of people from the start**—
 
 Accessible design is **the first pass, not the last**. Aim for "works for more people", not "works for most and has a workaround"—and your product will be easier to use for everyone.
 
+## Further reading
+
+- [W3C WAI — WCAG 2 Overview](https://www.w3.org/WAI/standards-guidelines/wcag/) — shared definitions for perceivable, operable, understandable, robust
+- [Inclusive Design Principles](https://inclusivedesignprinciples.org/) — people-first heuristics that pair well with WCAG checks
+- [W3C WAI — Tutorials](https://www.w3.org/WAI/tutorials/) — page regions, images, tables, forms, and more at a practical level
+
 ---
 
 German version: [`barrierefreies-design.md`](../../de/design/barrierefreies-design.md)

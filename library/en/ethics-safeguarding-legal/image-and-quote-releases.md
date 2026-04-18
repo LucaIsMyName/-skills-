@@ -116,6 +116,12 @@ Vague releases ("for our work") fail. Good phrasing names:
 
 A release is **a promise you can keep**, not a lawyer's shield. If you would not be comfortable being shown and quoted like this, neither are they—rewrite the release, or don't publish.
 
+## Further reading
+
+- [ICO: Consent and photographs (example supervisory guidance)](https://ico.org.uk/for-the-public/photos-and-video-recording/) — illustrates informed, specific consent in media contexts
+- [EDPB: Guidelines on consent under Regulation 2016/679](https://www.edpb.europa.eu/system/files/2021/05/edpb_guidelines_202005_consent_en.pdf) — legal standard for valid consent (PDF)
+- [Article 8 GDPR — conditions applicable to child's consent](https://gdpr-info.eu/art-8-gdpr/) — orientation when minors appear in comms
+
 ---
 
 German version: [`bild-und-zitatfreigaben.md`](../../de/ethik-schutz-recht/bild-und-zitatfreigaben.md)

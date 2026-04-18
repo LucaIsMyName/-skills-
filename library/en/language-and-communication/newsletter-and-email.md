@@ -115,3 +115,10 @@ When the user describes segments, **mirror** language to each group (donors vs v
 ## Final thought
 
 👉 Email builds **trust over time**. Clarity beats cleverness; **legal text is not optional**—get the approved block from your organization.
+
+## Further reading
+
+- [ICO — direct marketing guidance](https://ico.org.uk/for-organisations/direct-marketing/) — consent, legitimate interests, and accountability (UK; principles echo EU ePrivacy debates)
+- [U.S. FTC — CAN-SPAM compliance guide](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) — identification, opt-out, and routing rules for bulk email in the U.S.
+- [W3C WAI — accessible emails](https://www.w3.org/WAI/tutorials/page-structure/) — structure and semantics that help assistive tech (pair with your HTML template owners)
+

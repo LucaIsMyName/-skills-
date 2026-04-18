@@ -99,6 +99,12 @@ Adapt to the template, but most proposals include:
 
 A strong grant application is **a precise answer to a precise question**—not a brochure about your organisation.
 
+## Further reading
+
+- [European Commission — Horizon Europe](https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en) — official EU R&I funding hub (adapt scope to your programme)
+- [Funding & Tenders Portal](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home) — EU calls and documentation entry point
+- [UKRI — apply for funding](https://www.ukri.org/apply-for-funding/) — official guidance on what funders expect before you submit
+
 ---
 
 German version: [`foerderantraege-und-projektskizzen.md`](../../de/sprache-und-kommunikation/foerderantraege-und-projektskizzen.md)

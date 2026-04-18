@@ -306,3 +306,10 @@ Schlechte sind:
 - schwer zugänglich
 
 👉 Wenn der Text nicht zeigt, **wen es betrifft und warum es wichtig ist**, ist er nicht gut genug.
+
+## Weiterführend
+
+- [GOV.UK — Style guide A to Z](https://www.gov.uk/guidance/style-guide/a-to-z) — klare, einheitliche Behördensprache (Richtung beispielhaft)
+- [Dart Center — Trauma](https://dartcenter.org/) — Menschenwürde, wenn Aussagen Schaden oder Verlust betreffen
+- [BBC — Editorial Guidelines](https://www.bbc.co.uk/editorialguidelines/) — Unabhängigkeit, Genauigkeit und Schutz vor Schaden aus der Newsroom-Praxis
+

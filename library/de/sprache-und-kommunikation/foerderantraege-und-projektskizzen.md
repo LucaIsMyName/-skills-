@@ -10,7 +10,7 @@
 - **Belege, keine Superlative.** Statistiken belegen; Unsicherheiten kennzeichnen; keine erfundenen Partner, Freigaben oder Ergebnisse der Vergangenheit.
 - Vollständige Struktur, rote Linien und Checkliste unten.
 
-## KI / Prompt: vor dem Entwurf eines Antrags
+## Vor dem Entwurf eines Antrags
 
 Vor dem Generieren von Text **Ausschreibungstext, Eignung, Fristen und interne Fakten** zusammentragen. Keine Mitfinanzierung, Unterstützungsschreiben oder Registernummern erfinden.
 
@@ -98,6 +98,12 @@ An die Vorlage anpassen, meist aber enthalten:
 ## Kernidee
 
 Ein überzeugender Förderantrag ist eine **präzise Antwort auf eine präzise Frage**—kein Imageprospekt über eure Organisation.
+
+## Weiterführend
+
+- [Europäische Kommission — Horizon Europe](https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en) — offizielle EU-Forschungs- und Innovationsaufrufe (Umfang anpassen)
+- [Portal „Funding & Tenders“](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/home) — Ausschreibungen und Dokumente der EU
+- [UKRI — Apply for funding](https://www.ukri.org/apply-for-funding/) — englischsprachige Erwartungen an Anträge vor der Einreichung
 
 ---
 

@@ -433,6 +433,12 @@ Struktur:
 
 - „Wir listen Informationen zu einem Thema auf.“
 
+## Weiterführend
+
+- [News values (Überblick)](https://en.wikipedia.org/wiki/News_values) — gängige Kriterien; Orientierung ohne Sensationalismus
+- [BBC Bitesize — What is news?](https://www.bbc.co.uk/bitesize/guides/z9kjhbk/revision/6) — kurze Kriterien, dieselben Fragen wie in der Kommunikation
+- [NCTE — Storytelling as advocacy](https://ncte.org/blog/2015/03/storytelling-as-advocacy-in-higher-education/) — Erzählung bewusst und verantwortlich einsetzen
+
 ---
 
 English version: [`storytelling.md`](../../en/language-and-communication/storytelling.md)

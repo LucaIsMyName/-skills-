@@ -10,7 +10,7 @@
 - Die Freigabe ist ein **Zeitpunkt**—neue Kontexte (Politik, Justiz, Privatleben) können neue Zustimmung oder Take-down nötig machen.
 - Template-Felder, Sonderfälle und Widerrufsregeln unten.
 
-## KI / Prompt: vor Dreh / Interview / Veröffentlichung
+## Vor Dreh / Interview / Veröffentlichung
 
 Vor Aufnahme oder Veröffentlichung **Wunsch, Betroffene und Zustimmung** klären.
 
@@ -115,6 +115,12 @@ Vage Freigaben („für unsere Arbeit") halten nicht. Gut ist:
 ## Kerngedanke
 
 Eine Freigabe ist **ein Versprechen, das man halten kann**—kein juristischer Schutzschild. Wenn man so selbst nicht gezeigt werden wollte, umformulieren—oder nicht veröffentlichen.
+
+## Weiterführend
+
+- [EDPB — Leitlinien zur Einwilligung (Nr. 05/2020, PDF)](https://www.edpb.europa.eu/system/files/2021/05/edpb_guidelines_202005_consent_de.pdf) — rechtlicher Standard für gültige Einwilligung
+- [BfDI — Themen zur Einwilligung (Auswahl)](https://www.bfdi.bund.de/DE/Themen/Verbraucher/informationen-zur-rechtsgrundlage/informationen-zur-rechtsgrundlage_node.html) — praxisnahe Orientierung (Deutschland)
+- [Art. 8 DSGVO — Einwilligung von Kindern (Übersicht)](https://gdpr-info.eu/art-8-gdpr/) — Einordnung bei Minderjährigen in Kommunikation
 
 ---
 

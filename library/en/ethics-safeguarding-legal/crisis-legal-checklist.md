@@ -118,6 +118,12 @@ Keep this table **visibly** in the incident doc.
 
 In a crisis, comms is **one of several disciplines** sharing the pen. Slow, accurate, coordinated statements beat fast, quotable, contested ones—especially months later in a court, a review, or a funder meeting.
 
+## Further reading
+
+- [EDPB: Guidelines and recommendations](https://www.edpb.europa.eu/edpb_en?m=Guidelines%20and%20Recommendations) — including breach notification and data-subject communications (context-dependent)
+- [ICO: Personal data breaches (UK)](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/personal-data-breaches/) — practical steps aligned with GDPR Articles 33–34
+- [European Commission — Data protection](https://commission.europa.eu/law/law-topic/data-protection_en) — EU-level overview and links to national authorities
+
 ---
 
 German version: [`krise-rechts-checkliste.md`](../../de/ethik-schutz-recht/krise-rechts-checkliste.md)

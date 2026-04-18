@@ -126,6 +126,12 @@ Ship interfaces that **work with a keyboard, a screen reader, at 200% zoom, in r
 
 An accessible UI is not a separate mode—it is the **only mode**, designed and built from the first component. If a keyboard user or a screen-reader user cannot complete a task, it is a **bug**, not a feature request.
 
+## Further reading
+
+- [WAI-ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/) — patterns for widgets, keyboard support, and roles
+- [MDN — Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility) — how HTML, CSS, and ARIA fit together in the browser
+- [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y) — static checks that catch common JSX/React pitfalls early
+
 ---
 
 German version: [`barrierefreiheit-im-code.md`](../../de/coding/barrierefreiheit-im-code.md)

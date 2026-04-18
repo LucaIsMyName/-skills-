@@ -114,6 +114,13 @@ See [`image-and-quote-releases.md`](image-and-quote-releases.md) for the release
 
 Data protection in comms is not a paperwork ritual—it is how you treat the people in your stories. Minimise, document, and when in doubt **ask before publishing**.
 
+## Further reading
+
+- [General Data Protection Regulation (GDPR) — consolidated text (HTML)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A32016R0679) — definitive legal text for lawful basis, consent, retention, and breaches
+- [European Data Protection Board (EDPB)](https://www.edpb.europa.eu/edpb_en) — guidelines and recommendations for controllers
+- [Data protection — European Commission](https://commission.europa.eu/law/law-topic/data-protection_en) — plain-language overview and sector links
+- [ICO: Guide to GDPR (UK supervisory authority)](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/) — practical interpretation (useful even outside the UK)
+
 ---
 
 German version: [`datenschutz-in-der-kommunikation.md`](../../de/ethik-schutz-recht/datenschutz-in-der-kommunikation.md)

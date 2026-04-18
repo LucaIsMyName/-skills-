@@ -308,3 +308,9 @@ Bad ones feel:
 * bloated
 
 👉 If it sounds like marketing, rewrite it.
+
+## Further reading
+
+- [GOV.UK — style guide A to Z](https://www.gov.uk/guidance/style-guide/a-to-z) — plain, consistent wording for public-facing copy
+- [Dart Center — covering trauma](https://dartcenter.org/) — dignity-first guidance when statements involve harm or loss
+- [BBC — Editorial Guidelines (hub)](https://www.bbc.co.uk/editorialguidelines/) — independence, accuracy, privacy, and harm standards from a major newsroom

@@ -131,6 +131,12 @@ Use statistics to make a story **more true**, not more impressive. Get the defin
 
 Numbers are **shorthand for evidence**—and they only help a piece if the shorthand matches the thing. Know what, who, when, from where; say the uncertainty out loud; and prefer the clean, boring version to the headline-friendly one.
 
+## Further reading
+
+- [Statistics Explained (Eurostat)](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Main_Page) — EU concepts, definitions, and methods in plain language
+- [Our World in Data](https://ourworldindata.org/) — global indicators with transparent sources and caveats
+- [Gapminder — common misconceptions about global development](https://www.gapminder.org/answers/) — training intuition against flashy but wrong headlines
+
 ---
 
 German version: [`statistik-einfach-lesen.md`](../../de/recherche-und-analyse/statistik-einfach-lesen.md)

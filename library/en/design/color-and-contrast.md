@@ -127,6 +127,12 @@ Test your UI in grayscale and with a colour-blindness simulator (deuter-, prot-,
 
 A good colour system is a **short list of well-defined roles**, each with accessible contrast in every mode, used the same way every time. Beauty follows discipline here, not the other way around.
 
+## Further reading
+
+- [W3C WAI — Understanding 1.4.3 Contrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) — how WCAG scores text and large text
+- [W3C WAI — Understanding 1.4.11 Non-text Contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html) — charts, icons, and component affordances
+- [W3C — CSS Color Module Level 4](https://www.w3.org/TR/css-color-4/) — modern colour spaces (e.g. OKLCH) used in design tooling
+
 ---
 
 German version: [`farbe-und-kontrast.md`](../../de/design/farbe-und-kontrast.md)

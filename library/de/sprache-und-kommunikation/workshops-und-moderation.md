@@ -10,7 +10,7 @@
 - **Entscheidungen festhalten** — wer macht was bis wann; Notizen zeitnah teilen.
 - Vollständiger Ablauf, Inklusion und Checkliste unten.
 
-## KI / Prompt: vor der Workshop-Gestaltung
+## Vor der Workshop-Gestaltung
 
 **Ziel, Teilnehmende, Rahmen und Risikoniveau** des Themas klären.
 
@@ -94,6 +94,12 @@ Formate ermöglichen, in denen Menschen **gemeinsam produktiv denken**, **sicher
 ## Kernidee
 
 Ein guter Workshop **endet mit gemeinsam verstandenen nächsten Schritten und benannten Verantwortlichen**—nicht nur mit warmer Stimmung, die sich auflöst.
+
+## Weiterführend
+
+- [IAP2 — Beteiligungsspektrum](https://www.iap2.org/) — Stufen der Einbindung und wann Moderation passt
+- [SessionLab — Bibliothek](https://www.sessionlab.com/library) — frei nutzbare Methoden (Lizenz pro Übung prüfen)
+- [W3C WAI — Barrierefreie Meetings](https://www.w3.org/WAI/teachers/accessible-meeting-guidance) — Materialien, Teilhabe und Planung inklusiver Formate
 
 ---
 

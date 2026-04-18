@@ -285,4 +285,10 @@ What matters:
 
 👉 Good language makes people **visible as human beings**, not categories.
 
+## Further reading
+
+- [Conscious Style Guide](https://consciousstyleguide.com/) — evolving reference for inclusive, precise wording
+- [UN DESA — disability inclusion](https://www.un.org/development/desa/disabilities/) — UN hub on dignity-first, rights-based framing (align with community preference where it differs)
+- [APA Style — biased language](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language) — careful wording around age, disability, gender, and race–ethnicity
+
 ---

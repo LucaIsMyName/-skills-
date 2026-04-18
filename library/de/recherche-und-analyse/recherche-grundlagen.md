@@ -10,7 +10,7 @@
 - **Triangulieren**: jede nicht-triviale Aussage mit mindestens zwei unabhängigen Quellen.
 - Ablauf, Suchmuster, Warnsignale unten.
 
-## KI / Prompt: vor dem Start
+## Vor dem Start
 
 Vor dem ersten Tab **Frage, Deliverable, Deadline** klären.
 
@@ -122,6 +122,12 @@ Für jede Quelle, die ins Deliverable könnte:
 ## Kerngedanke
 
 Recherche ist **disziplinierte Neugier**: Frage kennen, breit und dann eng suchen, jede Quelle protokollieren, Wichtiges triangulieren. Tempo kommt aus Struktur, nicht aus Weglassen.
+
+## Weiterführend
+
+- [Eurostat](https://ec.europa.eu/eurostat) — EU-Statistikportal (offiziell)
+- [Destatis](https://www.destatis.de/EN/Home/_node.html) — Statistisches Bundesamt (englische Startseite)
+- [Google Scholar](https://scholar.google.com/) — Literaturrecherche (Zugang und Volltext immer prüfen)
 
 ---
 

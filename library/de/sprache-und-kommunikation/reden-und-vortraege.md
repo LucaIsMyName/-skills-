@@ -10,7 +10,7 @@
 - **Zeit ist hart.** Kürzen—nie überziehen auf fremder Bühne.
 - Ablauf, Skript-Muster, Vortragsregeln unten.
 
-## KI / Prompt: vor dem Entwurf
+## Vor dem Entwurf
 
 Vor dem Schreiben **Publikum, Wirkung, Zeit** klären.
 
@@ -136,6 +136,12 @@ Publikum kann nicht zurückscrollen—verorten.
 ## Kerngedanke
 
 Eine gute Rede ist **ein Geschenk aus Aufmerksamkeit, als Klarheit zurückgegeben**. Eine Kernbotschaft, dreimal gesagt, pünktlich raus.
+
+## Weiterführend
+
+- [Toastmasters — Reden und Präsentieren](https://www.toastmasters.org/resources/public-speaking-tips) — Üben, Struktur, Auftreten
+- [Purdue OWL — Oral presentations](https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/creating_a_the_for_oral_presentations.html) — vom Entwurf zur mündlichen Fassung
+- [W3C WAI — Barrierefreie Veranstaltungen](https://www.w3.org/WAI/teachers/accessible-meeting-guidance) — Untertitel, Folien und Teilhabe bei gemischten Zielgruppen
 
 ---
 

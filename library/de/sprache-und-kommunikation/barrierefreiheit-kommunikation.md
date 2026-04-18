@@ -125,3 +125,10 @@ Jahresbericht 2025 lesen (PDF).
 ## Abschließender Gedanke
 
 👉 In der Kommunikation beginnt Barrierefreiheit mit **respektvoller, klarer Sprache** und **guten Briefings**. Technische Umsetzung liegt bei **Web und Design**—Dieses Dokument bleibt bei **Texten, Reden und Kommunikationsplanung**.
+
+## Weiterführend
+
+- [W3C WAI — Einführung in Web-Barrierefreiheit](https://www.w3.org/WAI/fundamentals/accessibility-intro/) — gemeinsames Vokabular für Redaktion, Design und Entwicklung
+- [W3C WAI — Schreiben für barrierefreie Webinhalte](https://www.w3.org/WAI/tips/writing/) — Überschriften, Linktexte und Alternativen
+- [W3C WAI — Audio und Video zugänglich machen](https://www.w3.org/WAI/media/av/) — Transkripte und Untertitel als Teil der Botschaft
+

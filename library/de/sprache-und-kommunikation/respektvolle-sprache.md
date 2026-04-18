@@ -234,3 +234,10 @@ Nicht nur das Wort zählt, sondern:
 
 👉 Gute Sprache macht Menschen sichtbar –
 als **Menschen, nicht als Kategorien**.
+
+## Weiterführend
+
+- [Conscious Style Guide](https://consciousstyleguide.com/) — laufend gepflegte Hinweise zu inklusiver, präziser Sprache
+- [UN DESA — Disability inclusion](https://www.un.org/development/desa/disabilities/) — würdebasierte UN-Rahmen (Abgleich mit Sprachpräferenzen der Community)
+- [APA Style — Biased language](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language) — Formulierungshilfen zu Alter, Behinderung, Gender und Ethnizität
+

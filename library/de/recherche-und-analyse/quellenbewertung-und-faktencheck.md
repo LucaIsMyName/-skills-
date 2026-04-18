@@ -11,7 +11,7 @@
 - **„Nicht verifizierbar"** ist ein gültiges Ergebnis—kürzen oder als ungeprüft rahmen.
 - Checklisten und Fallen unten.
 
-## KI / Prompt: vor Zitat, Quelle oder Veröffentlichung
+## Vor Zitat, Quelle oder Veröffentlichung
 
 Vor jeder Veröffentlichung **Herkunft und geprüfter Stand** klären.
 
@@ -130,6 +130,12 @@ Zwei Quellen sind nur unabhängig, wenn sie sich **nicht abgeschrieben** haben:
 ## Kerngedanke
 
 Vertrauen kommt aus **gezeigter Arbeit**, nicht aus Überzeugungs-Ton. Quelle prüfen, Aussage prüfen, ungelöstes offen benennen. Leser:innen belohnen Ehrlichkeit mehr als Gewissheit.
+
+## Weiterführend
+
+- [CRAAP-Test — Quellen bewerten](https://library.csuchico.edu/lins/handouts/evalwebsites.html) — Aktualität, Relevanz, Autorität, Genauigkeit, Zweck (klassische Checkliste)
+- [International Fact-Checking Network — Code of Principles](https://ifcncodeofprinciples.poynter.org/) — Standards für professionelle Faktenorganisationen
+- [Full Fact](https://fullfact.org/) — Methodik zur behauptungsbezogenen Prüfung (UK-Fokus, übertragbar)
 
 ---
 

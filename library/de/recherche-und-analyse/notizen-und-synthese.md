@@ -11,7 +11,7 @@
 - **Aus der Synthese entwerfen**, nicht aus dem Notizenfile—kein Copy-and-polish.
 - System und Ablauf unten.
 
-## KI / Prompt: vor dem Notieren
+## Vor dem Notieren
 
 Vor dem Notizbuch **Zweck und Folge** klären.
 
@@ -119,6 +119,12 @@ Aus Inputs—Interviews, Studien, Berichte, Webseiten—einen **sicheren, gut be
 ## Kerngedanke
 
 Gute Recherche wird gutes Schreiben durch **atomare Notizen und ehrliche Synthese**. In eigenen Worten festhalten, mit Quelle verlinken, vor dem Schreiben ordnen—Entwurf aus der Karte, nicht aus dem Stapel.
+
+## Weiterführend
+
+- [Zettelkasten.de — Introduction](https://zettelkasten.de/introduction/) — knappe Erklärung verknüpfter Notizsysteme (Englisch; Begriffe universell)
+- [Ahrens — *How to Take Smart Notes* (Website zum Buch)](https://takesmartnotes.com/) — verbreiteter Ablauf von Lesen zu Schreiben (kommerziell; die Methode zählt)
+- [Obsidian-Hilfe — Notizen verknüpfen](https://help.obsidian.md/Linking+notes+and+ideas) — Ideen lassen sich auf jedes Markdown- oder Papier-System übertragen
 
 ---
 

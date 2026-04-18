@@ -10,7 +10,7 @@
 - **Nie force-pushen** auf geteilte Branches. **Nie** Secrets pushen. **Nie** generierte Artefakte committen.
 - Vollständige Regeln unten: Messages, PR-Hygiene, Merge, Recovery.
 
-## KI / Prompt: vor dem Commit
+## Vor dem Commit
 
 Bevor ein Commit generiert wird, klären **was sich geändert hat und warum**. Keine erfundene Motivation, die nicht im Diff steht.
 
@@ -129,6 +129,12 @@ Fixed the newsletter thingy because Anna asked me to.
 ## Kernidee
 
 Git-Historie ist ein **Brief an die Zukunft**. So schreiben, dass jemand sechs Monate später lesen, sauber bisecten und jedem Commit vertrauen kann.
+
+## Weiterführend
+
+- [Pro Git (online)](https://git-scm.com/book/de/v2) — ausführliche Referenz zu Abläufen und Rettungsaktionen
+- [Conventional Commits](https://www.conventionalcommits.org/) — verbreitete Präfix-Konvention für Messages und Changelogs
+- [GitHub Docs — geschützte Branches](https://docs.github.com/de/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) — Review-Pflicht vor dem Merge (English UI verfügbar)
 
 ---
 

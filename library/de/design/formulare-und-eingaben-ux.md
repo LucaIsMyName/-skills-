@@ -95,3 +95,10 @@ Wenn Absenden bis zur Vollständigkeit deaktiviert ist: **anzeigen, was fehlt**,
 ## Abschließender Gedanke
 
 👉 Formulare sind **Vertrauensmoment**. Verwirrung dort kostet Vertrauen.
+
+## Weiterführende Links
+
+- [GOV.UK Design System — Komponenten](https://design-system.service.gov.uk/components/) — bewährte Muster zu Labels, Fehlern und Gruppierung
+- [W3C WAI — Understanding 3.3.2 Beschriftungen oder Anweisungen](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html) — was „klar beschriftet“ für Hilfstechnologien heißt
+- [W3C WAI — Formulare-Tutorial](https://www.w3.org/WAI/tutorials/forms/) — Zuordnung, Validierung und mehrstufige Abläufe
+

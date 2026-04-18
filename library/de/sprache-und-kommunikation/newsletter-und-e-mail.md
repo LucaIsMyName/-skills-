@@ -111,3 +111,10 @@ Wenn der Nutzer Segmente nennt, **Sprache und Beispiele** daran ausrichten—Spe
 ## Abschließender Gedanke
 
 👉 E-Mail lebt von **Vertrauen**. Klarheit schlägt Effekthascherei; **rechtliche Pflichttexte** kommen aus der Organisation, nicht aus dem Modell.
+
+## Weiterführend
+
+- [ICO — Direct marketing](https://ico.org.uk/for-organisations/direct-marketing/) — Einwilligung und Verantwortung bei Listenmailings (UK; EU-Diskussion ähnlich)
+- [U.S. FTC — CAN-SPAM](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) — Identifikation und Abmeldung bei Massenmail in den USA
+- [W3C WAI — Seitenstruktur](https://www.w3.org/WAI/tutorials/page-structure/) — semantische Struktur für assistive Systeme (mit HTML-Templates abstimmen)
+

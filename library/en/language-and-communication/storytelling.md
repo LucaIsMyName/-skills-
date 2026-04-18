@@ -433,6 +433,12 @@ Structure:
 
 - “We list information about a topic.”
 
+## Further reading
+
+- [News values (overview)](https://en.wikipedia.org/wiki/News_values) — common criteria editors use; a useful sanity check for comms stories
+- [BBC Bitesize — what is news?](https://www.bbc.co.uk/bitesize/guides/z9kjhbk/revision/6) — concise criteria young writers use; same tests apply in comms
+- [NCTE — storytelling as advocacy](https://ncte.org/blog/2015/03/storytelling-as-advocacy-in-higher-education/) — narrative used deliberately and ethically in public communication
+
 ---
 
 German version: [`storytelling.md`](../../de/sprache-und-kommunikation/storytelling.md)

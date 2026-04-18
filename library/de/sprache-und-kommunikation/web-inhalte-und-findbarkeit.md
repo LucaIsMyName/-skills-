@@ -10,7 +10,7 @@
 - **Interne Links** verbinden verwandte Angebote, Berichte und Spendenwege—Waisenseiten vermeiden.
 - Vollständiges Inhaltsmodell, Muster und Checkliste unten.
 
-## KI / Prompt: vor dem Schreiben oder Umstrukturieren
+## Vor dem Schreiben oder Umstrukturieren
 
 **Website-Ziele, Zielgruppe und Zweck jeder Seite** klären.
 
@@ -86,6 +86,12 @@ Die Site **verständlich, navigierbar und in Suchergebnissen ehrlich** machen—
 ## Kernidee
 
 Eine vertrauenswürdige NGO-Site **bringt die richtigen Menschen in ein oder zwei Klicks zur richtigen Seite**—und sagt in der Such-Snippet die Wahrheit.
+
+## Weiterführend
+
+- [Google Search Central — SEO-Starter-Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) — Grundlagen zu Titeln, Links und Auffindbarkeit
+- [W3C WAI — Schreiben für barrierefreie Webinhalte](https://www.w3.org/WAI/tips/writing/) — Überschriften, Links und Medientexte
+- [web.dev — Accessibility lernen](https://web.dev/learn/accessibility/) — Zusammenspiel von Inhalt und technischer Barrierefreiheit
 
 ---
 

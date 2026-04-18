@@ -113,6 +113,12 @@ Place attribution **near the asset** or in a clearly linked credits section.
 
 Clean copyright practice is **boring on purpose**: read the licence, credit the creator, write it down. Exciting copyright stories happen to people who did none of that.
 
+## Further reading
+
+- [Creative Commons — About the licences](https://creativecommons.org/share-your-work/cclicenses/) — what CC-BY, NC, SA, ND mean in practice
+- [WIPO — Copyright](https://www.wipo.int/copyright/en/) — treaties, basics, and national law pointers
+- [Stanford Copyright & Fair Use — overview](https://fairuse.stanford.edu/overview/) — framing for limits and exceptions when judging reuse (jurisdiction varies)
+
 ---
 
 German version: [`urheber-und-nutzungsrechte.md`](../../de/ethik-schutz-recht/urheber-und-nutzungsrechte.md)

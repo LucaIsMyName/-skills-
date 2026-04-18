@@ -125,3 +125,10 @@ Read our 2025 impact report (PDF).
 ## Final thought
 
 👉 In comms, accessibility starts with **respectful, clear language** and **good briefs**. Technical implementation belongs with **web and design colleagues**—This document keeps your lane **writing and speaking**.
+
+## Further reading
+
+- [W3C WAI — Introduction to web accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) — shared vocabulary for designers, editors, and developers
+- [W3C WAI — Writing for web accessibility](https://www.w3.org/WAI/tips/writing/) — headlines, link text, and media alternatives in copy
+- [W3C WAI — Making audio and video media accessible](https://www.w3.org/WAI/media/av/) — why transcripts and captions are part of the message
+

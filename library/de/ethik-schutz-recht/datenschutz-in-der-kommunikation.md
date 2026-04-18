@@ -10,7 +10,7 @@
 - **Dokumentieren**: Einwilligung, Speicherdauer, Weitergabe—mündliches „okay“ ist kein Nachweis.
 - Regeln, Beispiele und Kommunikationscheckliste unten vollständig.
 
-## KI / Prompt: vor der Veröffentlichung
+## Vor der Veröffentlichung
 
 Bevor eine reale Person verarbeitet wird, **Rechtsgrundlage, Umfang und Löschfrist** klären. Alte Einwilligungen decken keine neuen Zwecke.
 
@@ -113,6 +113,13 @@ Details zur Freigabe: [`bild-und-zitatfreigaben.md`](bild-und-zitatfreigaben.md)
 ## Kerngedanke
 
 Datenschutz in der Kommunikation ist kein Papier-Ritual—es ist der Umgang mit den Menschen in den Geschichten. Minimieren, dokumentieren, im Zweifel **vor Veröffentlichung nachfragen**.
+
+## Weiterführend
+
+- [Datenschutz-Grundverordnung (DSGVO) — konsolidierter Text (EUR-Lex, DE)](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX%3A32016R0679) — maßgeblicher Rechtstext zu Rechtsgrundlagen, Einwilligung, Löschfristen
+- [BfDI — Bundesbeauftragte:r für Datenschutz und Informationsfreiheit](https://www.bfdi.bund.de/) — Hinweise und Handreichungen für Deutschland
+- [Europäischer Datenschutzausschuss (EDSB / EDPB)](https://www.edpb.europa.eu/edpb_de) — Leitlinien und Empfehlungen der Aufsichtsbehörden
+- [EU-Kommission — Datenschutz](https://commission.europa.eu/law/law-topic/data-protection_de) — Überblick und Verknüpfungen
 
 ---
 

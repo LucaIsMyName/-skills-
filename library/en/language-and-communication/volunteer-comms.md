@@ -87,6 +87,12 @@ Help people **find the right role**, **start well**, **stay informed**, and **fe
 
 Strong volunteer comms **respect time, clarify expectations, and say thank you meaningfully**—so people stay because they trust you, not because they feel guilty.
 
+## Further reading
+
+- [UN Volunteers](https://www.unv.org/) — global volunteering principles and safeguarding orientation
+- [European Youth — European Solidarity Corps](https://youth.europa.eu/solidarity_en) — EU-funded volunteering and youth civic engagement
+- [International Federation of Red Cross and Red Crescent Societies — volunteering](https://www.ifrc.org/volunteering) — large-scale volunteer coordination ethics and safety norms
+
 ---
 
 German version: [`freiwillige-kommunikation.md`](../../de/sprache-und-kommunikation/freiwillige-kommunikation.md)

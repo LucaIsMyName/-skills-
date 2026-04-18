@@ -135,6 +135,12 @@ Three blocks, separated by a blank line. No hidden setup in helpers that obscure
 
 A good test suite lets you **say yes to change**. If tests make refactors scary, they are guarding the **implementation** instead of the **behaviour**—rewrite them.
 
+## Further reading
+
+- [Martin Fowler — TestPyramid](https://martinfowler.com/bliki/TestPyramid.html) — balance of unit, service, and UI tests
+- [Google Testing Blog — flaky tests](https://testing.googleblog.com/2016/05/flaky-tests-at-google-and-what-we-do.html) — operations discipline around unreliable tests in large repos
+- [Playwright documentation](https://playwright.dev/docs/intro) — representative modern E2E tooling (substitute your stack if needed)
+
 ---
 
 German version: [`teststrategie.md`](../../de/coding/teststrategie.md)

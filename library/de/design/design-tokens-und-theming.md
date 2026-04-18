@@ -97,3 +97,10 @@ Eine Übersicht: **Tokenname → Wert → Verwendung** verhindert Drift zwischen
 ## Abschließender Gedanke
 
 👉 Tokens sind **Verträge**. Beschreibt der Name keine **Rolle**, leidet jedes Theme-Update.
+
+## Weiterführende Links
+
+- [W3C Design Tokens Community Group](https://www.w3.org/community/design-tokens/) — Austauschformate und Interoperabilität
+- [Design Tokens Format (Entwurf)](https://www.designtokens.org/tr/drafts/format/) — Konventionen für Tools und Code
+- [W3C — CSS Custom Properties](https://www.w3.org/TR/css-variables-1/) — typische Web-Laufzeitschiene unter Token-Pipelines
+

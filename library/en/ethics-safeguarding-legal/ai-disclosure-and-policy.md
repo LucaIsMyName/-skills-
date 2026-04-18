@@ -116,6 +116,12 @@ Assume free tools can use your input for training unless the terms say otherwise
 
 The question is never "did you use AI". It is "**were you honest about it, and did the people in the work come to harm**". Disclose, protect, verify—in that order.
 
+## Further reading
+
+- [EU Artificial Intelligence Act — consolidated text (EUR-Lex)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689) — regulatory frame for certain AI uses in the EU
+- [OECD AI Principles overview](https://oecd.ai/en/dashboards) — policy anchors for human rights, accountability, and transparency
+- [UNESCO Recommendation on the Ethics of Artificial Intelligence (2021)](https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence) — global norms for education, science, culture, and communication contexts
+
 ---
 
 German version: [`ki-offenlegung-und-richtlinien.md`](../../de/ethik-schutz-recht/ki-offenlegung-und-richtlinien.md)

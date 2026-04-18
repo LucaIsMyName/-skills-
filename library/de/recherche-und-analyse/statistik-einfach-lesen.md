@@ -11,7 +11,7 @@
 - **Korrelation ≠ Kausalität.** Gemeinsam schwingen heißt nicht: eins verursacht das andere.
 - Vokabular, Fallen, Formulierungen unten.
 
-## KI / Prompt: vor dem Zitat
+## Vor dem Zitat
 
 Vor Zahl im Text **Quelle, Definition, Geltungsbereich, Unsicherheit** klären.
 
@@ -130,6 +130,12 @@ Statistik so nutzen, dass die Geschichte **wahrer** wird, nicht eindrucksvoller.
 ## Kerngedanke
 
 Zahlen sind **Kurzform von Evidenz**—sie helfen nur, wenn die Kurzform zur Sache passt. Was, Wer, Wann, Woher—Unsicherheit aussprechen—lieber die saubere, langweilige Fassung.
+
+## Weiterführend
+
+- [Statistics Explained (Eurostat)](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Main_Page) — EU-Konzepte und Methoden in verständlicher Sprache
+- [Our World in Data](https://ourworldindata.org/) — globale Indikatoren mit nachvollziehbaren Quellen und Einschränkungen
+- [Gapminder — häufige Missverständnisse](https://www.gapminder.org/answers/) — Intuition gegen reißerische, falsche Schlagzeilen schärfen
 
 ---
 

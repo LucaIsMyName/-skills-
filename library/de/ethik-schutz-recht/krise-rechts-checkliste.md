@@ -11,7 +11,7 @@
 - **Menschen vor Presse**: Betroffene, Team, Partner vor öffentlichen Statements informieren, wenn möglich.
 - Vollcheckliste und Anti-Patterns unten.
 
-## KI / Prompt: vor Krisenkommunikation
+## Vor Krisenkommunikation
 
 Vor Entwurf eines Statements **Wissen, Vermutung, Vertraulichkeit, Freigaben** klären.
 
@@ -117,6 +117,12 @@ Tabelle im Incident-Dokument **sichtbar** halten.
 ## Kerngedanke
 
 In der Krise ist Comms **eine Disziplin von mehreren** am Stift. Langsam, richtig, koordiniert schlägt schnell, zitierfähig, strittig—spätestens Monate später im Gericht, Review oder Fördergespräch.
+
+## Weiterführend
+
+- [EDSB / EDPB — Leitlinien und Empfehlungen](https://www.edpb.europa.eu/edpb_de?m=Leitlinien%20und%20Empfehlungen) — u. a. zu Meldungen und Kommunikation bei Datenpannen (kontextabhängig)
+- [EU-Kommission — Datenschutz](https://commission.europa.eu/law/law-topic/data-protection_de) — Überblick und nationale Aufsichtsbehörden
+- [Art. 33–34 DSGVO — Kurzüberblick (privat zusammengefasst)](https://gdpr-info.eu/chapter-4/) — zur Einordnung von Meldefristen (kein Ersatz für Rechtsberatung)
 
 ---
 

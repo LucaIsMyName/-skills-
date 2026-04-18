@@ -10,7 +10,7 @@
 - **Kleine Palette, klarer Einsatz.** Weniger Farben konsequent schlägt Spektrum zufällig.
 - Regeln, Paletten, Werkzeuge unten.
 
-## KI / Prompt: vor der Farbfestlegung
+## Vor der Farbfestlegung
 
 Vor Hex-Werten **Rollen, Umgebungen, Nutzer:innen** klären.
 
@@ -126,6 +126,12 @@ UI in Graustufen und mit Farbblindsimulatoren testen (Deuter-, Prot-, Tritanopie
 ## Kerngedanke
 
 Ein gutes Farbsystem ist **eine kurze Liste klar definierter Rollen**, mit zugänglichem Kontrast in jedem Modus, immer gleich verwendet. Schönheit folgt hier der Disziplin—nicht umgekehrt.
+
+## Weiterführende Links
+
+- [W3C WAI — Understanding 1.4.3 Kontrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) — Messlogik für Fließ- und großen Text
+- [W3C WAI — Understanding 1.4.11 Non-text Contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html) — UI-Teile, Diagramme und Bedienelemente
+- [W3C — CSS Color Module Level 4](https://www.w3.org/TR/css-color-4/) — moderne Farbräume (z. B. OKLCH) in aktuellen Tools
 
 ---
 

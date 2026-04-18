@@ -10,7 +10,7 @@
 - **Nichts ist off the record**, außer vorher schriftlich vereinbart. Mikrofon ist an.
 - Vorbereitungsablauf, Live-Taktik, Recovery unten.
 
-## KI / Prompt: vor dem Interview
+## Vor dem Interview
 
 Vor Zusage oder Vorbereitung **Wer, Was, Warum, Erfolgsbild** klären.
 
@@ -142,6 +142,12 @@ Frage kurz anerkennen, damit die Brücke nicht ausweichend wirkt. Wenn keine Ant
 ## Kerngedanke
 
 Ein gutes Interview ist kein **Gewinnen**—es ist **beenden, und das Publikum weiß das Eine, worauf es ankam**. Plan machen, Plan sagen, ruhig bleiben.
+
+## Weiterführend
+
+- [Dart Center for Journalism & Trauma — Ressourcen](https://dartcenter.org/) — trauma- und risikobewusstes Interviewen und Berichten
+- [Poynter — Suche: Interview](https://www.poynter.org/search/?q=interview) — journalistische Standards und Verifikation
+- [WHO — Ausbruchs-Kommunikation](https://www.who.int/teams/risk-communication) — offizielle Linie zu glaubwürdigen Botschaften unter Druck
 
 ---
 

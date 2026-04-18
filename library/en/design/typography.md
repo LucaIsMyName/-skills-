@@ -138,6 +138,12 @@ Round to sensible px/rem values; store as **tokens** (see [`design-tokens-and-th
 
 Great typography is **invisible**—the reader notices the content, not the letters. Pick a readable family, set a calm scale, and let **rhythm and hierarchy** do the work.
 
+## Further reading
+
+- [MDN — CSS styling basics](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text) — readable primers on font properties and layout interactions
+- [Microsoft Learn — OpenType specification](https://learn.microsoft.com/en-us/typography/opentype/spec/) — authoritative feature and encoding detail for type engineers
+- [W3C WAI — Understanding 1.4.12 Text Spacing](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html) — minimums that keep body text readable when users override spacing
+
 ---
 
 German version: [`typografie.md`](../../de/design/typografie.md)

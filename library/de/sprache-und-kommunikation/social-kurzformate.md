@@ -119,3 +119,10 @@ Wir suchen Peer-Mentorinnen für unser Jugendprogramm. Infos: [Link] #Jugendhilf
 ## Abschließender Gedanke
 
 👉 Kurzformate sind **öffentlich und dauerhaft**. Bei sensiblen Themen: bei Zweifeln **Führungs- oder Kommunikationskraft** einbinden, bevor etwas live geht.
+
+## Weiterführend
+
+- [UNESCO — Media and information literacy](https://www.unesco.org/en/media-literacy) — Quellenkritik und verantwortliche Aussagen online
+- [Meta — Community Standards](https://transparency.meta.com/policies/community-standards/) — Plattformregeln (kein Ersatz für Gesetz und interne Policy)
+- [W3C WAI — How people with disabilities use the web](https://www.w3.org/WAI/people-use-web/) — warum Alternativtexte und klare Sprache in Social Cards zählen
+

@@ -135,6 +135,12 @@ Drei Blöcke, Leerzeile dazwischen. Kein verstecktes Setup in Helfern, das Arran
 
 Eine gute Testsuite lässt dich **Ja zu Änderungen** sagen. Wenn Tests Refactors erschrecken, bewachen sie die **Implementierung** statt das **Verhalten**—umschreiben.
 
+## Weiterführend
+
+- [Martin Fowler — TestPyramid](https://martinfowler.com/bliki/TestPyramid.html) — Balance aus Unit-, Integrations- und UI-Tests
+- [Google Testing Blog — flaky tests](https://testing.googleblog.com/2016/05/flaky-tests-at-google-and-what-we-do.html) — Betrieb mit unzuverlässigen Tests in großen Repos
+- [Playwright — Dokumentation](https://playwright.dev/docs/intro) — beispielhaftes E2E-Tooling (bei anderem Stack entsprechend substituieren)
+
 ---
 
 Englische Version: [`testing-strategy.md`](../../en/coding/testing-strategy.md)

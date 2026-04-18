@@ -116,6 +116,12 @@ Before publishing, ask:
 
 Safeguarding in comms means **the person in the story is better off after publication than before**. If you cannot honestly say that, the story is not ready—or is not yours to tell.
 
+## Further reading
+
+- [UNICEF — Child safeguarding](https://www.unicef.org/child-protection) — programme and communication ethics orientation
+- [Council of Europe — Protecting children in crises](https://www.coe.int/en/web/children/crisis) — rights-based framing for vulnerable children in public messaging
+- [NSPCC Learning (UK) — safer working with children](https://learning.nspcc.org.uk/services-children-families) — training-oriented resource; adapt to your jurisdiction’s law
+
 ---
 
 German version: [`kinder-und-betroffenenschutz.md`](../../de/ethik-schutz-recht/kinder-und-betroffenenschutz.md)

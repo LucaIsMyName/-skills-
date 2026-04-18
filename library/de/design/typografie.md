@@ -11,7 +11,7 @@
 - **Ziffern**: Tabellenziffern in Tabellen und Beträgen, Proportionalziffern im Fließtext.
 - Regeln, Beispiele, Paarungen unten.
 
-## KI / Prompt: vor der Schriftwahl
+## Vor der Schriftwahl
 
 Vor Auswahl/Spezifikation **Medium, Publikum, Bedingungen** klären.
 
@@ -137,6 +137,12 @@ Auf sinnvolle px/rem runden; als **Tokens** ablegen (siehe [`design-tokens-und-t
 ## Kerngedanke
 
 Gute Typografie ist **unsichtbar**—gelesen wird der Inhalt, nicht die Schrift. Lesbare Familie, ruhige Skala, **Rhythmus und Hierarchie** machen die Arbeit.
+
+## Weiterführende Links
+
+- [MDN — CSS und Textgestaltung](https://developer.mozilla.org/de/docs/Learn/CSS/Styling_text) — Grundlagen zu Schriftgrößen und Layoutwechselwirkungen
+- [Microsoft Learn — OpenType-Spezifikation](https://learn.microsoft.com/en-us/typography/opentype/spec/) — Referenz für Features und Kodierung (englisch)
+- [W3C WAI — Understanding 1.4.12 Textabstände](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html) — Mindestabstände bei Nutzer:innen-Overrides
 
 ---
 

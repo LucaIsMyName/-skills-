@@ -10,7 +10,7 @@
 - **Würdigung ist fortlaufend**—nicht nur ein Jahresfest; kleine, konkrete Danksagungen schlagen generische Auszeichnungen oft.
 - Vollständiger Lebenszyklus, Kanäle und Checkliste unten.
 
-## KI / Prompt: vor Entwürfen zur Freiwilligen-Kommunikation
+## Vor Entwürfen zur Freiwilligen-Kommunikation
 
 **Rolle, Zielgruppe, Kanal und nutzbare Daten** (Namen, Fotos, Geschichten) klären.
 
@@ -86,6 +86,12 @@ Menschen **die passende Rolle finden**, **gut starten**, **informiert bleiben** 
 ## Kernidee
 
 Starke Freiwilligen-Kommunikation **respektiert Zeit, klärt Erwartungen und dankt sinnvoll**—damit Menschen bleiben, weil sie euch vertrauen, nicht aus schlechtem Gewissen.
+
+## Weiterführend
+
+- [UN Volunteers](https://www.unv.org/) — globale Prinzipien und Schutz im Freiwilligendienst
+- [European Youth — Europäisches Solidaritätskorps](https://youth.europa.eu/solidarity_en) — EU-gefördertes Engagement und grenzüberschreitende Projekte
+- [IFRC — Volunteering](https://www.ifrc.org/volunteering) — Koordination und Sicherheit in großen Ehrenamts- und Hilfsstrukturen
 
 ---
 

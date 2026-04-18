@@ -128,6 +128,12 @@ Avoid **double-barrelled** ("What did you feel and what did you do?") and **lead
 
 A good interview is an exchange of **attention for truth**. You prepare, you listen, you protect the person—and the material that comes back carries life that no desk source can match.
 
+## Further reading
+
+- [Belmont Report — ethical principles for research involving human subjects (US HHS)](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html) — respect for persons, beneficence, justice (widely cited beyond the US)
+- [Oral History Association — Principles and Best Practices](https://www.oralhistory.org/principles-and-best-practices/) — consent, deposit, and use of recorded testimony
+- [ALLEA — European Code of Conduct for Research Integrity](https://allea.org/code-of-conduct/) — shared norms on rigour, honesty, and accountability in research settings
+
 ---
 
 German version: [`menschen-interviewen.md`](../../de/recherche-und-analyse/menschen-interviewen.md)

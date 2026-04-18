@@ -83,3 +83,10 @@ Vergleiche mit **einfachem Diagramm** oder Tabelle—keine Zahlenwände.
 ## Abschließender Gedanke
 
 👉 Folien sind **Stützen**, kein Dokument. Steht alles auf der Folie, **wirkt nichts**.
+
+## Weiterführende Links
+
+- [W3C WAI — Audio und Video zugänglich machen](https://www.w3.org/WAI/media/av/) — Live-Untertitel und beschriebene Visuals für hybride Zielgruppen
+- [W3C WAI — Barrierefreie Präsentationen](https://www.w3.org/WAI/teach-advocate/accessible-presentations/) — Planung von Folien, Rede und Teilhabe
+- [MDN — `<video>` Barrierefreiheit](https://developer.mozilla.org/de/docs/Web/HTML/Element/video#barrierefreiheit) — Steuerung und Transkripte für eingebettete Aufzeichnungen
+

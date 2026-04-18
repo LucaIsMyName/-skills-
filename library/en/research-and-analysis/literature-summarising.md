@@ -121,6 +121,12 @@ A reliable 150–300 word template:
 
 A good summary is **shorter, not bolder**. Preserve what the source actually claims, keep the hedges, attribute clearly, separate your commentary—and the reader can trust both the summary and the source behind it.
 
+## Further reading
+
+- [Purdue OWL — Quoting, Paraphrasing, and Summarizing](https://owl.purdue.edu/owl/research_and_citation/using_research/quoting_paraphrasing_and_summarizing/index.html) — academic integrity basics that transfer to comms summaries
+- [Wikipedia — Neutral point of view](https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view) — useful discipline: report what sources say, attribute weight fairly
+- [APA Style — Paraphrasing](https://apastyle.apa.org/style-grammar-guidelines/citations/paraphrasing) — keeping your wording clearly distinct from the source’s
+
 ---
 
 German version: [`literatur-zusammenfassen.md`](../../de/recherche-und-analyse/literatur-zusammenfassen.md)

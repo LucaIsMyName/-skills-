@@ -143,6 +143,12 @@ Acknowledge the question so the bridge doesn't feel evasive. If you cannot answe
 
 A good interview is not **winning**—it is **finishing it with the audience knowing the one thing that matters** and the org's credibility intact. Prepare the plan, say the plan, stay calm.
 
+## Further reading
+
+- [Dart Center for Journalism & Trauma — resources](https://dartcenter.org/) — trauma-aware interviewing and risk-aware reporting
+- [Poynter — interview and verification habits](https://www.poynter.org/search/?q=interview) — reporting craft from a journalism institute
+- [WHO — outbreak communication](https://www.who.int/teams/risk-communication) — official doctrine on clear, credible messaging under pressure
+
 ---
 
 German version: [`interview-vorbereitung.md`](../../de/sprache-und-kommunikation/interview-vorbereitung.md)
