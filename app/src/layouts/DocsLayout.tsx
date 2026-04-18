@@ -74,7 +74,7 @@ export function DocsLayout() {
           <div className="border-b border-border bg-background p-4">
             <div className="flex items-center justify-between gap-2">
               <AppLogo lang={lang} onNavigate={closeDrawer} />
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 pr-8">
                 {langs.length > 0 && (
                   <LangSwitch
                     langs={langs}
