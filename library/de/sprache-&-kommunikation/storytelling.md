@@ -23,7 +23,6 @@ Bevor Geschichten ausgearbeitet werden, **konkrete und Meta-Angaben** klären. F
 ### Meta
 
 - Gewünschte **emotionale** Tiefen (authentisch, nicht manipulativ)
-- Bezug zu **Marie Lampert**-Struktur: Erzählsatz und „Leiter“ bewusst setzen
 
 ---
 

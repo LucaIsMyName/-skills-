@@ -1,6 +1,6 @@
 # KI-Offenlegung und Richtlinien
 
-**Geltungsbereich:** Gilt für den **Einsatz von KI in der Kommunikationsarbeit**—Entwürfe, Übersetzung, Redaktion, Bildgenerierung, Zusammenfassung, Transkription. Kein Ersatz für org-weite KI-Richtlinien oder Rechtsprüfung. Ergänzt [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`urheber-und-nutzungsrechte.md`](urheber-und-nutzungsrechte.md), [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md).
+**Geltungsbereich:** Gilt für den **Einsatz von KI in der Kommunikationsarbeit**—Entwürfe, Übersetzung, Redaktion, Bildgenerierung, Zusammenfassung, Transkription. Kein Ersatz für org-weite KI-Richtlinien oder Rechtsprüfung. Ergänzt [`prompten-grundlagen.md`](../ki-&-prompting/prompten-grundlagen.md), [`ki-in-der-kommunikation.md`](../ki-&-prompting/ki-in-der-kommunikation.md), [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`urheber-und-nutzungsrechte.md`](urheber-und-nutzungsrechte.md), [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md).
 
 ## Exzerpt
 
@@ -124,4 +124,4 @@ Die Frage ist nicht „hast du KI genutzt". Sie lautet: „**war das ehrlich, un
 
 ---
 
-English version: [`ai-disclosure-and-policy.md`](../../en/ethics-safeguarding-legal/ai-disclosure-and-policy.md)
+English version: [`ai-disclosure-and-policy.md`](../../en/ethics-&-legal/ai-disclosure-and-policy.md)

@@ -320,3 +320,7 @@ Schlechtes Design wirkt:
 - frustrierend
 
 👉 Wenn Nutzer\*innen zu viel nachdenken müssen, ist das Design nicht gut genug.
+
+---
+
+Englische Version: [`design-basics.md`](../../en/design/design-basics.md)

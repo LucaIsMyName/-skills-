@@ -106,8 +106,8 @@ Für jede Quelle, die ins Deliverable könnte:
 
 - **Paywalls** respektieren; institutioneller Zugang oder Preprint.
 - **Urheberrecht**: kurz und mit Nennung zitieren; nie ganze Texte kopieren.
-- **Personenbezogene Daten** nicht aus Foren kratzen; siehe [`datenschutz-in-der-kommunikation.md`](../ethik-schutz-recht/datenschutz-in-der-kommunikation.md).
-- **KI-Suche**: jede Behauptung aus KI-Output gegen echte Quelle prüfen; siehe [`ki-offenlegung-und-richtlinien.md`](../ethik-schutz-recht/ki-offenlegung-und-richtlinien.md).
+- **Personenbezogene Daten** nicht aus Foren kratzen; siehe [`datenschutz-in-der-kommunikation.md`](../ethik-&-recht/datenschutz-in-der-kommunikation.md).
+- **KI-Suche**: jede Behauptung aus KI-Output gegen echte Quelle prüfen; siehe [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md).
 
 ## 10. Warnsignale
 

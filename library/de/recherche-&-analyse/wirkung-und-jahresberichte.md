@@ -18,7 +18,7 @@
 
 - **Berichtszeitraum** und Vergleichsbasis (Jahr zu Jahr, vs. Plan).
 - **Amtliche Kennzahlen** aus CRM, Finanzen oder Monitoring—kein Aufrunden für die Story.
-- **Geschichten und Zitate**: Einwilligungsstand; siehe [`bild-und-zitatfreigaben.md`](../ethik-schutz-recht/bild-und-zitatfreigaben.md).
+- **Geschichten und Zitate**: Einwilligungsstand; siehe [`bild-und-zitatfreigaben.md`](../ethik-&-recht/bild-und-zitatfreigaben.md).
 - **Zielgruppe** (Vorstand, Mitglieder, Web, PDF) und **Länge**.
 - **Was schiefging oder sich verzögerte**—sachliche Fakten, kein Spin.
 
@@ -67,7 +67,7 @@ Eine **wahre, verständliche Geschichte** davon erzählen, was sich durch eure A
 
 - Nur gute Monate oder Programme herauspicken ohne Kennzeichnung.
 - „Wirkung“, die Aktivitätszahlen mit Lebensrealität verwechselt ohne Belege.
-- Stockfotos, die Beteiligte falsch darstellen; siehe [`kinder-und-betroffenenschutz.md`](../ethik-schutz-recht/kinder-und-betroffenenschutz.md).
+- Stockfotos, die Beteiligte falsch darstellen; siehe [`kinder-und-betroffenenschutz.md`](../ethik-&-recht/kinder-und-betroffenenschutz.md).
 
 ---
 

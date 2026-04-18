@@ -12,4 +12,8 @@
   body {
     @apply m-0 min-h-screen bg-zinc-50 font-sans text-zinc-900 antialiased;
   }
+
+  .prose code {
+    font-weight: 500 !important;
+  }
 }

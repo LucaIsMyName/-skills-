@@ -1,4 +1,4 @@
-# design-basics.md
+# Design basics
 
 **Scope:** Applies to **visual and UI/product design principles**; not copywriting for accessibility (use language-and-communication skills) or standalone marketing strategy.
 
@@ -320,3 +320,7 @@ Bad design feels:
 - frustrating
 
 👉 If users have to think too much, the design is not good.
+
+---
+
+German version: [`design-basics.md`](../../de/design/design-basics.md)

@@ -1,6 +1,6 @@
 # Volunteer communications
 
-**Scope:** Applies to **recruitment, onboarding, ongoing communication, and recognition** for volunteers in nonprofits and social-sector organisations—email, web, chat, posters, and events. Not HR employment contracts, not volunteer law in detail (point to your legal counsel). Pair with [`newsletter-and-email.md`](newsletter-and-email.md), [`respectful-language.md`](respectful-language.md), and [`data-protection-for-comms.md`](../ethics-safeguarding-legal/data-protection-for-comms.md).
+**Scope:** Applies to **recruitment, onboarding, ongoing communication, and recognition** for volunteers in nonprofits and social-sector organisations—email, web, chat, posters, and events. Not HR employment contracts, not volunteer law in detail (point to your legal counsel). Pair with [`volunteer-coordination.md`](../project-&-operations/volunteer-coordination.md), [`newsletter-and-email.md`](newsletter-and-email.md), [`respectful-language.md`](respectful-language.md), and [`data-protection-for-comms.md`](../ethics-&-legal/data-protection-for-comms.md).
 
 ## Excerpt 
 
@@ -19,7 +19,7 @@ Clarify **role, audience, channel, and data you may use** (names, photos, storie
 - **Volunteer segment**: prospective, new, active, stepping back, alumni?
 - **Role or programme** name; requirements; time expectations; safeguarding level.
 - **Channel**: web, social, SMS, in-person script, PDF?
-- **Consent** for photos and quotes; minors need guardian rules—see [`safeguarding-in-comms.md`](../ethics-safeguarding-legal/safeguarding-in-comms.md).
+- **Consent** for photos and quotes; minors need guardian rules—see [`safeguarding-in-comms.md`](../ethics-&-legal/safeguarding-in-comms.md) and [`volunteer-coordination.md`](../project-&-operations/volunteer-coordination.md).
 
 ### Meta
 
@@ -70,7 +70,7 @@ Help people **find the right role**, **start well**, **stay informed**, and **fe
 ## 5. Data and privacy
 
 - Collect only what you need for scheduling and safeguarding; store per your policies.
-- Unsubscribe and data requests: align with [`data-protection-for-comms.md`](../ethics-safeguarding-legal/data-protection-for-comms.md).
+- Unsubscribe and data requests: align with [`data-protection-for-comms.md`](../ethics-&-legal/data-protection-for-comms.md).
 
 ---
 

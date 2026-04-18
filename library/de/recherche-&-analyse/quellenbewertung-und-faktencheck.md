@@ -111,7 +111,7 @@ Zwei Quellen sind nur unabhängig, wenn sie sich **nicht abgeschrieben** haben:
 - KI-Summaries als **Spurentwürfe**, nie als Quelle.
 - Jeden Fakt, jedes Zitat, jede Zitation aus dem Modell gegen reale Quelle prüfen, die du öffnen kannst.
 - Prompt und Output zur Nachverfolgbarkeit.
-- Siehe [`ki-offenlegung-und-richtlinien.md`](../ethik-schutz-recht/ki-offenlegung-und-richtlinien.md).
+- Siehe [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md).
 
 ## 10. Wenn nicht verifizierbar
 

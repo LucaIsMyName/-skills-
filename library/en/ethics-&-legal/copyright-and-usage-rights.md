@@ -121,4 +121,4 @@ Clean copyright practice is **boring on purpose**: read the licence, credit the 
 
 ---
 
-German version: [`urheber-und-nutzungsrechte.md`](../../de/ethik-schutz-recht/urheber-und-nutzungsrechte.md)
+German version: [`urheber-und-nutzungsrechte.md`](../../de/ethik-&-recht/urheber-und-nutzungsrechte.md)

@@ -124,4 +124,4 @@ Safeguarding in comms means **the person in the story is better off after public
 
 ---
 
-German version: [`kinder-und-betroffenenschutz.md`](../../de/ethik-schutz-recht/kinder-und-betroffenenschutz.md)
+German version: [`kinder-und-betroffenenschutz.md`](../../de/ethik-&-recht/kinder-und-betroffenenschutz.md)

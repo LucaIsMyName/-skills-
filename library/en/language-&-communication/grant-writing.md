@@ -71,7 +71,7 @@ Adapt to the template, but most proposals include:
 
 - **Professional, not promotional.** Avoid superlatives unless you can substantiate them.
 - **People-first language** for beneficiaries; align with [`respectful-language.md`](respectful-language.md).
-- **Data protection**: personal data in proposals only when necessary; see [`data-protection-for-comms.md`](../ethics-safeguarding-legal/data-protection-for-comms.md).
+- **Data protection**: personal data in proposals only when necessary; see [`data-protection-for-comms.md`](../ethics-&-legal/data-protection-for-comms.md).
 
 ---
 

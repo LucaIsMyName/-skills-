@@ -70,7 +70,7 @@ Make your site **easy to understand, easy to navigate, and honest in search resu
 ## 5. Trust and compliance
 
 - **Donation pages**: clear use of funds; regulatory statements as required in your jurisdiction.
-- **Privacy**: link to full policy near any data collection—see [`data-protection-for-comms.md`](../ethics-safeguarding-legal/data-protection-for-comms.md).
+- **Privacy**: link to full policy near any data collection—see [`data-protection-for-comms.md`](../ethics-&-legal/data-protection-for-comms.md).
 
 ---
 

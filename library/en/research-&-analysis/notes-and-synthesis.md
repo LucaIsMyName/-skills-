@@ -103,7 +103,7 @@ Turn a pile of inputs—interviews, studies, reports, web pages—into a **confi
 
 - AI can **cluster**, **summarise draft sections**, **find gaps**—treat all output as suggestions.
 - **Never** trust AI quotes, page numbers, or citations without verifying against the source.
-- Keep the **prompts and outputs** with the project files (see [`ai-disclosure-and-policy.md`](../ethics-safeguarding-legal/ai-disclosure-and-policy.md)).
+- Keep the **prompts and outputs** with the project files (see [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md)).
 - The synthesis is **yours**; the AI is scaffolding.
 
 ## 11. Red flags

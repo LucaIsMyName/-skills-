@@ -23,13 +23,13 @@ Before developing stories, clarify **concrete and meta** inputs. If something es
 ### Meta
 
 - Desired **emotional** depth (authentic, not manipulative)
-- Apply **Marie Lampert** structure deliberately: core sentence and “ladder”
+- Apply structure deliberately: core sentence and “ladder”
 
 ---
 
 ## Purpose
 
-This document describes how **effective storytelling after Marie Lampert** works—with a focus on structure, emotion, and clarity.
+This document describes how **effective storytelling** works—with a focus on structure, emotion, and clarity.
 
 The goal is to tell stories that:
 

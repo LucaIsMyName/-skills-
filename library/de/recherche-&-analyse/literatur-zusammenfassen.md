@@ -105,7 +105,7 @@ Vorlage 150–300 Wörter:
 - KI kann Zusammenfassungen **entwerfen**; Endfassung verantwortest du.
 - **Jede Aussage, Zahl, Zitat, Zitation** gegen die Quelle prüfen.
 - Auf **erfundene** Seitenzahlen und Autor:innen achten—häufig.
-- **Prompt und Output** bei den Projektnotizen; siehe [`ki-offenlegung-und-richtlinien.md`](../ethik-schutz-recht/ki-offenlegung-und-richtlinien.md).
+- **Prompt und Output** bei den Projektnotizen; siehe [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md).
 
 ## 11. Warnsignale
 

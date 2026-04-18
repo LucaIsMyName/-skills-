@@ -126,4 +126,4 @@ In der Krise ist Comms **eine Disziplin von mehreren** am Stift. Langsam, richti
 
 ---
 
-English version: [`crisis-legal-checklist.md`](../../en/ethics-safeguarding-legal/crisis-legal-checklist.md)
+English version: [`crisis-legal-checklist.md`](../../en/ethics-&-legal/crisis-legal-checklist.md)

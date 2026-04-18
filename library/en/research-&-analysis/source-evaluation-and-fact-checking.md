@@ -111,7 +111,7 @@ Two sources are only independent if they did not **copy each other**:
 - Treat AI summaries as **drafts of leads**, never as sources.
 - Verify every fact, quote, and citation the model produces against a real source you can open.
 - Keep the prompt and output for traceability.
-- See [`ai-disclosure-and-policy.md`](../ethics-safeguarding-legal/ai-disclosure-and-policy.md).
+- See [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md).
 
 ## 10. When you cannot verify
 

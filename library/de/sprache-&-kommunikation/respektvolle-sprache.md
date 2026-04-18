@@ -1,6 +1,6 @@
 # Respektvolle Sprache
 
-**Geltungsbereich:** Respektvolle Formulierungen zu sozialen Themen und Menschen in **Kommunikationstexten**; kein Ersatz für Rechtsberatung, Medizin oder Personalakte.
+**Geltungsbereich:** Respektvolle Formulierungen zu sozialen Themen und Menschen in **Kommunikationstexten**; kein Ersatz für Rechtsberatung, Medizin oder Personalakte. Ergänzt [`content-design-und-microcopy.md`](../design/content-design-und-microcopy.md) für UI-Microcopy und [`tonalitaet-und-markenstimme.md`](tonalitaet-und-markenstimme.md) für Markenstimme.
 
 ## Exzerpt
 
@@ -241,3 +241,6 @@ als **Menschen, nicht als Kategorien**.
 - [UN DESA — Disability inclusion](https://www.un.org/development/desa/disabilities/) — würdebasierte UN-Rahmen (Abgleich mit Sprachpräferenzen der Community)
 - [APA Style — Biased language](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language) — Formulierungshilfen zu Alter, Behinderung, Gender und Ethnizität
 
+---
+
+Englische Version: [`respectful-language.md`](../../en/language-&-communication/respectful-language.md)

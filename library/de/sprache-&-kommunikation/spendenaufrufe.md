@@ -67,7 +67,7 @@ Dienstag, 15:40 Uhr. Leila kommt aus der Schule, läuft in unsere Stadtteilküch
 - Menschen im Aufruf sind **handelnde Personen** mit Entscheidungen—nicht „die Armen", „die Bedürftigen", „die Stimmlosen".
 - **Keine Vorher/Nachher-Rahmung**, die die Geschichte beraubt. Das Leben begann nicht mit Ihrem Programm.
 - **Keine Elends-Nahaufnahmen**: Tränen, Wunden, Schmutz. Fotografie sucht Stärke, nicht Leid.
-- **Einwilligung dokumentiert** für jeden Namen und jedes Gesicht; siehe [`bild-und-zitatfreigaben.md`](../ethik-schutz-recht/bild-und-zitatfreigaben.md).
+- **Einwilligung dokumentiert** für jeden Namen und jedes Gesicht; siehe [`bild-und-zitatfreigaben.md`](../ethik-&-recht/bild-und-zitatfreigaben.md).
 - **Anonymisieren** (Komposit, Pseudonym, Rolle), wenn Schutz es verlangt—und es **sagen**.
 
 ## 4. Der Appell: konkret und klar
@@ -136,11 +136,11 @@ Oder richten Sie 10 € pro Monat ein, damit die Küche das ganze Jahr geöffnet
 
 ## 9. Recht und Ethik
 
-- **Keine personenbezogenen Daten** ohne klare Einwilligung—siehe [`datenschutz-in-der-kommunikation.md`](../ethik-schutz-recht/datenschutz-in-der-kommunikation.md).
-- **Minderjährige und schutzbedürftige Erwachsene**: siehe [`kinder-und-betroffenenschutz.md`](../ethik-schutz-recht/kinder-und-betroffenenschutz.md).
+- **Keine personenbezogenen Daten** ohne klare Einwilligung—siehe [`datenschutz-in-der-kommunikation.md`](../ethik-&-recht/datenschutz-in-der-kommunikation.md).
+- **Minderjährige und schutzbedürftige Erwachsene**: siehe [`kinder-und-betroffenenschutz.md`](../ethik-&-recht/kinder-und-betroffenenschutz.md).
 - **Spender:innendaten** sind heilig: Opt-in, klare Abmeldung, keine Weitergabe.
 - **Quittungen / Regulierung**: Spenden- und Steuerrecht beachten.
-- **KI-Einsatz** offenlegen—siehe [`ki-offenlegung-und-richtlinien.md`](../ethik-schutz-recht/ki-offenlegung-und-richtlinien.md).
+- **KI-Einsatz** offenlegen—siehe [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md).
 
 ## 10. Geht nicht
 

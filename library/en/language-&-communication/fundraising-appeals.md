@@ -67,7 +67,7 @@ It's 3:40pm on a Tuesday. Leila finishes school, walks to our community kitchen,
 - People in appeals are **agents** with choices, not "the poor", "the needy", "the voiceless".
 - **No before/after** framing that strips someone's history. Their life did not start with your programme.
 - **No pity close-ups**: tears, wounds, filth. Invite the photographer to find strength, not suffering.
-- **Consent documented** for every name and face; see [`image-and-quote-releases.md`](../ethics-safeguarding-legal/image-and-quote-releases.md).
+- **Consent documented** for every name and face; see [`image-and-quote-releases.md`](../ethics-&-legal/image-and-quote-releases.md).
 - **Anonymise** (composite, pseudonym, role) when safety requires—and **say so**.
 
 ## 4. The ask: concrete and plain
@@ -136,11 +136,11 @@ Or set up €10 a month so the kitchen is open all year.
 
 ## 9. Legal and ethical floor
 
-- **No personal data** in appeals without clear consent—see [`data-protection-for-comms.md`](../ethics-safeguarding-legal/data-protection-for-comms.md).
-- **Minors and vulnerable adults**: see [`safeguarding-in-comms.md`](../ethics-safeguarding-legal/safeguarding-in-comms.md).
+- **No personal data** in appeals without clear consent—see [`data-protection-for-comms.md`](../ethics-&-legal/data-protection-for-comms.md).
+- **Minors and vulnerable adults**: see [`safeguarding-in-comms.md`](../ethics-&-legal/safeguarding-in-comms.md).
 - **Donor data** is sacred: opt-in, clear unsubscribe, honest about sharing (usually: do not share).
 - **Tax receipts / regulations**: follow the charity law in your jurisdiction.
-- **AI use**: disclose synthetic imagery or substantially AI-written text—see [`ai-disclosure-and-policy.md`](../ethics-safeguarding-legal/ai-disclosure-and-policy.md).
+- **AI use**: disclose synthetic imagery or substantially AI-written text—see [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md).
 
 ## 10. What not to do
 

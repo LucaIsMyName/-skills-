@@ -103,7 +103,7 @@ Aus Inputs—Interviews, Studien, Berichte, Webseiten—einen **sicheren, gut be
 
 - KI kann **clustern**, **Abschnitte entwerfen**, **Lücken finden**—alles als Vorschlag behandeln.
 - **Nie** KI-Zitate, Seitenzahlen, Zitationen ohne Quellenabgleich übernehmen.
-- Prompts und Outputs bei den Projektdateien behalten (siehe [`ki-offenlegung-und-richtlinien.md`](../ethik-schutz-recht/ki-offenlegung-und-richtlinien.md)).
+- Prompts und Outputs bei den Projektdateien behalten (siehe [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md)).
 - Die Synthese ist **deine**; die KI ist Gerüst.
 
 ## 11. Warnsignale

@@ -123,4 +123,4 @@ Data protection in comms is not a paperwork ritual—it is how you treat the peo
 
 ---
 
-German version: [`datenschutz-in-der-kommunikation.md`](../../de/ethik-schutz-recht/datenschutz-in-der-kommunikation.md)
+German version: [`datenschutz-in-der-kommunikation.md`](../../de/ethik-&-recht/datenschutz-in-der-kommunikation.md)

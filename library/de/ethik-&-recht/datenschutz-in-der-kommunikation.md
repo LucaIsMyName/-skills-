@@ -123,4 +123,4 @@ Datenschutz in der Kommunikation ist kein Papier-Ritual—es ist der Umgang mit 
 
 ---
 
-English version: [`data-protection-for-comms.md`](../../en/ethics-safeguarding-legal/data-protection-for-comms.md)
+English version: [`data-protection-for-comms.md`](../../en/ethics-&-legal/data-protection-for-comms.md)

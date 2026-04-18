@@ -188,7 +188,7 @@ Topic-specific guides. Each explains how you want a particular kind of task hand
 | `respectful-language.md` | Respectful, dignity-centered language |
 | `social-short-form.md` | Short social posts (LinkedIn, Meta, Threads, Bluesky) |
 | `speeches-and-talks.md` | Scripting and delivering talks: one takeaway, three beats, on time |
-| `storytelling.md` | Marie Lampert storytelling: structure, five elements, dramaturgy |
+| `storytelling.md` | structure, five elements, dramaturgy |
 | `volunteer-comms.md` | Volunteer recruitment, onboarding, ongoing comms, recognition |
 | `workshop-facilitation.md` | Planning and running workshops: safety, inclusion, capture, follow-up |
 | `writing-a-story.md` | Human-centered nonprofit / social-sector storytelling |
@@ -246,7 +246,7 @@ Topic-specific guides. Each explains how you want a particular kind of task hand
 | `social-kurzformate.md` | Kurzformate sozialer Medien |
 | `spendenaufrufe.md` | Spender:innen-Ansprache: Eine Person, ein Bedarf, ein Appell |
 | `stories-schreiben.md` | Menschenzentrierte Geschichten für NGOs und soziale Organisationen |
-| `storytelling.md` | Storytelling nach Marie Lampert (Struktur, Dramaturgie) |
+| `storytelling.md` | Storytelling (Struktur, Dramaturgie) |
 
 ---
 

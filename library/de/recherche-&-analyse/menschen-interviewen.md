@@ -1,6 +1,6 @@
 # Menschen interviewen (Recherche)
 
-**Geltungsbereich:** Gilt für **Recherche- und Reportage-Interviews**—Fachpersonen, Praktiker:innen, Betroffene, Amtsträger:innen—um Material für Stories, Briefs, Berichte zu sammeln. Nicht Medientraining für Sprecher:innen (siehe [`interview-vorbereitung.md`](../sprache-&-kommunikation/interview-vorbereitung.md)). Ergänzt [`stories-schreiben.md`](../sprache-&-kommunikation/stories-schreiben.md), [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md), [`kinder-und-betroffenenschutz.md`](../ethik-schutz-recht/kinder-und-betroffenenschutz.md), [`datenschutz-in-der-kommunikation.md`](../ethik-schutz-recht/datenschutz-in-der-kommunikation.md).
+**Geltungsbereich:** Gilt für **Recherche- und Reportage-Interviews**—Fachpersonen, Praktiker:innen, Betroffene, Amtsträger:innen—um Material für Stories, Briefs, Berichte zu sammeln. Nicht Medientraining für Sprecher:innen (siehe [`interview-vorbereitung.md`](../sprache-&-kommunikation/interview-vorbereitung.md)). Ergänzt [`stories-schreiben.md`](../sprache-&-kommunikation/stories-schreiben.md), [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md), [`kinder-und-betroffenenschutz.md`](../ethik-&-recht/kinder-und-betroffenenschutz.md), [`datenschutz-in-der-kommunikation.md`](../ethik-&-recht/datenschutz-in-der-kommunikation.md).
 
 ## Exzerpt
 
@@ -42,7 +42,7 @@ Interviews so führen, dass sie **genaues, lebendiges, nutzbares Material** lief
 - **Themenkarte** mit 8–12 möglichen Fragen; thematisch gruppieren.
 - **Muss/Nice** trennen: harte Fakten vs. Textur.
 - **Vorab schicken**: Zweck, Org, mögliche Themen, Logistik, Einwilligungsformular.
-- **Einwilligung**: einfache Sprache, spezifisch; siehe [`bild-und-zitatfreigaben.md`](../ethik-schutz-recht/bild-und-zitatfreigaben.md).
+- **Einwilligung**: einfache Sprache, spezifisch; siehe [`bild-und-zitatfreigaben.md`](../ethik-&-recht/bild-und-zitatfreigaben.md).
 - **Sicherheitscheck** bei sensiblen Themen (Begleitung, ruhiger Ort, Tageszeit).
 
 ## 2. Raum öffnen
@@ -77,7 +77,7 @@ Interviews so führen, dass sie **genaues, lebendiges, nutzbares Material** lief
 - **Nicht wühlen** ohne verabredeten Zweck und klare Wahl.
 - **Anzeichen** von Belastung erkennen; pausieren, Wasser anbieten, abbrechen anbieten.
 - **Keine Versprechen** (Recht, Finanzen, Politik) als Gegenleistung.
-- Ergänzt [`kinder-und-betroffenenschutz.md`](../ethik-schutz-recht/kinder-und-betroffenenschutz.md).
+- Ergänzt [`kinder-und-betroffenenschutz.md`](../ethik-&-recht/kinder-und-betroffenenschutz.md).
 
 ## 6. Aufzeichnung und Notizen
 

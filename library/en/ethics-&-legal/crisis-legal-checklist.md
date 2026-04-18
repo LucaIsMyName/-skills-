@@ -126,4 +126,4 @@ In a crisis, comms is **one of several disciplines** sharing the pen. Slow, accu
 
 ---
 
-German version: [`krise-rechts-checkliste.md`](../../de/ethik-schutz-recht/krise-rechts-checkliste.md)
+German version: [`krise-rechts-checkliste.md`](../../de/ethik-&-recht/krise-rechts-checkliste.md)

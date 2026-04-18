@@ -1,6 +1,6 @@
 # AI disclosure and policy
 
-**Scope:** Applies to **using AI in communications work**—drafting, translating, editing, generating images, summarising, transcribing. Not a replacement for an org-wide AI policy or legal review. Pair with [`data-protection-for-comms.md`](data-protection-for-comms.md), [`copyright-and-usage-rights.md`](copyright-and-usage-rights.md), and [`respectful-language.md`](../language-&-communication/respectful-language.md).
+**Scope:** Applies to **using AI in communications work**—drafting, translating, editing, generating images, summarising, transcribing. Not a replacement for an org-wide AI policy or legal review. Pair with [`prompting-basics.md`](../ai-&-prompting/prompting-basics.md), [`using-ai-for-comms.md`](../ai-&-prompting/using-ai-for-comms.md), [`data-protection-for-comms.md`](data-protection-for-comms.md), [`copyright-and-usage-rights.md`](copyright-and-usage-rights.md), and [`respectful-language.md`](../language-&-communication/respectful-language.md).
 
 ## Excerpt 
 
@@ -124,4 +124,4 @@ The question is never "did you use AI". It is "**were you honest about it, and d
 
 ---
 
-German version: [`ki-offenlegung-und-richtlinien.md`](../../de/ethik-schutz-recht/ki-offenlegung-und-richtlinien.md)
+German version: [`ki-offenlegung-und-richtlinien.md`](../../de/ethik-&-recht/ki-offenlegung-und-richtlinien.md)

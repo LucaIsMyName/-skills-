@@ -1,6 +1,6 @@
 # Kommunikation mit Freiwilligen
 
-**Geltungsbereich:** Gilt für **Gewinnung, Onboarding, laufende Kommunikation und Würdigung** von Freiwilligen in NGOs und sozialen Organisationen—E-Mail, Web, Chat, Plakate und Veranstaltungen. Keine arbeitsrechtlichen Anstellungsverträge, keine vertiefende Freiwilligenrecht-Beratung (juristische Klärung einholen). Ergänzend zu [`newsletter-und-e-mail.md`](newsletter-und-e-mail.md), [`respektvolle-sprache.md`](respektvolle-sprache.md) und [`datenschutz-in-der-kommunikation.md`](../ethik-schutz-recht/datenschutz-in-der-kommunikation.md).
+**Geltungsbereich:** Gilt für **Gewinnung, Onboarding, laufende Kommunikation und Würdigung** von Freiwilligen in NGOs und sozialen Organisationen—E-Mail, Web, Chat, Plakate und Veranstaltungen. Keine arbeitsrechtlichen Anstellungsverträge, keine vertiefende Freiwilligenrecht-Beratung (juristische Klärung einholen). Ergänzend zu [`freiwilligen-koordination.md`](../projekt-&-operationen/freiwilligen-koordination.md), [`newsletter-und-e-mail.md`](newsletter-und-e-mail.md), [`respektvolle-sprache.md`](respektvolle-sprache.md) und [`datenschutz-in-der-kommunikation.md`](../ethik-&-recht/datenschutz-in-der-kommunikation.md).
 
 ## Exzerpt
 
@@ -19,7 +19,7 @@
 - **Segment**: Interessierte, neue, aktive, ausscheidende, Alumni?
 - **Rolle oder Programm**; Anforderungen; Zeiterwartung; Schutzstufe.
 - **Kanal**: Web, Social, SMS, Skript vor Ort, PDF?
-- **Einwilligung** für Fotos und Zitate; Minderjährige nach Regeln für Erziehungsberechtigte—siehe [`kinder-und-betroffenenschutz.md`](../ethik-schutz-recht/kinder-und-betroffenenschutz.md).
+- **Einwilligung** für Fotos und Zitate; Minderjährige nach Regeln für Erziehungsberechtigte—siehe [`kinder-und-betroffenenschutz.md`](../ethik-&-recht/kinder-und-betroffenenschutz.md) und [`freiwilligen-koordination.md`](../projekt-&-operationen/freiwilligen-koordination.md).
 
 ### Meta
 
@@ -70,7 +70,7 @@ Menschen **die passende Rolle finden**, **gut starten**, **informiert bleiben** 
 ## 5. Daten und Datenschutz
 
 - Nur erfassen, was für Planung und Schutz nötig ist; Speicherung nach euren Regeln.
-- Abmeldung und Auskunftsrechte: siehe [`datenschutz-in-der-kommunikation.md`](../ethik-schutz-recht/datenschutz-in-der-kommunikation.md).
+- Abmeldung und Auskunftsrechte: siehe [`datenschutz-in-der-kommunikation.md`](../ethik-&-recht/datenschutz-in-der-kommunikation.md).
 
 ---
 

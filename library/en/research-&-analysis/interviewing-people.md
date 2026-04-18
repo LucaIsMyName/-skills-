@@ -1,6 +1,6 @@
 # Interviewing people (research)
 
-**Scope:** Applies to **research and reporting interviews**—subject-matter experts, practitioners, affected people, officials—to gather information for stories, briefs, and reports. Not media training for spokespeople (see [`interview-preparation.md`](../language-&-communication/interview-preparation.md)). Pair with [`writing-a-story.md`](../language-&-communication/writing-a-story.md), [`respectful-language.md`](../language-&-communication/respectful-language.md), [`safeguarding-in-comms.md`](../ethics-safeguarding-legal/safeguarding-in-comms.md), [`data-protection-for-comms.md`](../ethics-safeguarding-legal/data-protection-for-comms.md).
+**Scope:** Applies to **research and reporting interviews**—subject-matter experts, practitioners, affected people, officials—to gather information for stories, briefs, and reports. Not media training for spokespeople (see [`interview-preparation.md`](../language-&-communication/interview-preparation.md)). Pair with [`writing-a-story.md`](../language-&-communication/writing-a-story.md), [`respectful-language.md`](../language-&-communication/respectful-language.md), [`safeguarding-in-comms.md`](../ethics-&-legal/safeguarding-in-comms.md), [`data-protection-for-comms.md`](../ethics-&-legal/data-protection-for-comms.md).
 
 ## Excerpt 
 
@@ -42,7 +42,7 @@ Conduct interviews that collect **accurate, textured, usable** material while tr
 - **Draft** a topic map with 8–12 potential questions; group by theme.
 - **Define** non-negotiable facts you need, and "nice to have" texture.
 - **Send in advance**: purpose, your org, likely topics, logistics, consent form.
-- **Consent**: plain language, specific to use; see [`image-and-quote-releases.md`](../ethics-safeguarding-legal/image-and-quote-releases.md).
+- **Consent**: plain language, specific to use; see [`image-and-quote-releases.md`](../ethics-&-legal/image-and-quote-releases.md).
 - **Safety check** for sensitive topics (support person, quiet space, time of day).
 
 ## 2. Opening the room
@@ -77,7 +77,7 @@ Avoid **double-barrelled** ("What did you feel and what did you do?") and **lead
 - **Do not dig** into trauma without an agreed purpose and the person's clear choice.
 - Notice **signs** of distress; pause, offer water, offer to stop.
 - **Never promise** outcomes (legal, financial, policy) in exchange for participation.
-- Pair with [`safeguarding-in-comms.md`](../ethics-safeguarding-legal/safeguarding-in-comms.md).
+- Pair with [`safeguarding-in-comms.md`](../ethics-&-legal/safeguarding-in-comms.md).
 
 ## 6. Recording and notes
 

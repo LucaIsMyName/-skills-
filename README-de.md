@@ -194,7 +194,7 @@ Themenbezogene Leitfäden. Jede Datei beschreibt, wie du eine bestimmte Art von 
 | `respectful-language.md` | Respektvolle, würdezentrierte Sprache |
 | `social-short-form.md` | Kurze Social-Posts (LinkedIn, Meta, Threads, Bluesky) |
 | `speeches-and-talks.md` | Reden entwerfen und halten: eine Kernbotschaft, drei Beats |
-| `storytelling.md` | Marie Lampert: Struktur, fünf Elemente, Dramaturgie |
+| `storytelling.md` | Struktur, fünf Elemente, Dramaturgie |
 | `volunteer-comms.md` | Freiwillige: Gewinnung, Onboarding, laufende Kommunikation, Würdigung |
 | `workshop-facilitation.md` | Workshops planen und leiten: Sicherheit, Inklusion, Protokoll, Follow-up |
 | `writing-a-story.md` | Menschenzentrierte Geschichten für NGOs und soziale Organisationen |
@@ -255,7 +255,7 @@ Themenbezogene Leitfäden. Jede Datei beschreibt, wie du eine bestimmte Art von 
 | `social-kurzformate.md` | Kurzformate sozialer Medien |
 | `spendenaufrufe.md` | Spender:innen-Ansprache: Eine Person, ein Bedarf, ein Appell |
 | `stories-schreiben.md` | Menschenzentrierte Geschichten für NGOs und soziale Organisationen |
-| `storytelling.md` | Storytelling nach Marie Lampert (Struktur, Dramaturgie) |
+| `storytelling.md` | Storytelling (Struktur, Dramaturgie) |
 | `web-inhalte-und-findbarkeit.md` | Website-Inhalte: Struktur, Überschriften, Meta, interne Verlinkung, Findbarkeit |
 | `workshops-und-moderation.md` | Workshops planen und leiten: Sicherheit, Inklusion, Protokoll, Follow-up |
 

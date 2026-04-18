@@ -71,7 +71,7 @@ An die Vorlage anpassen, meist aber enthalten:
 
 - **Sachlich-professionell**, nicht werblich. Superlative nur, wenn belegbar.
 - **Menschenzentrierte Sprache** für Begünstigte; siehe [`respektvolle-sprache.md`](respektvolle-sprache.md).
-- **Datenschutz**: personenbezogene Daten im Antrag nur wenn nötig; siehe [`datenschutz-in-der-kommunikation.md`](../ethik-schutz-recht/datenschutz-in-der-kommunikation.md).
+- **Datenschutz**: personenbezogene Daten im Antrag nur wenn nötig; siehe [`datenschutz-in-der-kommunikation.md`](../ethik-&-recht/datenschutz-in-der-kommunikation.md).
 
 ---
 

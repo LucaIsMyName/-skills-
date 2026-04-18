@@ -106,7 +106,7 @@ For every source that might make it into the deliverable:
 
 - **Paywalled** research: respect the paywall; use institutional access or the author's preprint.
 - **Copyright**: quote briefly with attribution; never wholesale-copy.
-- **Personal data**: no scraping personal details from forums; see [`data-protection-for-comms.md`](../ethics-safeguarding-legal/data-protection-for-comms.md).
+- **Personal data**: no scraping personal details from forums; see [`data-protection-for-comms.md`](../ethics-&-legal/data-protection-for-comms.md).
 - **AI search tools**: verify every claim from the tool's output; treat them as draft leads, never as sources.
 
 ## 10. Red flags

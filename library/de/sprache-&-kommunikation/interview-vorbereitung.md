@@ -117,7 +117,7 @@ Frage kurz anerkennen, damit die Brücke nicht ausweichend wirkt. Wenn keine Ant
 ## 8. Krisen-Vorbereitung
 
 - Ergänzt [`krise-und-sensible-themen.md`](krise-und-sensible-themen.md).
-- Mit der Rechtslinie abgestimmte **Leitsätze** kennen (siehe `krise-rechts-checkliste.md` in ethik-schutz-recht).
+- Mit der Rechtslinie abgestimmte **Leitsätze** kennen (siehe `krise-rechts-checkliste.md` in ethik-&-recht).
 - Anteilnahme zuerst: „Meine Gedanken sind bei den Betroffenen."
 - Fakten: nur Gesichertes.
 - Nächster Schritt: was tut die Org wann, nächstes Update.

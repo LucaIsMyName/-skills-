@@ -105,7 +105,7 @@ A reliable 150–300 word template:
 - AI can **draft** a summary; you are responsible for the final version.
 - Verify **every claim, number, quote, and citation** against the source yourself.
 - Watch for **fabricated** page numbers and authors—frequent in AI output.
-- Keep **prompt and output** with project notes; see [`ai-disclosure-and-policy.md`](../ethics-safeguarding-legal/ai-disclosure-and-policy.md).
+- Keep **prompt and output** with project notes; see [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md).
 
 ## 11. Red flags
 

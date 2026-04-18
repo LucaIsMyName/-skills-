@@ -70,7 +70,7 @@ Die Site **verständlich, navigierbar und in Suchergebnissen ehrlich** machen—
 ## 5. Vertrauen und Compliance
 
 - **Spendenseiten**: klare Mittelverwendung; regulatorische Hinweise nach Rechtslage eures Standorts.
-- **Datenschutz**: Link zur vollständigen Erklärung nahe jeder Datenerhebung—siehe [`datenschutz-in-der-kommunikation.md`](../ethik-schutz-recht/datenschutz-in-der-kommunikation.md).
+- **Datenschutz**: Link zur vollständigen Erklärung nahe jeder Datenerhebung—siehe [`datenschutz-in-der-kommunikation.md`](../ethik-&-recht/datenschutz-in-der-kommunikation.md).
 
 ---
 

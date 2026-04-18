@@ -1,6 +1,6 @@
 # Bild- und Zitatfreigaben
 
-**Geltungsbereich:** Gilt für **Einwilligungen** zu Foto, Video, Audio und Zitaten erkennbarer Personen in der Kommunikation. Ergänzt [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`kinder-und-betroffenenschutz.md`](kinder-und-betroffenenschutz.md); redaktionell siehe [`stories-schreiben.md`](../sprache-&-kommunikation/stories-schreiben.md).
+**Geltungsbereich:** Gilt für **Einwilligungen** zu Foto, Video, Audio und Zitaten erkennbarer Personen in der Kommunikation. Ergänzt [`fotografie-fuer-ngos.md`](../medien-&-produktion/fotografie-fuer-ngos.md), [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`kinder-und-betroffenenschutz.md`](kinder-und-betroffenenschutz.md); redaktionell siehe [`stories-schreiben.md`](../sprache-&-kommunikation/stories-schreiben.md).
 
 ## Exzerpt
 
@@ -124,4 +124,4 @@ Eine Freigabe ist **ein Versprechen, das man halten kann**—kein juristischer S
 
 ---
 
-English version: [`image-and-quote-releases.md`](../../en/ethics-safeguarding-legal/image-and-quote-releases.md)
+English version: [`image-and-quote-releases.md`](../../en/ethics-&-legal/image-and-quote-releases.md)

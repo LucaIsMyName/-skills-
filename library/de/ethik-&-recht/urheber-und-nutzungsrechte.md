@@ -121,4 +121,4 @@ Saubere Rechtepraxis ist **bewusst langweilig**: Lizenz lesen, Urheber:in nennen
 
 ---
 
-English version: [`copyright-and-usage-rights.md`](../../en/ethics-safeguarding-legal/copyright-and-usage-rights.md)
+English version: [`copyright-and-usage-rights.md`](../../en/ethics-&-legal/copyright-and-usage-rights.md)

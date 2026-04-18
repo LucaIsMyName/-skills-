@@ -1,6 +1,6 @@
 # Respectful Language
 
-**Scope:** Applies to **respectful wording** about people and social issues in communications; not legal compliance drafting, clinical diagnosis, or HR case decisions.
+**Scope:** Applies to **respectful wording** about people and social issues in communications; not legal compliance drafting, clinical diagnosis, or HR case decisions. Pair with [`content-design-and-microcopy.md`](../design/content-design-and-microcopy.md) for UI microcopy and [`tone-of-voice-and-brand-voice.md`](tone-of-voice-and-brand-voice.md) for brand voice.
 
 ## Excerpt 
 
@@ -292,3 +292,5 @@ What matters:
 - [APA Style — biased language](https://apastyle.apa.org/style-grammar-guidelines/bias-free-language) — careful wording around age, disability, gender, and race–ethnicity
 
 ---
+
+German version: [`respektvolle-sprache.md`](../../de/sprache-&-kommunikation/respektvolle-sprache.md)

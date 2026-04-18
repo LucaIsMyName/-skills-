@@ -124,4 +124,4 @@ Schutz in Comms heißt: **die Person geht aus der Veröffentlichung besser herau
 
 ---
 
-English version: [`safeguarding-in-comms.md`](../../en/ethics-safeguarding-legal/safeguarding-in-comms.md)
+English version: [`safeguarding-in-comms.md`](../../en/ethics-&-legal/safeguarding-in-comms.md)

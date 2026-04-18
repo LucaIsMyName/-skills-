@@ -18,7 +18,7 @@ Before writing, assemble **verified figures, date ranges, and approval rules** f
 
 - **Reporting period** and comparison baseline (year-on-year, vs. plan).
 - **Official metrics** from CRM, finance, or monitoring tools—no rounding-up for narrative effect.
-- **Stories and quotes**: consent status; see [`image-and-quote-releases.md`](../ethics-safeguarding-legal/image-and-quote-releases.md).
+- **Stories and quotes**: consent status; see [`image-and-quote-releases.md`](../ethics-&-legal/image-and-quote-releases.md).
 - **Audience** (board, members, web, PDF) and **length** constraints.
 - **What went wrong** or was delayed—material facts, not spin.
 
@@ -67,7 +67,7 @@ Tell a **true, understandable story** of what changed because of your work, back
 
 - Cherry-picking only good months or programmes without saying so.
 - “Impact” claims that confuse activity counts with life outcomes without evidence.
-- Stock photos that misrepresent participants; see [`safeguarding-in-comms.md`](../ethics-safeguarding-legal/safeguarding-in-comms.md).
+- Stock photos that misrepresent participants; see [`safeguarding-in-comms.md`](../ethics-&-legal/safeguarding-in-comms.md).
 
 ---
 

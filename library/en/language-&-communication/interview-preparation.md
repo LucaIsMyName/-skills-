@@ -117,7 +117,7 @@ Acknowledge the question so the bridge doesn't feel evasive. If you cannot answe
 ## 8. Crisis-specific prep
 
 - Pair with [`crisis-and-sensitive-topics.md`](crisis-and-sensitive-topics.md).
-- Know the **lines** agreed with legal (see `crisis-legal-checklist.md` in ethics-safeguarding-legal).
+- Know the **lines** agreed with legal (see `crisis-legal-checklist.md` in ethics-&-legal).
 - Care first: "My thoughts are with the people affected."
 - Facts: only what is verified.
 - Next step: what the org is doing and when the next update is.

@@ -1,6 +1,6 @@
 # Image and quote releases
 
-**Scope:** Applies to **getting, recording, and respecting permission** to use photos, video, audio, and quotes of identifiable people in communications. Pair with [`data-protection-for-comms.md`](data-protection-for-comms.md) and [`safeguarding-in-comms.md`](safeguarding-in-comms.md); for editorial craft see [`writing-a-story.md`](../language-&-communication/writing-a-story.md).
+**Scope:** Applies to **getting, recording, and respecting permission** to use photos, video, audio, and quotes of identifiable people in communications. Pair with [`photography-for-ngos.md`](../media-&-production/photography-for-ngos.md), [`data-protection-for-comms.md`](data-protection-for-comms.md) and [`safeguarding-in-comms.md`](safeguarding-in-comms.md); for editorial craft see [`writing-a-story.md`](../language-&-communication/writing-a-story.md).
 
 ## Excerpt 
 
@@ -124,4 +124,4 @@ A release is **a promise you can keep**, not a lawyer's shield. If you would not
 
 ---
 
-German version: [`bild-und-zitatfreigaben.md`](../../de/ethik-schutz-recht/bild-und-zitatfreigaben.md)
+German version: [`bild-und-zitatfreigaben.md`](../../de/ethik-&-recht/bild-und-zitatfreigaben.md)
