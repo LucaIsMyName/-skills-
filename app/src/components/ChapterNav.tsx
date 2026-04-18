@@ -29,6 +29,8 @@ function rowDownloadBtnClass(
     'absolute',
     pos,
     'top-1/2 z-[1] -translate-y-1/2',
+    /* Button uses active:translate-y-px which overrides -translate-y-1/2 and makes the icon jump */
+    'active:-translate-y-1/2',
     pad,
     'inline-flex text-zinc-500 transition-opacity duration-150',
     'hover:bg-zinc-200/80 hover:text-zinc-900',
