@@ -15,7 +15,8 @@ export function ChapterIndexPage() {
     if (!lang || !chapter || !index?.chapters.includes(chapter)) return []
     return index.byChapter[chapter] ?? []
   }, [lang, chapter, index])
-  const h1ByPath = useMarkdownH1ByPath(pages)
+  const h1Query = useMarkdownH1ByPath(pages)
+  const h1ByPath = h1Query.labels
 
   if (!lang || !chapter) return null
 
@@ -52,6 +53,14 @@ export function ChapterIndexPage() {
       <p className="mt-1 text-sm text-zinc-600">
         {t.chapterIndexExplainersIn(pages.length)}
       </p>
+      {h1Query.isError ? (
+        <p
+          className="mt-3 rounded-md border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-800"
+          role="status"
+        >
+          {t.chapterIndexLabelsError}
+        </p>
+      ) : null}
       <ol className="mt-8 flex flex-col gap-2">
         {pages.map((p) => (
           <li key={p.slug}>

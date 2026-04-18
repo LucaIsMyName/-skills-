@@ -20,6 +20,8 @@ export type UiCopy = {
   chapterNavZipAria: (chapterTitle: string) => string
   chapterNavMdTitle: string
   chapterNavMdAria: (pageTitle: string) => string
+  chapterNavDownloadError: string
+  chapterNavLabelsError: string
   homeTitle: string
   homeSubtitle: string
   homeLoading: string
@@ -30,6 +32,7 @@ export type UiCopy = {
   chapterIndexLoading: string
   chapterIndexIndexError: string
   chapterIndexRead: string
+  chapterIndexLabelsError: string
   markdownNotInIndex: string
   markdownBackToChapter: string
   markdownLoading: string
@@ -57,6 +60,9 @@ const en: UiCopy = {
   chapterNavZipAria: (chapterTitle) => `Download ${chapterTitle} as ZIP`,
   chapterNavMdTitle: 'Download this page as .md',
   chapterNavMdAria: (pageTitle) => `Download ${pageTitle} as Markdown`,
+  chapterNavDownloadError: 'Download failed. Please try again.',
+  chapterNavLabelsError:
+    'Some page titles could not be preloaded. Slugs are shown as fallback.',
   homeTitle: 'Chapters',
   homeSubtitle: 'Pick a topic to browse explainers.',
   homeLoading: 'Loading chapters…',
@@ -67,12 +73,14 @@ const en: UiCopy = {
   chapterIndexLoading: 'Loading explainers…',
   chapterIndexIndexError: 'Failed to load library index.',
   chapterIndexRead: 'Read',
+  chapterIndexLabelsError:
+    'Some page titles could not be preloaded. Fallback names are shown.',
   markdownNotInIndex: 'This page is not in the library index.',
   markdownBackToChapter: 'Back to chapter',
   markdownLoading: 'Loading…',
   markdownLoadError: 'Failed to load document.',
   markdownRateLimitHint:
-    'GitHub rate limits may apply — try again later or configure a token.',
+    'GitHub rate limits may apply — try again later. Cached content is used when available.',
   exportMarkdown: 'Markdown',
   exportWord: 'Word',
   exportPdf: 'PDF',
@@ -96,6 +104,9 @@ const de: UiCopy = {
   chapterNavZipAria: (chapterTitle) => `${chapterTitle} als ZIP herunterladen`,
   chapterNavMdTitle: 'Diese Seite als .md herunterladen',
   chapterNavMdAria: (pageTitle) => `${pageTitle} als Markdown herunterladen`,
+  chapterNavDownloadError: 'Download fehlgeschlagen. Bitte erneut versuchen.',
+  chapterNavLabelsError:
+    'Einige Seitentitel konnten nicht vorgeladen werden. Slugs werden als Fallback angezeigt.',
   homeTitle: 'Kapitel',
   homeSubtitle: 'Wähle ein Thema, um die Erklärungen zu durchsuchen.',
   homeLoading: 'Kapitel werden geladen…',
@@ -107,12 +118,14 @@ const de: UiCopy = {
   chapterIndexLoading: 'Erklärungen werden geladen…',
   chapterIndexIndexError: 'Bibliotheksindex konnte nicht geladen werden.',
   chapterIndexRead: 'Lesen',
+  chapterIndexLabelsError:
+    'Einige Seitentitel konnten nicht vorgeladen werden. Fallback-Namen werden angezeigt.',
   markdownNotInIndex: 'Diese Seite ist nicht im Bibliotheksindex.',
   markdownBackToChapter: 'Zurück zum Kapitel',
   markdownLoading: 'Wird geladen…',
   markdownLoadError: 'Dokument konnte nicht geladen werden.',
   markdownRateLimitHint:
-    'GitHub-Ratenlimits können gelten — später erneut versuchen oder Token eintragen.',
+    'GitHub-Ratenlimits können gelten — später erneut versuchen. Wenn vorhanden, wird zwischengespeicherter Inhalt genutzt.',
   exportMarkdown: 'Markdown',
   exportWord: 'Word',
   exportPdf: 'PDF',

@@ -5,6 +5,11 @@ import {
   firstMarkdownTitle,
   type ExplainerMeta,
 } from '../lib/github'
+import {
+  getMarkdownCache,
+  githubSourceKey,
+  setMarkdownCache,
+} from '../lib/persistedCache'
 import { queryKeys } from '../queries/keys'
 
 /** Max parallel raw fetches per chapter when resolving sidebar H1 labels. */
@@ -26,17 +31,27 @@ function pathsSignature(pages: ExplainerMeta[]): string {
 export function useMarkdownH1ByPath(pages: ExplainerMeta[]) {
   const queryClient = useQueryClient()
   const sig = useMemo(() => pathsSignature(pages), [pages])
+  const sourceKey = githubSourceKey()
 
   const query = useQuery({
-    queryKey: queryKeys.markdownH1Batch(sig),
+    queryKey: queryKeys.markdownH1Batch(`${sourceKey}:${sig}`),
     queryFn: async () => {
       const map = new Map<string, string | undefined>()
       for (let i = 0; i < pages.length; i += H1_FETCH_CONCURRENCY) {
         const chunk = pages.slice(i, i + H1_FETCH_CONCURRENCY)
         await Promise.all(
           chunk.map(async (p) => {
-            const md = await fetchRawMarkdown(p.path)
-            queryClient.setQueryData(queryKeys.markdown(p.path), md)
+            let md = getMarkdownCache(p.path)
+            if (md === undefined) {
+              try {
+                md = await fetchRawMarkdown(p.path)
+                setMarkdownCache(p.path, md)
+              } catch (error) {
+                md = getMarkdownCache(p.path, { allowExpired: true })
+                if (md === undefined) throw error
+              }
+            }
+            queryClient.setQueryData(queryKeys.markdown(p.path, sourceKey), md)
             const h1 = firstMarkdownTitle(md)
             map.set(p.path, h1?.trim() ? h1 : undefined)
           }),
@@ -49,5 +64,14 @@ export function useMarkdownH1ByPath(pages: ExplainerMeta[]) {
     gcTime: 1000 * 60 * 60,
   })
 
-  return useMemo(() => query.data ?? new Map<string, string | undefined>(), [query.data])
+  const labels = useMemo(
+    () => query.data ?? new Map<string, string | undefined>(),
+    [query.data],
+  )
+
+  return {
+    labels,
+    isError: query.isError,
+    error: query.error,
+  }
 }

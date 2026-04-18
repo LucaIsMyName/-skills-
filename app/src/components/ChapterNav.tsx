@@ -70,20 +70,24 @@ type Props = {
 export function ChapterNav({ lang, index, onPick, ui: t }: Props) {
   const location = useLocation()
   const [downloadBusy, setDownloadBusy] = useState<string | null>(null)
+  const [downloadError, setDownloadError] = useState<string | null>(null)
   const activeChapter = activeChapterId(location.pathname)
   const pagesInActiveChapter = useMemo(() => {
     if (!activeChapter || !index) return []
     return index.byChapter[activeChapter] ?? []
   }, [activeChapter, index])
-  const h1ByPath = useMarkdownH1ByPath(pagesInActiveChapter)
+  const h1Query = useMarkdownH1ByPath(pagesInActiveChapter)
+  const h1ByPath = h1Query.labels
 
   const runDownload = async (key: string, fn: () => Promise<void>) => {
     if (downloadBusy) return
+    setDownloadError(null)
     setDownloadBusy(key)
     try {
       await fn()
     } catch (e) {
       console.error(e)
+      setDownloadError(t.chapterNavDownloadError)
     } finally {
       setDownloadBusy(null)
     }
@@ -109,6 +113,22 @@ export function ChapterNav({ lang, index, onPick, ui: t }: Props) {
 
   return (
     <nav className="flex min-w-0 flex-col gap-1" aria-label={t.chapterNavAria}>
+      {downloadError ? (
+        <p
+          className="mb-1 rounded-md border border-red-200 bg-red-50 px-2 py-1 text-xs text-red-700"
+          role="alert"
+        >
+          {downloadError}
+        </p>
+      ) : null}
+      {h1Query.isError ? (
+        <p
+          className="mb-1 rounded-md border border-amber-200 bg-amber-50 px-2 py-1 text-xs text-amber-800"
+          role="status"
+        >
+          {t.chapterNavLabelsError}
+        </p>
+      ) : null}
       {index.chapters.map((ch) => {
         const pages = index.byChapter[ch] ?? []
         const prefix = `/${lang}/${ch}`

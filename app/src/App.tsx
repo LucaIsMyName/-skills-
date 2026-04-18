@@ -5,11 +5,12 @@ import { ChapterIndexPage } from './pages/ChapterIndexPage'
 import { HomePage } from './pages/HomePage'
 import { MarkdownPage } from './pages/MarkdownPage'
 import { NotFound } from './pages/NotFound'
+import { DevCacheResetButton } from './components/DevCacheResetButton'
 
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      retry: 1,
+      retry: 0,
     },
   },
 })
@@ -27,6 +28,7 @@ export default function App() {
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <DevCacheResetButton />
       </BrowserRouter>
     </QueryClientProvider>
   )
