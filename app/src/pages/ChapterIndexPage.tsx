@@ -1,10 +1,19 @@
+import { useMemo } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { useLibraryIndex } from '../hooks/useLibraryIndex'
+import { useMarkdownH1ByPath } from '../hooks/useMarkdownH1Labels'
 import { formatChapterTitle, humanizeSlug } from '../lib/strings'
 
 export function ChapterIndexPage() {
   const { lang, chapter } = useParams<{ lang: string; chapter: string }>()
   const { data, isLoading, isError, error } = useLibraryIndex()
+
+  const index = data?.byLang.get(lang ?? '')
+  const pages = useMemo(() => {
+    if (!lang || !chapter || !index?.chapters.includes(chapter)) return []
+    return index.byChapter[chapter] ?? []
+  }, [lang, chapter, index])
+  const h1ByPath = useMarkdownH1ByPath(pages)
 
   if (!lang || !chapter) return null
 
@@ -27,14 +36,11 @@ export function ChapterIndexPage() {
     )
   }
 
-  const index = data?.byLang.get(lang)
   if (!index?.chapters.includes(chapter)) {
     const fallback = data?.langs[0]
     if (fallback) return <Navigate to={`/${fallback}`} replace />
     return <Navigate to="/" replace />
   }
-
-  const pages = index.byChapter[chapter] ?? []
 
   return (
     <div>
@@ -52,7 +58,7 @@ export function ChapterIndexPage() {
               className="flex items-center justify-between gap-4 rounded-lg border border-zinc-200 bg-white px-4 py-3 text-left shadow-sm transition hover:border-zinc-300"
             >
               <span className="font-medium text-zinc-900">
-                {humanizeSlug(p.slug)}
+                {h1ByPath.get(p.path) ?? humanizeSlug(p.slug)}
               </span>
               <span className="text-xs font-medium uppercase tracking-wide text-zinc-400">
                 Read

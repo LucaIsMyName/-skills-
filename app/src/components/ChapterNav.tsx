@@ -1,6 +1,14 @@
+import { useMemo } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import type { LangIndex } from '../lib/github'
+import { useMarkdownH1ByPath } from '../hooks/useMarkdownH1Labels'
 import { formatChapterTitle, humanizeSlug } from '../lib/strings'
+
+function activeChapterId(pathname: string): string | null {
+  const parts = pathname.split('/').filter(Boolean)
+  if (parts.length < 2) return null
+  return parts[1] ?? null
+}
 
 type Props = {
   lang: string
@@ -10,6 +18,12 @@ type Props = {
 
 export function ChapterNav({ lang, index, onPick }: Props) {
   const location = useLocation()
+  const activeChapter = activeChapterId(location.pathname)
+  const pagesInActiveChapter = useMemo(() => {
+    if (!activeChapter || !index) return []
+    return index.byChapter[activeChapter] ?? []
+  }, [activeChapter, index])
+  const h1ByPath = useMarkdownH1ByPath(pagesInActiveChapter)
 
   if (!index?.chapters.length) {
     return (
@@ -62,7 +76,7 @@ export function ChapterNav({ lang, index, onPick }: Props) {
                         ].join(' ')
                       }
                     >
-                      {humanizeSlug(p.slug)}
+                      {h1ByPath.get(p.path) ?? humanizeSlug(p.slug)}
                     </NavLink>
                   </li>
                 ))}

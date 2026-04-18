@@ -4,7 +4,7 @@ import type { jsPDF } from 'jspdf'
 export const FONT_FAMILY_SANS = 'Geist Sans'
 export const FONT_FAMILY_MONO = 'JetBrains Mono'
 
-/** Inline stacks for DOM / html2canvas (no relying on CSS variables in detached nodes). */
+/** Inline stacks when assigning `fontFamily` in JS (no relying on CSS variables in detached nodes). */
 export const FONT_STACK_SANS = `'${FONT_FAMILY_SANS}', ui-sans-serif, system-ui, sans-serif`
 export const FONT_STACK_MONO = `'${FONT_FAMILY_MONO}', ui-monospace, monospace`
 
@@ -62,7 +62,7 @@ export function registerFontsOnJsPdf(
   pdf.addFont('JetBrainsMono-Regular.ttf', 'JetBrainsMono', 'normal')
 }
 
-/** Wait for hosted fonts so html2canvas paints correct glyphs. */
+/** Wait for hosted fonts before measuring or rasterizing DOM that uses them. */
 export async function ensureWebFontsReadyForPdf(): Promise<void> {
   await document.fonts.ready
   await Promise.all([

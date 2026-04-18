@@ -1,5 +1,5 @@
 import { Link, useParams } from 'react-router-dom'
-import { useMemo, useRef } from 'react'
+import { useMemo } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeSlug from 'rehype-slug'
@@ -11,7 +11,7 @@ import { firstMarkdownTitle } from '../lib/github'
 import {
   downloadDocx,
   downloadMarkdownFile,
-  downloadPdfFromMarkdownElement,
+  downloadPdfFromMarkdown,
 } from '../lib/exports'
 
 export function MarkdownPage() {
@@ -21,8 +21,6 @@ export function MarkdownPage() {
     page: string
   }>()
   const { data: lib } = useLibraryIndex()
-  const bodyRef = useRef<HTMLDivElement>(null)
-
   const path = useMemo(() => {
     if (!lang || !chapter || !page || !lib) return undefined
     const idx = lib.byLang.get(lang)
@@ -95,6 +93,8 @@ export function MarkdownPage() {
 
   const displayTitle = title ?? page
   const baseName = `${chapter}-${page}`
+  /** Avoid duplicate h1 when the MD body already opens with `# …` (typical case). */
+  const showFallbackTitle = title === undefined
 
   return (
     <article>
@@ -106,9 +106,11 @@ export function MarkdownPage() {
           >
             ← {chapter.replace(/-/g, ' ')}
           </Link>
-          <h1 className="mt-2 text-2xl font-semibold tracking-tight text-zinc-900">
-            {displayTitle}
-          </h1>
+          {showFallbackTitle ? (
+            <h1 className="mt-2 text-2xl font-semibold tracking-tight text-zinc-900">
+              {displayTitle}
+            </h1>
+          ) : null}
         </div>
         <div className="flex flex-wrap gap-2">
           <button
@@ -128,26 +130,20 @@ export function MarkdownPage() {
           <button
             type="button"
             className="rounded-lg border border-zinc-200 bg-zinc-800 px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-white shadow-sm hover:bg-zinc-900"
-            onClick={() => {
-              if (bodyRef.current) {
-                void downloadPdfFromMarkdownElement(
-                  bodyRef.current,
-                  `${baseName}.pdf`,
-                  displayTitle,
-                  md,
-                )
-              }
-            }}
+            onClick={() =>
+              void downloadPdfFromMarkdown(
+                md,
+                displayTitle,
+                `${baseName}.pdf`,
+              )
+            }
           >
             PDF
           </button>
         </div>
       </div>
 
-      <div
-        ref={bodyRef}
-        className="prose prose-zinc max-w-none prose-headings:scroll-mt-24 prose-a:text-zinc-800 prose-code:font-mono prose-pre:font-mono"
-      >
+      <div className="prose prose-zinc max-w-none prose-headings:scroll-mt-24 prose-a:text-zinc-800 prose-code:font-mono prose-pre:font-mono">
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
           rehypePlugins={[rehypeSlug]}
