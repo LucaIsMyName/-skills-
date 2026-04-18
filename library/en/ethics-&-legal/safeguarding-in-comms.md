@@ -1,6 +1,6 @@
 # Safeguarding in comms
 
-**Scope:** Applies to **communications decisions involving children, young people, and adults at risk** (clients, residents, patients, survivors, people in crisis). Not a replacement for your organisation's full safeguarding policy. Pair with [`data-protection-for-comms.md`](data-protection-for-comms.md), [`image-and-quote-releases.md`](image-and-quote-releases.md), and [`respectful-language.md`](../language-and-communication/respectful-language.md).
+**Scope:** Applies to **communications decisions involving children, young people, and adults at risk** (clients, residents, patients, survivors, people in crisis). Not a replacement for your organisation's full safeguarding policy. Pair with [`data-protection-for-comms.md`](data-protection-for-comms.md), [`image-and-quote-releases.md`](image-and-quote-releases.md), and [`respectful-language.md`](../language-&-communication/respectful-language.md).
 
 ## Excerpt 
 
@@ -51,7 +51,7 @@ Give comms work a clear safeguarding floor so stories about real people **do not
 
 ## 3. Consent that holds up
 
-- **Plain language** explanation of what will be published, where, and for how long—see [`easy-read-english.md`](../language-and-communication/easy-read-english.md).
+- **Plain language** explanation of what will be published, where, and for how long—see [`easy-read-english.md`](../language-&-communication/easy-read-english.md).
 - **Time and space** to decline; not in the middle of a crisis moment.
 - **Guardian consent + child assent** for minors; never just the guardian.
 - **Support person / advocate** present for vulnerable adults where possible.

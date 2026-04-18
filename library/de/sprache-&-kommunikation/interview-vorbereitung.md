@@ -151,4 +151,4 @@ Ein gutes Interview ist kein **Gewinnen**—es ist **beenden, und das Publikum w
 
 ---
 
-English version: [`interview-preparation.md`](../../en/language-and-communication/interview-preparation.md)
+English version: [`interview-preparation.md`](../../en/language-&-communication/interview-preparation.md)

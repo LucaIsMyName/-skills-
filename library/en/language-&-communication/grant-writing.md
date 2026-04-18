@@ -1,6 +1,6 @@
 # Grant writing
 
-**Scope:** Applies to **formal grant applications, project outlines, and funding proposals** for nonprofits and social-sector organisations—EU, national, foundation, or institutional calls. Not legal review of grant contracts, not major-donor cultivation (see [`fundraising-appeals.md`](fundraising-appeals.md)), not full financial modelling by an accountant. Pair with [`literature-summarising.md`](../research-and-analysis/literature-summarising.md), [`desk-research.md`](../research-and-analysis/desk-research.md), and [`writing-a-story.md`](writing-a-story.md) for narrative sections.
+**Scope:** Applies to **formal grant applications, project outlines, and funding proposals** for nonprofits and social-sector organisations—EU, national, foundation, or institutional calls. Not legal review of grant contracts, not major-donor cultivation (see [`fundraising-appeals.md`](fundraising-appeals.md)), not full financial modelling by an accountant. Pair with [`literature-summarising.md`](../research-&-analysis/literature-summarising.md), [`desk-research.md`](../research-&-analysis/desk-research.md), and [`writing-a-story.md`](writing-a-story.md) for narrative sections.
 
 ## Excerpt 
 
@@ -48,7 +48,7 @@ Produce proposals that are **eligible, complete, and honest**—clear about what
 Adapt to the template, but most proposals include:
 
 1. **Summary** — problem, objective, approach, expected change (often character-limited).
-2. **Context / need** — evidence-based; cite sources; see [`source-evaluation-and-fact-checking.md`](../research-and-analysis/source-evaluation-and-fact-checking.md).
+2. **Context / need** — evidence-based; cite sources; see [`source-evaluation-and-fact-checking.md`](../research-&-analysis/source-evaluation-and-fact-checking.md).
 3. **Objectives and outcomes** — SMART where the call expects it; distinguish outputs from outcomes.
 4. **Methodology / activities** — what you will do, when, with whom; realistic workload.
 5. **Partnership** — roles, contributions, letters of support only if real and requested.
@@ -107,4 +107,4 @@ A strong grant application is **a precise answer to a precise question**—not a
 
 ---
 
-German version: [`foerderantraege-und-projektskizzen.md`](../../de/sprache-und-kommunikation/foerderantraege-und-projektskizzen.md)
+German version: [`foerderantraege-und-projektskizzen.md`](../../de/sprache-&-kommunikation/foerderantraege-und-projektskizzen.md)

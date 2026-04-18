@@ -95,4 +95,4 @@ A trustworthy nonprofit site **helps the right people find the right page in one
 
 ---
 
-German version: [`web-inhalte-und-findbarkeit.md`](../../de/sprache-und-kommunikation/web-inhalte-und-findbarkeit.md)
+German version: [`web-inhalte-und-findbarkeit.md`](../../de/sprache-&-kommunikation/web-inhalte-und-findbarkeit.md)

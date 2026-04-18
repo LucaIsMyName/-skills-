@@ -146,4 +146,4 @@ A good talk is **a gift of attention given back to the audience as clarity**. Kn
 
 ---
 
-German version: [`reden-und-vortraege.md`](../../de/sprache-und-kommunikation/reden-und-vortraege.md)
+German version: [`reden-und-vortraege.md`](../../de/sprache-&-kommunikation/reden-und-vortraege.md)

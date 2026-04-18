@@ -1,6 +1,6 @@
 # Accessibility in code
 
-**Scope:** Applies to **web UI code** (HTML, CSS, JS/TS, React)—the engineering side of accessibility. Companion to [`accessibility-for-comms.md`](../language-and-communication/accessibility-for-comms.md) (copy, image descriptions, captions) and [`designing-good-interfaces.md`](../design/designing-good-interfaces.md).
+**Scope:** Applies to **web UI code** (HTML, CSS, JS/TS, React)—the engineering side of accessibility. Companion to [`accessibility-for-comms.md`](../language-&-communication/accessibility-for-comms.md) (copy, image descriptions, captions) and [`designing-good-interfaces.md`](../design/designing-good-interfaces.md).
 
 ## Excerpt 
 

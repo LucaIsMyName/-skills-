@@ -128,4 +128,4 @@ Gute Recherche wird gutes Schreiben durch **atomare Notizen und ehrliche Synthes
 
 ---
 
-English version: [`notes-and-synthesis.md`](../../en/research-and-analysis/notes-and-synthesis.md)
+English version: [`notes-and-synthesis.md`](../../en/research-&-analysis/notes-and-synthesis.md)

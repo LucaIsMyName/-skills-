@@ -139,4 +139,4 @@ Zahlen sind **Kurzform von Evidenz**—sie helfen nur, wenn die Kurzform zur Sac
 
 ---
 
-English version: [`reading-statistics-plainly.md`](../../en/research-and-analysis/reading-statistics-plainly.md)
+English version: [`reading-statistics-plainly.md`](../../en/research-&-analysis/reading-statistics-plainly.md)

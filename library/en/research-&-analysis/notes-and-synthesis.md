@@ -128,4 +128,4 @@ Good research becomes good writing through **atomic notes and honest synthesis**
 
 ---
 
-German version: [`notizen-und-synthese.md`](../../de/recherche-und-analyse/notizen-und-synthese.md)
+German version: [`notizen-und-synthese.md`](../../de/recherche-&-analyse/notizen-und-synthese.md)

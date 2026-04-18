@@ -82,7 +82,7 @@ A reliable 150–300 word template:
 
 ## 7. Tone and register
 
-- Match the reader, not the author. A peer-reviewed paper written for scientists still needs plain-language summaries for a general audience—see [`easy-read-english.md`](../language-and-communication/easy-read-english.md).
+- Match the reader, not the author. A peer-reviewed paper written for scientists still needs plain-language summaries for a general audience—see [`easy-read-english.md`](../language-&-communication/easy-read-english.md).
 - **Do not sharpen claims** to make them more quotable. Softening ("according to the authors") is often closer to the truth than a bare assertion.
 - **Do not soften** uncomfortable findings either. Faithfulness cuts both ways.
 
@@ -129,4 +129,4 @@ A good summary is **shorter, not bolder**. Preserve what the source actually cla
 
 ---
 
-German version: [`literatur-zusammenfassen.md`](../../de/recherche-und-analyse/literatur-zusammenfassen.md)
+German version: [`literatur-zusammenfassen.md`](../../de/recherche-&-analyse/literatur-zusammenfassen.md)

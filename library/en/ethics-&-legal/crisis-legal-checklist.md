@@ -1,6 +1,6 @@
 # Crisis legal checklist
 
-**Scope:** Applies to **legal and rights-aware steps during a communications crisis** (accusation, incident, bad press, viral post, safeguarding event, data breach). Not a replacement for a lawyer on an active case. Pair with [`crisis-and-sensitive-topics.md`](../language-and-communication/crisis-and-sensitive-topics.md), [`data-protection-for-comms.md`](data-protection-for-comms.md), and [`safeguarding-in-comms.md`](safeguarding-in-comms.md).
+**Scope:** Applies to **legal and rights-aware steps during a communications crisis** (accusation, incident, bad press, viral post, safeguarding event, data breach). Not a replacement for a lawyer on an active case. Pair with [`crisis-and-sensitive-topics.md`](../language-&-communication/crisis-and-sensitive-topics.md), [`data-protection-for-comms.md`](data-protection-for-comms.md), and [`safeguarding-in-comms.md`](safeguarding-in-comms.md).
 
 ## Excerpt 
 
@@ -47,7 +47,7 @@ Add a **legal and rights layer** to crisis comms so statements are honest, compl
 
 - [ ] Convene a **small incident group** (leadership, legal, comms, safeguarding, HR as relevant).
 - [ ] Agree **a single spokesperson**; everyone else declines and forwards.
-- [ ] Write a **holding statement** (facts, care, next update time)—see [`crisis-and-sensitive-topics.md`](../language-and-communication/crisis-and-sensitive-topics.md).
+- [ ] Write a **holding statement** (facts, care, next update time)—see [`crisis-and-sensitive-topics.md`](../language-&-communication/crisis-and-sensitive-topics.md).
 - [ ] **Preserve** relevant records (emails, logs, analytics, social posts).
 - [ ] Notify **affected people** directly where feasible before public channels.
 

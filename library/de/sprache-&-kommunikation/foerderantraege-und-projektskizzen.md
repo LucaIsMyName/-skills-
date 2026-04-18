@@ -1,6 +1,6 @@
 # Förderanträge und Projektskizzen
 
-**Geltungsbereich:** Gilt für **formale Förderanträge, Projektskizzen und Antragsschreiben** für NGOs und Organisationen im sozialen Bereich—EU-, national-, stiftungs- oder institutionelle Ausschreibungen. Keine juristische Prüfung von Zuwendungsverträgen, keine Major-Donor-Betreuung (siehe [`spendenaufrufe.md`](spendenaufrufe.md)), kein vollständiges Finanzmodell durch eine Buchhaltung. Ergänzend zu [`literatur-zusammenfassen.md`](../recherche-und-analyse/literatur-zusammenfassen.md), [`recherche-grundlagen.md`](../recherche-und-analyse/recherche-grundlagen.md) und [`stories-schreiben.md`](stories-schreiben.md) für erzählerische Abschnitte.
+**Geltungsbereich:** Gilt für **formale Förderanträge, Projektskizzen und Antragsschreiben** für NGOs und Organisationen im sozialen Bereich—EU-, national-, stiftungs- oder institutionelle Ausschreibungen. Keine juristische Prüfung von Zuwendungsverträgen, keine Major-Donor-Betreuung (siehe [`spendenaufrufe.md`](spendenaufrufe.md)), kein vollständiges Finanzmodell durch eine Buchhaltung. Ergänzend zu [`literatur-zusammenfassen.md`](../recherche-&-analyse/literatur-zusammenfassen.md), [`recherche-grundlagen.md`](../recherche-&-analyse/recherche-grundlagen.md) und [`stories-schreiben.md`](stories-schreiben.md) für erzählerische Abschnitte.
 
 ## Exzerpt
 
@@ -48,7 +48,7 @@ Anträge erzeugen, die **zulässig, vollständig und ehrlich** sind—klar darü
 An die Vorlage anpassen, meist aber enthalten:
 
 1. **Kurzfassung** — Problem, Ziel, Vorgehen, erwartete Veränderung (oft Zeichenlimit).
-2. **Kontext / Bedarf** — evidenzbasiert; Quellen angeben; siehe [`quellenbewertung-und-faktencheck.md`](../recherche-und-analyse/quellenbewertung-und-faktencheck.md).
+2. **Kontext / Bedarf** — evidenzbasiert; Quellen angeben; siehe [`quellenbewertung-und-faktencheck.md`](../recherche-&-analyse/quellenbewertung-und-faktencheck.md).
 3. **Ziele und Ergebnisse** — wo gefordert SMART; Outputs von Outcomes trennen.
 4. **Methodik / Maßnahmen** — was, wann, mit wem; realistische Arbeitsbelastung.
 5. **Partnerschaft** — Rollen, Beiträge; Unterstützungsschreiben nur wenn real und gefordert.
@@ -107,4 +107,4 @@ Ein überzeugender Förderantrag ist eine **präzise Antwort auf eine präzise F
 
 ---
 
-Englische Version: [`grant-writing.md`](../../en/language-and-communication/grant-writing.md)
+Englische Version: [`grant-writing.md`](../../en/language-&-communication/grant-writing.md)

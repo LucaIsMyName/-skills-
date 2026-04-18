@@ -1,6 +1,6 @@
 # Workshop facilitation
 
-**Scope:** Applies to **planning, running, and following up** workshops and facilitated sessions for teams, communities, or mixed groups in nonprofit and social-sector contexts—training, co-design, retrospectives, focus groups. Not full mediation of legal disputes, not therapy. Pair with [`interviewing-people.md`](../research-and-analysis/interviewing-people.md) for listening skills, [`crisis-and-sensitive-topics.md`](crisis-and-sensitive-topics.md) when topics are heavy, and [`accessibility-for-comms.md`](accessibility-for-comms.md) for inclusive sessions.
+**Scope:** Applies to **planning, running, and following up** workshops and facilitated sessions for teams, communities, or mixed groups in nonprofit and social-sector contexts—training, co-design, retrospectives, focus groups. Not full mediation of legal disputes, not therapy. Pair with [`interviewing-people.md`](../research-&-analysis/interviewing-people.md) for listening skills, [`crisis-and-sensitive-topics.md`](crisis-and-sensitive-topics.md) when topics are heavy, and [`accessibility-for-comms.md`](accessibility-for-comms.md) for inclusive sessions.
 
 ## Excerpt 
 
@@ -103,4 +103,4 @@ A good workshop **finishes with shared understanding and named owners**—not ju
 
 ---
 
-German version: [`workshops-und-moderation.md`](../../de/sprache-und-kommunikation/workshops-und-moderation.md)
+German version: [`workshops-und-moderation.md`](../../de/sprache-&-kommunikation/workshops-und-moderation.md)

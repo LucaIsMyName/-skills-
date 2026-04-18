@@ -1,6 +1,6 @@
 # Data protection for comms
 
-**Scope:** Applies to **GDPR-style data protection** as it affects communications work (photos, quotes, newsletters, forms, analytics). Not a legal opinion—when in doubt, escalate to a DPO or lawyer. Pair with [`image-and-quote-releases.md`](image-and-quote-releases.md), [`safeguarding-in-comms.md`](safeguarding-in-comms.md), and [`newsletter-and-email.md`](../language-and-communication/newsletter-and-email.md).
+**Scope:** Applies to **GDPR-style data protection** as it affects communications work (photos, quotes, newsletters, forms, analytics). Not a legal opinion—when in doubt, escalate to a DPO or lawyer. Pair with [`image-and-quote-releases.md`](image-and-quote-releases.md), [`safeguarding-in-comms.md`](safeguarding-in-comms.md), and [`newsletter-and-email.md`](../language-&-communication/newsletter-and-email.md).
 
 ## Excerpt 
 
@@ -59,7 +59,7 @@ Newsletters in the EU generally need **opt-in consent**, not a pre-ticked box an
 ## 4. Consent for comms
 
 - **Specific**: what will we do with the photo/quote/data?
-- **Informed**: in plain language (pair with [`easy-read-english.md`](../language-and-communication/easy-read-english.md)).
+- **Informed**: in plain language (pair with [`easy-read-english.md`](../language-&-communication/easy-read-english.md)).
 - **Freely given**: no "consent or you cannot attend".
 - **Revocable**: easy, documented, in the same channel or better.
 - **Recorded**: date, wording, signatory or tick-box log.

@@ -1,6 +1,6 @@
 # Image and quote releases
 
-**Scope:** Applies to **getting, recording, and respecting permission** to use photos, video, audio, and quotes of identifiable people in communications. Pair with [`data-protection-for-comms.md`](data-protection-for-comms.md) and [`safeguarding-in-comms.md`](safeguarding-in-comms.md); for editorial craft see [`writing-a-story.md`](../language-and-communication/writing-a-story.md).
+**Scope:** Applies to **getting, recording, and respecting permission** to use photos, video, audio, and quotes of identifiable people in communications. Pair with [`data-protection-for-comms.md`](data-protection-for-comms.md) and [`safeguarding-in-comms.md`](safeguarding-in-comms.md); for editorial craft see [`writing-a-story.md`](../language-&-communication/writing-a-story.md).
 
 ## Excerpt 
 
@@ -57,7 +57,7 @@ Vague releases ("for our work") fail. Good phrasing names:
 
 ## 3. Informed means readable
 
-- Use **plain language** (see [`easy-read-english.md`](../language-and-communication/easy-read-english.md)).
+- Use **plain language** (see [`easy-read-english.md`](../language-&-communication/easy-read-english.md)).
 - Offer the release in the person's **first language** where feasible.
 - Explain what "online" means practically—screenshots, re-sharing, search results.
 - Mention that even after deletion from your channels, copies may exist elsewhere.

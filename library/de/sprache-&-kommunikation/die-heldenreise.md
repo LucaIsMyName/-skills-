@@ -92,4 +92,4 @@ Er bringt das Gelernte zurück und stellt ein Gleichgewicht her.
 
 ---
 
-English version: [`heroes-journey.md`](../../en/language-and-communication/heroes-journey.md)
+English version: [`heroes-journey.md`](../../en/language-&-communication/heroes-journey.md)

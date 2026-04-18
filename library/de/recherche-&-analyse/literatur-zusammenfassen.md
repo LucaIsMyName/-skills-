@@ -82,7 +82,7 @@ Vorlage 150–300 Wörter:
 
 ## 7. Ton und Register
 
-- Dem Publikum, nicht dem Autor dienen. Fachartikel braucht für Laien trotzdem **einfache Sprache**—siehe [`einfache-sprache.md`](../sprache-und-kommunikation/einfache-sprache.md).
+- Dem Publikum, nicht dem Autor dienen. Fachartikel braucht für Laien trotzdem **einfache Sprache**—siehe [`einfache-sprache.md`](../sprache-&-kommunikation/einfache-sprache.md).
 - **Aussagen nicht schärfen**, um zitatfähiger zu klingen. „Laut den Autor:innen" ist oft näher an der Wahrheit als eine nackte Aussage.
 - **Unangenehme Befunde** auch nicht weichspülen. Treue schneidet in beide Richtungen.
 
@@ -129,4 +129,4 @@ Eine gute Zusammenfassung ist **kürzer, nicht mutiger**. Die Aussage der Quelle
 
 ---
 
-English version: [`literature-summarising.md`](../../en/research-and-analysis/literature-summarising.md)
+English version: [`literature-summarising.md`](../../en/research-&-analysis/literature-summarising.md)

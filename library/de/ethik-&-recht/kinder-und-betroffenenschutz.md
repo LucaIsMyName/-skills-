@@ -1,6 +1,6 @@
 # Kinder- und Betroffenenschutz
 
-**Geltungsbereich:** Gilt für **Kommunikationsentscheidungen mit Kindern, Jugendlichen und schutzbedürftigen Erwachsenen** (Klient:innen, Bewohner:innen, Patient:innen, Überlebende, Menschen in Krise). Kein Ersatz für die komplette Schutz-/Safeguarding-Richtlinie der Organisation. Ergänzt [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`bild-und-zitatfreigaben.md`](bild-und-zitatfreigaben.md), [`respektvolle-sprache.md`](../sprache-und-kommunikation/respektvolle-sprache.md).
+**Geltungsbereich:** Gilt für **Kommunikationsentscheidungen mit Kindern, Jugendlichen und schutzbedürftigen Erwachsenen** (Klient:innen, Bewohner:innen, Patient:innen, Überlebende, Menschen in Krise). Kein Ersatz für die komplette Schutz-/Safeguarding-Richtlinie der Organisation. Ergänzt [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`bild-und-zitatfreigaben.md`](bild-und-zitatfreigaben.md), [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md).
 
 ## Exzerpt
 
@@ -51,7 +51,7 @@ Ein klarer Schutzstandard für Kommunikationsarbeit, damit Geschichten echter Me
 
 ## 3. Einwilligung, die trägt
 
-- **Einfache Sprache**, was veröffentlicht wird, wo, wie lange—siehe [`einfache-sprache.md`](../sprache-und-kommunikation/einfache-sprache.md).
+- **Einfache Sprache**, was veröffentlicht wird, wo, wie lange—siehe [`einfache-sprache.md`](../sprache-&-kommunikation/einfache-sprache.md).
 - **Zeit und Raum** für Ablehnung; nicht im Krisenmoment.
 - **Erziehungsberechtigte + Kinderzustimmung** bei Minderjährigen.
 - **Bezugsperson / Advocate** bei schutzbedürftigen Erwachsenen.

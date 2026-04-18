@@ -1,6 +1,6 @@
 # Menschen interviewen (Recherche)
 
-**Geltungsbereich:** Gilt für **Recherche- und Reportage-Interviews**—Fachpersonen, Praktiker:innen, Betroffene, Amtsträger:innen—um Material für Stories, Briefs, Berichte zu sammeln. Nicht Medientraining für Sprecher:innen (siehe [`interview-vorbereitung.md`](../sprache-und-kommunikation/interview-vorbereitung.md)). Ergänzt [`stories-schreiben.md`](../sprache-und-kommunikation/stories-schreiben.md), [`respektvolle-sprache.md`](../sprache-und-kommunikation/respektvolle-sprache.md), [`kinder-und-betroffenenschutz.md`](../ethik-schutz-recht/kinder-und-betroffenenschutz.md), [`datenschutz-in-der-kommunikation.md`](../ethik-schutz-recht/datenschutz-in-der-kommunikation.md).
+**Geltungsbereich:** Gilt für **Recherche- und Reportage-Interviews**—Fachpersonen, Praktiker:innen, Betroffene, Amtsträger:innen—um Material für Stories, Briefs, Berichte zu sammeln. Nicht Medientraining für Sprecher:innen (siehe [`interview-vorbereitung.md`](../sprache-&-kommunikation/interview-vorbereitung.md)). Ergänzt [`stories-schreiben.md`](../sprache-&-kommunikation/stories-schreiben.md), [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md), [`kinder-und-betroffenenschutz.md`](../ethik-schutz-recht/kinder-und-betroffenenschutz.md), [`datenschutz-in-der-kommunikation.md`](../ethik-schutz-recht/datenschutz-in-der-kommunikation.md).
 
 ## Exzerpt
 
@@ -136,4 +136,4 @@ Ein gutes Interview ist ein Tausch von **Aufmerksamkeit gegen Wahrheit**. Vorber
 
 ---
 
-English version: [`interviewing-people.md`](../../en/research-and-analysis/interviewing-people.md)
+English version: [`interviewing-people.md`](../../en/research-&-analysis/interviewing-people.md)

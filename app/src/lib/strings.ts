@@ -11,3 +11,8 @@ export function humanizeSlug(slug: string): string {
 export function formatChapterTitle(chapterId: string): string {
   return humanizeSlug(chapterId)
 }
+
+/** Kebab-case stem for downloads: `chapter-slug` + `page-slug` (matches MD paths in repo). */
+export function exportFileStem(chapterId: string, pageSlug: string): string {
+  return `${chapterId}-${pageSlug}`
+}

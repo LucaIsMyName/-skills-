@@ -164,4 +164,4 @@ Ein guter Aufruf sagt ehrlich: **hier ist eine Person, so verändert sich etwas 
 
 ---
 
-English version: [`fundraising-appeals.md`](../../en/language-and-communication/fundraising-appeals.md)
+English version: [`fundraising-appeals.md`](../../en/language-&-communication/fundraising-appeals.md)

@@ -145,4 +145,4 @@ Eine gute Rede ist **ein Geschenk aus Aufmerksamkeit, als Klarheit zurückgegebe
 
 ---
 
-English version: [`speeches-and-talks.md`](../../en/language-and-communication/speeches-and-talks.md)
+English version: [`speeches-and-talks.md`](../../en/language-&-communication/speeches-and-talks.md)

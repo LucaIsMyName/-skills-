@@ -1,6 +1,6 @@
 # Design accessibility
 
-**Scope:** Applies to the **design side of accessibility**—layout, typography, colour, motion, affordances, and patterns. Companion to [`accessibility-in-code.md`](../coding/accessibility-in-code.md) (engineering) and [`accessibility-for-comms.md`](../language-and-communication/accessibility-for-comms.md) (copy). Pair with [`color-and-contrast.md`](color-and-contrast.md), [`typography.md`](typography.md), [`motion-and-micro-interactions.md`](motion-and-micro-interactions.md).
+**Scope:** Applies to the **design side of accessibility**—layout, typography, colour, motion, affordances, and patterns. Companion to [`accessibility-in-code.md`](../coding/accessibility-in-code.md) (engineering) and [`accessibility-for-comms.md`](../language-&-communication/accessibility-for-comms.md) (copy). Pair with [`color-and-contrast.md`](color-and-contrast.md), [`typography.md`](typography.md), [`motion-and-micro-interactions.md`](motion-and-micro-interactions.md).
 
 ## Excerpt 
 
@@ -77,7 +77,7 @@ Design interfaces that **work for the widest range of people from the start**—
 - Icon-only buttons have an **accessible name** (tooltip visible on hover/focus, plus programmatic label).
 - Pair icon with text for primary actions.
 - Decorative images marked as such; informational images need real alternative text.
-- Avoid dense infographics with no text equivalent; see [`accessibility-for-comms.md`](../language-and-communication/accessibility-for-comms.md).
+- Avoid dense infographics with no text equivalent; see [`accessibility-for-comms.md`](../language-&-communication/accessibility-for-comms.md).
 
 ## 7. Motion and animation
 
@@ -96,7 +96,7 @@ Design interfaces that **work for the widest range of people from the start**—
 
 ## 9. Content patterns
 
-- **Plain language** in mocks—placeholder copy matters (see [`easy-read-english.md`](../language-and-communication/easy-read-english.md)).
+- **Plain language** in mocks—placeholder copy matters (see [`easy-read-english.md`](../language-&-communication/easy-read-english.md)).
 - **Empty states** include action and orientation, not just an illustration.
 - **Loading states** communicate progress; skeletons over spinners for known shapes.
 - **Error states** name what happened and a way forward.

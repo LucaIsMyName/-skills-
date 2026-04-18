@@ -1,6 +1,6 @@
 # KI-Offenlegung und Richtlinien
 
-**Geltungsbereich:** Gilt für den **Einsatz von KI in der Kommunikationsarbeit**—Entwürfe, Übersetzung, Redaktion, Bildgenerierung, Zusammenfassung, Transkription. Kein Ersatz für org-weite KI-Richtlinien oder Rechtsprüfung. Ergänzt [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`urheber-und-nutzungsrechte.md`](urheber-und-nutzungsrechte.md), [`respektvolle-sprache.md`](../sprache-und-kommunikation/respektvolle-sprache.md).
+**Geltungsbereich:** Gilt für den **Einsatz von KI in der Kommunikationsarbeit**—Entwürfe, Übersetzung, Redaktion, Bildgenerierung, Zusammenfassung, Transkription. Kein Ersatz für org-weite KI-Richtlinien oder Rechtsprüfung. Ergänzt [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`urheber-und-nutzungsrechte.md`](urheber-und-nutzungsrechte.md), [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md).
 
 ## Exzerpt
 
@@ -94,12 +94,12 @@ Bei kostenlosen Tools annehmen, dass Eingaben zu Training verwendet werden könn
 
 ## 8. Barrierefreiheit und einfache Sprache
 
-- KI kann einfache Sprache unterstützen; trotzdem Mensch gegen [`einfache-sprache.md`](../sprache-und-kommunikation/einfache-sprache.md) prüfen lassen.
+- KI kann einfache Sprache unterstützen; trotzdem Mensch gegen [`einfache-sprache.md`](../sprache-&-kommunikation/einfache-sprache.md) prüfen lassen.
 - Auto-Untertitel/-Transkripte sind **Entwürfe**. Bearbeiten.
 
 ## 9. Redaktionelle Unabhängigkeit
 
-- KI-Ergebnisse setzen keine Rahmung für Betroffene—siehe [`respektvolle-sprache.md`](../sprache-und-kommunikation/respektvolle-sprache.md).
+- KI-Ergebnisse setzen keine Rahmung für Betroffene—siehe [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md).
 - Verzerrt das Tool systematisch gegen eine Gruppe: für diese Arbeit **nicht** nutzen.
 
 ## 10. Warnsignale

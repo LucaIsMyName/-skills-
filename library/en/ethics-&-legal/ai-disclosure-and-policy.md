@@ -1,6 +1,6 @@
 # AI disclosure and policy
 
-**Scope:** Applies to **using AI in communications work**—drafting, translating, editing, generating images, summarising, transcribing. Not a replacement for an org-wide AI policy or legal review. Pair with [`data-protection-for-comms.md`](data-protection-for-comms.md), [`copyright-and-usage-rights.md`](copyright-and-usage-rights.md), and [`respectful-language.md`](../language-and-communication/respectful-language.md).
+**Scope:** Applies to **using AI in communications work**—drafting, translating, editing, generating images, summarising, transcribing. Not a replacement for an org-wide AI policy or legal review. Pair with [`data-protection-for-comms.md`](data-protection-for-comms.md), [`copyright-and-usage-rights.md`](copyright-and-usage-rights.md), and [`respectful-language.md`](../language-&-communication/respectful-language.md).
 
 ## Excerpt 
 
@@ -94,12 +94,12 @@ Assume free tools can use your input for training unless the terms say otherwise
 
 ## 8. Accessibility and plain language
 
-- AI can help draft plain-language versions; still run them through a human check against [`easy-read-english.md`](../language-and-communication/easy-read-english.md).
+- AI can help draft plain-language versions; still run them through a human check against [`easy-read-english.md`](../language-&-communication/easy-read-english.md).
 - Auto-captions and auto-transcripts are **drafts**, not final captions. Edit them.
 
 ## 9. Editorial independence
 
-- AI output should not dictate framing for affected communities—see [`respectful-language.md`](../language-and-communication/respectful-language.md).
+- AI output should not dictate framing for affected communities—see [`respectful-language.md`](../language-&-communication/respectful-language.md).
 - If the tool consistently biases against a group (terms, imagery), stop using it for that work.
 
 ## 10. Red flags

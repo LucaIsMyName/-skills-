@@ -95,4 +95,4 @@ Starke Freiwilligen-Kommunikation **respektiert Zeit, klärt Erwartungen und dan
 
 ---
 
-Englische Version: [`volunteer-comms.md`](../../en/language-and-communication/volunteer-comms.md)
+Englische Version: [`volunteer-comms.md`](../../en/language-&-communication/volunteer-comms.md)

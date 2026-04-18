@@ -59,7 +59,7 @@ Eine **wahre, verständliche Geschichte** davon erzählen, was sich durch eure A
 ## 3. Erzählqualität
 
 - **Konkrete Beispiele**—ein oder zwei, gut anonymisiert wenn nötig—illustrieren Größe ohne sie zu ersetzen.
-- Ton mit [`respektvolle-sprache.md`](../sprache-und-kommunikation/respektvolle-sprache.md) und [`stories-schreiben.md`](../sprache-und-kommunikation/stories-schreiben.md) für menschliche Abschnitte abstimmen.
+- Ton mit [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md) und [`stories-schreiben.md`](../sprache-&-kommunikation/stories-schreiben.md) für menschliche Abschnitte abstimmen.
 
 ---
 
@@ -92,4 +92,4 @@ Gutes Berichten schafft **Vertrauen**: Es zeigt, was ihr erreicht habt, was ihr 
 
 ---
 
-Englische Version: [`impact-and-annual-reporting.md`](../../en/research-and-analysis/impact-and-annual-reporting.md)
+Englische Version: [`impact-and-annual-reporting.md`](../../en/research-&-analysis/impact-and-annual-reporting.md)

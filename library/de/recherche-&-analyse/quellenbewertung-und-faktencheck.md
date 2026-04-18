@@ -1,6 +1,6 @@
 # Quellenbewertung und Faktencheck
 
-**Geltungsbereich:** Gilt für **Vertrauen in Quellen** und **Prüfen konkreter Aussagen** vor Veröffentlichung in Comms, Presse, Stories, Briefings. Ergänzt [`recherche-grundlagen.md`](recherche-grundlagen.md), [`statistik-einfach-lesen.md`](statistik-einfach-lesen.md), [`krise-und-sensible-themen.md`](../sprache-und-kommunikation/krise-und-sensible-themen.md).
+**Geltungsbereich:** Gilt für **Vertrauen in Quellen** und **Prüfen konkreter Aussagen** vor Veröffentlichung in Comms, Presse, Stories, Briefings. Ergänzt [`recherche-grundlagen.md`](recherche-grundlagen.md), [`statistik-einfach-lesen.md`](statistik-einfach-lesen.md), [`krise-und-sensible-themen.md`](../sprache-&-kommunikation/krise-und-sensible-themen.md).
 
 ## Exzerpt
 
@@ -139,4 +139,4 @@ Vertrauen kommt aus **gezeigter Arbeit**, nicht aus Überzeugungs-Ton. Quelle pr
 
 ---
 
-English version: [`source-evaluation-and-fact-checking.md`](../../en/research-and-analysis/source-evaluation-and-fact-checking.md)
+English version: [`source-evaluation-and-fact-checking.md`](../../en/research-&-analysis/source-evaluation-and-fact-checking.md)

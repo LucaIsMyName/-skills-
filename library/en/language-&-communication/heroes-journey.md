@@ -94,4 +94,4 @@ They bring what they learned back and restore balance.
 
 ---
 
-German version: [`die-heldenreise.md`](../../de/sprache-und-kommunikation/die-heldenreise.md)
+German version: [`die-heldenreise.md`](../../de/sprache-&-kommunikation/die-heldenreise.md)

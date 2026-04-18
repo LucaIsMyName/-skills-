@@ -284,4 +284,4 @@ it creates **understanding, connection, and respect**.
 
 ---
 
-German version: [`stories-schreiben.md`](../../de/sprache-und-kommunikation/stories-schreiben.md)
+German version: [`stories-schreiben.md`](../../de/sprache-&-kommunikation/stories-schreiben.md)

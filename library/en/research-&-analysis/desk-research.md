@@ -131,4 +131,4 @@ Desk research is **disciplined curiosity**: know the question, search wide then 
 
 ---
 
-German version: [`recherche-grundlagen.md`](../../de/recherche-und-analyse/recherche-grundlagen.md)
+German version: [`recherche-grundlagen.md`](../../de/recherche-&-analyse/recherche-grundlagen.md)

@@ -131,4 +131,4 @@ Recherche ist **disziplinierte Neugier**: Frage kennen, breit und dann eng suche
 
 ---
 
-English version: [`desk-research.md`](../../en/research-and-analysis/desk-research.md)
+English version: [`desk-research.md`](../../en/research-&-analysis/desk-research.md)

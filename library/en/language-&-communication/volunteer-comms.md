@@ -95,4 +95,4 @@ Strong volunteer comms **respect time, clarify expectations, and say thank you m
 
 ---
 
-German version: [`freiwillige-kommunikation.md`](../../de/sprache-und-kommunikation/freiwillige-kommunikation.md)
+German version: [`freiwillige-kommunikation.md`](../../de/sprache-&-kommunikation/freiwillige-kommunikation.md)

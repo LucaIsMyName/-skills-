@@ -151,4 +151,4 @@ A good interview is not **winning**—it is **finishing it with the audience kno
 
 ---
 
-German version: [`interview-vorbereitung.md`](../../de/sprache-und-kommunikation/interview-vorbereitung.md)
+German version: [`interview-vorbereitung.md`](../../de/sprache-&-kommunikation/interview-vorbereitung.md)

@@ -8,6 +8,7 @@ import { useLibraryIndex } from '../hooks/useLibraryIndex'
 import { useMarkdown } from '../hooks/useMarkdown'
 import { mdLinkToAppPath } from '../lib/mdLinks'
 import { firstMarkdownTitle } from '../lib/github'
+import { exportFileStem } from '../lib/strings'
 import {
   downloadDocx,
   downloadMarkdownFile,
@@ -92,7 +93,7 @@ export function MarkdownPage() {
   }
 
   const displayTitle = title ?? page
-  const baseName = `${chapter}-${page}`
+  const baseName = exportFileStem(chapter, page)
   /** Avoid duplicate h1 when the MD body already opens with `# …` (typical case). */
   const showFallbackTitle = title === undefined
 

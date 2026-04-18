@@ -59,7 +59,7 @@ Tell a **true, understandable story** of what changed because of your work, back
 ## 3. Narrative quality
 
 - **Concrete examples**—one or two, well anonymised if needed—illustrate scale without replacing it.
-- Cross-link tone with [`respectful-language.md`](../language-and-communication/respectful-language.md) and [`writing-a-story.md`](../language-and-communication/writing-a-story.md) for human sections.
+- Cross-link tone with [`respectful-language.md`](../language-&-communication/respectful-language.md) and [`writing-a-story.md`](../language-&-communication/writing-a-story.md) for human sections.
 
 ---
 
@@ -92,4 +92,4 @@ Good reporting earns **trust**: it shows what you achieved, what you learned, an
 
 ---
 
-German version: [`wirkung-und-jahresberichte.md`](../../de/recherche-und-analyse/wirkung-und-jahresberichte.md)
+German version: [`wirkung-und-jahresberichte.md`](../../de/recherche-&-analyse/wirkung-und-jahresberichte.md)

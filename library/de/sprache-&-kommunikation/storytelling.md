@@ -441,4 +441,4 @@ Struktur:
 
 ---
 
-English version: [`storytelling.md`](../../en/language-and-communication/storytelling.md)
+English version: [`storytelling.md`](../../en/language-&-communication/storytelling.md)

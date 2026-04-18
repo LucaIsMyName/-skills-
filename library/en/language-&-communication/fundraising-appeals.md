@@ -164,4 +164,4 @@ A good appeal says honestly: **here is one person, here is what changes with you
 
 ---
 
-German version: [`spendenaufrufe.md`](../../de/sprache-und-kommunikation/spendenaufrufe.md)
+German version: [`spendenaufrufe.md`](../../de/sprache-&-kommunikation/spendenaufrufe.md)

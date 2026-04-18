@@ -1,6 +1,6 @@
 # Barrierefreiheit im Code
 
-**Geltungsbereich:** Gilt für **Web-UI-Code** (HTML, CSS, JS/TS, React)—die technische Seite der Barrierefreiheit. Ergänzt [`barrierefreiheit-kommunikation.md`](../sprache-und-kommunikation/barrierefreiheit-kommunikation.md) (Texte, Bildbeschreibungen, Untertitel) und [`gute-interfaces-designen.md`](../design/gute-interfaces-designen.md).
+**Geltungsbereich:** Gilt für **Web-UI-Code** (HTML, CSS, JS/TS, React)—die technische Seite der Barrierefreiheit. Ergänzt [`barrierefreiheit-kommunikation.md`](../sprache-&-kommunikation/barrierefreiheit-kommunikation.md) (Texte, Bildbeschreibungen, Untertitel) und [`gute-interfaces-designen.md`](../design/gute-interfaces-designen.md).
 
 ## Exzerpt
 

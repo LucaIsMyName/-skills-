@@ -1,6 +1,6 @@
 # Bild- und Zitatfreigaben
 
-**Geltungsbereich:** Gilt für **Einwilligungen** zu Foto, Video, Audio und Zitaten erkennbarer Personen in der Kommunikation. Ergänzt [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`kinder-und-betroffenenschutz.md`](kinder-und-betroffenenschutz.md); redaktionell siehe [`stories-schreiben.md`](../sprache-und-kommunikation/stories-schreiben.md).
+**Geltungsbereich:** Gilt für **Einwilligungen** zu Foto, Video, Audio und Zitaten erkennbarer Personen in der Kommunikation. Ergänzt [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`kinder-und-betroffenenschutz.md`](kinder-und-betroffenenschutz.md); redaktionell siehe [`stories-schreiben.md`](../sprache-&-kommunikation/stories-schreiben.md).
 
 ## Exzerpt
 
@@ -57,7 +57,7 @@ Vage Freigaben („für unsere Arbeit") halten nicht. Gut ist:
 
 ## 3. Informiert = lesbar
 
-- **Einfache Sprache** (siehe [`einfache-sprache.md`](../sprache-und-kommunikation/einfache-sprache.md)).
+- **Einfache Sprache** (siehe [`einfache-sprache.md`](../sprache-&-kommunikation/einfache-sprache.md)).
 - Freigabe in der **Erstsprache** der Person, wenn möglich.
 - Erklären, was „online" praktisch bedeutet—Screenshots, Teilen, Suchergebnisse.
 - Hinweisen, dass Kopien auch nach Löschung weiter existieren können.

@@ -1,6 +1,6 @@
 # Barrierefreies Design
 
-**Geltungsbereich:** Gilt für die **Design-Seite der Barrierefreiheit**—Layout, Typografie, Farbe, Motion, Affordances, Muster. Ergänzt [`accessibility-in-code.md`](../../en/coding/accessibility-in-code.md) (Engineering) und [`barrierefreiheit-kommunikation.md`](../sprache-und-kommunikation/barrierefreiheit-kommunikation.md) (Text). Pairt mit [`farbe-und-kontrast.md`](farbe-und-kontrast.md), [`typografie.md`](typografie.md), [`motion-und-micro-interactions.md`](motion-und-micro-interactions.md).
+**Geltungsbereich:** Gilt für die **Design-Seite der Barrierefreiheit**—Layout, Typografie, Farbe, Motion, Affordances, Muster. Ergänzt [`accessibility-in-code.md`](../../en/coding/accessibility-in-code.md) (Engineering) und [`barrierefreiheit-kommunikation.md`](../sprache-&-kommunikation/barrierefreiheit-kommunikation.md) (Text). Pairt mit [`farbe-und-kontrast.md`](farbe-und-kontrast.md), [`typografie.md`](typografie.md), [`motion-und-micro-interactions.md`](motion-und-micro-interactions.md).
 
 ## Exzerpt
 
@@ -77,7 +77,7 @@ Interfaces so entwerfen, dass sie **von Anfang an für eine breite Bandbreite an
 - Icon-only-Buttons haben einen **zugänglichen Namen** (Tooltip auf Hover/Fokus + programmatisches Label).
 - Icon + Text für primäre Aktionen.
 - Dekorative Bilder als solche markiert; informative brauchen echten Alt-Text.
-- Dichte Infografiken mit Text-Äquivalent anbieten; siehe [`barrierefreiheit-kommunikation.md`](../sprache-und-kommunikation/barrierefreiheit-kommunikation.md).
+- Dichte Infografiken mit Text-Äquivalent anbieten; siehe [`barrierefreiheit-kommunikation.md`](../sprache-&-kommunikation/barrierefreiheit-kommunikation.md).
 
 ## 7. Motion und Animation
 
@@ -96,7 +96,7 @@ Interfaces so entwerfen, dass sie **von Anfang an für eine breite Bandbreite an
 
 ## 9. Content-Muster
 
-- **Einfache Sprache** im Mock—Platzhaltertext zählt (siehe [`einfache-sprache.md`](../sprache-und-kommunikation/einfache-sprache.md)).
+- **Einfache Sprache** im Mock—Platzhaltertext zählt (siehe [`einfache-sprache.md`](../sprache-&-kommunikation/einfache-sprache.md)).
 - **Leerzustände** mit Aktion und Orientierung, nicht nur Illustration.
 - **Ladezustände** mit Fortschritt; Skelette statt Spinnern für bekannte Formen.
 - **Fehlerzustände** benennen Ursache und Weg.

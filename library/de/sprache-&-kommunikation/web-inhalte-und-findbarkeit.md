@@ -95,4 +95,4 @@ Eine vertrauenswürdige NGO-Site **bringt die richtigen Menschen in ein oder zwe
 
 ---
 
-Englische Version: [`nonprofit-web-content.md`](../../en/language-and-communication/nonprofit-web-content.md)
+Englische Version: [`nonprofit-web-content.md`](../../en/language-&-communication/nonprofit-web-content.md)

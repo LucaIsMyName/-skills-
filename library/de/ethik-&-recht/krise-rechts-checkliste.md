@@ -1,6 +1,6 @@
 # Krisen-Rechtscheckliste
 
-**Geltungsbereich:** Gilt für **rechtlich wache Schritte in einer Kommunikationskrise** (Vorwurf, Vorfall, schlechte Presse, Virals, Safeguarding-Ereignis, Datenpanne). Kein Ersatz für Anwält:in in einem laufenden Fall. Ergänzt [`krise-und-sensible-themen.md`](../sprache-und-kommunikation/krise-und-sensible-themen.md), [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`kinder-und-betroffenenschutz.md`](kinder-und-betroffenenschutz.md).
+**Geltungsbereich:** Gilt für **rechtlich wache Schritte in einer Kommunikationskrise** (Vorwurf, Vorfall, schlechte Presse, Virals, Safeguarding-Ereignis, Datenpanne). Kein Ersatz für Anwält:in in einem laufenden Fall. Ergänzt [`krise-und-sensible-themen.md`](../sprache-&-kommunikation/krise-und-sensible-themen.md), [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`kinder-und-betroffenenschutz.md`](kinder-und-betroffenenschutz.md).
 
 ## Exzerpt
 
@@ -47,7 +47,7 @@ Den **rechtlichen und Rechte-Layer** in Krisenkomms einziehen, damit Statements 
 
 - [ ] **Kleinen Incident-Kreis** bilden (Leitung, Recht, Comms, Safeguarding, Personal je nach Thema).
 - [ ] **Eine Sprecher:in**; andere lehnen ab und leiten weiter.
-- [ ] **Halteformel** (Fakten, Anteilnahme, nächstes Update)—siehe [`krise-und-sensible-themen.md`](../sprache-und-kommunikation/krise-und-sensible-themen.md).
+- [ ] **Halteformel** (Fakten, Anteilnahme, nächstes Update)—siehe [`krise-und-sensible-themen.md`](../sprache-&-kommunikation/krise-und-sensible-themen.md).
 - [ ] **Beweise sichern** (Mails, Logs, Analytics, Social-Posts).
 - [ ] **Betroffene** direkt informieren, wo machbar, **vor** öffentlichen Kanälen.
 

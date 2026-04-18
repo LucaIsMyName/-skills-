@@ -1,6 +1,6 @@
 # Datenschutz in der Kommunikation
 
-**Geltungsbereich:** Gilt für **DSGVO-relevante Fragen** in der Kommunikationsarbeit (Fotos, Zitate, Newsletter, Formulare, Analytics). Kein Ersatz für Rechtsberatung—im Zweifel Datenschutzbeauftragte:r oder Anwält:in. Ergänzt [`bild-und-zitatfreigaben.md`](bild-und-zitatfreigaben.md), [`kinder-und-betroffenenschutz.md`](kinder-und-betroffenenschutz.md), [`newsletter-und-e-mail.md`](../sprache-und-kommunikation/newsletter-und-e-mail.md).
+**Geltungsbereich:** Gilt für **DSGVO-relevante Fragen** in der Kommunikationsarbeit (Fotos, Zitate, Newsletter, Formulare, Analytics). Kein Ersatz für Rechtsberatung—im Zweifel Datenschutzbeauftragte:r oder Anwält:in. Ergänzt [`bild-und-zitatfreigaben.md`](bild-und-zitatfreigaben.md), [`kinder-und-betroffenenschutz.md`](kinder-und-betroffenenschutz.md), [`newsletter-und-e-mail.md`](../sprache-&-kommunikation/newsletter-und-e-mail.md).
 
 ## Exzerpt
 
@@ -59,7 +59,7 @@ Newsletter in der EU brauchen in der Regel **Opt-in per Einwilligung**—kein vo
 ## 4. Einwilligung für Kommunikation
 
 - **Bestimmt**: was wird mit dem Foto/Zitat/Datum gemacht?
-- **Informiert**: in einfacher Sprache (siehe [`einfache-sprache.md`](../sprache-und-kommunikation/einfache-sprache.md)).
+- **Informiert**: in einfacher Sprache (siehe [`einfache-sprache.md`](../sprache-&-kommunikation/einfache-sprache.md)).
 - **Freiwillig**: keine „Einwilligung oder keine Teilnahme“.
 - **Widerrufbar**: einfach, dokumentiert, gleicher Kanal oder besser.
 - **Dokumentiert**: Datum, Formulierung, Unterschrift oder Logeintrag.

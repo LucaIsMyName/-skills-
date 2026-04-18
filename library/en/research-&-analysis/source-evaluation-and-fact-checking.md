@@ -1,6 +1,6 @@
 # Source evaluation and fact-checking
 
-**Scope:** Applies to **deciding whether a source can be trusted** and **verifying claims** before publication in comms, press, stories, or briefings. Pair with [`desk-research.md`](desk-research.md), [`reading-statistics-plainly.md`](reading-statistics-plainly.md), [`crisis-and-sensitive-topics.md`](../language-and-communication/crisis-and-sensitive-topics.md).
+**Scope:** Applies to **deciding whether a source can be trusted** and **verifying claims** before publication in comms, press, stories, or briefings. Pair with [`desk-research.md`](desk-research.md), [`reading-statistics-plainly.md`](reading-statistics-plainly.md), [`crisis-and-sensitive-topics.md`](../language-&-communication/crisis-and-sensitive-topics.md).
 
 ## Excerpt 
 
@@ -139,4 +139,4 @@ Trust comes from the **work you show**, not the confidence you project. Check th
 
 ---
 
-German version: [`quellenbewertung-und-faktencheck.md`](../../de/recherche-und-analyse/quellenbewertung-und-faktencheck.md)
+German version: [`quellenbewertung-und-faktencheck.md`](../../de/recherche-&-analyse/quellenbewertung-und-faktencheck.md)

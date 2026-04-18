@@ -139,4 +139,4 @@ Numbers are **shorthand for evidence**—and they only help a piece if the short
 
 ---
 
-German version: [`statistik-einfach-lesen.md`](../../de/recherche-und-analyse/statistik-einfach-lesen.md)
+German version: [`statistik-einfach-lesen.md`](../../de/recherche-&-analyse/statistik-einfach-lesen.md)

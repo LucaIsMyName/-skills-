@@ -281,4 +281,4 @@ sie schafft **Verständnis, Verbindung und Respekt**.
 
 ---
 
-Englische Version: [`writing-a-story.md`](../../en/language-and-communication/writing-a-story.md)
+Englische Version: [`writing-a-story.md`](../../en/language-&-communication/writing-a-story.md)
