@@ -18,6 +18,16 @@
   .prose code {
     font-weight: 500 !important;
   }
+
+  /**
+   * Typography `prose-zinc` uses a dark pre background even in light mode.
+   * Use theme tokens for light mode; `dark:prose-invert` keeps dark-mode blocks readable.
+   */
+  html:not(.dark) .prose-doc {
+    --tw-prose-pre-bg: var(--muted);
+    --tw-prose-pre-code: var(--foreground);
+    --tw-prose-code: var(--foreground);
+  }
   * {
     @apply border-border outline-ring/50;
   }

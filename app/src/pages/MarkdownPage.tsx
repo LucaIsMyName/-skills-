@@ -214,7 +214,7 @@ export function MarkdownPage() {
 
       <InPageToc items={tocItems} />
 
-      <div className="prose prose-zinc dark:prose-invert max-w-none prose-headings:scroll-mt-24 prose-a:text-zinc-800 dark:prose-a:text-zinc-300 prose-code:font-mono prose-pre:font-mono">
+      <div className="prose-doc prose prose-zinc dark:prose-invert max-w-none prose-headings:scroll-mt-24 prose-a:text-zinc-800 dark:prose-a:text-zinc-300 prose-code:font-mono prose-pre:font-mono">
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
           rehypePlugins={[rehypeSlug]}
