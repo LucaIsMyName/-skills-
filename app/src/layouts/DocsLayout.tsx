@@ -26,7 +26,7 @@ export function DocsLayout() {
     <div className="flex min-h-screen flex-col bg-zinc-50 lg:flex-row">
       {/* Mobile header */}
       <header className="sticky top-0 z-40 flex items-center justify-between gap-3 border-b border-zinc-200 bg-zinc-50/95 px-4 py-3 backdrop-blur lg:hidden">
-        <div className="flex min-w-0 flex-1 items-center gap-2">
+        <div className="flex min-w-0 flex-1 items-center gap-8">
           <AppLogo lang={lang} />
           {langs.length > 0 && (
             <LangSwitch

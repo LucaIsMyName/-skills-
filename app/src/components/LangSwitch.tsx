@@ -30,7 +30,7 @@ export function LangSwitch({ langs, indexes, currentLang }: Props) {
 
   return (
     <div
-      className="inline-flex items-center rounded-lg border border-zinc-200 bg-zinc-100/80 p-0.5"
+      className="inline-flex items-center gap-0.5 rounded-lg border border-zinc-200 bg-zinc-100/80 p-0.5"
       role="group"
       aria-label="Language"
     >
@@ -39,10 +39,10 @@ export function LangSwitch({ langs, indexes, currentLang }: Props) {
           key={l}
           to={targetFor(l)}
           className={[
-            'min-w-[2.75rem] rounded-md px-2.5 py-1 text-center text-xs font-semibold uppercase tracking-wide transition-colors',
+            'min-w-[2.25rem] rounded-md px-1 py-0.5 text-center text-[11px] font-semibold uppercase tracking-wide transition-colors',
             l === currentLang
-              ? 'bg-white text-zinc-900 shadow-sm'
-              : 'text-zinc-500 hover:text-zinc-800',
+              ? 'bg-white text-zinc-900 shadow-sm border-zinc-300 border '
+              : 'text-zinc-500 hover:text-zinc-800 hover:border-zinc-300 border-transparent border',
           ].join(' ')}
         >
           {l}

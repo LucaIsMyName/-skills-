@@ -10,7 +10,7 @@
 - **Coverage ist ein Signal, kein Ziel.** 90 % Trivialcode und 0 % Risikopfad ist schlechter als 60 % sinnvoll verteilt.
 - Vollständige Regeln, Muster und Anti-Muster unten.
 
-## bevor Tests geschrieben werden
+## Bevor Tests geschrieben werden
 
 Vor neuen Tests klären **wofür der Code da ist** und **wie er scheitern kann**. Keine Tests ausliefern, die nur die Implementierung wiederholen.
 

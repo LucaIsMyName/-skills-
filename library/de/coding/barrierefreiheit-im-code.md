@@ -10,7 +10,7 @@
 - **Screenreader brauchen eine logische Seite.** Landmarks, Überschriftenreihenfolge, Linktexte, Formularlabels, Live-Regionen.
 - Vollständige Regeln, Muster und Anti-Muster unten.
 
-## bevor UI ausgeliefert wird
+## Bevor UI ausgeliefert wird
 
 Bevor UI-Code geschrieben oder generiert wird, klären **wer es nutzt und wie**. Barrierefreiheit nicht am Ende „draufkleben“.
 
