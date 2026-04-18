@@ -104,14 +104,17 @@ Output strictly valid JSON with this schema:
 {
   "path": "string",
   "audience": ["string"],
-  "main_points": ["string", "string", "string"],
+  "main_points": ["string"],
   "risks_or_gaps": ["string"],
-  "next_steps": ["string", "string"]
+  "next_steps": ["string"]
 }
 
 Rules:
 - No markdown, no code fences, JSON only.
-- If data is missing, use empty arrays and explain briefly in risks_or_gaps.
+- `main_points`: include up to 3 items.
+- `next_steps`: include up to 2 items.
+- If data is missing, use empty arrays.
+- If there are known gaps, add a short note as an item in `risks_or_gaps`.
 - Do not include information from any other file.
 ```
 
@@ -120,7 +123,7 @@ Acceptance checklist:
 - Valid JSON only.
 - Keys match schema exactly.
 - Uses correct path.
-- Handles missing data without fabrication.
+- Handles missing data without fabrication or rule conflicts.
 
 ---
 

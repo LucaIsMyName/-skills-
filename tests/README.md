@@ -15,7 +15,8 @@ Use reusable prompt templates to verify that the assistant:
 
 - `en/library-chat-prompts.md`: English prompt templates
 - `de/library-chat-prompts.md`: German prompt templates
-- `en/language-and-communications/tests.md`: pointer file for legacy location
+- `en/language-&-communication/tests.md`: pointer file aligned with current library chapter naming
+- `en/language-and-communications/tests.md`: legacy pointer kept for backward compatibility
 
 ## Placeholder Conventions
 

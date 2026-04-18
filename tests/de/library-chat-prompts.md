@@ -104,14 +104,17 @@ Gib strikt gueltiges JSON in diesem Schema aus:
 {
   "path": "string",
   "audience": ["string"],
-  "main_points": ["string", "string", "string"],
+  "main_points": ["string"],
   "risks_or_gaps": ["string"],
-  "next_steps": ["string", "string"]
+  "next_steps": ["string"]
 }
 
 Regeln:
 - Kein Markdown, keine Code-Fences, nur JSON.
-- Wenn Daten fehlen, nutze leere Arrays und erklaere kurz in risks_or_gaps.
+- `main_points`: bis zu 3 Eintraege.
+- `next_steps`: bis zu 2 Eintraege.
+- Wenn Daten fehlen, nutze leere Arrays.
+- Wenn erkennbare Luecken bestehen, ergaenze einen kurzen Hinweis als Eintrag in `risks_or_gaps`.
 - Keine Informationen aus anderen Dateien verwenden.
 ```
 
@@ -120,7 +123,7 @@ Akzeptanz-Checkliste:
 - Nur gueltiges JSON.
 - Keys entsprechen exakt dem Schema.
 - Richtiger Pfad enthalten.
-- Fehlende Daten werden ohne Erfindungen behandelt.
+- Fehlende Daten werden ohne Erfindungen und ohne Regelkonflikt behandelt.
 
 ---
 
