@@ -1,11 +1,11 @@
 # Strukturierte Ausgabe und Tools
 
-**Scope:** Gilt für **maschinenlesbare LLM-Ausgaben** (JSON, Schemas, Enums) und **Tool-Anbindung** (Funktionen, Suche, Datenbanken). Kein vollständiges API-Design (siehe [`api-design-und-rest.md`](../coding/api-design-und-rest.md)), kein produktives MLOps. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`prompt-muster.md`](prompt-muster.md), [`llm-output-bewerten.md`](llm-output-bewerten.md), [`llms-im-code-nutzen.md`](../coding/llms-im-code-nutzen.md) und [`sicherheit-fuer-webapps.md`](../coding/sicherheit-fuer-webapps.md).
+**Scope:** Gilt für **maschinenlesbare Modellausgaben** (JSON, Schemas, Enums) und **Tool-Anbindung** (Funktionen, Suche, Datenbanken). Kein vollständiges API-Design (siehe [`api-design-und-rest.md`](../coding/api-design-und-rest.md)), kein produktives MLOps. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`prompt-muster.md`](prompt-muster.md), [`modelloutput-bewerten.md`](modelloutput-bewerten.md), [`sprachmodelle-im-code-nutzen.md`](../coding/sprachmodelle-im-code-nutzen.md) und [`sicherheit-fuer-webapps.md`](../coding/sicherheit-fuer-webapps.md).
 
 ## Excerpt
 
 - **Schema zuerst**: Felder, Typen, required/optional, Enums—dann **konformieren** lassen.
-- **Validieren** jede Antwort—LLMs erzeugen falsches JSON, Extra-Keys, falsche Typen.
+- **Validieren** jede Antwort—Modelle erzeugen falsches JSON, Extra-Keys, falsche Typen.
 - **Tools** (Suche, Rechner, Tickets) leben in **deinem Code** mit **Auth** und **Audit**—niemals "magisch" im Prompt.
 - **Human-in-the-Loop** für irreversible Aktionen (Zahlungen, Versand, Löschen).
 - **Prompt-Injection** ist reale Gefahr, wenn Inputs aus fremden Dokumenten kommen.
@@ -28,7 +28,7 @@
 
 ## Zweck
 
-LLM-Output in **verlässliche Programminputs** verwandeln: valide, validiert, **sicher zum Ausführen**—mit Menschen in der Schleife, wo Fehler weh tun.
+Modell-Output in **verlässliche Programminputs** verwandeln: valide, validiert, **sicher zum Ausführen**—mit Menschen in der Schleife, wo Fehler weh tun.
 
 ---
 
@@ -170,7 +170,7 @@ Dashboards: Invalid-JSON-Rate, Tool-Error-Rate, Verweigerungsrate, Top-Fehler-Sc
 ## 9. Tests und Regression
 
 - **Fixture-Set** mit Inputs und erwarteten Outputs (oder Eigenschaften).
-- Bei jeder Änderung laufen lassen (siehe [`llm-output-bewerten.md`](llm-output-bewerten.md)).
+- Bei jeder Änderung laufen lassen (siehe [`modelloutput-bewerten.md`](modelloutput-bewerten.md)).
 - Property-Tests: "≤5 Bullets", "Enum im Set", "URLs lösen auf".
 
 ## 10. Was nicht tun
@@ -184,7 +184,7 @@ Dashboards: Invalid-JSON-Rate, Tool-Error-Rate, Verweigerungsrate, Top-Fehler-Sc
 
 ## Core idea
 
-**Schema + Validierung + berechtigte Tools + Human-in-the-Loop**—so werden LLMs aus Spielzeug zu **lieferbaren Systemen**. Das Modell rendert Struktur; dein Code besitzt Wahrheit, Sicherheit, Seiteneffekte.
+**Schema + Validierung + berechtigte Tools + Human-in-the-Loop**—so werden Assistenten aus Spielzeug zu **lieferbaren Systemen**. Das Modell rendert Struktur; dein Code besitzt Wahrheit, Sicherheit, Seiteneffekte.
 
 ## Further reading
 

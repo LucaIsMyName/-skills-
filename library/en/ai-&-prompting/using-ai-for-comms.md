@@ -1,6 +1,6 @@
 # Using AI for comms
 
-**Scope:** Applies to **LLMs in communications work**—newsletters, donor emails, social posts, press releases, translations, internal memos. Not image generation (see [`images-and-photography.md`](../design/images-and-photography.md)), not legal/medical advice, not AI for safeguarding decisions. Pair with [`prompting-basics.md`](prompting-basics.md), [`tone-of-voice-and-brand-voice.md`](../language-&-communication/tone-of-voice-and-brand-voice.md), [`respectful-language.md`](../language-&-communication/respectful-language.md), [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md), and [`evaluating-llm-output.md`](evaluating-llm-output.md).
+**Scope:** Applies to **language models in communications work**—newsletters, donor emails, social posts, press releases, translations, internal memos. Not image generation (see [`images-and-photography.md`](../design/images-and-photography.md)), not legal/medical advice, not AI for safeguarding decisions. Pair with [`prompting-basics.md`](prompting-basics.md), [`tone-of-voice-and-brand-voice.md`](../language-&-communication/tone-of-voice-and-brand-voice.md), [`respectful-language.md`](../language-&-communication/respectful-language.md), [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md), and [`evaluating-model-output.md`](evaluating-model-output.md).
 
 ## Excerpt
 

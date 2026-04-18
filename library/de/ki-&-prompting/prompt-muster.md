@@ -1,6 +1,6 @@
 # Prompt-Muster
 
-**Scope:** Gilt für **wiederverwendbare Muster** in LLM-Interaktionen—Few-Shot, Dekomposition, Kritik-und-Überarbeitung, strukturierte Ausgabe, eingeschränkte Kreativität, Tool-Handoffs. Kein Ersatz für Fachwissen, kein Ersatz für Faktenprüfung. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md), [`llm-output-bewerten.md`](llm-output-bewerten.md) und [`kontextfenster-und-chunks.md`](kontextfenster-und-chunks.md).
+**Scope:** Gilt für **wiederverwendbare Muster** in Prompt-Interaktionen mit Sprachmodellen—Few-Shot, Dekomposition, Kritik-und-Überarbeitung, strukturierte Ausgabe, eingeschränkte Kreativität, Tool-Handoffs. Kein Ersatz für Fachwissen, kein Ersatz für Faktenprüfung. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md), [`modelloutput-bewerten.md`](modelloutput-bewerten.md) und [`kontextfenster-und-chunks.md`](kontextfenster-und-chunks.md).
 
 ## Excerpt
 

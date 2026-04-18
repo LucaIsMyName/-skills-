@@ -1,6 +1,6 @@
 # Markdown and MDX
 
-**Scope:** Applies to **Markdown and MDX authoring in docs and product content**—headings, links, code blocks, tables, frontmatter, MDX components, accessibility, versioning. Not full LaTeX, not static-site tuning. Pair with [`writing-skill-docs-for-llms.md`](../ai-&-prompting/writing-skill-docs-for-llms.md), [`accessibility-in-code.md`](accessibility-in-code.md), [`content-design-and-microcopy.md`](../design/content-design-and-microcopy.md), and [`file-naming-and-organising.md`](../media-&-production/file-naming-and-organising.md).
+**Scope:** Applies to **Markdown and MDX authoring in docs and product content**—headings, links, code blocks, tables, frontmatter, MDX components, accessibility, versioning. Not full LaTeX, not static-site tuning. Pair with [`writing-skill-documentation.md`](../ai-&-prompting/writing-skill-documentation.md), [`accessibility-in-code.md`](accessibility-in-code.md), [`content-design-and-microcopy.md`](../design/content-design-and-microcopy.md), and [`file-naming-and-organising.md`](../media-&-production/file-naming-and-organising.md).
 
 ## Excerpt
 
@@ -16,7 +16,7 @@
 ### Concrete
 
 - Is this **plain Markdown** (portable anywhere) or **MDX** (bound to React)?
-- Does the project have a **style guide** (this one + [`writing-skill-docs-for-llms.md`](../ai-&-prompting/writing-skill-docs-for-llms.md))?
+- Does the project have a **style guide** (this one + [`writing-skill-documentation.md`](../ai-&-prompting/writing-skill-documentation.md))?
 - What are the **frontmatter** fields and which are required?
 - Where do images and videos live—in the repo or in a CDN?
 
@@ -29,7 +29,7 @@
 
 ## Purpose
 
-Author docs and product content that are **readable, accessible, and searchable**—in Git, in review, in IDE previews, in your docs site, and by LLMs.
+Author docs and product content that are **readable, accessible, and searchable**—in Git, in review, in IDE previews, and in your docs site.
 
 ---
 
@@ -117,9 +117,9 @@ const user = await db.user.findUniqueOrThrow({ where: { id } })
 ```yaml
 ---
 title: Prompting basics
-description: Writing effective instructions for LLMs.
+description: Writing clear instructions for assistants and editors.
 updated: 2025-04-01
-tags: [ai, prompting, llm]
+tags: [ai, prompting, documentation]
 ---
 ```
 

@@ -1,6 +1,6 @@
 # API design and REST
 
-**Scope:** Applies to **HTTP APIs you own**—resources, verbs, status codes, payloads, versioning, pagination, errors. Not GraphQL-specific design, not internal RPC, not authentication protocol design. Pair with [`security-for-web-apps.md`](security-for-web-apps.md), [`error-handling-and-logging.md`](error-handling-and-logging.md), [`working-with-llms-in-code.md`](working-with-llms-in-code.md), and [`performance-and-web-vitals.md`](performance-and-web-vitals.md).
+**Scope:** Applies to **HTTP APIs you own**—resources, verbs, status codes, payloads, versioning, pagination, errors. Not GraphQL-specific design, not internal RPC, not authentication protocol design. Pair with [`security-for-web-apps.md`](security-for-web-apps.md), [`error-handling-and-logging.md`](error-handling-and-logging.md), [`language-models-in-code.md`](language-models-in-code.md), and [`performance-and-web-vitals.md`](performance-and-web-vitals.md).
 
 ## Excerpt
 

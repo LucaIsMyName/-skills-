@@ -1,6 +1,6 @@
-# Working with LLMs in code
+# Language models in code
 
-**Scope:** Applies to **engineering integrations with LLMs**—SDK use, prompt versioning, streaming, retries, cost, caching, testing, observability. Not model training, not agent orchestration platforms. Pair with [`structured-output-and-tool-use.md`](../ai-&-prompting/structured-output-and-tool-use.md), [`evaluating-llm-output.md`](../ai-&-prompting/evaluating-llm-output.md), [`error-handling-and-logging.md`](error-handling-and-logging.md), and [`security-for-web-apps.md`](security-for-web-apps.md).
+**Scope:** Applies to **engineering integrations with hosted language models**—SDK use, prompt versioning, streaming, retries, cost, caching, testing, observability. Not model training, not agent orchestration platforms. Pair with [`structured-output-and-tool-use.md`](../ai-&-prompting/structured-output-and-tool-use.md), [`evaluating-model-output.md`](../ai-&-prompting/evaluating-model-output.md), [`error-handling-and-logging.md`](error-handling-and-logging.md), and [`security-for-web-apps.md`](security-for-web-apps.md).
 
 ## Excerpt
 
@@ -15,21 +15,21 @@
 
 ### Concrete
 
-- What **task** does the LLM do, and what breaks if it fails? Is a degraded fallback acceptable?
+- What **task** does the model perform, and what breaks if it fails? Is a degraded fallback acceptable?
 - What **data** goes to the provider—public, internal, PII? Which endpoints are cleared?
 - What **budget** (cost, latency, rate limit) is acceptable per request?
 - Who **owns** the prompt, and how does it get changed?
 
 ### Meta
 
-- An LLM in your stack is a **dependency**. Treat it with the same rigor as a payment provider.
+- A hosted language model in your stack is a **dependency**. Treat it with the same rigor as a payment provider.
 - Features that only work when the model is perfect will silently rot as the model drifts.
 
 ---
 
 ## Purpose
 
-Integrate LLMs as **reliable, observable, privacy-aware components** of your product—not as magic that sometimes works and sometimes does not.
+Integrate language models as **reliable, observable, privacy-aware components** of your product—not as magic that sometimes works and sometimes does not.
 
 ---
 
@@ -103,7 +103,7 @@ const resp = await client.chat.completions.create({
 
 ## 4. Reliability wrappers
 
-LLM endpoints fail, throttle, and return garbage. Wrap them.
+Provider endpoints fail, throttle, and return garbage. Wrap them.
 
 - **Timeout** on every call (e.g. 30s); **abort** cleanly on cancel.
 - **Retry** idempotent calls with exponential backoff + jitter; respect `Retry-After`.
@@ -141,8 +141,8 @@ Build dashboards: error rate, invalid-schema rate, refusal rate, p95 latency, co
 ## 8. Testing
 
 - **Fixture tests**: input → expected properties of output (contains, matches, schema), not exact strings.
-- **Regression set** rerun on every prompt/model change (see [`evaluating-llm-output.md`](../ai-&-prompting/evaluating-llm-output.md)).
-- **Snapshot carefully**: LLMs change; snapshots of text will flake. Snapshot **shape** and **schema**, not prose.
+- **Regression set** rerun on every prompt/model change (see [`evaluating-model-output.md`](../ai-&-prompting/evaluating-model-output.md)).
+- **Snapshot carefully**: models drift; snapshots of text will flake. Snapshot **shape** and **schema**, not prose.
 - **Adversarial tests**: prompt injection, empty input, non-English input, giant input.
 
 ## 9. Privacy and compliance
@@ -156,7 +156,7 @@ Build dashboards: error rate, invalid-schema rate, refusal rate, p95 latency, co
 
 - Hard-code the model name in 20 places—put it behind one config.
 - Parse JSON with regex; use a real parser + schema.
-- Let the LLM decide **auth** or **billing** ("The model said this user was admin"). Enforce in code.
+- Let **generated text** replace **auth** or **billing** rules ("The reply said this user was admin"). Enforce permissions in code.
 - Ship a feature with **no fallback** when the model is down.
 - Store **secrets** in the prompt; anything in the prompt is data you cannot un-see.
 
@@ -164,15 +164,15 @@ Build dashboards: error rate, invalid-schema rate, refusal rate, p95 latency, co
 
 ## Core idea
 
-An LLM in production is **a paid, flaky, non-deterministic API you don't fully control**. Wrap it like one: versioned prompts, strict schemas, timeouts, retries, observability, privacy, fallbacks. Magic is for demos—shipped software is boring on purpose.
+A language model in production is **a paid, flaky, non-deterministic API you don't fully control**. Wrap it like one: versioned prompts, strict schemas, timeouts, retries, observability, privacy, fallbacks. Magic is for demos—shipped software is boring on purpose.
 
 ## Further reading
 
 - [OpenAI — Production best practices](https://platform.openai.com/docs/guides/production-best-practices)
 - [Anthropic — Building with Claude](https://docs.anthropic.com/claude/docs/building-with-claude)
 - [LangSmith](https://docs.smith.langchain.com/) — tracing and evaluation tooling
-- [OpenTelemetry — GenAI semantic conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/) — standard signals for LLM traces
+- [OpenTelemetry — GenAI semantic conventions](https://opentelemetry.io/docs/specs/semconv/gen-ai/) — standard signals for generative-AI traces
 
 ---
 
-German version: [`llms-im-code-nutzen.md`](../../de/coding/llms-im-code-nutzen.md)
+German version: [`sprachmodelle-im-code-nutzen.md`](../../de/coding/sprachmodelle-im-code-nutzen.md)

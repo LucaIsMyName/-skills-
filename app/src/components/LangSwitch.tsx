@@ -1,5 +1,6 @@
 import { Link, useLocation } from 'react-router-dom'
 import type { LangIndex } from '../lib/github'
+import { tForLang } from '../lib/uiI18n'
 
 type Props = {
   langs: string[]
@@ -8,6 +9,7 @@ type Props = {
 }
 
 export function LangSwitch({ langs, indexes, currentLang }: Props) {
+  const t = tForLang(currentLang)
   const { pathname } = useLocation()
 
   function targetFor(targetLang: string): string {
@@ -32,7 +34,7 @@ export function LangSwitch({ langs, indexes, currentLang }: Props) {
     <div
       className="inline-flex items-center gap-0.5 rounded-lg border border-zinc-200 bg-zinc-100/80 p-0.5"
       role="group"
-      aria-label="Language"
+      aria-label={t.langSwitchAria}
     >
       {langs.map((l) => (
         <Link

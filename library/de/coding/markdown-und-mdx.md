@@ -1,6 +1,6 @@
 # Markdown und MDX
 
-**Scope:** Gilt für **Markdown- und MDX-Autoring** in Docs und Produkt-Content—Überschriften, Links, Code-Blöcke, Tabellen, Frontmatter, MDX-Komponenten, Barrierefreiheit, Versionierung. Kein LaTeX, kein Static-Site-Tuning. Kombiniere mit [`skill-dokumente-fuer-llms.md`](../ki-&-prompting/skill-dokumente-fuer-llms.md), [`barrierefreiheit-im-code.md`](barrierefreiheit-im-code.md), [`content-design-und-microcopy.md`](../design/content-design-und-microcopy.md) und [`dateinamen-und-organisation.md`](../medien-&-produktion/dateinamen-und-organisation.md).
+**Scope:** Gilt für **Markdown- und MDX-Autoring** in Docs und Produkt-Content—Überschriften, Links, Code-Blöcke, Tabellen, Frontmatter, MDX-Komponenten, Barrierefreiheit, Versionierung. Kein LaTeX, kein Static-Site-Tuning. Kombiniere mit [`skill-dokumentation-schreiben.md`](../ki-&-prompting/skill-dokumentation-schreiben.md), [`barrierefreiheit-im-code.md`](barrierefreiheit-im-code.md), [`content-design-und-microcopy.md`](../design/content-design-und-microcopy.md) und [`dateinamen-und-organisation.md`](../medien-&-produktion/dateinamen-und-organisation.md).
 
 ## Excerpt
 
@@ -29,7 +29,7 @@
 
 ## Zweck
 
-Content, der **lesbar, barrierefrei, durchsuchbar** ist—in Git, Review, IDE, Docs-Site, und für LLMs.
+Content, der **lesbar, barrierefrei, durchsuchbar** ist—in Git, Review, IDE und Docs-Site.
 
 ---
 
@@ -109,9 +109,9 @@ const user = await db.user.findUniqueOrThrow({ where: { id } })
 ```yaml
 ---
 title: Prompten-Grundlagen
-description: Wirksame Anweisungen für LLMs schreiben.
+description: Klare Anweisungen für Assistentinnen und Redaktion schreiben.
 updated: 2025-04-01
-tags: [ai, prompting, llm]
+tags: [ai, prompting, documentation]
 ---
 ```
 

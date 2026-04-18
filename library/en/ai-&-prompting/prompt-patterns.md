@@ -1,6 +1,6 @@
 # Prompt patterns
 
-**Scope:** Applies to **reusable patterns** for LLM interactions—few-shot, decomposition, critique-and-revise, structured output, constrained creativity, tool-use handoffs. Not a replacement for domain expertise, not a substitute for fact-checking. Pair with [`prompting-basics.md`](prompting-basics.md), [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md), [`evaluating-llm-output.md`](evaluating-llm-output.md), and [`working-with-context-windows.md`](working-with-context-windows.md).
+**Scope:** Applies to **reusable patterns** for language-model interactions—few-shot, decomposition, critique-and-revise, structured output, constrained creativity, tool-use handoffs. Not a replacement for domain expertise, not a substitute for fact-checking. Pair with [`prompting-basics.md`](prompting-basics.md), [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md), [`evaluating-model-output.md`](evaluating-model-output.md), and [`working-with-context-windows.md`](working-with-context-windows.md).
 
 ## Excerpt
 

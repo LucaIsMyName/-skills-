@@ -1,6 +1,6 @@
 # Prompting basics
 
-**Scope:** Applies to **writing effective instructions** for large language models (LLMs)—roles, constraints, examples, iteration, verification. Not model training, not vendor procurement, not org-wide AI policy (see [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md)). Pair with [`prompt-patterns.md`](prompt-patterns.md), [`evaluating-llm-output.md`](evaluating-llm-output.md), and [`writing-skill-docs-for-llms.md`](writing-skill-docs-for-llms.md).
+**Scope:** Applies to **writing effective instructions** for language models—roles, constraints, examples, iteration, verification. Not model training, not vendor procurement, not org-wide AI policy (see [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md)). Pair with [`prompt-patterns.md`](prompt-patterns.md), [`evaluating-model-output.md`](evaluating-model-output.md), and [`writing-skill-documentation.md`](writing-skill-documentation.md).
 
 ## Excerpt
 
@@ -33,7 +33,7 @@ Before sending a prompt, clarify **what success looks like** and **what must nev
 
 ## Purpose
 
-Use LLMs as **tools under human judgment**: clear instructions, tight feedback loops, and verification—so outputs are **useful, safe, and on-brief**, not eloquent-sounding guesses.
+Use language models as **tools under human judgment**: clear instructions, tight feedback loops, and verification—so outputs are **useful, safe, and on-brief**, not eloquent-sounding guesses.
 
 ---
 
@@ -129,7 +129,7 @@ Example to avoid (too hypey):
 Prompt engineering is **cheap feedback, not oracle-hunting**.
 
 1. Run the smallest prompt that could plausibly work.
-2. Compare output against **acceptance criteria** (see [`evaluating-llm-output.md`](evaluating-llm-output.md)).
+2. Compare output against **acceptance criteria** (see [`evaluating-model-output.md`](evaluating-model-output.md)).
 3. Identify **one** failure mode (wrong tone? hallucinated number? missing section?).
 4. Change **one** thing—usually add one constraint or one example.
 5. Re-run. Stop when the output is good enough to edit; finish by hand.
@@ -141,7 +141,7 @@ Prompt engineering is **cheap feedback, not oracle-hunting**.
 
 ## 6. Grounding: facts, not vibes
 
-LLMs generate plausible text. Plausibility is not truth.
+Models generate plausible text. Plausibility is not truth.
 
 - **Provide** the facts the model should use—do not ask it to "remember".
 - For web claims, require the model to say "not in provided sources" rather than invent a citation.

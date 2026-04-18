@@ -1,6 +1,6 @@
 # RAG-Grundlagen
 
-**Scope:** Gilt für **Retrieval-Augmented Generation**—Antworten aus einem konkreten Korpus (Docs, Policies, Wikis). Keine produktive Vektor-Suche mit Sharding, BM25/Hybrid-Tuning, Multi-Tenant. Kombiniere mit [`kontextfenster-und-chunks.md`](kontextfenster-und-chunks.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md), [`sicherheit-fuer-webapps.md`](../coding/sicherheit-fuer-webapps.md) und [`llm-output-bewerten.md`](llm-output-bewerten.md).
+**Scope:** Gilt für **Retrieval-Augmented Generation**—Antworten aus einem konkreten Korpus (Docs, Policies, Wikis). Keine produktive Vektor-Suche mit Sharding, BM25/Hybrid-Tuning, Multi-Tenant. Kombiniere mit [`kontextfenster-und-chunks.md`](kontextfenster-und-chunks.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md), [`sicherheit-fuer-webapps.md`](../coding/sicherheit-fuer-webapps.md) und [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
 
 ## Excerpt
 
@@ -105,7 +105,7 @@ Ohne Evals wird RAG leise schlechter.
   - **Retrieval-Recall**.
   - **Antwort-Genauigkeit**.
   - **Verweigerung** richtig?
-- Bei jeder Änderung laufen lassen. Siehe [`llm-output-bewerten.md`](llm-output-bewerten.md).
+- Bei jeder Änderung laufen lassen. Siehe [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
 
 ## 8. Daten-Aktualität und Ops
 

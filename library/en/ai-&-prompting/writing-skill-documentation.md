@@ -1,10 +1,10 @@
-# Writing skill docs for LLMs
+# Writing skill documentation
 
-**Scope:** Applies to **this library and similar doc sets** used by humans **and** LLMs—structure, headings, cross-links, examples, style. Not general technical writing theory. Pair with [`prompting-basics.md`](prompting-basics.md), [`working-with-context-windows.md`](working-with-context-windows.md), [`markdown-and-mdx.md`](../coding/markdown-and-mdx.md), and the repository [`AGENTS.md`](../../../AGENTS.md).
+**Scope:** Applies to **this library and similar doc sets**—structure, headings, cross-links, examples, and style for documentation that should be easy to skim, cite, and keep consistent. Not general technical writing theory. Pair with [`prompting-basics.md`](prompting-basics.md), [`working-with-context-windows.md`](working-with-context-windows.md), [`markdown-and-mdx.md`](../coding/markdown-and-mdx.md), and the repository [`AGENTS.md`](../../../AGENTS.md).
 
 ## Excerpt
 
-- **Predictable shape** helps both humans skimming and models retrieving: H1, Scope, Excerpt, Before, Purpose, numbered sections, Core idea, Further reading.
+- **Predictable shape** helps readers skim and helps search and summarisation: H1, Scope, Excerpt, Before, Purpose, numbered sections, Core idea, Further reading.
 - **Short, declarative** sentences. Short paragraphs. Lots of **Bad / Good** pairs.
 - **Cross-link** to sibling pages in Scope; again in sections when relevant.
 - **Keep one idea per page.** Split when a page outgrows ~300 lines.
@@ -29,7 +29,7 @@
 
 ## Purpose
 
-Produce docs that **both humans and LLMs** can use with confidence—skimmable, linkable, retrievable, and consistent across the library.
+Produce docs that any reader can use with confidence—skimmable, linkable, retrievable, and consistent across the library.
 
 ---
 
@@ -69,10 +69,10 @@ This is about prompts.
 ```md
 # Prompting basics
 
-**Scope:** Applies to **writing effective instructions** for LLMs—roles,
+**Scope:** Applies to **writing effective instructions**—roles,
 constraints, examples, iteration, verification. Not model training, not
 org-wide AI policy. Pair with [`prompt-patterns.md`](prompt-patterns.md)
-and [`evaluating-llm-output.md`](evaluating-llm-output.md).
+and [`evaluating-model-output.md`](evaluating-model-output.md).
 ```
 
 ## 3. Excerpt: dense but kind
@@ -87,7 +87,7 @@ and [`evaluating-llm-output.md`](evaluating-llm-output.md).
 - **Meta** = judgment calls the reader must make.
 - Keep each to 3–5 bullets.
 
-This section is often what an LLM will quote when summarising—make it useful standalone.
+Write this section so it still works when quoted alone (for summaries or inline help).
 
 ## 5. Numbered sections
 
@@ -106,7 +106,7 @@ This section is often what an LLM will quote when summarising—make it useful s
 ## 7. Cross-linking
 
 - In **Scope**: link 2–4 related pages.
-- Inside sections: link when the topic genuinely lives elsewhere ("see `evaluating-llm-output.md`"), not as decoration.
+- Inside sections: link when the topic genuinely lives elsewhere ("see `evaluating-model-output.md`"), not as decoration.
 - Use **relative paths**; check they resolve.
 - Link the **EN↔DE** counterpart at the bottom.
 
@@ -143,7 +143,7 @@ This section is often what an LLM will quote when summarising—make it useful s
 
 ## Core idea
 
-A doc here is a **contract** with two readers—a skimming human and a retrieving model. Give them the same thing: **predictable shape, concrete examples, short sentences, honest uncertainty, and cross-links that point to the next most useful page.**
+A page here is a small **contract** with whoever reads it next: **predictable shape, concrete examples, short sentences, honest uncertainty, and cross-links that point to the next most useful page.**
 
 ## Further reading
 
@@ -154,4 +154,4 @@ A doc here is a **contract** with two readers—a skimming human and a retrievin
 
 ---
 
-German version: [`skill-dokumente-fuer-llms.md`](../../de/ki-&-prompting/skill-dokumente-fuer-llms.md)
+German version: [`skill-dokumentation-schreiben.md`](../../de/ki-&-prompting/skill-dokumentation-schreiben.md)

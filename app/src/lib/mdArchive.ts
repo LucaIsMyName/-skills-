@@ -1,6 +1,5 @@
-import JSZip from 'jszip'
 import { fetchRawMarkdown, type ExplainerMeta } from './github'
-import { downloadMarkdownFile } from './exports'
+import { downloadMarkdownFile } from './downloadMarkdownFile'
 import { exportFileStem } from './strings'
 
 /** Chapter archive: `chapter-slug.zip` with one `chapter-slug-page-slug.md` per page. */
@@ -9,6 +8,7 @@ export async function downloadChapterMarkdownZip(
   pages: ExplainerMeta[],
 ): Promise<void> {
   if (pages.length === 0) return
+  const { default: JSZip } = await import('jszip')
   const zip = new JSZip()
   await Promise.all(
     pages.map(async (p) => {

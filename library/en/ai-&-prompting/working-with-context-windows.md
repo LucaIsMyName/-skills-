@@ -1,6 +1,6 @@
 # Working with context windows
 
-**Scope:** Applies to **fitting documents, history, and tool outputs** into an LLM's **context window**—chunking, summarisation, prioritisation, re-anchoring, cost and latency trade-offs. Not model architecture, not production vector-store engineering (see [`rag-basics.md`](rag-basics.md) for that). Pair with [`prompting-basics.md`](prompting-basics.md), [`prompt-patterns.md`](prompt-patterns.md), [`writing-skill-docs-for-llms.md`](writing-skill-docs-for-llms.md), and [`working-with-llms-in-code.md`](../coding/working-with-llms-in-code.md).
+**Scope:** Applies to **fitting documents, history, and tool outputs** into a **language model's context window**—chunking, summarisation, prioritisation, re-anchoring, cost and latency trade-offs. Not model architecture, not production vector-store engineering (see [`rag-basics.md`](rag-basics.md) for that). Pair with [`prompting-basics.md`](prompting-basics.md), [`prompt-patterns.md`](prompt-patterns.md), [`writing-skill-documentation.md`](writing-skill-documentation.md), and [`language-models-in-code.md`](../coding/language-models-in-code.md).
 
 ## Excerpt
 
@@ -90,7 +90,7 @@ Summaries compress **information** but also compress **errors**. Make the goal e
 
 - **Map**: for each chunk, produce a bounded artefact (5 bullets + 1 quote).
 - **Reduce**: combine the map outputs into a structured final artefact.
-- **Verify**: spot-check quotes against the source (see [`evaluating-llm-output.md`](evaluating-llm-output.md)).
+- **Verify**: spot-check quotes against the source (see [`evaluating-model-output.md`](evaluating-model-output.md)).
 
 ### Bad
 
@@ -112,7 +112,7 @@ Constraints:
 
 ## 4. Re-anchoring long threads
 
-LLMs forget why you started talking. Every several turns, re-anchor.
+Models forget why you started talking. Every several turns, re-anchor.
 
 ### Good
 

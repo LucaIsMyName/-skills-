@@ -144,7 +144,7 @@ Default in System, per Aufgabe überschreiben.
 ## 7. Versionierung und Regressionstests
 
 - System-Prompts **versionieren** (z. B. `v7 — 2025-03`).
-- **Regressionsset** mit 5–20 kanonischen Prompts; bei jeder Änderung laufen lassen (siehe [`llm-output-bewerten.md`](llm-output-bewerten.md)).
+- **Regressionsset** mit 5–20 kanonischen Prompts; bei jeder Änderung laufen lassen (siehe [`modelloutput-bewerten.md`](modelloutput-bewerten.md)).
 - **Diff** zwischen Versionen und beobachtete Verhaltensänderungen loggen.
 
 ## 8. Sicherheit

@@ -1,3 +1,9 @@
+/**
+ * GitHub settings for this SPA. Any `VITE_*` variable is inlined into the
+ * client bundle at build time — it is **not secret**. Do not put a PAT here
+ * expecting privacy; use unauthenticated public API access only, or a
+ * server-side proxy if you need a hidden token.
+ */
 export function getGithubConfig() {
   return {
     owner: import.meta.env.VITE_GITHUB_OWNER ?? 'LucaIsMyName',

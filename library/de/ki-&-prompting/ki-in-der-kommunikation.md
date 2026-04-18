@@ -1,6 +1,6 @@
 # KI in der Kommunikation
 
-**Scope:** Gilt für **LLMs in der Kommunikationsarbeit**—Newsletter, Spendenmails, Social Posts, Pressemitteilungen, Übersetzungen, interne Memos. Nicht Bildgenerierung (siehe [`bilder-und-fotografie.md`](../design/bilder-und-fotografie.md)), nicht Rechts-/Medizinrat, nicht KI für Kinderschutzentscheidungen. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md), [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md), [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md) und [`llm-output-bewerten.md`](llm-output-bewerten.md).
+**Scope:** Gilt für **Sprachmodelle in der Kommunikationsarbeit**—Newsletter, Spendenmails, Social Posts, Pressemitteilungen, Übersetzungen, interne Memos. Nicht Bildgenerierung (siehe [`bilder-und-fotografie.md`](../design/bilder-und-fotografie.md)), nicht Rechts-/Medizinrat, nicht KI für Kinderschutzentscheidungen. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md), [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md), [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md) und [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
 
 ## Excerpt
 

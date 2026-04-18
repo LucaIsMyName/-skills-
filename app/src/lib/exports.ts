@@ -1,18 +1,12 @@
+/**
+ * Heavy export path (docx, jsPDF, embedded fonts). Import only via
+ * `import()` from click handlers so Vite keeps it in a separate chunk.
+ */
 import { Packer } from 'docx'
 import { jsPDF } from 'jspdf'
 import { buildDocxFromMdast } from './mdastToDocx'
 import { buildStructuredPdf } from './mdastToPdf'
 import { parseMarkdown } from './parseMarkdown'
-
-export function downloadMarkdownFile(filename: string, body: string): void {
-  const blob = new Blob([body], { type: 'text/markdown;charset=utf-8' })
-  const a = document.createElement('a')
-  a.href = URL.createObjectURL(blob)
-  a.download = filename.endsWith('.md') ? filename : `${filename}.md`
-  a.rel = 'noopener'
-  a.click()
-  URL.revokeObjectURL(a.href)
-}
 
 function triggerBlobDownload(blob: Blob, filename: string): void {
   const url = URL.createObjectURL(blob)

@@ -1,6 +1,6 @@
-# Evaluating LLM output
+# Evaluating model output
 
-**Scope:** Applies to **judging whether an LLM answer is good enough to use**—rubrics, human review, automatic checks, regression sets, red-teaming. Not model benchmarking. Pair with [`prompting-basics.md`](prompting-basics.md), [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md), [`source-evaluation-and-fact-checking.md`](../research-&-analysis/source-evaluation-and-fact-checking.md), and [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md).
+**Scope:** Applies to **judging whether a model-generated answer is good enough to use**—rubrics, human review, automatic checks, regression sets, red-teaming. Not model benchmarking. Pair with [`prompting-basics.md`](prompting-basics.md), [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md), [`source-evaluation-and-fact-checking.md`](../research-&-analysis/source-evaluation-and-fact-checking.md), and [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md).
 
 ## Excerpt
 
@@ -79,9 +79,9 @@ Cheap, fast, and catch a lot:
 
 Run these in CI for any AI-generated artefact that ships.
 
-## 5. LLM-as-judge (with caution)
+## 5. Using a second model as judge (with caution)
 
-Using an LLM to grade another LLM:
+Using one model to grade another's output:
 
 - Works for **pattern** checks (format, tone, obvious contradictions).
 - Is **weak** on facts—a judge that doesn't know the ground truth cannot verify claims.
@@ -162,4 +162,4 @@ Evaluation is **spec work, applied**: name the criteria, check accuracy first, a
 
 ---
 
-German version: [`llm-output-bewerten.md`](../../de/ki-&-prompting/llm-output-bewerten.md)
+German version: [`modelloutput-bewerten.md`](../../de/ki-&-prompting/modelloutput-bewerten.md)

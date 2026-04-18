@@ -1,6 +1,6 @@
 # Structured output and tool use
 
-**Scope:** Applies to **getting machine-parseable outputs from LLMs** (JSON, schemas, enums) and **wiring LLMs to tools** (functions, search, databases) safely. Not full API design (see [`api-design-and-rest.md`](../coding/api-design-and-rest.md)) and not production MLOps. Pair with [`prompting-basics.md`](prompting-basics.md), [`prompt-patterns.md`](prompt-patterns.md), [`evaluating-llm-output.md`](evaluating-llm-output.md), [`working-with-llms-in-code.md`](../coding/working-with-llms-in-code.md), and [`security-for-web-apps.md`](../coding/security-for-web-apps.md).
+**Scope:** Applies to **getting machine-parseable outputs from language models** (JSON, schemas, enums) and **wiring models to tools** (functions, search, databases) safely. Not full API design (see [`api-design-and-rest.md`](../coding/api-design-and-rest.md)) and not production MLOps. Pair with [`prompting-basics.md`](prompting-basics.md), [`prompt-patterns.md`](prompt-patterns.md), [`evaluating-model-output.md`](evaluating-model-output.md), [`language-models-in-code.md`](../coding/language-models-in-code.md), and [`security-for-web-apps.md`](../coding/security-for-web-apps.md).
 
 ## Excerpt
 
@@ -28,7 +28,7 @@
 
 ## Purpose
 
-Turn LLM outputs into **reliable inputs for programs**: valid, validated, and **safe to act on**—and keep humans in the loop where mistakes matter.
+Turn model outputs into **reliable inputs for programs**: valid, validated, and **safe to act on**—and keep humans in the loop where mistakes matter.
 
 ---
 
@@ -179,7 +179,7 @@ Aggregate dashboards: invalid-JSON rate, tool-error rate, refusal rate, top fail
 ## 9. Testing and regression
 
 - Maintain a **fixture set** of inputs with expected structured outputs (or properties of outputs).
-- Re-run on every model / prompt / schema change (see [`evaluating-llm-output.md`](evaluating-llm-output.md)).
+- Re-run on every model / prompt / schema change (see [`evaluating-model-output.md`](evaluating-model-output.md)).
 - Property tests: "output always has ≤5 bullets", "enum fields are in set", "URLs resolve".
 
 ## 10. What not to do
@@ -193,7 +193,7 @@ Aggregate dashboards: invalid-JSON rate, tool-error rate, refusal rate, top fail
 
 ## Core idea
 
-**Schema + validation + permissioned tools + human-in-the-loop** is how LLMs stop being chat toys and become **systems you can ship**. The model is a renderer of structure—your code owns truth, safety, and side effects.
+**Schema + validation + permissioned tools + human-in-the-loop** is how assistants stop being chat toys and become **systems you can ship**. The model is a renderer of structure—your code owns truth, safety, and side effects.
 
 ## Further reading
 

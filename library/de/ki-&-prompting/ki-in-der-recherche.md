@@ -1,6 +1,6 @@
 # KI in der Recherche
 
-**Scope:** Gilt für **LLMs in Recherche**—Literaturscans, Interview-Zusammenfassungen, qualitative Kodierung, Umfrageentwürfe, Hypothesenbildung. Nicht Statistik (echte Tools), nicht peer-reviewed Methodik. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`rag-grundlagen.md`](rag-grundlagen.md), [`desk-research.md`](../recherche-&-analyse/desk-research.md), [`quellenpruefung-und-faktencheck.md`](../recherche-&-analyse/quellenpruefung-und-faktencheck.md), [`qualitative-codierung.md`](../recherche-&-analyse/qualitative-codierung.md) und [`llm-output-bewerten.md`](llm-output-bewerten.md).
+**Scope:** Gilt für **Sprachmodelle in der Recherche**—Literaturscans, Interview-Zusammenfassungen, qualitative Kodierung, Umfrageentwürfe, Hypothesenbildung. Nicht Statistik (echte Tools), nicht peer-reviewed Methodik. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`rag-grundlagen.md`](rag-grundlagen.md), [`desk-research.md`](../recherche-&-analyse/desk-research.md), [`quellenpruefung-und-faktencheck.md`](../recherche-&-analyse/quellenpruefung-und-faktencheck.md), [`qualitative-codierung.md`](../recherche-&-analyse/qualitative-codierung.md) und [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
 
 ## Excerpt
 
@@ -22,7 +22,7 @@
 
 ### Meta
 
-- LLMs sind **schön plausibel**. Plausibel ≠ wahr.
+- Generierte Texte sind **schön plausibel**. Plausibel ≠ wahr.
 - Eloquent falsch ist schlimmer als keine Antwort.
 
 ---

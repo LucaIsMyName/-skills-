@@ -1,6 +1,6 @@
 # Kontextfenster und Chunks
 
-**Scope:** Gilt für **Passen von Dokumenten, Verlauf und Tool-Outputs** ins **Kontextfenster** eines LLM—Chunking, Zusammenfassung, Priorisierung, Re-Anchoring, Kosten/Latenz. Nicht Modellarchitektur, nicht Produktions-Vektor-Infra (siehe [`rag-grundlagen.md`](rag-grundlagen.md)). Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`prompt-muster.md`](prompt-muster.md), [`skill-dokumente-fuer-llms.md`](skill-dokumente-fuer-llms.md) und [`llms-im-code-nutzen.md`](../coding/llms-im-code-nutzen.md).
+**Scope:** Gilt für **Passen von Dokumenten, Verlauf und Tool-Outputs** ins **Kontextfenster** eines Sprachmodells—Chunking, Zusammenfassung, Priorisierung, Re-Anchoring, Kosten/Latenz. Nicht Modellarchitektur, nicht Produktions-Vektor-Infra (siehe [`rag-grundlagen.md`](rag-grundlagen.md)). Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`prompt-muster.md`](prompt-muster.md), [`skill-dokumentation-schreiben.md`](skill-dokumentation-schreiben.md) und [`sprachmodelle-im-code-nutzen.md`](../coding/sprachmodelle-im-code-nutzen.md).
 
 ## Excerpt
 
@@ -108,7 +108,7 @@ Einschränkungen:
 
 ## 4. Re-Anchoring langer Threads
 
-LLMs vergessen, warum ihr redet. Alle paar Turns erinnern.
+Modelle vergessen, warum ihr redet. Alle paar Turns erinnern.
 
 ### Gut
 

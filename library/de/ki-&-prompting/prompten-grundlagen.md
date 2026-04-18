@@ -1,6 +1,6 @@
 # Prompten-Grundlagen
 
-**Scope:** Gilt für **wirksame Anweisungen** an große Sprachmodelle (LLMs)—Rollen, Einschränkungen, Beispiele, Iteration, Prüfung. Nicht für Modelltraining, Einkauf oder organisationsweite KI-Richtlinien (siehe [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md)). Kombiniere mit [`prompt-muster.md`](prompt-muster.md), [`llm-output-bewerten.md`](llm-output-bewerten.md) und [`skill-dokumente-fuer-llms.md`](skill-dokumente-fuer-llms.md).
+**Scope:** Gilt für **wirksame Anweisungen** an Sprachmodelle—Rollen, Einschränkungen, Beispiele, Iteration, Prüfung. Nicht für Modelltraining, Einkauf oder organisationsweite KI-Richtlinien (siehe [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md)). Kombiniere mit [`prompt-muster.md`](prompt-muster.md), [`modelloutput-bewerten.md`](modelloutput-bewerten.md) und [`skill-dokumentation-schreiben.md`](skill-dokumentation-schreiben.md).
 
 ## Excerpt
 
@@ -33,7 +33,7 @@ Vor dem Absenden **Erfolg** und **rote Linien** festlegen. Prompts ohne Ziel sin
 
 ## Zweck
 
-LLMs als **Werkzeuge unter menschlichem Urteil** einsetzen: klare Anweisungen, enge Feedback-Schleifen, Prüfung—damit Outputs **nützlich, sicher, on-brief** sind und nicht nur gut klingen.
+Sprachmodelle als **Werkzeuge unter menschlichem Urteil** einsetzen: klare Anweisungen, enge Feedback-Schleifen, Prüfung—damit Outputs **nützlich, sicher, on-brief** sind und nicht nur gut klingen.
 
 ---
 
@@ -127,7 +127,7 @@ So nicht (zu marktschreierisch):
 Prompt-Engineering ist **billiges Feedback, keine Orakel-Suche**.
 
 1. Kleinster Prompt, der plausibel reicht.
-2. Output gegen **Abnahmekriterien** prüfen (siehe [`llm-output-bewerten.md`](llm-output-bewerten.md)).
+2. Output gegen **Abnahmekriterien** prüfen (siehe [`modelloutput-bewerten.md`](modelloutput-bewerten.md)).
 3. **Eine** Fehlerart identifizieren (Ton? erfundene Zahl? fehlende Sektion?).
 4. **Eine** Sache ändern—eine Regel oder ein Beispiel.
 5. Neu laufen lassen. Stopp, wenn der Output gut genug zum Editieren ist.
@@ -139,7 +139,7 @@ Prompt-Engineering ist **billiges Feedback, keine Orakel-Suche**.
 
 ## 6. Grundierung: Fakten statt Stimmung
 
-LLMs erzeugen plausiblen Text. Plausibilität ist nicht Wahrheit.
+Modelle erzeugen plausiblen Text. Plausibilität ist nicht Wahrheit.
 
 - **Fakten mitgeben**, nicht ans "Gedächtnis" des Modells appellieren.
 - Bei Web-Aussagen erlauben, "nicht in den Quellen enthalten" zu sagen, statt zu erfinden.

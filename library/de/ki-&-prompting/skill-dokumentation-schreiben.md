@@ -1,10 +1,10 @@
-# Skill-Dokumente für LLMs
+# Skill-Dokumentation schreiben
 
-**Scope:** Gilt für **diese Bibliothek und ähnliche Doc-Sets** für Menschen **und** LLMs—Struktur, Überschriften, Querverweise, Beispiele, Stil. Keine allgemeine Technik-Schreib-Theorie. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`kontextfenster-und-chunks.md`](kontextfenster-und-chunks.md), [`markdown-und-mdx.md`](../coding/markdown-und-mdx.md) und [`AGENTS.md`](../../../AGENTS.md).
+**Scope:** Gilt für **diese Bibliothek und ähnliche Doc-Sets**—Struktur, Überschriften, Querverweise, Beispiele, Stil, damit Texte gut lesbar, zitierbar und konsistent bleiben. Keine allgemeine Technik-Schreib-Theorie. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`kontextfenster-und-chunks.md`](kontextfenster-und-chunks.md), [`markdown-und-mdx.md`](../coding/markdown-und-mdx.md) und [`AGENTS.md`](../../../AGENTS.md).
 
 ## Excerpt
 
-- **Vorhersagbare Form** hilft Menschen beim Skimmen und Modellen beim Retrieval: H1, Scope, Excerpt, Before, Purpose, nummerierte Sektionen, Core idea, Further reading.
+- **Vorhersagbare Form** hilft Lesenden beim Skimmen und hilft Suche und Zusammenfassung: H1, Scope, Excerpt, Before, Purpose, nummerierte Sektionen, Core idea, Further reading.
 - **Kurze, deklarative** Sätze. Kurze Absätze. Viele **Schlecht/Gut**-Paare.
 - **Verknüpfen** zu Geschwisterseiten in Scope; erneut in Sektionen, wo sinnvoll.
 - **Eine Idee pro Seite.** Aufteilen, wenn >300 Zeilen.
@@ -29,7 +29,7 @@
 
 ## Zweck
 
-Dokumente produzieren, die **Menschen und LLMs** sicher nutzen können—skimmbar, verlinkbar, abrufbar, konsistent.
+Dokumente schreiben, die **zuverlässig nutzbar** sind—skimmbar, verlinkbar, abrufbar, konsistent.
 
 ---
 
@@ -69,9 +69,9 @@ Es geht um Prompts.
 ```md
 # Prompten-Grundlagen
 
-**Scope:** Gilt für **wirksame Anweisungen** an LLMs—Rollen, Einschränkungen,
+**Scope:** Gilt für **wirksame Anweisungen**—Rollen, Einschränkungen,
 Beispiele, Iteration, Prüfung. Nicht Modelltraining, nicht Policy. Kombiniere
-mit [`prompt-muster.md`](prompt-muster.md) und [`llm-output-bewerten.md`](llm-output-bewerten.md).
+mit [`prompt-muster.md`](prompt-muster.md) und [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
 ```
 
 ## 3. Excerpt: dicht und freundlich
@@ -86,7 +86,7 @@ mit [`prompt-muster.md`](prompt-muster.md) und [`llm-output-bewerten.md`](llm-ou
 - **Meta** = Urteile, die Lesende fällen müssen.
 - 3–5 Bullets pro Teil.
 
-LLMs zitieren diesen Teil oft—als Stand-alone schreiben.
+So schreiben, dass der Abschnitt auch einzeln zitiert noch Sinn ergibt.
 
 ## 5. Nummerierte Sektionen
 
@@ -141,7 +141,7 @@ LLMs zitieren diesen Teil oft—als Stand-alone schreiben.
 
 ## Core idea
 
-Ein Doc hier ist ein **Vertrag** mit zwei Lesenden—Mensch im Skim und abrufendes Modell. Gib beiden dasselbe: **vorhersagbare Form, konkrete Beispiele, kurze Sätze, ehrliche Unsicherheit, nützliche Querverweise**.
+Ein Doc hier ist ein **Vertrag** mit der nächsten Leserin: **vorhersagbare Form, konkrete Beispiele, kurze Sätze, ehrliche Unsicherheit, nützliche Querverweise.**
 
 ## Further reading
 
@@ -152,4 +152,4 @@ Ein Doc hier ist ein **Vertrag** mit zwei Lesenden—Mensch im Skim und abrufend
 
 ---
 
-Englische Version: [`writing-skill-docs-for-llms.md`](../../en/ai-&-prompting/writing-skill-docs-for-llms.md)
+Englische Version: [`writing-skill-documentation.md`](../../en/ai-&-prompting/writing-skill-documentation.md)

@@ -1,5 +1,5 @@
-import { Link, useParams } from 'react-router-dom'
-import { useMemo } from 'react'
+import { Link, useLocation, useParams } from 'react-router-dom'
+import { useEffect, useMemo } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeSlug from 'rehype-slug'
@@ -8,14 +8,13 @@ import { useLibraryIndex } from '../hooks/useLibraryIndex'
 import { useMarkdown } from '../hooks/useMarkdown'
 import { mdLinkToAppPath } from '../lib/mdLinks'
 import { firstMarkdownTitle } from '../lib/github'
+import { InPageToc } from '../components/InPageToc'
+import { downloadMarkdownFile } from '../lib/downloadMarkdownFile'
+import { extractMarkdownToc } from '../lib/markdownToc'
 import { exportFileStem } from '../lib/strings'
-import {
-  downloadDocx,
-  downloadMarkdownFile,
-  downloadPdfFromMarkdown,
-} from '../lib/exports'
 
 export function MarkdownPage() {
+  const location = useLocation()
   const { lang, chapter, page } = useParams<{
     lang: string
     chapter: string
@@ -32,6 +31,14 @@ export function MarkdownPage() {
   const q = useMarkdown(path, Boolean(path))
   const md = q.data ?? ''
   const title = useMemo(() => firstMarkdownTitle(md), [md])
+  const tocItems = useMemo(() => extractMarkdownToc(md), [md])
+
+  useEffect(() => {
+    const id = location.hash.replace(/^#/, '')
+    if (!id) return
+    const run = () => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+    requestAnimationFrame(() => requestAnimationFrame(run))
+  }, [location.hash, md])
 
   const components = useMemo<Components>(() => {
     if (!lang || !chapter) return {}
@@ -124,7 +131,11 @@ export function MarkdownPage() {
           <button
             type="button"
             className="rounded-lg border border-zinc-200 bg-white px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-zinc-700 shadow-sm hover:bg-zinc-50"
-            onClick={() => void downloadDocx(`${baseName}.docx`, md, displayTitle)}
+            onClick={() =>
+              void import('../lib/exports').then(({ downloadDocx }) =>
+                downloadDocx(`${baseName}.docx`, md, displayTitle),
+              )
+            }
           >
             Word
           </button>
@@ -132,10 +143,8 @@ export function MarkdownPage() {
             type="button"
             className="rounded-lg border border-zinc-200 bg-zinc-800 px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-white shadow-sm hover:bg-zinc-900"
             onClick={() =>
-              void downloadPdfFromMarkdown(
-                md,
-                displayTitle,
-                `${baseName}.pdf`,
+              void import('../lib/exports').then(({ downloadPdfFromMarkdown }) =>
+                downloadPdfFromMarkdown(md, displayTitle, `${baseName}.pdf`),
               )
             }
           >
@@ -143,6 +152,8 @@ export function MarkdownPage() {
           </button>
         </div>
       </div>
+
+      <InPageToc items={tocItems} />
 
       <div className="prose prose-zinc max-w-none prose-headings:scroll-mt-24 prose-a:text-zinc-800 prose-code:font-mono prose-pre:font-mono">
         <ReactMarkdown

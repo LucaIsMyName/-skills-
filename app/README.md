@@ -17,7 +17,7 @@ Or from `app/`: `npm install` then `npm run dev`.
 
 Copy `.env.example` to `.env`. Defaults target the public `-skills-` repo on `main`.
 
-Set `VITE_GITHUB_TOKEN` if you hit API rate limits (unauthenticated requests are capped per hour).
+If you hit GitHub API rate limits on the file-tree request, you can set `VITE_GITHUB_TOKEN` — but **anything prefixed with `VITE_` is shipped to the browser**, so it is not a secret. Prefer living within public rate limits, or add a small server-side proxy if you need a non-exposed token.
 
 ## Build
 

@@ -1,6 +1,6 @@
 # Open-Source-Lizenzen
 
-**Scope:** Gilt für **Nutzung, Beitrag, Veröffentlichung** von Open-Source-Code—Lizenz wählen, fremde respektieren, Attribution, Copyleft, Dual-Licensing, Contributor-Agreements. Kein Patent-/Markenrecht, kein Compliance-Programm. Kombiniere mit [`git-und-commits.md`](../coding/git-und-commits.md), [`ki-training-und-scraping.md`](ki-training-und-scraping.md), [`llms-im-code-nutzen.md`](../coding/llms-im-code-nutzen.md) und [`dsgvo-grundlagen.md`](dsgvo-grundlagen.md).
+**Scope:** Gilt für **Nutzung, Beitrag, Veröffentlichung** von Open-Source-Code—Lizenz wählen, fremde respektieren, Attribution, Copyleft, Dual-Licensing, Contributor-Agreements. Kein Patent-/Markenrecht, kein Compliance-Programm. Kombiniere mit [`git-und-commits.md`](../coding/git-und-commits.md), [`ki-training-und-scraping.md`](ki-training-und-scraping.md), [`sprachmodelle-im-code-nutzen.md`](../coding/sprachmodelle-im-code-nutzen.md) und [`dsgvo-grundlagen.md`](dsgvo-grundlagen.md).
 
 ## Excerpt
 

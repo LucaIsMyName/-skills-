@@ -1,6 +1,6 @@
 # Open source licences
 
-**Scope:** Applies to **using, contributing, and releasing open-source code**—choosing a licence, respecting others', attribution, copyleft, dual-licensing, contributor agreements. Not patent law, not trademark, not full compliance programs. Pair with [`git-and-commits.md`](../coding/git-and-commits.md), [`ai-training-and-scraping.md`](ai-training-and-scraping.md), [`working-with-llms-in-code.md`](../coding/working-with-llms-in-code.md), and [`gdpr-basics.md`](gdpr-basics.md).
+**Scope:** Applies to **using, contributing, and releasing open-source code**—choosing a licence, respecting others', attribution, copyleft, dual-licensing, contributor agreements. Not patent law, not trademark, not full compliance programs. Pair with [`git-and-commits.md`](../coding/git-and-commits.md), [`ai-training-and-scraping.md`](ai-training-and-scraping.md), [`language-models-in-code.md`](../coding/language-models-in-code.md), and [`gdpr-basics.md`](gdpr-basics.md).
 
 ## Excerpt
 

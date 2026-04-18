@@ -1,6 +1,6 @@
 # Using AI for research
 
-**Scope:** Applies to **LLMs in research tasks**—literature scans, interview summarisation, coding qualitative data, drafting survey questions, hypothesis generation. Not statistics (use proper tooling) and not peer-reviewed research methodology. Pair with [`prompting-basics.md`](prompting-basics.md), [`rag-basics.md`](rag-basics.md), [`desk-research.md`](../research-&-analysis/desk-research.md), [`source-evaluation-and-fact-checking.md`](../research-&-analysis/source-evaluation-and-fact-checking.md), [`qualitative-coding.md`](../research-&-analysis/qualitative-coding.md), and [`evaluating-llm-output.md`](evaluating-llm-output.md).
+**Scope:** Applies to **language models in research tasks**—literature scans, interview summarisation, coding qualitative data, drafting survey questions, hypothesis generation. Not statistics (use proper tooling) and not peer-reviewed research methodology. Pair with [`prompting-basics.md`](prompting-basics.md), [`rag-basics.md`](rag-basics.md), [`desk-research.md`](../research-&-analysis/desk-research.md), [`source-evaluation-and-fact-checking.md`](../research-&-analysis/source-evaluation-and-fact-checking.md), [`qualitative-coding.md`](../research-&-analysis/qualitative-coding.md), and [`evaluating-model-output.md`](evaluating-model-output.md).
 
 ## Excerpt
 
@@ -22,7 +22,7 @@
 
 ### Meta
 
-- LLMs are **beautiful at plausibility**; plausibility is not truth.
+- Generated drafts are **beautiful at plausibility**; plausibility is not truth.
 - A fluent wrong answer is worse than no answer.
 
 ---

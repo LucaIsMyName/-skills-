@@ -1,6 +1,6 @@
 # API-Design und REST
 
-**Scope:** Gilt für **eigene HTTP-APIs**—Ressourcen, Verben, Statuscodes, Payloads, Versionierung, Pagination, Fehler. Kein GraphQL-Design, kein internes RPC, kein Auth-Protokoll-Design. Kombiniere mit [`sicherheit-fuer-webapps.md`](sicherheit-fuer-webapps.md), [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md), [`llms-im-code-nutzen.md`](llms-im-code-nutzen.md) und [`performance-und-web-vitals.md`](performance-und-web-vitals.md).
+**Scope:** Gilt für **eigene HTTP-APIs**—Ressourcen, Verben, Statuscodes, Payloads, Versionierung, Pagination, Fehler. Kein GraphQL-Design, kein internes RPC, kein Auth-Protokoll-Design. Kombiniere mit [`sicherheit-fuer-webapps.md`](sicherheit-fuer-webapps.md), [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md), [`sprachmodelle-im-code-nutzen.md`](sprachmodelle-im-code-nutzen.md) und [`performance-und-web-vitals.md`](performance-und-web-vitals.md).
 
 ## Excerpt
 

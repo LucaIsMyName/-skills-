@@ -151,7 +151,7 @@ Put the **default** output contract in the system prompt; override per task in t
 ## 7. Versioning and regression testing
 
 - Tag system prompts with a **version** (e.g. `v7 — 2025-03`).
-- Keep a **regression set** of 5–20 canonical prompts; re-run on every change (see [`evaluating-llm-output.md`](evaluating-llm-output.md)).
+- Keep a **regression set** of 5–20 canonical prompts; re-run on every change (see [`evaluating-model-output.md`](evaluating-model-output.md)).
 - Log the **diff** between versions and the behaviour changes you observed.
 
 ## 8. Security considerations

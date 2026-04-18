@@ -1,6 +1,6 @@
 # RAG basics
 
-**Scope:** Applies to **retrieval-augmented generation**—answering questions from a specific corpus (docs, policies, wikis). Not full production vector-search engineering (sharding, BM25/hybrid tuning, multi-tenant security). Pair with [`working-with-context-windows.md`](working-with-context-windows.md), [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md), [`security-for-web-apps.md`](../coding/security-for-web-apps.md), and [`evaluating-llm-output.md`](evaluating-llm-output.md).
+**Scope:** Applies to **retrieval-augmented generation**—answering questions from a specific corpus (docs, policies, wikis). Not full production vector-search engineering (sharding, BM25/hybrid tuning, multi-tenant security). Pair with [`working-with-context-windows.md`](working-with-context-windows.md), [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md), [`security-for-web-apps.md`](../coding/security-for-web-apps.md), and [`evaluating-model-output.md`](evaluating-model-output.md).
 
 ## Excerpt
 
@@ -113,7 +113,7 @@ A RAG system without evals gets worse over time.
   - **Answer accuracy** — does the answer match the source?
   - **Refusal correctness** — does it refuse when it should?
 - Rerun on any change to chunker, embedder, prompt, or model.
-- See [`evaluating-llm-output.md`](evaluating-llm-output.md).
+- See [`evaluating-model-output.md`](evaluating-model-output.md).
 
 ## 8. Data freshness and ops
 
@@ -135,7 +135,7 @@ A RAG system without evals gets worse over time.
 - Dump **entire documents** into context "just in case".
 - Skip access control and hope the prompt enforces it.
 - Ship RAG over a corpus containing **PII** without a redaction / access strategy.
-- Treat RAG as a **replacement** for search—if keywords already work, don't add an LLM.
+- Treat RAG as a **replacement** for search—if keywords already work, don't add a generative layer you do not need.
 - Deploy a chatbot where the correct answer is "talk to a human" (e.g. safeguarding, crisis, benefits advice).
 
 ---

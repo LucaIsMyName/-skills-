@@ -1,6 +1,7 @@
 import { Outlet, useParams } from 'react-router-dom'
 import { useState } from 'react'
 import { useLibraryIndex } from '../hooks/useLibraryIndex'
+import { useUiStrings } from '../hooks/useUiStrings'
 import { AppLogo } from '../components/AppLogo'
 import { ChapterNav } from '../components/ChapterNav'
 import { LangSwitch } from '../components/LangSwitch'
@@ -11,6 +12,7 @@ export function DocsLayout() {
   }>()
   const { data, isLoading, error, isError } = useLibraryIndex()
   const [drawerOpen, setDrawerOpen] = useState(false)
+  const t = useUiStrings()
 
   const closeDrawer = () => setDrawerOpen(false)
 
@@ -44,7 +46,7 @@ export function DocsLayout() {
             aria-controls="mobile-drawer"
             onClick={() => setDrawerOpen((o) => !o)}
           >
-            Menu
+            {t.docsMenu}
           </button>
         </div>
       </header>
@@ -64,7 +66,7 @@ export function DocsLayout() {
             drawerOpen ? 'opacity-100' : 'opacity-0',
           ].join(' ')}
           onClick={closeDrawer}
-          aria-label="Close menu"
+          aria-label={t.docsCloseMenu}
         />
         <aside
           id="mobile-drawer"
@@ -87,13 +89,18 @@ export function DocsLayout() {
           </div>
           <div className="flex-1 overflow-y-auto p-3">
             {isLoading && (
-              <p className="text-sm text-zinc-500">Loading navigation…</p>
+              <p className="text-sm text-zinc-500">{t.docsLoadingNav}</p>
             )}
             {isError && (
               <p className="text-sm text-red-700">{String(error?.message)}</p>
             )}
             {index && (
-              <ChapterNav lang={lang} index={index} onPick={closeDrawer} />
+              <ChapterNav
+                lang={lang}
+                index={index}
+                onPick={closeDrawer}
+                ui={t}
+              />
             )}
           </div>
         </aside>
@@ -111,12 +118,12 @@ export function DocsLayout() {
         </div>
         <div className="min-h-0 flex-1 overflow-y-auto overflow-x-hidden overscroll-y-contain p-3">
           {isLoading && (
-            <p className="text-sm text-zinc-500">Loading navigation…</p>
+            <p className="text-sm text-zinc-500">{t.docsLoadingNav}</p>
           )}
           {isError && (
             <p className="text-sm text-red-700">{String(error?.message)}</p>
           )}
-          {index && <ChapterNav lang={lang} index={index} />}
+          {index && <ChapterNav lang={lang} index={index} ui={t} />}
         </div>
       </aside>
 

@@ -1,6 +1,6 @@
-# LLM-Output bewerten
+# Modelloutput bewerten
 
-**Scope:** Gilt für **Urteil, ob eine LLM-Antwort ausreicht**—Rubriken, Human-Review, automatische Checks, Regressionssets, Red-Teaming. Kein Modellbenchmarking. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md), [`quellenpruefung-und-faktencheck.md`](../recherche-&-analyse/quellenpruefung-und-faktencheck.md) und [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md).
+**Scope:** Gilt für **Urteil, ob eine Modell-Antwort ausreicht**—Rubriken, Human-Review, automatische Checks, Regressionssets, Red-Teaming. Kein Modellbenchmarking. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md), [`quellenpruefung-und-faktencheck.md`](../recherche-&-analyse/quellenpruefung-und-faktencheck.md) und [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md).
 
 ## Excerpt
 
@@ -79,7 +79,7 @@ Billig, schnell, fangen viel:
 
 In CI für veröffentlichte KI-Artefakte.
 
-## 5. LLM-als-Judge (vorsichtig)
+## 5. Zweites Modell als Judge (vorsichtig)
 
 - Geht für **Pattern**-Checks (Format, Ton, klare Widersprüche).
 - **Schwach** bei Fakten—ohne Ground Truth keine Verifikation.
@@ -158,4 +158,4 @@ Bewertung ist **Spezifikation, angewandt**: Kriterien nennen, Richtigkeit zuerst
 
 ---
 
-Englische Version: [`evaluating-llm-output.md`](../../en/ai-&-prompting/evaluating-llm-output.md)
+Englische Version: [`evaluating-model-output.md`](../../en/ai-&-prompting/evaluating-model-output.md)
