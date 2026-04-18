@@ -2,7 +2,7 @@
 
 **Scope:** Applies to human-centered nonprofit storytelling (impact stories, magazines, web); not fiction, not pure promotional copy without verified facts.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - Use when writing **people-first** stories for nonprofits and social-sector organisations: dignity, individuality, real situations.
 - **Ask** for consent, anonymization rules, approved quotes, and org/service names before inventing scenes.

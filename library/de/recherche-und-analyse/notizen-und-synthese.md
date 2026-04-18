@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für **Notieren, Ordnen und Umwandeln von Recherchenotizen in Entwürfe**—Artikel, Briefings, Berichte, Stories. Ergänzt [`recherche-grundlagen.md`](recherche-grundlagen.md), [`menschen-interviewen.md`](menschen-interviewen.md), [`literatur-zusammenfassen.md`](literatur-zusammenfassen.md), [`quellenbewertung-und-faktencheck.md`](quellenbewertung-und-faktencheck.md).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **Notizen sind fürs Denken**, nicht nur für Gedächtnis. Ideen festhalten, nicht nur Zitate.
 - **Eine Idee, eine Notiz**—atomare Notizen schlagen lange Transkripte beim Entwerfen.

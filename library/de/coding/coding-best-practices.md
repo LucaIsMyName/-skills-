@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für **allgemeine Softwarequalität** in Anwendungscode (jede Sprache/jedes Framework); nicht für Security-Audits, Infrastruktur oder Operations.
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - Nutzen für **Wartbarkeit, Lesbarkeit, Korrektheit**—einfache Designs statt cleverer Tricks.
 - Diese Datei ist **lang**: die Abschnitte unten vertiefen Muster, Beispiele und Anti-Muster.

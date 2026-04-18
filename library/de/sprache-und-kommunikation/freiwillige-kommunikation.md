@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für **Gewinnung, Onboarding, laufende Kommunikation und Würdigung** von Freiwilligen in NGOs und sozialen Organisationen—E-Mail, Web, Chat, Plakate und Veranstaltungen. Keine arbeitsrechtlichen Anstellungsverträge, keine vertiefende Freiwilligenrecht-Beratung (juristische Klärung einholen). Ergänzend zu [`newsletter-und-e-mail.md`](newsletter-und-e-mail.md), [`respektvolle-sprache.md`](respektvolle-sprache.md) und [`datenschutz-in-der-kommunikation.md`](../ethik-schutz-recht/datenschutz-in-der-kommunikation.md).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **Klare Aufgabenbeschreibung.** Rollenbezeichnung, Zeitumfang, Ort, Fähigkeiten und Bewerbungsweg—Freiwillige sollten Grundlagen nicht suchen müssen.
 - **Würde und sachliche Darstellung.** Wirkung ohne Mitleidsrhetorik; kein „Retter“-Framing weder für Freiwillige noch für Begünstigte.

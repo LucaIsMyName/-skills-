@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für **Recherche- und Reportage-Interviews**—Fachpersonen, Praktiker:innen, Betroffene, Amtsträger:innen—um Material für Stories, Briefs, Berichte zu sammeln. Nicht Medientraining für Sprecher:innen (siehe [`interview-vorbereitung.md`](../sprache-und-kommunikation/interview-vorbereitung.md)). Ergänzt [`stories-schreiben.md`](../sprache-und-kommunikation/stories-schreiben.md), [`respektvolle-sprache.md`](../sprache-und-kommunikation/respektvolle-sprache.md), [`kinder-und-betroffenenschutz.md`](../ethik-schutz-recht/kinder-und-betroffenenschutz.md), [`datenschutz-in-der-kommunikation.md`](../ethik-schutz-recht/datenschutz-in-der-kommunikation.md).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **Das Interview gehört ihnen, nicht dir.** Du führst die Fragen, sie besitzen die Geschichte.
 - **Einwilligung vor Inhalt.** Zweck, Nutzung, Rechte *vor* den Fragen erklären und am Ende erneut bestätigen.

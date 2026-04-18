@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für **Schriftsetzung in UI, Web, Print und Folien**—Skala, Hierarchie, Paarung, Ziffern, Lesbarkeit. Nicht komplettes Brand-Handbuch (siehe `markenrichtlinien-erstellen.md`). Ergänzt [`design-basics.md`](design-basics.md), [`design-tokens-und-theming.md`](design-tokens-und-theming.md), [`gute-interfaces-designen.md`](gute-interfaces-designen.md).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **Lesbarkeit zuerst, Stil danach.** Wer zweimal liest, hat die Schrift schon verloren.
 - **Eine Schrift reicht**, zwei sind ein System, drei sind ein Problem.

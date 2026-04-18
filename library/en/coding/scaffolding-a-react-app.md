@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **bootstrapping new React projects** and initial repo layout; not migrating legacy codebases or choosing non-React stacks.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - Use when **creating a new React app** from scratch: tooling order, folder expectations, consistency with project conventions.
 - Follow the **scaffold sequence** in the file; confirm toolchain (package manager, Vite/CRA, etc.) with the user if unknown.

@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** **Bewegung in der UI**: Übergänge, Feedback-Animationen, Ladezustände; keine Videoproduktion, Spielanimation oder TV-Spots.
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - Motion nutzen, um **Ursache und Wirkung** zu verdeutlichen, nicht zur Dekoration.
 - **`prefers-reduced-motion`** respektieren: nicht-animierte Alternative anbieten.

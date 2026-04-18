@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für **neue React-Projekte** und initiales Repo-Layout; nicht für Migration alter Codebasen oder die Wahl nicht-React-Stacks.
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - Nutzen beim **Neuanlegen einer React-App** von Grund auf: Tooling-Reihenfolge, Ordnererwartungen, Konsistenz mit Projektkonventionen.
 - Die **Scaffold-Sequenz** in dieser Datei befolgen; Toolchain (Package Manager, Vite/CRA etc.) mit Nutzer:in klären, falls unbekannt.

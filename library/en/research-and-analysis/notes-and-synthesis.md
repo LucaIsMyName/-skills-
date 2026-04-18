@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **taking, organising, and turning research notes into drafts**—for articles, briefings, reports, and stories. Pair with [`desk-research.md`](desk-research.md), [`interviewing-people.md`](interviewing-people.md), [`literature-summarising.md`](literature-summarising.md), [`source-evaluation-and-fact-checking.md`](source-evaluation-and-fact-checking.md).
 
-## Excerpt (read this first)
+## Excerpt 
 
 - **Notes are for thinking**, not for memory alone. Capture ideas, not just quotes.
 - **One fact, one note**—atomic notes beat long transcripts when it is time to draft.

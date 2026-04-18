@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **scripting and delivering spoken content**—keynotes, opening remarks, panel statements, ceremonies, short video addresses. Not interviewing (see [`interview-preparation.md`](interview-preparation.md)) and not presentation slides (see [`slides-and-presentations.md`](../design/slides-and-presentations.md)). Pair with [`storytelling.md`](storytelling.md).
 
-## Excerpt (read this first)
+## Excerpt 
 
 - **One audience, one goal, one takeaway.** Everything else is support.
 - **Spoken language is short.** Sentences fit on one breath; lists fit on one hand.

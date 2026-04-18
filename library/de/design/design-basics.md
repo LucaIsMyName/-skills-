@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Visuelles und UI-/Produktdesign; **keine** Textredaktion für Barrierefreiheit in Kommunikation (eigener Sprach-Skill) und keine Markenstrategie allein.
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - Ziel: **nützlich, verständlich, langlebig**—nutzerzentriert, konsistent, hierarchisch klar.
 - Nutzen für Layout, Typografie, Farbe, Systeme; Details und Beispiele in der langen Referenz unten.

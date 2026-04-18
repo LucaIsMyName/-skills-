@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **naming and scaling design tokens** (color, space, radius, typography) and **light/dark themes** in digital products; not a full design system governance process or code implementation details (see coding skills for implementation).
 
-## Excerpt (read this first)
+## Excerpt 
 
 - Use when defining **semantic tokens** (`color.action.primary`) instead of only raw values (`#3366cc`).
 - Keep **one source of truth** for spacing and radius scales; document dark-mode mappings alongside light.

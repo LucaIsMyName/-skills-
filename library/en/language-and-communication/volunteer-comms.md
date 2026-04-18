@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **recruitment, onboarding, ongoing communication, and recognition** for volunteers in nonprofits and social-sector organisations—email, web, chat, posters, and events. Not HR employment contracts, not volunteer law in detail (point to your legal counsel). Pair with [`newsletter-and-email.md`](newsletter-and-email.md), [`respectful-language.md`](respectful-language.md), and [`data-protection-for-comms.md`](../ethics-safeguarding-legal/data-protection-for-comms.md).
 
-## Excerpt (read this first)
+## Excerpt 
 
 - **Clear asks.** Role title, time commitment, location, skills, and how to apply—volunteers should not hunt for basics.
 - **Dignity and accuracy.** Describe impact without pity framing; avoid “saviour” language about volunteers or beneficiaries.

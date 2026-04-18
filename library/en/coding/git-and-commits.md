@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **day-to-day git usage**—branches, commits, PRs, reviews. Not for server-side git administration, not for release engineering. Pair with [`agents.md`](../../agents.md) for agent-specific commit rules and [`code-review-checklist.md`](code-review-checklist.md) for review.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - **Small, focused commits**; one logical change each. Refactors and behaviour changes travel in separate commits.
 - **Conventional commit** prefixes: `feat`, `fix`, `refactor`, `docs`, `test`, `chore`, `perf`, `style`, `build`, `ci`.

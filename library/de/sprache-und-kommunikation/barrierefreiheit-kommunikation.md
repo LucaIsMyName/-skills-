@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** **Kommunikationsabteilungen** (Öffentlichkeitsarbeit, Marketing, Social Media, interne Kommunikation, Kampagnen): **wie ihr textet, briefet, sprecht und Inhalte plant**, damit mehr Menschen zugreifen und folgen können. **Nicht** für Entwicklung, CMS-Technik oder Produkt-UI-Code—dafür die Design-Skills (z. B. [`design-basics.md`](../design/design-basics.md)).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - Nutzen bei **Texten und Botschaften**: Newsletter, Presse, Social, Veranstaltungen, Podcasts, **Briefings** an Web/Design.
 - Fokus: **verständliche Sprache**, **respektvolle Wortwahl**, **Bildbeschreibungen** (in Worten, was zu sehen ist), **verständliche Linkformulierungen**, **Untertitel/Transkripte** als Kommunikationsleistung (Skript, Beauftragung), **zugängliches Sprechen** (deutlich, langsamer bei Bedarf, **sichtbare Inhalte mündlich einführen**).

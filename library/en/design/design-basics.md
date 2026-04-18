@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **visual and UI/product design principles**; not copywriting for accessibility (use language-and-communication skills) or standalone marketing strategy.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - Use for **user-centered** layout, hierarchy, typography, color, and consistency across UI and services.
 - Good design here means **useful, understandable, durable**—not decoration-only.

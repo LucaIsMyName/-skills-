@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Wirksames Storytelling für Texte, Kampagnen und Reden; **kein** Ersatz für freigegebene **Reportagen über reale Menschen**—dafür [`stories-schreiben.md`](stories-schreiben.md), [`respektvolle-sprache.md`](respektvolle-sprache.md) und ggf. [`die-heldenreise.md`](die-heldenreise.md) ergänzen.
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **Fünf Elemente:** Held:in, Ort, Handlung, Gegenstand, Fakten & Hintergrund; **Erzählerin** vermittelt Fakten, führt Aufmerksamkeit, stellt Zusammenhänge—vorsichtig bei Deutung und Mutmaßung.
 - Dazu **Leiter der Erzählung**, **Erzählsatz**, Dramaturgie (Drei Akt, Heldenreise-Kurzform).

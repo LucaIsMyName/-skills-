@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **interface and interaction design** (UI patterns, flows, clarity); not backend architecture or comms accessibility copy.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - Use when shaping **screens, flows, and controls** so interfaces are easy to understand and use.
 - Focus on clarity, feedback, consistency, and sensible defaults; details and examples follow.

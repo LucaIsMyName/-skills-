@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Respektvolle Formulierungen zu sozialen Themen und Menschen in **Kommunikationstexten**; kein Ersatz für Rechtsberatung, Medizin oder Personalakte.
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - Nutzen bei **Texten über Armut, Behinderung, Flucht, Pflege** usw.: Würde, keine Pauschalurteile.
 - **Nachfragen** bei fehlendem Kontext oder Pflichtbegriffen der Organisation.

@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **short social posts and captions** for nonprofit and social-purpose accounts; not long-form articles, press releases, or paid ad policy compliance (follow platform + legal review).
 
-## Excerpt (read this first)
+## Excerpt 
 
 - Use for **platform-native** copy: length limits, tone, one main idea per post where possible.
 - **Consent** for photos and quotes; **no sensationalizing** beneficiaries or “poverty porn.”

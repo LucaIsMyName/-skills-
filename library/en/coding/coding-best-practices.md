@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **general software quality** in application code (any language/framework); not security audits, infrastructure, or operations.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - Use for **maintainability, readability, correctness**—prefer simple designs over clever ones.
 - This file is **long**: the sections below add patterns, examples, and anti-patterns in depth.

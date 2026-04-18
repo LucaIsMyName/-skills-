@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** **Folien** (Vorträge, Workshops, Vorstand) für **Lesbarkeit und Struktur**; keine Vollanimation oder Video. Für **Web-UI** siehe [`gute-interfaces-designen.md`](gute-interfaces-designen.md).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **Eine Hauptidee pro Folie**; große Schrift; hoher Kontrast für Beamer.
 - **Einheitliche Vorlage**: gleiche Ränder, Titelstil, Ausrichtung.

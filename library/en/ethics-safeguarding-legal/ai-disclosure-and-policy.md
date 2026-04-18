@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **using AI in communications work**—drafting, translating, editing, generating images, summarising, transcribing. Not a replacement for an org-wide AI policy or legal review. Pair with [`data-protection-for-comms.md`](data-protection-for-comms.md), [`copyright-and-usage-rights.md`](copyright-and-usage-rights.md), and [`respectful-language.md`](../language-and-communication/respectful-language.md).
 
-## Excerpt (read this first)
+## Excerpt 
 
 - **AI is a tool**, not an author. The human publishing the piece stays responsible for accuracy, consent, and tone.
 - **Disclose meaningful AI use** to the reader. "We used spell-check" is not material; "this image was fully AI-generated" is.

@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **donor-facing appeals** in email, letter, landing page, and campaign copy for nonprofit and social-sector work. Not grant applications (see [`grant-writing.md`](grant-writing.md)) and not major-gift negotiations. Pair with [`writing-a-story.md`](writing-a-story.md), [`respectful-language.md`](respectful-language.md), and [`newsletter-and-email.md`](newsletter-and-email.md).
 
-## Excerpt (read this first)
+## Excerpt 
 
 - **One person, one need, one ask.** Appeals are not annual reports—trim everything else.
 - **Dignity over dramatics.** People in the appeal are portrayed as **agents**, not "cases"; your org is a partner, not a saviour.

@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für **Anwendungstests** auf Unit-, Integrations- und E2E-Ebene; nicht Last- oder Security-Tests, nicht QA-Prozessdesign. Ergänzend zu [`coding-best-practices.md`](coding-best-practices.md) und [`react-best-practices.md`](react-best-practices.md).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - Tests existieren, damit du **Code ohne Angst ändern** kannst—Sicherheitsnetz, nicht Abzeichen.
 - Pyramiden-artig: **viele Unit, weniger Integration, wenige E2E**. Das richtige Verhältnis hängt davon ab, was in Produktion wirklich bricht.
@@ -10,7 +10,7 @@
 - **Coverage ist ein Signal, kein Ziel.** 90 % Trivialcode und 0 % Risikopfad ist schlechter als 60 % sinnvoll verteilt.
 - Vollständige Regeln, Muster und Anti-Muster unten.
 
-## KI / Prompt: bevor Tests geschrieben werden
+## bevor Tests geschrieben werden
 
 Vor neuen Tests klären **wofür der Code da ist** und **wie er scheitern kann**. Keine Tests ausliefern, die nur die Implementierung wiederholen.
 

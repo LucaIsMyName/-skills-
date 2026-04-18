@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **planning, running, and following up** workshops and facilitated sessions for teams, communities, or mixed groups in nonprofit and social-sector contexts—training, co-design, retrospectives, focus groups. Not full mediation of legal disputes, not therapy. Pair with [`interviewing-people.md`](../research-and-analysis/interviewing-people.md) for listening skills, [`crisis-and-sensitive-topics.md`](crisis-and-sensitive-topics.md) when topics are heavy, and [`accessibility-for-comms.md`](accessibility-for-comms.md) for inclusive sessions.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - **Outcomes before icebreakers.** Define what participants should leave with; design activities backward from that.
 - **Psychological safety** — clear agenda, consent for exercises, opt-out always OK for personal questions.

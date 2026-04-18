@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** **Kurze Social-Media-Texte und Bildunterschriften** für gemeinnützige und soziale Organisationen; keine Langartikel, keine Pressemitteilungen und keine Ersatzberatung zu bezahlten Anzeigen oder Plattform-Richtlinien (jeweils Plattform + ggf. Rechtsprüfung).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - Nutzen für **plattformgerechte** Beiträge: Länge, Ton, möglichst **eine Hauptbotschaft**.
 - **Einwilligung** zu Fotos und Zitaten; **keine** sensationsorientierte Darstellung von Betroffenen.

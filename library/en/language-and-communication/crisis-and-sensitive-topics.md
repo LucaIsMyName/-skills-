@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **external communications during incidents or sensitive issues** (holding statements, pausing posts); not investigations, HR processes, or legal strategy—**always escalate to organizational leadership**.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - In **crisis or high-risk** topics: **pause** scheduled content if unsure; **do not speculate** on facts, causes, or blame.
 - **Mandatory:** confirm wording with **communications lead / executive** before external release unless the user explicitly provides approved text.

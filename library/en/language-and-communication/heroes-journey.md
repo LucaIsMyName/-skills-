@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **story structure and narrative arcs** (talks, campaigns, long-form stories); not a substitute for ethical, person-centered reporting—pair with [`writing-a-story.md`](writing-a-story.md) and [`respectful-language.md`](respectful-language.md) for nonprofit and social-sector work.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - The **Hero’s Journey** is a classic **12-beat** pattern: how a character moves through challenges and changes.
 - Use it as a **planning scaffold** for talks or stories—not as a reason to reduce real people to “heroes” or “victims.”

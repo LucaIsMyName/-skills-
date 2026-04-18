@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **charts and data graphics** in dashboards and reports (web or static); not full statistical analysis or BI tool configuration.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - Use for **choosing chart types**, labeling axes, and **color** that does not distort meaning.
 - Prefer **plain language** titles; show **uncertainty** when relevant.

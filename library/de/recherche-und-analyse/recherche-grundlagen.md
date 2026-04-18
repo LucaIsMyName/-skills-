@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für **Schreibtisch-Recherche aus bestehenden Quellen** für Comms, Policy-Briefs, Stories, Kampagnen—Web, Bibliotheksdatenbanken, amtliche Statistik, NGO-Berichte. Keine primäre Datenerhebung, keine peer-reviewed Studiendesigns. Ergänzt [`quellenbewertung-und-faktencheck.md`](quellenbewertung-und-faktencheck.md), [`notizen-und-synthese.md`](notizen-und-synthese.md), [`menschen-interviewen.md`](menschen-interviewen.md).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **Mit der Frage beginnen**, nicht mit der Suchmaske. „Was wollen wir eigentlich wissen?"
 - **Suche planen**: Begriffe, Synonyme, Sprachen, Quellen, Zeitraum.

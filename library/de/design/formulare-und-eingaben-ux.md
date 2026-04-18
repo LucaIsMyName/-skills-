@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** **Layout, Labels, Validierung und Zustände** von Formularen in digitalen Produkten; keine Backend-Logik und kein juristischer Einwilligungstext (Comms/Recht).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - Nutzen bei **Dateneingabe**: Einzelfelder, mehrstufige Flows, Assistenten.
 - Wenn möglich **eine primäre Aktion** pro Bildschirm; **klare Fehler** und Wiederherstellung.

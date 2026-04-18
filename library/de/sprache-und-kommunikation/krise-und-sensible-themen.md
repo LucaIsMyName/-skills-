@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** **Externe Kommunikation** in Krisen oder bei sensiblen Themen (Holding Statements, Publikationen anhalten); keine internen Ermittlungen, keine HR-Verfahren und keine Rechtsstrategie—**immer Eskalation an die Leitung**.
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - Bei **hohem Risiko** oder unklaren Fakten: **geplante Posts anhalten**; **nicht spekulieren**.
 - **Pflicht:** Formulierungen mit **Kommunikationsverantwortung oder Leitung** abstimmen, sofern der Nutzer keine ausdrücklich freigegebenen Texte liefert.

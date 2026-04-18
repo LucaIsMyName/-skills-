@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Menschenzentrierte **Geschichten** für NGOs und soziale Organisationen (Web, Print, Social); keine Fiktion und keine reine Werbung ohne Fakten und Freigaben.
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **Mit** Menschen erzählen, nicht **über** sie reduzieren; konkrete Alltagsszenen statt Schlagworte.
 - **Einwilligung, Zitate, Anonymisierung** und Organisationseinheiten immer klären, nicht erfinden.

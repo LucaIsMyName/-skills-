@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für **Kommunikationsentscheidungen mit Kindern, Jugendlichen und schutzbedürftigen Erwachsenen** (Klient:innen, Bewohner:innen, Patient:innen, Überlebende, Menschen in Krise). Kein Ersatz für die komplette Schutz-/Safeguarding-Richtlinie der Organisation. Ergänzt [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`bild-und-zitatfreigaben.md`](bild-und-zitatfreigaben.md), [`respektvolle-sprache.md`](../sprache-und-kommunikation/respektvolle-sprache.md).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **Schutz vor Geschichte.** Kein Bild, kein Zitat, kein Fallbeispiel ist Schaden an der Person wert.
 - Kinder und schutzbedürftige Erwachsene: **Einwilligung der Erziehungsberechtigten + altersgerechte Zustimmung der Person** plus zweites redaktionelles Augenpaar.
@@ -10,7 +10,7 @@
 - **Kopien bleiben.** Heute veröffentlicht, kann morgen in Prozessen, Beziehungen oder Bewerbungen auftauchen.
 - Prinzipien, Ablauf und Warnsignale unten.
 
-## KI / Prompt: bei Menschen in Risiko
+## bei Menschen in Risiko
 
 Vor Text- oder Medienarbeit mit einer gefährdeten Person **Lage, Verständnis und Verantwortung** klären.
 

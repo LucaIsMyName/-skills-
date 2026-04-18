@@ -2,7 +2,7 @@
 
 **Scope:** Applies to external press statements and media-facing announcements; not internal HR policies, contracts, or legal advice.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - Use when drafting or editing **press releases** for journalists and the public.
 - Lead with **who / what / when / where / why**; stay factual, not promotional.

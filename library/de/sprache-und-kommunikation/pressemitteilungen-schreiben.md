@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Pressemitteilungen und Medientexte für **soziale Organisationen**; keine internen HR-Texte, Arbeitsverträge oder juristische Einzelfallberatung.
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - Nutzen für **klare, menschenzentrierte Pressemitteilungen** (W-Fragen, Wirkung, Respekt).
 - **Nachfragen** bei fehlenden Fakten, Zitaten, Kontakt, Embargo—**nichts erfinden**.

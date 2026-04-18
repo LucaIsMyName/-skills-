@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **impact reports, annual reports, and accountability narratives** for boards, funders, members, and the public in nonprofit and social-sector organisations. Not statutory financial auditing, not full annual accounts prepared by accountants. Pair with [`reading-statistics-plainly.md`](reading-statistics-plainly.md), [`data-visualization-basics.md`](../design/data-visualization-basics.md), [`notes-and-synthesis.md`](notes-and-synthesis.md), and [`desk-research.md`](desk-research.md).
 
-## Excerpt (read this first)
+## Excerpt 
 
 - **Honest numbers + human context.** Metrics without explanation mislead; stories without metrics are hard to verify—use both.
 - **One reader in mind per section.** Board wants risk and strategy; funder wants outcomes against grant; public wants clarity and trust.

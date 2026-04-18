@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **respectful wording** about people and social issues in communications; not legal compliance drafting, clinical diagnosis, or HR case decisions.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - Use when **rewriting or drafting** text about poverty, disability, migration, care, and related topics.
 - **Ask** for audience, glossary, and sensitivity constraints; do not guess harmful labels.

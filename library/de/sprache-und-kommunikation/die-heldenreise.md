@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Klassisches **12-Stufen-Erzählmuster** (Campbell/Vogler) für Struktur von Geschichten und Reden; **kein** moralisches Urteil über „Helden“ in der Realität—bei Reportagen [`stories-schreiben.md`](stories-schreiben.md) und [`respektvolle-sprache.md`](respektvolle-sprache.md) beachten.
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **12 Stationen** von der gewohnten Welt bis zur Rückkehr mit dem „Elixier“.
 - Als **Planungsgerüst** nutzen—**nicht** reale Menschen auf Klischees reduzieren.

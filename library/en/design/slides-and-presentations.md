@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **slide decks** (talks, workshops, board packs) for **legibility and structure**; not full motion graphics or video. For **web UI**, use [`designing-good-interfaces.md`](designing-good-interfaces.md).
 
-## Excerpt (read this first)
+## Excerpt 
 
 - **One main idea per slide**; large type; high contrast for projectors.
 - **Template discipline**: same margins, title style, and alignment across the deck.

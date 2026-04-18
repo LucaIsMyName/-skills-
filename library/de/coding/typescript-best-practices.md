@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für **TypeScript in Anwendungscode** (React, Node, API-Handler, Bibliotheken); nicht Build-Tool-Konfiguration, nicht Typsystem-Forschung. Ergänzend zu [`coding-best-practices.md`](coding-best-practices.md) und [`react-best-practices.md`](react-best-practices.md) für React-Details.
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **Strict Mode immer an.** `strict: true`, `noUncheckedIndexedAccess: true`, `exactOptionalPropertyTypes: true`.
 - **Typen, die Werte beschreiben**, nicht die Sprache bekämpfen. Narrowing, discriminated unions, Literal Types.
@@ -10,7 +10,7 @@
 - **Externe Daten validieren** an der Grenze (zod / valibot / handgeschriebene Guards); innen angenommen valide Shapes.
 - Vollständige Regeln, Beispiele und Anti-Muster unten.
 
-## KI / Prompt: Vollständigkeit vor dem Schreiben von Typen
+## Vollständigkeit vor dem Schreiben von Typen
 
 Vor dem Entwerfen von Typen klären **woher die Daten kommen** und **wer sie besitzt**. Typfehler nicht mit `as`-Casts oder `any` wegstumfen.
 

@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für **rechtlich wache Schritte in einer Kommunikationskrise** (Vorwurf, Vorfall, schlechte Presse, Virals, Safeguarding-Ereignis, Datenpanne). Kein Ersatz für Anwält:in in einem laufenden Fall. Ergänzt [`krise-und-sensible-themen.md`](../sprache-und-kommunikation/krise-und-sensible-themen.md), [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`kinder-und-betroffenenschutz.md`](kinder-und-betroffenenschutz.md).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **Schweigen ist eine Entscheidung.** Aussagen auch. Beide haben rechtliche Wirkung—bewusst wählen.
 - **Fakten zuerst, Ton danach.** Kein „Es tut uns leid, dass X" bevor X geklärt ist.

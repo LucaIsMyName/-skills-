@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** **Newsletter und organisatorische E-Mails** von gemeinnützigen und sozialen Organisationen (Spendenaufrufe, Einladungen, Updates); keine individuellen HR- oder Rechtsschreiben und **keine** Erfindung von Abmelde- oder Datenschutzklauseln—Verweis auf **Rechtsprüfung** und freigegebenen Boilerplate.
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - Nutzen für **Betreffzeile, Vorschautext, Aufbau** und möglichst **eine primäre Handlungsaufforderung** pro Mail.
 - **Niemals** finale Rechtstexte oder regionale Pflichtformulierungen erfinden—**Platzhalter** und Rechtsreview empfehlen.

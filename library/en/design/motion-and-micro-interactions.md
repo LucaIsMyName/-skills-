@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **UI motion**: transitions, feedback animations, loading states; not video production, game animation, or brand TV spots.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - Use motion to **clarify cause and effect**, not to decorate.
 - Respect **`prefers-reduced-motion`**: provide a non-animated equivalent.

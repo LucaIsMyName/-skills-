@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **getting, recording, and respecting permission** to use photos, video, audio, and quotes of identifiable people in communications. Pair with [`data-protection-for-comms.md`](data-protection-for-comms.md) and [`safeguarding-in-comms.md`](safeguarding-in-comms.md); for editorial craft see [`writing-a-story.md`](../language-and-communication/writing-a-story.md).
 
-## Excerpt (read this first)
+## Excerpt 
 
 - **No recognisable person, no quote, no publication without documented consent.** Verbal "ok" on set is not enough.
 - A release must be **specific** (what), **scoped** (where, how long, which channels), **informed** (in the person's language and reading level), and **revocable**.

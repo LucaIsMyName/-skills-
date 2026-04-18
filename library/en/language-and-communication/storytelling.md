@@ -2,7 +2,7 @@
 
 **Scope:** Effective storytelling (structure, emotion, clarity) for copy, campaigns, and speeches; **not** a substitute for **approved reporting on real people**—use [`writing-a-story.md`](writing-a-story.md), [`respectful-language.md`](respectful-language.md), and optionally [`heroes-journey.md`](heroes-journey.md).
 
-## Excerpt (read this first)
+## Excerpt 
 
 - **Five elements:** protagonist, place, plot, symbolic object, facts & background; the **narrator** conveys facts, guides attention, draws connections—use care with interpretation and speculation.
 - Plus the **ladder of narration**, the **core narrative sentence**, and dramaturgy (three-act structure, short form of the hero’s journey).

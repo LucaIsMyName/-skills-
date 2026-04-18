@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für den **Einsatz von KI in der Kommunikationsarbeit**—Entwürfe, Übersetzung, Redaktion, Bildgenerierung, Zusammenfassung, Transkription. Kein Ersatz für org-weite KI-Richtlinien oder Rechtsprüfung. Ergänzt [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`urheber-und-nutzungsrechte.md`](urheber-und-nutzungsrechte.md), [`respektvolle-sprache.md`](../sprache-und-kommunikation/respektvolle-sprache.md).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **KI ist Werkzeug**, keine Autor:in. Die veröffentlichende Person bleibt verantwortlich für Richtigkeit, Einwilligung und Ton.
 - **Substanziellen KI-Einsatz offenlegen.** „Wir haben Rechtschreibprüfung genutzt" ist nicht erheblich; „Bild vollständig KI-generiert" schon.

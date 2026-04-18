@@ -2,7 +2,7 @@
 
 **Scope:** Applies to rewriting text into **plain, accessible English**; not certified Easy Read formats with symbols, layout, and user testing unless the user explicitly asks.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - Use to **simplify** vocabulary and sentences for literacy, EAL readers, or general clarity.
 - **Do not** change legal meaning, numbers, or required terms without explicit instruction—**ask** if unsure.

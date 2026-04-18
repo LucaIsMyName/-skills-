@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **TypeScript in application code** (React, Node, API handlers, libraries); not build-tool configuration, not type system research. Pair with [`coding-best-practices.md`](coding-best-practices.md) for general rules and [`react-best-practices.md`](react-best-practices.md) for React specifics.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - **Strict mode on, always.** `strict: true`, `noUncheckedIndexedAccess: true`, `exactOptionalPropertyTypes: true`.
 - Prefer **types that describe values**, not types that fight the language. Use narrowing, discriminated unions, and literal types.

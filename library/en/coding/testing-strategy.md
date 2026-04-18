@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **application-level testing** across unit, integration, and end-to-end layers; not load or security testing, not QA process design. Pair with [`coding-best-practices.md`](coding-best-practices.md) and [`react-best-practices.md`](react-best-practices.md).
 
-## Excerpt (read this first)
+## Excerpt 
 
 - Tests exist to let you **change code without fear**—they are a safety net, not a badge.
 - Pyramid-ish: **many unit, fewer integration, few E2E**. The right ratio depends on what actually breaks in production.

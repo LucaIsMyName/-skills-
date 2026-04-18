@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** **Diagramme und Datengrafiken** in Dashboards und Berichten (Web oder statisch); keine vollständige Statistik oder BI-Konfiguration.
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - Nutzen für **Diagrammwahl**, Achsenbeschriftung und **Farbe** ohne verzerrte Bedeutung.
 - **Klare Titel** in Alltagssprache; **Unsicherheit** anzeigen, wenn relevant.

@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für **React-Anwendungs- und Komponenten-Code**; nicht für Nicht-React-Frontends, native Apps oder rein serverseitige Backends.
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - Nutzen für **vorhersagbares, wartbares React**: Hooks, State, Effects, Performance, typische Fußangeln.
 - Muster bevorzugen, die Bugs und Überraschungs-Re-Renders reduzieren; bei unklarem Kontext vor großen Refactors nachfragen.

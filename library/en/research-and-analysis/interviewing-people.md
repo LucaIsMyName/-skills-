@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **research and reporting interviews**—subject-matter experts, practitioners, affected people, officials—to gather information for stories, briefs, and reports. Not media training for spokespeople (see [`interview-preparation.md`](../language-and-communication/interview-preparation.md)). Pair with [`writing-a-story.md`](../language-and-communication/writing-a-story.md), [`respectful-language.md`](../language-and-communication/respectful-language.md), [`safeguarding-in-comms.md`](../ethics-safeguarding-legal/safeguarding-in-comms.md), [`data-protection-for-comms.md`](../ethics-safeguarding-legal/data-protection-for-comms.md).
 
-## Excerpt (read this first)
+## Excerpt 
 
 - **The interview is theirs, not yours.** You lead the questions; they own the story.
 - **Consent before content.** Explain purpose, use, and the person's rights *before* questions, and confirm again at the end.

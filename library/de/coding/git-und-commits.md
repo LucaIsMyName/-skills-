@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für **tägliche Git-Nutzung**—Branches, Commits, PRs, Reviews. Nicht für serverseitige Git-Administration, nicht für Release Engineering. Ergänzend zu [`agents.md`](../../agents.md) für agent-spezifische Commit-Regeln und [`code-review-checklist.md`](code-review-checklist.md) für Reviews.
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **Kleine, fokussierte Commits**; je einer logische Änderung. Refactors und Verhaltensänderungen in **getrennten** Commits.
 - **Conventional-Commit**-Präfixe: `feat`, `fix`, `refactor`, `docs`, `test`, `chore`, `perf`, `style`, `build`, `ci`.

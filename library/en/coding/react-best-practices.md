@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **React application and component code**; not non-React front ends, native apps, or server-only backends.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - Use for **predictable, maintainable React**: hooks, state, effects, performance, and common footguns.
 - Prefer patterns that reduce bugs and surprise re-renders; ask before large refactors if context is unclear.

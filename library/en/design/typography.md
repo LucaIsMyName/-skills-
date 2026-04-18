@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **type choices in UI, web, print, and slides**—scale, hierarchy, pairing, numerals, readability. Not full brand authoring (see `brand-guidelines-authoring.md` when added). Pair with [`design-basics.md`](design-basics.md), [`design-tokens-and-theming.md`](design-tokens-and-theming.md), and [`designing-good-interfaces.md`](designing-good-interfaces.md).
 
-## Excerpt (read this first)
+## Excerpt 
 
 - **Readability first, style second.** If people have to squint or re-read, the type has already lost.
 - **One typeface is plenty**, two is a system, three is a problem.

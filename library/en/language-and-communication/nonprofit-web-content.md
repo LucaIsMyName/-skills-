@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **planning, structuring, and writing public website content** for nonprofits and social-sector organisations—page hierarchy, headings, meta descriptions, internal links, and plain-language URLs. Not technical SEO engineering (schema markup, Core Web Vitals tuning in code); pair with [`accessibility-in-code.md`](../coding/accessibility-in-code.md) for developers and [`accessibility-for-comms.md`](accessibility-for-comms.md) for inclusive copy and media.
 
-## Excerpt (read this first)
+## Excerpt 
 
 - **One main job per page.** Don’t overload the homepage with every programme—signpost and link.
 - **Headings are an outline.** Use a single logical `<h1>` per page; follow with `<h2>` / `<h3>` in order—helps readers and search engines.

@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für **Web-UI-Code** (HTML, CSS, JS/TS, React)—die technische Seite der Barrierefreiheit. Ergänzt [`barrierefreiheit-kommunikation.md`](../sprache-und-kommunikation/barrierefreiheit-kommunikation.md) (Texte, Bildbeschreibungen, Untertitel) und [`gute-interfaces-designen.md`](../design/gute-interfaces-designen.md).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **Zuerst semantisches HTML.** Das Element wählen, das den Job schon erfüllt; ARIA nur, wenn kein natives Element passt.
 - **Tastaturzugang ist Pflicht.** Jedes interaktive Element ist mit `Tab` / `Shift+Tab` / `Enter` / `Leertaste` / Pfeiltasten (wo üblich) erreichbar, bedienbar und sichtbar fokussiert.
@@ -10,7 +10,7 @@
 - **Screenreader brauchen eine logische Seite.** Landmarks, Überschriftenreihenfolge, Linktexte, Formularlabels, Live-Regionen.
 - Vollständige Regeln, Muster und Anti-Muster unten.
 
-## KI / Prompt: bevor UI ausgeliefert wird
+## bevor UI ausgeliefert wird
 
 Bevor UI-Code geschrieben oder generiert wird, klären **wer es nutzt und wie**. Barrierefreiheit nicht am Ende „draufkleben“.
 

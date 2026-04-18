@@ -2,7 +2,7 @@
 
 **Scope:** Applies to **form layout, labels, validation, and input states** in digital products; not backend validation logic or legal text for consent (point to comms/legal).
 
-## Excerpt (read this first)
+## Excerpt 
 
 - Use when designing **data entry**: single fields, multi-step flows, wizards.
 - **One primary action** per screen when possible; **clear error** placement and recovery.

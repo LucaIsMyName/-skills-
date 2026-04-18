@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für **Skript und Vortrag gesprochener Formate**—Keynotes, Grußworte, Panelstatements, Feiern, kurze Videoansprachen. Nicht Interviews (siehe [`interview-vorbereitung.md`](interview-vorbereitung.md)) und nicht Foliensatz (siehe [`folien-und-praesentationen.md`](../design/folien-und-praesentationen.md)). Ergänzt [`storytelling.md`](storytelling.md).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **Ein Publikum, ein Ziel, eine Kernbotschaft.** Alles andere ist Beiwerk.
 - **Gesprochene Sprache ist kurz.** Sätze auf einen Atem; Listen auf eine Hand.

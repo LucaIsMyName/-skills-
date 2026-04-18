@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für die **Design-Seite der Barrierefreiheit**—Layout, Typografie, Farbe, Motion, Affordances, Muster. Ergänzt [`accessibility-in-code.md`](../../en/coding/accessibility-in-code.md) (Engineering) und [`barrierefreiheit-kommunikation.md`](../sprache-und-kommunikation/barrierefreiheit-kommunikation.md) (Text). Pairt mit [`farbe-und-kontrast.md`](farbe-und-kontrast.md), [`typografie.md`](typografie.md), [`motion-und-micro-interactions.md`](motion-und-micro-interactions.md).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **Barrierefreiheit ist Design**, kein Nachklapp. Wer bei Zoom, Reduced Motion oder Tastatur scheitert, hat das Design verfehlt.
 - **Trefferflächen** ≥24×24 CSS-Pixel (WCAG 2.2), möglichst ≥44×44. Klickfläche größer als Optik.

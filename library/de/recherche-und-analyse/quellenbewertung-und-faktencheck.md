@@ -2,7 +2,7 @@
 
 **Geltungsbereich:** Gilt für **Vertrauen in Quellen** und **Prüfen konkreter Aussagen** vor Veröffentlichung in Comms, Presse, Stories, Briefings. Ergänzt [`recherche-grundlagen.md`](recherche-grundlagen.md), [`statistik-einfach-lesen.md`](statistik-einfach-lesen.md), [`krise-und-sensible-themen.md`](../sprache-und-kommunikation/krise-und-sensible-themen.md).
 
-## Exzerpt (zuerst lesen)
+## Exzerpt
 
 - **Quellenbewertung** fragt: _Kann ich dem trauen?_ **Faktencheck** fragt: _Stimmt diese konkrete Aussage?_ Beides tun.
 - **CRAAP** als Schnellfilter: **C**urrency (Aktualität), **R**elevance, **A**uthority, **A**ccuracy, **P**urpose.
