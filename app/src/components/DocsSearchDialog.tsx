@@ -118,7 +118,7 @@ export function DocsSearchDialog({ open, onOpenChange }: Props) {
         'fixed left-1/2 z-[51] w-[calc(100vw-2rem)] max-w-lg -translate-x-1/2',
         'top-[max(2rem,12vh)]',
         'overflow-hidden p-0 shadow-lg',
-        'rounded-xl border border-border bg-popover text-popover-foreground',
+        'rounded-md border border-border bg-popover text-popover-foreground',
       )}
       overlayClassName="fixed inset-0 z-50 bg-black/40"
     >
@@ -231,15 +231,15 @@ export function DocsSearchTriggerButton({
       type="button"
       onClick={onOpen}
       className={cn(
-        'inline-flex items-center gap-2 rounded-md border border-border bg-background px-2.5 py-1.5 text-sm text-muted-foreground shadow-sm transition-colors',
-        'hover:bg-muted/60 hover:text-foreground',
+        'relative flex !text-left items-center justify-start gap-2 rounded border border-border bg-background px-2.5 py-1.5 text-sm text-muted-foreground shadow-sm transition-colors',
+        'hover:bg-muted/60 hover:text-foreground truncate overflow-hidden pr-4',
         className,
       )}
       aria-label={t.searchOpenAria}
     >
       <SearchIcon className="size-4 shrink-0" aria-hidden />
-      <span className="hidden sm:inline">{t.searchPlaceholder}</span>
-      <kbd className="pointer-events-none hidden h-5 select-none items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground sm:inline-flex">
+      <span className="hidden sm:inline truncate overflow-hidden text-left">{t.searchPlaceholder}</span>
+      <kbd className="absolute right-2 pointer-events-none hidden h-5 select-none items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground sm:inline-flex">
         {t.searchShortcutHint}
       </kbd>
     </button>
