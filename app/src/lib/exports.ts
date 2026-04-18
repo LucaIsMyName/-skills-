@@ -7,6 +7,13 @@ import {
 } from 'docx'
 import html2canvas from 'html2canvas'
 import { jsPDF } from 'jspdf'
+import {
+  ensureWebFontsReadyForPdf,
+  FONT_STACK_MONO,
+  FONT_STACK_SANS,
+  loadPdfFontVfsPayloads,
+  registerFontsOnJsPdf,
+} from './pdfFonts'
 
 export function downloadMarkdownFile(filename: string, body: string): void {
   const blob = new Blob([body], { type: 'text/markdown;charset=utf-8' })
@@ -111,15 +118,31 @@ function triggerBlobDownload(blob: Blob, filename: string): void {
 }
 
 /** Plain-text PDF fallback if canvas capture fails (CORS/taint, layout, etc.) */
-function downloadPdfPlainText(
+async function downloadPdfPlainText(
   title: string,
   markdownBody: string,
   filename: string,
-): void {
+): Promise<void> {
   const pdf = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' })
   const body = stripMinimalMd(markdownBody)
 
-  pdf.setFont('helvetica', 'bold')
+  let titleFontName = 'helvetica'
+  let titleFontStyle: 'bold' | 'normal' | 'italic' | 'bolditalic' = 'bold'
+  let bodyFontName = 'helvetica'
+  let bodyFontStyle: 'bold' | 'normal' | 'italic' | 'bolditalic' = 'normal'
+
+  try {
+    const payloads = await loadPdfFontVfsPayloads()
+    registerFontsOnJsPdf(pdf, payloads)
+    titleFontName = 'GeistSans'
+    titleFontStyle = 'bold'
+    bodyFontName = 'GeistSans'
+    bodyFontStyle = 'normal'
+  } catch (e) {
+    console.warn('Embedding Geist/JetBrains TTF failed; PDF fallback uses Helvetica.', e)
+  }
+
+  pdf.setFont(titleFontName, titleFontStyle)
   pdf.setFontSize(15)
   const titleLines = pdf.splitTextToSize(title, 170)
   let y = 18
@@ -129,7 +152,7 @@ function downloadPdfPlainText(
   }
   y += 4
 
-  pdf.setFont('helvetica', 'normal')
+  pdf.setFont(bodyFontName, bodyFontStyle)
   pdf.setFontSize(10)
   const lines = pdf.splitTextToSize(body, 170)
   const lineHeight = 5
@@ -167,6 +190,8 @@ export async function downloadPdfFromMarkdownElement(
 ): Promise<void> {
   const safeName = filename.endsWith('.pdf') ? filename : `${filename}.pdf`
 
+  await ensureWebFontsReadyForPdf()
+
   const wrapper = document.createElement('div')
   wrapper.setAttribute('data-pdf-export', 'true')
   wrapper.style.boxSizing = 'border-box'
@@ -174,8 +199,7 @@ export async function downloadPdfFromMarkdownElement(
   wrapper.style.padding = '48px 56px'
   wrapper.style.backgroundColor = '#fafafa'
   wrapper.style.color = '#18181b'
-  wrapper.style.fontFamily =
-    'ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"'
+  wrapper.style.fontFamily = FONT_STACK_SANS
   wrapper.style.fontSize = '15px'
   wrapper.style.lineHeight = '1.65'
 
@@ -189,11 +213,12 @@ export async function downloadPdfFromMarkdownElement(
   h.style.fontSize = '26px'
   h.style.fontWeight = '600'
   h.style.color = '#27272a'
+  h.style.fontFamily = FONT_STACK_SANS
   head.appendChild(h)
 
   const body = document.createElement('div')
   body.className =
-    'prose prose-zinc max-w-none prose-headings:text-zinc-800 prose-a:text-zinc-700'
+    'prose prose-zinc max-w-none prose-headings:text-zinc-800 prose-a:text-zinc-700 prose-code:font-mono prose-pre:font-mono'
   body.innerHTML = sourceElement.innerHTML
 
   wrapper.appendChild(head)
@@ -235,6 +260,14 @@ export async function downloadPdfFromMarkdownElement(
       windowHeight: wrapper.scrollHeight,
       onclone: (_document, element) => {
         element.querySelectorAll('img, svg').forEach((n) => n.remove())
+        const root = element instanceof HTMLElement ? element : null
+        if (root) {
+          root.style.fontFamily = FONT_STACK_SANS
+        }
+        element.querySelectorAll('code, pre, kbd, samp').forEach((node) => {
+          const el = node as HTMLElement
+          el.style.fontFamily = FONT_STACK_MONO
+        })
       },
     })
 
@@ -284,7 +317,7 @@ export async function downloadPdfFromMarkdownElement(
     triggerBlobDownload(pdf.output('blob'), safeName)
   } catch (err) {
     console.error('PDF canvas export failed, using text fallback:', err)
-    downloadPdfPlainText(title, markdownFallback, safeName)
+    await downloadPdfPlainText(title, markdownFallback, safeName)
   } finally {
     wrapper.remove()
   }

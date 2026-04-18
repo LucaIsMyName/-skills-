@@ -25,4 +25,4 @@ Set `VITE_GITHUB_TOKEN` if you hit API rate limits (unauthenticated requests are
 npm run docs:build
 ```
 
-Output is in `app/dist/`.
+Output is in `app/dist/`. Typography: **Geist Sans** and **JetBrains Mono** via Fontsource; `public/fonts/*.ttf` supplies the same faces for jsPDF text fallback.

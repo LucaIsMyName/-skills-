@@ -146,7 +146,7 @@ export function MarkdownPage() {
 
       <div
         ref={bodyRef}
-        className="prose prose-zinc max-w-none prose-headings:scroll-mt-24 prose-a:text-zinc-800"
+        className="prose prose-zinc max-w-none prose-headings:scroll-mt-24 prose-a:text-zinc-800 prose-code:font-mono prose-pre:font-mono"
       >
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
