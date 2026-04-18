@@ -10,7 +10,7 @@
 - **Limitations belong here too.** What you could not measure, or what changed mid-year, builds credibility.
 - Full framework, pitfalls, and checklist below.
 
-## AI / prompt: before drafting a report
+## Before drafting a report
 
 Before writing, assemble **verified figures, date ranges, and approval rules** for quotes and photos.
 

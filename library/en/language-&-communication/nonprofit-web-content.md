@@ -10,7 +10,7 @@
 - **Internal links** connect related services, reports, and donation paths—reduce orphan pages.
 - Full content model, patterns, and checklist below.
 
-## AI / prompt: before writing or restructuring web copy
+## Before writing or restructuring web copy
 
 Clarify **site goals, audience, and what each page must achieve**.
 

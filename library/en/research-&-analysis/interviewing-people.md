@@ -10,7 +10,7 @@
 - **Short, open questions.** "What happened next?" beats "So when you felt frustrated, what did you then decide to do about the funding?"
 - Full workflow, question types, recording rules, and ethics below.
 
-## AI / prompt: before scheduling
+## Before scheduling
 
 Before an interview, clarify **who, why, how long, and under what terms**.
 

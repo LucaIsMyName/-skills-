@@ -21,7 +21,7 @@ The goal is to tell stories that:
 
 👉 Not abstract topics — but **people in real situations**
 
-## AI / prompt: completeness before drafting
+## completeness before drafting
 
 Before drafting a story, the prompt must include **concrete and meta information**. If anything material is missing, **ask targeted follow-up questions** — do not invent facts, quotes, or specifics.
 

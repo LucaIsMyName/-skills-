@@ -17,7 +17,7 @@ The label **“Easy Read English”** is used here for **text-level simplificati
 
 👉 If the user wants a **specific “Easy Read” accessibility format** (very short lines, images, testing with readers), treat that as an **extra layout and process requirement**—ask before assuming.
 
-## AI / prompt: completeness before drafting
+## completeness before drafting
 
 Before rewriting, gather **concrete and meta information**. If something material is missing, **ask**—do not change legal meaning, numbers, or quotes without explicit instruction.
 

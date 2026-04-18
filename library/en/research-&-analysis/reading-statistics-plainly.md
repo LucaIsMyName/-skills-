@@ -11,7 +11,7 @@
 - **Correlation ≠ causation.** Two things moving together is not one causing the other.
 - Full vocabulary, traps, and phrasing below.
 
-## AI / prompt: before quoting a number
+## Before quoting a number
 
 Before putting a statistic in a piece, clarify **source, definition, scope, uncertainty**.
 

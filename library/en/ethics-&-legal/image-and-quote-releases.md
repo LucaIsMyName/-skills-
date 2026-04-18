@@ -10,7 +10,7 @@
 - The release is a **snapshot in time**—later changes in context (political shift, legal case, personal situation) can require re-confirmation or take-down.
 - Full template fields, edge cases, and withdrawal rules below.
 
-## AI / prompt: before shoot / interview / publish
+## Before shoot / interview / publish
 
 Before you press record or publish, clarify **what you want**, **who is affected**, and **what they agreed to**.
 

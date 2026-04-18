@@ -11,7 +11,7 @@
 - **Name the source up front**: who, when, what type, where published. Then summarise.
 - Full workflow and traps below.
 
-## AI / prompt: before summarising
+## Before summarising
 
 Before condensing any source, clarify **why, for whom, and how much**.
 

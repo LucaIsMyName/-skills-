@@ -13,7 +13,7 @@
 
 This document helps **nonprofit communicators** make content **more inclusive** through **language and process**—not by replacing accessibility engineering or WCAG audits.
 
-## AI / prompt: completeness before drafting
+## completeness before drafting
 
 ### Concrete
 

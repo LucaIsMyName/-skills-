@@ -10,7 +10,7 @@
 - **Never force-push** shared branches. **Never** push secrets. **Never** commit generated artefacts.
 - Full rules below cover messages, PR hygiene, merging, and recovery.
 
-## AI / prompt: before committing
+## Before committing
 
 Before generating a commit, clarify **what changed and why**. Do not invent a motivation that is not in the diff.
 

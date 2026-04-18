@@ -10,7 +10,7 @@
 - **Capture decisions** — who does what by when; share notes while memory is fresh.
 - Full flow, inclusion, and checklist below.
 
-## AI / prompt: before designing a workshop
+## Before designing a workshop
 
 Gather **goal, audience, constraints, and risk level** of the topic.
 

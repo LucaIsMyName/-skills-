@@ -11,7 +11,7 @@
 - **Numerals matter**: tabular for tables and amounts, proportional for running text.
 - Full rules, examples, and pairings below.
 
-## AI / prompt: before choosing type
+## Before choosing type
 
 Before picking or specifying fonts, clarify **where it runs, who reads it, and in what conditions**.
 

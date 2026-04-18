@@ -10,7 +10,7 @@
 - **Coverage is a signal, not a target.** 90% of trivial code and 0% of the risky path is worse than 60% evenly spread.
 - Full rules, patterns, and anti-patterns are below.
 
-## AI / prompt: before writing tests
+## Before writing tests
 
 Before adding tests, clarify **what the code is for** and **how it can fail**. Do not ship tests that only re-state the implementation.
 

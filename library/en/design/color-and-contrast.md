@@ -10,7 +10,7 @@
 - **Small palette, wide usage.** Fewer colours used consistently beats a full spectrum used randomly.
 - Full rules, palettes, and tooling below.
 
-## AI / prompt: before specifying colour
+## Before specifying colour
 
 Before choosing hex values, clarify **roles, environments, and users**.
 

@@ -13,7 +13,7 @@
 
 This document helps **reduce errors and abandonment** in forms through clear structure, labeling, and feedback.
 
-## AI / prompt: completeness before drafting
+## completeness before drafting
 
 ### Concrete
 

@@ -11,7 +11,7 @@
 - **People before press**: affected persons, staff, partners are contacted **before** public statements where possible.
 - Full checklist and anti-patterns below.
 
-## AI / prompt: before communicating in a crisis
+## Before communicating in a crisis
 
 Before drafting a statement, clarify **what is known, what is alleged, what is confidential, and who must sign off**.
 

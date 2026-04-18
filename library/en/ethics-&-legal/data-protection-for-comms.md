@@ -10,7 +10,7 @@
 - **Document** consent, retention, and sharing—"we told them verbally" is not a record.
 - Full rules, examples, and the comms-side checklist are below.
 
-## AI / prompt: before publishing
+## Before publishing
 
 Before publishing anything involving a real person, clarify **lawful basis, scope, and retention**. Do not assume old consent covers new uses.
 

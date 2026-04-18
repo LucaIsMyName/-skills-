@@ -10,7 +10,7 @@
 - **Label synthetic media** (images, voices, videos) clearly—especially when they might be mistaken for a real person.
 - Full disclosure rules, prompt hygiene, and red flags below.
 
-## AI / prompt: before using AI on comms
+## Before using AI on comms
 
 Before using an AI tool in a piece of work, clarify **why you are using it, what you give it, and what you owe the reader**.
 

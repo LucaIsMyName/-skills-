@@ -10,7 +10,7 @@
 - **Validate external data** at the edge (zod / valibot / hand-written guards); types inside the app assume validated shapes.
 - Full rules, examples, and anti-patterns are below.
 
-## AI / prompt: completeness before writing types
+## Completeness before writing types
 
 Before designing types, clarify **where the data comes from** and **who owns it**. Do not silence type errors with `as` casts or `any`.
 

@@ -11,7 +11,7 @@
 - **Reflow, zoom, reduced motion, high contrast**—design for each mode, don't just handle fallback.
 - Full rules, patterns, and red flags below.
 
-## AI / prompt: before mocking a screen
+## Before mocking a screen
 
 Before designing a UI, clarify **who needs to use it** and **under what conditions**.
 

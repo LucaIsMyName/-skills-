@@ -13,7 +13,7 @@
 
 This document guides **nonprofit and social-sector teams** on how to **communicate carefully** when situations are volatile, legally sensitive, or harmful if mishandled.
 
-## AI / prompt: completeness before drafting
+## completeness before drafting
 
 ### Concrete
 

@@ -10,7 +10,7 @@
 - **Nothing is off the record** unless agreed in advance in writing. Assume the mic is on.
 - Full prep workflow, live tactics, and recovery moves below.
 
-## AI / prompt: before an interview
+## Before an interview
 
 Before accepting or preparing, clarify **who, what, why, and what success looks like**.
 

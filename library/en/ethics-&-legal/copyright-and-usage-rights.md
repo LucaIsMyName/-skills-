@@ -10,7 +10,7 @@
 - **AI-generated material** has unsettled legal status; treat outputs as uncertain and keep prompts/sources documented.
 - Full rules, licence types, and nonprofit-specific notes below.
 
-## AI / prompt: before using someone else's work
+## Before using someone else's work
 
 Before reusing any asset, clarify **who owns it, what the licence says, and what you actually plan to do**.
 

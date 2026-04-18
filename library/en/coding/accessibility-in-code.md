@@ -10,7 +10,7 @@
 - **Screen-reader users need a logical page.** Landmarks, heading order, link text, form labels, live regions.
 - Full rules, patterns, and anti-patterns below.
 
-## AI / prompt: before shipping UI
+## Before shipping UI
 
 Before writing or generating UI code, clarify **who will use it and how**. Do not bolt on accessibility at the end.
 

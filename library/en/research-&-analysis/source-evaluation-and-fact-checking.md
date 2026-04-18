@@ -11,7 +11,7 @@
 - **"I cannot verify this"** is a valid outcome—either cut the claim or frame it as unverified.
 - Full checklists and traps below.
 
-## AI / prompt: before you quote, cite, or publish
+## Before you quote, cite, or publish
 
 Before putting any fact in a published piece, clarify **where it came from** and **whether you have actually checked it**.
 

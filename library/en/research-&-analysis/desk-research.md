@@ -10,7 +10,7 @@
 - **Triangulate**: any non-trivial claim needs at least two independent sources.
 - Full workflow, search patterns, and red flags below.
 
-## AI / prompt: before you start searching
+## Before you start searching
 
 Before opening any browser tab, clarify **the question, the deliverable, and the deadline**.
 

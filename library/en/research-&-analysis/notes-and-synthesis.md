@@ -11,7 +11,7 @@
 - **Draft from the synthesis**, not from the notes file—do not paste-and-polish.
 - Full system and workflow below.
 
-## AI / prompt: before taking notes
+## Before taking notes
 
 Before opening the notebook, clarify **why you are noting and what you will do with the notes**.
 

@@ -13,7 +13,7 @@
 
 This document guides **when and how** to use motion in interfaces so it improves usability and does not distract or exclude users.
 
-## AI / prompt: completeness before drafting
+## completeness before drafting
 
 ### Concrete
 

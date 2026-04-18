@@ -10,7 +10,7 @@
 - **Recognition is ongoing**—not only an annual dinner; small, specific thanks often beat generic awards.
 - Full lifecycle, channels, and checklist below.
 
-## AI / prompt: before drafting volunteer comms
+## Before drafting volunteer comms
 
 Clarify **role, audience, channel, and data you may use** (names, photos, stories).
 

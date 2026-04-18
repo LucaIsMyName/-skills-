@@ -10,7 +10,7 @@
 - **Evidence, not hype.** Cite sources for statistics; flag uncertainties; never invent partners, approvals, or past results.
 - Full structure, red flags, and checklist below.
 
-## AI / prompt: before drafting a proposal
+## Before drafting a proposal
 
 Before generating text, gather **call text, eligibility, deadlines, and internal facts**. Do not fabricate co-funding, letters of support, or registration numbers.
 

@@ -106,7 +106,7 @@ export function ChapterNav({ lang, index, onPick }: Props) {
   }
 
   return (
-    <nav className="flex flex-col gap-1" aria-label="Chapters">
+    <nav className="flex min-w-0 flex-col gap-1" aria-label="Chapters">
       {index.chapters.map((ch) => {
         const pages = index.byChapter[ch] ?? []
         const prefix = `/${lang}/${ch}`
@@ -118,11 +118,11 @@ export function ChapterNav({ lang, index, onPick }: Props) {
         const zipKey = `zip:${ch}`
 
         return (
-          <div key={ch} className="flex flex-col gap-0.5">
-            <div className="group relative">
+          <div key={ch} className="flex min-w-0 flex-col gap-0.5">
+            <div className="group relative min-w-0">
+              {/* No `onPick` here: on mobile, closing the drawer prevented seeing subpages. */}
               <NavLink
                 to={prefix}
-                onClick={onPick}
                 className={() =>
                   [
                     'block min-w-0 truncate rounded-lg py-2 pl-3 pr-10 text-sm font-medium transition-colors',
@@ -153,28 +153,26 @@ export function ChapterNav({ lang, index, onPick }: Props) {
             </div>
             {showExplainers && (
               <ul
-                className="mb-1 ml-2 space-y-0.5 border-l border-zinc-200 pl-2"
+                className="mb-1 ml-2 min-w-0 space-y-0.5 border-l border-zinc-200 pl-2"
                 role="list"
               >
                 {pages.map((p) => {
                   const mdKey = `md:${ch}:${p.slug}`
                   return (
-                    <li key={p.slug} className="group relative">
+                    <li key={p.slug} className="group relative min-w-0">
                       <NavLink
                         to={`/${lang}/${ch}/${p.slug}`}
                         onClick={onPick}
                         className={({ isActive }) =>
                           [
-                            'block rounded-md py-1.5 pl-2 pr-9 text-xs font-medium leading-snug transition-colors',
+                            'block min-w-0 truncate rounded-md py-1.5 pl-2 pr-9 text-xs font-medium transition-colors',
                             isActive
                               ? 'bg-zinc-200/90 text-zinc-900'
                               : 'text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900',
                           ].join(' ')
                         }
                       >
-                        <span className="line-clamp-2">
-                          {h1ByPath.get(p.path) ?? humanizeSlug(p.slug)}
-                        </span>
+                        {h1ByPath.get(p.path) ?? humanizeSlug(p.slug)}
                       </NavLink>
                       <button
                         type="button"

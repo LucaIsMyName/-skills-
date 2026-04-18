@@ -10,7 +10,7 @@
 - For real-life stories, **ask** about facts, consent, and the organisation’s role as **enabler**, not “hero.”
 - All rules, Bad/Good examples, and the core idea are **fully** in the rest of this file.
 
-## AI / prompt: completeness before drafting
+## completeness before drafting
 
 Before developing stories, clarify **concrete and meta** inputs. If something essential is missing, **ask**—do not invent scenes, quotes, or biographical details.
 

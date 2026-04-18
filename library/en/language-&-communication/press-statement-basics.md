@@ -16,7 +16,7 @@ This document explains **how to write clear, professional press statements**.
 
 The goal: communicate information that is **accurate, credible, and easy to understand** — especially for journalists and the public.
 
-## AI / prompt: completeness before drafting
+## completeness before drafting
 
 Before drafting, the prompt must include **all relevant facts and constraints**, or you must **ask for them**. Do **not** invent anything that matters for accuracy, attribution, or follow-up.
 

@@ -9,7 +9,7 @@
 - **Ask** for facts, consent, and tone before applying the pattern to real lives.
 - The full sequence and core idea appear **in full** below.
 
-## AI / prompt: completeness before drafting
+## completeness before drafting
 
 Before mapping real biographies onto these beats, clarify **facts, consent, and acceptable framing**. **Do not invent** or dramatise without a clear brief.
 

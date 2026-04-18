@@ -19,7 +19,7 @@ Goals:
 - **Match** each platform’s norms (length, tone, links)
 - **Protect** dignity and consent
 
-## AI / prompt: completeness before drafting
+## completeness before drafting
 
 Gather **concrete and meta** inputs. If missing, **ask**—do not invent campaigns, quotes, or image rights.
 

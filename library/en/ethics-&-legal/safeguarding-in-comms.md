@@ -10,7 +10,7 @@
 - Assume **copies persist**. What you publish today may resurface in a court case, a new relationship, or a future employer's search.
 - Full principles, workflow, and red flags below.
 
-## AI / prompt: before involving at-risk people
+## Before involving at-risk people
 
 Before drafting copy or preparing media involving a person at risk, clarify **who they are, what they understand, and what you owe them**.
 

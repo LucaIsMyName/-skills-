@@ -17,7 +17,7 @@ This document explains how to use **respectful, dignity-centered language** when
 
 👉 Language is not neutral. It shapes how we think, feel, and treat others.
 
-## AI / prompt: completeness before drafting
+## completeness before drafting
 
 Before rewriting or drafting text, **clarify context**. **Ask** about gaps — do not guess sensitive wording or facts.
 

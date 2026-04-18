@@ -10,7 +10,7 @@
 - **Time is a hard limit.** Cut to fit—never run over on someone else's stage.
 - Full workflow, script patterns, and delivery rules below.
 
-## AI / prompt: before drafting a talk
+## Before drafting a talk
 
 Before writing, clarify **who is in the room**, **what changes afterwards**, and **how long you have**.
 

@@ -10,7 +10,7 @@
 - **Ask plainly** and **early**. The donor should never have to search for what you want them to do.
 - No guilt bait, no poverty porn, no implied coercion. Full rules, structure, and anti-patterns below.
 
-## AI / prompt: before drafting an appeal
+## Before drafting an appeal
 
 Before writing, clarify **who is being asked, for what, on behalf of whom, and with what consent**.
 
