@@ -39,6 +39,8 @@ export type UiCopy = {
   exportWord: string
   exportPdf: string
   tocOnThisPage: string
+  copyCode: string
+  copyCodeCopied: string
   notFoundTitle: string
   notFoundHome: string
 }
@@ -75,6 +77,8 @@ const en: UiCopy = {
   exportWord: 'Word',
   exportPdf: 'PDF',
   tocOnThisPage: 'On this page',
+  copyCode: 'Copy code',
+  copyCodeCopied: 'Copied',
   notFoundTitle: 'Page not found',
   notFoundHome: 'Go to home',
 }
@@ -113,6 +117,8 @@ const de: UiCopy = {
   exportWord: 'Word',
   exportPdf: 'PDF',
   tocOnThisPage: 'Auf dieser Seite',
+  copyCode: 'Code kopieren',
+  copyCodeCopied: 'Kopiert',
   notFoundTitle: 'Seite nicht gefunden',
   notFoundHome: 'Zur Startseite',
 }

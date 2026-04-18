@@ -1,17 +1,19 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { useLibraryIndex } from '../hooks/useLibraryIndex'
+import { useUiStrings } from '../hooks/useUiStrings'
 import { formatChapterTitle } from '../lib/strings'
 
 export function HomePage() {
   const { lang } = useParams<{ lang: string }>()
   const { data, isLoading, isError, error } = useLibraryIndex()
+  const t = useUiStrings()
 
   if (!lang) return null
 
   if (isLoading) {
     return (
       <p className="text-sm text-zinc-500" role="status">
-        Loading chapters…
+        {t.homeLoading}
       </p>
     )
   }
@@ -22,7 +24,7 @@ export function HomePage() {
         className="rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-800"
         role="alert"
       >
-        {String(error?.message ?? 'Failed to load library index.')}
+        {String(error?.message ?? t.homeIndexError)}
       </div>
     )
   }
@@ -32,18 +34,16 @@ export function HomePage() {
     const fallback = data?.langs[0]
     if (fallback) return <Navigate to={`/${fallback}`} replace />
     return (
-      <p className="text-sm text-zinc-600">No languages found in the library.</p>
+      <p className="text-sm text-zinc-600">{t.homeNoLanguages}</p>
     )
   }
 
   return (
     <div>
       <h1 className="text-2xl font-semibold tracking-tight text-zinc-900">
-        Chapters
+        {t.homeTitle}
       </h1>
-      <p className="mt-1 text-sm text-zinc-600">
-        Pick a topic to browse explainers.
-      </p>
+      <p className="mt-1 text-sm text-zinc-600">{t.homeSubtitle}</p>
       <ul className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
         {index.chapters.map((ch) => (
           <li key={ch}>
@@ -55,7 +55,7 @@ export function HomePage() {
                 {formatChapterTitle(ch)}
               </span>
               <span className="mt-2 line-clamp-2 text-sm text-zinc-500">
-                {index.byChapter[ch]?.length ?? 0} explainers
+                {t.homeExplainersCount(index.byChapter[ch]?.length ?? 0)}
               </span>
             </Link>
           </li>

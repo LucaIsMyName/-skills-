@@ -7,6 +7,7 @@ import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
 import { unified } from 'unified'
 import { visit } from 'unist-util-visit'
+import { VFile } from 'vfile'
 
 export type TocItem = {
   id: string
@@ -25,14 +26,15 @@ const MAX_RANK = 4
 export function extractMarkdownToc(markdown: string): TocItem[] {
   if (!markdown.trim()) return []
 
-  const file = unified()
+  const processor = unified()
     .use(remarkParse)
     .use(remarkGfm)
     .use(remarkRehype)
     .use(rehypeSlug)
-    .processSync(markdown)
 
-  const tree = file.result as HastRoot
+  const file = new VFile(markdown)
+  // unified v11: processSync() requires a stringifier compiler; we only need HAST.
+  const tree = processor.runSync(processor.parse(file), file) as HastRoot
   const items: TocItem[] = []
 
   visit(tree, 'element', (node) => {

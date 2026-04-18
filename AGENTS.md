@@ -37,7 +37,7 @@ Use this document to keep coding decisions consistent across sessions and contri
 
 - App name: "Skills" Doc App
 - Primary runtime: ---
-- Deployment target: ---
+- Deployment target: Linux Web Server
 - Package manager: NPM
 - Main data sources: ---
 
@@ -93,26 +93,30 @@ A task is done when:
 Use this as the default structure for non-monorepo projects:
 
 ```
-/
-├── src/                    # Application source code
-│   ├── app/                # App bootstrap / main wiring (routing, providers, entry setup)
-│   ├── modules/            # Feature modules grouped by business domain
-│   │   └── <feature>/      # Feature-local components, logic, tests
-│   ├── components/         # Reusable UI/presentation components
-│   ├── services/           # External integrations (APIs, storage, third-party services)
-│   ├── lib/                # Shared utilities/helpers (pure, reusable)
-│   ├── config/             # Runtime config parsing, env mapping, constants
-│   ├── styles/             # Global styles/design tokens
-│   ├── assets/             # Static assets imported by code
-│   └── types/              # Shared type/domain definitions when needed
-│
-├── tests/                  # Integration/e2e/high-level test suites (if separate from src)
-├── scripts/                # Build/release/maintenance scripts
-├── public/                 # Static public files
-├── docs/                   # Architecture notes, ADRs, runbooks
-├── .env.example            # Required environment variables (no secrets)
-├── README.md               # Setup, commands, architecture, conventions
-└── agents.md               # This file
+library/
+    ├── en/                  
+    │   ├── language-and-communication/
+    │   ├── ...  
+app/                            
+    ├── src/                    # Application source code
+    │   ├── app/                # App bootstrap / main wiring (routing, providers, entry setup)
+    │   ├── modules/            # Feature modules grouped by business domain
+    │   │   └── <feature>/      # Feature-local components, logic, tests
+    │   ├── components/         # Reusable UI/presentation components
+    │   ├── services/           # External integrations (APIs, storage, third-party services)
+    │   ├── lib/                # Shared utilities/helpers (pure, reusable)
+    │   ├── config/             # Runtime config parsing, env mapping, constants
+    │   ├── styles/             # Global styles/design tokens
+    │   ├── assets/             # Static assets imported by code
+    │   └── types/              # Shared type/domain definitions when needed
+    │
+    ├── tests/                  # Integration/e2e/high-level test suites (if separate from src)
+    ├── scripts/                # Build/release/maintenance scripts
+    ├── public/                 # Static public files
+    ├── docs/                   # Architecture notes, ADRs, runbooks
+    ├── .env.example            # Required environment variables (no secrets)
+    ├── README.md               # Setup, commands, architecture, conventions
+    └── agents.md               # This file
 ```
 
 ### Folder rules

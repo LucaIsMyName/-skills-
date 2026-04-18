@@ -2,11 +2,13 @@ import { useMemo } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
 import { useLibraryIndex } from '../hooks/useLibraryIndex'
 import { useMarkdownH1ByPath } from '../hooks/useMarkdownH1Labels'
+import { useUiStrings } from '../hooks/useUiStrings'
 import { formatChapterTitle, humanizeSlug } from '../lib/strings'
 
 export function ChapterIndexPage() {
   const { lang, chapter } = useParams<{ lang: string; chapter: string }>()
   const { data, isLoading, isError, error } = useLibraryIndex()
+  const t = useUiStrings()
 
   const index = data?.byLang.get(lang ?? '')
   const pages = useMemo(() => {
@@ -20,7 +22,7 @@ export function ChapterIndexPage() {
   if (isLoading) {
     return (
       <p className="text-sm text-zinc-500" role="status">
-        Loading explainers…
+        {t.chapterIndexLoading}
       </p>
     )
   }
@@ -31,7 +33,7 @@ export function ChapterIndexPage() {
         className="rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-800"
         role="alert"
       >
-        {String(error?.message ?? 'Failed to load library index.')}
+        {String(error?.message ?? t.chapterIndexIndexError)}
       </div>
     )
   }
@@ -48,7 +50,7 @@ export function ChapterIndexPage() {
         {formatChapterTitle(chapter)}
       </h1>
       <p className="mt-1 text-sm text-zinc-600">
-        Explainers in this chapter ({pages.length})
+        {t.chapterIndexExplainersIn(pages.length)}
       </p>
       <ol className="mt-8 flex flex-col gap-2">
         {pages.map((p) => (
@@ -61,7 +63,7 @@ export function ChapterIndexPage() {
                 {h1ByPath.get(p.path) ?? humanizeSlug(p.slug)}
               </span>
               <span className="text-xs font-medium uppercase tracking-wide text-zinc-400">
-                Read
+                {t.chapterIndexRead}
               </span>
             </Link>
           </li>

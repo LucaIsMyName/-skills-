@@ -1,6 +1,9 @@
 /**
  * Heavy export path (docx, jsPDF, embedded fonts). Import only via
  * `import()` from click handlers so Vite keeps it in a separate chunk.
+ *
+ * Callers should pass {@link ../repositoryMarkdown.repositoryMarkdownForExport}
+ * so the markdown string is always repository source (no in-app TOC or other UI).
  */
 import { Packer } from 'docx'
 import { jsPDF } from 'jspdf'

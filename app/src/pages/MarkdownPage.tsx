@@ -3,14 +3,28 @@ import { useEffect, useMemo } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeSlug from 'rehype-slug'
+import type { ComponentPropsWithoutRef } from 'react'
 import type { Components } from 'react-markdown'
+
+/** `remark` adds `inline` for `code`; widen beyond intrinsic `code` props. */
+type MarkdownCodeRenderProps = ComponentPropsWithoutRef<'code'> & {
+  inline?: boolean
+  node?: unknown
+}
 import { useLibraryIndex } from '../hooks/useLibraryIndex'
 import { useMarkdown } from '../hooks/useMarkdown'
+import { useUiStrings } from '../hooks/useUiStrings'
 import { mdLinkToAppPath } from '../lib/mdLinks'
 import { firstMarkdownTitle } from '../lib/github'
+import { MarkdownInlineCode, MarkdownPreWithCopy } from '../components/MarkdownCodeBlocks'
 import { InPageToc } from '../components/InPageToc'
 import { downloadMarkdownFile } from '../lib/downloadMarkdownFile'
 import { extractMarkdownToc } from '../lib/markdownToc'
+import {
+  rehypeSlugIdForAtxH1Text,
+  splitLeadingAtxH1,
+} from '../lib/splitLeadingH1'
+import { repositoryMarkdownForExport } from '../lib/repositoryMarkdown'
 import { exportFileStem } from '../lib/strings'
 
 export function MarkdownPage() {
@@ -21,6 +35,7 @@ export function MarkdownPage() {
     page: string
   }>()
   const { data: lib } = useLibraryIndex()
+  const t = useUiStrings()
   const path = useMemo(() => {
     if (!lang || !chapter || !page || !lib) return undefined
     const idx = lib.byLang.get(lang)
@@ -32,6 +47,11 @@ export function MarkdownPage() {
   const md = q.data ?? ''
   const title = useMemo(() => firstMarkdownTitle(md), [md])
   const tocItems = useMemo(() => extractMarkdownToc(md), [md])
+
+  const split = splitLeadingAtxH1(md)
+  const leadH1Text = split.h1Text
+  const markdownBody = leadH1Text ? split.body : md
+  const leadH1Id = leadH1Text ? rehypeSlugIdForAtxH1Text(leadH1Text) : null
 
   useEffect(() => {
     const id = location.hash.replace(/^#/, '')
@@ -63,6 +83,22 @@ export function MarkdownPage() {
           </a>
         )
       },
+      pre: MarkdownPreWithCopy,
+      code: ({ node, inline, children, className, ...rest }: MarkdownCodeRenderProps) => {
+        void node
+        if (!inline) {
+          return (
+            <code className={className} {...rest}>
+              {children}
+            </code>
+          )
+        }
+        return (
+          <MarkdownInlineCode className={className} {...rest}>
+            {children}
+          </MarkdownInlineCode>
+        )
+      },
     }
   }, [lang, chapter])
 
@@ -71,9 +107,9 @@ export function MarkdownPage() {
   if (lib && !path) {
     return (
       <p className="text-sm text-zinc-600">
-        This page is not in the library index.{' '}
+        {t.markdownNotInIndex}{' '}
         <Link to={`/${lang}/${chapter}`} className="text-zinc-900 underline">
-          Back to chapter
+          {t.markdownBackToChapter}
         </Link>
       </p>
     )
@@ -82,7 +118,7 @@ export function MarkdownPage() {
   if (q.isLoading) {
     return (
       <p className="text-sm text-zinc-500" role="status">
-        Loading…
+        {t.markdownLoading}
       </p>
     )
   }
@@ -93,14 +129,14 @@ export function MarkdownPage() {
         className="rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-800"
         role="alert"
       >
-        {String(q.error?.message ?? 'Failed to load document.')} GitHub rate
-        limits may apply — try again later or configure a token.
+        {String(q.error?.message ?? t.markdownLoadError)} {t.markdownRateLimitHint}
       </div>
     )
   }
 
   const displayTitle = title ?? page
   const baseName = exportFileStem(chapter, page)
+  const exportMd = repositoryMarkdownForExport(md)
   /** Avoid duplicate h1 when the MD body already opens with `# …` (typical case). */
   const showFallbackTitle = title === undefined
 
@@ -114,7 +150,7 @@ export function MarkdownPage() {
           >
             ← {chapter.replace(/-/g, ' ')}
           </Link>
-          {showFallbackTitle ? (
+          {showFallbackTitle && !leadH1Text ? (
             <h1 className="mt-2 text-2xl font-semibold tracking-tight text-zinc-900">
               {displayTitle}
             </h1>
@@ -124,34 +160,43 @@ export function MarkdownPage() {
           <button
             type="button"
             className="rounded-lg border border-zinc-200 bg-white px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-zinc-700 shadow-sm hover:bg-zinc-50"
-            onClick={() => downloadMarkdownFile(`${baseName}.md`, md)}
+            onClick={() => downloadMarkdownFile(`${baseName}.md`, exportMd)}
           >
-            Markdown
+            {t.exportMarkdown}
           </button>
           <button
             type="button"
             className="rounded-lg border border-zinc-200 bg-white px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-zinc-700 shadow-sm hover:bg-zinc-50"
             onClick={() =>
               void import('../lib/exports').then(({ downloadDocx }) =>
-                downloadDocx(`${baseName}.docx`, md, displayTitle),
+                downloadDocx(`${baseName}.docx`, exportMd, displayTitle),
               )
             }
           >
-            Word
+            {t.exportWord}
           </button>
           <button
             type="button"
             className="rounded-lg border border-zinc-200 bg-zinc-800 px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-white shadow-sm hover:bg-zinc-900"
             onClick={() =>
               void import('../lib/exports').then(({ downloadPdfFromMarkdown }) =>
-                downloadPdfFromMarkdown(md, displayTitle, `${baseName}.pdf`),
+                downloadPdfFromMarkdown(exportMd, displayTitle, `${baseName}.pdf`),
               )
             }
           >
-            PDF
+            {t.exportPdf}
           </button>
         </div>
       </div>
+
+      {leadH1Text ? (
+        <h1
+          id={leadH1Id || undefined}
+          className="mb-4 scroll-mt-24 text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl"
+        >
+          {leadH1Text}
+        </h1>
+      ) : null}
 
       <InPageToc items={tocItems} />
 
@@ -161,7 +206,7 @@ export function MarkdownPage() {
           rehypePlugins={[rehypeSlug]}
           components={components}
         >
-          {md}
+          {markdownBody}
         </ReactMarkdown>
       </div>
     </article>

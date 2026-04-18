@@ -7,6 +7,7 @@ import {
   downloadExplainerMarkdown,
 } from '../lib/mdArchive'
 import { formatChapterTitle, humanizeSlug } from '../lib/strings'
+import type { UiCopy } from '../lib/uiI18n'
 
 /** Sidebar row action: hidden until row hover / focus-within, unless this key is active. */
 function rowDownloadBtnClass(
@@ -63,9 +64,10 @@ type Props = {
   lang: string
   index: LangIndex | undefined
   onPick?: () => void
+  ui: UiCopy
 }
 
-export function ChapterNav({ lang, index, onPick }: Props) {
+export function ChapterNav({ lang, index, onPick, ui: t }: Props) {
   const location = useLocation()
   const [downloadBusy, setDownloadBusy] = useState<string | null>(null)
   const activeChapter = activeChapterId(location.pathname)
@@ -101,12 +103,12 @@ export function ChapterNav({ lang, index, onPick }: Props) {
 
   if (!index?.chapters.length) {
     return (
-      <p className="px-3 py-2 text-sm text-zinc-500">No chapters yet.</p>
+      <p className="px-3 py-2 text-sm text-zinc-500">{t.chapterNavNoChapters}</p>
     )
   }
 
   return (
-    <nav className="flex min-w-0 flex-col gap-1" aria-label="Chapters">
+    <nav className="flex min-w-0 flex-col gap-1" aria-label={t.chapterNavAria}>
       {index.chapters.map((ch) => {
         const pages = index.byChapter[ch] ?? []
         const prefix = `/${lang}/${ch}`
@@ -137,8 +139,8 @@ export function ChapterNav({ lang, index, onPick }: Props) {
               {pages.length > 0 ? (
                 <button
                   type="button"
-                  title="Download chapter (.zip of all .md files)"
-                  aria-label={`Download ${formatChapterTitle(ch)} as ZIP`}
+                  title={t.chapterNavZipTitle}
+                  aria-label={t.chapterNavZipAria(formatChapterTitle(ch))}
                   disabled={downloadBusy !== null}
                   className={rowDownloadBtnClass(zipKey, downloadBusy, 'chapter')}
                   onClick={(e) => {
@@ -176,8 +178,10 @@ export function ChapterNav({ lang, index, onPick }: Props) {
                       </NavLink>
                       <button
                         type="button"
-                        title="Download this page as .md"
-                        aria-label={`Download ${h1ByPath.get(p.path) ?? humanizeSlug(p.slug)} as Markdown`}
+                        title={t.chapterNavMdTitle}
+                        aria-label={t.chapterNavMdAria(
+                          h1ByPath.get(p.path) ?? humanizeSlug(p.slug),
+                        )}
                         disabled={downloadBusy !== null}
                         className={rowDownloadBtnClass(
                           mdKey,
