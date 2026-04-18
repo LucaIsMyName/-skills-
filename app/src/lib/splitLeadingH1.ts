@@ -6,7 +6,6 @@ import remarkParse from 'remark-parse'
 import remarkRehype from 'remark-rehype'
 import { unified } from 'unified'
 import { visit } from 'unist-util-visit'
-import { VFile } from 'vfile'
 
 /**
  * If the file starts with an ATX `#` heading, returns its plain text and the
@@ -39,8 +38,9 @@ export function rehypeSlugIdForAtxH1Text(plainTitle: string): string {
     .use(remarkRehype)
     .use(rehypeSlug)
 
-  const vf = new VFile(`# ${safe}\n`)
-  const tree = processor.runSync(processor.parse(vf), vf) as HastRoot
+  const src = `# ${safe}\n`
+  const mdast = processor.parse(src)
+  const tree = processor.runSync(mdast, src) as HastRoot
   let id = ''
   visit(tree, 'element', (node) => {
     if (id) return
