@@ -1,7 +1,7 @@
 {
   "name": "app",
   "private": true,
-  "version": "2026.04.18.15",
+  "version": "2026.04.18.16",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@base-ui/react": "^1.4.0",
+    "@radix-ui/react-dialog": "^1.1.15",
     "@fontsource-variable/geist": "^5.2.8",
     "@fontsource/geist-sans": "^5.2.5",
     "@fontsource/jetbrains-mono": "^5.2.8",

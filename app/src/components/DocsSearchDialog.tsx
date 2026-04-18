@@ -1,6 +1,10 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import {
+  Description as DialogDescription,
+  Title as DialogTitle,
+} from '@radix-ui/react-dialog'
+import {
   CommandDialog,
   CommandEmpty,
   CommandGroup,
@@ -109,13 +113,17 @@ export function DocsSearchDialog({ open, onOpenChange }: Props) {
       onOpenChange={handleOpenChange}
       shouldFilter={false}
       label={t.searchOpenAria}
+      className="docs-search-dialog"
       contentClassName={cn(
+        'fixed left-1/2 z-[51] w-[calc(100vw-2rem)] max-w-lg -translate-x-1/2',
+        'top-[max(2rem,12vh)]',
         'overflow-hidden p-0 shadow-lg',
-        'border border-border bg-popover text-popover-foreground',
-        'max-w-[min(100vw-2rem,32rem)] sm:max-w-lg',
+        'rounded-xl border border-border bg-popover text-popover-foreground',
       )}
       overlayClassName="fixed inset-0 z-50 bg-black/40"
     >
+      <DialogTitle className="sr-only">{t.searchOpenAria}</DialogTitle>
+      <DialogDescription className="sr-only">{t.searchTypePrompt}</DialogDescription>
       <div className="flex items-center border-b border-border px-3">
         <SearchIcon
           className="mr-2 size-4 shrink-0 text-muted-foreground"
@@ -132,7 +140,7 @@ export function DocsSearchDialog({ open, onOpenChange }: Props) {
           )}
         />
       </div>
-      <CommandList className="max-h-[min(60vh,24rem)] overflow-y-auto p-2">
+      <CommandList className="max-h-[min(60vh,24rem)] overflow-y-auto px-3 pb-3 pt-1">
         {indexError ? (
           <div className="px-3 py-6 text-center text-sm text-destructive">
             {t.searchError}
@@ -160,7 +168,14 @@ export function DocsSearchDialog({ open, onOpenChange }: Props) {
                 key={`ch:${item.lang}:${item.chapter}`}
                 value={`ch:${item.lang}:${item.chapter}`}
                 onSelect={() => onPick(item)}
-                className="cursor-pointer rounded-md"
+                className={cn(
+                  'cursor-pointer rounded-lg border border-border/80 bg-card px-3 py-2.5',
+                  'text-left text-sm font-medium text-card-foreground shadow-sm',
+                  'transition-[background-color,box-shadow,border-color]',
+                  'hover:border-border hover:bg-muted/70',
+                  'aria-selected:border-ring/40 aria-selected:bg-accent aria-selected:shadow-md',
+                  'data-[disabled=true]:pointer-events-none data-[disabled=true]:opacity-50',
+                )}
               >
                 <span className="truncate">{item.title}</span>
               </CommandItem>
@@ -175,11 +190,20 @@ export function DocsSearchDialog({ open, onOpenChange }: Props) {
                   key={item.repoPath}
                   value={item.repoPath}
                   onSelect={() => onPick(item)}
-                  className="cursor-pointer flex-col items-start gap-0.5 rounded-md py-2"
+                  className={cn(
+                    'cursor-pointer flex-col items-stretch gap-1 rounded-lg border border-border/80',
+                    'bg-card px-3 py-3 text-left shadow-sm',
+                    'transition-[background-color,box-shadow,border-color]',
+                    'hover:border-border hover:bg-muted/70',
+                    'aria-selected:border-ring/40 aria-selected:bg-accent aria-selected:shadow-md',
+                    'data-[disabled=true]:pointer-events-none data-[disabled=true]:opacity-50',
+                  )}
                 >
-                  <span className="truncate font-medium">{item.title}</span>
+                  <span className="text-base font-semibold leading-snug text-foreground">
+                    {item.title}
+                  </span>
                   {item.headings.length > 0 ? (
-                    <span className="line-clamp-2 text-xs text-muted-foreground">
+                    <span className="line-clamp-2 text-xs leading-relaxed text-muted-foreground">
                       {item.headings.slice(0, 4).join(' · ')}
                     </span>
                   ) : null}

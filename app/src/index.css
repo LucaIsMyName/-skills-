@@ -42,6 +42,19 @@
   }
 }
 
+@layer components {
+  /** CmdK search palette: small section labels, spaced card stacks */
+  .docs-search-dialog [cmdk-group-heading] {
+    @apply px-0.5 pb-2 pt-0.5 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground;
+  }
+  .docs-search-dialog [cmdk-group] + [cmdk-group] {
+    @apply mt-3 border-t border-border/70 pt-3;
+  }
+  .docs-search-dialog [cmdk-group-items] {
+    @apply flex flex-col gap-2;
+  }
+}
+
 @theme inline {
   --font-heading: var(--font-sans);
   --font-sans: "Geist Variable", sans-serif;
