@@ -1,0 +1,16 @@
+# Dependencies (npm workspaces hoists to repo root)
+node_modules/
+
+# Builds
+dist/
+dist-ssr/
+app/dist/
+
+# Local env
+.env
+.env.*
+!.env.example
+
+# Logs & OS
+*.log
+.DS_Store

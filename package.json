@@ -1,8 +1,17 @@
 {
   "name": "skills",
-  "version": "2026.04.17.9",
+  "version": "2026.04.18.1",
+  "private": true,
   "description": "a collection of \"skills\" that are just plain markdown files explaining concepts and workflows to any AI without having to write the same old instructions and meta-infos over and over again",
   "main": "./",
+  "workspaces": [
+    "app"
+  ],
+  "scripts": {
+    "docs:dev": "npm run dev -w app",
+    "docs:build": "npm run build -w app",
+    "docs:preview": "npm run preview -w app"
+  },
   "author": "LucaIsMyName",
   "repository": {
     "type": "git",
