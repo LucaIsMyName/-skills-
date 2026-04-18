@@ -46,6 +46,15 @@ export type UiCopy = {
   copyCodeCopied: string
   notFoundTitle: string
   notFoundHome: string
+  searchOpenAria: string
+  searchPlaceholder: string
+  searchShortcutHint: string
+  searchLoading: string
+  searchError: string
+  searchNoResults: string
+  searchTypePrompt: string
+  searchGroupChapters: string
+  searchGroupPages: string
 }
 
 const en: UiCopy = {
@@ -89,6 +98,15 @@ const en: UiCopy = {
   copyCodeCopied: 'Copied',
   notFoundTitle: 'Page not found',
   notFoundHome: 'Go to home',
+  searchOpenAria: 'Search library',
+  searchPlaceholder: 'Search chapters and pages…',
+  searchShortcutHint: '⌘K',
+  searchLoading: 'Loading search index…',
+  searchError: 'Search index could not be loaded.',
+  searchNoResults: 'No results.',
+  searchTypePrompt: 'Type to search titles and headings.',
+  searchGroupChapters: 'Chapters',
+  searchGroupPages: 'Pages',
 }
 
 const de: UiCopy = {
@@ -134,6 +152,15 @@ const de: UiCopy = {
   copyCodeCopied: 'Kopiert',
   notFoundTitle: 'Seite nicht gefunden',
   notFoundHome: 'Zur Startseite',
+  searchOpenAria: 'Bibliothek durchsuchen',
+  searchPlaceholder: 'Kapitel und Seiten suchen…',
+  searchShortcutHint: '⌃K',
+  searchLoading: 'Suchindex wird geladen…',
+  searchError: 'Suchindex konnte nicht geladen werden.',
+  searchNoResults: 'Keine Treffer.',
+  searchTypePrompt: 'Tippen, um Titel und Überschriften zu durchsuchen.',
+  searchGroupChapters: 'Kapitel',
+  searchGroupPages: 'Seiten',
 }
 
 export const uiStrings: Record<UiLocale, UiCopy> = { en, de }
