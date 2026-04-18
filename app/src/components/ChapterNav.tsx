@@ -8,6 +8,32 @@ import {
 } from '../lib/mdArchive'
 import { formatChapterTitle, humanizeSlug } from '../lib/strings'
 
+/** Sidebar row action: hidden until row hover / focus-within, unless this key is active. */
+function rowDownloadBtnClass(
+  actionKey: string,
+  downloadBusy: string | null,
+  positionClass: 'chapter' | 'page',
+): string {
+  const pos = positionClass === 'chapter' ? 'right-1.5' : 'right-1'
+  const pad = positionClass === 'chapter' ? 'p-1.5' : 'p-1'
+  const base = [
+    'absolute',
+    pos,
+    'top-1/2 z-[1] -translate-y-1/2',
+    pad,
+    'inline-flex text-zinc-500 transition-opacity duration-150',
+    'hover:bg-zinc-200/80 hover:text-zinc-900',
+    'disabled:cursor-not-allowed',
+  ].join(' ')
+  if (downloadBusy !== null && downloadBusy !== actionKey) {
+    return `${base} opacity-0 pointer-events-none`
+  }
+  if (downloadBusy === actionKey) {
+    return `${base} opacity-100`
+  }
+  return `${base} opacity-0 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-focus-within:pointer-events-auto group-focus-within:opacity-100 focus-visible:pointer-events-auto focus-visible:!opacity-100`
+}
+
 function DownloadGlyph({ className }: { className?: string }) {
   return (
     <svg
@@ -89,15 +115,17 @@ export function ChapterNav({ lang, index, onPick }: Props) {
           location.pathname.startsWith(`${prefix}/`)
         const showExplainers = inChapter && pages.length > 0
 
+        const zipKey = `zip:${ch}`
+
         return (
           <div key={ch} className="flex flex-col gap-0.5">
-            <div className="flex items-center gap-0.5 pr-1">
+            <div className="group relative">
               <NavLink
                 to={prefix}
                 onClick={onPick}
                 className={() =>
                   [
-                    'min-w-0 flex-1 truncate rounded-lg px-3 py-2 text-sm font-medium transition-colors',
+                    'block min-w-0 truncate rounded-lg py-2 pl-3 pr-10 text-sm font-medium transition-colors',
                     inChapter
                       ? 'bg-zinc-200/80 text-zinc-900'
                       : 'text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900',
@@ -112,7 +140,7 @@ export function ChapterNav({ lang, index, onPick }: Props) {
                   title="Download chapter (.zip of all .md files)"
                   aria-label={`Download ${formatChapterTitle(ch)} as ZIP`}
                   disabled={downloadBusy !== null}
-                  className="inline-flex shrink-0 rounded-md p-1.5 text-zinc-400 transition hover:bg-zinc-200 hover:text-zinc-800 disabled:opacity-40"
+                  className={rowDownloadBtnClass(zipKey, downloadBusy, 'chapter')}
                   onClick={(e) => {
                     e.preventDefault()
                     e.stopPropagation()
@@ -128,40 +156,47 @@ export function ChapterNav({ lang, index, onPick }: Props) {
                 className="mb-1 ml-2 space-y-0.5 border-l border-zinc-200 pl-2"
                 role="list"
               >
-                {pages.map((p) => (
-                  <li key={p.slug} className="flex items-center gap-0.5 pr-0.5">
-                    <NavLink
-                      to={`/${lang}/${ch}/${p.slug}`}
-                      onClick={onPick}
-                      className={({ isActive }) =>
-                        [
-                          'min-w-0 flex-1 rounded-md px-2 py-1.5 text-xs font-medium leading-snug transition-colors',
-                          isActive
-                            ? 'bg-zinc-200/90 text-zinc-900'
-                            : 'text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900',
-                        ].join(' ')
-                      }
-                    >
-                      <span className="line-clamp-2">
-                        {h1ByPath.get(p.path) ?? humanizeSlug(p.slug)}
-                      </span>
-                    </NavLink>
-                    <button
-                      type="button"
-                      title="Download this page as .md"
-                      aria-label={`Download ${h1ByPath.get(p.path) ?? humanizeSlug(p.slug)} as Markdown`}
-                      disabled={downloadBusy !== null}
-                      className="inline-flex shrink-0 self-start rounded p-1 text-zinc-400 transition hover:bg-zinc-200 hover:text-zinc-800 disabled:opacity-40"
-                      onClick={(e) => {
-                        e.preventDefault()
-                        e.stopPropagation()
-                        onPageMd(ch, p)
-                      }}
-                    >
-                      <DownloadGlyph className="h-3.5 w-3.5" />
-                    </button>
-                  </li>
-                ))}
+                {pages.map((p) => {
+                  const mdKey = `md:${ch}:${p.slug}`
+                  return (
+                    <li key={p.slug} className="group relative">
+                      <NavLink
+                        to={`/${lang}/${ch}/${p.slug}`}
+                        onClick={onPick}
+                        className={({ isActive }) =>
+                          [
+                            'block rounded-md py-1.5 pl-2 pr-9 text-xs font-medium leading-snug transition-colors',
+                            isActive
+                              ? 'bg-zinc-200/90 text-zinc-900'
+                              : 'text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900',
+                          ].join(' ')
+                        }
+                      >
+                        <span className="line-clamp-2">
+                          {h1ByPath.get(p.path) ?? humanizeSlug(p.slug)}
+                        </span>
+                      </NavLink>
+                      <button
+                        type="button"
+                        title="Download this page as .md"
+                        aria-label={`Download ${h1ByPath.get(p.path) ?? humanizeSlug(p.slug)} as Markdown`}
+                        disabled={downloadBusy !== null}
+                        className={rowDownloadBtnClass(
+                          mdKey,
+                          downloadBusy,
+                          'page',
+                        )}
+                        onClick={(e) => {
+                          e.preventDefault()
+                          e.stopPropagation()
+                          onPageMd(ch, p)
+                        }}
+                      >
+                        <DownloadGlyph className="h-3.5 w-3.5" />
+                      </button>
+                    </li>
+                  )
+                })}
               </ul>
             )}
           </div>

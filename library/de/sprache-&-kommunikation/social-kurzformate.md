@@ -1,4 +1,4 @@
-# Social-Kurzformate (LinkedIn, Meta, Threads, Bluesky)
+# Social-Kurzformate
 
 **Geltungsbereich:** **Kurze Social-Media-Texte und Bildunterschriften** für gemeinnützige und soziale Organisationen; keine Langartikel, keine Pressemitteilungen und keine Ersatzberatung zu bezahlten Anzeigen oder Plattform-Richtlinien (jeweils Plattform + ggf. Rechtsprüfung).
 

@@ -1,4 +1,4 @@
-# Social short-form (LinkedIn, Meta, Threads, Bluesky)
+# Social short-form
 
 **Scope:** Applies to **short social posts and captions** for nonprofit and social-purpose accounts; not long-form articles, press releases, or paid ad policy compliance (follow platform + legal review).
 
