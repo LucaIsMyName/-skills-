@@ -5,6 +5,7 @@ import { useUiStrings } from '../hooks/useUiStrings'
 import { AppLogo } from '../components/AppLogo'
 import { ChapterNav } from '../components/ChapterNav'
 import { LangSwitch } from '../components/LangSwitch'
+import { DarkModeToggle } from '../components/DarkModeToggle'
 
 export function DocsLayout() {
   const { lang } = useParams<{
@@ -29,9 +30,9 @@ export function DocsLayout() {
   const index = byLang?.get(lang)
 
   return (
-    <div className="flex min-h-screen flex-col bg-zinc-50 lg:flex-row">
+    <div className="flex min-h-screen flex-col bg-zinc-50 dark:bg-zinc-900 lg:flex-row">
       {/* Mobile header */}
-      <header className="sticky top-0 z-40 flex items-center justify-between gap-3 border-b border-zinc-200 bg-zinc-50/95 px-4 py-3 backdrop-blur lg:hidden">
+      <header className="sticky top-0 z-40 flex items-center justify-between gap-3 border-b border-zinc-200 bg-zinc-50/95 px-4 py-3 backdrop-blur dark:border-zinc-700 dark:bg-zinc-900/95 lg:hidden">
         <div className="flex min-w-0 flex-1 items-center gap-8">
           <AppLogo lang={lang} />
           {langs.length > 0 && (
@@ -43,9 +44,10 @@ export function DocsLayout() {
           )}
         </div>
         <div className="flex shrink-0 items-center gap-2">
+          <DarkModeToggle />
           <button
             type="button"
-            className="inline-flex items-center justify-center rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm font-medium text-zinc-700 shadow-sm"
+            className="inline-flex items-center justify-center rounded-lg border border-zinc-200 bg-white px-3 py-2 text-sm font-medium text-zinc-700 shadow-sm dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300"
             aria-expanded={drawerOpen}
             aria-controls="mobile-drawer"
             onClick={() => setDrawerOpen((o) => !o)}
@@ -75,28 +77,31 @@ export function DocsLayout() {
         <aside
           id="mobile-drawer"
           className={[
-            'absolute left-0 top-0 flex h-full w-[min(100%,20rem)] flex-col border-r border-zinc-200 bg-zinc-50 shadow-xl transition-transform',
+            'absolute left-0 top-0 flex h-full w-[min(100%,20rem)] flex-col border-r border-zinc-200 bg-zinc-50 shadow-xl transition-transform dark:border-zinc-700 dark:bg-zinc-900',
             drawerOpen ? 'translate-x-0' : '-translate-x-full',
           ].join(' ')}
         >
-          <div className="border-b border-zinc-200 p-4">
+          <div className="border-b border-zinc-200 p-4 dark:border-zinc-700">
             <div className="flex items-center justify-between gap-2">
               <AppLogo lang={lang} onNavigate={closeDrawer} />
-              {langs.length > 0 && (
-                <LangSwitch
-                  langs={langs}
-                  indexes={byLang ?? new Map()}
-                  currentLang={lang}
-                />
-              )}
+              <div className="flex items-center gap-2">
+                {langs.length > 0 && (
+                  <LangSwitch
+                    langs={langs}
+                    indexes={byLang ?? new Map()}
+                    currentLang={lang}
+                  />
+                )}
+                <DarkModeToggle />
+              </div>
             </div>
           </div>
           <div className="flex-1 overflow-y-auto p-3">
             {isLoading && (
-              <p className="text-sm text-zinc-500">{t.docsLoadingNav}</p>
+              <p className="text-sm text-zinc-500 dark:text-zinc-400">{t.docsLoadingNav}</p>
             )}
             {isError && (
-              <p className="text-sm text-red-700">{String(error?.message)}</p>
+              <p className="text-sm text-red-700 dark:text-red-400">{String(error?.message)}</p>
             )}
             {index && (
               <ChapterNav
@@ -111,21 +116,24 @@ export function DocsLayout() {
       </div>
 
       {/* Desktop sidebar: full viewport height, sticks while main content scrolls; nav scrolls inside */}
-      <aside className="hidden w-[min(100%,18rem)] shrink-0 flex-col overflow-hidden border-r border-zinc-200 bg-zinc-100/50 lg:flex lg:h-dvh lg:max-h-dvh lg:sticky lg:top-0 lg:self-start">
-        <div className="shrink-0 border-b border-zinc-200 bg-zinc-100/50 p-4">
+      <aside className="hidden w-[min(100%,18rem)] shrink-0 flex-col overflow-hidden border-r border-zinc-200 bg-zinc-100/50 dark:border-zinc-700 dark:bg-zinc-800/50 lg:flex lg:h-dvh lg:max-h-dvh lg:sticky lg:top-0 lg:self-start">
+        <div className="shrink-0 border-b border-zinc-200 bg-zinc-100/50 p-4 dark:border-zinc-700 dark:bg-zinc-800/50">
           <div className="flex items-center justify-between gap-2">
             <AppLogo lang={lang} />
-            {langs.length > 0 && byLang && (
-              <LangSwitch langs={langs} indexes={byLang} currentLang={lang} />
-            )}
+            <div className="flex items-center gap-2">
+              {langs.length > 0 && byLang && (
+                <LangSwitch langs={langs} indexes={byLang} currentLang={lang} />
+              )}
+              <DarkModeToggle />
+            </div>
           </div>
         </div>
         <div className="min-h-0 flex-1 overflow-y-auto overflow-x-hidden overscroll-y-contain p-3">
           {isLoading && (
-            <p className="text-sm text-zinc-500">{t.docsLoadingNav}</p>
+            <p className="text-sm text-zinc-500 dark:text-zinc-400">{t.docsLoadingNav}</p>
           )}
           {isError && (
-            <p className="text-sm text-red-700">{String(error?.message)}</p>
+            <p className="text-sm text-red-700 dark:text-red-400">{String(error?.message)}</p>
           )}
           {index && <ChapterNav lang={lang} index={index} ui={t} />}
         </div>

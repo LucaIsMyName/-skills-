@@ -24,6 +24,7 @@ function rowDownloadBtnClass(
     pad,
     'inline-flex text-zinc-500 transition-opacity duration-150',
     'hover:bg-zinc-200/80 hover:text-zinc-900',
+    'dark:text-zinc-400 dark:hover:bg-zinc-700/80 dark:hover:text-zinc-100',
     'disabled:cursor-not-allowed',
   ].join(' ')
   if (downloadBusy !== null && downloadBusy !== actionKey) {
@@ -107,7 +108,7 @@ export function ChapterNav({ lang, index, onPick, ui: t }: Props) {
 
   if (!index?.chapters.length) {
     return (
-      <p className="px-3 py-2 text-sm text-zinc-500">{t.chapterNavNoChapters}</p>
+      <p className="px-3 py-2 text-sm text-zinc-500 dark:text-zinc-400">{t.chapterNavNoChapters}</p>
     )
   }
 
@@ -115,7 +116,7 @@ export function ChapterNav({ lang, index, onPick, ui: t }: Props) {
     <nav className="flex min-w-0 flex-col gap-1" aria-label={t.chapterNavAria}>
       {downloadError ? (
         <p
-          className="mb-1 rounded-md border border-red-200 bg-red-50 px-2 py-1 text-xs text-red-700"
+          className="mb-1 rounded-md border border-red-200 bg-red-50 px-2 py-1 text-xs text-red-700 dark:border-red-900/50 dark:bg-red-900/20 dark:text-red-400"
           role="alert"
         >
           {downloadError}
@@ -123,7 +124,7 @@ export function ChapterNav({ lang, index, onPick, ui: t }: Props) {
       ) : null}
       {h1Query.isError ? (
         <p
-          className="mb-1 rounded-md border border-amber-200 bg-amber-50 px-2 py-1 text-xs text-amber-800"
+          className="mb-1 rounded-md border border-amber-200 bg-amber-50 px-2 py-1 text-xs text-amber-800 dark:border-amber-900/50 dark:bg-amber-900/20 dark:text-amber-400"
           role="status"
         >
           {t.chapterNavLabelsError}
@@ -149,8 +150,8 @@ export function ChapterNav({ lang, index, onPick, ui: t }: Props) {
                   [
                     'block min-w-0 truncate rounded-lg py-2 pl-3 pr-10 text-sm font-medium transition-colors',
                     inChapter
-                      ? 'bg-zinc-200/80 text-zinc-900'
-                      : 'text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900',
+                      ? 'bg-zinc-200/80 text-zinc-900 dark:bg-zinc-700/80 dark:text-zinc-100'
+                      : 'text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-700/50 dark:hover:text-zinc-100',
                   ].join(' ')
                 }
               >
@@ -175,7 +176,7 @@ export function ChapterNav({ lang, index, onPick, ui: t }: Props) {
             </div>
             {showExplainers && (
               <ul
-                className="mb-1 ml-2 min-w-0 space-y-0.5 border-l border-zinc-200 pl-2"
+                className="mb-1 ml-2 min-w-0 space-y-0.5 border-l border-zinc-200 pl-2 dark:border-zinc-700"
                 role="list"
               >
                 {pages.map((p) => {
@@ -189,8 +190,8 @@ export function ChapterNav({ lang, index, onPick, ui: t }: Props) {
                           [
                             'block min-w-0 truncate rounded-md py-1.5 pl-2 pr-9 text-xs font-medium transition-colors',
                             isActive
-                              ? 'bg-zinc-200/90 text-zinc-900'
-                              : 'text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900',
+                              ? 'bg-zinc-200/90 text-zinc-900 dark:bg-zinc-700/90 dark:text-zinc-100'
+                              : 'text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-700/50 dark:hover:text-zinc-100',
                           ].join(' ')
                         }
                       >

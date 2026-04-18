@@ -35,7 +35,7 @@ export function MarkdownPreWithCopy({ children, className, ...rest }: PreProps):
       <button
         type="button"
         onClick={() => void handleCopy()}
-        className="absolute right-2 top-2 z-10 rounded-md border border-zinc-200 bg-white p-1.5 text-zinc-600 shadow-sm transition-colors hover:bg-zinc-50 hover:text-zinc-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400"
+        className="absolute right-2 top-2 z-10 rounded-md border border-zinc-200 bg-white p-1.5 text-zinc-600 shadow-sm transition-colors hover:bg-zinc-50 hover:text-zinc-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400 dark:border-zinc-600 dark:bg-zinc-700 dark:text-zinc-400 dark:hover:bg-zinc-600 dark:hover:text-zinc-100"
         aria-label={copied ? t.copyCodeCopied : t.copyCode}
       >
         {copied ? (
@@ -84,7 +84,7 @@ export function MarkdownInlineCode({
       <button
         type="button"
         onClick={() => void handleCopy()}
-        className="-mb-px inline-flex shrink-0 rounded p-0.5 text-zinc-400 transition-colors hover:bg-zinc-100 hover:text-zinc-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400"
+        className="-mb-px inline-flex shrink-0 rounded p-0.5 text-zinc-400 transition-colors hover:bg-zinc-100 hover:text-zinc-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400 dark:text-zinc-500 dark:hover:bg-zinc-700 dark:hover:text-zinc-300"
         aria-label={copied ? t.copyCodeCopied : t.copyCode}
       >
         {copied ? (

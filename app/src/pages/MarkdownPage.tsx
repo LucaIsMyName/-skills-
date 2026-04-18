@@ -111,9 +111,9 @@ export function MarkdownPage() {
 
   if (lib && !path) {
     return (
-      <p className="text-sm text-zinc-600">
+      <p className="text-sm text-zinc-600 dark:text-zinc-400">
         {t.markdownNotInIndex}{' '}
-        <Link to={`/${lang}/${chapter}`} className="text-zinc-900 underline">
+        <Link to={`/${lang}/${chapter}`} className="text-zinc-900 underline dark:text-zinc-200">
           {t.markdownBackToChapter}
         </Link>
       </p>
@@ -151,12 +151,12 @@ export function MarkdownPage() {
         <div>
           <Link
             to={`/${lang}/${chapter}`}
-            className="text-sm font-medium text-zinc-500 hover:text-zinc-800"
+            className="text-sm font-medium text-zinc-500 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-200"
           >
             ← {chapter.replace(/-/g, ' ')}
           </Link>
           {showFallbackTitle && !leadH1Text ? (
-            <h1 className="mt-2 text-2xl font-semibold tracking-tight text-zinc-900">
+            <h1 className="mt-2 text-2xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
               {displayTitle}
             </h1>
           ) : null}
@@ -164,14 +164,14 @@ export function MarkdownPage() {
         <div className="flex flex-wrap gap-2">
           <button
             type="button"
-            className="rounded-lg border border-zinc-200 bg-white px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-zinc-700 shadow-sm hover:bg-zinc-50"
+            className="rounded-lg border border-zinc-200 bg-white px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-zinc-700 shadow-sm hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700"
             onClick={() => downloadMarkdownFile(`${baseName}.md`, exportMd)}
           >
             {t.exportMarkdown}
           </button>
           <button
             type="button"
-            className="rounded-lg border border-zinc-200 bg-white px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-zinc-700 shadow-sm hover:bg-zinc-50"
+            className="rounded-lg border border-zinc-200 bg-white px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-zinc-700 shadow-sm hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300 dark:hover:bg-zinc-700"
             onClick={() =>
               void import('../lib/exports').then(({ downloadDocx }) =>
                 downloadDocx(`${baseName}.docx`, exportMd, displayTitle),
@@ -182,7 +182,7 @@ export function MarkdownPage() {
           </button>
           <button
             type="button"
-            className="rounded-lg border border-zinc-200 bg-zinc-800 px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-white shadow-sm hover:bg-zinc-900"
+            className="rounded-lg border border-zinc-200 bg-zinc-800 px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-white shadow-sm hover:bg-zinc-900 dark:border-zinc-600 dark:bg-zinc-700 dark:hover:bg-zinc-600"
             onClick={() =>
               void import('../lib/exports').then(({ downloadPdfFromMarkdown }) =>
                 downloadPdfFromMarkdown(exportMd, displayTitle, `${baseName}.pdf`),
@@ -197,7 +197,7 @@ export function MarkdownPage() {
       {leadH1Text ? (
         <h1
           id={leadH1Id || undefined}
-          className="mb-4 scroll-mt-24 text-3xl font-bold tracking-tight text-zinc-900 sm:text-4xl"
+          className="mb-4 scroll-mt-24 text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 sm:text-4xl"
         >
           {leadH1Text}
         </h1>
@@ -205,7 +205,7 @@ export function MarkdownPage() {
 
       <InPageToc items={tocItems} />
 
-      <div className="prose prose-zinc max-w-none prose-headings:scroll-mt-24 prose-a:text-zinc-800 prose-code:font-mono prose-pre:font-mono">
+      <div className="prose prose-zinc dark:prose-invert max-w-none prose-headings:scroll-mt-24 prose-a:text-zinc-800 dark:prose-a:text-zinc-300 prose-code:font-mono prose-pre:font-mono">
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
           rehypePlugins={[rehypeSlug]}
