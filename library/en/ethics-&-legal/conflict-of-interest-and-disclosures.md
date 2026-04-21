@@ -1,8 +1,11 @@
 # Conflict of interest and disclosures
 
-**Scope:** Applies to **identifying and disclosing conflicts** in charity, research, journalism, and product contexts—gifts, paid work, family, shares, advocacy, AI/vendor relationships. Not anti-corruption law in full, not regulatory bribery frameworks. Pair with [`ai-disclosure-and-policy.md`](ai-disclosure-and-policy.md), [`respectful-language.md`](../language-&-communication/respectful-language.md), [`status-updates-and-reporting.md`](../project-&-operations/status-updates-and-reporting.md), and [`image-and-quote-releases.md`](image-and-quote-releases.md).
+## Scope:
+
+Applies to **identifying and disclosing conflicts** in charity, research, journalism, and product contexts—gifts, paid work, family, shares, advocacy, AI/vendor relationships. Not anti-corruption law in full, not regulatory bribery frameworks. Pair with [`ai-disclosure-and-policy.md`](ai-disclosure-and-policy.md), [`respectful-language.md`](../language-&-communication/respectful-language.md), [`status-updates-and-reporting.md`](../project-&-operations/status-updates-and-reporting.md), and [`image-and-quote-releases.md`](image-and-quote-releases.md).
 
 ## Excerpt
+
 - **Disclose early, disclose in writing, disclose specifically.**
 - **A conflict is not wrongdoing**; unmanaged conflict is.
 - **Register** conflicts annually and at the point of a decision—both.

@@ -1,8 +1,11 @@
 # Storytelling: Struktur und Elemente
 
-**Geltungsbereich:** Gilt für **Vorbereitung vor dem Entwurf, Grundprinzip, fünf Elemente, Rolle der Erzählperspektive und vom Thema zur Story**—für gemeinnützige und Kampagnenkontexte. Nicht Medien-Pitching. Kombiniere mit [`storytelling-handwerk-sprache-wirkung.md`](storytelling-handwerk-sprache-wirkung.md) und [`storytelling.md`](storytelling.md).
+## Geltungsbereich:
+
+Gilt für **Vorbereitung vor dem Entwurf, Grundprinzip, fünf Elemente, Rolle der Erzählperspektive und vom Thema zur Story**—für gemeinnützige und Kampagnenkontexte. Nicht Medien-Pitching. Kombiniere mit [`storytelling-handwerk-sprache-wirkung.md`](storytelling-handwerk-sprache-wirkung.md) und [`storytelling.md`](storytelling.md).
 
 ## Exzerpt
+
 - **Vorbereiten** mit konkreten/meta-Fragen—keine erfundenen Szenen oder Zitate.
 - **Grundprinzip**: Geschichten zeigen **Wandel**; Ursache, Wirkung, Entwicklung benennen.
 - **Fünf Elemente** und **Erzähler:innen** prägen die Wirkung.
@@ -51,7 +54,7 @@ Das Ziel ist es, Geschichten zu erzählen, die:
 - Zusammenhänge **verständlich machen**
 - Entwicklungen **erlebbar zeigen**
 
- Menschen folgen **Gefühlen, nicht Fakten**
+Menschen folgen **Gefühlen, nicht Fakten**
 
 ---
 

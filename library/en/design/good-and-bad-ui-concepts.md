@@ -1,8 +1,11 @@
 # Good and bad UI concepts (ASCII patterns)
 
-**Scope:** Quick **visual and spatial patterns** that separate supportive UI from confusing UI—useful for handoffs, reviews, and for tools that need a **literal sketch** of design intent. Pair with [`designing-good-interfaces.md`](designing-good-interfaces.md), [`design-basics.md`](design-basics.md), and [`forms-and-input-ux.md`](forms-and-input-ux.md).
+## Scope:
+
+Quick **visual and spatial patterns** that separate supportive UI from confusing UI—useful for handoffs, reviews, and for tools that need a **literal sketch** of design intent. Pair with [`designing-good-interfaces.md`](designing-good-interfaces.md), [`design-basics.md`](design-basics.md), and [`forms-and-input-ux.md`](forms-and-input-ux.md).
 
 ## Excerpt
+
 - **One primary action per screen.** Make the happy path obvious; demote or hide destructive alternatives.
 - **Hierarchy beats decoration.** Title → summary → detail; not three competing “hero” blocks.
 - **Whitespace is structure.** Padding groups related things; crowding implies relationship where there is none.

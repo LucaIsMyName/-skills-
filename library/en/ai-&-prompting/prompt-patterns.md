@@ -1,14 +1,17 @@
 # Prompt patterns
 
-**Scope:** Applies to **reusable patterns** for language-model interactions—few-shot, decomposition, critique-and-revise, structured output, constrained creativity, tool-use handoffs. Not a replacement for domain expertise, not a substitute for fact-checking. Pair with [`prompting-basics.md`](prompting-basics.md), [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md), [`evaluating-model-output.md`](evaluating-model-output.md), and [`working-with-context-windows.md`](working-with-context-windows.md).
+## Scope:
+
+Applies to **reusable patterns** for language-model interactions—few-shot, decomposition, critique-and-revise, structured output, constrained creativity, tool-use handoffs. Not a replacement for domain expertise, not a substitute for fact-checking. Pair with [`prompting-basics.md`](prompting-basics.md), [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md), [`evaluating-model-output.md`](evaluating-model-output.md), and [`working-with-context-windows.md`](working-with-context-windows.md).
 
 ## Excerpt
-- **Few-shot** when format or voice is hard to describe—show 1–3 examples of the *exact* shape.
+
+- **Few-shot** when format or voice is hard to describe—show 1–3 examples of the _exact_ shape.
 - **Decompose** long tasks into outline → expand → edit; check at each step.
 - **Critique-then-revise** when a draft is close but uneven—list issues first, fix second.
 - **Structured output** (JSON / schema) whenever a machine or human reviewer must parse the result.
 - **Constrained creativity** when you need options without chaos—set axes and limits.
-- Full skeletons, Bad/Good, and when *not* to use each pattern below.
+- Full skeletons, Bad/Good, and when _not_ to use each pattern below.
 
 ## Before choosing a pattern
 

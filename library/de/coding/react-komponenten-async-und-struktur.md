@@ -1,8 +1,11 @@
 # React: Komponenten, Async, Struktur
 
-**Geltungsbereich:** Gilt für **Listen, Formulare, Handler, Async, bedingtes Rendering und Dateistruktur** in React-Apps. Keine Form-Library-Tiefen. Kombiniere mit [`react-state-hooks-und-effects.md`](react-state-hooks-und-effects.md) und [`react-best-practices.md`](react-best-practices.md).
+## Geltungsbereich:
+
+Gilt für **Listen, Formulare, Handler, Async, bedingtes Rendering und Dateistruktur** in React-Apps. Keine Form-Library-Tiefen. Kombiniere mit [`react-state-hooks-und-effects.md`](react-state-hooks-und-effects.md) und [`react-best-practices.md`](react-best-practices.md).
 
 ## Exzerpt
+
 - **Stabile Keys**; **kontrollierte** Formulare als Standard.
 - **Async** mit klarem Loading/Error-UX; **niemals** State mutieren.
 - **Projekt-Layout** passend zu Feature-Ownership.
@@ -43,7 +46,7 @@ items.map((item, index) => <Item key={index} />)
 items.map(item => <Item key={item.id} />)
 ```
 
- Falsche Keys = seltsame Bugs. Siehe [Rendering lists — keys](https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-keys).
+Falsche Keys = seltsame Bugs. Siehe [Rendering lists — keys](https://react.dev/learn/rendering-lists#keeping-list-items-in-order-with-keys).
 
 ---
 
@@ -57,10 +60,10 @@ items.map(item => <Item key={item.id} />)
 
 ### Unkontrolliert, wenn:
 
-* Performance (große Formulare)
-* Formular-Bibliotheken
+- Performance (große Formulare)
+- Formular-Bibliotheken
 
- Kontrolliert = vorhersagbar, kann aber teuer sein.
+Kontrolliert = vorhersagbar, kann aber teuer sein.
 
 ---
 
@@ -78,7 +81,7 @@ items.map(item => <Item key={item.id} />)
 <button onClick={handleClick} />
 ```
 
- Funktion übergeben ≠ Funktion aufrufen.
+Funktion übergeben ≠ Funktion aufrufen.
 
 ---
 
@@ -94,10 +97,10 @@ useEffect(() => {
 
 ### Bessere Optionen
 
-* Datenbibliothek (empfohlen)
-* Loading- und Fehlerzustände explizit
+- Datenbibliothek (empfohlen)
+- Loading- und Fehlerzustände explizit
 
- Async ohne Struktur = schnell Bugs.
+Async ohne Struktur = schnell Bugs.
 
 ---
 
@@ -113,16 +116,16 @@ setItems(items);
 ### Gut: state mutieren (nein)
 
 ```ts
-setItems(prev => [...prev, newItem]);
+setItems((prev) => [...prev, newItem]);
 ```
 
- State immer als unveränderlich behandeln.
+State immer als unveränderlich behandeln.
 
 ---
 
 ## 14. Bedingtes Rendern
 
-###  Unübersichtlich
+### Unübersichtlich
 
 ```tsx
 return (
@@ -140,7 +143,7 @@ return (
 );
 ```
 
-###  Klar
+### Klar
 
 ```ts
 if (loading) return <Loading />;
@@ -149,7 +152,7 @@ if (!data) return <Empty />;
 return <Content data={data} />;
 ```
 
- Frühe Returns statt verschachtelter Ternäre—lesbarer und erweiterbarer.
+Frühe Returns statt verschachtelter Ternäre—lesbarer und erweiterbarer.
 
 ---
 
@@ -166,33 +169,33 @@ src/
   lib/
 ```
 
- Bei Skalierung nach Feature gruppieren, nicht nur nach Typ.
+Bei Skalierung nach Feature gruppieren, nicht nur nach Typ.
 
 ---
 
 ## 16. Häufige Fußangeln
 
-###  `useEffect` überall
+### `useEffect` überall
 
 → nur für Side Effects
 
-###  Abgeleiteten State speichern
+### Abgeleiteten State speichern
 
 → ableiten
 
-###  Index als Key
+### Index als Key
 
 → stabile IDs
 
-###  State mutieren
+### State mutieren
 
 → immer kopieren
 
-###  `useMemo` überoptimieren
+### `useMemo` überoptimieren
 
 → nur bei Bedarf
 
-###  Riesige Komponenten
+### Riesige Komponenten
 
 → früh teilen
 
@@ -218,17 +221,17 @@ src/
 
 Guter React-Code wirkt:
 
-* einfach
-* vorhersagbar
-* leicht änderbar
+- einfach
+- vorhersagbar
+- leicht änderbar
 
 Schlechter React-Code wirkt:
 
-* „magisch“
-* fragil
-* schwer zu debuggen
+- „magisch“
+- fragil
+- schwer zu debuggen
 
- Wenn etwas kompliziert wirkt, ist es das meist auch—vereinfachen.
+Wenn etwas kompliziert wirkt, ist es das meist auch—vereinfachen.
 
 ---
 

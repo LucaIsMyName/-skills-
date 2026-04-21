@@ -1,8 +1,11 @@
 # Notes and synthesis
 
-**Scope:** Applies to **taking, organising, and turning research notes into drafts**—for articles, briefings, reports, and stories. Pair with [`desk-research.md`](desk-research.md), [`interviewing-people.md`](interviewing-people.md), [`literature-summarising.md`](literature-summarising.md), [`source-evaluation-and-fact-checking.md`](source-evaluation-and-fact-checking.md).
+## Scope:
+
+Applies to **taking, organising, and turning research notes into drafts**—for articles, briefings, reports, and stories. Pair with [`desk-research.md`](desk-research.md), [`interviewing-people.md`](interviewing-people.md), [`literature-summarising.md`](literature-summarising.md), [`source-evaluation-and-fact-checking.md`](source-evaluation-and-fact-checking.md).
 
 ## Excerpt
+
 - **Notes are for thinking**, not for memory alone. Capture ideas, not just quotes.
 - **One fact, one note**—atomic notes beat long transcripts when it is time to draft.
 - **Provenance always**: every note links back to its source and page/timestamp.
@@ -122,7 +125,7 @@ Good research becomes good writing through **atomic notes and honest synthesis**
 ## Further reading
 
 - [Zettelkasten.de — Introduction](https://zettelkasten.de/introduction/) — lightweight explanation of linked note systems
-- [Ahrens — *How to Take Smart Notes* (book site)](https://takesmartnotes.com/) — popular workflow connecting reading to writing (commercial; method is the value)
+- [Ahrens — _How to Take Smart Notes_ (book site)](https://takesmartnotes.com/) — popular workflow connecting reading to writing (commercial; method is the value)
 - [Obsidian Help — Linking your thoughts](https://help.obsidian.md/Linking+notes+and+ideas) — tool-agnostic ideas translate to any Markdown or paper system
 
 ---

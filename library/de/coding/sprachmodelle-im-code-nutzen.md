@@ -1,8 +1,11 @@
 # Sprachmodelle im Code nutzen
 
-**Geltungsbereich:** Gilt für **Engineering-Integration mit gehosteten Sprachmodellen**—SDK-Nutzung, Prompt-Versionierung, Streaming, Retries, Kosten, Caching, Tests, Observability. Kein Modelltraining, keine Agenten-Plattformen. Kombiniere mit [`strukturierte-ausgabe-und-tools.md`](../ki-&-prompting/strukturierte-ausgabe-und-tools.md), [`modelloutput-bewerten.md`](../ki-&-prompting/modelloutput-bewerten.md), [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md) und [`sicherheit-fuer-webapps.md`](sicherheit-fuer-webapps.md).
+## Geltungsbereich:
+
+Gilt für **Engineering-Integration mit gehosteten Sprachmodellen**—SDK-Nutzung, Prompt-Versionierung, Streaming, Retries, Kosten, Caching, Tests, Observability. Kein Modelltraining, keine Agenten-Plattformen. Kombiniere mit [`strukturierte-ausgabe-und-tools.md`](../ki-&-prompting/strukturierte-ausgabe-und-tools.md), [`modelloutput-bewerten.md`](../ki-&-prompting/modelloutput-bewerten.md), [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md) und [`sicherheit-fuer-webapps.md`](sicherheit-fuer-webapps.md).
 
 ## Exzerpt
+
 - **Prompts sind Code**—im Repo, im PR, in CI.
 - **Modell wie flaky API** behandeln: Retries, Timeouts, Fallbacks, Kostenlimits.
 - **Output nie trauen**: Schema validieren, sanitisieren, Human-in-the-Loop.
@@ -85,15 +88,15 @@ Immer senden:
 
 ```ts
 const resp = await client.chat.completions.create({
-  model: 'gpt-4o-mini',
+  model: "gpt-4o-mini",
   temperature: 0,
   max_tokens: 600,
-  response_format: { type: 'json_schema', json_schema: SummarySchema },
+  response_format: { type: "json_schema", json_schema: SummarySchema },
   messages: [
-    { role: 'system', content: systemPrompt },
-    { role: 'user', content: userPayload },
+    { role: "system", content: systemPrompt },
+    { role: "user", content: userPayload },
   ],
-})
+});
 ```
 
 ## 4. Reliability-Wrapper
@@ -158,9 +161,11 @@ Dashboards: Error-Rate, Invalid-Schema-Rate, Verweigerung, p95-Latenz, Kosten/Fe
 ---
 
 ## Kerngedanke
+
 Ein Sprachmodell in Production ist eine **bezahlte, flaky, nicht-deterministische API**. Wie eine solche wrappen: versionierte Prompts, strikte Schemas, Timeouts, Retries, Observability, Privacy, Fallbacks. Magic ist für Demos.
 
 ## Weiterführend
+
 - [OpenAI — Production best practices](https://platform.openai.com/docs/guides/production-best-practices)
 - [Anthropic — Building with Claude](https://docs.anthropic.com/claude/docs/building-with-claude)
 - [LangSmith](https://docs.smith.langchain.com/)

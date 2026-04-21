@@ -1,8 +1,11 @@
 # Literatur zusammenfassen
 
-**Geltungsbereich:** Gilt für **Komprimieren von Studien, Berichten, Policy-Papieren, langen Artikeln** in ehrliche, zugeschriebene Zusammenfassungen—für Briefings, Stories, interne Notizen. Ergänzt [`quellenbewertung-und-faktencheck.md`](quellenbewertung-und-faktencheck.md), [`notizen-und-synthese.md`](notizen-und-synthese.md), [`statistik-einfach-lesen.md`](statistik-einfach-lesen.md).
+## Geltungsbereich:
+
+Gilt für **Komprimieren von Studien, Berichten, Policy-Papieren, langen Artikeln** in ehrliche, zugeschriebene Zusammenfassungen—für Briefings, Stories, interne Notizen. Ergänzt [`quellenbewertung-und-faktencheck.md`](quellenbewertung-und-faktencheck.md), [`notizen-und-synthese.md`](notizen-und-synthese.md), [`statistik-einfach-lesen.md`](statistik-einfach-lesen.md).
 
 ## Exzerpt
+
 - **Treue zuerst**: Zusammenfassung erhält Aussage, Geltungsbereich und Unsicherheit der Quelle—und kürzt dann.
 - **Einschränkungen behalten.** „Kann", „in manchen Fällen", „begrenzte Stichprobe"—das ist die Wahrheit der Quelle, kein Füllmaterial.
 - **Befund und eigene Deutung trennen.** Zusammenfassung und Kommentar in verschiedene Absätze.

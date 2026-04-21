@@ -1,6 +1,10 @@
 import { useQuery } from "@tanstack/react-query";
 import { fetchRawMarkdown } from "../lib/github";
-import { getMarkdownCache, githubSourceKey, setMarkdownCache } from "../lib/persistedCache";
+import {
+  getMarkdownCache,
+  githubSourceKey,
+  setMarkdownCache,
+} from "../lib/persistedCache";
 import { queryKeys } from "../queries/keys";
 
 export function useMarkdown(path: string | undefined, enabled: boolean) {

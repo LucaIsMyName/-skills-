@@ -1,8 +1,11 @@
 # Modelloutput bewerten
 
-**Geltungsbereich:** Gilt für **Urteil, ob eine Modell-Antwort ausreicht**—Rubriken, Human-Review, automatische Checks, Regressionssets, Red-Teaming. Kein Modellbenchmarking. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md), [`quellenbewertung-und-faktencheck.md`](../recherche-&-analyse/quellenbewertung-und-faktencheck.md) und [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md).
+## Geltungsbereich:
+
+Gilt für **Urteil, ob eine Modell-Antwort ausreicht**—Rubriken, Human-Review, automatische Checks, Regressionssets, Red-Teaming. Kein Modellbenchmarking. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md), [`quellenbewertung-und-faktencheck.md`](../recherche-&-analyse/quellenbewertung-und-faktencheck.md) und [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md).
 
 ## Exzerpt
+
 - **Abnahmekriterien zuerst**: benennen, was "gut" heißt, bevor du liest.
 - **Vier Linsen**: Richtigkeit, Angemessenheit, Vollständigkeit, Sicherheit.
 - **Human-in-the-Loop** für alles, worauf die Zielgruppe sich verlässt; **automatische Checks** für Skalierung.
@@ -145,9 +148,11 @@ Für Shippbares:
 ---
 
 ## Kerngedanke
+
 Bewertung ist **Spezifikation, angewandt**: Kriterien nennen, Richtigkeit zuerst, automatisieren, Rest red-teamen, Regressionsset pflegen. Ein beschreibbarer Prozess ist ein verbesserbarer Prozess.
 
 ## Weiterführend
+
 - [Promptfoo](https://www.promptfoo.dev/)
 - [OpenAI — Evals](https://platform.openai.com/docs/guides/evals)
 - [Anthropic — Developing and evaluating prompts](https://docs.anthropic.com/claude/docs/prompt-engineering)

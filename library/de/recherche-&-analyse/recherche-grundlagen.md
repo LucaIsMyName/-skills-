@@ -1,8 +1,11 @@
 # Recherche-Grundlagen
 
-**Geltungsbereich:** Gilt für **Schreibtisch-Recherche aus bestehenden Quellen** für Comms, Policy-Briefs, Stories, Kampagnen—Web, Bibliotheksdatenbanken, amtliche Statistik, NGO-Berichte. Keine primäre Datenerhebung, keine peer-reviewed Studiendesigns. Ergänzt [`quellenbewertung-und-faktencheck.md`](quellenbewertung-und-faktencheck.md), [`notizen-und-synthese.md`](notizen-und-synthese.md), [`menschen-interviewen.md`](menschen-interviewen.md).
+## Geltungsbereich:
+
+Gilt für **Schreibtisch-Recherche aus bestehenden Quellen** für Comms, Policy-Briefs, Stories, Kampagnen—Web, Bibliotheksdatenbanken, amtliche Statistik, NGO-Berichte. Keine primäre Datenerhebung, keine peer-reviewed Studiendesigns. Ergänzt [`quellenbewertung-und-faktencheck.md`](quellenbewertung-und-faktencheck.md), [`notizen-und-synthese.md`](notizen-und-synthese.md), [`menschen-interviewen.md`](menschen-interviewen.md).
 
 ## Exzerpt
+
 - **Mit der Frage beginnen**, nicht mit der Suchmaske. „Was wollen wir eigentlich wissen?"
 - **Suche planen**: Begriffe, Synonyme, Sprachen, Quellen, Zeitraum.
 - **Jede Quelle protokollieren**: URL, Titel, Autor:in, Abrufdatum, wo verwendet.
@@ -65,17 +68,17 @@ Aus diffuser Frage einen kleinen, belastbaren Evidenzhaufen machen—**schnell, 
 
 Für jede Quelle, die ins Deliverable könnte:
 
-| Feld | Beispiel |
-|---|---|
-| Titel | _Armutsbericht 2024_ |
-| Autor:in / Herausgeber | Caritas Deutschland |
-| Publikationsdatum | 2024-10-12 |
-| Abrufdatum | 2026-04-17 |
-| URL / DOI | https://… |
-| Typ | Bericht / News / Daten / Blog |
-| Relevanz | hoch / mittel / niedrig |
-| Verwendet in | Abschnitt X im Entwurf |
-| Notiz | Rohzitat, Seite, Kontext |
+| Feld                   | Beispiel                      |
+| ---------------------- | ----------------------------- |
+| Titel                  | _Armutsbericht 2024_          |
+| Autor:in / Herausgeber | Caritas Deutschland           |
+| Publikationsdatum      | 2024-10-12                    |
+| Abrufdatum             | 2026-04-17                    |
+| URL / DOI              | https://…                     |
+| Typ                    | Bericht / News / Daten / Blog |
+| Relevanz               | hoch / mittel / niedrig       |
+| Verwendet in           | Abschnitt X im Entwurf        |
+| Notiz                  | Rohzitat, Seite, Kontext      |
 
 ## 5. Graue Literatur
 

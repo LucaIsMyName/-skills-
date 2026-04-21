@@ -1,8 +1,11 @@
 # Data visualization basics
 
-**Scope:** Applies to **charts and data graphics** in dashboards and reports (web or static); not full statistical analysis or BI tool configuration.
+## Scope:
+
+Applies to **charts and data graphics** in dashboards and reports (web or static); not full statistical analysis or BI tool configuration.
 
 ## Excerpt
+
 - Use for **choosing chart types**, labeling axes, and **color** that does not distort meaning.
 - Prefer **plain language** titles; show **uncertainty** when relevant.
 - **Accessibility:** do not rely on color alone for categories; provide table alternative or labels when possible.
@@ -30,12 +33,12 @@ This document helps communicators and designers produce **honest, readable** dat
 
 ### 1. Match chart type to the question
 
-| Question | Often useful |
-|----------|----------------|
-| Change over time | Line or column |
-| Compare categories | Bar (horizontal if labels long) |
+| Question                     | Often useful                            |
+| ---------------------------- | --------------------------------------- |
+| Change over time             | Line or column                          |
+| Compare categories           | Bar (horizontal if labels long)         |
 | Part of whole (sums to 100%) | Stacked bar or pie only if few segments |
-| Correlation | Scatter |
+| Correlation                  | Scatter                                 |
 
 ### Bad: core rules
 
@@ -89,7 +92,8 @@ Avoid implying **moral** quality with a single green–red gradient unless the m
 ---
 
 ## Core idea
- A chart is an **argument**. Make the claim **proportionate** to the data.
+
+A chart is an **argument**. Make the claim **proportionate** to the data.
 
 ## Further reading
 

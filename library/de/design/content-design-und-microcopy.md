@@ -1,8 +1,11 @@
 # Content-Design und Microcopy
 
-**Geltungsbereich:** Gilt für **Wörter im Interface**—Labels, Buttons, Formularhilfen, leere Zustände, Fehlermeldungen, Bestätigungen, Benachrichtigungen. Kein Longform-Texten, keine Markenstrategie. Kombiniere mit [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md), [`leere-und-fehlerzustaende.md`](leere-und-fehlerzustaende.md), [`handlungsaufrufe-und-asks.md`](../sprache-&-kommunikation/handlungsaufrufe-und-asks.md) und [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md).
+## Geltungsbereich:
+
+Gilt für **Wörter im Interface**—Labels, Buttons, Formularhilfen, leere Zustände, Fehlermeldungen, Bestätigungen, Benachrichtigungen. Kein Longform-Texten, keine Markenstrategie. Kombiniere mit [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md), [`leere-und-fehlerzustaende.md`](leere-und-fehlerzustaende.md), [`handlungsaufrufe-und-asks.md`](../sprache-&-kommunikation/handlungsaufrufe-und-asks.md) und [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md).
 
 ## Exzerpt
+
 - **Copy ist UI.** Wörter sind genauso Interface wie Buttons.
 - **Einfache Sprache, Verben auf Buttons, konsistente Begriffe.**
 - **Konkret schlägt generisch**: "Änderungen speichern" schlägt "OK".
@@ -181,9 +184,11 @@ Die Datei wandert in den Papierkorb. 30 Tage wiederherstellbar.
 ---
 
 ## Kerngedanke
+
 Microcopy ist die **freundliche, kompetente Kollegin** im Produkt: sagt, was hier ist, was passieren wird, was passiert ist—in wenigen Worten, in der Sprache der Nutzenden.
 
 ## Weiterführend
+
 - [UX Writing Hub](https://uxwritinghub.com/ux-writing-examples/)
 - [Microsoft Style Guide](https://learn.microsoft.com/de-de/style-guide/welcome/)
 - [Shopify Polaris — Content](https://polaris.shopify.com/content)

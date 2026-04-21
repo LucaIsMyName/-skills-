@@ -1,8 +1,11 @@
 # Coding Tests und Gewohnheiten
 
-**Geltungsbereich:** Gilt für **Testfokus, Performance-Disziplin, Konsistenz, Kommentare und Layout** bei wachsendem Code. Nicht CI/CD-Setup, nicht QA-Prozess. Kombiniere mit [`coding-stil-und-struktur.md`](coding-stil-und-struktur.md), [`coding-fehler-validierung-und-state.md`](coding-fehler-validierung-und-state.md) und [`coding-best-practices.md`](coding-best-practices.md).
+## Geltungsbereich:
+
+Gilt für **Testfokus, Performance-Disziplin, Konsistenz, Kommentare und Layout** bei wachsendem Code. Nicht CI/CD-Setup, nicht QA-Prozess. Kombiniere mit [`coding-stil-und-struktur.md`](coding-stil-und-struktur.md), [`coding-fehler-validierung-und-state.md`](coding-fehler-validierung-und-state.md) und [`coding-best-practices.md`](coding-best-practices.md).
 
 ## Exzerpt
+
 - **Geschäftsregeln und Grenzfälle testen**—nicht jeden Getter.
 - **Erst messen, dann optimieren**; Stil im Repo einheitlich.
 - **Kommentare erklären warum**; bei Wachstum nach Feature strukturieren.
@@ -38,7 +41,7 @@ Wichtige Logik testen, nicht Trivialitäten.
 - Grenzfälle
 - Fehlerpfade
 
- Tests geben Refactoring-Vertrauen.
+Tests geben Refactoring-Vertrauen.
 
 ---
 
@@ -56,7 +59,7 @@ Zuerst zum Laufen bringen → korrekt machen → dann optimieren.
 
 Erst messen, dann Engpässe optimieren
 
- Die meiste Codebasis braucht keine Mikro-Optimierung.
+Die meiste Codebasis braucht keine Mikro-Optimierung.
 
 ---
 
@@ -66,7 +69,7 @@ Erst messen, dann Engpässe optimieren
 
 Im gesamten Codebase konsistente Muster.
 
- Auch wenn etwas nicht ideal ist, bringt Konsistenz:
+Auch wenn etwas nicht ideal ist, bringt Konsistenz:
 
 - bessere Lesbarkeit
 - weniger kognitive Last
@@ -92,7 +95,7 @@ i++;
 // Workaround: API liefert doppelte Einträge
 ```
 
- Code erklärt das Was; Kommentare die Absicht.
+Code erklärt das Was; Kommentare die Absicht.
 
 ---
 
@@ -110,33 +113,33 @@ src/
   utils/
 ```
 
- Zusammengehörige Logik gruppieren.
+Zusammengehörige Logik gruppieren.
 
 ---
 
 ## 18. Häufige Fußangeln
 
-###  Over-Engineering
+### Over-Engineering
 
 → Einfach halten
 
-###  Schlechte Namen
+### Schlechte Namen
 
 → Explizit sein
 
-###  Große Funktionen
+### Große Funktionen
 
 → Aufteilen
 
-###  Versteckte Seiteneffekte
+### Versteckte Seiteneffekte
 
 → Reine Funktionen nutzen
 
-###  Fehler ignorieren
+### Fehler ignorieren
 
 → Richtig behandeln
 
-###  Vorzeitige Abstraktion
+### Vorzeitige Abstraktion
 
 → Warten bis nötig
 
@@ -173,7 +176,7 @@ Schlechter Code wirkt:
 - verwirrend
 - fragil
 
- Wenn Code schwer zu verstehen ist, ist das schon ein wartender Bug.
+Wenn Code schwer zu verstehen ist, ist das schon ein wartender Bug.
 
 ---
 

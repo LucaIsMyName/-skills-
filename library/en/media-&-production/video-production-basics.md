@@ -1,8 +1,11 @@
 # Video production basics
 
-**Scope:** **Short-form** video for web/social—planning, lighting, audio, edit handoff. Not cinema. Pair with [`subtitles-and-captions.md`](subtitles-and-captions.md), [`file-naming-and-organising.md`](file-naming-and-organising.md), and [`live-events-and-streaming.md`](live-events-and-streaming.md).
+## Scope:
+
+**Short-form** video for web/social—planning, lighting, audio, edit handoff. Not cinema. Pair with [`subtitles-and-captions.md`](subtitles-and-captions.md), [`file-naming-and-organising.md`](file-naming-and-organising.md), and [`live-events-and-streaming.md`](live-events-and-streaming.md).
 
 ## Excerpt
+
 - **Audio first**—bad sound kills trust faster than soft video.
 - **Lighting**: soft, even; **avoid** harsh shadows on faces.
 - **B-roll** for coverage and **honest** context.

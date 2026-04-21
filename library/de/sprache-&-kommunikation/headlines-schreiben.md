@@ -1,8 +1,11 @@
 # Headlines schreiben
 
-**Geltungsbereich:** **Überschriften** für Web, E-Mail, Social und Print—**Klarheit**, **Genauigkeit**, **Scanbarkeit.** Ergänzt [`newsletter-und-e-mail.md`](newsletter-und-e-mail.md), [`social-kurzformate.md`](social-kurzformate.md), [`respektvolle-sprache.md`](respektvolle-sprache.md) und [`handlungsaufrufe-und-asks.md`](handlungsaufrufe-und-asks.md).
+## Geltungsbereich:
+
+**Überschriften** für Web, E-Mail, Social und Print—**Klarheit**, **Genauigkeit**, **Scanbarkeit.** Ergänzt [`newsletter-und-e-mail.md`](newsletter-und-e-mail.md), [`social-kurzformate.md`](social-kurzformate.md), [`respektvolle-sprache.md`](respektvolle-sprache.md) und [`handlungsaufrufe-und-asks.md`](handlungsaufrufe-und-asks.md).
 
 ## Exzerpt
+
 - **Versprechen**, was der Text **hält**—kein reißerischer Trick.
 - **Kernbegriff** nach vorne; **eine** Idee pro Zeile.
 - **Ton** zur Marke—bei NGOs oft **ruhig** statt **laut**.
@@ -24,7 +27,7 @@
 
 ## Zweck
 
-**Aufmerksamkeit ehrlich** gewinnen—Leser*innen wissen, was kommt.
+**Aufmerksamkeit ehrlich** gewinnen—Leser\*innen wissen, was kommt.
 
 ---
 
@@ -49,7 +52,8 @@ Bei **nuancierten** Themen: Nuancen im **Teaser**, nicht in **Fakten** verstecke
 ---
 
 ## Kerngedanke
-Headlines sind **Versprechen**—**klar**, **wahr**, **respektvoll** mit Zeit der Leser*innen.
+
+Headlines sind **Versprechen**—**klar**, **wahr**, **respektvoll** mit Zeit der Leser\*innen.
 
 ## Weiterführend
 

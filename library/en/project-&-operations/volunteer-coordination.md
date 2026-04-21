@@ -1,8 +1,11 @@
 # Volunteer coordination
 
-**Scope:** **Coordinating volunteers**—roles, rotas, handovers, appreciation—beyond comms alone. Pair with [`volunteer-comms.md`](../language-&-communication/volunteer-comms.md), [`onboarding-new-team-members.md`](onboarding-new-team-members.md), and [`safeguarding-in-comms.md`](../ethics-&-legal/safeguarding-in-comms.md).
+## Scope:
+
+**Coordinating volunteers**—roles, rotas, handovers, appreciation—beyond comms alone. Pair with [`volunteer-comms.md`](../language-&-communication/volunteer-comms.md), [`onboarding-new-team-members.md`](onboarding-new-team-members.md), and [`safeguarding-in-comms.md`](../ethics-&-legal/safeguarding-in-comms.md).
 
 ## Excerpt
+
 - **Role descriptions** with **time** and **skills**—clarity beats “help us”.
 - **Rotas** and **cover** plans—**no** single points of failure.
 - **Handovers**: checklists so shifts **don’t drop** tasks.

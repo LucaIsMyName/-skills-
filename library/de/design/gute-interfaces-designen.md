@@ -1,15 +1,18 @@
 # Gutes Interfaces Designen
 
-**Geltungsbereich:** **UI- und Interaktionsdesign** (Bedienoberflächen, Abläufe); kein Backend-Design und keine rein textliche Barrierefreiheit ohne UI-Bezug.
+## Geltungsbereich:
+
+**UI- und Interaktionsdesign** (Bedienoberflächen, Abläufe); kein Backend-Design und keine rein textliche Barrierefreiheit ohne UI-Bezug.
 
 ## Exzerpt
+
 - Fokus: Oberflächen **verständlich und bedienbar** machen; klare Struktur, Rückmeldung, Konsistenz.
 - Gutes Design hier = nutzbar, nicht nur „hübsch“; Details in den folgenden Abschnitten.
 - Vollständige Anleitung und Fallstricke unten in der Datei.
 
 ## Zweck
 
-Dieser "skill" erklärt, was *gutes Design* ausmacht — mit Schwerpunkt **UI-Design (User Interface)** — in einfachen, praxisnahen Worten.
+Dieser "skill" erklärt, was _gutes Design_ ausmacht — mit Schwerpunkt **UI-Design (User Interface)** — in einfachen, praxisnahen Worten.
 
 ---
 
@@ -18,14 +21,14 @@ Dieser "skill" erklärt, was *gutes Design* ausmacht — mit Schwerpunkt **UI-De
 Gutes Design bedeutet nicht nur, dass etwas gut aussieht.
 Es bedeutet, Dinge:
 
-* **leicht verständlich**
-* **leicht bedienbar**
-* **effizient**
-* **angenehm**
+- **leicht verständlich**
+- **leicht bedienbar**
+- **effizient**
+- **angenehm**
 
 macht.
 
-Ein gut gestaltetes Produkt hilft Nutzer*innen, ihr Ziel mit möglichst wenig Aufwand und Verwirrung zu erreichen.
+Ein gut gestaltetes Produkt hilft Nutzer\*innen, ihr Ziel mit möglichst wenig Aufwand und Verwirrung zu erreichen.
 
 ---
 
@@ -33,13 +36,13 @@ Ein gut gestaltetes Produkt hilft Nutzer*innen, ihr Ziel mit möglichst wenig Au
 
 ### 1. Klarheit
 
-Nutzer*innen sollen sofort verstehen, was sie vor sich sehen.
+Nutzer\*innen sollen sofort verstehen, was sie vor sich sehen.
 
-* unnötige Komplexität vermeiden
-* klare Beschriftungen und Sprache
-* wichtige Elemente hervorheben
+- unnötige Komplexität vermeiden
+- klare Beschriftungen und Sprache
+- wichtige Elemente hervorheben
 
- Wenn zu viel nachgedacht werden muss, ist das Design nicht klar genug.
+Wenn zu viel nachgedacht werden muss, ist das Design nicht klar genug.
 
 ---
 
@@ -47,11 +50,11 @@ Nutzer*innen sollen sofort verstehen, was sie vor sich sehen.
 
 Behalte nur, was nötig ist.
 
-* Ballast entfernen
-* sich auf das Hauptziel konzentrieren
-* nicht zu viele Optionen auf einmal
+- Ballast entfernen
+- sich auf das Hauptziel konzentrieren
+- nicht zu viele Optionen auf einmal
 
- Einfach heißt nicht langweilig — sondern fokussiert.
+Einfach heißt nicht langweilig — sondern fokussiert.
 
 ---
 
@@ -59,11 +62,11 @@ Behalte nur, was nötig ist.
 
 Dinge sollten sich in der Oberfläche gleich verhalten.
 
-* gleiche Farben = gleiche Bedeutung
-* gleiche Buttons = gleiche Aktionen
-* gleiche Layoutmuster
+- gleiche Farben = gleiche Bedeutung
+- gleiche Buttons = gleiche Aktionen
+- gleiche Layoutmuster
 
- Konsistenz schafft Vertrauen und verkürzt die Einarbeitung.
+Konsistenz schafft Vertrauen und verkürzt die Einarbeitung.
 
 ---
 
@@ -71,11 +74,11 @@ Dinge sollten sich in der Oberfläche gleich verhalten.
 
 Das System sollte auf Aktionen reagieren.
 
-* Klick auf Button → sichtbare Reaktion
-* Laden → Fortschritt oder Spinner
-* Fehler → verständliche Meldung
+- Klick auf Button → sichtbare Reaktion
+- Laden → Fortschritt oder Spinner
+- Fehler → verständliche Meldung
 
- Nutzer*innen sollten sich nie verloren oder unsicher fühlen.
+Nutzer\*innen sollten sich nie verloren oder unsicher fühlen.
 
 ---
 
@@ -83,11 +86,11 @@ Das System sollte auf Aktionen reagieren.
 
 Design soll für möglichst viele Menschen funktionieren.
 
-* guter Kontrast (lesbarer Text)
-* klare Schriftarten und Größen
-* Tastatur- und Screenreader-Unterstützung
+- guter Kontrast (lesbarer Text)
+- klare Schriftarten und Größen
+- Tastatur- und Screenreader-Unterstützung
 
- Gutes Design schließt niemanden aus.
+Gutes Design schließt niemanden aus.
 
 ---
 
@@ -101,11 +104,11 @@ UI-Design beschäftigt sich damit, wie eine digitale Oberfläche aussieht und si
 
 Lenke die Aufmerksamkeit.
 
-* groß = wichtig
-* auffällig = wichtig
-* oben = oft wichtig
+- groß = wichtig
+- auffällig = wichtig
+- oben = oft wichtig
 
- Es sollte klar sein, wo man zuerst hinschaut.
+Es sollte klar sein, wo man zuerst hinschaut.
 
 ---
 
@@ -113,11 +116,11 @@ Lenke die Aufmerksamkeit.
 
 Gib Elementen Luft.
 
-* Weißraum nutzen
-* Zusammengehörendes gruppieren
-* sauber ausrichten
+- Weißraum nutzen
+- Zusammengehörendes gruppieren
+- sauber ausrichten
 
- Überladene Oberflächen wirken stressig.
+Überladene Oberflächen wirken stressig.
 
 ---
 
@@ -125,11 +128,11 @@ Gib Elementen Luft.
 
 Text soll leicht lesbar sein.
 
-* gut lesbare Schriften
-* möglichst wenige Stile (1–2 reichen)
-* Größe und Strichstärke für Struktur nutzen
+- gut lesbare Schriften
+- möglichst wenige Stile (1–2 reichen)
+- Größe und Strichstärke für Struktur nutzen
 
- Gute Typografie verbessert das Verständnis sofort.
+Gute Typografie verbessert das Verständnis sofort.
 
 ---
 
@@ -137,40 +140,40 @@ Text soll leicht lesbar sein.
 
 Farbe bewusst einsetzen.
 
-* wichtige Aktionen hervorheben
-* Zustände zeigen (Fehler = z. B. Rot, Erfolg = z. B. Grün)
-* eine konsistente Palette einhalten
+- wichtige Aktionen hervorheben
+- Zustände zeigen (Fehler = z. B. Rot, Erfolg = z. B. Grün)
+- eine konsistente Palette einhalten
 
- Zu viele Farben erzeugen Unruhe.
+Zu viele Farben erzeugen Unruhe.
 
 ---
 
 #### 5. Affordance (offensichtliche Bedienung)
 
-Nutzer*innen sollen erkennen, was klick- oder bedienbar ist.
+Nutzer\*innen sollen erkennen, was klick- oder bedienbar ist.
 
-* Buttons sehen aus wie Buttons
-* Links sehen aus wie Links
-* Eingabefelder sehen bearbeitbar aus
+- Buttons sehen aus wie Buttons
+- Links sehen aus wie Links
+- Eingabefelder sehen bearbeitbar aus
 
- Wenn gezögert wird, ist die Oberfläche unklar.
+Wenn gezögert wird, ist die Oberfläche unklar.
 
 ---
 
 ## Häufige Fehler im UI-Design
 
-* zu viele Funktionen auf einem Bildschirm
-* uneinheitliche Stile
-* schlechter Kontrast (schwer lesbar)
-* kein Feedback auf Aktionen
-* wichtige Aktionen versteckt
+- zu viele Funktionen auf einem Bildschirm
+- uneinheitliche Stile
+- schlechter Kontrast (schwer lesbar)
+- kein Feedback auf Aktionen
+- wichtige Aktionen versteckt
 
 ### Außerdem
 
 Weil bestimmte Farbpaletten in KI-generierten UIs sehr oft vorkommen:
 
-* `indigo`, `purple` und `violet` nicht als Markenfarbe nutzen, **solange nicht ausdrücklich gewünscht** — passende Farben z. B. aus: `blue`, `teal`, `sky`, `orange`, `red`
-* keine Verläufe (Gradients) als Hintergrundfarbe für Elemente, **solange nicht ausdrücklich gewünscht**
+- `indigo`, `purple` und `violet` nicht als Markenfarbe nutzen, **solange nicht ausdrücklich gewünscht** — passende Farben z. B. aus: `blue`, `teal`, `sky`, `orange`, `red`
+- keine Verläufe (Gradients) als Hintergrundfarbe für Elemente, **solange nicht ausdrücklich gewünscht**
 
 ---
 
@@ -178,11 +181,11 @@ Weil bestimmte Farbpaletten in KI-generierten UIs sehr oft vorkommen:
 
 Vor dem „Go-Live“ fragen:
 
-* Kann eine neue Person die Oberfläche in Sekunden verstehen?
-* Gibt es Überflüssiges?
-* Ist alles konsistent?
-* Gibt es zu jeder Aktion Feedback?
-* Ist es lesbar und barrierefrei?
+- Kann eine neue Person die Oberfläche in Sekunden verstehen?
+- Gibt es Überflüssiges?
+- Ist alles konsistent?
+- Gibt es zu jeder Aktion Feedback?
+- Ist es lesbar und barrierefrei?
 
 ---
 
@@ -192,15 +195,15 @@ Gutes UI-Design fällt kaum auf.
 
 Wenn es gelingt:
 
-* bemerken Nutzer*innen das Design kaum
-* sie erreichen ihr Ziel ohne Reibung
-* sie finden sofort, was sie suchen
+- bemerken Nutzer\*innen das Design kaum
+- sie erreichen ihr Ziel ohne Reibung
+- sie finden sofort, was sie suchen
 
 Wenn es schlecht ist:
 
-* verwirren, frustrieren und verlassen sie die Oberfläche
+- verwirren, frustrieren und verlassen sie die Oberfläche
 
- Es geht nicht darum zu beeindrucken, sondern **Nutzer*innen mühelos zum Ziel zu bringen**.
+Es geht nicht darum zu beeindrucken, sondern **Nutzer\*innen mühelos zum Ziel zu bringen**.
 
 ---
 

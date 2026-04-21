@@ -1,8 +1,11 @@
 # Systemprompts und Personas
 
-**Geltungsbereich:** Gilt für **Trennung dauerhafter Policy und einzelner Aufgaben**—wie und wann **System-Prompt**, **Persona** und **User-Prompt** verwendet werden. Nicht Vendor-Setup, nicht Modellwahl. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`prompt-muster.md`](prompt-muster.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md) und [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md).
+## Geltungsbereich:
+
+Gilt für **Trennung dauerhafter Policy und einzelner Aufgaben**—wie und wann **System-Prompt**, **Persona** und **User-Prompt** verwendet werden. Nicht Vendor-Setup, nicht Modellwahl. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`prompt-muster.md`](prompt-muster.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md) und [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md).
 
 ## Exzerpt
+
 - **System-Prompt** = stabile Regeln für alle Turns (Ton, Sicherheit, Verweigerungsstil, Default-Format).
 - **User-Prompt** = Aufgabe dieses Turns.
 - **Persona** dient **Ton und Zielgruppenpassung**, nicht Fakten oder Verantwortung.
@@ -170,9 +173,11 @@ Default in System, per Aufgabe überschreiben.
 ---
 
 ## Kerngedanke
+
 **System-Prompts** sind **Policy**; **User-Prompts** sind **Arbeit**. Eine Persona formt **Stimme**, nicht **Wahrheit**. Ein kurzer, versionierter, testbarer System-Prompt—dabei bleiben.
 
 ## Weiterführend
+
 - [Anthropic — System prompts](https://docs.anthropic.com/claude/docs/system-prompts)
 - [OpenAI — Messages and roles](https://platform.openai.com/docs/guides/text-generation/chat-completions-api)
 - [OWASP — LLM Top 10 (Prompt Injection)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)

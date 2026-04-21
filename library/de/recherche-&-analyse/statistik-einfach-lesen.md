@@ -1,8 +1,11 @@
 # Statistik einfach lesen
 
-**Geltungsbereich:** Gilt für **Lesen, Interpretieren und Zitieren statistischer Aussagen** in Comms, Presse, Stories—ohne Zahlen zu verdrehen. Keine schließende Statistik, kein Studiendesign. Ergänzt [`quellenbewertung-und-faktencheck.md`](quellenbewertung-und-faktencheck.md), [`datenvisualisierung-grundlagen.md`](../design/datenvisualisierung-grundlagen.md), [`recherche-grundlagen.md`](recherche-grundlagen.md).
+## Geltungsbereich:
+
+Gilt für **Lesen, Interpretieren und Zitieren statistischer Aussagen** in Comms, Presse, Stories—ohne Zahlen zu verdrehen. Keine schließende Statistik, kein Studiendesign. Ergänzt [`quellenbewertung-und-faktencheck.md`](quellenbewertung-und-faktencheck.md), [`datenvisualisierung-grundlagen.md`](../design/datenvisualisierung-grundlagen.md), [`recherche-grundlagen.md`](recherche-grundlagen.md).
 
 ## Exzerpt
+
 - **Jede Zahl hat vier Teile**: **Was, Wer, Wann, Woher**. Nicht benennbar = nicht zitierbar.
 - **Prozent** vs. **Prozentpunkte** ist der häufigste Fehler in Comms—einmal lernen.
 - **Mittelwert** ist eine Familie: Arithmetischer Mittel, Median, Modus. Welcher?

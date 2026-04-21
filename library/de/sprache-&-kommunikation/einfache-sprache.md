@@ -1,8 +1,11 @@
 # Einfache Sprache
 
-**Geltungsbereich:** Umschreiben in **Einfache Sprache** (Deutsch); nicht automatisch **Leichte Sprache** mit Bildlayout und Sonderkonventionen (extra absprechen).
+## Geltungsbereich:
+
+Umschreiben in **Einfache Sprache** (Deutsch); nicht automatisch **Leichte Sprache** mit Bildlayout und Sonderkonventionen (extra absprechen).
 
 ## Exzerpt
+
 - Kurze Sätze, bekannter Wortschatz, ein Gedanke pro Satz; Fachbegriffe erklären oder einheitlich halten.
 - **Keine** Fakten oder Pflichtangaben streichen, nur um es „einfacher“ zu machen—**nachfragen** bei rechtlichen Texten.
 - Abgrenzung zu Leichter Sprache, Regeln, Kurzbeispiel und Checkliste unten.
@@ -13,7 +16,7 @@ Dieses Dokument beschreibt, wie **beliebige Ausgangstexte** in **Einfache Sprach
 
 Einfache Sprache macht Inhalte für Menschen mit **unterschiedlicher Lesekompetenz**, für **Deutsch als Zweit- oder Fremdsprache** und für **allgemeine Verständlichkeit** zugänglich. Sie ist **nicht** dasselbe wie [Leichte Sprache](https://de.wikipedia.org/wiki/Leichte_Sprache); die Abgrenzung ist unten erklärt.
 
- Orientierung: [Einfache Sprache (Wikipedia)](https://de.wikipedia.org/wiki/Einfache_Sprache); sprachspezifische Regeln orientieren sich u. a. an **DIN 8581-1** und den **allgemeinen Leitlinien der DIN ISO 24495-1** (Prinzipien für alle Sprachen).
+Orientierung: [Einfache Sprache (Wikipedia)](https://de.wikipedia.org/wiki/Einfache_Sprache); sprachspezifische Regeln orientieren sich u. a. an **DIN 8581-1** und den **allgemeinen Leitlinien der DIN ISO 24495-1** (Prinzipien für alle Sprachen).
 
 ## Vollständigkeit vor dem Schreiben
 
@@ -38,11 +41,11 @@ Bevor umgeschrieben wird, **konkrete und Meta-Angaben** klären. Fehlt Wesentlic
 
 ## Abgrenzung: Einfache Sprache vs. Leichte Sprache
 
-| | **Einfache Sprache** | **Leichte Sprache** |
-|---|------------------------|----------------------|
-| **Zielgruppe** | u. a. Menschen mit eingeschränkter Lesekompetenz (breiter); oft Alpha-Level 4+ | spezifische Zielgruppe, stärkere sprachliche Barrieren |
-| **Sprache** | klar, kurze Sätze, bekannter Wortschatz; **näher an der Standardsprache** | sehr starke Vereinfachung, oft sehr kurze Zeilen, viele Zeilenumbrüche, Bilder |
-| **Normierung** | u. a. DIN ISO 24495-1, DIN 8581-1 (Deutsch) | eher Empfehlungen verschiedener Institutionen |
+|                | **Einfache Sprache**                                                           | **Leichte Sprache**                                                            |
+| -------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| **Zielgruppe** | u. a. Menschen mit eingeschränkter Lesekompetenz (breiter); oft Alpha-Level 4+ | spezifische Zielgruppe, stärkere sprachliche Barrieren                         |
+| **Sprache**    | klar, kurze Sätze, bekannter Wortschatz; **näher an der Standardsprache**      | sehr starke Vereinfachung, oft sehr kurze Zeilen, viele Zeilenumbrüche, Bilder |
+| **Normierung** | u. a. DIN ISO 24495-1, DIN 8581-1 (Deutsch)                                    | eher Empfehlungen verschiedener Institutionen                                  |
 
 Wenn der Nutzer **„Leichte Sprache“** will: Layout (kurze Zeilen), Bilder, sehr kurze Sätze und ggf. andere Konventionen **extra absprechen**. Dieses Dokument standardisiert **Einfache Sprache**.
 
@@ -124,7 +127,7 @@ Wenn der Nutzer **„Leichte Sprache“** will: Layout (kurze Zeilen), Bilder, s
 
 ## Abschließender Gedanke
 
- Einfache Sprache ist **keine** „Dumm-Sprache“, sondern **präzise, leserorientierte Arbeit**. Sie erhöht **Zugang und Teilhabe** – in Verwaltung, Gesundheit, Bildung und im Alltag.
+Einfache Sprache ist **keine** „Dumm-Sprache“, sondern **präzise, leserorientierte Arbeit**. Sie erhöht **Zugang und Teilhabe** – in Verwaltung, Gesundheit, Bildung und im Alltag.
 
 ## Weiterführend
 

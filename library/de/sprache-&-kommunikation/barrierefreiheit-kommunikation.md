@@ -1,8 +1,11 @@
 # Barrierefreiheit in der Kommunikation
 
-**Geltungsbereich:** **Kommunikationsabteilungen** (Öffentlichkeitsarbeit, Marketing, Social Media, interne Kommunikation, Kampagnen): **wie ihr textet, briefet, sprecht und Inhalte plant**, damit mehr Menschen zugreifen und folgen können. **Nicht** für Entwicklung, CMS-Technik oder Produkt-UI-Code—dafür die Design-Skills (z. B. [`design-basics.md`](../design/design-basics.md)).
+## Geltungsbereich:
+
+**Kommunikationsabteilungen** (Öffentlichkeitsarbeit, Marketing, Social Media, interne Kommunikation, Kampagnen): **wie ihr textet, briefet, sprecht und Inhalte plant**, damit mehr Menschen zugreifen und folgen können. **Nicht** für Entwicklung, CMS-Technik oder Produkt-UI-Code—dafür die Design-Skills (z. B. [`design-basics.md`](../design/design-basics.md)).
 
 ## Exzerpt
+
 - Nutzen bei **Texten und Botschaften**: Newsletter, Presse, Social, Veranstaltungen, Podcasts, **Briefings** an Web/Design.
 - Fokus: **verständliche Sprache**, **respektvolle Wortwahl**, **Bildbeschreibungen** (in Worten, was zu sehen ist), **verständliche Linkformulierungen**, **Untertitel/Transkripte** als Kommunikationsleistung (Skript, Beauftragung), **zugängliches Sprechen** (deutlich, langsamer bei Bedarf, **sichtbare Inhalte mündlich einführen**).
 - **Keine** erfundene Rechtskonformität; Hinweis, wenn **Recht oder Web** die Freigabe hat.
@@ -123,7 +126,7 @@ Jahresbericht 2025 lesen (PDF).
 
 ## Abschließender Gedanke
 
- In der Kommunikation beginnt Barrierefreiheit mit **respektvoller, klarer Sprache** und **guten Briefings**. Technische Umsetzung liegt bei **Web und Design**—Dieses Dokument bleibt bei **Texten, Reden und Kommunikationsplanung**.
+In der Kommunikation beginnt Barrierefreiheit mit **respektvoller, klarer Sprache** und **guten Briefings**. Technische Umsetzung liegt bei **Web und Design**—Dieses Dokument bleibt bei **Texten, Reden und Kommunikationsplanung**.
 
 ## Weiterführend
 

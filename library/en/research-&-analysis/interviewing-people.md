@@ -1,10 +1,13 @@
 # Interviewing people (research)
 
-**Scope:** Applies to **research and reporting interviews**—subject-matter experts, practitioners, affected people, officials—to gather information for stories, briefs, and reports. Not media training for spokespeople (see [`interview-preparation.md`](../language-&-communication/interview-preparation.md)). Pair with [`writing-a-story.md`](../language-&-communication/writing-a-story.md), [`respectful-language.md`](../language-&-communication/respectful-language.md), [`safeguarding-in-comms.md`](../ethics-&-legal/safeguarding-in-comms.md), [`data-protection-for-comms.md`](../ethics-&-legal/data-protection-for-comms.md).
+## Scope:
+
+Applies to **research and reporting interviews**—subject-matter experts, practitioners, affected people, officials—to gather information for stories, briefs, and reports. Not media training for spokespeople (see [`interview-preparation.md`](../language-&-communication/interview-preparation.md)). Pair with [`writing-a-story.md`](../language-&-communication/writing-a-story.md), [`respectful-language.md`](../language-&-communication/respectful-language.md), [`safeguarding-in-comms.md`](../ethics-&-legal/safeguarding-in-comms.md), [`data-protection-for-comms.md`](../ethics-&-legal/data-protection-for-comms.md).
 
 ## Excerpt
+
 - **The interview is theirs, not yours.** You lead the questions; they own the story.
-- **Consent before content.** Explain purpose, use, and the person's rights *before* questions, and confirm again at the end.
+- **Consent before content.** Explain purpose, use, and the person's rights _before_ questions, and confirm again at the end.
 - **Listen more than you talk.** Aim for a 20/80 speaking ratio—with pauses as a feature.
 - **Short, open questions.** "What happened next?" beats "So when you felt frustrated, what did you then decide to do about the funding?"
 - Full workflow, question types, recording rules, and ethics below.

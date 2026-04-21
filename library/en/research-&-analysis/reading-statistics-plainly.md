@@ -1,8 +1,11 @@
 # Reading statistics plainly
 
-**Scope:** Applies to **reading, interpreting, and quoting statistical claims** in comms, press, and story work—without mis-stating the numbers. Not inferential statistics or study design. Pair with [`source-evaluation-and-fact-checking.md`](source-evaluation-and-fact-checking.md), [`data-visualization-basics.md`](../design/data-visualization-basics.md), [`desk-research.md`](desk-research.md).
+## Scope:
+
+Applies to **reading, interpreting, and quoting statistical claims** in comms, press, and story work—without mis-stating the numbers. Not inferential statistics or study design. Pair with [`source-evaluation-and-fact-checking.md`](source-evaluation-and-fact-checking.md), [`data-visualization-basics.md`](../design/data-visualization-basics.md), [`desk-research.md`](desk-research.md).
 
 ## Excerpt
+
 - **Every number has four parts**: **what, who, when, from where**. If you cannot name them, you cannot cite the number.
 - **Percent** vs. **percentage points** is the most-made mistake in comms—learn it once.
 - **Average** is a family: mean, median, mode. Ask which.

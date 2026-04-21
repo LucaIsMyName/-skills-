@@ -1,8 +1,11 @@
 # Entscheidungslog und ADRs
 
-**Geltungsbereich:** **Entscheidungen** festhalten—leichte Logs und **Architecture Decision Records** für Technik. Ergänzt [`projektbriefs.md`](projektbriefs.md), [`git-und-commits.md`](../coding/git-und-commits.md) und [`meetings-und-agenden.md`](meetings-und-agenden.md).
+## Geltungsbereich:
+
+**Entscheidungen** festhalten—leichte Logs und **Architecture Decision Records** für Technik. Ergänzt [`projektbriefs.md`](projektbriefs.md), [`git-und-commits.md`](../coding/git-und-commits.md) und [`meetings-und-agenden.md`](meetings-und-agenden.md).
 
 ## Exzerpt
+
 - **Kontext → Entscheidung → Konsequenzen**.
 - **Ersetzt**-Links bei Änderungen.
 - **Eine** Entscheidung pro ADR.
@@ -52,7 +55,7 @@ Konsequenzen: + starke Konsistenz, ausgereifte Tools. − Ops-Kosten; Migratione
 
 ### Regel
 
-Themen trennen, sodass jedes ADR **eine** Entscheidung hat—Leser*innen finden und ersetzen gezielt.
+Themen trennen, sodass jedes ADR **eine** Entscheidung hat—Leser\*innen finden und ersetzen gezielt.
 
 ### Gut: eine entscheidung pro adr
 
@@ -150,7 +153,8 @@ Ort: /docs/adr/0007-postgres.md im Repo; verlinkt in README. Stakeholder: Tech L
 ---
 
 ## Kerngedanke
-Entscheidungen sind **Assets**—**dokumentieren**, wo **Nachfolger*innen** hinschauen.
+
+Entscheidungen sind **Assets**—**dokumentieren**, wo **Nachfolger\*innen** hinschauen.
 
 ## Weiterführend
 

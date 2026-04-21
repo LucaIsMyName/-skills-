@@ -1,8 +1,11 @@
 # Social-Media-Assets
 
-**Geltungsbereich:** **Größen** und **Export** für Plattformen—Safe Zones, Video-Specs, Barrierefreiheit. Ergänzt [`headlines-schreiben.md`](../sprache-&-kommunikation/headlines-schreiben.md), [`dateinamen-und-organisation.md`](dateinamen-und-organisation.md) und [`motion-und-micro-interactions.md`](../design/motion-und-micro-interactions.md).
+## Geltungsbereich:
+
+**Größen** und **Export** für Plattformen—Safe Zones, Video-Specs, Barrierefreiheit. Ergänzt [`headlines-schreiben.md`](../sprache-&-kommunikation/headlines-schreiben.md), [`dateinamen-und-organisation.md`](dateinamen-und-organisation.md) und [`motion-und-micro-interactions.md`](../design/motion-und-micro-interactions.md).
 
 ## Exzerpt
+
 - **Specs** ändern sich—vor Launch **aktuell** prüfen.
 - **Safe Zones** für UI-Overlays.
 - **Alt-Text**; **Untertitel** bei Video.
@@ -147,6 +150,7 @@ Caption erklärt Gruppenkontext; Hero als Weitwinkel, Detail-Crop nur mit gleich
 ---
 
 ## Kerngedanke
+
 Social-Assets = **Constraints** verstehen—**Spec zuerst**, Kreativität darin.
 
 ## Weiterführend

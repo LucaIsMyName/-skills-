@@ -1,8 +1,11 @@
 # React: State, Hooks, Effects
 
-**Geltungsbereich:** Gilt für **React-State, Built-in-Hooks, Memoisierung, Props vs. Context und Hook-Extraktion** in Komponenten. Kein Routing, keine Server Components (außer kurz erwähnt). Kombiniere mit [`react-komponenten-async-und-struktur.md`](react-komponenten-async-und-struktur.md) und [`react-best-practices.md`](react-best-practices.md).
+## Geltungsbereich:
+
+Gilt für **React-State, Built-in-Hooks, Memoisierung, Props vs. Context und Hook-Extraktion** in Komponenten. Kein Routing, keine Server Components (außer kurz erwähnt). Kombiniere mit [`react-komponenten-async-und-struktur.md`](react-komponenten-async-und-struktur.md) und [`react-best-practices.md`](react-best-practices.md).
 
 ## Exzerpt
+
 - **State minimal** halten; `useEffect`-Missbrauch vermeiden.
 - State **ableiten**—nicht per Effekt synchronisieren, wenn eine Berechnung reicht.
 - **Context** für querschnittliche Themen, nicht für jedes geteilte Datum.
@@ -29,10 +32,10 @@
 
 React bedeutet:
 
-* **Deklarative UI** → beschreiben, *wie* die UI aussehen soll
-* **State-getriebenes Rendering** → UI aktualisiert sich bei State-Änderung
+- **Deklarative UI** → beschreiben, _wie_ die UI aussehen soll
+- **State-getriebenes Rendering** → UI aktualisiert sich bei State-Änderung
 
- Die UI nicht „manuell steuern“—das macht React.
+Die UI nicht „manuell steuern“—das macht React.
 
 ---
 
@@ -54,7 +57,7 @@ const [fullName, setFullName] = useState("");
 const fullName = `${firstName} ${lastName}`;
 ```
 
- Abgeleiteten State nicht speichern.
+Abgeleiteten State nicht speichern.
 
 ---
 
@@ -64,30 +67,30 @@ const fullName = `${firstName} ${lastName}`;
 
 Wenn du nicht mit einem externen System synchronisierst → **`useEffect` brauchst du vermutlich nicht**
 
-###  Typischer Missbrauch
+### Typischer Missbrauch
 
 ```ts
 useEffect(() => {
-  setFiltered(items.filter(i => i.active));
+  setFiltered(items.filter((i) => i.active));
 }, [items]);
 ```
 
-###  Besser
+### Besser
 
 ```ts
-const filtered = items.filter(i => i.active);
+const filtered = items.filter((i) => i.active);
 ```
 
 ### Wann `useEffect`?
 
 Nur für:
 
-* API-Calls (wenn keine Datenbibliothek)
-* Subscriptions (WebSocket, Events)
-* DOM-APIs (Fokus, Messungen)
-* Timer
+- API-Calls (wenn keine Datenbibliothek)
+- Subscriptions (WebSocket, Events)
+- DOM-APIs (Fokus, Messungen)
+- Timer
 
- Frage: „Synchronisiere ich mit etwas **außerhalb** von React?“
+Frage: „Synchronisiere ich mit etwas **außerhalb** von React?“
 
 Wenn nein → nicht nutzen.
 
@@ -97,7 +100,7 @@ Ausführlich mit Beispielen: [You Might Not Need an Effect](https://react.dev/le
 
 ## 3. Abgeleiteten State nicht in Effects
 
-###  Schlechtes Muster
+### Schlechtes Muster
 
 ```ts
 useEffect(() => {
@@ -111,7 +114,7 @@ useEffect(() => {
 const value = useMemo(() => expensiveCalculation(data), [data]);
 ```
 
- Effects sind **nicht** für Berechnungen.
+Effects sind **nicht** für Berechnungen.
 
 ---
 
@@ -135,10 +138,10 @@ const value = compute();
 
 ### Wann nutzen
 
-* teure Berechnungen
-* unnötige Re-Renders in memoisierten Komponenten vermeiden
+- teure Berechnungen
+- unnötige Re-Renders in memoisierten Komponenten vermeiden
 
- Vorzeitige Optimierung = Komplexität.
+Vorzeitige Optimierung = Komplexität.
 
 ---
 
@@ -146,9 +149,9 @@ const value = compute();
 
 ### Regeln
 
-* nur nötiges übergeben
-* keine tief verschachtelten Objekte
-* Primitiven bevorzugen
+- nur nötiges übergeben
+- keine tief verschachtelten Objekte
+- Primitiven bevorzugen
 
 ### Schlecht: props: einfach halten
 
@@ -162,7 +165,7 @@ const value = compute();
 <Component theme={theme} layout={layout} />
 ```
 
- Einfachere Props = einfacheres Debuggen.
+Einfachere Props = einfacheres Debuggen.
 
 ---
 
@@ -174,11 +177,11 @@ Eine Komponente soll **eine Sache gut** tun.
 
 ### Zu groß, wenn:
 
-* 200+ Zeilen
-* mehrere Verantwortlichkeiten
-* schwer zu benennen
+- 200+ Zeilen
+- mehrere Verantwortlichkeiten
+- schwer zu benennen
 
- In kleinere Komponenten oder Hooks teilen.
+In kleinere Komponenten oder Hooks teilen.
 
 ---
 
@@ -186,8 +189,8 @@ Eine Komponente soll **eine Sache gut** tun.
 
 ### Wann anlegen
 
-* Logik mehrfach nutzbar
-* Komponente wird zu komplex
+- Logik mehrfach nutzbar
+- Komponente wird zu komplex
 
 ### Beispiel
 
@@ -199,7 +202,7 @@ function useUser() {
 }
 ```
 
- Hooks = wiederverwendbare Logik, keine UI.
+Hooks = wiederverwendbare Logik, keine UI.
 
 ---
 
@@ -209,21 +212,20 @@ function useUser() {
 
 Props durch viele Ebenen durchreichen
 
-###  Überkorrektur
+### Überkorrektur
 
 Überall Context
 
-###  Ausgewogen
+### Ausgewogen
 
-* lokaler State zuerst
-* State bei Bedarf hochziehen
-* Context nur für **globale** Themen:
+- lokaler State zuerst
+- State bei Bedarf hochziehen
+- Context nur für **globale** Themen:
+  - Theme
+  - Auth
+  - Einstellungen
 
-  * Theme
-  * Auth
-  * Einstellungen
-
- Context ist kein Ersatz für globales State-Management.
+Context ist kein Ersatz für globales State-Management.
 
 ---
 

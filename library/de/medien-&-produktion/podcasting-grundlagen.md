@@ -1,8 +1,11 @@
 # Podcasting — Grundlagen
 
-**Geltungsbereich:** **Audio-Shows**—Format, Aufnahme, Schnitt, Veröffentlichung im kleinen Organisationssetting. Ergänzt [`untertitel-und-untertitelung.md`](untertitel-und-untertitelung.md), [`dateinamen-und-organisation.md`](dateinamen-und-organisation.md) und [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md).
+## Geltungsbereich:
+
+**Audio-Shows**—Format, Aufnahme, Schnitt, Veröffentlichung im kleinen Organisationssetting. Ergänzt [`untertitel-und-untertitelung.md`](untertitel-und-untertitelung.md), [`dateinamen-und-organisation.md`](dateinamen-und-organisation.md) und [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md).
 
 ## Exzerpt
+
 - **Format** wählen und **dabei bleiben**.
 - **Raum** dämpft Hall; **Pegel** testen.
 - **Getrennte** Spuren; **Rauschreduktion** vorsichtig.
@@ -24,7 +27,7 @@
 
 ## Zweck
 
-**Hörbares** Audio mit **Respekt** vor Gästen und Hörer*innen.
+**Hörbares** Audio mit **Respekt** vor Gästen und Hörer\*innen.
 
 ---
 
@@ -32,7 +35,7 @@
 
 ### Regel
 
-**Interview**, **Erzählung** oder **Panel** als **Hauptform**—Hörer*innen wissen, was jede Episode liefert.
+**Interview**, **Erzählung** oder **Panel** als **Hauptform**—Hörer\*innen wissen, was jede Episode liefert.
 
 ### Gut: ein format wählen und konsistent bleiben
 
@@ -148,6 +151,7 @@ Host: Transistor/Anchor/…; Kalender: jeden zweiten Dienstag; 2 Episoden Puffer
 ---
 
 ## Kerngedanke
+
 Podcast = **Klarheit + Rhythmus + Sorgfalt**—**Klang** ist das Produkt.
 
 ## Weiterführend

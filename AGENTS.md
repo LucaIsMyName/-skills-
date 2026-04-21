@@ -94,10 +94,10 @@ Use this as the default structure for non-monorepo projects:
 
 ```
 library/
-    ├── en/                  
+    ├── en/
     │   ├── language-and-communication/
-    │   ├── ...  
-app/                            
+    │   ├── ...
+app/
     ├── src/                    # Application source code
     │   ├── app/                # App bootstrap / main wiring (routing, providers, entry setup)
     │   ├── modules/            # Feature modules grouped by business domain

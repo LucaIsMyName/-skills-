@@ -1,8 +1,11 @@
 # Onboarding new team members
 
-**Scope:** **First weeks** for new staff or core volunteers—access, context, buddies, expectations. Not HR policy manuals. Pair with [`volunteer-coordination.md`](volunteer-coordination.md), [`meetings-and-agendas.md`](meetings-and-agendas.md), and [`writing-a-story.md`](../language-&-communication/writing-a-story.md) for culture storytelling.
+## Scope:
+
+**First weeks** for new staff or core volunteers—access, context, buddies, expectations. Not HR policy manuals. Pair with [`volunteer-coordination.md`](volunteer-coordination.md), [`meetings-and-agendas.md`](meetings-and-agendas.md), and [`writing-a-story.md`](../language-&-communication/writing-a-story.md) for culture storytelling.
 
 ## Excerpt
+
 - **Day-1 checklist**: accounts, tools, **code of conduct**, safeguarding pointers.
 - **30-60-90** expectations—**learning goals** not only tasks.
 - **Buddy** for questions **too small** for managers.

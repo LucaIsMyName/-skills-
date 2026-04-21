@@ -1,8 +1,11 @@
 # Krise und sensible Themen
 
-**Geltungsbereich:** **Externe Kommunikation** in Krisen oder bei sensiblen Themen (Holding Statements, Publikationen anhalten); keine internen Ermittlungen, keine HR-Verfahren und keine Rechtsstrategie—**immer Eskalation an die Leitung**.
+## Geltungsbereich:
+
+**Externe Kommunikation** in Krisen oder bei sensiblen Themen (Holding Statements, Publikationen anhalten); keine internen Ermittlungen, keine HR-Verfahren und keine Rechtsstrategie—**immer Eskalation an die Leitung**.
 
 ## Exzerpt
+
 - Bei **hohem Risiko** oder unklaren Fakten: **geplante Posts anhalten**; **nicht spekulieren**.
 - **Pflicht:** Formulierungen mit **Kommunikationsverantwortung oder Leitung** abstimmen, sofern der Nutzer keine ausdrücklich freigegebenen Texte liefert.
 - **Kurze, sachliche Holding Statements**; keine Lücken mit Vermutungen füllen.
@@ -89,7 +92,7 @@ Betroffenheit **anerkennen**, ohne Schuld zu verteilen, bevor Fakten vorliegen.
 
 ## Abschließender Gedanke
 
- In Krisen ist ein **falscher Satz** schlimmer als eine kurze Pause. Standard: **eskaliere und bestätige**, keine erfundene Erzählung.
+In Krisen ist ein **falscher Satz** schlimmer als eine kurze Pause. Standard: **eskaliere und bestätige**, keine erfundene Erzählung.
 
 ## Weiterführend
 

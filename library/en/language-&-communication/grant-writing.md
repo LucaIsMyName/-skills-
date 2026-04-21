@@ -1,8 +1,11 @@
 # Grant writing
 
-**Scope:** Applies to **formal grant applications, project outlines, and funding proposals** for nonprofits and social-sector organisations—EU, national, foundation, or institutional calls. Not legal review of grant contracts, not major-donor cultivation (see [`fundraising-appeals.md`](fundraising-appeals.md)), not full financial modelling by an accountant. Pair with [`literature-summarising.md`](../research-&-analysis/literature-summarising.md), [`desk-research.md`](../research-&-analysis/desk-research.md), and [`writing-a-story.md`](writing-a-story.md) for narrative sections.
+## Scope:
+
+Applies to **formal grant applications, project outlines, and funding proposals** for nonprofits and social-sector organisations—EU, national, foundation, or institutional calls. Not legal review of grant contracts, not major-donor cultivation (see [`fundraising-appeals.md`](fundraising-appeals.md)), not full financial modelling by an accountant. Pair with [`literature-summarising.md`](../research-&-analysis/literature-summarising.md), [`desk-research.md`](../research-&-analysis/desk-research.md), and [`writing-a-story.md`](writing-a-story.md) for narrative sections.
 
 ## Excerpt
+
 - **Match the call.** Answer the funder’s questions in their order; do not paste a generic project description into every form.
 - **Outcomes, not vibes.** What will change, for whom, by when, and how you will know—aligned to the call’s indicators.
 - **Budget = story.** Line items should map to activities and staff time; unexplained round numbers erode trust.

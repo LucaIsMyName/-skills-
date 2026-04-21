@@ -1,11 +1,14 @@
 # Pressearbeit und Pitches
 
-**Geltungsbereich:** **Themen** an Journalist*innen herantragen—Timing, Form, Genauigkeit, Follow-up. Keine Krisen-Eskalation—[`krise-und-sensible-themen.md`](krise-und-sensible-themen.md). Ergänzt [`pressemitteilungen-schreiben.md`](pressemitteilungen-schreiben.md), [`quellenbewertung-und-faktencheck.md`](../recherche-&-analyse/quellenbewertung-und-faktencheck.md) und [`respektvolle-sprache.md`](respektvolle-sprache.md).
+## Geltungsbereich:
+
+**Themen** an Journalist\*innen herantragen—Timing, Form, Genauigkeit, Follow-up. Keine Krisen-Eskalation—[`krise-und-sensible-themen.md`](krise-und-sensible-themen.md). Ergänzt [`pressemitteilungen-schreiben.md`](pressemitteilungen-schreiben.md), [`quellenbewertung-und-faktencheck.md`](../recherche-&-analyse/quellenbewertung-und-faktencheck.md) und [`respektvolle-sprache.md`](respektvolle-sprache.md).
 
 ## Exzerpt
+
 - **Outlet** und **Ressort** recherchieren—**personalisiert**, nicht Massenmail.
 - **Lead** mit **Neuigkeitswert**—warum **jetzt**, warum **dieses** Publikum.
-- **Fakten** bereit: Ansprechpartner*innen, Zahlen, Links—**keine** Übertreibung.
+- **Fakten** bereit: Ansprechpartner\*innen, Zahlen, Links—**keine** Übertreibung.
 - **Embargos** nur bei **vereinbarter** Bindung.
 - **Schnelle**, seriöse Antworten bauen Beziehungen.
 
@@ -14,7 +17,7 @@
 ### Konkret
 
 - **Kern** in zwei Sätzen; **Assets** (Fotos mit Freigaben).
-- **Verfügbarkeit** der Sprecher*in.
+- **Verfügbarkeit** der Sprecher\*in.
 
 ### Meta
 
@@ -43,6 +46,7 @@ Betreff klar; Einleitung mit Bezug; Faktenbox; Interviewoptionen; Materialien-Li
 ---
 
 ## Kerngedanke
+
 Pitching ist **Journalismus unterstützen**: **klare** Fakten, **schneller** Zugang, **null** Spin bei Zahlen.
 
 ## Weiterführend

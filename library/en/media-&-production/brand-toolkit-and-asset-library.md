@@ -1,8 +1,11 @@
 # Brand toolkit and asset library
 
-**Scope:** **Centralising** logos, colours, templates, and **approved** imagery—**governance** for small teams. Pair with [`design-tokens-and-theming.md`](../design/design-tokens-and-theming.md), [`tone-of-voice-and-brand-voice.md`](../language-&-communication/tone-of-voice-and-brand-voice.md), and [`file-naming-and-organising.md`](file-naming-and-organising.md).
+## Scope:
+
+**Centralising** logos, colours, templates, and **approved** imagery—**governance** for small teams. Pair with [`design-tokens-and-theming.md`](../design/design-tokens-and-theming.md), [`tone-of-voice-and-brand-voice.md`](../language-&-communication/tone-of-voice-and-brand-voice.md), and [`file-naming-and-organising.md`](file-naming-and-organising.md).
 
 ## Excerpt
+
 - **Single source of truth** for logo **SVG/PNG** variants—**clear space** rules.
 - **Colour**: **hex** for screen; **PMS/CMYK** for print—**document** both.
 - **Templates** (slides, social) **versioned**—**changelog** when updated.

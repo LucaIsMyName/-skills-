@@ -1,13 +1,16 @@
 # Live-Events und Streaming
 
-**Geltungsbereich:** **Live**-Veranstaltungen und **Streams**—Ablauf, Redundanz, Barrierefreiheit, Sicherheit. Ergänzt [`video-produktion-grundlagen.md`](video-produktion-grundlagen.md), [`untertitel-und-untertitelung.md`](untertitel-und-untertitelung.md) und [`krise-und-sensible-themen.md`](../sprache-&-kommunikation/krise-und-sensible-themen.md).
+## Geltungsbereich:
+
+**Live**-Veranstaltungen und **Streams**—Ablauf, Redundanz, Barrierefreiheit, Sicherheit. Ergänzt [`video-produktion-grundlagen.md`](video-produktion-grundlagen.md), [`untertitel-und-untertitelung.md`](untertitel-und-untertitelung.md) und [`krise-und-sensible-themen.md`](../sprache-&-kommunikation/krise-und-sensible-themen.md).
 
 ## Exzerpt
+
 - **Ablauf** mit **Ownern** und **Zeiten**.
 - **Redundanz**: Backup-**Internet**, **Audio**, **Folien**.
 - **Moderation** von Chat/Q&A—**Spam** und **Schutz**.
 - **Barrierefreiheit**: **Live-Transkript**/Captions wo möglich.
-- **Aufzeichnung**—**Einwilligung** der Sprecher*innen.
+- **Aufzeichnung**—**Einwilligung** der Sprecher\*innen.
 
 ## Vor Live
 
@@ -118,19 +121,19 @@ Kein Untertitel-Pfad—öffentliches Webinar ohne Zugang für gehörlose Nutzer*
 Live-Captions via Anbieter oder Plattform; nach Event VTT hochladen; Aufzeichnungsseite verlinkt Transkript.
 ```
 
-## 6. Aufzeichnung und Einwilligung der Sprecher*innen
+## 6. Aufzeichnung und Einwilligung der Sprecher\*innen
 
 ### Regel
 
 **Einwilligung** zu **Aufzeichnung**, **Verbreitung** und **Kurzclips**—**besonders** bei Fundraising-Nutzung.
 
-### Gut: aufzeichnung und einwilligung der sprecher*innen
+### Gut: aufzeichnung und einwilligung der sprecher\*innen
 
 ```text
 Aufzeichnung auf YouTube ohne Wissen der Redner*innen.
 ```
 
-### Gut: aufzeichnung und einwilligung der sprecher*innen
+### Gut: aufzeichnung und einwilligung der sprecher\*innen
 
 ```text
 Einwilligung: Live OK; VOD 90 Tage; keine Kurzclips für Ads ohne Nachzeichnung—im Ablaufprotokoll.
@@ -148,6 +151,7 @@ Einwilligung: Live OK; VOD 90 Tage; keine Kurzclips für Ads ohne Nachzeichnung�
 ---
 
 ## Kerngedanke
+
 Live = **Logistik + Empathie**—**proben**, **backupen**, **moderieren**, **untertiteln**.
 
 ## Weiterführend

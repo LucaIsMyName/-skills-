@@ -1,8 +1,11 @@
 # Slides and presentations
 
-**Scope:** Applies to **slide decks** (talks, workshops, board packs) for **legibility and structure**; not full motion graphics or video. For **web UI**, use [`designing-good-interfaces.md`](designing-good-interfaces.md).
+## Scope:
+
+Applies to **slide decks** (talks, workshops, board packs) for **legibility and structure**; not full motion graphics or video. For **web UI**, use [`designing-good-interfaces.md`](designing-good-interfaces.md).
 
 ## Excerpt
+
 - **One main idea per slide**; large type; high contrast for projectors.
 - **Template discipline**: same margins, title style, and alignment across the deck.
 - **Ask** for duration, audience, and whether slides are **speaker notes** or **send-ahead** documents.
@@ -80,7 +83,8 @@ If comparing metrics, use a **simple chart** or table—avoid walls of numbers.
 ---
 
 ## Core idea
- Slides are **visual cues**, not a document. If everything is on the slide, nothing is.
+
+Slides are **visual cues**, not a document. If everything is on the slide, nothing is.
 
 ## Further reading
 

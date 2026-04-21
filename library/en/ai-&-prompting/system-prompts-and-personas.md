@@ -1,8 +1,11 @@
 # System prompts and personas
 
-**Scope:** Applies to **splitting persistent policy from per-task work**—how and when to use a **system prompt**, a **persona**, and a **user prompt**. Not vendor account setup, not model selection. Pair with [`prompting-basics.md`](prompting-basics.md), [`prompt-patterns.md`](prompt-patterns.md), [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md), and [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md).
+## Scope:
+
+Applies to **splitting persistent policy from per-task work**—how and when to use a **system prompt**, a **persona**, and a **user prompt**. Not vendor account setup, not model selection. Pair with [`prompting-basics.md`](prompting-basics.md), [`prompt-patterns.md`](prompt-patterns.md), [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md), and [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md).
 
 ## Excerpt
+
 - **System prompt** = stable rules that apply across turns (tone, safety, refusal style, default format).
 - **User prompt** = the task for this turn.
 - **Persona** is a tool for **tone and audience fit**, not a substitute for facts or accountability.

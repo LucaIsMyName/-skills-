@@ -1,8 +1,11 @@
 # Kreativbriefs
 
-**Geltungsbereich:** Briefing für **Design/Kommunikation**—Zielgruppe, Botschaft, Belege, Deliverables. Ergänzt [`kampagnenplanung.md`](kampagnenplanung.md), [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md) und [`projektbriefs.md`](projektbriefs.md).
+## Geltungsbereich:
+
+Briefing für **Design/Kommunikation**—Zielgruppe, Botschaft, Belege, Deliverables. Ergänzt [`kampagnenplanung.md`](kampagnenplanung.md), [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md) und [`projektbriefs.md`](projektbriefs.md).
 
 ## Exzerpt
+
 - **Zielgruppe** + **Insight**.
 - **Eine** Kernaussage.
 - **Belege**—Fakten, Stories (mit Einwilligung).
@@ -152,6 +155,7 @@ Scope-Änderung: +30 s Video. Neuer Termin 30. Mai; +£2k oder ein Static wenige
 ---
 
 ## Kerngedanke
+
 Ein Kreativbrief beantwortet **wer**, **warum**, **welche belegbare Wahrheit**, **was wird geliefert**.
 
 ## Weiterführend

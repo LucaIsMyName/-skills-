@@ -1,8 +1,11 @@
 # Fotografie für NGOs
 
-**Geltungsbereich:** **Planen und fotografieren** für gemeinnützige Arbeit—Einwilligung, Würde, Schutz, technische Basics. Ergänzt [`bild-und-zitatfreigaben.md`](../ethik-&-recht/bild-und-zitatfreigaben.md), [`bildethik-und-bildsprache.md`](bildethik-und-bildsprache.md) und [`bilder-und-fotografie.md`](../design/bilder-und-fotografie.md).
+## Geltungsbereich:
+
+**Planen und fotografieren** für gemeinnützige Arbeit—Einwilligung, Würde, Schutz, technische Basics. Ergänzt [`bild-und-zitatfreigaben.md`](../ethik-&-recht/bild-und-zitatfreigaben.md), [`bildethik-und-bildsprache.md`](bildethik-und-bildsprache.md) und [`bilder-und-fotografie.md`](../design/bilder-und-fotografie.md).
 
 ## Exzerpt
+
 - **Einwilligung** und **Kontext**—Wiederverwendung, Kanäle.
 - **Würde** vor Mitleid—keine ausbeuterische Bildsprache.
 - **Repräsentation**: **Agency** zeigen; **Diversität** mit Sorgfalt.
@@ -148,6 +151,7 @@ Ordner „kamera“ mit 2000 JPEGs; niemand weiß, was freigegeben ist.
 ---
 
 ## Kerngedanke
+
 NGO-Fotografie dient **Wahrheit und Würde**—**Einwilligung**, **Kontext**, **Sorgfalt**.
 
 ## Weiterführend

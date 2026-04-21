@@ -1,8 +1,11 @@
 # Kampagnenplanung
 
-**Geltungsbereich:** **Kampagne** End-to-End—Ziele, Zielgruppen, Kanäle, Zeitplan, Messung. Ergänzt [`kreativbriefs.md`](kreativbriefs.md), [`spendenaufrufe.md`](../sprache-&-kommunikation/spendenaufrufe.md) und [`statusberichte-und-reporting.md`](statusberichte-und-reporting.md).
+## Geltungsbereich:
+
+**Kampagne** End-to-End—Ziele, Zielgruppen, Kanäle, Zeitplan, Messung. Ergänzt [`kreativbriefs.md`](kreativbriefs.md), [`spendenaufrufe.md`](../sprache-&-kommunikation/spendenaufrufe.md) und [`statusberichte-und-reporting.md`](statusberichte-und-reporting.md).
 
 ## Exzerpt
+
 - **Ziel** mit **Kennzahl**—ein primäres.
 - **Segmente** mit **Botschaften**.
 - **Kanalplan** mit Ownern.
@@ -166,6 +169,7 @@ Risiko: negative Antworten am Launch-Tag. Owner: Comms-Lead—Eskalation zur Ges
 ---
 
 ## Kerngedanke
+
 Kampagne = **System** aus Botschaft, Timing, Messung, Ownership.
 
 ## Weiterführend

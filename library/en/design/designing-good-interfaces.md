@@ -1,8 +1,11 @@
 # Designing good interfaces
 
-**Scope:** Applies to **interface and interaction design** (UI patterns, flows, clarity); not backend architecture or comms accessibility copy.
+## Scope:
+
+Applies to **interface and interaction design** (UI patterns, flows, clarity); not backend architecture or comms accessibility copy.
 
 ## Excerpt
+
 - Use when shaping **screens, flows, and controls** so interfaces are easy to understand and use.
 - Focus on clarity, feedback, consistency, and sensible defaults; details and examples follow.
 - Full file below: what “good design” means here, practical UI guidance, and pitfalls.
@@ -37,7 +40,7 @@ The user should instantly understand what they are looking at.
 - Use clear labels and language
 - Make important elements stand out
 
- If a user has to think too much, the design is not clear enough.
+If a user has to think too much, the design is not clear enough.
 
 ---
 
@@ -49,7 +52,7 @@ Keep only what is necessary.
 - Focus on the main goal
 - Avoid too many options at once
 
- Simple does NOT mean boring — it means focused.
+Simple does NOT mean boring — it means focused.
 
 ---
 
@@ -61,7 +64,7 @@ Things should behave the same way across the interface.
 - Same buttons = same actions
 - Same layout patterns
 
- Consistency builds trust and reduces learning time.
+Consistency builds trust and reduces learning time.
 
 ---
 
@@ -73,7 +76,7 @@ The system should always respond to user actions.
 - Loading → spinner or progress
 - Errors → clear message
 
- Users should never feel lost or unsure.
+Users should never feel lost or unsure.
 
 ---
 
@@ -85,7 +88,7 @@ Design should work for as many people as possible.
 - Clear fonts and sizes
 - Keyboard and screen-reader support
 
- Good design includes everyone.
+Good design includes everyone.
 
 ---
 
@@ -103,7 +106,7 @@ Guide the user's attention.
 - Bright = important
 - Top = important
 
- Users should naturally know where to look first.
+Users should naturally know where to look first.
 
 ---
 
@@ -115,7 +118,7 @@ Give elements room to breathe.
 - Group related items
 - Align elements properly
 
- Crowded UI = stressful UI.
+Crowded UI = stressful UI.
 
 ---
 
@@ -127,7 +130,7 @@ Text should be easy to read.
 - Limit font styles (1–2 max)
 - Use size and weight for structure
 
- Good typography improves understanding instantly.
+Good typography improves understanding instantly.
 
 ---
 
@@ -139,7 +142,7 @@ Use color with purpose.
 - Show states (error = red, success = green)
 - Keep a consistent palette
 
- Too many colors = confusion.
+Too many colors = confusion.
 
 ---
 
@@ -151,7 +154,7 @@ Users should know what they can click or use.
 - Links look like links
 - Inputs look editable
 
- If users hesitate, the UI is unclear.
+If users hesitate, the UI is unclear.
 
 ---
 
@@ -198,7 +201,7 @@ When it's bad:
 
 - Users get confused, frustrated, and leave
 
- The goal is not to impress — it is to **help users succeed effortlessly**.
+The goal is not to impress — it is to **help users succeed effortlessly**.
 
 ---
 

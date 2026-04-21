@@ -1,8 +1,11 @@
 # Markdown und MDX
 
-**Geltungsbereich:** Gilt für **Markdown- und MDX-Autoring** in Docs und Produkt-Content—Überschriften, Links, Code-Blöcke, Tabellen, Frontmatter, MDX-Komponenten, Barrierefreiheit, Versionierung. Kein LaTeX, kein Static-Site-Tuning. Kombiniere mit [`skill-dokumentation-schreiben.md`](../ki-&-prompting/skill-dokumentation-schreiben.md), [`barrierefreiheit-im-code.md`](barrierefreiheit-im-code.md), [`content-design-und-microcopy.md`](../design/content-design-und-microcopy.md) und [`dateinamen-und-organisation.md`](../medien-&-produktion/dateinamen-und-organisation.md).
+## Geltungsbereich:
+
+Gilt für **Markdown- und MDX-Autoring** in Docs und Produkt-Content—Überschriften, Links, Code-Blöcke, Tabellen, Frontmatter, MDX-Komponenten, Barrierefreiheit, Versionierung. Kein LaTeX, kein Static-Site-Tuning. Kombiniere mit [`skill-dokumentation-schreiben.md`](../ki-&-prompting/skill-dokumentation-schreiben.md), [`barrierefreiheit-im-code.md`](barrierefreiheit-im-code.md), [`content-design-und-microcopy.md`](../design/content-design-und-microcopy.md) und [`dateinamen-und-organisation.md`](../medien-&-produktion/dateinamen-und-organisation.md).
 
 ## Exzerpt
+
 - **Plain Markdown** zuerst—MDX nur, wenn Komponenten klar etwas bringen.
 - Ein **H1** pro Dokument; dann H2, H3, in Reihenfolge, ohne Sprünge.
 - **Links beschreiben** ihr Ziel—kein "hier klicken".
@@ -68,7 +71,7 @@ Siehe den [Mozilla — HTTP Accept-Encoding Guide](https://developer.mozilla.org
 
 ````md
 ```ts
-const user = await db.user.findUniqueOrThrow({ where: { id } })
+const user = await db.user.findUniqueOrThrow({ where: { id } });
 ```
 ````
 
@@ -92,10 +95,10 @@ const user = await db.user.findUniqueOrThrow({ where: { id } })
 - Mehr als ein Screen? Liste oder Dataset verlinken.
 
 ```md
-| Metrik | Q1   | Q2   |
-|--------|-----:|-----:|
-| LCP    | 2,8s | 2,3s |
-| INP    | 210ms| 180ms|
+| Metrik |    Q1 |    Q2 |
+| ------ | ----: | ----: |
+| LCP    |  2,8s |  2,3s |
+| INP    | 210ms | 180ms |
 ```
 
 ## 6. Frontmatter
@@ -124,9 +127,7 @@ tags: [ai, prompting, documentation]
 ### Gut: mdx-komponenten
 
 ```mdx
-<Hinweis>
-  API-Tokens haben 30 Tage Laufzeit. Monatlich rotieren.
-</Hinweis>
+<Hinweis>API-Tokens haben 30 Tage Laufzeit. Monatlich rotieren.</Hinweis>
 ```
 
 ## 8. Callouts
@@ -151,9 +152,11 @@ tags: [ai, prompting, documentation]
 ---
 
 ## Kerngedanke
+
 Markdown ist das **haltbarste Format** für geschriebenes Wissen: überall lesbar, diff-freundlich, durchsuchbar. Plain halten; MDX-Komponenten nur, wenn sie echten Mehrwert bringen.
 
 ## Weiterführend
+
 - [CommonMark](https://commonmark.org/)
 - [GitHub Flavored Markdown](https://github.github.com/gfm/)
 - [MDX](https://mdxjs.com/)

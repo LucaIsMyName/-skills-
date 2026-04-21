@@ -13,12 +13,16 @@
     "docs:preview": "npm run preview -w app",
     "docs:normalize": "node scripts/normalize-library-docs.mjs",
     "docs:fill-missing": "node scripts/fill-missing-library-sections.mjs",
-    "docs:check": "node scripts/check-library-docs.mjs"
+    "docs:check": "node scripts/check-library-docs.mjs",
+    "format": " prettier --write ."
   },
   "author": "LucaIsMyName",
   "repository": {
     "type": "git",
     "url": "https://github.com/LucaIsMyName/-skills-"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.8.3"
+  }
 }

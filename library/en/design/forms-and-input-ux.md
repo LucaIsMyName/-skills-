@@ -1,8 +1,11 @@
 # Forms and input UX
 
-**Scope:** Applies to **form layout, labels, validation, and input states** in digital products; not backend validation logic or legal text for consent (point to comms/legal).
+## Scope:
+
+Applies to **form layout, labels, validation, and input states** in digital products; not backend validation logic or legal text for consent (point to comms/legal).
 
 ## Excerpt
+
 - Use when designing **data entry**: single fields, multi-step flows, wizards.
 - **One primary action** per screen when possible; **clear error** placement and recovery.
 - **Ask** for field list, required rules, and error messaging source (product copy vs legal).
@@ -92,7 +95,8 @@ If submit is disabled until complete, show **what’s missing** or enable submit
 ---
 
 ## Core idea
- Forms are where users **commit**. Confusion here is trust lost.
+
+Forms are where users **commit**. Confusion here is trust lost.
 
 ## Further reading
 

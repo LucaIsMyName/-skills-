@@ -1,8 +1,11 @@
 # Campaign planning
 
-**Scope:** **End-to-end** campaign structure—objectives, audiences, channels, timeline, measurement. Not media buying mechanics. Pair with [`creative-briefs.md`](creative-briefs.md), [`fundraising-appeals.md`](../language-&-communication/fundraising-appeals.md), and [`status-updates-and-reporting.md`](status-updates-and-reporting.md).
+## Scope:
+
+**End-to-end** campaign structure—objectives, audiences, channels, timeline, measurement. Not media buying mechanics. Pair with [`creative-briefs.md`](creative-briefs.md), [`fundraising-appeals.md`](../language-&-communication/fundraising-appeals.md), and [`status-updates-and-reporting.md`](status-updates-and-reporting.md).
 
 ## Excerpt
+
 - **Objective** tied to **metric** (awareness, leads, donations)—pick **one** primary.
 - **Audience** segments with **messages** each.
 - **Channel plan** with owners—avoid **everything everywhere**.

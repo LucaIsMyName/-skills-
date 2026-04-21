@@ -1,8 +1,11 @@
 # The Hero’s Journey
 
-**Scope:** Applies to **story structure and narrative arcs** (talks, campaigns, long-form stories); not a substitute for ethical, person-centered reporting—pair with [`writing-a-story.md`](writing-a-story.md) and [`respectful-language.md`](respectful-language.md) for nonprofit and social-sector work.
+## Scope:
+
+Applies to **story structure and narrative arcs** (talks, campaigns, long-form stories); not a substitute for ethical, person-centered reporting—pair with [`writing-a-story.md`](writing-a-story.md) and [`respectful-language.md`](respectful-language.md) for nonprofit and social-sector work.
 
 ## Excerpt
+
 - The **Hero’s Journey** is a classic **12-beat** pattern: how a character moves through challenges and changes.
 - Use it as a **planning scaffold** for talks or stories—not as a reason to reduce real people to “heroes” or “victims.”
 - **Ask** for facts, consent, and tone before applying the pattern to real lives.
@@ -83,7 +86,7 @@ They bring what they learned back and restore balance.
 
 ## Core idea
 
- A strong story shows **how someone moves through difficulty and changes**—without flattening real people into stereotypes.
+A strong story shows **how someone moves through difficulty and changes**—without flattening real people into stereotypes.
 
 ## Further reading
 

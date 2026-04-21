@@ -1,8 +1,11 @@
 # Informationsarchitektur
 
-**Geltungsbereich:** Gilt für **Organisation, Benennung, Navigation** von Inhalten in digitalen Produkten/Websites—Seitenstruktur, Navigation, Taxonomie, Suche, URLs. Kein Visual Design, kein Texten. Kombiniere mit [`gute-interfaces-designen.md`](gute-interfaces-designen.md), [`wireframes-und-prototyping.md`](wireframes-und-prototyping.md), [`content-design-und-microcopy.md`](content-design-und-microcopy.md) und [`barrierefreiheit-im-code.md`](../coding/barrierefreiheit-im-code.md).
+## Geltungsbereich:
+
+Gilt für **Organisation, Benennung, Navigation** von Inhalten in digitalen Produkten/Websites—Seitenstruktur, Navigation, Taxonomie, Suche, URLs. Kein Visual Design, kein Texten. Kombiniere mit [`gute-interfaces-designen.md`](gute-interfaces-designen.md), [`wireframes-und-prototyping.md`](wireframes-und-prototyping.md), [`content-design-und-microcopy.md`](content-design-und-microcopy.md) und [`barrierefreiheit-im-code.md`](../coding/barrierefreiheit-im-code.md).
 
 ## Exzerpt
+
 - **Nutzende > Struktur > Labels**: erst Zielgruppen/Aufgaben, dann Gruppen, dann Namen.
 - **Flach schlägt tief**: wenige Ebenen, klare Seiten, gute Suche.
 - **Eins an einem Ort**—doppelte Menüpunkte verwirren.
@@ -124,9 +127,11 @@ https://example.org/de/spenden/bildung-2025
 ---
 
 ## Kerngedanke
+
 IA ist die **Karte hinter der UI**. Flach, ehrlich, in Nutzersprache schlägt tief und hübsch. Wenn Nutzende den nächsten Klick nicht erraten können, hilft kein Visual Design mehr.
 
 ## Weiterführend
+
 - [NN/g — IA & navigation](https://www.nngroup.com/topic/information-architecture/)
 - [Information Architecture for the Web and Beyond](https://www.oreilly.com/library/view/information-architecture-4th/9781491911518/)
 - [GOV.UK — Navigation patterns](https://design-system.service.gov.uk/patterns/navigation/)

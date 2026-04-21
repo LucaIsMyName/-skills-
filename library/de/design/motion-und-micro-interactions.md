@@ -1,8 +1,11 @@
 # Motion und Micro-Interactions
 
-**Geltungsbereich:** **Bewegung in der UI**: Übergänge, Feedback-Animationen, Ladezustände; keine Videoproduktion, Spielanimation oder TV-Spots.
+## Geltungsbereich:
+
+**Bewegung in der UI**: Übergänge, Feedback-Animationen, Ladezustände; keine Videoproduktion, Spielanimation oder TV-Spots.
 
 ## Exzerpt
+
 - Motion nutzen, um **Ursache und Wirkung** zu verdeutlichen, nicht zur Dekoration.
 - **`prefers-reduced-motion`** respektieren: nicht-animierte Alternative anbieten.
 - Dauern oft **kurz** (ca. 150–300 ms für UI); kein großes Parallax in Aufgabenflows.
@@ -79,7 +82,7 @@ Wo möglich **fortschrittsbasiert**; **Skeleton** für Struktur; keine Endlosspi
 
 ## Abschließender Gedanke
 
- Motion soll **„Was ist passiert?“** beantworten—wenn es nur **„Schau mich an“** sagt, streichen.
+Motion soll **„Was ist passiert?“** beantworten—wenn es nur **„Schau mich an“** sagt, streichen.
 
 ## Weiterführende Links
 

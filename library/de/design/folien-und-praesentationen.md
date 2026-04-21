@@ -1,8 +1,11 @@
 # Folien und Präsentationen
 
-**Geltungsbereich:** **Folien** (Vorträge, Workshops, Vorstand) für **Lesbarkeit und Struktur**; keine Vollanimation oder Video. Für **Web-UI** siehe [`gute-interfaces-designen.md`](gute-interfaces-designen.md).
+## Geltungsbereich:
+
+**Folien** (Vorträge, Workshops, Vorstand) für **Lesbarkeit und Struktur**; keine Vollanimation oder Video. Für **Web-UI** siehe [`gute-interfaces-designen.md`](gute-interfaces-designen.md).
 
 ## Exzerpt
+
 - **Eine Hauptidee pro Folie**; große Schrift; hoher Kontrast für Beamer.
 - **Einheitliche Vorlage**: gleiche Ränder, Titelstil, Ausrichtung.
 - **Nachfragen** nach Dauer, Publikum und ob Folien **nur live** oder **zum Nachlesen** dienen.
@@ -81,7 +84,7 @@ Vergleiche mit **einfachem Diagramm** oder Tabelle—keine Zahlenwände.
 
 ## Abschließender Gedanke
 
- Folien sind **Stützen**, kein Dokument. Steht alles auf der Folie, **wirkt nichts**.
+Folien sind **Stützen**, kein Dokument. Steht alles auf der Folie, **wirkt nichts**.
 
 ## Weiterführende Links
 

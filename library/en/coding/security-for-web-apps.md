@@ -1,8 +1,11 @@
 # Security for web apps
 
-**Scope:** Applies to **day-to-day application security** for web products—auth, input handling, dependencies, secrets, headers, logging. Not full infosec programs, not cryptographic protocol design, not pentesting. Pair with [`api-design-and-rest.md`](api-design-and-rest.md), [`error-handling-and-logging.md`](error-handling-and-logging.md), [`gdpr-basics.md`](../ethics-&-legal/gdpr-basics.md), and [`structured-output-and-tool-use.md`](../ai-&-prompting/structured-output-and-tool-use.md).
+## Scope:
+
+Applies to **day-to-day application security** for web products—auth, input handling, dependencies, secrets, headers, logging. Not full infosec programs, not cryptographic protocol design, not pentesting. Pair with [`api-design-and-rest.md`](api-design-and-rest.md), [`error-handling-and-logging.md`](error-handling-and-logging.md), [`gdpr-basics.md`](../ethics-&-legal/gdpr-basics.md), and [`structured-output-and-tool-use.md`](../ai-&-prompting/structured-output-and-tool-use.md).
 
 ## Excerpt
+
 - **Default-deny** everywhere: auth, authorization, network, CORS, CSP.
 - **Validate** inputs at the boundary; **encode** outputs at the sink (HTML, SQL, shell).
 - **Secrets live in environment / secret managers**—never in code, never in logs.
@@ -51,18 +54,20 @@ Ship a web app that protects users' data and your organisation's reputation **by
 ### Bad: authorization
 
 ```ts
-if (user.isAdmin) { /* show button */ }
+if (user.isAdmin) {
+  /* show button */
+}
 // server accepts the action regardless
 ```
 
 ### Good: authorization
 
 ```ts
-router.post('/invoices/:id/void', requireAuth, async (req, res) => {
-  const invoice = await db.invoice.findById(req.params.id)
-  if (!canVoid(req.user, invoice)) return res.status(403).end()
+router.post("/invoices/:id/void", requireAuth, async (req, res) => {
+  const invoice = await db.invoice.findById(req.params.id);
+  if (!canVoid(req.user, invoice)) return res.status(403).end();
   // ...
-})
+});
 ```
 
 ## 3. Input handling

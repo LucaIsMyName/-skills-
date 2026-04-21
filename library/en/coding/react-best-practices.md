@@ -1,8 +1,11 @@
 # React best practices
 
-**Scope:** Applies to **React application and component code**; not non-React front ends, native apps, or server-only backends. This page is the **overview**; details are split across two files. Pair with [`typescript-best-practices.md`](typescript-best-practices.md) and [`coding-best-practices.md`](coding-best-practices.md).
+## Scope:
+
+Applies to **React application and component code**; not non-React front ends, native apps, or server-only backends. This page is the **overview**; details are split across two files. Pair with [`typescript-best-practices.md`](typescript-best-practices.md) and [`coding-best-practices.md`](coding-best-practices.md).
 
 ## Excerpt
+
 - **State and hooks** (`useState`, `useEffect`, memoisation, props, context, hooks extraction)—[`react-state-hooks-and-effects.md`](react-state-hooks-and-effects.md).
 - **Components, events, async, lists, forms, structure**—[`react-components-async-and-structure.md`](react-components-async-and-structure.md).
 

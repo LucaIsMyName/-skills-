@@ -1,8 +1,11 @@
 # Bildethik und Bildsprache
 
-**Geltungsbereich:** **Ethische** Auswahl und **Schnitt**—Stereotype, Würde, Kontext. Ergänzt [`fotografie-fuer-ngos.md`](fotografie-fuer-ngos.md), [`bild-und-zitatfreigaben.md`](../ethik-&-recht/bild-und-zitatfreigaben.md) und [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md).
+## Geltungsbereich:
+
+**Ethische** Auswahl und **Schnitt**—Stereotype, Würde, Kontext. Ergänzt [`fotografie-fuer-ngos.md`](fotografie-fuer-ngos.md), [`bild-und-zitatfreigaben.md`](../ethik-&-recht/bild-und-zitatfreigaben.md) und [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md).
 
 ## Exzerpt
+
 - **Bildsprache** steuert **Macht**—was steht **im Zentrum**?
 - **Armutspornografie** und **White-Saviour** vermeiden—**Agency** und **Strukturen** zeigen.
 - **Intersectional** denken—**Klischees** schaden.
@@ -24,7 +27,7 @@
 
 ## Zweck
 
-Bilder wählen, die **Menschen respektieren** und **Zuschauer*innen** **wahr** informieren.
+Bilder wählen, die **Menschen respektieren** und **Zuschauer\*innen** **wahr** informieren.
 
 ---
 
@@ -148,6 +151,7 @@ Freigabe: Web + Jahresbericht 2025; bei Verlängerung nachfragen; ohne Antwort a
 ---
 
 ## Kerngedanke
+
 **Ausschnitt ist Argument**—**ehrlich**, **eingewilligt**, **gerecht**.
 
 ## Weiterführend

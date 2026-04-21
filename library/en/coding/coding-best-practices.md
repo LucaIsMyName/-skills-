@@ -1,8 +1,11 @@
 # Coding best practices
 
-**Scope:** Applies to **general software quality** in application code (any language or framework); not security audits, infrastructure, or operations. This page is the **overview**—deeper numbered rules live in the linked parts. Pair with [`coding-style-and-structure.md`](coding-style-and-structure.md), [`coding-errors-validation-and-state.md`](coding-errors-validation-and-state.md), and [`coding-testing-and-habits.md`](coding-testing-and-habits.md).
+## Scope:
+
+Applies to **general software quality** in application code (any language or framework); not security audits, infrastructure, or operations. This page is the **overview**—deeper numbered rules live in the linked parts. Pair with [`coding-style-and-structure.md`](coding-style-and-structure.md), [`coding-errors-validation-and-state.md`](coding-errors-validation-and-state.md), and [`coding-testing-and-habits.md`](coding-testing-and-habits.md).
 
 ## Excerpt
+
 - **Three parts**: style and structure → errors, validation, predictable state → tests, consistency, comments, scaling habits.
 - Start with **simplicity and names** before optimising or abstracting.
 - **Cross-links** between parts; read them in order or jump to what you need.

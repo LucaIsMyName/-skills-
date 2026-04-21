@@ -1,8 +1,11 @@
 # Notizen und Synthese
 
-**Geltungsbereich:** Gilt für **Notieren, Ordnen und Umwandeln von Recherchenotizen in Entwürfe**—Artikel, Briefings, Berichte, Stories. Ergänzt [`recherche-grundlagen.md`](recherche-grundlagen.md), [`menschen-interviewen.md`](menschen-interviewen.md), [`literatur-zusammenfassen.md`](literatur-zusammenfassen.md), [`quellenbewertung-und-faktencheck.md`](quellenbewertung-und-faktencheck.md).
+## Geltungsbereich:
+
+Gilt für **Notieren, Ordnen und Umwandeln von Recherchenotizen in Entwürfe**—Artikel, Briefings, Berichte, Stories. Ergänzt [`recherche-grundlagen.md`](recherche-grundlagen.md), [`menschen-interviewen.md`](menschen-interviewen.md), [`literatur-zusammenfassen.md`](literatur-zusammenfassen.md), [`quellenbewertung-und-faktencheck.md`](quellenbewertung-und-faktencheck.md).
 
 ## Exzerpt
+
 - **Notizen sind fürs Denken**, nicht nur für Gedächtnis. Ideen festhalten, nicht nur Zitate.
 - **Eine Idee, eine Notiz**—atomare Notizen schlagen lange Transkripte beim Entwerfen.
 - **Herkunft immer mit**: jede Notiz verlinkt zu Quelle mit Seite/Zeit.
@@ -122,7 +125,7 @@ Gute Recherche wird gutes Schreiben durch **atomare Notizen und ehrliche Synthes
 ## Weiterführend
 
 - [Zettelkasten.de — Introduction](https://zettelkasten.de/introduction/) — knappe Erklärung verknüpfter Notizsysteme (Englisch; Begriffe universell)
-- [Ahrens — *How to Take Smart Notes* (Website zum Buch)](https://takesmartnotes.com/) — verbreiteter Ablauf von Lesen zu Schreiben (kommerziell; die Methode zählt)
+- [Ahrens — _How to Take Smart Notes_ (Website zum Buch)](https://takesmartnotes.com/) — verbreiteter Ablauf von Lesen zu Schreiben (kommerziell; die Methode zählt)
 - [Obsidian-Hilfe — Notizen verknüpfen](https://help.obsidian.md/Linking+notes+and+ideas) — Ideen lassen sich auf jedes Markdown- oder Papier-System übertragen
 
 ---

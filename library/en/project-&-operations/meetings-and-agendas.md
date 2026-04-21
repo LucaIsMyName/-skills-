@@ -1,8 +1,11 @@
 # Meetings and agendas
 
-**Scope:** **Efficient** meetings—purpose, agenda, outcomes, async alternatives. Not facilitation certification. Pair with [`decision-logs-and-adrs.md`](decision-logs-and-adrs.md), [`status-updates-and-reporting.md`](status-updates-and-reporting.md), and [`workshop-facilitation.md`](../language-&-communication/workshop-facilitation.md).
+## Scope:
+
+**Efficient** meetings—purpose, agenda, outcomes, async alternatives. Not facilitation certification. Pair with [`decision-logs-and-adrs.md`](decision-logs-and-adrs.md), [`status-updates-and-reporting.md`](status-updates-and-reporting.md), and [`workshop-facilitation.md`](../language-&-communication/workshop-facilitation.md).
 
 ## Excerpt
+
 - **Purpose** in one line—**decision**, **alignment**, or **review**?
 - **Agenda** with **timeboxes** and **pre-reads**.
 - **Outputs**: actions with **owners** and **due dates**.

@@ -1,8 +1,11 @@
 # Print-Dateien
 
-**Geltungsbereich:** **Export** für Druck—Beschnitt, Auflösung, PDF-Einstellungen—im NGO-Maßstab. Ergänzt [`marken-toolkit-und-asset-bibliothek.md`](marken-toolkit-und-asset-bibliothek.md), [`dateinamen-und-organisation.md`](dateinamen-und-organisation.md) und [`folien-und-praesentationen.md`](../design/folien-und-praesentationen.md).
+## Geltungsbereich:
+
+**Export** für Druck—Beschnitt, Auflösung, PDF-Einstellungen—im NGO-Maßstab. Ergänzt [`marken-toolkit-und-asset-bibliothek.md`](marken-toolkit-und-asset-bibliothek.md), [`dateinamen-und-organisation.md`](dateinamen-und-organisation.md) und [`folien-und-praesentationen.md`](../design/folien-und-praesentationen.md).
 
 ## Exzerpt
+
 - **Beschnitt** und **Sicherheitsabstand**.
 - **Raster** ca. **300 dpi** in **Endgröße**.
 - **Schriften** lizenzkonform **einbetten** oder **pfaden**.
@@ -130,6 +133,7 @@ PDF/X-1a; 3 mm Beschnitt; Passmarken außerhalb des Livebereichs; Proof-Abzug ge
 ---
 
 ## Kerngedanke
+
 Druck ist **Physik**—**Millimeter**, **Punkte**, **Tinte**—**Spec** lesen.
 
 ## Weiterführend

@@ -1,8 +1,11 @@
 # Reden und Vorträge
 
-**Geltungsbereich:** Gilt für **Skript und Vortrag gesprochener Formate**—Keynotes, Grußworte, Panelstatements, Feiern, kurze Videoansprachen. Nicht Interviews (siehe [`interview-vorbereitung.md`](interview-vorbereitung.md)) und nicht Foliensatz (siehe [`folien-und-praesentationen.md`](../design/folien-und-praesentationen.md)). Ergänzt [`storytelling.md`](storytelling.md).
+## Geltungsbereich:
+
+Gilt für **Skript und Vortrag gesprochener Formate**—Keynotes, Grußworte, Panelstatements, Feiern, kurze Videoansprachen. Nicht Interviews (siehe [`interview-vorbereitung.md`](interview-vorbereitung.md)) und nicht Foliensatz (siehe [`folien-und-praesentationen.md`](../design/folien-und-praesentationen.md)). Ergänzt [`storytelling.md`](storytelling.md).
 
 ## Exzerpt
+
 - **Ein Publikum, ein Ziel, eine Kernbotschaft.** Alles andere ist Beiwerk.
 - **Gesprochene Sprache ist kurz.** Sätze auf einen Atem; Listen auf eine Hand.
 - **Geschichten schlagen Folien.** Zwei konkrete Geschichten schlagen zwölf abstrakte Punkte.
@@ -126,7 +129,7 @@ Publikum kann nicht zurückscrollen—verorten.
 
 - **Folien vorlesen.** Wenn es auf der Folie steht, etwas anderes sagen.
 - **Entschuldigen** für Nerven, Thema, Zeit. Einfach anfangen.
-- **Mit Danke enden.** Kernbotschaft zuletzt, *dann* danken.
+- **Mit Danke enden.** Kernbotschaft zuletzt, _dann_ danken.
 - **Hochsensible Zeilen improvisieren.** Schreiben.
 - **Überziehen.** Das großzügigste ist: rechtzeitig enden.
 

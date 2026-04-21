@@ -1,8 +1,11 @@
 # Retrospectives
 
-**Scope:** **Team learning** after a milestone—what went well, what to improve, actions. Not blame sessions. Pair with [`meetings-and-agendas.md`](meetings-and-agendas.md), [`decision-logs-and-adrs.md`](decision-logs-and-adrs.md), and [`prioritisation-basics.md`](prioritisation-basics.md).
+## Scope:
+
+**Team learning** after a milestone—what went well, what to improve, actions. Not blame sessions. Pair with [`meetings-and-agendas.md`](meetings-and-agendas.md), [`decision-logs-and-adrs.md`](decision-logs-and-adrs.md), and [`prioritisation-basics.md`](prioritisation-basics.md).
 
 ## Excerpt
+
 - **Psychological safety**—**problems** are systems, not individuals (within safeguarding).
 - **Data** from the work: incidents, delays, survey snippets—**not** only vibes.
 - **Few** action items with **owners**—better than 20 sticky notes and zero change.

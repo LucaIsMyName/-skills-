@@ -1,8 +1,11 @@
 # Error handling and logging
 
-**Scope:** Applies to **how code reacts to failure** and **what you record**—exceptions, retries, timeouts, user-facing messages, structured logs, metrics, traces, alerts. Not full SRE/incident practice, not full security auditing. Pair with [`api-design-and-rest.md`](api-design-and-rest.md), [`security-for-web-apps.md`](security-for-web-apps.md), [`empty-and-error-states.md`](../design/empty-and-error-states.md), and [`status-updates-and-reporting.md`](../project-&-operations/status-updates-and-reporting.md).
+## Scope:
+
+Applies to **how code reacts to failure** and **what you record**—exceptions, retries, timeouts, user-facing messages, structured logs, metrics, traces, alerts. Not full SRE/incident practice, not full security auditing. Pair with [`api-design-and-rest.md`](api-design-and-rest.md), [`security-for-web-apps.md`](security-for-web-apps.md), [`empty-and-error-states.md`](../design/empty-and-error-states.md), and [`status-updates-and-reporting.md`](../project-&-operations/status-updates-and-reporting.md).
 
 ## Excerpt
+
 - **Fail fast** at boundaries; **never swallow** exceptions silently.
 - **Two audiences**: a **user** (kind, concrete, action) and a **developer** (structured, searchable).
 - **Log structure, not prose**: JSON with `level`, `message`, `context`.
@@ -51,9 +54,9 @@ Design messages and handling per type, not one generic catch-all.
 
 ```ts
 try {
-  await sendEmail(user)
+  await sendEmail(user);
 } catch (e) {
-  console.log(e)
+  console.log(e);
 }
 // code continues as if mail was sent
 ```
@@ -62,15 +65,15 @@ try {
 
 ```ts
 try {
-  await sendEmail(user)
+  await sendEmail(user);
 } catch (err) {
-  logger.error('email_send_failed', {
+  logger.error("email_send_failed", {
     user_id: user.id,
-    template: 'welcome',
+    template: "welcome",
     err: serialiseError(err),
-  })
-  enqueueForRetry({ type: 'email.send', user_id: user.id })
-  throw new EmailDeliveryError('welcome', { cause: err })
+  });
+  enqueueForRetry({ type: "email.send", user_id: user.id });
+  throw new EmailDeliveryError("welcome", { cause: err });
 }
 ```
 

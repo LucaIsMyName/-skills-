@@ -1,8 +1,11 @@
 # Donor stewardship and thank-yous
 
-**Scope:** **Relationship** communications with donors—thank-yous, updates, recognition—without manipulation. Not tax/receipt law. Pair with [`fundraising-appeals.md`](fundraising-appeals.md), [`newsletter-and-email.md`](newsletter-and-email.md), [`respectful-language.md`](respectful-language.md), and [`content-design-and-microcopy.md`](../design/content-design-and-microcopy.md).
+## Scope:
+
+**Relationship** communications with donors—thank-yous, updates, recognition—without manipulation. Not tax/receipt law. Pair with [`fundraising-appeals.md`](fundraising-appeals.md), [`newsletter-and-email.md`](newsletter-and-email.md), [`respectful-language.md`](respectful-language.md), and [`content-design-and-microcopy.md`](../design/content-design-and-microcopy.md).
 
 ## Excerpt
+
 - **Thank fast**—ideally within days; **specific** about what the gift enables.
 - **Tone**: gratitude and **dignity**—not guilt for not giving more.
 - **Segment** messages where possible (first gift vs recurring vs major).

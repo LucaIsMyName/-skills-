@@ -1,8 +1,11 @@
 # Respectful Language
 
-**Scope:** Applies to **respectful wording** about people and social issues in communications; not legal compliance drafting, clinical diagnosis, or HR case decisions. Pair with [`content-design-and-microcopy.md`](../design/content-design-and-microcopy.md) for UI microcopy and [`tone-of-voice-and-brand-voice.md`](tone-of-voice-and-brand-voice.md) for brand voice.
+## Scope:
+
+Applies to **respectful wording** about people and social issues in communications; not legal compliance drafting, clinical diagnosis, or HR case decisions. Pair with [`content-design-and-microcopy.md`](../design/content-design-and-microcopy.md) for UI microcopy and [`tone-of-voice-and-brand-voice.md`](tone-of-voice-and-brand-voice.md) for brand voice.
 
 ## Excerpt
+
 - Use when **rewriting or drafting** text about poverty, disability, migration, care, and related topics.
 - **Ask** for audience, glossary, and sensitivity constraints; do not guess harmful labels.
 - Prefer person-respecting, accurate phrasing; topic sections and examples are below.
@@ -14,7 +17,7 @@
 
 This document explains how to use **respectful, dignity-centered language** when talking about social issues and people affected by them.
 
- Language is not neutral. It shapes how we think, feel, and treat others.
+Language is not neutral. It shapes how we think, feel, and treat others.
 
 ## completeness before drafting
 
@@ -36,13 +39,12 @@ Before rewriting or drafting text, **clarify context**. **Ask** about gaps — d
 
 ## Core Idea
 
-* The way we talk about people reflects our **attitude and worldview**
-* Words can:
+- The way we talk about people reflects our **attitude and worldview**
+- Words can:
+  - Harm, exclude, and stigmatize
+  - OR empower, include, and respect
 
-  * Harm, exclude, and stigmatize
-  * OR empower, include, and respect
-
- The goal is NOT “political correctness” —
+The goal is NOT “political correctness” —
 it is **respect, dignity, and awareness**
 
 ---
@@ -53,27 +55,27 @@ it is **respect, dignity, and awareness**
 
 Avoid reducing people to:
 
-* poverty
-* illness
-* disability
-* migration status
+- poverty
+- illness
+- disability
+- migration status
 
- Always see the **whole person**, not just one aspect of their life.
+Always see the **whole person**, not just one aspect of their life.
 
 ---
 
 ## 1. Language Shapes Reality
 
-* Words influence thinking
-* Repeated terms reinforce stereotypes
-* Even “normal” everyday language can be harmful
+- Words influence thinking
+- Repeated terms reinforce stereotypes
+- Even “normal” everyday language can be harmful
 
 ### Example
 
- “socially weak families”
+“socially weak families”
 → suggests lack of social skills
 
- “families with low income”
+“families with low income”
 → describes actual situation
 
 ---
@@ -82,51 +84,51 @@ Avoid reducing people to:
 
 Every person:
 
-* has **inherent dignity**
-* has a **story, abilities, and agency**
-* is more than their circumstances
+- has **inherent dignity**
+- has a **story, abilities, and agency**
+- is more than their circumstances
 
- Respectful language reflects this.
+Respectful language reflects this.
 
 ---
 
 ## 3. Avoid These Patterns
 
-###  Generalizations
+### Generalizations
 
-* “the poor”
-* “the disabled”
-* “the elderly”
+- “the poor”
+- “the disabled”
+- “the elderly”
 
-###  Blaming language
+### Blaming language
 
-* “lazy”
-* “undeserving”
+- “lazy”
+- “undeserving”
 
-###  Dehumanizing terms
+### Dehumanizing terms
 
-* “cases”
-* “burdens”
+- “cases”
+- “burdens”
 
-###  Dramatic metaphors
+### Dramatic metaphors
 
-* “wave of refugees”
-* “flood”
+- “wave of refugees”
+- “flood”
 
- These create fear, distance, and stigma.
+These create fear, distance, and stigma.
 
 ---
 
 ## 4. Use These Instead
 
-###  Person-first or respectful alternatives
+### Person-first or respectful alternatives
 
-* “people affected by poverty”
-* “people with disabilities”
-* “people with care needs”
-* “people with migration/flight experience”
+- “people affected by poverty”
+- “people with disabilities”
+- “people with care needs”
+- “people with migration/flight experience”
 
- Focus on the person, not the label.
+Focus on the person, not the label.
 
 ---
 
@@ -136,11 +138,11 @@ Words are not inherently “good” or “bad”.
 
 What matters:
 
-* intention
-* context
-* impact on affected people
+- intention
+- context
+- impact on affected people
 
- Always ask:
+Always ask:
 **“What does this wording imply?”**
 
 ---
@@ -149,140 +151,140 @@ What matters:
 
 ---
 
-###  Poverty
+### Poverty
 
 #### Use:
 
-* “people affected by poverty”
-* “low-income households”
-* “economically disadvantaged”
+- “people affected by poverty”
+- “low-income households”
+- “economically disadvantaged”
 
 #### Avoid:
 
-* “the poor”
-* “socially weak”
-* “welfare scroungers”
+- “the poor”
+- “socially weak”
+- “welfare scroungers”
 
- Poverty is **not a personal failure**, but often structural.
+Poverty is **not a personal failure**, but often structural.
 
 ---
 
-###  Children & Families in Crisis
+### Children & Families in Crisis
 
 #### Use:
 
-* “children needing support”
-* “children with behavioral challenges”
+- “children needing support”
+- “children with behavioral challenges”
 
 #### Avoid:
 
-* “problem children”
-* “disturbed”
-* “difficult”
+- “problem children”
+- “disturbed”
+- “difficult”
 
- Behavior ≠ identity.
+Behavior ≠ identity.
 
 ---
 
-###  Migration, Asylum, Refuge
+### Migration, Asylum, Refuge
 
 #### Use:
 
-* “refugees”
-* “people seeking asylum”
-* “people with flight experience”
+- “refugees”
+- “people seeking asylum”
+- “people with flight experience”
 
 #### Avoid:
 
-* “illegals”
-* “asylum abusers”
-* “economic refugees” (as a blanket label)
+- “illegals”
+- “asylum abusers”
+- “economic refugees” (as a blanket label)
 
- No human being is illegal.
+No human being is illegal.
 
 ---
 
-###  Disability
+### Disability
 
 #### Use:
 
-* “people with disabilities”
-* “living with disabilities”
+- “people with disabilities”
+- “living with disabilities”
 
 #### Avoid:
 
-* “the disabled”
-* “suffering from”
-* “wheelchair-bound”
+- “the disabled”
+- “suffering from”
+- “wheelchair-bound”
 
- Disability is part of life, not the whole identity.
+Disability is part of life, not the whole identity.
 
 ---
 
-###  Aging & Care
+### Aging & Care
 
 #### Use:
 
-* “older people”
-* “people with care needs”
-* “people living with dementia”
+- “older people”
+- “people with care needs”
+- “people living with dementia”
 
 #### Avoid:
 
-* “cases”
-* “senile”
-* infantilizing language (“grandma/grandpa”)
+- “cases”
+- “senile”
+- infantilizing language (“grandma/grandpa”)
 
- Aging deserves respect, not pity or reduction.
+Aging deserves respect, not pity or reduction.
 
 ---
 
-###  End-of-Life Care
+### End-of-Life Care
 
 #### Use:
 
-* “palliative care”
-* “hospice care”
-* “end-of-life support”
+- “palliative care”
+- “hospice care”
+- “end-of-life support”
 
 #### Avoid:
 
-* vague or misleading terms like “euthanasia” without context
+- vague or misleading terms like “euthanasia” without context
 
- Use precise, non-judgmental language.
+Use precise, non-judgmental language.
 
 ---
 
-###  International Development
+### International Development
 
 #### Use:
 
-* “global cooperation”
-* “global south”
-* “sustainable development”
+- “global cooperation”
+- “global south”
+- “sustainable development”
 
 #### Avoid:
 
-* “third world”
-* “underdeveloped”
-* “development aid” (in a paternalistic sense)
+- “third world”
+- “underdeveloped”
+- “development aid” (in a paternalistic sense)
 
- Focus on partnership, not hierarchy.
+Focus on partnership, not hierarchy.
 
 ---
 
 ## 7. Golden Rules
 
-* Be **specific**, not vague
-* Be **accurate**, not emotional
-* Be **respectful**, not judgmental
-* Be **aware**, not careless
+- Be **specific**, not vague
+- Be **accurate**, not emotional
+- Be **respectful**, not judgmental
+- Be **aware**, not careless
 
 ---
 
 ## Final Thought
 
- Good language makes people **visible as human beings**, not categories.
+Good language makes people **visible as human beings**, not categories.
 
 ## Further reading
 

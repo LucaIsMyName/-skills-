@@ -1,8 +1,11 @@
 # Workshops und Moderation
 
-**Geltungsbereich:** Gilt für **Planung, Durchführung und Nachbereitung** von Workshops und moderierten Formaten für Teams, Communities oder gemischte Gruppen im NGO- und Sozialbereich—Schulungen, Co-Design, Retrospektiven, Fokusgruppen. Keine vollständige Mediation rechtlicher Konflikte, keine Therapie. Ergänzend zu [`menschen-interviewen.md`](../recherche-&-analyse/menschen-interviewen.md) für Zuhör-Haltung, [`krise-und-sensible-themen.md`](krise-und-sensible-themen.md) bei schweren Themen und [`barrierefreiheit-kommunikation.md`](barrierefreiheit-kommunikation.md) für inklusive Formate.
+## Geltungsbereich:
+
+Gilt für **Planung, Durchführung und Nachbereitung** von Workshops und moderierten Formaten für Teams, Communities oder gemischte Gruppen im NGO- und Sozialbereich—Schulungen, Co-Design, Retrospektiven, Fokusgruppen. Keine vollständige Mediation rechtlicher Konflikte, keine Therapie. Ergänzend zu [`menschen-interviewen.md`](../recherche-&-analyse/menschen-interviewen.md) für Zuhör-Haltung, [`krise-und-sensible-themen.md`](krise-und-sensible-themen.md) bei schweren Themen und [`barrierefreiheit-kommunikation.md`](barrierefreiheit-kommunikation.md) für inklusive Formate.
 
 ## Exzerpt
+
 - **Erst Ergebnisse, dann Eisbrecher.** Definieren, womit Teilnehmende rausgehen; Aktivitäten daran rückwärts planen.
 - **Psychologische Sicherheit** — klarer Ablauf, Einwilligung bei persönlichen Übungen, Opt-out bei sensiblen Fragen immer möglich.
 - **Zeitbudget** — weniger Ziele gut umsetzen statt überfrachteter Agenda mit Verspätung.
@@ -91,6 +94,7 @@ Formate ermöglichen, in denen Menschen **gemeinsam produktiv denken**, **sicher
 ---
 
 ## Kerngedanke
+
 Ein guter Workshop **endet mit gemeinsam verstandenen nächsten Schritten und benannten Verantwortlichen**—nicht nur mit warmer Stimmung, die sich auflöst.
 
 ## Weiterführend

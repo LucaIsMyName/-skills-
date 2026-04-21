@@ -1,8 +1,11 @@
 # Storytelling: Handwerk, Sprache, Wirkung
 
-**Geltungsbereich:** Gilt für **Anschaulichkeit, Dramaturgie, organisationale Rolle, Ton und Vereinfachung** in erzählenden Texten. Keine juristische Prüfung von Behauptungen. Kombiniere mit [`storytelling-struktur-und-elemente.md`](storytelling-struktur-und-elemente.md) und [`storytelling.md`](storytelling.md).
+## Geltungsbereich:
+
+Gilt für **Anschaulichkeit, Dramaturgie, organisationale Rolle, Ton und Vereinfachung** in erzählenden Texten. Keine juristische Prüfung von Behauptungen. Kombiniere mit [`storytelling-struktur-und-elemente.md`](storytelling-struktur-und-elemente.md) und [`storytelling.md`](storytelling.md).
 
 ## Exzerpt
+
 - **Leiter der Erzählung** vom Abstrakten zum Konkreten.
 - **Dramaturgie** ohne manipulative Abkürzungen.
 - **Enabler-Rahmen** für Organisationen; **Sprache**: konkret vor abstrakt.
@@ -32,7 +35,7 @@ Die Geschichte **einprägsam und fair** machen—spezifisch ohne Ausnutzung.
 - oben: abstrakt („Armut“)
 - unten: konkret („leerer Kühlschrank“)
 
- Ziel: **so konkret wie möglich erzählen**
+Ziel: **so konkret wie möglich erzählen**
 
 ---
 
@@ -216,7 +219,7 @@ Struktur:
 
 ## Kerngedanke
 
- Eine Geschichte entsteht durch:
+Eine Geschichte entsteht durch:
 
 - **eine Figur**
 - **ein Problem**

@@ -1,8 +1,11 @@
 # Monitoring und Evaluation
 
-**Geltungsbereich:** **M&E** für Programme—Indikatoren, Baselines, Datenqualität, Lernschleifen. Ergänzt [`wirkung-und-jahresberichte.md`](wirkung-und-jahresberichte.md), [`statistik-einfach-lesen.md`](statistik-einfach-lesen.md) und [`theorie-des-wandels.md`](theorie-des-wandels.md).
+## Geltungsbereich:
+
+**M&E** für Programme—Indikatoren, Baselines, Datenqualität, Lernschleifen. Ergänzt [`wirkung-und-jahresberichte.md`](wirkung-und-jahresberichte.md), [`statistik-einfach-lesen.md`](statistik-einfach-lesen.md) und [`theorie-des-wandels.md`](theorie-des-wandels.md).
 
 ## Exzerpt
+
 - **Wirkungskette** verbindet Aktivitäten → Outputs → Outcomes—**Indikatoren** müssen dazu passen.
 - **Baseline** vor Intervention—sonst kein belastbarer **Wandel**.
 - **Quant** und **qual** **zielgerichtet** mischen.
@@ -43,6 +46,7 @@ Schulung der Erhebenden; Stichproben-Audit; Instrumente dokumentieren.
 ---
 
 ## Kerngedanke
+
 M&E ist **ehrliches Feedback**: **klare** Behauptungen, **glaubwürdige** Belege, **Konsequenzen**.
 
 ## Weiterführend

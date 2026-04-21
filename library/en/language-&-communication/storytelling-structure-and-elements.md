@@ -1,8 +1,11 @@
 # Storytelling: structure and elements
 
-**Scope:** Applies to **inputs before drafting, core narrative principle, the five elements, narrator role, and moving from topics to a story spine**—for nonprofit and campaign contexts. Not media pitching. Pair with [`storytelling-craft-language-and-impact.md`](storytelling-craft-language-and-impact.md) and [`storytelling.md`](storytelling.md).
+## Scope:
+
+Applies to **inputs before drafting, core narrative principle, the five elements, narrator role, and moving from topics to a story spine**—for nonprofit and campaign contexts. Not media pitching. Pair with [`storytelling-craft-language-and-impact.md`](storytelling-craft-language-and-impact.md) and [`storytelling.md`](storytelling.md).
 
 ## Excerpt
+
 - **Prepare** with concrete/meta questions—do not invent scenes or quotes.
 - **Core principle**: stories show **change**; name cause, effect, and development.
 - **Five elements** and **narrator** choices shape what readers take away.
@@ -52,7 +55,7 @@ The goal is to tell stories that:
 - make **connections** understandable
 - make **change** tangible
 
- People follow **feelings, not facts**
+People follow **feelings, not facts**
 
 ---
 

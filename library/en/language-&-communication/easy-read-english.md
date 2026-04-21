@@ -1,8 +1,11 @@
 # Easy Read English (plain, accessible English)
 
-**Scope:** Applies to rewriting text into **plain, accessible English**; not certified Easy Read formats with symbols, layout, and user testing unless the user explicitly asks.
+## Scope:
+
+Applies to rewriting text into **plain, accessible English**; not certified Easy Read formats with symbols, layout, and user testing unless the user explicitly asks.
 
 ## Excerpt
+
 - Use to **simplify** vocabulary and sentences for literacy, EAL readers, or general clarity.
 - **Do not** change legal meaning, numbers, or required terms without explicit instruction—**ask** if unsure.
 - Prefer short sentences, one idea per sentence, consistent terms, active voice where clear.
@@ -14,7 +17,7 @@ This document explains how to **rewrite or translate any source text** into **cl
 
 The label **“Easy Read English”** is used here for **text-level simplification** (vocabulary, sentences, structure). It aligns with **international plain-language principles** (e.g. **ISO 24495-1**, which applies across languages) and literacy-friendly English. The site [Easy Read English](https://www.easyreadenglish.com/) focuses on **reading instruction** (e.g. syllables, stories); This document is about **producing easy-to-read text**, not replacing a full reading curriculum.
 
- If the user wants a **specific “Easy Read” accessibility format** (very short lines, images, testing with readers), treat that as an **extra layout and process requirement**—ask before assuming.
+If the user wants a **specific “Easy Read” accessibility format** (very short lines, images, testing with readers), treat that as an **extra layout and process requirement**—ask before assuming.
 
 ## completeness before drafting
 
@@ -39,11 +42,11 @@ Before rewriting, gather **concrete and meta information**. If something materia
 
 ## Distinction: plain English vs. other “easy” formats
 
-| | **This document (plain / easy-read English text)** | **Some “Easy Read” formats (accessibility)** |
-|---|-----------------------------------------------|---------------------------------------------|
-| **Focus** | wording, sentences, structure | often **layout**, **images**, **user testing** |
-| **Language** | short sentences, common words, clear order | may add **symbol** support, very short lines |
-| **Default** | rewrite in accessible English | only if the user asks |
+|              | **This document (plain / easy-read English text)** | **Some “Easy Read” formats (accessibility)**   |
+| ------------ | -------------------------------------------------- | ---------------------------------------------- |
+| **Focus**    | wording, sentences, structure                      | often **layout**, **images**, **user testing** |
+| **Language** | short sentences, common words, clear order         | may add **symbol** support, very short lines   |
+| **Default**  | rewrite in accessible English                      | only if the user asks                          |
 
 ---
 
@@ -121,7 +124,8 @@ Before rewriting, gather **concrete and meta information**. If something materia
 ---
 
 ## Core idea
- **Accessible English** helps more people use information fairly—in health, government, education, and daily life. This document is **reader-centered work**, not “dumbing down.”
+
+**Accessible English** helps more people use information fairly—in health, government, education, and daily life. This document is **reader-centered work**, not “dumbing down.”
 
 ## Further reading
 

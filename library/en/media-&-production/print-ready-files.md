@@ -1,8 +1,11 @@
 # Print-ready files
 
-**Scope:** **Exporting** assets for print—CMYK/PMS basics, bleed, resolution, PDF settings—at NGO scale. Not prepress career training. Pair with [`brand-toolkit-and-asset-library.md`](brand-toolkit-and-asset-library.md), [`file-naming-and-organising.md`](file-naming-and-organising.md), and [`slides-and-presentations.md`](../design/slides-and-presentations.md).
+## Scope:
+
+**Exporting** assets for print—CMYK/PMS basics, bleed, resolution, PDF settings—at NGO scale. Not prepress career training. Pair with [`brand-toolkit-and-asset-library.md`](brand-toolkit-and-asset-library.md), [`file-naming-and-organising.md`](file-naming-and-organising.md), and [`slides-and-presentations.md`](../design/slides-and-presentations.md).
 
 ## Excerpt
+
 - **Bleed** (often 3 mm) and **safe zone**—no critical text on the edge.
 - **Resolution**: ~300 dpi at **final print size** for raster images.
 - **Fonts**: **outline** or **embed** per printer spec—**license** allows print.

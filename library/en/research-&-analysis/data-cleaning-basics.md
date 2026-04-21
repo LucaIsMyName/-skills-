@@ -1,8 +1,11 @@
 # Data cleaning basics
 
-**Scope:** **Practical** cleaning before analysis—types, missing data, duplicates, simple validation. Not a full data-engineering course. Pair with [`reading-statistics-plainly.md`](reading-statistics-plainly.md), [`survey-design.md`](survey-design.md), and [`notes-and-synthesis.md`](notes-and-synthesis.md).
+## Scope:
+
+**Practical** cleaning before analysis—types, missing data, duplicates, simple validation. Not a full data-engineering course. Pair with [`reading-statistics-plainly.md`](reading-statistics-plainly.md), [`survey-design.md`](survey-design.md), and [`notes-and-synthesis.md`](notes-and-synthesis.md).
 
 ## Excerpt
+
 - **Profile** data first: ranges, distinct counts, missingness.
 - **Standardise** formats (dates, currencies, booleans).
 - **De-duplicate** with a clear rule (keep latest, keep complete).

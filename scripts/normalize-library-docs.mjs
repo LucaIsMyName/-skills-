@@ -245,7 +245,8 @@ function cleanupFrontSection(content, locale) {
     next = next.replace(/^## Further reading\s*$/m, "## Weiterführend");
     next = next.replace(/^## Kernidee\s*$/m, "## Kerngedanke");
   } else {
-    next = next.replace(/^\*\*Geltungsbereich:\*\*/m, "**Scope:**");
+    next = next.replace(/^\*\*Geltungsbereich:\*\*/m, "## Scope:
+");
     next = next.replace(/^## Exzerpt\s*$/m, "## Excerpt");
     next = next.replace(/^## Zweck\s*$/m, "## Purpose");
     next = next.replace(/^## Kerngedanke\s*$/m, "## Core idea");

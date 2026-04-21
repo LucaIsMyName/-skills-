@@ -1,8 +1,11 @@
 # Coding tests, consistency, and habits
 
-**Scope:** Applies to **testing focus, performance discipline, consistency, comments, and project layout** as code grows. Not CI/CD setup, not QA process. Pair with [`coding-style-and-structure.md`](coding-style-and-structure.md), [`coding-errors-validation-and-state.md`](coding-errors-validation-and-state.md), and [`coding-best-practices.md`](coding-best-practices.md).
+## Scope:
+
+Applies to **testing focus, performance discipline, consistency, comments, and project layout** as code grows. Not CI/CD setup, not QA process. Pair with [`coding-style-and-structure.md`](coding-style-and-structure.md), [`coding-errors-validation-and-state.md`](coding-errors-validation-and-state.md), and [`coding-best-practices.md`](coding-best-practices.md).
 
 ## Excerpt
+
 - **Test business rules and edge cases**—not getters and setters.
 - **Profile before optimising**; keep style consistent across files.
 - **Comments explain why**; structure by feature when the codebase grows.
@@ -38,7 +41,7 @@ Test important logic, not trivial code.
 - edge cases
 - failure paths
 
- Tests give confidence to refactor.
+Tests give confidence to refactor.
 
 ---
 
@@ -56,7 +59,7 @@ Premature optimization everywhere
 
 Profile first, then optimize bottlenecks
 
- Most code doesn’t need optimization.
+Most code doesn’t need optimization.
 
 ---
 
@@ -66,7 +69,7 @@ Profile first, then optimize bottlenecks
 
 Follow consistent patterns across the codebase.
 
- Even if something isn’t perfect, consistency:
+Even if something isn’t perfect, consistency:
 
 - improves readability
 - reduces cognitive load
@@ -92,7 +95,7 @@ i++;
 // workaround for API returning duplicate entries
 ```
 
- Code should explain itself; comments explain intent.
+Code should explain itself; comments explain intent.
 
 ---
 
@@ -110,33 +113,33 @@ src/
   utils/
 ```
 
- Group related logic together.
+Group related logic together.
 
 ---
 
 ## 18. Common Footguns Summary
 
-###  Over-engineering
+### Over-engineering
 
 → Keep it simple
 
-###  Bad naming
+### Bad naming
 
 → Be explicit
 
-###  Large functions
+### Large functions
 
 → Split them
 
-###  Hidden side effects
+### Hidden side effects
 
 → Use pure functions
 
-###  Ignoring errors
+### Ignoring errors
 
 → Handle them properly
 
-###  Premature abstraction
+### Premature abstraction
 
 → Wait until needed
 
@@ -173,7 +176,7 @@ Bad code feels:
 - confusing
 - fragile
 
- If your code is hard to understand, it’s already a bug waiting to happen.
+If your code is hard to understand, it’s already a bug waiting to happen.
 
 ---
 

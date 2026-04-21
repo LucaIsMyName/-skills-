@@ -1,8 +1,11 @@
 # Accessibility for communications
 
-**Scope:** Applies to **communications teams only** (PR, marketing, social media, internal comms, campaigns): **how you write, brief, speak, and plan messages** so more people can understand and use them. **Not** for developers, CMS markup, or product UI code—use design skills (e.g. [`design-basics.md`](../design/design-basics.md)) for implementation details.
+## Scope:
+
+Applies to **communications teams only** (PR, marketing, social media, internal comms, campaigns): **how you write, brief, speak, and plan messages** so more people can understand and use them. **Not** for developers, CMS markup, or product UI code—use design skills (e.g. [`design-basics.md`](../design/design-basics.md)) for implementation details.
 
 ## Excerpt
+
 - Use when **wording content** for newsletters, press, social, events, podcasts, or **briefing** designers/web colleagues.
 - Focus: **plain language**, **respectful wording**, **image descriptions** (what to say in words), **link phrasing**, **video captions** as a comms deliverable (script, briefing), **accessible speaking** (clear pace, describing visuals aloud when presenting).
 - **Do not** invent legal accessibility compliance; flag when **legal or web team** sign-off is needed.
@@ -122,7 +125,8 @@ Read our 2025 impact report (PDF).
 ---
 
 ## Core idea
- In comms, accessibility starts with **respectful, clear language** and **good briefs**. Technical implementation belongs with **web and design colleagues**—This document keeps your lane **writing and speaking**.
+
+In comms, accessibility starts with **respectful, clear language** and **good briefs**. Technical implementation belongs with **web and design colleagues**—This document keeps your lane **writing and speaking**.
 
 ## Further reading
 

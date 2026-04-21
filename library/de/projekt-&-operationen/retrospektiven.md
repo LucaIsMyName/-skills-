@@ -1,8 +1,11 @@
 # Retrospektiven
 
-**Geltungsbereich:** **Lernen** nach Meilenstein—gut/lernen/Experimente. Kein Schuldzuweisungs-Ritual. Ergänzt [`meetings-und-agenden.md`](meetings-und-agenden.md), [`entscheidungslog-und-adrs.md`](entscheidungslog-und-adrs.md) und [`priorisierung-grundlagen.md`](priorisierung-grundlagen.md).
+## Geltungsbereich:
+
+**Lernen** nach Meilenstein—gut/lernen/Experimente. Kein Schuldzuweisungs-Ritual. Ergänzt [`meetings-und-agenden.md`](meetings-und-agenden.md), [`entscheidungslog-und-adrs.md`](entscheidungslog-und-adrs.md) und [`priorisierung-grundlagen.md`](priorisierung-grundlagen.md).
 
 ## Exzerpt
+
 - **Psychologische Sicherheit**—Systeme verbessern, nicht Personen demütigen (im Rahmen von Schutz).
 - **Daten** aus der Arbeit einbeziehen.
 - **Wenige** Maßnahmen mit Ownern.
@@ -148,6 +151,7 @@ Erste 10 Min.: Stand der 3 Maßnahmen von März—2 erledigt, 1 blockiert—anpa
 ---
 
 ## Kerngedanke
+
 Retros **zahlen Miete** mit **verändertem Verhalten**.
 
 ## Weiterführend

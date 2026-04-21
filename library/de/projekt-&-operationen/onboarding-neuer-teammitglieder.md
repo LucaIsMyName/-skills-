@@ -1,8 +1,11 @@
 # Onboarding neuer Teammitglieder
 
-**Geltungsbereich:** **Erste Wochen** für neue Team- oder Kern-Freiwillige—Zugang, Kontext, Buddies, Erwartungen. Ergänzt [`freiwilligen-koordination.md`](freiwilligen-koordination.md), [`meetings-und-agenden.md`](meetings-und-agenden.md) und [`stories-schreiben.md`](../sprache-&-kommunikation/stories-schreiben.md).
+## Geltungsbereich:
+
+**Erste Wochen** für neue Team- oder Kern-Freiwillige—Zugang, Kontext, Buddies, Erwartungen. Ergänzt [`freiwilligen-koordination.md`](freiwilligen-koordination.md), [`meetings-und-agenden.md`](meetings-und-agenden.md) und [`stories-schreiben.md`](../sprache-&-kommunikation/stories-schreiben.md).
 
 ## Exzerpt
+
 - **Tag-1-Checkliste**: Konten, Tools, **Code of Conduct**, Schutz-Hinweise.
 - **30-60-90** Erwartungen—**Lernziele**.
 - **Buddy** für „kleine“ Fragen.
@@ -148,6 +151,7 @@ Sechs Neue in Folge derselbe kaputte Wiki-Link.
 ---
 
 ## Kerngedanke
+
 Onboarding ist **verdichtetes Vertrauen**: **Klarheit**, **Sicherheit**, **frühe** Erfolge.
 
 ## Weiterführend

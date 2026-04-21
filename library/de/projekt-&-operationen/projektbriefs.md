@@ -1,8 +1,11 @@
 # Projektbriefs
 
-**Geltungsbereich:** **Ein-Pager** zur Ausrichtung—Ziele, Scope, Constraints, Owner. Kein Business-Case. Ergänzt [`kreativbriefs.md`](kreativbriefs.md), [`priorisierung-grundlagen.md`](priorisierung-grundlagen.md) und [`statusberichte-und-reporting.md`](statusberichte-und-reporting.md).
+## Geltungsbereich:
+
+**Ein-Pager** zur Ausrichtung—Ziele, Scope, Constraints, Owner. Kein Business-Case. Ergänzt [`kreativbriefs.md`](kreativbriefs.md), [`priorisierung-grundlagen.md`](priorisierung-grundlagen.md) und [`statusberichte-und-reporting.md`](statusberichte-und-reporting.md).
 
 ## Exzerpt
+
 - **Problem** und **Erfolg** klar—**messbar** wo möglich.
 - **In/Out of Scope**—gegen Scope-Creep.
 - **DRI**, Sponsor, Stakeholder.
@@ -152,6 +155,7 @@ Ressourcen: 0,5 FTE Dev 12 Wochen; £2k Usability-Tests.
 ---
 
 ## Kerngedanke
+
 Ein Brief ist **Klarheitsvertrag**: **Absicht**, **Grenzen**, **Wer entscheidet**.
 
 ## Weiterführend

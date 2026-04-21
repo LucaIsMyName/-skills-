@@ -1,8 +1,11 @@
 # Safeguarding in comms
 
-**Scope:** Applies to **communications decisions involving children, young people, and adults at risk** (clients, residents, patients, survivors, people in crisis). Not a replacement for your organisation's full safeguarding policy. Pair with [`data-protection-for-comms.md`](data-protection-for-comms.md), [`image-and-quote-releases.md`](image-and-quote-releases.md), and [`respectful-language.md`](../language-&-communication/respectful-language.md).
+## Scope:
+
+Applies to **communications decisions involving children, young people, and adults at risk** (clients, residents, patients, survivors, people in crisis). Not a replacement for your organisation's full safeguarding policy. Pair with [`data-protection-for-comms.md`](data-protection-for-comms.md), [`image-and-quote-releases.md`](image-and-quote-releases.md), and [`respectful-language.md`](../language-&-communication/respectful-language.md).
 
 ## Excerpt
+
 - **Safeguarding comes before the story.** No image, quote, or case study is worth harm to the person in it.
 - Children and vulnerable adults need **guardian consent + age-appropriate assent** plus an extra pair of editorial eyes.
 - **Identifiability is cumulative**—first name + diagnosis + neighbourhood is identifying even without a face.

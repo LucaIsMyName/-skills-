@@ -1,8 +1,11 @@
 # Bild- und Zitatfreigaben
 
-**Geltungsbereich:** Gilt für **Einwilligungen** zu Foto, Video, Audio und Zitaten erkennbarer Personen in der Kommunikation. Ergänzt [`fotografie-fuer-ngos.md`](../medien-&-produktion/fotografie-fuer-ngos.md), [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`kinder-und-betroffenenschutz.md`](kinder-und-betroffenenschutz.md); redaktionell siehe [`stories-schreiben.md`](../sprache-&-kommunikation/stories-schreiben.md).
+## Geltungsbereich:
+
+Gilt für **Einwilligungen** zu Foto, Video, Audio und Zitaten erkennbarer Personen in der Kommunikation. Ergänzt [`fotografie-fuer-ngos.md`](../medien-&-produktion/fotografie-fuer-ngos.md), [`datenschutz-in-der-kommunikation.md`](datenschutz-in-der-kommunikation.md), [`kinder-und-betroffenenschutz.md`](kinder-und-betroffenenschutz.md); redaktionell siehe [`stories-schreiben.md`](../sprache-&-kommunikation/stories-schreiben.md).
 
 ## Exzerpt
+
 - **Keine erkennbare Person, kein Zitat, keine Veröffentlichung ohne dokumentierte Einwilligung.** Mündlich am Set reicht nicht.
 - Eine Freigabe ist **bestimmt** (was), **eingegrenzt** (wo, wie lange, welche Kanäle), **informiert** (Sprache, Lesbarkeit), **widerrufbar**.
 - **Minderjährige und schutzbedürftige Erwachsene**: Erziehungsberechtigte **und** Zustimmung der Person; Unsicherheit = Nein.

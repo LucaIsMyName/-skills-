@@ -1,8 +1,11 @@
 # Language models in code
 
-**Scope:** Applies to **engineering integrations with hosted language models**—SDK use, prompt versioning, streaming, retries, cost, caching, testing, observability. Not model training, not agent orchestration platforms. Pair with [`structured-output-and-tool-use.md`](../ai-&-prompting/structured-output-and-tool-use.md), [`evaluating-model-output.md`](../ai-&-prompting/evaluating-model-output.md), [`error-handling-and-logging.md`](error-handling-and-logging.md), and [`security-for-web-apps.md`](security-for-web-apps.md).
+## Scope:
+
+Applies to **engineering integrations with hosted language models**—SDK use, prompt versioning, streaming, retries, cost, caching, testing, observability. Not model training, not agent orchestration platforms. Pair with [`structured-output-and-tool-use.md`](../ai-&-prompting/structured-output-and-tool-use.md), [`evaluating-model-output.md`](../ai-&-prompting/evaluating-model-output.md), [`error-handling-and-logging.md`](error-handling-and-logging.md), and [`security-for-web-apps.md`](security-for-web-apps.md).
 
 ## Excerpt
+
 - **Prompts are code**—versioned in the repo, reviewed in PRs, tested in CI.
 - **Treat the model as a flaky API**: retries, timeouts, fallbacks, cost ceilings.
 - **Never trust output**: validate schemas, sanitise for the sink, keep a human in the loop where it matters.
@@ -89,15 +92,15 @@ Always send:
 
 ```ts
 const resp = await client.chat.completions.create({
-  model: 'gpt-4o-mini',
+  model: "gpt-4o-mini",
   temperature: 0,
   max_tokens: 600,
-  response_format: { type: 'json_schema', json_schema: SummarySchema },
+  response_format: { type: "json_schema", json_schema: SummarySchema },
   messages: [
-    { role: 'system', content: systemPrompt },
-    { role: 'user', content: userPayload },
+    { role: "system", content: systemPrompt },
+    { role: "user", content: userPayload },
   ],
-})
+});
 ```
 
 ## 4. Reliability wrappers

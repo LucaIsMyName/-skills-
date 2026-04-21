@@ -1,8 +1,11 @@
 # Design-Tokens und Theming
 
-**Geltungsbereich:** **Benennung und Skalierung von Design-Tokens** (Farbe, Abstand, Radius, Typografie) sowie **Hell-/Dunkel-Themes** in digitalen Produkten; kein vollständiges Design-System-Governance und keine Code-Implementierungsdetails (siehe Coding-Skills).
+## Geltungsbereich:
+
+**Benennung und Skalierung von Design-Tokens** (Farbe, Abstand, Radius, Typografie) sowie **Hell-/Dunkel-Themes** in digitalen Produkten; kein vollständiges Design-System-Governance und keine Code-Implementierungsdetails (siehe Coding-Skills).
 
 ## Exzerpt
+
 - Nutzen für **semantische Tokens** (`color.action.primary`) statt nur Rohwerte (`#3366cc`).
 - **Eine Quelle der Wahrheit** für Abstands- und Radius-Skalen; Dark-Mode-Zuordnung neben Light dokumentieren.
 - **Nachfragen** nach vorhandenem Token-Set oder Export aus dem Design-Tool, bevor Namen erfunden werden.
@@ -95,7 +98,7 @@ Eine Übersicht: **Tokenname → Wert → Verwendung** verhindert Drift zwischen
 
 ## Abschließender Gedanke
 
- Tokens sind **Verträge**. Beschreibt der Name keine **Rolle**, leidet jedes Theme-Update.
+Tokens sind **Verträge**. Beschreibt der Name keine **Rolle**, leidet jedes Theme-Update.
 
 ## Weiterführende Links
 

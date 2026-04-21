@@ -1,8 +1,11 @@
 # Survey design
 
-**Scope:** **Designing** questionnaires for **surveys** (online or field)—sampling basics, question wording, bias. Not advanced biostatistics. Pair with [`reading-statistics-plainly.md`](reading-statistics-plainly.md), [`notes-and-synthesis.md`](notes-and-synthesis.md), and [`source-evaluation-and-fact-checking.md`](source-evaluation-and-fact-checking.md).
+## Scope:
+
+**Designing** questionnaires for **surveys** (online or field)—sampling basics, question wording, bias. Not advanced biostatistics. Pair with [`reading-statistics-plainly.md`](reading-statistics-plainly.md), [`notes-and-synthesis.md`](notes-and-synthesis.md), and [`source-evaluation-and-fact-checking.md`](source-evaluation-and-fact-checking.md).
 
 ## Excerpt
+
 - Start from the **decision** the survey should inform—**questions follow**.
 - **Neutral** wording—avoid leading and double-barrelled questions.
 - **Response scales** consistent; **label** endpoints.

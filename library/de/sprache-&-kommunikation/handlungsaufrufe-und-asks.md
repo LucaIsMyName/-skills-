@@ -1,8 +1,11 @@
 # Handlungsaufrufe und Asks
 
-**Geltungsbereich:** **CTAs**, die **konkrete** nächste Schritte einladen—spenden, unterschreiben, mitmachen—ohne Zwang. Keine Zahlungsabwicklung. Ergänzt [`spendenaufrufe.md`](spendenaufrufe.md), [`headlines-schreiben.md`](headlines-schreiben.md), [`respektvolle-sprache.md`](respektvolle-sprache.md) und [`content-design-und-microcopy.md`](../design/content-design-und-microcopy.md).
+## Geltungsbereich:
+
+**CTAs**, die **konkrete** nächste Schritte einladen—spenden, unterschreiben, mitmachen—ohne Zwang. Keine Zahlungsabwicklung. Ergänzt [`spendenaufrufe.md`](spendenaufrufe.md), [`headlines-schreiben.md`](headlines-schreiben.md), [`respektvolle-sprache.md`](respektvolle-sprache.md) und [`content-design-und-microcopy.md`](../design/content-design-und-microcopy.md).
 
 ## Exzerpt
+
 - **Ein** primärer CTA pro Screen/E-Mail, wenn möglich.
 - **Verben** auf Buttons; **Ergebnis** sichtbar („Leitfaden herunterladen“, nicht „Hier klicken“).
 - **Intensität** an **Beziehung** anpassen.
@@ -45,6 +48,7 @@ CTA **ohne Scroll** sichtbar auf wichtigen Breakpoints; bei langen Seiten **sinn
 ---
 
 ## Kerngedanke
+
 Ein CTA ist eine **klare Einladung**, keine **Falle**—**spezifisch**, **ehrlich**, **einfach**.
 
 ## Weiterführend

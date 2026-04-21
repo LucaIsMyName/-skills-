@@ -1,8 +1,11 @@
 # Gastbeiträge und Meinungsartikel
 
-**Geltungsbereich:** **Meinungstexte** mit **klarer Urheberschaft**—Aufbau, Offenlegung, Stimme. Kein neutraler Journalismus. Ergänzt [`stories-schreiben.md`](stories-schreiben.md), [`respektvolle-sprache.md`](respektvolle-sprache.md), [`quellenbewertung-und-faktencheck.md`](../recherche-&-analyse/quellenbewertung-und-faktencheck.md) und [`interessenkonflikte-und-offenlegung.md`](../ethik-&-recht/interessenkonflikte-und-offenlegung.md).
+## Geltungsbereich:
+
+**Meinungstexte** mit **klarer Urheberschaft**—Aufbau, Offenlegung, Stimme. Kein neutraler Journalismus. Ergänzt [`stories-schreiben.md`](stories-schreiben.md), [`respektvolle-sprache.md`](respektvolle-sprache.md), [`quellenbewertung-und-faktencheck.md`](../recherche-&-analyse/quellenbewertung-und-faktencheck.md) und [`interessenkonflikte-und-offenlegung.md`](../ethik-&-recht/interessenkonflikte-und-offenlegung.md).
 
 ## Exzerpt
+
 - **These** früh—dann **Argument** mit Belegen, nicht mit Vibes.
 - **Interessen** und **Affiliationen** offenlegen.
 - **Fakten**, **Analyse**, **Meinung** trennen; Unsicherheit **kennzeichnen**.
@@ -38,11 +41,12 @@ Finanzierung und Rollen, die die Lesart beeinflussen können.
 
 ## 3. Was nicht tun
 
-- Gegner*innen **verzerren** oder **falsch** zitieren.
+- Gegner\*innen **verzerren** oder **falsch** zitieren.
 
 ---
 
 ## Kerngedanke
+
 Starker Kommentar = **klare These + ehrliche Belege + transparente Interessen**.
 
 ## Weiterführend

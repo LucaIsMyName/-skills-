@@ -1,8 +1,11 @@
 # React: state, hooks, and effects
 
-**Scope:** Applies to **React state, built-in hooks, memoisation, props drilling vs context, and hook extraction** in components. Not routing, not server components unless noted. Pair with [`react-components-async-and-structure.md`](react-components-async-and-structure.md) and [`react-best-practices.md`](react-best-practices.md).
+## Scope:
+
+Applies to **React state, built-in hooks, memoisation, props drilling vs context, and hook extraction** in components. Not routing, not server components unless noted. Pair with [`react-components-async-and-structure.md`](react-components-async-and-structure.md) and [`react-best-practices.md`](react-best-practices.md).
 
 ## Excerpt
+
 - Keep **state minimal**; avoid accidental `useEffect` abuse.
 - **Derive** state; do not sync it in effects when a calculation suffices.
 - **Context** for cross-cutting concerns, not every piece of shared data.
@@ -29,10 +32,10 @@ Make **state and effects** boring, testable, and easy to review.
 
 React is about:
 
-* **Declarative UI** → describe *what* the UI should look like
-* **State-driven rendering** → UI updates automatically when state changes
+- **Declarative UI** → describe _what_ the UI should look like
+- **State-driven rendering** → UI updates automatically when state changes
 
- You should NOT “control” the UI manually — React does that for you.
+You should NOT “control” the UI manually — React does that for you.
 
 ---
 
@@ -54,7 +57,7 @@ const [fullName, setFullName] = useState("");
 const fullName = `${firstName} ${lastName}`;
 ```
 
- Derived state should NOT be stored.
+Derived state should NOT be stored.
 
 ---
 
@@ -64,30 +67,30 @@ const fullName = `${firstName} ${lastName}`;
 
 If you’re not syncing with an external system → **you probably don’t need `useEffect`**
 
-###  Common Misuse
+### Common Misuse
 
 ```ts
 useEffect(() => {
-  setFiltered(items.filter(i => i.active));
+  setFiltered(items.filter((i) => i.active));
 }, [items]);
 ```
 
-###  Better
+### Better
 
 ```ts
-const filtered = items.filter(i => i.active);
+const filtered = items.filter((i) => i.active);
 ```
 
 ### When to Use `useEffect`
 
 Only for:
 
-* API calls (if not using a data library)
-* Subscriptions (WebSocket, events)
-* DOM APIs (focus, measurements)
-* Timers
+- API calls (if not using a data library)
+- Subscriptions (WebSocket, events)
+- DOM APIs (focus, measurements)
+- Timers
 
- Think: “Am I syncing with something outside React?”
+Think: “Am I syncing with something outside React?”
 
 If not → don’t use it.
 
@@ -97,7 +100,7 @@ For a full walkthrough with examples, see the official React guide [You Might No
 
 ## 3. Avoid Derived State in Effects
 
-###  Bad Pattern
+### Bad Pattern
 
 ```ts
 useEffect(() => {
@@ -111,7 +114,7 @@ useEffect(() => {
 const value = useMemo(() => expensiveCalculation(data), [data]);
 ```
 
- Effects are NOT for calculations.
+Effects are NOT for calculations.
 
 ---
 
@@ -135,10 +138,10 @@ const value = compute();
 
 ### When to Use
 
-* Expensive computations
-* Prevent unnecessary re-renders in memoized components
+- Expensive computations
+- Prevent unnecessary re-renders in memoized components
 
- Premature optimization = complexity.
+Premature optimization = complexity.
 
 ---
 
@@ -146,9 +149,9 @@ const value = compute();
 
 ### Rules
 
-* Pass only what is needed
-* Avoid deeply nested objects
-* Prefer primitives when possible
+- Pass only what is needed
+- Avoid deeply nested objects
+- Prefer primitives when possible
 
 ### Bad: props: keep them simple
 
@@ -162,7 +165,7 @@ const value = compute();
 <Component theme={theme} layout={layout} />
 ```
 
- Simpler props = easier debugging.
+Simpler props = easier debugging.
 
 ---
 
@@ -174,11 +177,11 @@ A component should do **one thing well**.
 
 ### Signs it's too big:
 
-* 200+ lines
-* Multiple responsibilities
-* Hard to name
+- 200+ lines
+- Multiple responsibilities
+- Hard to name
 
- Split into smaller components or hooks.
+Split into smaller components or hooks.
 
 ---
 
@@ -186,8 +189,8 @@ A component should do **one thing well**.
 
 ### When to Create One
 
-* Logic reused in multiple places
-* Component becomes too complex
+- Logic reused in multiple places
+- Component becomes too complex
 
 ### Example
 
@@ -199,7 +202,7 @@ function useUser() {
 }
 ```
 
- Hooks = reusable logic, not UI.
+Hooks = reusable logic, not UI.
 
 ---
 
@@ -209,21 +212,20 @@ function useUser() {
 
 Passing props through many layers
 
-###  Overcorrection
+### Overcorrection
 
 Using Context everywhere
 
-###  Balanced Approach
+### Balanced Approach
 
-* Local state first
-* Lift state up if needed
-* Use Context for **global concerns only**:
+- Local state first
+- Lift state up if needed
+- Use Context for **global concerns only**:
+  - theme
+  - auth
+  - settings
 
-  * theme
-  * auth
-  * settings
-
- Context is not a global state replacement.
+Context is not a global state replacement.
 
 ---
 

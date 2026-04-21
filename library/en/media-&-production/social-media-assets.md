@@ -1,8 +1,11 @@
 # Social media assets
 
-**Scope:** **Sizing** and **exporting** for major platforms—safe zones, video specs, accessibility. Not growth hacking. Pair with [`headline-writing.md`](../language-&-communication/headline-writing.md), [`file-naming-and-organising.md`](file-naming-and-organising.md), and [`motion-and-micro-interactions.md`](../design/motion-and-micro-interactions.md).
+## Scope:
+
+**Sizing** and **exporting** for major platforms—safe zones, video specs, accessibility. Not growth hacking. Pair with [`headline-writing.md`](../language-&-communication/headline-writing.md), [`file-naming-and-organising.md`](file-naming-and-organising.md), and [`motion-and-micro-interactions.md`](../design/motion-and-micro-interactions.md).
 
 ## Excerpt
+
 - **Specs change**—**verify** current platform docs before a major launch.
 - **Safe zones** for UI overlays—keep **faces** and **logos** clear.
 - **Alt text** on images; **captions** on video.

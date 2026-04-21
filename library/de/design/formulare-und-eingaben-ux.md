@@ -1,8 +1,11 @@
 # Formulare und Eingaben (UX)
 
-**Geltungsbereich:** **Layout, Labels, Validierung und Zustände** von Formularen in digitalen Produkten; keine Backend-Logik und kein juristischer Einwilligungstext (Comms/Recht).
+## Geltungsbereich:
+
+**Layout, Labels, Validierung und Zustände** von Formularen in digitalen Produkten; keine Backend-Logik und kein juristischer Einwilligungstext (Comms/Recht).
 
 ## Exzerpt
+
 - Nutzen bei **Dateneingabe**: Einzelfelder, mehrstufige Flows, Assistenten.
 - Wenn möglich **eine primäre Aktion** pro Bildschirm; **klare Fehler** und Wiederherstellung.
 - **Nachfragen** nach Feldern, Pflichtregeln und Quelle der Fehlertexte (Produkt vs. Legal).
@@ -93,7 +96,7 @@ Wenn Absenden bis zur Vollständigkeit deaktiviert ist: **anzeigen, was fehlt**,
 
 ## Abschließender Gedanke
 
- Formulare sind **Vertrauensmoment**. Verwirrung dort kostet Vertrauen.
+Formulare sind **Vertrauensmoment**. Verwirrung dort kostet Vertrauen.
 
 ## Weiterführende Links
 

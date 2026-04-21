@@ -1,8 +1,11 @@
 # Content design and microcopy
 
-**Scope:** Applies to **words in the interface**—labels, buttons, form help, empty states, error messages, confirmations, notifications. Not long-form copywriting, not brand strategy. Pair with [`tone-of-voice-and-brand-voice.md`](../language-&-communication/tone-of-voice-and-brand-voice.md), [`empty-and-error-states.md`](empty-and-error-states.md), [`calls-to-action-and-asks.md`](../language-&-communication/calls-to-action-and-asks.md), and [`respectful-language.md`](../language-&-communication/respectful-language.md).
+## Scope:
+
+Applies to **words in the interface**—labels, buttons, form help, empty states, error messages, confirmations, notifications. Not long-form copywriting, not brand strategy. Pair with [`tone-of-voice-and-brand-voice.md`](../language-&-communication/tone-of-voice-and-brand-voice.md), [`empty-and-error-states.md`](empty-and-error-states.md), [`calls-to-action-and-asks.md`](../language-&-communication/calls-to-action-and-asks.md), and [`respectful-language.md`](../language-&-communication/respectful-language.md).
 
 ## Excerpt
+
 - **Copy is UI.** The words users read are as much interface as the buttons they click.
 - **Plain language, verbs on buttons, consistency in terms.**
 - **Specific beats generic**: "Save changes" beats "OK".
@@ -60,7 +63,7 @@ Rules:
 
 - Labels **above** the field for most forms; avoid placeholder-only labels (they disappear).
 - **Short**; two or three words.
-- **Required** marker consistent across the product (* or "required"; pick one).
+- **Required** marker consistent across the product (\* or "required"; pick one).
 
 ## 3. Buttons and CTAs
 

@@ -1,8 +1,11 @@
 # Priorisierung — Grundlagen
 
-**Geltungsbereich:** **Auswahl**, was als Nächstes kommt—Impact/Aufwand, RICE/MoSCoW ohne Dogma. Ergänzt [`projektbriefs.md`](projektbriefs.md), [`statusberichte-und-reporting.md`](statusberichte-und-reporting.md) und [`retrospektiven.md`](retrospektiven.md).
+## Geltungsbereich:
+
+**Auswahl**, was als Nächstes kommt—Impact/Aufwand, RICE/MoSCoW ohne Dogma. Ergänzt [`projektbriefs.md`](projektbriefs.md), [`statusberichte-und-reporting.md`](statusberichte-und-reporting.md) und [`retrospektiven.md`](retrospektiven.md).
 
 ## Exzerpt
+
 - **Ziel** rahmen—Prioritäten ohne Ziel sind **Macht**.
 - **Impact** und **Vertrauen** in Evidenz.
 - **Kosten** inkl. **Betrieb** und Support.
@@ -141,13 +144,14 @@ Reihenfolge: (1) DNS + SSL, (2) Landing, (3) Kampagnen-Assets—Ketten vor Fixie
 ## Typische Stolpersteine
 
 - **Alles P0**—keine Reihenfolge, Kontextwechsel, nichts wird fertig.
-- **HiPPO** als einziges Signal—kein Raum für Nutzer*innenevidenz.
+- **HiPPO** als einziges Signal—kein Raum für Nutzer\*innenevidenz.
 - **Wartung ignorieren**—Features, die nächstes Quartal im Support kollabieren.
 - **Stilles Zurückstellen**—Stakeholder hören „später“ als „bald“.
 
 ---
 
 ## Kerngedanke
+
 Priorisierung ist **Nein mit Gründen**—**gemeinsame** Kriterien.
 
 ## Weiterführend

@@ -1,8 +1,11 @@
 # Copyright and usage rights
 
-**Scope:** Applies to **what you may use, adapt, and publish**—photos, illustrations, music, fonts, code snippets, text quotes, and AI-generated material. Not a substitute for legal advice on complex licensing disputes. Pair with [`image-and-quote-releases.md`](image-and-quote-releases.md) and [`ai-disclosure-and-policy.md`](ai-disclosure-and-policy.md).
+## Scope:
+
+Applies to **what you may use, adapt, and publish**—photos, illustrations, music, fonts, code snippets, text quotes, and AI-generated material. Not a substitute for legal advice on complex licensing disputes. Pair with [`image-and-quote-releases.md`](image-and-quote-releases.md) and [`ai-disclosure-and-policy.md`](ai-disclosure-and-policy.md).
 
 ## Excerpt
+
 - **Default: everything is copyrighted** to whoever made it, from the moment it is created.
 - **Licence first, use second.** Check licence terms (scope, attribution, modifications, commercial use) before downloading or pasting.
 - **Attribution is not a licence**—crediting someone does not make unlicensed use legal.

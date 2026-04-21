@@ -1,8 +1,11 @@
 # Information architecture
 
-**Scope:** Applies to **how content is organised, labelled, and navigated** in digital products and websites—site structure, navigation, taxonomy, search, URLs. Not visual design, not copywriting. Pair with [`designing-good-interfaces.md`](designing-good-interfaces.md), [`wireframing-and-prototyping.md`](wireframing-and-prototyping.md), [`content-design-and-microcopy.md`](content-design-and-microcopy.md), and [`accessibility-in-code.md`](../coding/accessibility-in-code.md).
+## Scope:
+
+Applies to **how content is organised, labelled, and navigated** in digital products and websites—site structure, navigation, taxonomy, search, URLs. Not visual design, not copywriting. Pair with [`designing-good-interfaces.md`](designing-good-interfaces.md), [`wireframing-and-prototyping.md`](wireframing-and-prototyping.md), [`content-design-and-microcopy.md`](content-design-and-microcopy.md), and [`accessibility-in-code.md`](../coding/accessibility-in-code.md).
 
 ## Excerpt
+
 - **Users > structure > labels**: know who needs what, then group, then name.
 - **Shallow wins**: fewer levels, clearer pages, better search.
 - **One thing in one place**—duplicate nav items and duplicate content both confuse.

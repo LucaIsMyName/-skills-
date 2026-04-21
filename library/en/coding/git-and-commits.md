@@ -1,8 +1,11 @@
 # Git and commits
 
-**Scope:** Applies to **day-to-day git usage**—branches, commits, PRs, reviews. Not for server-side git administration, not for release engineering. Pair with [`AGENTS.md`](../../../AGENTS.md) for agent-specific commit rules and [`testing-strategy.md`](testing-strategy.md) for review workflows.
+## Scope:
+
+Applies to **day-to-day git usage**—branches, commits, PRs, reviews. Not for server-side git administration, not for release engineering. Pair with [`AGENTS.md`](../../../AGENTS.md) for agent-specific commit rules and [`testing-strategy.md`](testing-strategy.md) for review workflows.
 
 ## Excerpt
+
 - **Small, focused commits**; one logical change each. Refactors and behaviour changes travel in separate commits.
 - **Conventional commit** prefixes: `feat`, `fix`, `refactor`, `docs`, `test`, `chore`, `perf`, `style`, `build`, `ci`.
 - **Branch per task**: `feat/…`, `fix/…`, `chore/…`—kebab-case, short.

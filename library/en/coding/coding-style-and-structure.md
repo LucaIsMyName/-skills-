@@ -1,8 +1,11 @@
 # Coding style and structure
 
-**Scope:** Applies to **simplicity, readability, naming, and control-flow shape** in application code. Not exhaustive error-handling policy, not test strategy. Pair with [`coding-errors-validation-and-state.md`](coding-errors-validation-and-state.md), [`coding-testing-and-habits.md`](coding-testing-and-habits.md), and [`coding-best-practices.md`](coding-best-practices.md).
+## Scope:
+
+Applies to **simplicity, readability, naming, and control-flow shape** in application code. Not exhaustive error-handling policy, not test strategy. Pair with [`coding-errors-validation-and-state.md`](coding-errors-validation-and-state.md), [`coding-testing-and-habits.md`](coding-testing-and-habits.md), and [`coding-best-practices.md`](coding-best-practices.md).
 
 ## Excerpt
+
 - **Simple beats clever**; prefer loops readers recognise over one-liners.
 - **Names carry meaning**; if you need a comment to explain identifiers, rename.
 - **One job per function**; flatten nesting with early returns; extract duplication carefully.
@@ -34,7 +37,7 @@ Good software is:
 - **Readable over short**
 - **Correct over fast (initially)**
 
- You are not just writing code for machines—you are writing code for humans.
+You are not just writing code for machines—you are writing code for humans.
 
 ---
 
@@ -61,7 +64,7 @@ for (const x of arr) {
 }
 ```
 
- Clever code is harder to debug and maintain.
+Clever code is harder to debug and maintain.
 
 ---
 
@@ -83,7 +86,7 @@ const d = new Date();
 const currentDate = new Date();
 ```
 
- If you need comments to explain basic code, rename things.
+If you need comments to explain basic code, rename things.
 
 ---
 
@@ -113,7 +116,7 @@ function processUser(user) {
 }
 ```
 
- Small units = easier testing and reuse.
+Small units = easier testing and reuse.
 
 ---
 
@@ -143,7 +146,7 @@ if (!user || !user.active || user.role !== "admin") return;
 // logic
 ```
 
- Early returns reduce complexity.
+Early returns reduce complexity.
 
 ---
 
@@ -168,7 +171,7 @@ function isAdult(person) {
 }
 ```
 
- Duplication = bugs waiting to happen.
+Duplication = bugs waiting to happen.
 
 ---
 
@@ -190,7 +193,7 @@ function handleEntity(entity, type, config, strategy) { ... }
 function handleUser(user) { ... }
 ```
 
- Abstraction should come **after repetition**, not before.
+Abstraction should come **after repetition**, not before.
 
 ---
 
@@ -212,7 +215,7 @@ function calc(x, y) { ... }
 function calculateTotalPrice(price, tax) { ... }
 ```
 
- Good naming reduces need for comments.
+Good naming reduces need for comments.
 
 ---
 

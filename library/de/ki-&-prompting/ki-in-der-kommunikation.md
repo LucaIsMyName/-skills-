@@ -1,8 +1,11 @@
 # KI in der Kommunikation
 
-**Geltungsbereich:** Gilt für **Sprachmodelle in der Kommunikationsarbeit**—Newsletter, Spendenmails, Social Posts, Pressemitteilungen, Übersetzungen, interne Memos. Nicht Bildgenerierung (siehe [`bilder-und-fotografie.md`](../design/bilder-und-fotografie.md)), nicht Rechts-/Medizinrat, nicht KI für Kinderschutzentscheidungen. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md), [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md), [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md) und [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
+## Geltungsbereich:
+
+Gilt für **Sprachmodelle in der Kommunikationsarbeit**—Newsletter, Spendenmails, Social Posts, Pressemitteilungen, Übersetzungen, interne Memos. Nicht Bildgenerierung (siehe [`bilder-und-fotografie.md`](../design/bilder-und-fotografie.md)), nicht Rechts-/Medizinrat, nicht KI für Kinderschutzentscheidungen. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md), [`respektvolle-sprache.md`](../sprache-&-kommunikation/respektvolle-sprache.md), [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md) und [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
 
 ## Exzerpt
+
 - **KI entwirft, Menschen entscheiden**—jeder Satz nach außen ist menschliche Verantwortung.
 - **Nie** Spender-PII, Kinderschutzdetails, unveröffentlichte Zitate in ungeprüfte Tools.
 - **Grundieren** mit **eigenen** Fakten; keine erfundenen Zahlen.
@@ -42,7 +45,7 @@ KI beschleunigt den Weg vom **leeren Blatt zum fast-finalen Entwurf**—mit Schu
 - **Gliederungen** für längere Stücke.
 - **Barrierefreie** Umformulierungen (lang → kurz, Jargon → einfach).
 
-## 2. Wofür KI in Comms *nicht* taugt
+## 2. Wofür KI in Comms _nicht_ taugt
 
 - **Nennen** von Personen, die keine Person des öffentlichen Lebens sind.
 - **Statistiken**, die nicht in gelieferten Quellen stehen.
@@ -162,9 +165,11 @@ Stimmregeln:
 ---
 
 ## Kerngedanke
+
 KI verkürzt den Weg vom **Briefing zum Entwurf**. Stimme, Wahrheit, Würde gehören dir. Mit freigegebenen Fakten, Stimmbeispielen, Review und klarer Offenlegung wird die Zeitersparnis echt.
 
 ## Weiterführend
+
 - [BBC — Editorial guidelines](https://www.bbc.co.uk/editorialguidelines/)
 - [Ethical Journalism Network — AI and ethics](https://ethicaljournalismnetwork.org/)
 - [ICO — AI and data protection](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/)

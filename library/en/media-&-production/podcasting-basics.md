@@ -1,8 +1,11 @@
 # Podcasting basics
 
-**Scope:** **Audio shows**—format, recording, editing, publishing—at small-org scale. Pair with [`subtitles-and-captions.md`](subtitles-and-captions.md), [`file-naming-and-organising.md`](file-naming-and-organising.md), and [`tone-of-voice-and-brand-voice.md`](../language-&-communication/tone-of-voice-and-brand-voice.md).
+## Scope:
+
+**Audio shows**—format, recording, editing, publishing—at small-org scale. Pair with [`subtitles-and-captions.md`](subtitles-and-captions.md), [`file-naming-and-organising.md`](file-naming-and-organising.md), and [`tone-of-voice-and-brand-voice.md`](../language-&-communication/tone-of-voice-and-brand-voice.md).
 
 ## Excerpt
+
 - **Format** decision: interview, narrative, panel—**one** primary style.
 - **Room** matters—soft furnishings reduce echo; **test** levels.
 - **Host mic** + **guest mic**; **noise reduction** gently—avoid underwater sound.

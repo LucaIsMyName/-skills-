@@ -1,8 +1,11 @@
 # Meetings und Agenden
 
-**Geltungsbereich:** **Effiziente** Meetings—Zweck, Agenda, Ergebnisse, Async-Alternativen. Ergänzt [`entscheidungslog-und-adrs.md`](entscheidungslog-und-adrs.md), [`statusberichte-und-reporting.md`](statusberichte-und-reporting.md) und [`workshops-und-moderation.md`](../sprache-&-kommunikation/workshops-und-moderation.md).
+## Geltungsbereich:
+
+**Effiziente** Meetings—Zweck, Agenda, Ergebnisse, Async-Alternativen. Ergänzt [`entscheidungslog-und-adrs.md`](entscheidungslog-und-adrs.md), [`statusberichte-und-reporting.md`](statusberichte-und-reporting.md) und [`workshops-und-moderation.md`](../sprache-&-kommunikation/workshops-und-moderation.md).
 
 ## Exzerpt
+
 - **Zweck** in einem Satz.
 - **Agenda** mit **Zeitboxen** und **Vorlese-Material**.
 - **Output**: Actions mit Owner und Datum.
@@ -152,6 +155,7 @@ Protokoll: /wiki/meetings/freiwilligen-rota — Vorlage wie letzte Woche; Link i
 ---
 
 ## Kerngedanke
+
 Meetings **ändern Zustand**—**entscheiden**, **klären**, **committen**—sonst **schreiben**.
 
 ## Weiterführend

@@ -1,8 +1,11 @@
 # Image ethics and framing
 
-**Scope:** **Ethical** choices in selecting and **cropping** images—stereotypes, dignity, context. Pair with [`photography-for-ngos.md`](photography-for-ngos.md), [`image-and-quote-releases.md`](../ethics-&-legal/image-and-quote-releases.md), and [`respectful-language.md`](../language-&-communication/respectful-language.md).
+## Scope:
+
+**Ethical** choices in selecting and **cropping** images—stereotypes, dignity, context. Pair with [`photography-for-ngos.md`](photography-for-ngos.md), [`image-and-quote-releases.md`](../ethics-&-legal/image-and-quote-releases.md), and [`respectful-language.md`](../language-&-communication/respectful-language.md).
 
 ## Excerpt
+
 - **Framing** controls **power**—what is **centred**, what is **cut off**.
 - **Avoid** poverty porn and **saviour** tropes—show **agency** and **systems**.
 - **Intersectionality**: **race**, **gender**, **disability**—**stereotypes** harm.

@@ -1,8 +1,11 @@
 # Datenschutz in der Kommunikation
 
-**Geltungsbereich:** Gilt für **DSGVO-relevante Fragen** in der Kommunikationsarbeit (Fotos, Zitate, Newsletter, Formulare, Analytics). Kein Ersatz für Rechtsberatung—im Zweifel Datenschutzbeauftragte:r oder Anwält:in. Ergänzt [`bild-und-zitatfreigaben.md`](bild-und-zitatfreigaben.md), [`kinder-und-betroffenenschutz.md`](kinder-und-betroffenenschutz.md), [`newsletter-und-e-mail.md`](../sprache-&-kommunikation/newsletter-und-e-mail.md).
+## Geltungsbereich:
+
+Gilt für **DSGVO-relevante Fragen** in der Kommunikationsarbeit (Fotos, Zitate, Newsletter, Formulare, Analytics). Kein Ersatz für Rechtsberatung—im Zweifel Datenschutzbeauftragte:r oder Anwält:in. Ergänzt [`bild-und-zitatfreigaben.md`](bild-und-zitatfreigaben.md), [`kinder-und-betroffenenschutz.md`](kinder-und-betroffenenschutz.md), [`newsletter-und-e-mail.md`](../sprache-&-kommunikation/newsletter-und-e-mail.md).
 
 ## Exzerpt
+
 - **Personenbezogene Daten** sind alles, was eine Person direkt oder in Kombination identifiziert (Name, Foto, E-Mail, Stimme, IP).
 - **Rechtsgrundlage zuerst**, dann verarbeiten: meist **Einwilligung**, **Vertrag** oder **berechtigtes Interesse**; **besondere Kategorien** (Gesundheit, Religion, Sexualität) brauchen mehr.
 - **Minimieren**: so wenig wie möglich, so kurz wie möglich, so eng verteilt wie möglich.

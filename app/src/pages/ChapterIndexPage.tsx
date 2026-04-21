@@ -1,52 +1,54 @@
-import { useMemo, useEffect } from 'react'
-import { Link, Navigate, useParams } from 'react-router-dom'
-import { Alert, AlertDescription } from '@/components/ui/alert'
-import { useLibraryIndex } from '../hooks/useLibraryIndex'
-import { useMarkdownH1ByPath } from '../hooks/useMarkdownH1Labels'
-import { useUiStrings } from '../hooks/useUiStrings'
-import { formatChapterTitle, humanizeSlug } from '../lib/strings'
+import { useMemo, useEffect } from "react";
+import { Link, Navigate, useParams } from "react-router-dom";
+import { Alert, AlertDescription } from "@/components/ui/alert";
+import { useLibraryIndex } from "../hooks/useLibraryIndex";
+import { useMarkdownH1ByPath } from "../hooks/useMarkdownH1Labels";
+import { useUiStrings } from "../hooks/useUiStrings";
+import { formatChapterTitle, humanizeSlug } from "../lib/strings";
 
 export function ChapterIndexPage() {
-  const { lang, chapter } = useParams<{ lang: string; chapter: string }>()
-  const { data, isLoading, isError, error } = useLibraryIndex()
-  const t = useUiStrings()
+  const { lang, chapter } = useParams<{ lang: string; chapter: string }>();
+  const { data, isLoading, isError, error } = useLibraryIndex();
+  const t = useUiStrings();
 
-  const index = data?.byLang.get(lang ?? '')
+  const index = data?.byLang.get(lang ?? "");
   const pages = useMemo(() => {
-    if (!lang || !chapter || !index?.chapters.includes(chapter)) return []
-    return index.byChapter[chapter] ?? []
-  }, [lang, chapter, index])
-  const h1Query = useMarkdownH1ByPath(pages)
-  const h1ByPath = h1Query.labels
+    if (!lang || !chapter || !index?.chapters.includes(chapter)) return [];
+    return index.byChapter[chapter] ?? [];
+  }, [lang, chapter, index]);
+  const h1Query = useMarkdownH1ByPath(pages);
+  const h1ByPath = h1Query.labels;
 
   useEffect(() => {
     if (chapter) {
-      document.title = `${formatChapterTitle(chapter)} — Skills`
+      document.title = `${formatChapterTitle(chapter)} — Skills`;
     }
-  }, [chapter])
+  }, [chapter]);
 
-  if (!lang || !chapter) return null
+  if (!lang || !chapter) return null;
 
   if (isLoading) {
     return (
       <p className="text-sm text-zinc-500 dark:text-zinc-400" role="status">
         {t.chapterIndexLoading}
       </p>
-    )
+    );
   }
 
   if (isError) {
     return (
       <Alert variant="destructive">
-        <AlertDescription>{String(error?.message ?? t.chapterIndexIndexError)}</AlertDescription>
+        <AlertDescription>
+          {String(error?.message ?? t.chapterIndexIndexError)}
+        </AlertDescription>
       </Alert>
-    )
+    );
   }
 
   if (!index?.chapters.includes(chapter)) {
-    const fallback = data?.langs[0]
-    if (fallback) return <Navigate to={`/${fallback}`} replace />
-    return <Navigate to="/" replace />
+    const fallback = data?.langs[0];
+    if (fallback) return <Navigate to={`/${fallback}`} replace />;
+    return <Navigate to="/" replace />;
   }
 
   return (
@@ -80,5 +82,5 @@ export function ChapterIndexPage() {
         ))}
       </ol>
     </div>
-  )
+  );
 }

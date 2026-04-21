@@ -1,8 +1,11 @@
 # Markdown and MDX
 
-**Scope:** Applies to **Markdown and MDX authoring in docs and product content**—headings, links, code blocks, tables, frontmatter, MDX components, accessibility, versioning. Not full LaTeX, not static-site tuning. Pair with [`writing-skill-documentation.md`](../ai-&-prompting/writing-skill-documentation.md), [`accessibility-in-code.md`](accessibility-in-code.md), [`content-design-and-microcopy.md`](../design/content-design-and-microcopy.md), and [`file-naming-and-organising.md`](../media-&-production/file-naming-and-organising.md).
+## Scope:
+
+Applies to **Markdown and MDX authoring in docs and product content**—headings, links, code blocks, tables, frontmatter, MDX components, accessibility, versioning. Not full LaTeX, not static-site tuning. Pair with [`writing-skill-documentation.md`](../ai-&-prompting/writing-skill-documentation.md), [`accessibility-in-code.md`](accessibility-in-code.md), [`content-design-and-microcopy.md`](../design/content-design-and-microcopy.md), and [`file-naming-and-organising.md`](../media-&-production/file-naming-and-organising.md).
 
 ## Excerpt
+
 - **Plain Markdown first**—add MDX components only when they earn their complexity.
 - One **H1** per document; then H2 and H3, in order, no skips.
 - **Links describe their target**—no "click here".
@@ -76,7 +79,7 @@ const x = 1
 
 ````md
 ```ts
-const user = await db.user.findUniqueOrThrow({ where: { id } })
+const user = await db.user.findUniqueOrThrow({ where: { id } });
 ```
 ````
 
@@ -100,10 +103,10 @@ const user = await db.user.findUniqueOrThrow({ where: { id } })
 - If a table is more than a screenful, consider a list of records or a linked dataset.
 
 ```md
-| Metric | Q1   | Q2   |
-|--------|-----:|-----:|
-| LCP    | 2.8s | 2.3s |
-| INP    | 210ms| 180ms|
+| Metric |    Q1 |    Q2 |
+| ------ | ----: | ----: |
+| LCP    |  2.8s |  2.3s |
+| INP    | 210ms | 180ms |
 ```
 
 ## 6. Frontmatter
@@ -132,9 +135,7 @@ tags: [ai, prompting, documentation]
 ### Good: mdx components
 
 ```mdx
-<Note>
-  API tokens have a 30-day lifetime. Rotate monthly.
-</Note>
+<Note>API tokens have a 30-day lifetime. Rotate monthly.</Note>
 ```
 
 ## 8. Callouts, notes, warnings

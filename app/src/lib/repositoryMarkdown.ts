@@ -3,5 +3,5 @@
  * repo — never augmented with the in-page TOC or other client-only UI.
  */
 export function repositoryMarkdownForExport(md: string): string {
-  return md
+  return md;
 }

@@ -1,8 +1,11 @@
 # Tailwind CSS — Leitfaden
 
-**Geltungsbereich:** **Utility-first-Styling** mit Tailwind in Anwendungen (dieses Library-Setup: **Tailwind v4**-Stil mit `@import 'tailwindcss'`, CSS-first-Konfiguration und `@theme`-Tokens). Ergänzt [`barrierefreiheit-im-code.md`](barrierefreiheit-im-code.md), [`react-best-practices.md`](react-best-practices.md) und die Design-Explainers unter **Design**.
+## Geltungsbereich:
+
+**Utility-first-Styling** mit Tailwind in Anwendungen (dieses Library-Setup: **Tailwind v4**-Stil mit `@import 'tailwindcss'`, CSS-first-Konfiguration und `@theme`-Tokens). Ergänzt [`barrierefreiheit-im-code.md`](barrierefreiheit-im-code.md), [`react-best-practices.md`](react-best-practices.md) und die Design-Explainers unter **Design**.
 
 ## Exzerpt
+
 - **Tokens statt Einzelpixel.** Wiederkehrende Werte ins Theme legen (`@theme`, Design-Tokens), damit die UI konsistent bleibt.
 - **Utilities beschreiben Zustand, keine Geschichten.** `hover:`, `focus-visible:`, `disabled:` gehören zur gleichen Komponente, wenn das Verhalten lokal ist.
 - **Komponenten extrahieren, wenn Wiederholung weh tut**—nicht beim ersten Duplikat; zweimal copy/paste ist oft billiger als die falsche Abstraktion.
@@ -30,7 +33,7 @@ Tailwind sind **Design-Grenzen als Klassen**:
 ### Typischer CSS-Einstieg
 
 ```css
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
   /* Produkt-Tokens — Schriften, Radien, Markenfarben */
@@ -121,7 +124,7 @@ Tailwind sind **Design-Grenzen als Klassen**:
 
 - **Klassen sortieren** (offizielles Prettier-Plugin oder Team-Konvention: Layout → Box → Typo → Optik → States).
 - **Lange Strings** mit `clsx`/`cn` **nur bei** echter Bedingungslogik—notwendig; für statische Strings kein Over-Engineering.
-- **Absicht im Namen** der Komponente oder `data-testid`, wenn Verhalten zählt—Klassennamen allein sagen selten das *Warum*.
+- **Absicht im Namen** der Komponente oder `data-testid`, wenn Verhalten zählt—Klassennamen allein sagen selten das _Warum_.
 
 ---
 
@@ -135,13 +138,13 @@ Tailwind sind **Design-Grenzen als Klassen**:
 
 ## 10. Typische Fehler
 
-| Fehler | Warum problematisch |
-|--------|----------------------|
-| Unwartbare Riesenstrings | Schwer reviewbar; Breakpoints übersehbar. |
-| Skala ignorieren | Beliebige Pixel zerlegen Rhythmus und Design-System. |
-| Fokus „aus ästhetischen Gründen“ weg | Tastatur- und AT-Nutzung kollabiert. |
-| „Card“ fünfmal anders | Visuell driftend; Primitive konsolidieren. |
-| Content-Pfade ignorieren | Fehlende Klassen in Production = Layout kaputt. |
+| Fehler                               | Warum problematisch                                  |
+| ------------------------------------ | ---------------------------------------------------- |
+| Unwartbare Riesenstrings             | Schwer reviewbar; Breakpoints übersehbar.            |
+| Skala ignorieren                     | Beliebige Pixel zerlegen Rhythmus und Design-System. |
+| Fokus „aus ästhetischen Gründen“ weg | Tastatur- und AT-Nutzung kollabiert.                 |
+| „Card“ fünfmal anders                | Visuell driftend; Primitive konsolidieren.           |
+| Content-Pfade ignorieren             | Fehlende Klassen in Production = Layout kaputt.      |
 
 ---
 

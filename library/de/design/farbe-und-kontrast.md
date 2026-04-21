@@ -1,8 +1,11 @@
 # Farbe und Kontrast
 
-**Geltungsbereich:** Gilt für **Farbwahl und -einsatz** in UI, Web, Print und Datengrafiken—inklusive Kontraste, semantische Rollen, Theming. Ergänzt [`design-tokens-und-theming.md`](design-tokens-und-theming.md), [`barrierefreies-design.md`](barrierefreies-design.md), [`datenvisualisierung-grundlagen.md`](datenvisualisierung-grundlagen.md).
+## Geltungsbereich:
+
+Gilt für **Farbwahl und -einsatz** in UI, Web, Print und Datengrafiken—inklusive Kontraste, semantische Rollen, Theming. Ergänzt [`design-tokens-und-theming.md`](design-tokens-und-theming.md), [`barrierefreies-design.md`](barrierefreies-design.md), [`datenvisualisierung-grundlagen.md`](datenvisualisierung-grundlagen.md).
 
 ## Exzerpt
+
 - **Semantische Rollen statt Hex-Werten.** Farben nach **Funktion** benennen (`surface`, `text`, `accent`, `danger`), nicht nach Hue (`blue-500`).
 - **Kontrast zuerst.** WCAG AA: 4,5:1 für Body, 3:1 für große Schrift und UI. Vor Palettenliebe prüfen.
 - **Farbe nie allein.** Mit Icon, Text oder Form koppeln—farbenblinde Nutzer:innen und Graustufendrucke existieren.
@@ -38,20 +41,20 @@ Ein Farbsystem bauen, das **barrierefrei, konsistent und bedeutungsvoll** ist—
 
 Rollen vor Hues:
 
-| Rolle | Beispielnutzung |
-|---|---|
-| `surface` | Seitenhintergrund |
-| `surface-muted` | Cards, Panels |
-| `border` | Trennlinien, Kanten |
-| `text` | primärer Text |
-| `text-muted` | Sekundärtext, Labels |
-| `text-inverse` | auf dunklen Flächen |
-| `accent` | Markenfarbe / primäre Aktion |
-| `info` | neutral informativ |
-| `success` | bestätigend |
-| `warning` | Vorsicht, prüfen |
-| `danger` | Fehler, zerstörerisch |
-| `focus` | Fokus-Ring |
+| Rolle           | Beispielnutzung              |
+| --------------- | ---------------------------- |
+| `surface`       | Seitenhintergrund            |
+| `surface-muted` | Cards, Panels                |
+| `border`        | Trennlinien, Kanten          |
+| `text`          | primärer Text                |
+| `text-muted`    | Sekundärtext, Labels         |
+| `text-inverse`  | auf dunklen Flächen          |
+| `accent`        | Markenfarbe / primäre Aktion |
+| `info`          | neutral informativ           |
+| `success`       | bestätigend                  |
+| `warning`       | Vorsicht, prüfen             |
+| `danger`        | Fehler, zerstörerisch        |
+| `focus`         | Fokus-Ring                   |
 
 Als Tokens ablegen; siehe [`design-tokens-und-theming.md`](design-tokens-und-theming.md).
 

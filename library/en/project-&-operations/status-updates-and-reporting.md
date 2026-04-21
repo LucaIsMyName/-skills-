@@ -1,8 +1,11 @@
 # Status updates and reporting
 
-**Scope:** **Regular** status—what changed, what’s blocked, what’s next—for teams and stakeholders. Not financial accounting. Pair with [`project-briefs.md`](project-briefs.md), [`meetings-and-agendas.md`](meetings-and-agendas.md), and [`impact-and-annual-reporting.md`](../research-&-analysis/impact-and-annual-reporting.md).
+## Scope:
+
+**Regular** status—what changed, what’s blocked, what’s next—for teams and stakeholders. Not financial accounting. Pair with [`project-briefs.md`](project-briefs.md), [`meetings-and-agendas.md`](meetings-and-agendas.md), and [`impact-and-annual-reporting.md`](../research-&-analysis/impact-and-annual-reporting.md).
 
 ## Excerpt
+
 - **RAG** or simple **green/yellow/red** for trajectory—**define** thresholds.
 - **Narrative** + **metrics**—story without numbers is vague; numbers without story is noise.
 - **Asks** explicit—**decision**, **resource**, or **risk acceptance**.

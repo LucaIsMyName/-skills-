@@ -1,8 +1,11 @@
 # Coding errors, validation, and predictable state
 
-**Scope:** Applies to **function size, purity, errors, validation, and data flow** in application code. Not logging/observability runbooks, not API security design. Pair with [`coding-style-and-structure.md`](coding-style-and-structure.md), [`coding-testing-and-habits.md`](coding-testing-and-habits.md), and [`coding-best-practices.md`](coding-best-practices.md).
+## Scope:
+
+Applies to **function size, purity, errors, validation, and data flow** in application code. Not logging/observability runbooks, not API security design. Pair with [`coding-style-and-structure.md`](coding-style-and-structure.md), [`coding-testing-and-habits.md`](coding-testing-and-habits.md), and [`coding-best-practices.md`](coding-best-practices.md).
 
 ## Excerpt
+
 - **Small functions** with testable boundaries.
 - **Avoid silent mutation**; prefer explicit inputs/outputs.
 - **Never swallow errors**; validate untrusted input at the edge.
@@ -38,7 +41,7 @@ If a function doesn’t fit on one screen → it’s probably too big.
 - hard to name
 - requires scrolling
 
- Break it into smaller pieces.
+Break it into smaller pieces.
 
 ---
 
@@ -64,7 +67,7 @@ function addItem(cart, item) {
 }
 ```
 
- Pure functions are predictable and testable.
+Pure functions are predictable and testable.
 
 ---
 
@@ -93,7 +96,7 @@ try {
 }
 ```
 
- Silent failures = nightmare debugging.
+Silent failures = nightmare debugging.
 
 ---
 
@@ -120,7 +123,7 @@ function createUser(user) {
 }
 ```
 
- Validate at boundaries.
+Validate at boundaries.
 
 ---
 
@@ -130,12 +133,12 @@ function createUser(user) {
 
 Avoid hidden state and magic behavior.
 
- Prefer:
+Prefer:
 
 - explicit parameters
 - explicit returns
 
- Avoid:
+Avoid:
 
 - global variables
 - hidden mutations

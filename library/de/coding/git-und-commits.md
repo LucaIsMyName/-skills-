@@ -1,8 +1,11 @@
 # Git und Commits
 
-**Geltungsbereich:** Gilt für **tägliche Git-Nutzung**—Branches, Commits, PRs, Reviews. Nicht für serverseitige Git-Administration, nicht für Release Engineering. Ergänzend zu [`AGENTS.md`](../../../AGENTS.md) für agent-spezifische Commit-Regeln und [`teststrategie.md`](teststrategie.md) für Review-Workflows.
+## Geltungsbereich:
+
+Gilt für **tägliche Git-Nutzung**—Branches, Commits, PRs, Reviews. Nicht für serverseitige Git-Administration, nicht für Release Engineering. Ergänzend zu [`AGENTS.md`](../../../AGENTS.md) für agent-spezifische Commit-Regeln und [`teststrategie.md`](teststrategie.md) für Review-Workflows.
 
 ## Exzerpt
+
 - **Kleine, fokussierte Commits**; je einer logische Änderung. Refactors und Verhaltensänderungen in **getrennten** Commits.
 - **Conventional-Commit**-Präfixe: `feat`, `fix`, `refactor`, `docs`, `test`, `chore`, `perf`, `style`, `build`, `ci`.
 - **Branch pro Aufgabe**: `feat/…`, `fix/…`, `chore/…`—kebab-case, kurz.
@@ -126,6 +129,7 @@ Fixed the newsletter thingy because Anna asked me to.
 ---
 
 ## Kerngedanke
+
 Git-Historie ist ein **Brief an die Zukunft**. So schreiben, dass jemand sechs Monate später lesen, sauber bisecten und jedem Commit vertrauen kann.
 
 ## Weiterführend

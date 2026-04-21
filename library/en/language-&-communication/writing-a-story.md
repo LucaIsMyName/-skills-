@@ -1,8 +1,11 @@
 # Writing a story
 
-**Scope:** Applies to human-centered nonprofit storytelling (impact stories, magazines, web); not fiction, not pure promotional copy without verified facts.
+## Scope:
+
+Applies to human-centered nonprofit storytelling (impact stories, magazines, web); not fiction, not pure promotional copy without verified facts.
 
 ## Excerpt
+
 - Use when writing **people-first** stories for nonprofits and social-sector organisations: dignity, individuality, real situations.
 - **Ask** for consent, anonymization rules, approved quotes, and org/service names before inventing scenes.
 - Avoid pity, hero framing, and reducing people to labels; show concrete daily life.
@@ -18,7 +21,7 @@ The goal is to tell stories that:
 - communicate **dignity and individuality**
 - make **social issues understandable through people**
 
- Not abstract topics — but **people in real situations**
+Not abstract topics — but **people in real situations**
 
 ## completeness before drafting
 
@@ -42,7 +45,7 @@ Before drafting a story, the prompt must include **concrete and meta information
 - What is **off-limits**, to avoid, or especially sensitive
 - How this maps to the rest of This document (structure, ethical guidelines)
 
- Before publishing, also use the **Checklist** at the end of this file.
+Before publishing, also use the **Checklist** at the end of this file.
 
 ---
 
@@ -57,7 +60,7 @@ Before drafting a story, the prompt must include **concrete and meta information
   - disability
   - crisis
 
- Show the **whole person**: life, personality, strengths, challenges
+Show the **whole person**: life, personality, strengths, challenges
 
 ---
 
@@ -69,7 +72,7 @@ Before drafting a story, the prompt must include **concrete and meta information
 - Avoid dramatic or sensational tone
 - Stay **calm, human, grounded**
 
- The reader should feel: _“I understand this person”_, not _“I feel sorry”_
+The reader should feel: _“I understand this person”_, not _“I feel sorry”_
 
 ---
 
@@ -84,7 +87,7 @@ Example style:
 - small details
 - interactions with others
 
- Stories become real through **details**
+Stories become real through **details**
 
 ---
 
@@ -93,7 +96,7 @@ Example style:
 - Use simple, understandable language
 - Avoid jargon or explain it briefly
 
- Everyone should be able to read and understand it
+Everyone should be able to read and understand it
 
 ---
 
@@ -109,7 +112,7 @@ Example style:
   - a key aspect of their life
 - **Headline and body copy must match**—title and article content must align
 
- Example pattern:
+Example pattern:
 
 > “[Name] lives with … How they live, work, and what supports them”
 
@@ -121,7 +124,7 @@ Example style:
 - Give a quick insight into their situation
 - Avoid abstract explanations
 
- Focus immediately on the **human story**
+Focus immediately on the **human story**
 
 ---
 
@@ -133,7 +136,7 @@ Describe:
 - What routines are important?
 - What challenges exist?
 
- Daily life makes abstract topics tangible
+Daily life makes abstract topics tangible
 (e.g. structure, environment, and interactions are crucial for many autistic people).
 
 ---
@@ -146,7 +149,7 @@ Describe:
   - wishes
   - experiences
 
- The person should “speak” in the story
+The person should “speak” in the story
 
 ---
 
@@ -159,7 +162,7 @@ Describe:
 
 - Keep it **embedded in the story**, not as advertisement
 
- Focus on:
+Focus on:
 
 - empowerment
 - participation
@@ -176,7 +179,7 @@ Describe:
   - social challenges
   - lack of support systems
 
- But always stay grounded in the **individual story**
+But always stay grounded in the **individual story**
 
 ---
 
@@ -187,7 +190,7 @@ Describe:
   - a quote
   - or a forward-looking thought
 
- Leave the reader with:
+Leave the reader with:
 
 - understanding
 - respect
@@ -199,7 +202,7 @@ Describe:
 
 ---
 
-###  Do
+### Do
 
 - Use **person-first or respectful language**
 - Show **strengths and agency**
@@ -209,7 +212,7 @@ Describe:
 
 ---
 
-###  Avoid
+### Avoid
 
 - Pity (“suffers from…”, “tragic fate”)
 - Hero narratives (“despite everything…”)
@@ -225,8 +228,8 @@ Describe:
 
 ### 1. Show, don’t tell
 
- “She has a busy day supporting others”
- “Before the lunch group starts, she lays out name cards and checks who needs a quieter seat”
+“She has a busy day supporting others”
+“Before the lunch group starts, she lays out name cards and checks who needs a quieter seat”
 
 ---
 
@@ -235,7 +238,7 @@ Describe:
 - Challenge vs. strength
 - support vs. independence
 
- But avoid framing life as “deficit vs. success”
+But avoid framing life as “deficit vs. success”
 
 ---
 
@@ -244,7 +247,7 @@ Describe:
 - Present differences as part of human diversity
 - Avoid making people seem “other” or “exceptional”
 
- Example idea:
+Example idea:
 People on the autism spectrum experience the world differently, not “less”.
 
 ---
@@ -272,7 +275,7 @@ Before publishing, ask:
 
 ## Final Thought
 
- A good people-first story does not just inform —
+A good people-first story does not just inform —
 it creates **understanding, connection, and respect**.
 
 ## Further reading

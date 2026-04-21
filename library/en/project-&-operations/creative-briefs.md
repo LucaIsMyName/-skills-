@@ -1,8 +1,11 @@
 # Creative briefs
 
-**Scope:** Briefing **design/comms** work—audience, message, proof, deliverables. Not the creative itself. Pair with [`campaign-planning.md`](campaign-planning.md), [`tone-of-voice-and-brand-voice.md`](../language-&-communication/tone-of-voice-and-brand-voice.md), and [`project-briefs.md`](project-briefs.md).
+## Scope:
+
+Briefing **design/comms** work—audience, message, proof, deliverables. Not the creative itself. Pair with [`campaign-planning.md`](campaign-planning.md), [`tone-of-voice-and-brand-voice.md`](../language-&-communication/tone-of-voice-and-brand-voice.md), and [`project-briefs.md`](project-briefs.md).
 
 ## Excerpt
+
 - **Audience** + **insight**—what they believe today vs what we need them to feel/know.
 - **Single-minded proposition**—one main idea.
 - **Proof points**—facts, stories (with consent).

@@ -1,8 +1,11 @@
 # Storytelling: craft, language, and impact
 
-**Scope:** Applies to **vivid detail, dramaturgy, organisational role, tone, and simplification** in narrative copy. Not legal review of claims. Pair with [`storytelling-structure-and-elements.md`](storytelling-structure-and-elements.md) and [`storytelling.md`](storytelling.md).
+## Scope:
+
+Applies to **vivid detail, dramaturgy, organisational role, tone, and simplification** in narrative copy. Not legal review of claims. Pair with [`storytelling-structure-and-elements.md`](storytelling-structure-and-elements.md) and [`storytelling.md`](storytelling.md).
 
 ## Excerpt
+
 - **Ladder of narration** from abstract to concrete.
 - **Dramaturgy** patterns—without manipulative shortcuts.
 - **Enabler framing** for organisations; **language** that is concrete before abstract.
@@ -32,7 +35,7 @@ Make the story **memorable and fair**—specific without exploitation.
 - top: abstract (“poverty”)
 - bottom: concrete (“an empty fridge”)
 
- Aim: **tell as concretely as possible**
+Aim: **tell as concretely as possible**
 
 ---
 
@@ -216,7 +219,7 @@ Structure:
 
 ## Core idea
 
- A story arises from:
+A story arises from:
 
 - **one character**
 - **one problem**

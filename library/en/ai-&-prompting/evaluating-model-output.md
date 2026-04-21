@@ -1,8 +1,11 @@
 # Evaluating model output
 
-**Scope:** Applies to **judging whether a model-generated answer is good enough to use**—rubrics, human review, automatic checks, regression sets, red-teaming. Not model benchmarking. Pair with [`prompting-basics.md`](prompting-basics.md), [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md), [`source-evaluation-and-fact-checking.md`](../research-&-analysis/source-evaluation-and-fact-checking.md), and [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md).
+## Scope:
+
+Applies to **judging whether a model-generated answer is good enough to use**—rubrics, human review, automatic checks, regression sets, red-teaming. Not model benchmarking. Pair with [`prompting-basics.md`](prompting-basics.md), [`structured-output-and-tool-use.md`](structured-output-and-tool-use.md), [`source-evaluation-and-fact-checking.md`](../research-&-analysis/source-evaluation-and-fact-checking.md), and [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md).
 
 ## Excerpt
+
 - **Acceptance criteria first**: name what "good" means before you read the output.
 - **Four lenses**: accuracy, appropriateness, completeness, safety.
 - **Human-in-the-loop** for anything the audience relies on; **automatic checks** for scale.
@@ -74,7 +77,7 @@ Cheap, fast, and catch a lot:
 - **Banned words** list (brand, safeguarding, platform).
 - **Link check**: every URL returns 200, goes to the right domain.
 - **Language check**: output language matches target locale.
-- **PII detector** on inputs *and* outputs.
+- **PII detector** on inputs _and_ outputs.
 
 Run these in CI for any AI-generated artefact that ships.
 

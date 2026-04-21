@@ -1,8 +1,11 @@
 # Live events and streaming
 
-**Scope:** **Live** events and **streams**—run-of-show, redundancy, accessibility, safety. Not broadcast engineering at TV scale. Pair with [`video-production-basics.md`](video-production-basics.md), [`subtitles-and-captions.md`](subtitles-and-captions.md), and [`crisis-and-sensitive-topics.md`](../language-&-communication/crisis-and-sensitive-topics.md).
+## Scope:
+
+**Live** events and **streams**—run-of-show, redundancy, accessibility, safety. Not broadcast engineering at TV scale. Pair with [`video-production-basics.md`](video-production-basics.md), [`subtitles-and-captions.md`](subtitles-and-captions.md), and [`crisis-and-sensitive-topics.md`](../language-&-communication/crisis-and-sensitive-topics.md).
 
 ## Excerpt
+
 - **Run-of-show** with **owners**—**timecodes** and **handoffs**.
 - **Redundancy**: backup **internet**, **audio**, **slides**.
 - **Moderation** plan for chat/Q&A—**safeguarding** and **spam**.

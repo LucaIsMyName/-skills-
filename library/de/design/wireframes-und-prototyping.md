@@ -1,8 +1,11 @@
 # Wireframes und Prototyping
 
-**Geltungsbereich:** Gilt für **Skizzen, Wireframes und klickbare Prototypen** digitaler Produkte—welche Auflösung wann, wie testen, wie übergeben. Keine vollständige UX-Forschung, kein Frontend-Engineering. Kombiniere mit [`gute-interfaces-designen.md`](gute-interfaces-designen.md), [`informationsarchitektur.md`](informationsarchitektur.md), [`leere-und-fehlerzustaende.md`](leere-und-fehlerzustaende.md) und [`content-design-und-microcopy.md`](content-design-und-microcopy.md).
+## Geltungsbereich:
+
+Gilt für **Skizzen, Wireframes und klickbare Prototypen** digitaler Produkte—welche Auflösung wann, wie testen, wie übergeben. Keine vollständige UX-Forschung, kein Frontend-Engineering. Kombiniere mit [`gute-interfaces-designen.md`](gute-interfaces-designen.md), [`informationsarchitektur.md`](informationsarchitektur.md), [`leere-und-fehlerzustaende.md`](leere-und-fehlerzustaende.md) und [`content-design-und-microcopy.md`](content-design-und-microcopy.md).
 
 ## Exzerpt
+
 - **Niedrigste Auflösung, die die Frage beantwortet**—Papier für Flows, Wireframes für Layout, Prototypen für Flow-Validierung, Mockups für Feinschliff.
 - **Struktur vor Farbe.** Hierarchie, Inhalt, Navigation prüfen, bevor visuell entworfen wird.
 - **Content zuerst**: echte Worte und echte Daten früh einsetzen; Lorem ipsum lügt.
@@ -127,9 +130,11 @@ Echter Content verändert das Design.
 ---
 
 ## Kerngedanke
+
 Billig designen, wenn Ideen billig sind; präzise übergeben, wenn Bauen teuer wird. Wireframes und Prototypen sind **Entscheidungswerkzeuge**.
 
 ## Weiterführend
+
 - [NN/g — Paper prototyping](https://www.nngroup.com/articles/paper-prototyping/)
 - [Figma — Prototyping](https://help.figma.com/hc/en-us/categories/360002051613-Prototype)
 - [Smashing Magazine — UX](https://www.smashingmagazine.com/category/ux/)

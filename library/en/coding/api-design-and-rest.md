@@ -1,8 +1,11 @@
 # API design and REST
 
-**Scope:** Applies to **HTTP APIs you own**—resources, verbs, status codes, payloads, versioning, pagination, errors. Not GraphQL-specific design, not internal RPC, not authentication protocol design. Pair with [`security-for-web-apps.md`](security-for-web-apps.md), [`error-handling-and-logging.md`](error-handling-and-logging.md), [`language-models-in-code.md`](language-models-in-code.md), and [`performance-and-web-vitals.md`](performance-and-web-vitals.md).
+## Scope:
+
+Applies to **HTTP APIs you own**—resources, verbs, status codes, payloads, versioning, pagination, errors. Not GraphQL-specific design, not internal RPC, not authentication protocol design. Pair with [`security-for-web-apps.md`](security-for-web-apps.md), [`error-handling-and-logging.md`](error-handling-and-logging.md), [`language-models-in-code.md`](language-models-in-code.md), and [`performance-and-web-vitals.md`](performance-and-web-vitals.md).
 
 ## Excerpt
+
 - **Resources over actions**: model nouns; verbs come from HTTP (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`).
 - **Status codes are contracts**—use the right one; do not return `200` for errors.
 - **Consistent payloads**: a single error shape, a single list shape, stable field names.
@@ -24,7 +27,7 @@ Before sketching endpoints, clarify **what the API is for** and **who uses it**.
 
 ### Meta
 
-- Design the **happy path** *and* the **failure modes**—errors are part of the API.
+- Design the **happy path** _and_ the **failure modes**—errors are part of the API.
 - Once an endpoint is in production, it is a **promise**. Version or deprecate; do not silently change.
 - Consistency beats cleverness: predictable APIs are easier to integrate and easier to replace.
 
@@ -107,9 +110,7 @@ One error shape, everywhere.
   "error": {
     "code": "email_already_registered",
     "message": "An account with this email already exists.",
-    "details": [
-      { "field": "email", "issue": "duplicate" }
-    ],
+    "details": [{ "field": "email", "issue": "duplicate" }],
     "request_id": "req_01J8Q..."
   }
 }

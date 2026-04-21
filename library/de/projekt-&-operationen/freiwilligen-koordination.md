@@ -1,8 +1,11 @@
 # Freiwilligen-Koordination
 
-**Geltungsbereich:** **Freiwillige** organisieren—Rollen, Dienste, Übergaben, Wertschätzung. Ergänzt [`freiwillige-kommunikation.md`](../sprache-&-kommunikation/freiwillige-kommunikation.md), [`onboarding-neuer-teammitglieder.md`](onboarding-neuer-teammitglieder.md) und [`kinder-und-betroffenenschutz.md`](../ethik-&-recht/kinder-und-betroffenenschutz.md).
+## Geltungsbereich:
+
+**Freiwillige** organisieren—Rollen, Dienste, Übergaben, Wertschätzung. Ergänzt [`freiwillige-kommunikation.md`](../sprache-&-kommunikation/freiwillige-kommunikation.md), [`onboarding-neuer-teammitglieder.md`](onboarding-neuer-teammitglieder.md) und [`kinder-und-betroffenenschutz.md`](../ethik-&-recht/kinder-und-betroffenenschutz.md).
 
 ## Exzerpt
+
 - **Rollenprofile** mit Zeit und Skills.
 - **Dienste** und **Vertretung**—kein Single Point of Failure.
 - **Übergaben** mit Checklisten.
@@ -85,6 +88,7 @@ Schichtkalender; Vertretung pro Slot; wenn Vertretung ausfällt, Eskalation an K
 ## 4. Aufsicht und Erreichbarkeit
 
 ### Regel
+
 **Wer während Schichten erreichbar ist** und **wie** (Telefon, Slack)—besonders bei Jugend oder vulnerablen Teilnehmenden.
 
 ### Gut: aufsicht und erreichbarkeit
@@ -147,6 +151,7 @@ Jugend-Rolle: Führungszeugnis + Schulungsmodul + unterschriebener Kodex; kein E
 ---
 
 ## Kerngedanke
+
 Freiwillige wie ein **System** führen: **Rollen**, **Pläne**, **Übergaben**, **Fürsorge**.
 
 ## Weiterführend

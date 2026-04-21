@@ -1,8 +1,11 @@
 # Statusberichte und Reporting
 
-**Geltungsbereich:** **Regelmäßiger** Status—was hat sich geändert, was blockiert, was als Nächstes. Ergänzt [`projektbriefs.md`](projektbriefs.md), [`meetings-und-agenden.md`](meetings-und-agenden.md) und [`wirkung-und-jahresberichte.md`](../recherche-&-analyse/wirkung-und-jahresberichte.md).
+## Geltungsbereich:
+
+**Regelmäßiger** Status—was hat sich geändert, was blockiert, was als Nächstes. Ergänzt [`projektbriefs.md`](projektbriefs.md), [`meetings-und-agenden.md`](meetings-und-agenden.md) und [`wirkung-und-jahresberichte.md`](../recherche-&-analyse/wirkung-und-jahresberichte.md).
 
 ## Exzerpt
+
 - **Ampel** oder **G/Y/R**—**Schwellen** definieren.
 - **Story** + **Zahlen**.
 - **Asks** klar—Entscheidung, Ressource, Risikoakzeptanz.
@@ -50,7 +53,7 @@ Grün: auf Kurs für Meilenstein 15. Mai. Gelb: Legal-Verzug >5 Tage—Datumsris
 
 ### Regel
 
-**Eine kurze Story** (was hat sich für Nutzer*innen oder das Team geändert) mit **1–3 Zahlen** oder Daten, die prüfbar sind.
+**Eine kurze Story** (was hat sich für Nutzer\*innen oder das Team geändert) mit **1–3 Zahlen** oder Daten, die prüfbar sind.
 
 ### Gut: story plus kennzahlen
 
@@ -68,7 +71,7 @@ SMS-Erinnerungen an 40 % der Kohorte ausgerollt; Opt-out 2 %. Nächste Woche: vo
 
 ### Regel
 
-Am Ende **klar sagen**, was ihr von den Leser*innen braucht—sonst ist Status Sendung, kein Regelkreis.
+Am Ende **klar sagen**, was ihr von den Leser\*innen braucht—sonst ist Status Sendung, kein Regelkreis.
 
 ### Gut: asks: entscheidung, ressource, risikoakzeptanz
 
@@ -85,6 +88,7 @@ Bitte: Sam genehmigt £500 Boost-Budget bis Mi—sonst streichen wir Paid-Kanal 
 ## 4. Rhythmus und Länge fürs Publikum
 
 ### Regel
+
 **Fester Rhythmus** (z. B. freitags EOD) und **Wortlimit**; Führung kürzer als Team-Kanal.
 
 ### Gut: rhythmus und länge fürs publikum
@@ -121,7 +125,7 @@ Kanonisches Log: /wiki/projekt-x/status-log — neueste oben; Link im Projektbri
 
 ### Regel
 
-**Drift und Abhängigkeitsrisiko** melden, solange Sponsor*innen noch helfen können—keine Überraschung am Deadline-Tag.
+**Drift und Abhängigkeitsrisiko** melden, solange Sponsor\*innen noch helfen können—keine Überraschung am Deadline-Tag.
 
 ### Gut: gelb früh eskalieren
 
@@ -147,6 +151,7 @@ Gelb seit 10. Apr.: Lieferant verzögert Risiko 1. Mai—Mitigation: manueller P
 ---
 
 ## Kerngedanke
+
 Status ist **Regelkreis**: **Signal**, **Bitte**, **Protokoll**.
 
 ## Weiterführend

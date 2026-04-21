@@ -1,8 +1,11 @@
 # Image and quote releases
 
-**Scope:** Applies to **getting, recording, and respecting permission** to use photos, video, audio, and quotes of identifiable people in communications. Pair with [`photography-for-ngos.md`](../media-&-production/photography-for-ngos.md), [`data-protection-for-comms.md`](data-protection-for-comms.md) and [`safeguarding-in-comms.md`](safeguarding-in-comms.md); for editorial craft see [`writing-a-story.md`](../language-&-communication/writing-a-story.md).
+## Scope:
+
+Applies to **getting, recording, and respecting permission** to use photos, video, audio, and quotes of identifiable people in communications. Pair with [`photography-for-ngos.md`](../media-&-production/photography-for-ngos.md), [`data-protection-for-comms.md`](data-protection-for-comms.md) and [`safeguarding-in-comms.md`](safeguarding-in-comms.md); for editorial craft see [`writing-a-story.md`](../language-&-communication/writing-a-story.md).
 
 ## Excerpt
+
 - **No recognisable person, no quote, no publication without documented consent.** Verbal "ok" on set is not enough.
 - A release must be **specific** (what), **scoped** (where, how long, which channels), **informed** (in the person's language and reading level), and **revocable**.
 - **Minors and vulnerable adults** need a guardian's consent **and** the person's assent; treat any uncertainty as a no.

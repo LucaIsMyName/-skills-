@@ -1,8 +1,11 @@
 # Qualitative coding
 
-**Scope:** **Coding** interview notes, open-ended survey answers, and focus-group transcripts—codes, themes, reliability. Not quantitative statistics. Pair with [`interviewing-people.md`](interviewing-people.md), [`notes-and-synthesis.md`](notes-and-synthesis.md), and [`literature-summarising.md`](literature-summarising.md).
+## Scope:
+
+**Coding** interview notes, open-ended survey answers, and focus-group transcripts—codes, themes, reliability. Not quantitative statistics. Pair with [`interviewing-people.md`](interviewing-people.md), [`notes-and-synthesis.md`](notes-and-synthesis.md), and [`literature-summarising.md`](literature-summarising.md).
 
 ## Excerpt
+
 - **Codebook** first: definitions + **examples** of what counts.
 - **Inductive** codes emerge from data; **deductive** codes come from theory—**mix** explicitly.
 - **Two coders** on a sample + **agreement** check when stakes are high.

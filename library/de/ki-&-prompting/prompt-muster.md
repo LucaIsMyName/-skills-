@@ -1,9 +1,12 @@
 # Prompt-Muster
 
-**Geltungsbereich:** Gilt für **wiederverwendbare Muster** in Prompt-Interaktionen mit Sprachmodellen—Few-Shot, Dekomposition, Kritik-und-Überarbeitung, strukturierte Ausgabe, eingeschränkte Kreativität, Tool-Handoffs. Kein Ersatz für Fachwissen, kein Ersatz für Faktenprüfung. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md), [`modelloutput-bewerten.md`](modelloutput-bewerten.md) und [`kontextfenster-und-chunks.md`](kontextfenster-und-chunks.md).
+## Geltungsbereich:
+
+Gilt für **wiederverwendbare Muster** in Prompt-Interaktionen mit Sprachmodellen—Few-Shot, Dekomposition, Kritik-und-Überarbeitung, strukturierte Ausgabe, eingeschränkte Kreativität, Tool-Handoffs. Kein Ersatz für Fachwissen, kein Ersatz für Faktenprüfung. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`strukturierte-ausgabe-und-tools.md`](strukturierte-ausgabe-und-tools.md), [`modelloutput-bewerten.md`](modelloutput-bewerten.md) und [`kontextfenster-und-chunks.md`](kontextfenster-und-chunks.md).
 
 ## Exzerpt
-- **Few-Shot**, wenn Format/Ton schwer beschreibbar ist—1–3 Beispiele der *genauen* Form.
+
+- **Few-Shot**, wenn Format/Ton schwer beschreibbar ist—1–3 Beispiele der _genauen_ Form.
 - **Dekomposition** langer Aufgaben: Gliederung → Ausbau → Edit; an jedem Schritt prüfen.
 - **Kritik-dann-Überarbeitung**, wenn ein Entwurf fast passt—erst Liste, dann Fix.
 - **Strukturierte Ausgabe** (JSON/Schema), wenn Maschine oder Reviewer parsen.
@@ -226,9 +229,11 @@ Nicht so tun, als wüsstest du es schon.
 ---
 
 ## Kerngedanke
+
 Muster sind **Steuerflächen**: Few-Shot für Form, Dekomposition für Länge, Kritik-Revision für Qualität, Grundierung für Fakten, strukturierte Ausgabe für Maschinen. Kleinstes passendes Muster nehmen—und **prüfen**.
 
 ## Weiterführend
+
 - [OpenAI — Prompt engineering guide](https://platform.openai.com/docs/guides/prompt-engineering)
 - [Anthropic — Prompt library](https://docs.anthropic.com/claude/prompt-library)
 - [Google — Prompt design strategies](https://ai.google.dev/gemini-api/docs/prompting-strategies)

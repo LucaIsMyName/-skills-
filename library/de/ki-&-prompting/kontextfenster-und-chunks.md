@@ -1,8 +1,11 @@
 # Kontextfenster und Chunks
 
-**Geltungsbereich:** Gilt für **Passen von Dokumenten, Verlauf und Tool-Outputs** ins **Kontextfenster** eines Sprachmodells—Chunking, Zusammenfassung, Priorisierung, Re-Anchoring, Kosten/Latenz. Nicht Modellarchitektur, nicht Produktions-Vektor-Infra (siehe [`rag-grundlagen.md`](rag-grundlagen.md)). Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`prompt-muster.md`](prompt-muster.md), [`skill-dokumentation-schreiben.md`](skill-dokumentation-schreiben.md) und [`sprachmodelle-im-code-nutzen.md`](../coding/sprachmodelle-im-code-nutzen.md).
+## Geltungsbereich:
+
+Gilt für **Passen von Dokumenten, Verlauf und Tool-Outputs** ins **Kontextfenster** eines Sprachmodells—Chunking, Zusammenfassung, Priorisierung, Re-Anchoring, Kosten/Latenz. Nicht Modellarchitektur, nicht Produktions-Vektor-Infra (siehe [`rag-grundlagen.md`](rag-grundlagen.md)). Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`prompt-muster.md`](prompt-muster.md), [`skill-dokumentation-schreiben.md`](skill-dokumentation-schreiben.md) und [`sprachmodelle-im-code-nutzen.md`](../coding/sprachmodelle-im-code-nutzen.md).
 
 ## Exzerpt
+
 - **Kontext ist endlich** (Tokens) und **nicht gratis** (Kosten, Latenz). Planen, nicht "reinstopfen".
 - **Chunks** an logischen Nähten; gleiche Frage pro Chunk; am Ende zusammenführen.
 - **Zusammenfassungen** mit explizitem Ziel; "fasse zusammen" verbirgt wichtige Fehler.
@@ -172,9 +175,11 @@ Vendor-Semantik aktuell prüfen.
 ---
 
 ## Kerngedanke
+
 Kontext ist ein **Budget**: kleinster Prompt, minimale maßgebliche Belege, Retrieval bei großen Korpora, frische Session bei müden Threads. Der beste Kontext macht die Antwort **kurz, geerdet, leicht reviewbar**.
 
 ## Weiterführend
+
 - [OpenAI — Models and token limits](https://platform.openai.com/docs/models)
 - [Anthropic — Long context](https://docs.anthropic.com/claude/docs/long-context-window-tips)
 - [Google — Gemini context caching](https://ai.google.dev/gemini-api/docs/caching)

@@ -3,18 +3,18 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '@/components/ui/accordion'
-import { useUiStrings } from '../hooks/useUiStrings'
-import type { TocItem } from '../lib/markdownToc'
+} from "@/components/ui/accordion";
+import { useUiStrings } from "../hooks/useUiStrings";
+import type { TocItem } from "../lib/markdownToc";
 
 type Props = {
-  items: TocItem[]
-}
+  items: TocItem[];
+};
 
 /** In-page TOC in a collapsible accordion (UI-only; not part of exported files). */
 export function InPageToc({ items }: Props) {
-  const t = useUiStrings()
-  if (items.length === 0) return null
+  const t = useUiStrings();
+  if (items.length === 0) return null;
 
   return (
     <Accordion
@@ -47,5 +47,5 @@ export function InPageToc({ items }: Props) {
         </AccordionContent>
       </AccordionItem>
     </Accordion>
-  )
+  );
 }

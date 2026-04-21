@@ -1,8 +1,11 @@
 # Empty and error states
 
-**Scope:** Applies to **designing non-happy-path screens**—empty lists, no results, loading, errors, permission denials, offline, limits reached. Not exception handling in code beyond UX implications. Pair with [`designing-good-interfaces.md`](designing-good-interfaces.md), [`content-design-and-microcopy.md`](content-design-and-microcopy.md), [`error-handling-and-logging.md`](../coding/error-handling-and-logging.md), and [`accessibility-in-code.md`](../coding/accessibility-in-code.md).
+## Scope:
+
+Applies to **designing non-happy-path screens**—empty lists, no results, loading, errors, permission denials, offline, limits reached. Not exception handling in code beyond UX implications. Pair with [`designing-good-interfaces.md`](designing-good-interfaces.md), [`content-design-and-microcopy.md`](content-design-and-microcopy.md), [`error-handling-and-logging.md`](../coding/error-handling-and-logging.md), and [`accessibility-in-code.md`](../coding/accessibility-in-code.md).
 
 ## Excerpt
+
 - **Empty is a feature**, not a missing page—tell users where they are and what to do next.
 - **Errors are content**: they need design, copy, and a path forward.
 - **Loading** should be **fast, predictable, and informative**—skeletons, not spinners, where possible.

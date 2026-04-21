@@ -62,7 +62,10 @@ function readingSection(locale) {
 }
 
 function normalize(content) {
-  return content.replace(/\n{3,}/g, "\n\n").replace(/\s+$/g, "").trimEnd();
+  return content
+    .replace(/\n{3,}/g, "\n\n")
+    .replace(/\s+$/g, "")
+    .trimEnd();
 }
 
 const files = walk(libraryRoot);

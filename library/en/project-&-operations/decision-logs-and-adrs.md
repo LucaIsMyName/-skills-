@@ -1,8 +1,11 @@
 # Decision logs and ADRs
 
-**Scope:** Recording **decisions** so teams remember **why**—lightweight decision logs and **Architecture Decision Records** (ADRs) for technical choices. Pair with [`project-briefs.md`](project-briefs.md), [`git-and-commits.md`](../coding/git-and-commits.md), and [`meetings-and-agendas.md`](meetings-and-agendas.md).
+## Scope:
+
+Recording **decisions** so teams remember **why**—lightweight decision logs and **Architecture Decision Records** (ADRs) for technical choices. Pair with [`project-briefs.md`](project-briefs.md), [`git-and-commits.md`](../coding/git-and-commits.md), and [`meetings-and-agendas.md`](meetings-and-agendas.md).
 
 ## Excerpt
+
 - **Context → Decision → Consequences**—short and durable.
 - **Supersedes** links when decisions change—**history** stays traceable.
 - **One decision per ADR**—do not mash ten topics.

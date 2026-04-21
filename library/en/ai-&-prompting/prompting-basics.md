@@ -1,8 +1,11 @@
 # Prompting basics
 
-**Scope:** Applies to **writing effective instructions** for language models—roles, constraints, examples, iteration, verification. Not model training, not vendor procurement, not org-wide AI policy (see [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md)). Pair with [`prompt-patterns.md`](prompt-patterns.md), [`evaluating-model-output.md`](evaluating-model-output.md), and [`writing-skill-documentation.md`](writing-skill-documentation.md).
+## Scope:
+
+Applies to **writing effective instructions** for language models—roles, constraints, examples, iteration, verification. Not model training, not vendor procurement, not org-wide AI policy (see [`ai-disclosure-and-policy.md`](../ethics-&-legal/ai-disclosure-and-policy.md)). Pair with [`prompt-patterns.md`](prompt-patterns.md), [`evaluating-model-output.md`](evaluating-model-output.md), and [`writing-skill-documentation.md`](writing-skill-documentation.md).
 
 ## Excerpt
+
 - **State the job** in one sentence; add **constraints** (length, tone, audience, format, what must not happen).
 - **Give examples** when format matters; **counter-examples** when a failure mode repeats.
 - **Iterate**: smallest prompt that could work → read output against acceptance criteria → change **one** variable.

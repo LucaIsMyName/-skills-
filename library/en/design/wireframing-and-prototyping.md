@@ -1,8 +1,11 @@
 # Wireframing and prototyping
 
-**Scope:** Applies to **sketches, wireframes, and clickable prototypes** for digital products—what to produce at which fidelity, how to test, how to hand off. Not full UX research, not front-end engineering. Pair with [`designing-good-interfaces.md`](designing-good-interfaces.md), [`information-architecture.md`](information-architecture.md), [`empty-and-error-states.md`](empty-and-error-states.md), and [`content-design-and-microcopy.md`](content-design-and-microcopy.md).
+## Scope:
+
+Applies to **sketches, wireframes, and clickable prototypes** for digital products—what to produce at which fidelity, how to test, how to hand off. Not full UX research, not front-end engineering. Pair with [`designing-good-interfaces.md`](designing-good-interfaces.md), [`information-architecture.md`](information-architecture.md), [`empty-and-error-states.md`](empty-and-error-states.md), and [`content-design-and-microcopy.md`](content-design-and-microcopy.md).
 
 ## Excerpt
+
 - **Lowest fidelity that answers the question**—paper for flows, wireframes for layout, prototypes for flow validation, mockups for polish.
 - **Structure before colour**. Test hierarchy, content, and navigation before visual design.
 - **Content-first**: use real words and real data early; lorem ipsum lies.

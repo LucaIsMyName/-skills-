@@ -1,8 +1,11 @@
 # TypeScript best practices
 
-**Scope:** Applies to **TypeScript in application code** (React, Node, API handlers, libraries); not build-tool configuration, not type system research. Pair with [`coding-best-practices.md`](coding-best-practices.md) for general rules and [`react-best-practices.md`](react-best-practices.md) for React specifics.
+## Scope:
+
+Applies to **TypeScript in application code** (React, Node, API handlers, libraries); not build-tool configuration, not type system research. Pair with [`coding-best-practices.md`](coding-best-practices.md) for general rules and [`react-best-practices.md`](react-best-practices.md) for React specifics.
 
 ## Excerpt
+
 - **Strict mode on, always.** `strict: true`, `noUncheckedIndexedAccess: true`, `exactOptionalPropertyTypes: true`.
 - Prefer **types that describe values**, not types that fight the language. Use narrowing, discriminated unions, and literal types.
 - **`unknown`** at boundaries (I/O, `JSON.parse`, network), **`never`** for exhaustiveness; **`any` is a last resort**—comment why.
@@ -84,9 +87,7 @@ type Response = { ok?: boolean; data?: T; error?: string };
 ### Good: discriminated unions over optional chaos
 
 ```ts
-type Response<T> =
-  | { ok: true; data: T }
-  | { ok: false; error: string };
+type Response<T> = { ok: true; data: T } | { ok: false; error: string };
 ```
 
 ## 5. `unknown` at boundaries
@@ -104,8 +105,10 @@ const user = UserSchema.parse(raw);
 ```ts
 function label(kind: "a" | "b"): string {
   switch (kind) {
-    case "a": return "A";
-    case "b": return "B";
+    case "a":
+      return "A";
+    case "b":
+      return "B";
     default: {
       const _exhaustive: never = kind;
       return _exhaustive;

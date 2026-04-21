@@ -7,7 +7,8 @@ This guide defines contribution rules for all pages in `library/`.
 Every page must include:
 
 1. `# Title`
-2. Scope line (`**Scope:**` for `en`, `**Geltungsbereich:**` for `de`)
+2. Scope line (`## Scope:
+` for `en`, `**Geltungsbereich:**` for `de`)
 3. Excerpt section (`## Excerpt` / `## Exzerpt`)
 4. Purpose section (`## Purpose` / `## Zweck`)
 5. Core takeaway section (`## Core idea` / `## Kerngedanke`)

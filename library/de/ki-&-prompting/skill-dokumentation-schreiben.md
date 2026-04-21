@@ -1,8 +1,11 @@
 # Skill-Dokumentation schreiben
 
-**Geltungsbereich:** Gilt für **diese Bibliothek und ähnliche Doc-Sets**—Struktur, Überschriften, Querverweise, Beispiele, Stil, damit Texte gut lesbar, zitierbar und konsistent bleiben. Keine allgemeine Technik-Schreib-Theorie. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`kontextfenster-und-chunks.md`](kontextfenster-und-chunks.md), [`markdown-und-mdx.md`](../coding/markdown-und-mdx.md) und [`AGENTS.md`](../../../AGENTS.md).
+## Geltungsbereich:
+
+Gilt für **diese Bibliothek und ähnliche Doc-Sets**—Struktur, Überschriften, Querverweise, Beispiele, Stil, damit Texte gut lesbar, zitierbar und konsistent bleiben. Keine allgemeine Technik-Schreib-Theorie. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`kontextfenster-und-chunks.md`](kontextfenster-und-chunks.md), [`markdown-und-mdx.md`](../coding/markdown-und-mdx.md) und [`AGENTS.md`](../../../AGENTS.md).
 
 ## Exzerpt
+
 - **Vorhersagbare Form** hilft Lesenden beim Skimmen und hilft Suche und Zusammenfassung: H1, Scope, Excerpt, Before, Purpose, nummerierte Sektionen, Core idea, Further reading.
 - **Kurze, deklarative** Sätze. Kurze Absätze. Viele **Schlecht/Gut**-Paare.
 - **Verknüpfen** zu Geschwisterseiten in Scope; erneut in Sektionen, wo sinnvoll.
@@ -37,7 +40,8 @@ Dokumente schreiben, die **zuverlässig nutzbar** sind—skimmbar, verlinkbar, a
 Reihenfolge:
 
 1. `# Titel` (lesbar, nicht Dateiname).
-2. `**Scope:**` Satz + 2–4 Geschwisterlinks.
+2. `## Scope:
+` Satz + 2–4 Geschwisterlinks.
 3. `## Excerpt` — 4–6 Bullets; TL;DR.
 4. `## Before <verb>` — mit `### Konkret` (Inputs) und `### Meta` (Urteil).
 5. `---`
@@ -68,7 +72,9 @@ Es geht um Prompts.
 ```md
 # Prompten-Grundlagen
 
-**Geltungsbereich:** Gilt für **wirksame Anweisungen**—Rollen, Einschränkungen,
+## Geltungsbereich:
+
+Gilt für **wirksame Anweisungen**—Rollen, Einschränkungen,
 Beispiele, Iteration, Prüfung. Nicht Modelltraining, nicht Policy. Kombiniere
 mit [`prompt-muster.md`](prompt-muster.md) und [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
 ```
@@ -139,9 +145,11 @@ So schreiben, dass der Abschnitt auch einzeln zitiert noch Sinn ergibt.
 ---
 
 ## Kerngedanke
+
 Ein Doc hier ist ein **Vertrag** mit der nächsten Leserin: **vorhersagbare Form, konkrete Beispiele, kurze Sätze, ehrliche Unsicherheit, nützliche Querverweise.**
 
 ## Weiterführend
+
 - [Diátaxis — Documentation framework](https://diataxis.fr/)
 - [Google developer documentation style guide](https://developers.google.com/style)
 - [Write the Docs — Documentation guide](https://www.writethedocs.org/guide/)

@@ -1,8 +1,11 @@
 # Open source licences
 
-**Scope:** Applies to **using, contributing, and releasing open-source code**—choosing a licence, respecting others', attribution, copyleft, dual-licensing, contributor agreements. Not patent law, not trademark, not full compliance programs. Pair with [`git-and-commits.md`](../coding/git-and-commits.md), [`ai-training-and-scraping.md`](ai-training-and-scraping.md), [`language-models-in-code.md`](../coding/language-models-in-code.md), and [`gdpr-basics.md`](gdpr-basics.md).
+## Scope:
+
+Applies to **using, contributing, and releasing open-source code**—choosing a licence, respecting others', attribution, copyleft, dual-licensing, contributor agreements. Not patent law, not trademark, not full compliance programs. Pair with [`git-and-commits.md`](../coding/git-and-commits.md), [`ai-training-and-scraping.md`](ai-training-and-scraping.md), [`language-models-in-code.md`](../coding/language-models-in-code.md), and [`gdpr-basics.md`](gdpr-basics.md).
 
 ## Excerpt
+
 - **Every dependency has a licence**—know which.
 - **Permissive (MIT/BSD/Apache)** vs **copyleft (GPL/AGPL/MPL)**—understand what each obliges you to do.
 - **Attribution** almost always required; ship `NOTICE`/`THIRD_PARTY_LICENSES`.

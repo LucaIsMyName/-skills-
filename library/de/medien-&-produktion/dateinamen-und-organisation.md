@@ -1,8 +1,11 @@
 # Dateinamen und Organisation
 
-**Geltungsbereich:** **Konventionen** für Medienprojekte—lesbar für Mensch und Maschine. Ergänzt [`marken-toolkit-und-asset-bibliothek.md`](marken-toolkit-und-asset-bibliothek.md), [`git-und-commits.md`](../coding/git-und-commits.md) und [`video-produktion-grundlagen.md`](video-produktion-grundlagen.md).
+## Geltungsbereich:
+
+**Konventionen** für Medienprojekte—lesbar für Mensch und Maschine. Ergänzt [`marken-toolkit-und-asset-bibliothek.md`](marken-toolkit-und-asset-bibliothek.md), [`git-und-commits.md`](../coding/git-und-commits.md) und [`video-produktion-grundlagen.md`](video-produktion-grundlagen.md).
 
 ## Exzerpt
+
 - Muster: `YYYY-MM-DD_projekt_teil_v02.ext`
 - **Keine** Leerzeichen; `-` oder `_` **konsistent**.
 - **Versionen** statt „final_final“.
@@ -133,6 +136,7 @@ Nach Kampagne: nach /archive/2025-summer-campaign; README mit Aufbewahrung; Mast
 ---
 
 ## Kerngedanke
+
 Namen sind **günstige Metadaten**—**sofort** investieren.
 
 ## Weiterführend

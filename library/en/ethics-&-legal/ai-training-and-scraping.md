@@ -1,8 +1,11 @@
 # AI training and scraping
 
-**Scope:** Applies to **how your content, code, and data relate to AI training and web scraping**—opt-outs, `robots.txt`, copyright, datasets, terms of service, defensive practice. Not a full IP or litigation guide. Pair with [`open-source-licenses.md`](open-source-licenses.md), [`gdpr-basics.md`](gdpr-basics.md), [`ai-disclosure-and-policy.md`](ai-disclosure-and-policy.md), and [`using-ai-for-research.md`](../ai-&-prompting/using-ai-for-research.md).
+## Scope:
+
+Applies to **how your content, code, and data relate to AI training and web scraping**—opt-outs, `robots.txt`, copyright, datasets, terms of service, defensive practice. Not a full IP or litigation guide. Pair with [`open-source-licenses.md`](open-source-licenses.md), [`gdpr-basics.md`](gdpr-basics.md), [`ai-disclosure-and-policy.md`](ai-disclosure-and-policy.md), and [`using-ai-for-research.md`](../ai-&-prompting/using-ai-for-research.md).
 
 ## Excerpt
+
 - **You own what you publish**, and can **signal** whether you allow training and scraping.
 - **`robots.txt` + `ai.txt` + HTTP headers + platform settings** are the practical tools today.
 - **Personal data** in training sets is a **GDPR** issue, even if it was public.
@@ -36,7 +39,7 @@ Keep control of your **content, data, and reputation** in a world of large-scale
 
 - **Pre-training** — huge, largely indiscriminate datasets feed base models.
 - **Fine-tuning / instruction-tuning** — smaller, curated datasets adjust behaviour.
-- **RAG / retrieval** — models are *not* "trained" on retrieved docs; they cite them at query time.
+- **RAG / retrieval** — models are _not_ "trained" on retrieved docs; they cite them at query time.
 - **Evaluations** — datasets used to test models.
 
 Your permissions may differ for each. "No training" is common; "no retrieval" is different.
@@ -44,6 +47,7 @@ Your permissions may differ for each. "No training" is common; "no retrieval" is
 ## 2. Signals you can send from a website
 
 - **`robots.txt`** — instructs well-behaved crawlers. Examples:
+
   ```
   User-agent: GPTBot
   Disallow: /
@@ -54,6 +58,7 @@ Your permissions may differ for each. "No training" is common; "no retrieval" is
   User-agent: Google-Extended
   Disallow: /
   ```
+
 - **AI-specific files** — emerging conventions: `ai.txt`, `/.well-known/ai.txt`; not universally respected yet.
 - **HTTP headers / meta tags** — `X-Robots-Tag`, `<meta name="robots" content="noai, noimageai">`; support varies.
 - **Terms of service** — explicit clause covering scraping and training.

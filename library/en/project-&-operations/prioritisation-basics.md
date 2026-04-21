@@ -1,8 +1,11 @@
 # Prioritisation basics
 
-**Scope:** **Choosing** what to do next—impact/effort, RICE-style thinking, MoSCoW—without dogma. Not OKR coaching. Pair with [`project-briefs.md`](project-briefs.md), [`status-updates-and-reporting.md`](status-updates-and-reporting.md), and [`retrospectives.md`](retrospectives.md).
+## Scope:
+
+**Choosing** what to do next—impact/effort, RICE-style thinking, MoSCoW—without dogma. Not OKR coaching. Pair with [`project-briefs.md`](project-briefs.md), [`status-updates-and-reporting.md`](status-updates-and-reporting.md), and [`retrospectives.md`](retrospectives.md).
 
 ## Excerpt
+
 - **Frame** the goal—priorities without a goal are **politics**.
 - **Impact** and **confidence**—evidence beats seniority.
 - **Cost** includes **maintenance** and **support**, not only build.

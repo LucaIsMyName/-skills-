@@ -1,8 +1,11 @@
 # Untertitel und Untertitelung
 
-**Geltungsbereich:** **Text auf Video**—Captions (Barrierefreiheit), Untertitel (Übersetzung)—Workflows und Qualität. Ergänzt [`barrierefreiheit-kommunikation.md`](../sprache-&-kommunikation/barrierefreiheit-kommunikation.md), [`video-produktion-grundlagen.md`](video-produktion-grundlagen.md) und [`podcasting-grundlagen.md`](podcasting-grundlagen.md).
+## Geltungsbereich:
+
+**Text auf Video**—Captions (Barrierefreiheit), Untertitel (Übersetzung)—Workflows und Qualität. Ergänzt [`barrierefreiheit-kommunikation.md`](../sprache-&-kommunikation/barrierefreiheit-kommunikation.md), [`video-produktion-grundlagen.md`](video-produktion-grundlagen.md) und [`podcasting-grundlagen.md`](podcasting-grundlagen.md).
 
 ## Exzerpt
+
 - **Captions** für viele Nutzer\*innen **pflichtnah**—wo möglich **default an**.
 - **Genauigkeit** vor Geschwindigkeit—**Namen** und **Fachbegriffe** prüfen.
 - **Sprecher\*innen** kennzeichnen; **Geräusche** in Klammern, wenn relevant.
@@ -88,7 +91,7 @@ Sam: Danke…
 
 ### Regel
 
-**SRT/VTT** bevorzugen, damit Nutzer*innen **Größe**, **Stil** und **Übersetzung** wählen—Einbrennen nur bei Plattform- oder Autoplay-Zwang.
+**SRT/VTT** bevorzugen, damit Nutzer\*innen **Größe**, **Stil** und **Übersetzung** wählen—Einbrennen nur bei Plattform- oder Autoplay-Zwang.
 
 ### Gut: sidecar statt eingebrannt
 
@@ -150,6 +153,7 @@ Standard: wörtlich; bei vereinfachter Lesestufe kennzeichnen und bei sensiblen 
 ---
 
 ## Kerngedanke
+
 Untertitel sind **Teil der Botschaft**—**Genauigkeit**, **Timing**, **Inklusion**.
 
 ## Weiterführend

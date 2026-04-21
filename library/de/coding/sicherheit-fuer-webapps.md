@@ -1,8 +1,11 @@
 # Sicherheit für Webapps
 
-**Geltungsbereich:** Gilt für **alltägliche App-Security** in Webprodukten—Auth, Input, Dependencies, Secrets, Header, Logging. Kein komplettes Infosec-Programm, keine Kryptoprotokoll-Entwicklung, kein Pentest. Kombiniere mit [`api-design-und-rest.md`](api-design-und-rest.md), [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md), [`dsgvo-grundlagen.md`](../ethik-&-recht/dsgvo-grundlagen.md) und [`strukturierte-ausgabe-und-tools.md`](../ki-&-prompting/strukturierte-ausgabe-und-tools.md).
+## Geltungsbereich:
+
+Gilt für **alltägliche App-Security** in Webprodukten—Auth, Input, Dependencies, Secrets, Header, Logging. Kein komplettes Infosec-Programm, keine Kryptoprotokoll-Entwicklung, kein Pentest. Kombiniere mit [`api-design-und-rest.md`](api-design-und-rest.md), [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md), [`dsgvo-grundlagen.md`](../ethik-&-recht/dsgvo-grundlagen.md) und [`strukturierte-ausgabe-und-tools.md`](../ki-&-prompting/strukturierte-ausgabe-und-tools.md).
 
 ## Exzerpt
+
 - **Default-deny** überall: Auth, Autorisierung, Netz, CORS, CSP.
 - **Validieren** am Rand; **Escapen** am Sink (HTML, SQL, Shell).
 - **Secrets** in Env/Secret-Manager—nie im Code, nie im Log.
@@ -51,17 +54,19 @@ Webapp bauen, die Nutzerdaten und Reputation **by default** schützt—mit sicht
 ### Schlecht: autorisierung
 
 ```ts
-if (user.isAdmin) { /* Button zeigen */ }
+if (user.isAdmin) {
+  /* Button zeigen */
+}
 // Server akzeptiert ohne weitere Prüfung
 ```
 
 ### Gut: autorisierung
 
 ```ts
-router.post('/invoices/:id/void', requireAuth, async (req, res) => {
-  const invoice = await db.invoice.findById(req.params.id)
-  if (!canVoid(req.user, invoice)) return res.status(403).end()
-})
+router.post("/invoices/:id/void", requireAuth, async (req, res) => {
+  const invoice = await db.invoice.findById(req.params.id);
+  if (!canVoid(req.user, invoice)) return res.status(403).end();
+});
 ```
 
 ## 3. Inputs
@@ -132,9 +137,11 @@ Siehe [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md).
 ---
 
 ## Kerngedanke
+
 Die meisten Breaches sind **banal**. Das Banale verteidigen: **Default-deny**, parametrisieren, Secrets rotieren, Deps updaten, richtig loggen, Plan für Versagen.
 
 ## Weiterführend
+
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 - [OWASP Cheat Sheets](https://cheatsheetseries.owasp.org/)
 - [Mozilla Observatory](https://observatory.mozilla.org/)

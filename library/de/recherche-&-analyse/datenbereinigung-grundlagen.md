@@ -1,8 +1,11 @@
 # Datenbereinigung — Grundlagen
 
-**Geltungsbereich:** **Praktische** Bereinigung vor Analysen—Typen, fehlende Werte, Duplikate, einfache Validierung. Ergänzt [`statistik-einfach-lesen.md`](statistik-einfach-lesen.md), [`umfragedesign.md`](umfragedesign.md) und [`notizen-und-synthese.md`](notizen-und-synthese.md).
+## Geltungsbereich:
+
+**Praktische** Bereinigung vor Analysen—Typen, fehlende Werte, Duplikate, einfache Validierung. Ergänzt [`statistik-einfach-lesen.md`](statistik-einfach-lesen.md), [`umfragedesign.md`](umfragedesign.md) und [`notizen-und-synthese.md`](notizen-und-synthese.md).
 
 ## Exzerpt
+
 - Zuerst **profilieren**: Werteberichte, fehlende Felder, Distincts.
 - **Formate** vereinheitlichen (Datum, Währung, Booleans).
 - **Deduplizieren** mit klarer Regel.
@@ -34,7 +37,7 @@ Plausibilitätsregeln; Ausreißer **flaggen**, nicht heimlich tilgen.
 
 ## 2. Fehlende Werte
 
-Je nach Fragestellung Statistik einbeziehen—bei **hohem** Eins Expert*in.
+Je nach Fragestellung Statistik einbeziehen—bei **hohem** Eins Expert\*in.
 
 ## 3. Was nicht tun
 
@@ -43,6 +46,7 @@ Je nach Fragestellung Statistik einbeziehen—bei **hohem** Eins Expert*in.
 ---
 
 ## Kerngedanke
+
 Bereinigung macht **Unsicherheit sichtbar**: **was** geändert wurde und **warum**.
 
 ## Weiterführend

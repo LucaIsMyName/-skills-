@@ -1,8 +1,11 @@
 # Datenvisualisierung (Grundlagen)
 
-**Geltungsbereich:** **Diagramme und Datengrafiken** in Dashboards und Berichten (Web oder statisch); keine vollständige Statistik oder BI-Konfiguration.
+## Geltungsbereich:
+
+**Diagramme und Datengrafiken** in Dashboards und Berichten (Web oder statisch); keine vollständige Statistik oder BI-Konfiguration.
 
 ## Exzerpt
+
 - Nutzen für **Diagrammwahl**, Achsenbeschriftung und **Farbe** ohne verzerrte Bedeutung.
 - **Klare Titel** in Alltagssprache; **Unsicherheit** anzeigen, wenn relevant.
 - **Barrierefreiheit:** Kategorien nicht nur über Farbe unterscheiden; wo möglich Tabelle oder Beschriftung.
@@ -30,12 +33,12 @@ Dieses Dokument unterstützt **ehrliche, lesbare** Datenvisualisierungen für **
 
 ### 1. Diagrammtyp zur Frage passen
 
-| Frage | Oft sinnvoll |
-|--------|----------------|
-| Entwicklung über Zeit | Linie oder Säulen |
-| Kategorien vergleichen | Balken (horizontal bei langen Labels) |
+| Frage                    | Oft sinnvoll                                           |
+| ------------------------ | ------------------------------------------------------ |
+| Entwicklung über Zeit    | Linie oder Säulen                                      |
+| Kategorien vergleichen   | Balken (horizontal bei langen Labels)                  |
 | Anteil am Ganzen (100 %) | Gestapelte Balken oder Kreis nur bei wenigen Segmenten |
-| Zusammenhang | Streudiagramm |
+| Zusammenhang             | Streudiagramm                                          |
 
 ### Schlecht: grundregeln
 
@@ -90,7 +93,7 @@ Vermeiden, **moralische** Qualität nur über Grün–Rot zu suggerieren, außer
 
 ## Abschließender Gedanke
 
- Ein Diagramm ist ein **Argument**. Die Behauptung muss **zum Datenstand passen**.
+Ein Diagramm ist ein **Argument**. Die Behauptung muss **zum Datenstand passen**.
 
 ## Weiterführende Links
 

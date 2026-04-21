@@ -1,8 +1,11 @@
 # Project briefs
 
-**Scope:** A **one-page** alignment doc for a project—goals, scope, constraints, owners. Not a full business case. Pair with [`creative-briefs.md`](creative-briefs.md), [`prioritisation-basics.md`](prioritisation-basics.md), and [`status-updates-and-reporting.md`](status-updates-and-reporting.md).
+## Scope:
+
+A **one-page** alignment doc for a project—goals, scope, constraints, owners. Not a full business case. Pair with [`creative-briefs.md`](creative-briefs.md), [`prioritisation-basics.md`](prioritisation-basics.md), and [`status-updates-and-reporting.md`](status-updates-and-reporting.md).
 
 ## Excerpt
+
 - **Problem** and **success** in plain language—**measurable** where possible.
 - **In scope / out of scope**—prevents late creep.
 - **Owner** (DRI), **sponsor**, **stakeholders**.

@@ -1,8 +1,11 @@
 # Urheber- und Nutzungsrechte
 
-**Geltungsbereich:** Gilt für **Nutzung, Bearbeitung und Veröffentlichung** von Fotos, Illustrationen, Musik, Schriften, Code-Snippets, Textzitaten und KI-generiertem Material. Kein Ersatz für Rechtsberatung. Ergänzt [`bild-und-zitatfreigaben.md`](bild-und-zitatfreigaben.md) und [`ki-offenlegung-und-richtlinien.md`](ki-offenlegung-und-richtlinien.md).
+## Geltungsbereich:
+
+Gilt für **Nutzung, Bearbeitung und Veröffentlichung** von Fotos, Illustrationen, Musik, Schriften, Code-Snippets, Textzitaten und KI-generiertem Material. Kein Ersatz für Rechtsberatung. Ergänzt [`bild-und-zitatfreigaben.md`](bild-und-zitatfreigaben.md) und [`ki-offenlegung-und-richtlinien.md`](ki-offenlegung-und-richtlinien.md).
 
 ## Exzerpt
+
 - **Standard: alles ist urheberrechtlich geschützt**, ab dem Moment der Schöpfung.
 - **Lizenz prüfen, dann nutzen.** Umfang, Namensnennung, Bearbeitung, kommerzielle Nutzung.
 - **Namensnennung ist keine Lizenz**—Credit allein macht unlizenzierte Nutzung nicht legal.

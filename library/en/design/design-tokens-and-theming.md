@@ -1,8 +1,11 @@
 # Design tokens and theming
 
-**Scope:** Applies to **naming and scaling design tokens** (color, space, radius, typography) and **light/dark themes** in digital products; not a full design system governance process or code implementation details (see coding skills for implementation).
+## Scope:
+
+Applies to **naming and scaling design tokens** (color, space, radius, typography) and **light/dark themes** in digital products; not a full design system governance process or code implementation details (see coding skills for implementation).
 
 ## Excerpt
+
 - Use when defining **semantic tokens** (`color.action.primary`) instead of only raw values (`#3366cc`).
 - Keep **one source of truth** for spacing and radius scales; document dark-mode mappings alongside light.
 - **Ask** for existing token set or design tool export before inventing names.
@@ -94,7 +97,8 @@ A one-page table: **token name → value → usage** prevents drift between desi
 ---
 
 ## Core idea
- Tokens are **contracts**. If the name does not describe **role**, theme switches become painful.
+
+Tokens are **contracts**. If the name does not describe **role**, theme switches become painful.
 
 ## Further reading
 

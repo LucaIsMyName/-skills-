@@ -1,8 +1,11 @@
 # Subtitles and captions
 
-**Scope:** **Text on video**—captions for accessibility, subtitles for translation—workflows and quality. Pair with [`accessibility-for-comms.md`](../language-&-communication/accessibility-for-comms.md), [`video-production-basics.md`](video-production-basics.md), and [`podcasting-basics.md`](podcasting-basics.md).
+## Scope:
+
+**Text on video**—captions for accessibility, subtitles for translation—workflows and quality. Pair with [`accessibility-for-comms.md`](../language-&-communication/accessibility-for-comms.md), [`video-production-basics.md`](video-production-basics.md), and [`podcasting-basics.md`](podcasting-basics.md).
 
 ## Excerpt
+
 - **Captions** are **not** optional for many users—**default** them on social where possible.
 - **Accuracy** beats speed—**names** and **terms** verified.
 - **Speaker IDs** when multiple speakers; **sound cues** in brackets if relevant.

@@ -1,8 +1,11 @@
 # Literature summarising
 
-**Scope:** Applies to **condensing studies, reports, policy papers, and long articles** into honest, attributed summaries for briefings, stories, and internal notes. Pair with [`source-evaluation-and-fact-checking.md`](source-evaluation-and-fact-checking.md), [`notes-and-synthesis.md`](notes-and-synthesis.md), [`reading-statistics-plainly.md`](reading-statistics-plainly.md).
+## Scope:
+
+Applies to **condensing studies, reports, policy papers, and long articles** into honest, attributed summaries for briefings, stories, and internal notes. Pair with [`source-evaluation-and-fact-checking.md`](source-evaluation-and-fact-checking.md), [`notes-and-synthesis.md`](notes-and-synthesis.md), [`reading-statistics-plainly.md`](reading-statistics-plainly.md).
 
 ## Excerpt
+
 - **Faithfulness first**: a summary preserves the source's claim, scope, and uncertainty—then trims.
 - **Keep the hedges.** "May", "in some cases", "limited to a small sample"—these are the source's truth, not filler to delete.
 - **Separate the finding from your take.** Summary and commentary go in different paragraphs.

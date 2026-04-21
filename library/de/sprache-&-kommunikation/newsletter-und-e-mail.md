@@ -1,8 +1,11 @@
 # Newsletter und E-Mail
 
-**Geltungsbereich:** **Newsletter und organisatorische E-Mails** von gemeinnützigen und sozialen Organisationen (Spendenaufrufe, Einladungen, Updates); keine individuellen HR- oder Rechtsschreiben und **keine** Erfindung von Abmelde- oder Datenschutzklauseln—Verweis auf **Rechtsprüfung** und freigegebenen Boilerplate.
+## Geltungsbereich:
+
+**Newsletter und organisatorische E-Mails** von gemeinnützigen und sozialen Organisationen (Spendenaufrufe, Einladungen, Updates); keine individuellen HR- oder Rechtsschreiben und **keine** Erfindung von Abmelde- oder Datenschutzklauseln—Verweis auf **Rechtsprüfung** und freigegebenen Boilerplate.
 
 ## Exzerpt
+
 - Nutzen für **Betreffzeile, Vorschautext, Aufbau** und möglichst **eine primäre Handlungsaufforderung** pro Mail.
 - **Niemals** finale Rechtstexte oder regionale Pflichtformulierungen erfinden—**Platzhalter** und Rechtsreview empfehlen.
 - **Nachfragen** nach Zielgruppe, Versandtermin, Links und Markenstimme.
@@ -109,7 +112,7 @@ Wenn der Nutzer Segmente nennt, **Sprache und Beispiele** daran ausrichten—Spe
 
 ## Abschließender Gedanke
 
- E-Mail lebt von **Vertrauen**. Klarheit schlägt Effekthascherei; **rechtliche Pflichttexte** kommen aus der Organisation, nicht aus dem Modell.
+E-Mail lebt von **Vertrauen**. Klarheit schlägt Effekthascherei; **rechtliche Pflichttexte** kommen aus der Organisation, nicht aus dem Modell.
 
 ## Weiterführend
 

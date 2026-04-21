@@ -1,8 +1,11 @@
 # Using AI for research
 
-**Scope:** Applies to **language models in research tasks**—literature scans, interview summarisation, coding qualitative data, drafting survey questions, hypothesis generation. Not statistics (use proper tooling) and not peer-reviewed research methodology. Pair with [`prompting-basics.md`](prompting-basics.md), [`rag-basics.md`](rag-basics.md), [`desk-research.md`](../research-&-analysis/desk-research.md), [`source-evaluation-and-fact-checking.md`](../research-&-analysis/source-evaluation-and-fact-checking.md), [`qualitative-coding.md`](../research-&-analysis/qualitative-coding.md), and [`evaluating-model-output.md`](evaluating-model-output.md).
+## Scope:
+
+Applies to **language models in research tasks**—literature scans, interview summarisation, coding qualitative data, drafting survey questions, hypothesis generation. Not statistics (use proper tooling) and not peer-reviewed research methodology. Pair with [`prompting-basics.md`](prompting-basics.md), [`rag-basics.md`](rag-basics.md), [`desk-research.md`](../research-&-analysis/desk-research.md), [`source-evaluation-and-fact-checking.md`](../research-&-analysis/source-evaluation-and-fact-checking.md), [`qualitative-coding.md`](../research-&-analysis/qualitative-coding.md), and [`evaluating-model-output.md`](evaluating-model-output.md).
 
 ## Excerpt
+
 - **AI helps you think; it does not know**. Treat outputs as **hypotheses**, not findings.
 - **Ground** the model in your sources—never ask it to recite facts from memory.
 - **Cite** every claim back to a source you have read; no citation = not a claim.
@@ -41,7 +44,7 @@ Use AI to **accelerate** research tasks—literature scans, coding, pattern-find
 - **Critiquing** a draft for gaps, unclear wording, or unsupported claims.
 - **Translating** rough notes (reviewed by a native speaker).
 
-## 2. What AI is *not* good for, in research
+## 2. What AI is _not_ good for, in research
 
 - **Citing** sources from memory—outputs are often confident fabrications.
 - **Statistics** beyond counting what you provide.

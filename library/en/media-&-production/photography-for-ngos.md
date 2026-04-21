@@ -1,8 +1,11 @@
 # Photography for NGOs
 
-**Scope:** **Planning and shooting** photos for nonprofits—consent, dignity, safety, technical basics. Not full photojournalism career guide. Pair with [`image-and-quote-releases.md`](../ethics-&-legal/image-and-quote-releases.md), [`image-ethics-and-framing.md`](image-ethics-and-framing.md), and [`images-and-photography.md`](../design/images-and-photography.md).
+## Scope:
+
+**Planning and shooting** photos for nonprofits—consent, dignity, safety, technical basics. Not full photojournalism career guide. Pair with [`image-and-quote-releases.md`](../ethics-&-legal/image-and-quote-releases.md), [`image-ethics-and-framing.md`](image-ethics-and-framing.md), and [`images-and-photography.md`](../design/images-and-photography.md).
 
 ## Excerpt
+
 - **Consent** and **context**—who can be identified; can the image be reused?
 - **Dignity** over pity—**avoid** exploitative framing.
 - **Representation**: show **agency**, not only vulnerability—**diversify** subjects with care.

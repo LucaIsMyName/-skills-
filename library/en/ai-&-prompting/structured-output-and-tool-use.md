@@ -1,8 +1,11 @@
 # Structured output and tool use
 
-**Scope:** Applies to **getting machine-parseable outputs from language models** (JSON, schemas, enums) and **wiring models to tools** (functions, search, databases) safely. Not full API design (see [`api-design-and-rest.md`](../coding/api-design-and-rest.md)) and not production MLOps. Pair with [`prompting-basics.md`](prompting-basics.md), [`prompt-patterns.md`](prompt-patterns.md), [`evaluating-model-output.md`](evaluating-model-output.md), [`language-models-in-code.md`](../coding/language-models-in-code.md), and [`security-for-web-apps.md`](../coding/security-for-web-apps.md).
+## Scope:
+
+Applies to **getting machine-parseable outputs from language models** (JSON, schemas, enums) and **wiring models to tools** (functions, search, databases) safely. Not full API design (see [`api-design-and-rest.md`](../coding/api-design-and-rest.md)) and not production MLOps. Pair with [`prompting-basics.md`](prompting-basics.md), [`prompt-patterns.md`](prompt-patterns.md), [`evaluating-model-output.md`](evaluating-model-output.md), [`language-models-in-code.md`](../coding/language-models-in-code.md), and [`security-for-web-apps.md`](../coding/security-for-web-apps.md).
 
 ## Excerpt
+
 - **Schema first**: define fields, types, required/optional, enums—then ask the model to **conform**.
 - **Validate** every response—models can emit invalid JSON, extra keys, or the wrong types.
 - **Tools** (search, calculators, ticket systems) belong in **your code**, with **auth** and **auditing**—never "magic" hidden in the prompt.
@@ -75,10 +78,10 @@ Never trust the first parse.
 4. On repeated failure: **abort** and log.
 
 ```ts
-const parsed = JSON.parse(raw)
-const result = Schema.safeParse(parsed)
+const parsed = JSON.parse(raw);
+const result = Schema.safeParse(parsed);
 if (!result.success) {
-  logger.warn('schema_invalid', { issues: result.error.issues })
+  logger.warn("schema_invalid", { issues: result.error.issues });
   // optional single-shot repair, then give up
 }
 ```

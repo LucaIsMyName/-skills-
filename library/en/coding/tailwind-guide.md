@@ -1,8 +1,11 @@
 # Tailwind CSS guide
 
-**Scope:** **Utility-first styling** with Tailwind in apps (this library assumes **Tailwind v4**-style setup: `@import 'tailwindcss'`, CSS-first config, and `@theme` tokens). Not a substitute for component-library docs or a11y audits—pair with [`accessibility-in-code.md`](accessibility-in-code.md), [`react-best-practices.md`](react-best-practices.md), and design explainers under **Design**.
+## Scope:
+
+**Utility-first styling** with Tailwind in apps (this library assumes **Tailwind v4**-style setup: `@import 'tailwindcss'`, CSS-first config, and `@theme` tokens). Not a substitute for component-library docs or a11y audits—pair with [`accessibility-in-code.md`](accessibility-in-code.md), [`react-best-practices.md`](react-best-practices.md), and design explainers under **Design**.
 
 ## Excerpt
+
 - **Prefer tokens over one-off pixels.** Map recurring values to your theme (`@theme`, design tokens) so UI stays consistent.
 - **Utilities describe state, not stories.** `hover:`, `focus-visible:`, `disabled:` belong in the same component string when behavior is local.
 - **Extract components when repetition hurts**, not on the first duplicate—copy/paste twice can be cheaper than the wrong abstraction.
@@ -30,7 +33,7 @@ Tailwind is **design constraints expressed as classes**:
 ### Typical entry CSS
 
 ```css
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
   /* Map your product tokens here — fonts, radii, brand colours */
@@ -61,7 +64,7 @@ Tailwind is **design constraints expressed as classes**:
 
 ### Reach for a component (function or partial) when
 
-- The **same 15+ classes** appear in multiple places *with the same meaning* (“primary button”, “card shell”).
+- The **same 15+ classes** appear in multiple places _with the same meaning_ (“primary button”, “card shell”).
 - You need **props** for variants that would otherwise be string interpolation soup.
 - Tests or Storybook need a **named building block**.
 
@@ -121,7 +124,7 @@ Tailwind is **design constraints expressed as classes**:
 
 - **Sort classes** consistently (use the official Prettier plugin or team convention: layout → box → typography → visuals → states).
 - **Break long class strings** with small helpers or `clsx`/`cn` **only when** conditional logic is real—don’t import utilities for static strings.
-- **Name the intent** in the component or a `data-testid` when behaviour matters; class names alone rarely explain *why*.
+- **Name the intent** in the component or a `data-testid` when behaviour matters; class names alone rarely explain _why_.
 
 ---
 
@@ -135,13 +138,13 @@ Tailwind is **design constraints expressed as classes**:
 
 ## 10. Common mistakes
 
-| Mistake | Why it hurts |
-|--------|----------------|
-| Giant unmaintainable strings | Hard to review; easy to miss a breakpoint. |
-| Fighting the scale | Random pixels break rhythm and design-system alignment. |
+| Mistake                       | Why it hurts                                                     |
+| ----------------------------- | ---------------------------------------------------------------- |
+| Giant unmaintainable strings  | Hard to review; easy to miss a breakpoint.                       |
+| Fighting the scale            | Random pixels break rhythm and design-system alignment.          |
 | Hiding focus “for aesthetics” | Illegal usability failure for keyboard and assistive tech users. |
-| Duplicating “card” five ways | Drifts visually; consolidate or use a shared primitive. |
-| Ignoring build content paths | Missing classes in production = broken layout. |
+| Duplicating “card” five ways  | Drifts visually; consolidate or use a shared primitive.          |
+| Ignoring build content paths  | Missing classes in production = broken layout.                   |
 
 ---
 

@@ -1,65 +1,65 @@
-import { Outlet, useLocation, useParams } from 'react-router-dom'
-import { useState, useEffect, useCallback } from 'react'
-import { Button } from '@/components/ui/button'
+import { Outlet, useLocation, useParams } from "react-router-dom";
+import { useState, useEffect, useCallback } from "react";
+import { Button } from "@/components/ui/button";
 import {
   Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from '@/components/ui/sheet'
-import { useLibraryIndex } from '../hooks/useLibraryIndex'
-import { useUiStrings } from '../hooks/useUiStrings'
-import { AppLogo } from '../components/AppLogo'
-import { ChapterNav } from '../components/ChapterNav'
-import { LangSwitch } from '../components/LangSwitch'
-import { DarkModeToggle } from '../components/DarkModeToggle'
+} from "@/components/ui/sheet";
+import { useLibraryIndex } from "../hooks/useLibraryIndex";
+import { useUiStrings } from "../hooks/useUiStrings";
+import { AppLogo } from "../components/AppLogo";
+import { ChapterNav } from "../components/ChapterNav";
+import { LangSwitch } from "../components/LangSwitch";
+import { DarkModeToggle } from "../components/DarkModeToggle";
 import {
   DocsSearchDialog,
   DocsSearchTriggerButton,
-} from '../components/DocsSearchDialog'
+} from "../components/DocsSearchDialog";
 
 export function DocsLayout() {
-  const location = useLocation()
+  const location = useLocation();
   const { lang } = useParams<{
-    lang: string
-  }>()
-  const { data, isLoading, error, isError } = useLibraryIndex()
-  const [drawerOpen, setDrawerOpen] = useState(false)
-  const [searchOpen, setSearchOpen] = useState(false)
-  const t = useUiStrings()
+    lang: string;
+  }>();
+  const { data, isLoading, error, isError } = useLibraryIndex();
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const t = useUiStrings();
 
-  const openSearch = useCallback(() => setSearchOpen(true), [])
+  const openSearch = useCallback(() => setSearchOpen(true), []);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
-        e.preventDefault()
-        setSearchOpen(true)
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault();
+        setSearchOpen(true);
       }
-    }
-    document.addEventListener('keydown', onKey)
-    return () => document.removeEventListener('keydown', onKey)
-  }, [])
+    };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, []);
 
   useEffect(() => {
-    if (lang) document.documentElement.lang = lang
-  }, [lang])
+    if (lang) document.documentElement.lang = lang;
+  }, [lang]);
 
   /** Main column uses document scroll; sidebar has its own overflow — only reset window scroll. */
   useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
-  }, [location.pathname, location.search])
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, [location.pathname, location.search]);
 
-  const closeDrawer = () => setDrawerOpen(false)
+  const closeDrawer = () => setDrawerOpen(false);
 
   if (!lang) {
-    return null
+    return null;
   }
 
-  const byLang = data?.byLang
-  const langs = data?.langs ?? []
-  const index = byLang?.get(lang)
+  const byLang = data?.byLang;
+  const langs = data?.langs ?? [];
+  const index = byLang?.get(lang);
 
   return (
     <Sheet open={drawerOpen} onOpenChange={setDrawerOpen}>
@@ -114,10 +114,14 @@ export function DocsLayout() {
           </div>
           <div className="min-h-0 flex-1 overflow-y-auto overflow-x-hidden p-3">
             {isLoading && (
-              <p className="text-sm text-muted-foreground">{t.docsLoadingNav}</p>
+              <p className="text-sm text-muted-foreground">
+                {t.docsLoadingNav}
+              </p>
             )}
             {isError && (
-              <p className="text-sm text-destructive">{String(error?.message)}</p>
+              <p className="text-sm text-destructive">
+                {String(error?.message)}
+              </p>
             )}
             {index && (
               <ChapterNav
@@ -138,7 +142,11 @@ export function DocsLayout() {
                 <AppLogo lang={lang} />
                 <div className="flex items-center gap-2">
                   {langs.length > 0 && byLang && (
-                    <LangSwitch langs={langs} indexes={byLang} currentLang={lang} />
+                    <LangSwitch
+                      langs={langs}
+                      indexes={byLang}
+                      currentLang={lang}
+                    />
                   )}
                   <DarkModeToggle />
                 </div>
@@ -148,10 +156,14 @@ export function DocsLayout() {
           </div>
           <div className="min-h-0 flex-1 overflow-y-auto overflow-x-hidden overscroll-y-contain p-3">
             {isLoading && (
-              <p className="text-sm text-muted-foreground">{t.docsLoadingNav}</p>
+              <p className="text-sm text-muted-foreground">
+                {t.docsLoadingNav}
+              </p>
             )}
             {isError && (
-              <p className="text-sm text-destructive">{String(error?.message)}</p>
+              <p className="text-sm text-destructive">
+                {String(error?.message)}
+              </p>
             )}
             {index && <ChapterNav lang={lang} index={index} ui={t} />}
           </div>
@@ -166,5 +178,5 @@ export function DocsLayout() {
         </div>
       </div>
     </Sheet>
-  )
+  );
 }

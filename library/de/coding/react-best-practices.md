@@ -1,8 +1,11 @@
 # React Best Practices
 
-**Geltungsbereich:** Gilt für **React-Anwendungen und Komponenten**; nicht für Nicht-Web-Frontends, native Apps oder rein serverseitige Backends. Diese Seite ist die **Übersicht**; Details stehen in zwei Dateien. Kombiniere mit [`typescript-best-practices.md`](typescript-best-practices.md) und [`coding-best-practices.md`](coding-best-practices.md).
+## Geltungsbereich:
+
+Gilt für **React-Anwendungen und Komponenten**; nicht für Nicht-Web-Frontends, native Apps oder rein serverseitige Backends. Diese Seite ist die **Übersicht**; Details stehen in zwei Dateien. Kombiniere mit [`typescript-best-practices.md`](typescript-best-practices.md) und [`coding-best-practices.md`](coding-best-practices.md).
 
 ## Exzerpt
+
 - **State und Hooks** (`useState`, `useEffect`, Memoisierung, Props, Context, eigene Hooks)—[`react-state-hooks-und-effects.md`](react-state-hooks-und-effects.md).
 - **Komponenten, Events, Async, Listen, Formulare, Struktur**—[`react-komponenten-async-und-struktur.md`](react-komponenten-async-und-struktur.md).
 
@@ -32,6 +35,7 @@ React-Hilfe **auffindbar** halten—ohne ~430 Zeilen auf einmal.
 ---
 
 ## Kerngedanke
+
 **UI aus State deklarieren**; Effekte isolieren; Struktur an **Team-Verantwortung** ausrichten.
 
 ## Weiterführend

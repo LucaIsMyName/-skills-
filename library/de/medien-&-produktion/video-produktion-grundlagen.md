@@ -1,8 +1,11 @@
 # Video-Produktion — Grundlagen
 
-**Geltungsbereich:** **Kurzvideo** für Web/Social—Planung, Ton, Licht, Schnitt-Übergabe. Ergänzt [`untertitel-und-untertitelung.md`](untertitel-und-untertitelung.md), [`dateinamen-und-organisation.md`](dateinamen-und-organisation.md) und [`live-events-und-streaming.md`](live-events-und-streaming.md).
+## Geltungsbereich:
+
+**Kurzvideo** für Web/Social—Planung, Ton, Licht, Schnitt-Übergabe. Ergänzt [`untertitel-und-untertitelung.md`](untertitel-und-untertitelung.md), [`dateinamen-und-organisation.md`](dateinamen-und-organisation.md) und [`live-events-und-streaming.md`](live-events-und-streaming.md).
 
 ## Exzerpt
+
 - **Ton zuerst**—schlechter Sound zerstört Vertrauen schneller als weiches Bild.
 - **Licht**: weich, gleichmäßig.
 - **B-Roll** für Kontext und ehrliche Abdeckung.
@@ -166,6 +169,7 @@ Chronologie klar; J/L-Cuts für Fluss; Faktenabgleich mit Skript vor Export.
 ---
 
 ## Kerngedanke
+
 Video-Qualität = **Ton + Licht + Schnitt-Disziplin**—Equipment danach.
 
 ## Weiterführend

@@ -1,8 +1,11 @@
 # Theory of change
 
-**Scope:** A **theory of change** (ToC) explains **how** and **why** an intervention contributes to outcomes—assumptions, pathways, indicators. Not a logo exercise. Pair with [`monitoring-and-evaluation.md`](monitoring-and-evaluation.md), [`impact-and-annual-reporting.md`](impact-and-annual-reporting.md), and [`notes-and-synthesis.md`](notes-and-synthesis.md).
+## Scope:
+
+A **theory of change** (ToC) explains **how** and **why** an intervention contributes to outcomes—assumptions, pathways, indicators. Not a logo exercise. Pair with [`monitoring-and-evaluation.md`](monitoring-and-evaluation.md), [`impact-and-annual-reporting.md`](impact-and-annual-reporting.md), and [`notes-and-synthesis.md`](notes-and-synthesis.md).
 
 ## Excerpt
+
 - **Outcomes chain**: inputs → activities → outputs → outcomes → impact (use **carefully**—impact is **hard**).
 - **Assumptions** explicit—where could the chain **break**?
 - **Evidence** and **risks** named—**external factors** (policy, economy).

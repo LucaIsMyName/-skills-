@@ -1,8 +1,11 @@
 # Prompten-Grundlagen
 
-**Geltungsbereich:** Gilt für **wirksame Anweisungen** an Sprachmodelle—Rollen, Einschränkungen, Beispiele, Iteration, Prüfung. Nicht für Modelltraining, Einkauf oder organisationsweite KI-Richtlinien (siehe [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md)). Kombiniere mit [`prompt-muster.md`](prompt-muster.md), [`modelloutput-bewerten.md`](modelloutput-bewerten.md) und [`skill-dokumentation-schreiben.md`](skill-dokumentation-schreiben.md).
+## Geltungsbereich:
+
+Gilt für **wirksame Anweisungen** an Sprachmodelle—Rollen, Einschränkungen, Beispiele, Iteration, Prüfung. Nicht für Modelltraining, Einkauf oder organisationsweite KI-Richtlinien (siehe [`ki-offenlegung-und-richtlinien.md`](../ethik-&-recht/ki-offenlegung-und-richtlinien.md)). Kombiniere mit [`prompt-muster.md`](prompt-muster.md), [`modelloutput-bewerten.md`](modelloutput-bewerten.md) und [`skill-dokumentation-schreiben.md`](skill-dokumentation-schreiben.md).
 
 ## Exzerpt
+
 - **Aufgabe** in einem Satz; klare **Einschränkungen** (Länge, Ton, Zielgruppe, Format, Verbote).
 - **Beispiele** bei schwer beschreibbarer Form; **Gegenbeispiele** gegen wiederkehrende Fehler.
 - **Iterieren**: kleinster Prompt, der plausibel reicht → Output gegen Abnahmekriterien lesen → **eine** Variable ändern.
@@ -206,9 +209,11 @@ Beispiele:
 ---
 
 ## Kerngedanke
+
 Prompten ist **Spezifikationsarbeit unter Unsicherheit**: das Modell spiegelt die Schärfe deiner Spezifikation und die Qualität deiner Prüfung. Wenn der Output falsch ist, liegt es fast nie an "zu wenig cleverem Prompt"—sondern an unklarem Ziel, schlechten Inputs oder ehrlichem "nicht genug Information".
 
 ## Weiterführend
+
 - [OpenAI — Prompt engineering guide](https://platform.openai.com/docs/guides/prompt-engineering)
 - [Anthropic — Prompt engineering overview](https://docs.anthropic.com/claude/docs/intro-to-prompting)
 - [Google — Prompt design strategies](https://ai.google.dev/gemini-api/docs/prompting-strategies)

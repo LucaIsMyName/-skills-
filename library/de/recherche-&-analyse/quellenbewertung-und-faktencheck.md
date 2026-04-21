@@ -1,8 +1,11 @@
 # Quellenbewertung und Faktencheck
 
-**Geltungsbereich:** Gilt für **Vertrauen in Quellen** und **Prüfen konkreter Aussagen** vor Veröffentlichung in Comms, Presse, Stories, Briefings. Ergänzt [`recherche-grundlagen.md`](recherche-grundlagen.md), [`statistik-einfach-lesen.md`](statistik-einfach-lesen.md), [`krise-und-sensible-themen.md`](../sprache-&-kommunikation/krise-und-sensible-themen.md).
+## Geltungsbereich:
+
+Gilt für **Vertrauen in Quellen** und **Prüfen konkreter Aussagen** vor Veröffentlichung in Comms, Presse, Stories, Briefings. Ergänzt [`recherche-grundlagen.md`](recherche-grundlagen.md), [`statistik-einfach-lesen.md`](statistik-einfach-lesen.md), [`krise-und-sensible-themen.md`](../sprache-&-kommunikation/krise-und-sensible-themen.md).
 
 ## Exzerpt
+
 - **Quellenbewertung** fragt: _Kann ich dem trauen?_ **Faktencheck** fragt: _Stimmt diese konkrete Aussage?_ Beides tun.
 - **CRAAP** als Schnellfilter: **C**urrency (Aktualität), **R**elevance, **A**uthority, **A**ccuracy, **P**urpose.
 - **Triangulieren**: zwei oder mehr **unabhängige** Quellen pro nicht-trivialer Behauptung. Abschriften voneinander zählen nicht.
@@ -37,13 +40,13 @@ Nur veröffentlichen, was sich belegen lässt. Reflex für **Quelle + Aussage** 
 
 ## 1. CRAAP-Schnelltest
 
-| Buchstabe | Frage |
-|---|---|
-| **C**urrency | Wann publiziert oder aktualisiert? Gilt das noch? |
-| **R**elevance | Beantwortet es meine Frage oder nur randständig? |
-| **A**uthority | Wer ist Autor:in/Herausgeber, welche Qualifikation? |
-| **A**ccuracy | Gut belegt? Referenzen nachvollziehbar? |
-| **P**urpose | Warum geschrieben—informieren, verkaufen, lobbyieren, täuschen? |
+| Buchstabe     | Frage                                                           |
+| ------------- | --------------------------------------------------------------- |
+| **C**urrency  | Wann publiziert oder aktualisiert? Gilt das noch?               |
+| **R**elevance | Beantwortet es meine Frage oder nur randständig?                |
+| **A**uthority | Wer ist Autor:in/Herausgeber, welche Qualifikation?             |
+| **A**ccuracy  | Gut belegt? Referenzen nachvollziehbar?                         |
+| **P**urpose   | Warum geschrieben—informieren, verkaufen, lobbyieren, täuschen? |
 
 Zwei rote Flaggen = Quelle abwerten.
 

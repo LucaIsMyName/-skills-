@@ -1,8 +1,11 @@
 # Writing skill documentation
 
-**Scope:** Applies to **this library and similar doc sets**—structure, headings, cross-links, examples, and style for documentation that should be easy to skim, cite, and keep consistent. Not general technical writing theory. Pair with [`prompting-basics.md`](prompting-basics.md), [`working-with-context-windows.md`](working-with-context-windows.md), [`markdown-and-mdx.md`](../coding/markdown-and-mdx.md), and the repository [`AGENTS.md`](../../../AGENTS.md).
+## Scope:
+
+Applies to **this library and similar doc sets**—structure, headings, cross-links, examples, and style for documentation that should be easy to skim, cite, and keep consistent. Not general technical writing theory. Pair with [`prompting-basics.md`](prompting-basics.md), [`working-with-context-windows.md`](working-with-context-windows.md), [`markdown-and-mdx.md`](../coding/markdown-and-mdx.md), and the repository [`AGENTS.md`](../../../AGENTS.md).
 
 ## Excerpt
+
 - **Predictable shape** helps readers skim and helps search and summarisation: H1, Scope, Excerpt, Before, Purpose, numbered sections, Core idea, Further reading.
 - **Short, declarative** sentences. Short paragraphs. Lots of **Bad / Good** pairs.
 - **Cross-link** to sibling pages in Scope; again in sections when relevant.
@@ -37,7 +40,8 @@ Produce docs that any reader can use with confidence—skimmable, linkable, retr
 Every page has this order:
 
 1. `# Title` (human-readable, not the filename).
-2. `**Scope:**` one sentence of scope + 2–4 sibling links.
+2. `## Scope:
+` one sentence of scope + 2–4 sibling links.
 3. `## Excerpt` — 4–6 bullets; TL;DR.
 4. `## Before <verb>` — with `### Concrete` (inputs) and `### Meta` (judgment).
 5. `---`
@@ -68,7 +72,9 @@ This is about prompts.
 ```md
 # Prompting basics
 
-**Scope:** Applies to **writing effective instructions**—roles,
+## Scope:
+
+Applies to **writing effective instructions**—roles,
 constraints, examples, iteration, verification. Not model training, not
 org-wide AI policy. Pair with [`prompt-patterns.md`](prompt-patterns.md)
 and [`evaluating-model-output.md`](evaluating-model-output.md).

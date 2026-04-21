@@ -1,8 +1,11 @@
 # Social short-form
 
-**Scope:** Applies to **short social posts and captions** for nonprofit and social-purpose accounts; not long-form articles, press releases, or paid ad policy compliance (follow platform + legal review).
+## Scope:
+
+Applies to **short social posts and captions** for nonprofit and social-purpose accounts; not long-form articles, press releases, or paid ad policy compliance (follow platform + legal review).
 
 ## Excerpt
+
 - Use for **platform-native** copy: length limits, tone, one main idea per post where possible.
 - **Consent** for photos and quotes; **no sensationalizing** beneficiaries or “poverty porn.”
 - **Ask** for channel, link URL, campaign name, approval level, and hashtag rules before posting.
@@ -120,7 +123,8 @@ Put the **primary link** once, where the platform allows (bio link, first commen
 ---
 
 ## Core idea
- Short-form social is **public and permanent**. When in doubt, **ask your org lead** before posting sensitive stories.
+
+Short-form social is **public and permanent**. When in doubt, **ask your org lead** before posting sensitive stories.
 
 ## Further reading
 

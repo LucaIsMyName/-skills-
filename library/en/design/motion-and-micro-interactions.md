@@ -1,8 +1,11 @@
 # Motion and micro-interactions
 
-**Scope:** Applies to **UI motion**: transitions, feedback animations, loading states; not video production, game animation, or brand TV spots.
+## Scope:
+
+Applies to **UI motion**: transitions, feedback animations, loading states; not video production, game animation, or brand TV spots.
 
 ## Excerpt
+
 - Use motion to **clarify cause and effect**, not to decorate.
 - Respect **`prefers-reduced-motion`**: provide a non-animated equivalent.
 - Keep durations **short** (often ~150–300ms for UI); avoid large parallax on task flows.
@@ -78,7 +81,8 @@ Use **determinate** progress when possible; **skeleton** for content structure; 
 ---
 
 ## Core idea
- Motion should **answer “what happened?”**—if it only says “look at me,” cut it.
+
+Motion should **answer “what happened?”**—if it only says “look at me,” cut it.
 
 ## Further reading
 

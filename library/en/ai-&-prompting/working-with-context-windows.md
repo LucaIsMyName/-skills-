@@ -1,8 +1,11 @@
 # Working with context windows
 
-**Scope:** Applies to **fitting documents, history, and tool outputs** into a **language model's context window**—chunking, summarisation, prioritisation, re-anchoring, cost and latency trade-offs. Not model architecture, not production vector-store engineering (see [`rag-basics.md`](rag-basics.md) for that). Pair with [`prompting-basics.md`](prompting-basics.md), [`prompt-patterns.md`](prompt-patterns.md), [`writing-skill-documentation.md`](writing-skill-documentation.md), and [`language-models-in-code.md`](../coding/language-models-in-code.md).
+## Scope:
+
+Applies to **fitting documents, history, and tool outputs** into a **language model's context window**—chunking, summarisation, prioritisation, re-anchoring, cost and latency trade-offs. Not model architecture, not production vector-store engineering (see [`rag-basics.md`](rag-basics.md) for that). Pair with [`prompting-basics.md`](prompting-basics.md), [`prompt-patterns.md`](prompt-patterns.md), [`writing-skill-documentation.md`](writing-skill-documentation.md), and [`language-models-in-code.md`](../coding/language-models-in-code.md).
 
 ## Excerpt
+
 - **Context is finite** (tokens) and **not free** (cost, latency). Plan what goes in; cut what does not help.
 - **Chunk** long sources at logical seams; process chunks with the **same** question; merge at the end.
 - **Summarise** with explicit goals, not "summarise this"—bad summaries hide the errors that matter.

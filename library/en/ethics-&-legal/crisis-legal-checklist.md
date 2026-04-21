@@ -1,8 +1,11 @@
 # Crisis legal checklist
 
-**Scope:** Applies to **legal and rights-aware steps during a communications crisis** (accusation, incident, bad press, viral post, safeguarding event, data breach). Not a replacement for a lawyer on an active case. Pair with [`crisis-and-sensitive-topics.md`](../language-&-communication/crisis-and-sensitive-topics.md), [`data-protection-for-comms.md`](data-protection-for-comms.md), and [`safeguarding-in-comms.md`](safeguarding-in-comms.md).
+## Scope:
+
+Applies to **legal and rights-aware steps during a communications crisis** (accusation, incident, bad press, viral post, safeguarding event, data breach). Not a replacement for a lawyer on an active case. Pair with [`crisis-and-sensitive-topics.md`](../language-&-communication/crisis-and-sensitive-topics.md), [`data-protection-for-comms.md`](data-protection-for-comms.md), and [`safeguarding-in-comms.md`](safeguarding-in-comms.md).
 
 ## Excerpt
+
 - **Silence is a decision.** So is a statement. Both have legal weight—make each one deliberately.
 - **Facts first, tone second.** Do not say "we are sorry for X" before you know X happened.
 - **Loop in legal early**, not after the first statement is out. A holding line is cheap; a retraction is expensive.
@@ -54,12 +57,12 @@ Add a **legal and rights layer** to crisis comms so statements are honest, compl
 
 For every fact under consideration:
 
-| Label | Use publicly? |
-|---|---|
-| Verified | Yes, carefully |
-| Alleged | Attribute the source; do not repeat as fact |
-| Under investigation | Mention the process, not a conclusion |
-| Speculation | Do not publish |
+| Label               | Use publicly?                               |
+| ------------------- | ------------------------------------------- |
+| Verified            | Yes, carefully                              |
+| Alleged             | Attribute the source; do not repeat as fact |
+| Under investigation | Mention the process, not a conclusion       |
+| Speculation         | Do not publish                              |
 
 Keep this table **visibly** in the incident doc.
 

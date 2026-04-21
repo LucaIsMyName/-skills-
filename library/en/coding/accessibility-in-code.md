@@ -1,8 +1,11 @@
 # Accessibility in code
 
-**Scope:** Applies to **web UI code** (HTML, CSS, JS/TS, React)—the engineering side of accessibility. Companion to [`accessibility-for-comms.md`](../language-&-communication/accessibility-for-comms.md) (copy, image descriptions, captions) and [`designing-good-interfaces.md`](../design/designing-good-interfaces.md).
+## Scope:
+
+Applies to **web UI code** (HTML, CSS, JS/TS, React)—the engineering side of accessibility. Companion to [`accessibility-for-comms.md`](../language-&-communication/accessibility-for-comms.md) (copy, image descriptions, captions) and [`designing-good-interfaces.md`](../design/designing-good-interfaces.md).
 
 ## Excerpt
+
 - **Semantic HTML first.** Use the element that already does the job; reach for ARIA only when no native element fits.
 - **Keyboard access is non-negotiable.** Every interactive element is reachable, operable, and visibly focused with `Tab` / `Shift+Tab` / `Enter` / `Space` / arrow keys where expected.
 - **Colour is not the only cue.** Contrast meets WCAG AA; state changes also use text, icon, or shape.

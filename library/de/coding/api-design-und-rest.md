@@ -1,8 +1,11 @@
 # API-Design und REST
 
-**Geltungsbereich:** Gilt für **eigene HTTP-APIs**—Ressourcen, Verben, Statuscodes, Payloads, Versionierung, Pagination, Fehler. Kein GraphQL-Design, kein internes RPC, kein Auth-Protokoll-Design. Kombiniere mit [`sicherheit-fuer-webapps.md`](sicherheit-fuer-webapps.md), [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md), [`sprachmodelle-im-code-nutzen.md`](sprachmodelle-im-code-nutzen.md) und [`performance-und-web-vitals.md`](performance-und-web-vitals.md).
+## Geltungsbereich:
+
+Gilt für **eigene HTTP-APIs**—Ressourcen, Verben, Statuscodes, Payloads, Versionierung, Pagination, Fehler. Kein GraphQL-Design, kein internes RPC, kein Auth-Protokoll-Design. Kombiniere mit [`sicherheit-fuer-webapps.md`](sicherheit-fuer-webapps.md), [`fehlerbehandlung-und-logging.md`](fehlerbehandlung-und-logging.md), [`sprachmodelle-im-code-nutzen.md`](sprachmodelle-im-code-nutzen.md) und [`performance-und-web-vitals.md`](performance-und-web-vitals.md).
 
 ## Exzerpt
+
 - **Ressourcen statt Aktionen**: Nomen modellieren; Verben kommen von HTTP (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`).
 - **Statuscodes sind Verträge**—richtig setzen; kein `200` für Fehler.
 - **Konsistente Payloads**: ein Fehler-Shape, ein List-Shape, stabile Feldnamen.
@@ -22,7 +25,7 @@
 
 ### Meta
 
-- **Happy Path** *und* **Failure Modes** designen—Fehler sind Teil der API.
+- **Happy Path** _und_ **Failure Modes** designen—Fehler sind Teil der API.
 - Produktive Endpoints sind **Versprechen**. Versionieren/deprecaten, nicht stillschweigend ändern.
 - Konsistenz schlägt Cleverness.
 
@@ -92,9 +95,7 @@ Ein Shape, überall.
   "error": {
     "code": "email_already_registered",
     "message": "Ein Konto mit dieser E-Mail existiert bereits.",
-    "details": [
-      { "field": "email", "issue": "duplicate" }
-    ],
+    "details": [{ "field": "email", "issue": "duplicate" }],
     "request_id": "req_01J8Q..."
   }
 }
@@ -167,9 +168,11 @@ GET /invoices?status=unpaid&created_after=2025-01-01&limit=25&cursor=abc123
 ---
 
 ## Kerngedanke
+
 Eine HTTP-API ist ein **öffentliches Versprechen**: stabile URLs, ehrliche Statuscodes, berechenbare Payloads, Versionsplan. Langweilig ist gut.
 
 ## Weiterführend
+
 - [Zalando RESTful API Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
 - [Microsoft REST API Guidelines](https://github.com/microsoft/api-guidelines)
 - [Stripe API reference](https://docs.stripe.com/api)

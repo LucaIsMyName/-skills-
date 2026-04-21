@@ -1,8 +1,11 @@
 # Umfragedesign
 
-**Geltungsbereich:** **Fragebögen** für Umfragen (online oder vor Ort)—Stichprobe grob, Formulierung, Bias. Keine Biostatistik-Tiefe. Ergänzt [`statistik-einfach-lesen.md`](statistik-einfach-lesen.md), [`notizen-und-synthese.md`](notizen-und-synthese.md) und [`quellenbewertung-und-faktencheck.md`](quellenbewertung-und-faktencheck.md).
+## Geltungsbereich:
+
+**Fragebögen** für Umfragen (online oder vor Ort)—Stichprobe grob, Formulierung, Bias. Keine Biostatistik-Tiefe. Ergänzt [`statistik-einfach-lesen.md`](statistik-einfach-lesen.md), [`notizen-und-synthese.md`](notizen-und-synthese.md) und [`quellenbewertung-und-faktencheck.md`](quellenbewertung-und-faktencheck.md).
 
 ## Exzerpt
+
 - Von der **Entscheidung** ausgehen, die die Umfrage informieren soll.
 - **Neutrale** Formulierung—keine Suggestiv- oder Doppelfragen.
 - **Skalen** konsistent; **Endpunkte** beschriften.
@@ -47,6 +50,7 @@ Likert mit **Mitte**, außer es gibt eine Begründung dagegen.
 ---
 
 ## Kerngedanke
+
 Umfragen sind **Instrumente**—**designen**, **pilotieren**, **Grenzen dokumentieren**.
 
 ## Weiterführend

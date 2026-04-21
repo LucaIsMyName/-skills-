@@ -1,32 +1,35 @@
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { Component, lazy, Suspense } from 'react'
-import type { ErrorInfo, ReactNode } from 'react'
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
-import { Button } from '@/components/ui/button'
-import { Toaster } from '@/components/ui/sonner'
-import { TooltipProvider } from '@/components/ui/tooltip'
-import { DocsLayout } from './layouts/DocsLayout'
-import { ChapterIndexPage } from './pages/ChapterIndexPage'
-import { HomePage } from './pages/HomePage'
-import { MarkdownPage } from './pages/MarkdownPage'
-import { NotFound } from './pages/NotFound'
-import { getLibraryIndexCache } from './lib/persistedCache'
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { Component, lazy, Suspense } from "react";
+import type { ErrorInfo, ReactNode } from "react";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Button } from "@/components/ui/button";
+import { Toaster } from "@/components/ui/sonner";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { DocsLayout } from "./layouts/DocsLayout";
+import { ChapterIndexPage } from "./pages/ChapterIndexPage";
+import { HomePage } from "./pages/HomePage";
+import { MarkdownPage } from "./pages/MarkdownPage";
+import { NotFound } from "./pages/NotFound";
+import { getLibraryIndexCache } from "./lib/persistedCache";
 
-type ErrorBoundaryState = { hasError: boolean; message: string }
+type ErrorBoundaryState = { hasError: boolean; message: string };
 
-class AppErrorBoundary extends Component<{ children: ReactNode }, ErrorBoundaryState> {
-  state: ErrorBoundaryState = { hasError: false, message: '' }
+class AppErrorBoundary extends Component<
+  { children: ReactNode },
+  ErrorBoundaryState
+> {
+  state: ErrorBoundaryState = { hasError: false, message: "" };
 
   static getDerivedStateFromError(error: unknown): ErrorBoundaryState {
     return {
       hasError: true,
       message: error instanceof Error ? error.message : String(error),
-    }
+    };
   }
 
   componentDidCatch(error: unknown, info: ErrorInfo) {
-    console.error('[AppErrorBoundary]', error, info.componentStack)
+    console.error("[AppErrorBoundary]", error, info.componentStack);
   }
 
   render() {
@@ -41,19 +44,19 @@ class AppErrorBoundary extends Component<{ children: ReactNode }, ErrorBoundaryS
             Go home
           </Button>
         </div>
-      )
+      );
     }
-    return this.props.children
+    return this.props.children;
   }
 }
 
 const DevCacheResetButton = import.meta.env.DEV
   ? lazy(() =>
-      import('./components/DevCacheResetButton').then((m) => ({
+      import("./components/DevCacheResetButton").then((m) => ({
         default: m.DevCacheResetButton,
       })),
     )
-  : null
+  : null;
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -61,12 +64,12 @@ const queryClient = new QueryClient({
       retry: 0,
     },
   },
-})
+});
 
 function DefaultLangRedirect() {
-  const cached = getLibraryIndexCache({ allowExpired: true })
-  const firstLang = cached?.langs[0] ?? 'en'
-  return <Navigate to={`/${firstLang}`} replace />
+  const cached = getLibraryIndexCache({ allowExpired: true });
+  const firstLang = cached?.langs[0] ?? "en";
+  return <Navigate to={`/${firstLang}`} replace />;
 }
 
 export default function App() {
@@ -94,5 +97,5 @@ export default function App() {
         </TooltipProvider>
       </QueryClientProvider>
     </AppErrorBoundary>
-  )
+  );
 }

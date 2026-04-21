@@ -1,8 +1,11 @@
 # Color and contrast
 
-**Scope:** Applies to **choosing and using colour** in UI, web, print, and data graphics—including accessible contrast, semantic colour roles, and theming. Pair with [`design-tokens-and-theming.md`](design-tokens-and-theming.md), [`design-accessibility.md`](design-accessibility.md), and [`data-visualization-basics.md`](data-visualization-basics.md).
+## Scope:
+
+Applies to **choosing and using colour** in UI, web, print, and data graphics—including accessible contrast, semantic colour roles, and theming. Pair with [`design-tokens-and-theming.md`](design-tokens-and-theming.md), [`design-accessibility.md`](design-accessibility.md), and [`data-visualization-basics.md`](data-visualization-basics.md).
 
 ## Excerpt
+
 - **Semantic roles over hex values.** Name colours by **what they do** (`surface`, `text`, `accent`, `danger`), not by their hue (`blue-500`).
 - **Contrast first.** WCAG AA: 4.5:1 for body text, 3:1 for large text and UI components. Check before you fall in love with a palette.
 - **Colour is never the only signal.** Pair with icon, text, or shape—colour-blind users and grayscale printers exist.
@@ -38,20 +41,20 @@ Build a colour system that is **accessible, consistent, and meaningful**—one t
 
 Start with roles, not hues:
 
-| Role | Example use |
-|---|---|
-| `surface` | page background |
-| `surface-muted` | cards, panels |
-| `border` | dividers, card edges |
-| `text` | primary body text |
-| `text-muted` | secondary text, labels |
-| `text-inverse` | on dark surfaces |
-| `accent` | brand colour / primary action |
-| `info` | neutral informational |
-| `success` | positive, confirm |
-| `warning` | caution, needs attention |
-| `danger` | errors, destructive actions |
-| `focus` | focus ring |
+| Role            | Example use                   |
+| --------------- | ----------------------------- |
+| `surface`       | page background               |
+| `surface-muted` | cards, panels                 |
+| `border`        | dividers, card edges          |
+| `text`          | primary body text             |
+| `text-muted`    | secondary text, labels        |
+| `text-inverse`  | on dark surfaces              |
+| `accent`        | brand colour / primary action |
+| `info`          | neutral informational         |
+| `success`       | positive, confirm             |
+| `warning`       | caution, needs attention      |
+| `danger`        | errors, destructive actions   |
+| `focus`         | focus ring                    |
 
 Store as tokens; see [`design-tokens-and-theming.md`](design-tokens-and-theming.md).
 

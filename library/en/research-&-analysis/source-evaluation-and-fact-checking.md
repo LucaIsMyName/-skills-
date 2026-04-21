@@ -1,8 +1,11 @@
 # Source evaluation and fact-checking
 
-**Scope:** Applies to **deciding whether a source can be trusted** and **verifying claims** before publication in comms, press, stories, or briefings. Pair with [`desk-research.md`](desk-research.md), [`reading-statistics-plainly.md`](reading-statistics-plainly.md), [`crisis-and-sensitive-topics.md`](../language-&-communication/crisis-and-sensitive-topics.md).
+## Scope:
+
+Applies to **deciding whether a source can be trusted** and **verifying claims** before publication in comms, press, stories, or briefings. Pair with [`desk-research.md`](desk-research.md), [`reading-statistics-plainly.md`](reading-statistics-plainly.md), [`crisis-and-sensitive-topics.md`](../language-&-communication/crisis-and-sensitive-topics.md).
 
 ## Excerpt
+
 - **Source evaluation** asks: _can I rely on this?_ **Fact-checking** asks: _is this specific claim correct?_ Do both.
 - Use **CRAAP** as a quick filter: **C**urrency, **R**elevance, **A**uthority, **A**ccuracy, **P**urpose.
 - **Triangulate**: two or more independent sources for any non-trivial claim. Copies of each other do not count as independent.
@@ -37,13 +40,13 @@ Publish only what you can defend. Build a reflex for **source + claim** checking
 
 ## 1. Quick CRAAP filter
 
-| Letter | Question |
-|---|---|
-| **C**urrency | When was it published or last updated? Is it still applicable? |
-| **R**elevance | Does it actually answer my question, or just touch it? |
-| **A**uthority | Who is the author/publisher? What are their credentials? |
-| **A**ccuracy | Is it well-sourced? Can I verify its own references? |
-| **P**urpose | Why was it written—inform, sell, advocate, mislead? |
+| Letter        | Question                                                       |
+| ------------- | -------------------------------------------------------------- |
+| **C**urrency  | When was it published or last updated? Is it still applicable? |
+| **R**elevance | Does it actually answer my question, or just touch it?         |
+| **A**uthority | Who is the author/publisher? What are their credentials?       |
+| **A**ccuracy  | Is it well-sourced? Can I verify its own references?           |
+| **P**urpose   | Why was it written—inform, sell, advocate, mislead?            |
 
 If a source fails any two letters, demote it.
 

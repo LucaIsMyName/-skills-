@@ -1,8 +1,11 @@
 # File naming and organising
 
-**Scope:** **Naming** and **folder** conventions for media projects—**human and machine** readable. Not DAM enterprise rollout. Pair with [`brand-toolkit-and-asset-library.md`](brand-toolkit-and-asset-library.md), [`git-and-commits.md`](../coding/git-and-commits.md), and [`video-production-basics.md`](video-production-basics.md).
+## Scope:
+
+**Naming** and **folder** conventions for media projects—**human and machine** readable. Not DAM enterprise rollout. Pair with [`brand-toolkit-and-asset-library.md`](brand-toolkit-and-asset-library.md), [`git-and-commits.md`](../coding/git-and-commits.md), and [`video-production-basics.md`](video-production-basics.md).
 
 ## Excerpt
+
 - **Pattern**: `YYYY-MM-DD_project_component_v02.ext`—**date first** sorts chronologically.
 - **Slug** short tokens—**no** spaces (use `-` or `_` **consistently**).
 - **Version** suffixes—**avoid** “final_final”.

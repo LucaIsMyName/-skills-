@@ -1,8 +1,11 @@
 # React-App aufsetzen
 
-**Geltungsbereich:** Gilt für **neue React-Projekte** und initiales Repo-Layout; nicht für Migration alter Codebasen oder die Wahl nicht-React-Stacks.
+## Geltungsbereich:
+
+Gilt für **neue React-Projekte** und initiales Repo-Layout; nicht für Migration alter Codebasen oder die Wahl nicht-React-Stacks.
 
 ## Exzerpt
+
 - Nutzen beim **Neuanlegen einer React-App** von Grund auf: Tooling-Reihenfolge, Ordnererwartungen, Konsistenz mit Projektkonventionen.
 - Die **Scaffold-Sequenz** in dieser Datei befolgen; Toolchain (Package Manager, Vite/CRA etc.) mit Nutzer:in klären, falls unbekannt.
 - Vollständige Datei unten: Schritt-für-Schritt-Scaffolding und Setup.
@@ -48,7 +51,7 @@ npx shadcn@latest init
 - Non-null-Assertions (`!`) vermeiden
   - Optional Chaining (`?.`) oder Guards bevorzugen
 
- Typsicherheit ist keine Option — sie verhindert Bugs früh.
+Typsicherheit ist keine Option — sie verhindert Bugs früh.
 
 ---
 
@@ -68,7 +71,7 @@ npx shadcn@latest init
   - Basis = Mobile
   - `sm:`, `md:`, `lg:` für größere Viewports
 
- Einheitliches Styling = schnellere Entwicklung + klarere UI.
+Einheitliches Styling = schnellere Entwicklung + klarere UI.
 
 ---
 
@@ -96,7 +99,7 @@ npx shadcn@latest init
   npm install @base-ui-components/react
   ```
 
- Komposition vor Neuerfindung.
+Komposition vor Neuerfindung.
 
 ---
 
@@ -124,7 +127,7 @@ npx shadcn@latest init
   React.lazy(() => import("@/modules/..."));
   ```
 
- Routing zentral und vorhersagbar.
+Routing zentral und vorhersagbar.
 
 ---
 
@@ -147,7 +150,7 @@ npm install @tanstack/react-query
 - Schreibvorgänge mit `useMutation`
   - Queries in `onSuccess` invalidieren
 
- Server-State ≠ UI-State. Getrennt behandeln.
+Server-State ≠ UI-State. Getrennt behandeln.
 
 ---
 
@@ -166,7 +169,7 @@ npm install @tanstack/react-virtual
 
 - Nur bei Bedarf (100+ Einträge)
 
- Nur optimieren, wenn nötig.
+Nur optimieren, wenn nötig.
 
 ---
 
@@ -184,7 +187,7 @@ npm install @tanstack/react-table
   - `getPaginationRowModel`
   - usw.
 
- Unnötige Berechnung und Re-Renders vermeiden.
+Unnötige Berechnung und Re-Renders vermeiden.
 
 ---
 
@@ -209,7 +212,7 @@ npm install react-helmet-async
   - interne Tools
   - nicht indexierte Apps
 
- SEO nur, wenn Inhalt öffentlich ist.
+SEO nur, wenn Inhalt öffentlich ist.
 
 ---
 

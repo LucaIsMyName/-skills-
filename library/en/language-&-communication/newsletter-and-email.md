@@ -1,8 +1,11 @@
 # Newsletter and email
 
-**Scope:** Applies to **marketing and transactional emails** (newsletters, appeals, updates); not individual HR or legal notices, and **not** inventing unsubscribe or privacy policy text—point to legal review.
+## Scope:
+
+Applies to **marketing and transactional emails** (newsletters, appeals, updates); not individual HR or legal notices, and **not** inventing unsubscribe or privacy policy text—point to legal review.
 
 ## Excerpt
+
 - Use for **subject lines, preview text, body structure**, and a **single primary CTA** per email when possible.
 - **Never invent** legal footers, consent language, or region-specific rules—**flag for legal/comms review**.
 - **Ask** for list segment, send date, link targets, and brand voice before drafting.
@@ -112,7 +115,8 @@ When the user describes segments, **mirror** language to each group (donors vs v
 ---
 
 ## Core idea
- Email builds **trust over time**. Clarity beats cleverness; **legal text is not optional**—get the approved block from your organization.
+
+Email builds **trust over time**. Clarity beats cleverness; **legal text is not optional**—get the approved block from your organization.
 
 ## Further reading
 

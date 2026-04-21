@@ -1,8 +1,11 @@
 # Coding Stil und Struktur
 
-**Geltungsbereich:** Gilt für **Einfachheit, Lesbarkeit, Benennung und Kontrollfluss** in Anwendungscode. Nicht vollständige Fehlerbehandlung, nicht Teststrategie. Kombiniere mit [`coding-fehler-validierung-und-state.md`](coding-fehler-validierung-und-state.md), [`coding-tests-und-gewohnheiten.md`](coding-tests-und-gewohnheiten.md) und [`coding-best-practices.md`](coding-best-practices.md).
+## Geltungsbereich:
+
+Gilt für **Einfachheit, Lesbarkeit, Benennung und Kontrollfluss** in Anwendungscode. Nicht vollständige Fehlerbehandlung, nicht Teststrategie. Kombiniere mit [`coding-fehler-validierung-und-state.md`](coding-fehler-validierung-und-state.md), [`coding-tests-und-gewohnheiten.md`](coding-tests-und-gewohnheiten.md) und [`coding-best-practices.md`](coding-best-practices.md).
 
 ## Exzerpt
+
 - **Einfach schlägt clever**; lieber vertraute Schleifen als One-Liner.
 - **Namen tragen Bedeutung**—lieber umbenennen als kommentieren.
 - **Eine Aufgabe pro Funktion**; mit frühem Return flach halten; DRY ohne voreilige Abstraktion.
@@ -34,7 +37,7 @@ Gute Software ist:
 - **Lesbar statt kurz**
 - **Korrekt statt schnell (zunächst)**
 
- Du schreibst Code nicht nur für Maschinen—sondern für Menschen.
+Du schreibst Code nicht nur für Maschinen—sondern für Menschen.
 
 ---
 
@@ -61,7 +64,7 @@ for (const x of arr) {
 }
 ```
 
- Cleverer Code ist schwerer zu debuggen und zu warten.
+Cleverer Code ist schwerer zu debuggen und zu warten.
 
 ---
 
@@ -83,7 +86,7 @@ const d = new Date();
 const currentDate = new Date();
 ```
 
- Wenn du Kommentare brauchst, um Basis-Code zu erklären: umbenennen.
+Wenn du Kommentare brauchst, um Basis-Code zu erklären: umbenennen.
 
 ---
 
@@ -113,7 +116,7 @@ function processUser(user) {
 }
 ```
 
- Kleine Einheiten = einfacher testen und wiederverwenden.
+Kleine Einheiten = einfacher testen und wiederverwenden.
 
 ---
 
@@ -143,7 +146,7 @@ if (!user || !user.active || user.role !== "admin") return;
 // logic
 ```
 
- Frühe Returns reduzieren Komplexität.
+Frühe Returns reduzieren Komplexität.
 
 ---
 
@@ -168,7 +171,7 @@ function isAdult(person) {
 }
 ```
 
- Duplikation = wartende Bugs.
+Duplikation = wartende Bugs.
 
 ---
 
@@ -190,7 +193,7 @@ function handleEntity(entity, type, config, strategy) { ... }
 function handleUser(user) { ... }
 ```
 
- Abstraktion **nach** Wiederholung, nicht davor.
+Abstraktion **nach** Wiederholung, nicht davor.
 
 ---
 
@@ -212,7 +215,7 @@ function calc(x, y) { ... }
 function calculateTotalPrice(price, tax) { ... }
 ```
 
- Gute Namen ersetzen viele Kommentare.
+Gute Namen ersetzen viele Kommentare.
 
 ---
 

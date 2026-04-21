@@ -1,8 +1,11 @@
 # Bilder und Fotografie
 
-**Geltungsbereich:** Gilt für **Auswahl, Bearbeitung, Einsatz** von Fotos und Bildern in NGO/Produkt-Kontexten—Ethik, Einwilligung, Beschnitt, Bildunterschriften, A11y, Dateihandling. Keine Studio-Technik, keine Brand-Illustration. Kombiniere mit [`bildethik-und-bildsprache.md`](../medien-&-produktion/bildethik-und-bildsprache.md), [`bild-und-zitatfreigaben.md`](../ethik-&-recht/bild-und-zitatfreigaben.md), [`fotografie-fuer-ngos.md`](../medien-&-produktion/fotografie-fuer-ngos.md) und [`performance-und-web-vitals.md`](../coding/performance-und-web-vitals.md).
+## Geltungsbereich:
+
+Gilt für **Auswahl, Bearbeitung, Einsatz** von Fotos und Bildern in NGO/Produkt-Kontexten—Ethik, Einwilligung, Beschnitt, Bildunterschriften, A11y, Dateihandling. Keine Studio-Technik, keine Brand-Illustration. Kombiniere mit [`bildethik-und-bildsprache.md`](../medien-&-produktion/bildethik-und-bildsprache.md), [`bild-und-zitatfreigaben.md`](../ethik-&-recht/bild-und-zitatfreigaben.md), [`fotografie-fuer-ngos.md`](../medien-&-produktion/fotografie-fuer-ngos.md) und [`performance-und-web-vitals.md`](../coding/performance-und-web-vitals.md).
 
 ## Exzerpt
+
 - **Einwilligung zuerst.** Kein Bild identifizierbarer Personen ohne aktuelle Freigabe.
 - **Würde zuerst.** Kein Leid-als-Selbstzweck; Menschen als Protagonist\*innen, nicht Requisiten.
 - **Kontext zählt**: Caption, Alt, Quelle, Datum.
@@ -66,7 +69,7 @@ Foto: Kwame Mensah.
 
 - **Echte Namen** bei Freigabe; "Name geändert" sonst.
 - **Datum, Ort** für Journalistik.
-- **Fotograf*innen** nennen.
+- **Fotograf\*innen** nennen.
 - Emotion **nicht erfinden**.
 
 ## 4. Alt-Text
@@ -79,9 +82,12 @@ Foto: Kwame Mensah.
 ### Gut: alt-text
 
 ```html
-<img src="funnel-q1.webp"
-     alt="Liniendiagramm: Konvertierung steigt von 12% im Januar auf 18% im März 2025."
-     width="800" height="400">
+<img
+  src="funnel-q1.webp"
+  alt="Liniendiagramm: Konvertierung steigt von 12% im Januar auf 18% im März 2025."
+  width="800"
+  height="400"
+/>
 ```
 
 ## 5. Beschnitt/Retusche
@@ -102,7 +108,7 @@ Foto: Kwame Mensah.
 ## 7. EXIF/Metadaten
 
 - **GPS strippen** vor Publikation—schützt Personen.
-- Fotograf*innen-Credit, Copyright, Caption-Metadaten behalten (IPTC).
+- Fotograf\*innen-Credit, Copyright, Caption-Metadaten behalten (IPTC).
 - CMS prüfen: strippt oder behält es?
 
 ## 8. Stock
@@ -131,9 +137,11 @@ Foto: Kwame Mensah.
 ---
 
 ## Kerngedanke
+
 Bilder sagen, **wer diese Menschen sind und wie ihr sie seht**. Mit Einwilligung, Kontext, Handwerk und Kompression. Das Vertrauen aus einem sorgfältigen Bild wirkt über Kampagnen hinaus.
 
 ## Weiterführend
+
 - [Save the Children — Image guidelines](https://www.savethechildren.net/)
 - [IFRC — Ethical photography](https://www.ifrc.org/)
 - [WCAG — Images](https://www.w3.org/WAI/tutorials/images/)

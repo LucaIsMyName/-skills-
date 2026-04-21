@@ -1,8 +1,11 @@
 # Marken-Toolkit und Asset-Bibliothek
 
-**Geltungsbereich:** **Zentral** Logos, Farben, Vorlagen, **freigegebene** Bilder—Governance für kleine Teams. Ergänzt [`design-tokens-und-theming.md`](../design/design-tokens-und-theming.md), [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md) und [`dateinamen-und-organisation.md`](dateinamen-und-organisation.md).
+## Geltungsbereich:
+
+**Zentral** Logos, Farben, Vorlagen, **freigegebene** Bilder—Governance für kleine Teams. Ergänzt [`design-tokens-und-theming.md`](../design/design-tokens-und-theming.md), [`tonalitaet-und-markenstimme.md`](../sprache-&-kommunikation/tonalitaet-und-markenstimme.md) und [`dateinamen-und-organisation.md`](dateinamen-und-organisation.md).
 
 ## Exzerpt
+
 - **Single source of truth** für Logo-Varianten und **Schutzraum**.
 - **Farben**: Screen **Hex**; Druck **PMS/CMYK**.
 - **Vorlagen** **versionieren**—**Changelog**.
@@ -142,12 +145,13 @@ Alle dürfen nach `/brand` — drei widersprüchliche Logos in einer Woche.
 
 - **Waisen-Assets**—kein Owner, niemand löscht oder aktualisiert.
 - **Alte Versionen** gelöscht ohne **Archiv**—Kampagne wird wieder geöffnet, Dateien fehlen.
-- **Un dokumentierte** Schriften—Neue*r setzt Arial, Marke bricht.
+- **Un dokumentierte** Schriften—Neue\*r setzt Arial, Marke bricht.
 - **Rechte** ignoriert—Hero-Bild für eine Kampagne, die rechtlich nicht laufen darf.
 
 ---
 
 ## Kerngedanke
+
 Marke ist **Ops**: **Dateien**, **Rechte**, **Versionen**, **Owner**.
 
 ## Weiterführend

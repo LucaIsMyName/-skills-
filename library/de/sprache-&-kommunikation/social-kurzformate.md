@@ -1,8 +1,11 @@
 # Social-Kurzformate
 
-**Geltungsbereich:** **Kurze Social-Media-Texte und Bildunterschriften** für gemeinnützige und soziale Organisationen; keine Langartikel, keine Pressemitteilungen und keine Ersatzberatung zu bezahlten Anzeigen oder Plattform-Richtlinien (jeweils Plattform + ggf. Rechtsprüfung).
+## Geltungsbereich:
+
+**Kurze Social-Media-Texte und Bildunterschriften** für gemeinnützige und soziale Organisationen; keine Langartikel, keine Pressemitteilungen und keine Ersatzberatung zu bezahlten Anzeigen oder Plattform-Richtlinien (jeweils Plattform + ggf. Rechtsprüfung).
 
 ## Exzerpt
+
 - Nutzen für **plattformgerechte** Beiträge: Länge, Ton, möglichst **eine Hauptbotschaft**.
 - **Einwilligung** zu Fotos und Zitaten; **keine** sensationsorientierte Darstellung von Betroffenen.
 - **Nachfragen** nach Kanal, Link, Kampagne, Freigabestufe und Hashtag-Regeln.
@@ -117,7 +120,7 @@ Wir suchen Peer-Mentorinnen für unser Jugendprogramm. Infos: [Link] #Jugendhilf
 
 ## Abschließender Gedanke
 
- Kurzformate sind **öffentlich und dauerhaft**. Bei sensiblen Themen: bei Zweifeln **Führungs- oder Kommunikationskraft** einbinden, bevor etwas live geht.
+Kurzformate sind **öffentlich und dauerhaft**. Bei sensiblen Themen: bei Zweifeln **Führungs- oder Kommunikationskraft** einbinden, bevor etwas live geht.
 
 ## Weiterführend
 

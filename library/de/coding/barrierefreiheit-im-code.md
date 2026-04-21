@@ -1,8 +1,11 @@
 # Barrierefreiheit im Code
 
-**Geltungsbereich:** Gilt für **Web-UI-Code** (HTML, CSS, JS/TS, React)—die technische Seite der Barrierefreiheit. Ergänzt [`barrierefreiheit-kommunikation.md`](../sprache-&-kommunikation/barrierefreiheit-kommunikation.md) (Texte, Bildbeschreibungen, Untertitel) und [`gute-interfaces-designen.md`](../design/gute-interfaces-designen.md).
+## Geltungsbereich:
+
+Gilt für **Web-UI-Code** (HTML, CSS, JS/TS, React)—die technische Seite der Barrierefreiheit. Ergänzt [`barrierefreiheit-kommunikation.md`](../sprache-&-kommunikation/barrierefreiheit-kommunikation.md) (Texte, Bildbeschreibungen, Untertitel) und [`gute-interfaces-designen.md`](../design/gute-interfaces-designen.md).
 
 ## Exzerpt
+
 - **Zuerst semantisches HTML.** Das Element wählen, das den Job schon erfüllt; ARIA nur, wenn kein natives Element passt.
 - **Tastaturzugang ist Pflicht.** Jedes interaktive Element ist mit `Tab` / `Shift+Tab` / `Enter` / `Leertaste` / Pfeiltasten (wo üblich) erreichbar, bedienbar und sichtbar fokussiert.
 - **Farbe ist nicht der einzige Hinweis.** Kontrast erfüllt WCAG AA; Zustandsänderungen nutzen auch Text, Icon oder Form.
@@ -122,6 +125,7 @@ Schnittstellen ausliefern, die **mit Tastatur, Screenreader, bei 200 % Zoom, bei
 ---
 
 ## Kerngedanke
+
 Eine barrierefreie UI ist kein separater Modus—sie ist der **einzige Modus**, von der ersten Komponente an geplant und gebaut. Wenn Tastatur- oder Screenreader-Nutzer:innen eine Aufgabe nicht erledigen können, ist das ein **Bug**, kein Feature-Request.
 
 ## Weiterführend

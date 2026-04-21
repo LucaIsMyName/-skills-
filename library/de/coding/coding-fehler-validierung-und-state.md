@@ -1,8 +1,11 @@
 # Coding Fehler, Validierung und State
 
-**Geltungsbereich:** Gilt für **Funktionsgröße, Reinheit, Fehlerbehandlung, Validierung und Datenfluss** in Anwendungscode. Nicht Logging-Runbooks, nicht API-Security-Design. Kombiniere mit [`coding-stil-und-struktur.md`](coding-stil-und-struktur.md), [`coding-tests-und-gewohnheiten.md`](coding-tests-und-gewohnheiten.md) und [`coding-best-practices.md`](coding-best-practices.md).
+## Geltungsbereich:
+
+Gilt für **Funktionsgröße, Reinheit, Fehlerbehandlung, Validierung und Datenfluss** in Anwendungscode. Nicht Logging-Runbooks, nicht API-Security-Design. Kombiniere mit [`coding-stil-und-struktur.md`](coding-stil-und-struktur.md), [`coding-tests-und-gewohnheiten.md`](coding-tests-und-gewohnheiten.md) und [`coding-best-practices.md`](coding-best-practices.md).
 
 ## Exzerpt
+
 - **Kleine Funktionen** mit testbaren Grenzen.
 - **Keine stillen Mutationen**—lieber explizite Ein-/Ausgaben.
 - **Keine verschluckten Fehler**—externe Daten an der Grenze prüfen.
@@ -38,7 +41,7 @@ Passt eine Funktion nicht auf einen Bildschirm → vermutlich zu groß.
 - schwer zu benennen
 - viel Scrollen
 
- In kleinere Teile zerlegen.
+In kleinere Teile zerlegen.
 
 ---
 
@@ -64,7 +67,7 @@ function addItem(cart, item) {
 }
 ```
 
- Reine Funktionen sind vorhersagbar und testbar.
+Reine Funktionen sind vorhersagbar und testbar.
 
 ---
 
@@ -93,7 +96,7 @@ try {
 }
 ```
 
- Stille Fehler = Debugging-Hölle.
+Stille Fehler = Debugging-Hölle.
 
 ---
 
@@ -120,7 +123,7 @@ function createUser(user) {
 }
 ```
 
- An Grenzen validieren.
+An Grenzen validieren.
 
 ---
 
@@ -130,12 +133,12 @@ function createUser(user) {
 
 Versteckten Zustand und magisches Verhalten vermeiden.
 
- Bevorzugen:
+Bevorzugen:
 
 - explizite Parameter
 - explizite Rückgaben
 
- Vermeiden:
+Vermeiden:
 
 - globale Variablen
 - versteckte Mutationen

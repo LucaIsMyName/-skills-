@@ -1,8 +1,11 @@
 # Interessenkonflikte und Offenlegung
 
-**Geltungsbereich:** **Transparenz**, wenn persönliche, finanzielle oder politische Interessen **Entscheidungen** in Kommunikation, Partnerschaften oder Governance beeinflussen könnten—**keine Rechtsberatung.** Ergänzt [`ki-offenlegung-und-richtlinien.md`](ki-offenlegung-und-richtlinien.md), [`kinder-und-betroffenenschutz.md`](kinder-und-betroffenenschutz.md) und euren **Code of Conduct**.
+## Geltungsbereich:
+
+**Transparenz**, wenn persönliche, finanzielle oder politische Interessen **Entscheidungen** in Kommunikation, Partnerschaften oder Governance beeinflussen könnten—**keine Rechtsberatung.** Ergänzt [`ki-offenlegung-und-richtlinien.md`](ki-offenlegung-und-richtlinien.md), [`kinder-und-betroffenenschutz.md`](kinder-und-betroffenenschutz.md) und euren **Code of Conduct**.
 
 ## Exzerpt
+
 - **Konflikte** sind normal; **nicht offengelegte** Konflikte zerstören **Vertrauen**.
 - **Früh** gegenüber Führung offenlegen—**bevor** Entscheidungen fest sind.
 - Bei fehlender **Unparteilichkeit** **nicht** mitentscheiden.
@@ -35,7 +38,7 @@
 
 ## 2. Comms
 
-- **Bezahlte** Inhalte für Leser*innen **offensichtlich** kennzeichnen.
+- **Bezahlte** Inhalte für Leser\*innen **offensichtlich** kennzeichnen.
 
 ## 3. Was nicht tun
 
@@ -44,6 +47,7 @@
 ---
 
 ## Kerngedanke
+
 **Transparenz** ist Standard: **offenlegen**, **nicht mitentscheiden**, **dokumentieren**, wenn Interessen **Entscheidungen** drücken könnten.
 
 ## Weiterführend

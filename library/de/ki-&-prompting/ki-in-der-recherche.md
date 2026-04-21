@@ -1,8 +1,11 @@
 # KI in der Recherche
 
-**Geltungsbereich:** Gilt für **Sprachmodelle in der Recherche**—Literaturscans, Interview-Zusammenfassungen, qualitative Kodierung, Umfrageentwürfe, Hypothesenbildung. Nicht Statistik (echte Tools), nicht peer-reviewed Methodik. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`rag-grundlagen.md`](rag-grundlagen.md), [`recherche-grundlagen.md`](../recherche-&-analyse/recherche-grundlagen.md), [`quellenbewertung-und-faktencheck.md`](../recherche-&-analyse/quellenbewertung-und-faktencheck.md), [`qualitative-codierung.md`](../recherche-&-analyse/qualitative-codierung.md) und [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
+## Geltungsbereich:
+
+Gilt für **Sprachmodelle in der Recherche**—Literaturscans, Interview-Zusammenfassungen, qualitative Kodierung, Umfrageentwürfe, Hypothesenbildung. Nicht Statistik (echte Tools), nicht peer-reviewed Methodik. Kombiniere mit [`prompten-grundlagen.md`](prompten-grundlagen.md), [`rag-grundlagen.md`](rag-grundlagen.md), [`recherche-grundlagen.md`](../recherche-&-analyse/recherche-grundlagen.md), [`quellenbewertung-und-faktencheck.md`](../recherche-&-analyse/quellenbewertung-und-faktencheck.md), [`qualitative-codierung.md`](../recherche-&-analyse/qualitative-codierung.md) und [`modelloutput-bewerten.md`](modelloutput-bewerten.md).
 
 ## Exzerpt
+
 - **KI hilft beim Denken; sie weiß nichts**. Output = **Hypothese**, nicht Befund.
 - **Grundieren** mit deinen Quellen—nie aus dem Gedächtnis.
 - **Zitieren** jede Aussage aus einer von dir gelesenen Quelle.
@@ -41,7 +44,7 @@ Rechercheaufgaben **beschleunigen**—mit Quellen, prüfbar, reproduzierbar.
 - **Kritik** an Entwürfen (Lücken, Unschärfen).
 - **Übersetzungen** roher Notizen (Muttersprachler-Review).
 
-## 2. Wofür *nicht*
+## 2. Wofür _nicht_
 
 - **Zitate** aus dem Gedächtnis—oft selbstsicher erfunden.
 - **Statistiken** jenseits des Zählens gelieferter Inputs.
@@ -155,9 +158,11 @@ Map-Outputs aufbewahren—das ist der **Prüfpfad**.
 ---
 
 ## Kerngedanke
+
 KI ist ein **schnelles, wortgewandtes Praktikum in der Bibliothek**: sie summiert, was du ihr zeigst, und schlägt Muster vor. Sie weiß nichts. Jede Aussage braucht eine geprüfte Quelle.
 
 ## Weiterführend
+
 - [Elicit](https://elicit.com/)
 - [Cochrane Handbook](https://training.cochrane.org/handbook)
 - [UK Statistics Authority — Code of Practice](https://code.statisticsauthority.gov.uk/)

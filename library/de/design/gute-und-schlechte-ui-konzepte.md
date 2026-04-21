@@ -1,8 +1,11 @@
 # Gute und schlechte UI-Konzepte (ASCII-Muster)
 
-**Geltungsbereich:** Schnelle **visuelle und räumliche Muster**, die unterstützende UI von verwirrender UI unterscheiden—hilfreich für Übergaben, Reviews und für Werkzeuge, die **literale Skizzen** von Design-Intention brauchen. Ergänzt [`gute-interfaces-designen.md`](gute-interfaces-designen.md), [`design-basics.md`](design-basics.md) und [`formulare-und-eingaben-ux.md`](formulare-und-eingaben-ux.md).
+## Geltungsbereich:
+
+Schnelle **visuelle und räumliche Muster**, die unterstützende UI von verwirrender UI unterscheiden—hilfreich für Übergaben, Reviews und für Werkzeuge, die **literale Skizzen** von Design-Intention brauchen. Ergänzt [`gute-interfaces-designen.md`](gute-interfaces-designen.md), [`design-basics.md`](design-basics.md) und [`formulare-und-eingaben-ux.md`](formulare-und-eingaben-ux.md).
 
 ## Exzerpt
+
 - **Eine primäre Aktion pro Bildschirm.** Happy Path offensichtlich machen; destruktive Alternativen zurückstufen oder ausblenden.
 - **Hierarchie schlägt Dekoration.** Titel → Kurzfassung → Detail; nicht drei konkurrierende „Hero“-Blöcke.
 - **Weißraum ist Struktur.** Abstand gruppiert Zusammengehöriges; Gedrängtheit suggeriert Beziehungen, die es nicht gibt.
