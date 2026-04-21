@@ -6,9 +6,7 @@ Ein persönliches Monorepo aus Markdown-Referenzdokumenten—Workflows, Standard
 
 ## Was das hier ist
 
-Dieses Repository bündelt das, was dir wichtig ist: Schreibstil, Coding-Konventionen, Designvorlieben, Kommunikationsnormen und mehr. **Menschen** können alles direkt in Git lesen—Onboarding, Übergaben, Runbooks oder eine schnelle Auffrischung. **Sprachmodelle** können dieselben Dateien nutzen, wenn du sie einfügst, an einen Chat anhängst oder in eine Projekt-Library oder einen RAG-Index lädst.
-
-Jede Datei ist ein in sich geschlossenes Thema: für Menschen verständlich nachvollziehbar, für Modelle so strukturiert, dass sie die Vorgaben konsistent anwenden können.
+Dieses Verzeichniss bündelt das, was dir wichtig ist: Schreibstil, Coding-Konventionen, Designvorlieben, Kommunikationsnormen und mehr. **Menschen** können alles direkt in Git lesen—Onboarding, Übergaben, Runbooks oder eine schnelle Auffrischung. **Sprachmodelle** können dieselben Dateien nutzen, wenn du sie einfügst, an einen Chat anhängst oder in eine Projekt-Library oder einen RAG-Index lädst.
 
 ---
 

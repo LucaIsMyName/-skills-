@@ -1,4 +1,4 @@
-# Web-Inhalte und Findbarkeit
+# Web-Inhalte und SEO 101
 
 ## Geltungsbereich:
 

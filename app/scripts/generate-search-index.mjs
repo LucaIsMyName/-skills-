@@ -1,5 +1,5 @@
 /**
- * Build-time: walks repo `library/<lang>/<chapter>/<file>.md`, emits
+ * Build-time: walks repo `packages/libraries/<lang>/<chapter>/<file>.md`, emits
  * `public/search-index.json` for client-side search (titles + ##/### headings).
  */
 import fs from "node:fs/promises";
@@ -8,7 +8,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const appDir = path.resolve(__dirname, "..");
-const libraryRoot = path.resolve(appDir, "../library");
+const libraryRoot = path.resolve(appDir, "../packages/libraries");
 const outFile = path.join(appDir, "public", "search-index.json");
 
 function firstMarkdownTitle(md) {
@@ -76,7 +76,7 @@ async function main() {
     const slug = file.replace(/\.md$/i, "");
     if (!slug) continue;
 
-    const repoPath = `library/${rel}`;
+    const repoPath = `packages/libraries/${rel}`;
     const raw = await fs.readFile(abs, "utf8");
     const title = firstMarkdownTitle(raw) ?? humanizeSlug(slug);
     const headings = extractH2H3(raw);

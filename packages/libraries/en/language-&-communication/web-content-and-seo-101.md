@@ -1,4 +1,4 @@
-# Nonprofit web content
+# Web-Content & SEO 101
 
 ## Scope:
 

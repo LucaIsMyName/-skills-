@@ -1,6 +1,6 @@
 # Skills library (web)
 
-Browse [`library/`](https://github.com/LucaIsMyName/-skills-/tree/main/library) from the browser: GitHub API for the file tree, `raw.githubusercontent.com` for Markdown bodies.
+Browse [`packages/libraries/`](https://github.com/LucaIsMyName/-skills-/tree/main/packages/libraries) from the browser: GitHub API for the file tree, `raw.githubusercontent.com` for Markdown bodies.
 
 The app is designed to stay in a free-tier operating mode: public GitHub endpoints, client-side caching, and bounded request concurrency.
 

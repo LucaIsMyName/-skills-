@@ -4,7 +4,7 @@ export type ExplainerMeta = {
   lang: string;
   chapter: string;
   slug: string;
-  /** Path under repo, e.g. library/en/coding/foo.md */
+  /** Path under repo, e.g. packages/libraries/en/coding/foo.md */
   path: string;
 };
 
@@ -16,7 +16,7 @@ export type LangIndex = {
   byChapter: Record<string, ExplainerMeta[]>;
 };
 
-const LIB_PREFIX = "library/";
+const LIB_PREFIX = "packages/libraries/";
 const DEFAULT_RETRY_ATTEMPTS = 3;
 
 function sleep(ms: number): Promise<void> {
@@ -114,7 +114,7 @@ async function fetchWithRetry(
   throw new Error(userFacingGithubError(status, target));
 }
 
-/** Single tree request — filters to markdown files under library/lang/chapter/ */
+/** Single tree request — filters to markdown files under packages/libraries/lang/chapter/ */
 export async function fetchLibraryIndexes(
   signal?: AbortSignal,
 ): Promise<Map<string, LangIndex>> {
