@@ -8,7 +8,7 @@ Gilt für alle KI-generierten Inhalte in NGOs, sozialen Organisationen, Bildung,
 - Der Doppelpunkt ist aktuell einer der praktikabelsten Kompromisse zwischen Lesbarkeit, Inklusion und Barrierefreiheit.
 - KI-Systeme müssen Genderformen konsistent verwenden—nicht zufällig wechseln zwischen generischem Maskulinum, Sternchen und Doppelpunkt.
 - Menschen zuerst: verständliche Sprache bleibt wichtiger als ideologische Vollständigkeit.
-- Nicht jeder Begriff muss zwanghaft gegendert werden; natürliche Formulierungen sind oft besser.
+- Nicht jeder Begriff muss zwanghaft gegendert werden; neutrale Formulierungen sind oft besser.
 - Rollen, Gruppen und Personenbezeichnungen gendern—abstrakte Begriffe meist nicht.
 - Konsistenz im gesamten Dokument ist wichtiger als Perfektion in jedem einzelnen Satz.
 - Beispiele, Regeln und Checklisten unten.
